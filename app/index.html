@@ -1,7 +1,7 @@
 <title>TabFriendly</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=IBM+Plex+Mono:wght@500;600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=IBM+Plex+Mono:wght@500;600&family=Instrument+Sans:wght@400;500;600;700&display=swap">
 <style>
 /* Leaflet 1.9.4 base styles (inlined: the artifact CSP blocks external stylesheets) */
 .leaflet-image-layer,.leaflet-layer,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-pane,.leaflet-pane>canvas,.leaflet-pane>svg,.leaflet-tile,.leaflet-tile-container,.leaflet-zoom-box{position:absolute;left:0;top:0}.leaflet-container{overflow:hidden}.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;user-select:none;display:block}.leaflet-container .leaflet-overlay-pane svg{max-width:none!important;max-height:none!important}.leaflet-container.leaflet-touch-zoom{touch-action:pan-x pan-y}.leaflet-container.leaflet-touch-drag{touch-action:none;touch-action:pinch-zoom}.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{touch-action:none}.leaflet-container{-webkit-tap-highlight-color:transparent}.leaflet-zoom-box{width:0;height:0;box-sizing:border-box;z-index:800}.leaflet-pane{z-index:400}.leaflet-overlay-pane{z-index:400}.leaflet-marker-pane{z-index:600}.leaflet-tooltip-pane{z-index:650}.leaflet-popup-pane{z-index:700}.leaflet-map-pane canvas{z-index:100}.leaflet-map-pane svg{z-index:200}.leaflet-control{position:relative;z-index:800;pointer-events:auto;float:left;clear:both}.leaflet-bottom,.leaflet-top{position:absolute;z-index:1000;pointer-events:none}.leaflet-top{top:0}.leaflet-right{right:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}.leaflet-right .leaflet-control{float:right}.leaflet-top .leaflet-control{margin-top:10px}.leaflet-bottom .leaflet-control{margin-bottom:10px}.leaflet-left .leaflet-control{margin-left:10px}.leaflet-right .leaflet-control{margin-right:10px}.leaflet-zoom-animated{transform-origin:0 0}svg.leaflet-zoom-animated{will-change:transform}.leaflet-zoom-anim .leaflet-zoom-animated{transition:transform .25s cubic-bezier(0,0,.25,1)}.leaflet-zoom-anim .leaflet-zoom-hide{visibility:hidden}.leaflet-interactive{cursor:pointer}.leaflet-grab{cursor:grab}.leaflet-crosshair,.leaflet-crosshair .leaflet-interactive{cursor:crosshair}.leaflet-control{cursor:auto}.leaflet-dragging .leaflet-grab,.leaflet-dragging .leaflet-grab .leaflet-interactive{cursor:grabbing}.leaflet-image-layer,.leaflet-marker-icon,.leaflet-pane>svg path{pointer-events:none}.leaflet-marker-icon.leaflet-interactive,.leaflet-pane>svg path.leaflet-interactive{pointer-events:auto}.leaflet-bar a{display:block;text-align:center;text-decoration:none}.leaflet-control-zoom-in,.leaflet-control-zoom-out{font:600 20px/1 var(--f-body);text-indent:0}.leaflet-control-attribution{padding:0 6px;line-height:1.5}
@@ -15,10 +15,9 @@
   --line: #dde2e7;
   --tag: #f2b233;          /* amber price tag: the one bold color */
   --tag-ink: #1b1710;
-  --sign: #1b1710;         /* the bar-sign logo plate; dark in both themes */
-  --sign-text: #ffffff;
-  --mit: #a31f34;           /* MIT cardinal red */
-  --sign-edge: transparent;
+  --mit: #a31f34;           /* MIT cardinal red: logo badge */
+  --mit-text: #a31f34;      /* cardinal for type; lightened in dark mode for contrast */
+  --mit-silver: #8a8b8c;    /* MIT silver gray */
   --tag-dim: #c9ced4;
   --tag-dim-ink: #3f4752;
   --best: #1f8a4c;         /* three cheapest */
@@ -43,7 +42,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #101317; --surface: #181d23; --fg: #e8ebee; --muted: #9aa4af; --line: #2a3139;
-    --tag: #f2b233; --tag-ink: #1b1710; --sign: #1b1710; --sign-text: #ffffff; --mit: #a31f34; --sign-edge: #4a4130;
+    --tag: #f2b233; --tag-ink: #1b1710; --mit: #a31f34; --mit-text: #e8687b; --mit-silver: #a5a6a7;
     --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3; --best: #3fb06f; --best-ink: #0b1a10;
     --link: #8cc0ee; --ok: #6cc28f; --danger: #ef7d74;
     --land: #171b20; --road: #262c34; --road-mid: #2f343b; --road-major: #4a4130; --water: #13324a;
@@ -54,7 +53,7 @@
 }
 :root[data-theme="dark"] {
   --bg: #101317; --surface: #181d23; --fg: #e8ebee; --muted: #9aa4af; --line: #2a3139;
-  --tag: #f2b233; --tag-ink: #1b1710; --sign: #1b1710; --sign-text: #ffffff; --mit: #a31f34; --sign-edge: #4a4130;
+  --tag: #f2b233; --tag-ink: #1b1710; --mit: #a31f34; --mit-text: #e8687b; --mit-silver: #a5a6a7;
   --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3; --best: #3fb06f; --best-ink: #0b1a10;
   --link: #8cc0ee; --ok: #6cc28f; --danger: #ef7d74;
   --land: #171b20; --road: #262c34; --road-mid: #2f343b; --road-major: #4a4130; --water: #13324a;
@@ -81,21 +80,15 @@ a { color: var(--link); }
   padding: 8px 16px; background: var(--surface); border-bottom: 1px solid var(--line); position: relative; z-index: 1100;
 }
 .brand { display: flex; align-items: center; gap: 12px; min-width: 0; margin-right: auto; }
-.brand p { margin: 0; color: var(--muted); font-size: 13px; }
+.brand p { margin: 0; color: var(--mit-silver); font-size: 13px; padding-left: 12px; border-left: 1px solid var(--mit-silver); }
 
-/* logo: a bar-sign plate with a pint glass breaking out of its left edge */
-.sign {
-  display: inline-flex; align-items: center; gap: 2px; margin: 0;
-  background: var(--sign); border: 1px solid var(--sign-edge); border-radius: 8px;
-  padding: 3px 12px 3px 4px; position: relative; white-space: nowrap;
-  font: 900 26px/1 var(--f-display); letter-spacing: .02em; text-transform: uppercase;
-  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--tag) 35%, transparent);
-}
-.sign svg { width: 38px; height: 38px; margin: -9px 2px -7px -2px; filter: drop-shadow(0 1px 0 rgba(0,0,0,.25)); }
-.sign .t1 { color: var(--sign-text); background: var(--mit); padding: 3px 6px 2px; border-radius: 4px; margin-right: 5px; line-height: .9; }
-.sign .t2 { color: var(--tag); }
-.sign.big { font-size: 46px; padding: 6px 18px 6px 8px; border-radius: 12px; }
-.sign.big svg { width: 64px; height: 64px; margin: -14px 4px -10px -4px; }
+/* logo: cardinal badge holding a white mug whose bubbles are MIT-style vertical bars; wordmark in black + cardinal */
+.logo { display: inline-flex; align-items: center; gap: 9px; margin: 0; white-space: nowrap; font: 700 23px/1 var(--f-body); letter-spacing: -.025em; }
+.logo svg { width: 34px; height: 34px; flex: none; }
+.logo .w1 { color: var(--fg); }
+.logo .w2 { color: var(--mit-text); }
+.logo.big { font-size: 44px; gap: 14px; }
+.logo.big svg { width: 62px; height: 62px; }
 
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
@@ -114,8 +107,8 @@ a { color: var(--link); }
 
 @media (max-width: 560px) {
   .brand p { display: none; }
-  .sign { font-size: 22px; }
-  .sign svg { width: 32px; height: 32px; }
+  .logo { font-size: 21px; }
+  .logo svg { width: 30px; height: 30px; }
   .add-long { display: none; }
 }
 
@@ -291,10 +284,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
     <symbol id="i-pint" viewBox="0 0 40 40">
-      <path d="M9 13h18l-1.6 19.2a3 3 0 0 1-3 2.8h-8.8a3 3 0 0 1-3-2.8z" fill="#f2b233" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
-      <path d="M26.6 17h3.6a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-4.4" fill="none" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
-      <path d="M8 13.4c-.6-3 1.8-5.6 4.8-5 1-2.6 4.2-3.8 6.6-2.3 2.3-1.6 5.6-.9 6.8 1.7 2.6-.1 4.4 2.4 3.6 5.2H8z" fill="#ffffff" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
-      <path d="M14 18.5l.8 11M20.5 18.5l-.4 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      <rect width="40" height="40" rx="9" fill="#a31f34"/>
+      <path d="M26 18.2h2.6a3.2 3.2 0 0 1 3.2 3.2v3.4a3.2 3.2 0 0 1-3.2 3.2H26" fill="none" stroke="#ffffff" stroke-width="2.6"/>
+      <path d="M10.5 15.5h16v15a2.5 2.5 0 0 1-2.5 2.5h-11a2.5 2.5 0 0 1-2.5-2.5z" fill="#ffffff"/>
+      <path d="M9.6 16.4c-.5-2.6 1.6-4.6 4-4.2.9-2.2 3.6-3 5.5-1.8 1.9-1.3 4.6-.7 5.6 1.4 2.2 0 3.7 2 3 4.6z" fill="#ffffff"/>
+      <path d="M14.6 19.5v9.5M18.5 22v7M22.4 19.5v9.5" stroke="#a31f34" stroke-width="2.4" stroke-linecap="butt"/>
     </symbol>
     <symbol id="i-up" viewBox="0 0 24 24"><path d="M7 10.5V20H4v-9.5h3zm2 9.5h7.6a2 2 0 0 0 2-1.6l1.3-6.2a2 2 0 0 0-2-2.4H14l.8-3.6a1.8 1.8 0 0 0-1.8-2.2L9 10.5V20z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
     <symbol id="i-cam" viewBox="0 0 24 24"><path d="M4 8h3l1.6-2.4h6.8L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
@@ -304,7 +298,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 <div id="app">
   <header class="bar">
     <div class="brand">
-      <h1 class="sign" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span class="t1">Tab</span><span class="t2">Friendly</span></h1>
+      <h1 class="logo" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span><span class="w1">Tab</span><span class="w2">Friendly</span></span></h1>
       <p>Cheapest drinks within 1 mile of 77 Mass Ave</p>
     </div>
     <button class="btn" id="addVenueBtn" type="button"><span>+ Add<span class="add-long"> a</span> venue</span></button>
@@ -342,7 +336,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   <div class="toast" id="toast" role="status" hidden></div>
   <div class="gate" id="gate" hidden>
     <div class="gate-card">
-      <div class="sign big" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span class="t1">Tab</span><span class="t2">Friendly</span></div>
+      <div class="logo big" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span><span class="w1">Tab</span><span class="w2">Friendly</span></span></div>
       <p>This map lists drink prices at bars and restaurants. Are you 21 or older?</p>
       <div class="btns">
         <button class="btn primary" type="button" id="gateYes">Yes, I'm 21+</button>
