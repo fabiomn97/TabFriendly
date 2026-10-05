@@ -1,0 +1,14 @@
+{
+ "venueId": "v-730-tavern-kitchen-patio",
+ "kind": "beer",
+ "drink": "Coors Light (bottle)",
+ "price": 6.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://730tavern.com/cambridge-central-square-730-tavern-kitchen-and-patio-drink-menu",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

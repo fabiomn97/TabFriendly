@@ -1,0 +1,14 @@
+{
+ "venueId": "v-row-34-kenmore-square",
+ "kind": "beer",
+ "drink": "Fox Farm Rove Saison (draft)",
+ "price": 10.0,
+ "oz": 8,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/H7IcpyVJRa5qCkaNGHM5_KENMORE_BEV_10_02_26.pdf",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

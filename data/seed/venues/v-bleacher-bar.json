@@ -1,0 +1,12 @@
+{
+ "name": "Bleacher Bar",
+ "type": "bar",
+ "address": "82A Lansdowne St, Boston, MA 02215",
+ "lat": 42.347,
+ "lng": -71.0967,
+ "website": "https://www.bleacherbarboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

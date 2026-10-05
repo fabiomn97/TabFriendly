@@ -1,0 +1,14 @@
+{
+ "venueId": "v-earls-kitchen-bar-prudential",
+ "kind": "beer",
+ "drink": "Miller High Life (bottle)",
+ "price": 7.75,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://earls.ca/locations/prudential/menu/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

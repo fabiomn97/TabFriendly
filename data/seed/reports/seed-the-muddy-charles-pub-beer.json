@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-muddy-charles-pub",
+ "kind": "beer",
+ "drink": "Draft beer (cup)",
+ "price": 2.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.corner.inc/place/145783",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

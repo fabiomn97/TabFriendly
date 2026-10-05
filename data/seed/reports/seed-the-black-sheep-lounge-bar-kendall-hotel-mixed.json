@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-black-sheep-lounge-bar-kendall-hotel",
+ "kind": "mixed",
+ "drink": "Spanish Gin & Tonic",
+ "price": 16.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.opentable.com/r/the-black-sheep-lounge-and-bar-at-the-kendall-hotel-cambridge",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

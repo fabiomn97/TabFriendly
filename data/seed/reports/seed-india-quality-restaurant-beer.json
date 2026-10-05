@@ -1,0 +1,14 @@
+{
+ "venueId": "v-india-quality-restaurant",
+ "kind": "beer",
+ "drink": "Heineken / Corona / Harpoon IPA / Singha (regular bottle)",
+ "price": 5.95,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://indiaquality.com/drink-menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

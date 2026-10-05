@@ -1,0 +1,12 @@
+{
+ "name": "Glass House",
+ "type": "restaurant",
+ "address": "450 Kendall St, Cambridge, MA 02142",
+ "lat": 42.364,
+ "lng": -71.0815,
+ "website": "https://www.glasshousecambridge.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

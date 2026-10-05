@@ -1,0 +1,14 @@
+{
+ "venueId": "v-koreana",
+ "kind": "mixed",
+ "drink": "Soju cocktail (e.g., Soju Martini / Green Boston)",
+ "price": 12.5,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://koreanaboston.com/menu/drinks/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

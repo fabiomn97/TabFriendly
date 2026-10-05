@@ -1,0 +1,12 @@
+{
+ "name": "The Lansdowne Pub",
+ "type": "bar",
+ "address": "9 Lansdowne St, Boston, MA 02215",
+ "lat": 42.3473,
+ "lng": -71.0952,
+ "website": "https://www.lansdownepubboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "The Bebop",
+ "type": "bar",
+ "address": "1116 Boylston St, Boston, MA 02215",
+ "lat": 42.3467,
+ "lng": -71.0887,
+ "website": "https://www.thebebopboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

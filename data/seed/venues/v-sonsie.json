@@ -1,0 +1,12 @@
+{
+ "name": "Sonsie",
+ "type": "restaurant",
+ "address": "327 Newbury St, Boston, MA 02115",
+ "lat": 42.3486,
+ "lng": -71.0858,
+ "website": "https://www.sonsieboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

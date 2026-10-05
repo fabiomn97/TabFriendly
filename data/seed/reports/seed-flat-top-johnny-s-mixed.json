@@ -1,0 +1,14 @@
+{
+ "venueId": "v-flat-top-johnny-s",
+ "kind": "mixed",
+ "drink": "Paddy Tea (Paddy Beesting whiskey & iced tea)",
+ "price": 7.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://www.flattopjohnnys.com/drink",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

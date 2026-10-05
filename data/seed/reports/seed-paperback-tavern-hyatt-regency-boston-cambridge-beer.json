@@ -1,0 +1,14 @@
+{
+ "venueId": "v-paperback-tavern-hyatt-regency-boston-cambridge",
+ "kind": "beer",
+ "drink": "Domestic beer (e.g., Bud Light, Miller Lite, Sam Adams Lager)",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.paperbacktavern.com/",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

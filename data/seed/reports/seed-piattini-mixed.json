@@ -1,0 +1,14 @@
+{
+ "venueId": "v-piattini",
+ "kind": "mixed",
+ "drink": "Signature cocktails (e.g. Piattini Lemonade, Passionfruit Margarita)",
+ "price": 17.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.piattini.com/menu/drinks/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

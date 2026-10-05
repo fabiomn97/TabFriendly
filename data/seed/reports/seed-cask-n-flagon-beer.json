@@ -1,0 +1,14 @@
+{
+ "venueId": "v-cask-n-flagon",
+ "kind": "beer",
+ "drink": "Budweiser / Bud Light / Coors Light / Miller Lite (bottle)",
+ "price": 7.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://casknflagon.com/wp-content/uploads/2025/07/2025-Cocktail-Menu.pdf",
+ "sourceDate": "2025-07",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

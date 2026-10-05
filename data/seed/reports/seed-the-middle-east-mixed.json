@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-middle-east",
+ "kind": "mixed",
+ "drink": "Well drink",
+ "price": 7.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.tripadvisor.com/ShowUserReviews-g60890-d553535-r662567462-The_Middle_East_Restaurant_and_Nightclub-Cambridge_Massachusetts.html",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

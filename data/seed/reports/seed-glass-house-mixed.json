@@ -1,0 +1,14 @@
+{
+ "venueId": "v-glass-house",
+ "kind": "mixed",
+ "drink": "Farmers Market Mule (Tito's, strawberry, ginger beer, mint)",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.glasshousecambridge.com/menus/",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

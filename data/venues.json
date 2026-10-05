@@ -1,0 +1,1343 @@
+[
+ {
+  "name": "The Muddy Charles Pub",
+  "type": "bar",
+  "address": "142 Memorial Dr (Walker Memorial, Bldg 50), Cambridge, MA 02139",
+  "lat": 42.3595,
+  "lng": -71.088,
+  "website": "https://muddy.mit.edu",
+  "beer": {
+   "name": "Draft beer (cup)",
+   "price": 2,
+   "oz": null,
+   "source": "https://www.corner.inc/place/145783",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "notes": "MIT-affiliates only (MIT ID + 21+ gov ID; guests must be accompanied), cash only. Official site lists hours (Mon-Thu 3:30-9:30, Fri 12:30-9:30) but no prices. The $2 cup / $8 pitcher figure comes from third-party listings and reviews and is undated, so verify it. Beer and wine only, no mixed drinks.",
+  "area": "Kendall",
+  "venue_note": "MIT ID required (affiliates and their guests). Cash only."
+ },
+ {
+  "name": "Thirsty Ear Pub",
+  "type": "bar",
+  "address": "Ashdown House (NW35), 235 Albany St, Cambridge, MA 02139",
+  "lat": 42.36,
+  "lng": -71.098,
+  "website": "https://thirsty-ear.mit.edu/",
+  "beer": null,
+  "mixed": null,
+  "notes": "Student-run grad pub, open Tue and Thu 7-10pm per official site. MIT-affiliates and accompanied guests only. No published prices; reviews only say beer is very cheap. An older Yelp listing is marked closed, but the official site and a June 2025 Ashdown document show it operating.",
+  "area": "Kendall",
+  "venue_note": "MIT ID required (affiliates and their guests)."
+ },
+ {
+  "name": "State Park",
+  "type": "bar",
+  "address": "1 Kendall Sq, Bldg 300 (lower level), Cambridge, MA 02139",
+  "lat": 42.3667,
+  "lng": -71.0912,
+  "website": "https://stateparkbar.com",
+  "beer": {
+   "name": "Narragansett Lager (shorty draft)",
+   "price": 2,
+   "oz": null,
+   "source": "http://places.singleplatform.com/state-park/menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Daiquiri",
+   "price": 9,
+   "source": "http://places.singleplatform.com/state-park/menu",
+   "source_date": "unknown"
+  },
+  "notes": "The SinglePlatform menu is undated and may be stale. The same menu lists a Narragansett pint at $4 and a Genny Cream can at $3. An older AllMenus copy shows a Genny Cream at $3.50 and Campari & OJ at $7, so prices have moved over time. The current Toast menu is blocked by bot protection. A Cambridge Day review from Oct 2025 confirms it is open.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Flat Top Johnny's",
+  "type": "bar",
+  "address": "238 Main St, Cambridge, MA 02142",
+  "lat": 42.3622,
+  "lng": -71.0882,
+  "website": "http://www.flattopjohnnys.com",
+  "beer": {
+   "name": "Pabst Blue Ribbon (can/bottle)",
+   "price": 3,
+   "oz": null,
+   "source": "http://www.flattopjohnnys.com/drink",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Paddy Tea (Paddy Beesting whiskey & iced tea)",
+   "price": 7,
+   "source": "http://www.flattopjohnnys.com/drink",
+   "source_date": "unknown"
+  },
+  "notes": "Pool hall; reopened at 238 Main St in Jan 2024, so the menu dates from 2024 or later. Narragansett and Coors Light are also $3. Container size not stated. Same street address as Alice & Monarch (MIT building), so confirm both are still operating; the Yelp listing for 238 Main was not marked closed as of Aug 2026.",
+  "area": "Kendall"
+ },
+ {
+  "name": "The Bar at Eastern Edge (Eastern Edge Food Hall)",
+  "type": "bar",
+  "address": "290 Main St, Cambridge, MA 02142",
+  "lat": 42.3624,
+  "lng": -71.0875,
+  "website": "https://www.easternedgefoodhall.com",
+  "beer": {
+   "name": "Modelo / Miller High Life / Amstel Light / Michelob Ultra (package)",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.easternedgefoodhall.com/s/MIT_EE_Bar-Menu_Web-Version.pdf",
+   "source_date": "2026-06"
+  },
+  "mixed": {
+   "name": "Yuzu and Black Tea Highball (Gorae soju)",
+   "price": 13,
+   "source": "https://www.easternedgefoodhall.com/s/MIT_EE_Bar-Menu_Web-Version.pdf",
+   "source_date": "2026-06"
+  },
+  "notes": "Food hall opened Feb 13, 2026; accepts MIT TechCASH. The menu labels packaged beer as 12oz. The cheapest highball is soju-based; the cheapest drink with vodka or gin is the Charles River Spritz at $14. An Aperol Spritz is $13 but is wine-based. A Sun Cruiser vodka iced tea can is $7 (ready-to-drink). Bacaro Cafe & Bar, a second bar inside, is not covered separately.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Shy Bird Kendall Square",
+  "type": "restaurant",
+  "address": "390 Third St, Cambridge, MA 02142",
+  "lat": 42.366,
+  "lng": -71.083,
+  "website": "https://www.shybird.com",
+  "beer": {
+   "name": "Modelo Especial (bottle/can)",
+   "price": 6,
+   "oz": null,
+   "source": "https://media-cdn.getbento.com/accounts/f27f750a2ca06a82a2d1d3bf42867187/media/IEddQMS6RQeNj3toGa7A_SBK%20Beverage%20Menu%202026.pdf",
+   "source_date": "2026-06"
+  },
+  "mixed": {
+   "name": "Shy Lady (gin, hibiscus, lime, tonic)",
+   "price": 15,
+   "source": "https://media-cdn.getbento.com/accounts/f27f750a2ca06a82a2d1d3bf42867187/media/IEddQMS6RQeNj3toGa7A_SBK%20Beverage%20Menu%202026.pdf",
+   "source_date": "2026-06"
+  },
+  "notes": "Source is the 2026 beverage menu PDF (summer 2026). In the PDF text, prices and drink names did not line up one-to-one, so the cocktail price is inferred. Spirit cocktails appear to start at $15; the one $14 item looks like the Sangria Spritz, which is wine-based. Cheapest draft is $9. The '$3.50 small beer' is a Shy Hour (happy hour) price and is excluded.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Row 34 Cambridge",
+  "type": "restaurant",
+  "address": "314 Main St, Cambridge, MA 02142",
+  "lat": 42.3624,
+  "lng": -71.0868,
+  "website": "https://www.row34.com/location/row34-cambridge/",
+  "beer": {
+   "name": "Stoneface American Porter (draft)",
+   "price": 10,
+   "oz": 16,
+   "source": "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/6kTIV6yMQC2PxRCxZ2GP_CAMB_Cocktails_8_21_26.pdf",
+   "source_date": "2026-08"
+  },
+  "mixed": {
+   "name": "Tropical Fizz (St. George citrus vodka, pineapple, coconut, soda)",
+   "price": 14,
+   "source": "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/6kTIV6yMQC2PxRCxZ2GP_CAMB_Cocktails_8_21_26.pdf",
+   "source_date": "2026-08"
+  },
+  "notes": "Menu dated 8/21/26. Prices were matched to items by position in the PDF text; the cheapest draft is $10 and the cheapest cocktail $14. A separate happy hour menu exists and was excluded.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Legal Sea Foods - Kendall Square",
+  "type": "restaurant",
+  "address": "355 Main St (5 Cambridge Center), Cambridge, MA 02142",
+  "lat": 42.3627,
+  "lng": -71.0855,
+  "website": "https://www.legalseafoods.com/locations/cambridge-kendall-square/",
+  "beer": {
+   "name": "Budweiser / Bud Light (bottle)",
+   "price": 7.5,
+   "oz": 12,
+   "source": "https://www.legalseafoods.com/wp-content/uploads/2026/06/Bev-Menu-Kendall-June26.pdf",
+   "source_date": "2026-06"
+  },
+  "mixed": {
+   "name": "Cranberry Coast Cosmo (also Bourbon Peach Tea Palmer, same price)",
+   "price": 12,
+   "source": "https://www.legalseafoods.com/wp-content/uploads/2026/06/Bev-Menu-Kendall-June26.pdf",
+   "source_date": "2026-06"
+  },
+  "notes": "Kendall-specific beverage menu, June 2026. Coors Light is also $7.50. The cheapest draft is Michelob Ultra at $8 for 16oz. 12oz is assumed for a standard bottle. Happy hour runs 2-6 daily and was excluded.",
+  "area": "Kendall"
+ },
+ {
+  "name": "The Black Sheep Lounge & Bar (Kendall Hotel)",
+  "type": "bar",
+  "address": "350 Main St, Cambridge, MA 02142",
+  "lat": 42.3625,
+  "lng": -71.086,
+  "website": "https://www.kendallhotel.com/dining/black-sheep/",
+  "beer": {
+   "name": "Miller High Life / Modelo Especial / Sam Adams Light",
+   "price": 9,
+   "oz": null,
+   "source": "https://www.opentable.com/r/the-black-sheep-lounge-and-bar-at-the-kendall-hotel-cambridge",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Spanish Gin & Tonic",
+   "price": 16,
+   "source": "https://www.opentable.com/r/the-black-sheep-lounge-and-bar-at-the-kendall-hotel-cambridge",
+   "source_date": "unknown"
+  },
+  "notes": "Prices come from the OpenTable menu listing via search snippet; the page itself timed out. The hotel site lists the same drinks without prices, and its beer list now shows Michelob Ultra instead of Sam Adams Light. Open Tue-Sat 4:30-9:30pm.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Element 50 (Boston Marriott Cambridge)",
+  "type": "bar",
+  "address": "50 Broadway (2 Cambridge Center), Cambridge, MA 02142",
+  "lat": 42.3631,
+  "lng": -71.0857,
+  "website": "https://www.marriott.com/en-us/hotels/boscb-boston-marriott-cambridge/dining/",
+  "beer": {
+   "name": "Budweiser / Bud Light / Coors Light / Michelob Ultra",
+   "price": 8,
+   "oz": null,
+   "source": "https://www.marriott.com/content/dam/marriott-digital/mc/us-canada/hws/b/boscb/en_us/document/assets/mc-boscb-element-50-menu-fall-18510.pdf",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "New England Mule (Absolut, Grand Marnier, maple walnut, ginger beer)",
+   "price": 20,
+   "source": "https://www.marriott.com/content/dam/marriott-digital/mc/us-canada/hws/b/boscb/en_us/document/assets/mc-boscb-element-50-menu-fall-18510.pdf",
+   "source_date": "unknown"
+  },
+  "notes": "Second-floor hotel speakeasy, open daily 5-11pm. The PDF is labeled 'fall' with no year; it is the menu currently linked from Marriott's dining page. An older Element 50 menu found via search listed cocktails at $18-19. Champions, the former sports bar in this hotel, is closed.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Theory Bar & Lounge (Residence Inn Boston Cambridge)",
+  "type": "bar",
+  "address": "120 Broadway, Cambridge, MA 02142",
+  "lat": 42.3632,
+  "lng": -71.084,
+  "website": "https://www.marriott.com/en-us/hotels/boscm-residence-inn-boston-cambridge/dining/theory-bar-lounge/",
+  "beer": null,
+  "mixed": null,
+  "notes": "Hotel bar with local craft beer and cocktails; Yelp listing updated May 2026. No published prices found (theoryloungebar.com is an unrelated NYC venue).",
+  "area": "Kendall"
+ },
+ {
+  "name": "Locke Bar & Restaurant",
+  "type": "bar",
+  "address": "6 Broad Canal Way, Cambridge, MA 02142",
+  "lat": 42.3632,
+  "lng": -71.0826,
+  "website": "https://thelockebar.com/",
+  "beer": null,
+  "mixed": null,
+  "notes": "Official drink menu lists beers (incl. 'Usual Suspects': Miller Lite, High Life, Gansett, Modelo, etc.) and cocktails (Kendall Lemonade, Paper Plane...) but prices only for straight spirits (cheapest Dewar's $9.50). No beer/cocktail prices found.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Alice & Monarch",
+  "type": "restaurant",
+  "address": "238 Main St, Cambridge, MA 02142",
+  "lat": 42.3621,
+  "lng": -71.0884,
+  "website": "https://aliceandmonarch.com/",
+  "beer": null,
+  "mixed": null,
+  "notes": "Opened May 8, 2026. Alice is an Italian taverna upstairs; Monarch is a dessert and cocktail speakeasy downstairs. Menu prices are not published in text, and the site blocks scripted fetches. A June 2026 Boston Globe review says wines by the glass are mostly under $10. Local draft beers are offered.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Sumiao Hunan Kitchen",
+  "type": "restaurant",
+  "address": "270 Third St, Cambridge, MA 02142",
+  "lat": 42.3637,
+  "lng": -71.0835,
+  "website": "https://www.sumiaohunan.com/",
+  "beer": {
+   "name": "Snow Beer (also Asahi Super Dry, same price)",
+   "price": 9,
+   "oz": null,
+   "source": "https://www.sumiaohunan.com/",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "Common Speech (blanco tequila, mandarin, earl grey, Italicus, lime)",
+   "price": 14,
+   "source": "https://www.sumiaohunan.com/",
+   "source_date": "2026-10"
+  },
+  "notes": "Live menu on the official site, read Oct 2026. Red Ruby (baijiu and rum) is also $14. Cheapest draft is Jack's Abby or Night Shift at $10. A July 2026 post marks its 9th anniversary, so it is open despite one stale 'closed' mention.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Fuji at Kendall",
+  "type": "restaurant",
+  "address": "300 Third St, Cambridge, MA 02142",
+  "lat": 42.3645,
+  "lng": -71.0833,
+  "website": "https://www.fujiatkendall.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Kendall Squared (vodka, lime, St. Elderflower, cucumber)",
+   "price": 13.5,
+   "source": "https://www.fujiatkendall.com/menu/signature-drinks/",
+   "source_date": "unknown"
+  },
+  "notes": "The cocktail price comes from a search snippet of the official signature-drinks page, which now returns 404, so it may be outdated. No beer prices found. Yelp listing updated Sep 2026, so it is open.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Glass House",
+  "type": "restaurant",
+  "address": "450 Kendall St, Cambridge, MA 02142",
+  "lat": 42.364,
+  "lng": -71.0815,
+  "website": "https://www.glasshousecambridge.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Farmers Market Mule (Tito's, strawberry, ginger beer, mint)",
+   "price": 15,
+   "source": "https://www.glasshousecambridge.com/menus/",
+   "source_date": "2026-10"
+  },
+  "notes": "Official menu lists drafts and cans (Bud Light, Michelob Ultra, Modelo, etc.) without prices. White Sangria is $14 but wine-based.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Area Four (Technology Square)",
+  "type": "restaurant",
+  "address": "500 Technology Sq, Cambridge, MA 02139",
+  "lat": 42.3634,
+  "lng": -71.0915,
+  "website": "https://www.areafour.com/location/area-four-kendall-square/",
+  "beer": null,
+  "mixed": {
+   "name": "Fear the Force (bourbon, Campari, Montenegro, lemon) / Passion Is the New Fashion (tequila)",
+   "price": 11,
+   "source": "https://www.areafour.com/menu/beverages-1/",
+   "source_date": "unknown"
+  },
+  "notes": "The cocktail page is undated and doesn't say which location it covers. The rotating beer list is on Untappd without prices; a search snippet mentioned Allagash White bottles at $8, but its source couldn't be confirmed. Open daily 11am-10pm.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Mamaleh's Delicatessen",
+  "type": "restaurant",
+  "address": "1 Kendall Sq, Cambridge, MA 02139",
+  "lat": 42.3666,
+  "lng": -71.0906,
+  "website": "https://mamalehs.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Bourbon Vanilla Milkshake (21+)",
+   "price": 16.5,
+   "source": "http://mamalehs.com/wp-content/uploads/2025/03/CAMBRIDGE_MENU.pdf",
+   "source_date": "2025-03"
+  },
+  "notes": "Deli open 8am-8pm. The March 2025 menu PDF lists only boozy milkshakes ($16.50). The website also shows $9 drinks (Salted Averna, sherry egg cream), but those are amaro or wine-based. Beer list and prices not found. A boozy milkshake is a stretch as a 'mixed drink'.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Paperback Tavern (Hyatt Regency Boston/Cambridge)",
+  "type": "restaurant",
+  "address": "575 Memorial Dr, Cambridge, MA 02139",
+  "lat": 42.3546,
+  "lng": -71.1066,
+  "website": "https://www.paperbacktavern.com/",
+  "beer": {
+   "name": "Domestic beer (e.g., Bud Light, Miller Lite, Sam Adams Lager)",
+   "price": 8,
+   "oz": null,
+   "source": "https://www.paperbacktavern.com/",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "Nevermore (Paloma variation) / Bartender's Pick",
+   "price": 15,
+   "source": "https://www.paperbacktavern.com/",
+   "source_date": "2026-10"
+  },
+  "notes": "Hotel restaurant and bar on the river, about 0.75 mi from 77 Mass Ave. Prices read from the live site in Oct 2026; menu undated.",
+  "area": "Kendall"
+ },
+ {
+  "name": "Lamplighter Brewing Co. - Broadway Taproom",
+  "type": "bar",
+  "address": "284 Broadway, Cambridge, MA 02139",
+  "lat": 42.3672,
+  "lng": -71.0978,
+  "website": "https://lamplighterbrewing.com/",
+  "beer": null,
+  "mixed": null,
+  "notes": "Brewery taproom, beer only. The 'On Tap at Broadway' page shows $15.20-$20.20, which appear to be to-go 4-pack prices, not pours, so they are excluded. No pour prices found. Sits between Kendall and Central; may overlap with the Central Square agent's area.",
+  "area": "Kendall"
+ },
+ {
+  "name": "The Phoenix Landing",
+  "type": "bar",
+  "address": "512 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3641,
+  "lng": -71.1019,
+  "website": "https://www.thephoenixlanding.com",
+  "beer": {
+   "name": "Coors Light (bottle)",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.thephoenixlanding.com/menu/beer",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "Afterlight (gin, elderflower, cassia, lemon, soda)",
+   "price": 13,
+   "source": "https://www.thephoenixlanding.com/menu/drinks",
+   "source_date": "2026-10"
+  },
+  "notes": "Live official menus, undated (accessed 2026-10). Miller High Life bottle also $6; cheapest draft is Miller Lite at $7, pour size not stated. No well-drink price listed. 0.55 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "730 Tavern, Kitchen & Patio",
+  "type": "bar",
+  "address": "730 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.366,
+  "lng": -71.1051,
+  "website": "https://730tavern.com",
+  "beer": {
+   "name": "Coors Light (bottle)",
+   "price": 6,
+   "oz": 12,
+   "source": "https://730tavern.com/cambridge-central-square-730-tavern-kitchen-and-patio-drink-menu",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "Mojito",
+   "price": 13,
+   "source": "https://730tavern.com/cambridge-central-square-730-tavern-kitchen-and-patio-drink-menu",
+   "source_date": "2026-10"
+  },
+  "notes": "Live official menu, undated (accessed 2026-10). Also $6: Sam Adams, Narragansett, Busch Light, PBR can, Corona, and regular drafts of Bud Light, Michelob Ultra and Kona (draft pour sizes not stated). Blue Line cocktail is also $13. 0.76 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Little Donkey",
+  "type": "restaurant",
+  "address": "505 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3643,
+  "lng": -71.1016,
+  "website": "http://www.littledonkeycambridge.com",
+  "beer": {
+   "name": "Modelito Mexican Lager (bottle)",
+   "price": 5,
+   "oz": 7,
+   "source": "http://www.littledonkeycambridge.com/menu",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "Snaquiri (mini classic daiquiri)",
+   "price": 8,
+   "source": "http://www.littledonkeycambridge.com/menu",
+   "source_date": "2026-10"
+  },
+  "notes": "Live official menu, undated (accessed 2026-10; it lists Von Trapp Oktoberfest, so it looks current). The Modelito size isn't printed; 7 oz is the standard Modelito bottle. The $8 drink is a regular-menu 'mini' (smaller pour), not a happy-hour price. The cheapest full-size cocktail is $18 (low-ABV Aperol 'Ciao, Bella!' is $12). Miller High Life and Labatt Blue are $6. 0.55 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Naco Taco",
+  "type": "restaurant",
+  "address": "297 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3624,
+  "lng": -71.0981,
+  "website": "https://nacocentral.com",
+  "beer": {
+   "name": "Modelo Especial (can/bottle)",
+   "price": 5,
+   "oz": 12,
+   "source": "https://media-cdn.getbento.com/accounts/2ac88402edb3feed471982e0cbc35b61/media/0VB2zRicQxCQghtJvnby_Naco%20Dine%20In%20Version%207.28.21.pdf",
+   "source_date": "2021-07"
+  },
+  "mixed": {
+   "name": "Margarita de la Casa",
+   "price": 10,
+   "source": "https://media-cdn.getbento.com/accounts/2ac88402edb3feed471982e0cbc35b61/media/0VB2zRicQxCQghtJvnby_Naco%20Dine%20In%20Version%207.28.21.pdf",
+   "source_date": "2021-07"
+  },
+  "notes": "OLD SOURCE: July 2021 dine-in menu PDF, so prices have probably gone up. Several cans were $5 (Corona, Tecate, Narragansett, Dos Equis). Micheladas were $6, but those are beer drinks. Yelp shows the restaurant still open in 2026. Close to MIT (0.32 mi), so it may overlap with the Kendall/MIT agent.",
+  "area": "Central"
+ },
+ {
+  "name": "Roxy's Arcade (formerly A4cade)",
+  "type": "bar",
+  "address": "292 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3622,
+  "lng": -71.0986,
+  "website": "https://roxysarcade.com",
+  "beer": {
+   "name": "Miller High Life (bottle/can)",
+   "price": 6,
+   "oz": null,
+   "source": "https://roxysarcade.com/menus/games-52b5l",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Madeline Vs Badeline (vodka cocktail; all cocktails $13)",
+   "price": 13,
+   "source": "https://roxysarcade.com/menus/games-52b5l",
+   "source_date": "unknown"
+  },
+  "notes": "Prices read from menu images on the official site (photo filenames say 'april cocktails'; year unknown, likely 2025-2026). 21+ arcade bar behind Roxy's Grilled Cheese. Fun shots are $5 and High Life + whiskey combo is $13. Draft Night Shift Nite Lite is $8. 0.33 mi, so it may overlap with the Kendall/MIT agent.",
+  "area": "Central"
+ },
+ {
+  "name": "Pagu",
+  "type": "restaurant",
+  "address": "310 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3624,
+  "lng": -71.099,
+  "website": "https://gopagu.com",
+  "beer": {
+   "name": "Estrella Galicia Lager",
+   "price": 8,
+   "oz": 12,
+   "source": "https://cdn.shopify.com/s/files/1/0569/3849/6069/files/6.1.26_dinner.pdf?v=1780933265",
+   "source_date": "2026-06"
+  },
+  "mixed": {
+   "name": "Lei It On Me (gin, guava, lime, hibiscus, tonic)",
+   "price": 14,
+   "source": "https://cdn.shopify.com/s/files/1/0569/3849/6069/files/6.1.26_dinner.pdf?v=1780933265",
+   "source_date": "2026-06"
+  },
+  "notes": "Menu PDF dated 6.1.26. 0.36 mi, so it may overlap with the Kendall/MIT agent.",
+  "area": "Central"
+ },
+ {
+  "name": "Brick & Mortar",
+  "type": "bar",
+  "address": "567 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3649,
+  "lng": -71.1025,
+  "website": "https://www.brickmortarltd.com",
+  "beer": {
+   "name": "Miller High Life (bottle)",
+   "price": 5,
+   "oz": 12,
+   "source": "https://www.brickmortarltd.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Pink Beach Flip Flops (spritzer)",
+   "price": 16,
+   "source": "https://www.brickmortarltd.com/menus/",
+   "source_date": "unknown"
+  },
+  "notes": "STATUS UNCERTAIN: Boston Magazine (Dec 2024) and Cambridge Day (Jan 2025) reported a rebrand to the Italian aperitivo bar 'Acqua & Bocca', expected mid-2025. The official site still shows the Brick & Mortar menu and I could not confirm whether the rebrand happened. The spritzer's ingredients weren't visible and it may be low-ABV; the cheapest spirit-forward cocktails are $17-18. Happy hour (3-6pm) has a $3 7-oz High Life pony and $10 cocktails, both excluded. 0.60 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Vialé",
+  "type": "restaurant",
+  "address": "502 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.364,
+  "lng": -71.1019,
+  "website": "https://www.vialecambridge.com",
+  "beer": {
+   "name": "Miller High Life (bottle/can)",
+   "price": 6,
+   "oz": null,
+   "source": "https://www.vialecambridge.com/beer-cocktails",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "Vialé Draft Negroni (all cocktails $16)",
+   "price": 16,
+   "source": "https://www.vialecambridge.com/beer-cocktails",
+   "source_date": "2026-10"
+  },
+  "notes": "Live official menu, undated (accessed 2026-10; it lists an autumn 'Hoodie Weather' cocktail). Narragansett and Hero 95 are also $6. 0.54 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "La Fabrica Central",
+  "type": "restaurant",
+  "address": "450 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3637,
+  "lng": -71.1011,
+  "website": null,
+  "beer": {
+   "name": "Bud Light (bottle)",
+   "price": 7,
+   "oz": 12,
+   "source": "http://places.singleplatform.com/la-fabrica-central/menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Watermelon Mule",
+   "price": 14,
+   "source": "http://places.singleplatform.com/la-fabrica-central/menu",
+   "source_date": "unknown"
+  },
+  "notes": "Undated SinglePlatform menu. All bottled beers are listed at $7. Punta Cana and Yo No Se Mañana are also $14. Latin restaurant/lounge. 0.50 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Fallow Kin",
+  "type": "restaurant",
+  "address": "853 Main St, Cambridge, MA 02139",
+  "lat": 42.3635,
+  "lng": -71.0987,
+  "website": "https://www.fallowkin.com",
+  "beer": {
+   "name": "Brick & Feather German Pilsner",
+   "price": 10,
+   "oz": null,
+   "source": "https://www.fallowkin.com/s/Beverage-Menu-5yh8.pdf",
+   "source_date": "2026-08"
+  },
+  "mixed": {
+   "name": "This Side of Where We Are (Evan Williams bonded whiskey sour)",
+   "price": 16,
+   "source": "https://www.fallowkin.com/s/Beverage-Menu-5yh8.pdf",
+   "source_date": "2026-08"
+  },
+  "notes": "Official beverage PDF; the date is inferred from its upload timestamp (about Aug 2026). Pour size not stated. Upscale farm-to-table spot that opened in 2025 in the former Craigie on Main space. 0.40 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Koreana",
+  "type": "restaurant",
+  "address": "154 Prospect St, Cambridge, MA 02139",
+  "lat": 42.3687,
+  "lng": -71.1011,
+  "website": "https://koreanaboston.com",
+  "beer": {
+   "name": "Bud Light / Budweiser (bottle)",
+   "price": 5.5,
+   "oz": 12,
+   "source": "https://koreanaboston.com/menu/drinks/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Soju cocktail (e.g., Soju Martini / Green Boston)",
+   "price": 12.5,
+   "source": "https://koreanaboston.com/menu/drinks/",
+   "source_date": "unknown"
+  },
+  "notes": "Undated official drinks menu. The cheapest mixed drink uses soju, a low-proof spirit; the menu does not clearly list standard liquor cocktails. Korean BBQ restaurant. 0.77 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Miracle of Science Bar + Grill",
+  "type": "bar",
+  "address": "321 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3626,
+  "lng": -71.0986,
+  "website": "https://www.miracleofscience.us",
+  "beer": {
+   "name": "Any draft (e.g., Von Trapp Helles)",
+   "price": 9,
+   "oz": null,
+   "source": "https://www.miracleofscience.us/",
+   "source_date": "2026-10"
+  },
+  "mixed": null,
+  "notes": "Live official site (accessed 2026-10): all drafts are $9, pour size not stated. Package beers (Budweiser, High Life, Modelito) are listed without prices and cocktail prices are not online. Between MIT and Central (0.35 mi), so it may overlap with the Kendall/MIT agent.",
+  "area": "Central"
+ },
+ {
+  "name": "The Middle East",
+  "type": "bar",
+  "address": "472-480 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3638,
+  "lng": -71.1013,
+  "website": "https://www.mideastclub.com",
+  "beer": {
+   "name": "16 oz beer",
+   "price": 4.5,
+   "oz": 16,
+   "source": "https://www.tripadvisor.com/ShowUserReviews-g60890-d553535-r662567462-The_Middle_East_Restaurant_and_Nightclub-Cambridge_Massachusetts.html",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Well drink",
+   "price": 7,
+   "source": "https://www.tripadvisor.com/ShowUserReviews-g60890-d553535-r662567462-The_Middle_East_Restaurant_and_Nightclub-Cambridge_Massachusetts.html",
+   "source_date": "unknown"
+  },
+  "notes": "LIKELY OUTDATED: both prices come from a Tripadvisor review that appears to be from about 2019 (I couldn't open the page to confirm the date). The official restaurant menu lists no drink prices. Music venue complex including Upstairs, Downstairs, Corner, ZuZu and Sonia (10 Brookline St). Treat these prices as low-confidence. 0.51 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Cantab Lounge",
+  "type": "bar",
+  "address": "738 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3661,
+  "lng": -71.1053,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Cash-only dive bar, still open (reviews into Dec 2025). Search snippets mention a '$5 draft' from an undated review, but I couldn't verify the source, so it is left null. Known as one of the cheapest bars in Central. 0.77 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "ManRay",
+  "type": "bar",
+  "address": "40 Prospect St, Cambridge, MA 02139",
+  "lat": 42.3661,
+  "lng": -71.1032,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Nightclub that reopened in 2023 in the former ImprovBoston space. Reviews mention High Noon/Truly seltzers at $8 and an $8 'vampire' vodka drink special, but no regular menu prices, so both fields are null. Cover charge $5-15. 0.69 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Darling",
+  "type": "bar",
+  "address": "464 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3636,
+  "lng": -71.1014,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Cocktail and dim sum bar that opened July 2025 in the former Mary Chung space. The cocktail list changes daily; a blog says drinks run '$17 and up', with no specific item price. Beer service is unclear. Not budget. 0.51 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Cloud & Spirits",
+  "type": "bar",
+  "address": "795 Main St, Cambridge, MA 02139",
+  "lat": 42.3634,
+  "lng": -71.0972,
+  "website": "https://www.cloudandspirits.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Korean-inspired cocktail bar/restaurant (former Cuchi Cuchi space), open Wed-Sat evenings. The official drinks page lists Narragansett, Miller High Life and others, plus soju, but shows no prices. 0.35 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "The Mad Monkfish (formerly Thelonious Monkfish)",
+  "type": "restaurant",
+  "address": "524 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3642,
+  "lng": -71.102,
+  "website": "http://www.themadmonkfish.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Sushi/Thai restaurant with a full bar and jazz. The official Sept 2026 lunch menu PDF has no drink prices, and I couldn't find a drinks list. 0.56 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "India Pavilion",
+  "type": "restaurant",
+  "address": "17 Central Sq, Cambridge, MA 02139",
+  "lat": 42.3654,
+  "lng": -71.1048,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Indian restaurant (since 1979) serving beer and wine. An old undated review cites Kingfisher at $3.50 small and $5.95 large, almost certainly outdated, so left null. 0.72 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "DX Arcade",
+  "type": "bar",
+  "address": "580 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3647,
+  "lng": -71.103,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Two-story arcade that opened in 2025 and serves beer and cocktails to guests 21+. No drink prices found online. 0.62 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Jaho Coffee Roaster & Wine Bar",
+  "type": "restaurant",
+  "address": "425 Massachusetts Ave, Cambridge, MA 02139",
+  "lat": 42.3638,
+  "lng": -71.1006,
+  "website": "https://www.jaho.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Café and wine bar, open until midnight. I couldn't confirm beer or liquor service and found no drink prices online. Low priority for a cheap-drinks map. 0.48 mi.",
+  "area": "Central"
+ },
+ {
+  "name": "Bukowski Tavern",
+  "type": "bar",
+  "address": "50 Dalton St, Boston, MA 02115",
+  "lat": 42.3472,
+  "lng": -71.0838,
+  "website": "https://bukowski-tavern.com",
+  "beer": {
+   "name": "Narragansett Lager (16 oz can)",
+   "price": 5.5,
+   "oz": 16,
+   "source": "https://qrco.de/bbaK5S",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "notes": "Beer and wine/cider only, no liquor, so no mixed drink. Prices are from the bottle/can menu PDF linked on the official site (bukowski-tavern.com/menu), checked 2026-10; the PDF itself is undated. Coors Light, Miller High Life, Miller Lite and Yuengling 12 oz are also $5.50. Draft list rotates daily with no prices online. Cash or Visa/MC only. About 0.97 mi from MIT, right at the 1-mile edge.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "The Bebop",
+  "type": "bar",
+  "address": "1116 Boylston St, Boston, MA 02215",
+  "lat": 42.3467,
+  "lng": -71.0887,
+  "website": "https://www.thebebopboston.com",
+  "beer": {
+   "name": "House Lager by Yuengling Flight (draft); PBR / Narragansett Lager cans also $5",
+   "price": 5,
+   "oz": null,
+   "source": "https://www.thebebopboston.com/menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Sarti Spritz",
+   "price": 12,
+   "source": "https://www.thebebopboston.com/menu",
+   "source_date": "unknown"
+  },
+  "notes": "From the official online menu, checked 2026-10. The menu lists Sam Oktoberfest and Pumpkinhead, so it looks current for fall. Pour sizes not stated. The Mai Tai ($13) is the cheapest spirit-forward cocktail if a spritz doesn't count. Live music nightly. About 0.90 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Dani's Queer Bar",
+  "type": "bar",
+  "address": "909 Boylston St, Boston, MA 02115",
+  "lat": 42.3485,
+  "lng": -71.0848,
+  "website": "https://www.danisqueerbar.com",
+  "beer": {
+   "name": "Miller High Life (can)",
+   "price": 7,
+   "oz": 12,
+   "source": "https://www.danisqueerbar.com/menu?menu=drink-menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Frozen-Tini",
+   "price": 15,
+   "source": "https://www.danisqueerbar.com/menu?menu=drink-menu",
+   "source_date": "unknown"
+  },
+  "notes": "From the official drink menu, checked 2026-10. It includes fall seasonals, so it's probably current. Coors Light draft, Corona and Modelo cans are also $7. Signature cocktails are $16. Opened 2024 in part of the former Pour House space (some sources say 907 Boylston). The $5 weekly shot special is a shot, so it wasn't counted. About 0.88 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "D16",
+  "type": "bar",
+  "address": "955 Boylston St, Unit A, Boston, MA 02115",
+  "lat": 42.348,
+  "lng": -71.0862,
+  "website": "https://www.d16boston.com",
+  "beer": {
+   "name": "Corona Extra (bottle)",
+   "price": 8,
+   "oz": 12,
+   "source": "https://www.d16boston.com/menu/beer/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Grand Stretch In The Evening / The Barwick / City Watch (cocktails)",
+   "price": 18,
+   "source": "https://www.d16boston.com/menu/cocktails/",
+   "source_date": "unknown"
+  },
+  "notes": "Speakeasy-style cocktail bar in the old Division 16 police station (former Dillon's space), opened Nov 2024. Modelo and Kona drafts are also $8. Press mentioned a $7 'VIP' feature cocktail, but the current menu doesn't list it, so it was left out as a possible special. Checked 2026-10. About 0.89 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Back Bay Social",
+  "type": "restaurant",
+  "address": "867 Boylston St, Boston, MA 02116",
+  "lat": 42.3488,
+  "lng": -71.0829,
+  "website": "https://www.backbaysocial.com",
+  "beer": {
+   "name": "Coors Light (16 oz draft)",
+   "price": 7,
+   "oz": 16,
+   "source": "https://www.backbaysocial.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "El Patron Frozen Margarita",
+   "price": 14,
+   "source": "https://www.backbaysocial.com/menus/",
+   "source_date": "unknown"
+  },
+  "notes": "Official menu, checked 2026-10. It states drafts are 16 oz. Bud Light and Miller High Life bottles are also $7. The $6 Jello Shots on the brunch menu were left out because they're shots. Moscow Mule is $15. About 0.91 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "The Corner Tavern",
+  "type": "bar",
+  "address": "421 Marlborough St, Boston, MA 02115",
+  "lat": 42.35,
+  "lng": -71.0887,
+  "website": "https://www.thecornerboston.com",
+  "beer": {
+   "name": "Miller High Life (bottle)",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.thecornerboston.com/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktails (e.g. Espadin Paloma, Strawberry Bee's Knees)",
+   "price": 16.5,
+   "source": "https://www.thecornerboston.com/",
+   "source_date": "unknown"
+  },
+  "notes": "Official site menu, checked 2026-10. It lists fall beers, so it looks current. All cocktails are $16.50 and no well drinks are listed. A Narragansett 16 oz is $7. Located at Mass Ave and Marlborough. About 0.66 mi, the closest venue in this area.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Piattini",
+  "type": "restaurant",
+  "address": "226 Newbury St, Boston, MA 02116",
+  "lat": 42.35,
+  "lng": -71.0812,
+  "website": "https://www.piattini.com",
+  "beer": {
+   "name": "Corona (bottle)",
+   "price": 9,
+   "oz": 12,
+   "source": "https://www.piattini.com/menu/drinks/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Signature cocktails (e.g. Piattini Lemonade, Passionfruit Margarita)",
+   "price": 17,
+   "source": "https://www.piattini.com/menu/drinks/",
+   "source_date": "unknown"
+  },
+  "notes": "Italian wine cafe. Official drinks page, checked 2026-10. Most beers are $9 (Coors Light, Sam Adams, etc.) and pour sizes aren't stated. Corona is assumed to be the standard 12 oz bottle. About 0.89 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Earls Kitchen + Bar (Prudential)",
+  "type": "restaurant",
+  "address": "800 Boylston St, Unit 107, Boston, MA 02199",
+  "lat": 42.3478,
+  "lng": -71.082,
+  "website": "https://earls.ca/locations/prudential/",
+  "beer": {
+   "name": "Miller High Life (bottle)",
+   "price": 7.75,
+   "oz": 12,
+   "source": "https://earls.ca/locations/prudential/menu/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Colada Crush",
+   "price": 12,
+   "source": "https://earls.ca/locations/prudential/menu/",
+   "source_date": "unknown"
+  },
+  "notes": "Official location menu, checked 2026-10. Michelob Ultra bottles are also $7.75. The menu also lists a 'Tiny Tini' mini espresso martini ($7) and a mini margarita shot ($5); these weren't used because they're mini or shot-size. Happy hour is Mon-Fri 3-6pm and Sun-Thu 9pm-close (lounge/patio only), so these regular prices may be lower then. About 0.98 mi, right at the 1-mile edge.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Sonsie",
+  "type": "restaurant",
+  "address": "327 Newbury St, Boston, MA 02115",
+  "lat": 42.3486,
+  "lng": -71.0858,
+  "website": "https://www.sonsieboston.com",
+  "beer": null,
+  "mixed": {
+   "name": "Signature cocktails (e.g. K Drop, Moby Spritz)",
+   "price": 18,
+   "source": "https://www.sonsieboston.com/menus",
+   "source_date": "unknown"
+  },
+  "notes": "Official menus page, checked 2026-10, lists no beers. An older 'Marathon Cocktails' page showed $14-15 cocktails, but those look seasonal or out of date. The cheapest alcoholic drink is a glass of La Marca Prosecco at $13. About 0.86 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "PURO ceviche bar",
+  "type": "restaurant",
+  "address": "264 Newbury St, Boston, MA 02116",
+  "lat": 42.3495,
+  "lng": -71.083,
+  "website": "https://www.purocevichebar.com",
+  "beer": null,
+  "mixed": {
+   "name": "Pisco Sour",
+   "price": 16,
+   "source": "https://www.purocevichebar.com/items/pisco-sour-2",
+   "source_date": "unknown"
+  },
+  "notes": "Price is from the official item page via search snippet; the site blocked direct fetch. The pisco sour may not be the cheapest cocktail. A search snippet showed $3-5 beers (Corona, Modelo), but those look like happy-hour prices and couldn't be confirmed, so beer is null. Listing shows it open as of 2026. About 0.85 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Abe & Louie's",
+  "type": "restaurant",
+  "address": "793 Boylston St, Boston, MA 02116",
+  "lat": 42.3489,
+  "lng": -71.0813,
+  "website": "https://abeandlouies.com",
+  "beer": {
+   "name": "Jack's Abby House Lager (draft)",
+   "price": 8,
+   "oz": null,
+   "source": "https://restaurantguru.com/Abe-and-Louies-Boston/menu",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "notes": "Steakhouse. The beer price comes from an owner-uploaded menu on RestaurantGuru that is about 4 years old (around 2022), so it's likely out of date and probably higher now. The official site has no drink prices and no cocktail price was found. About 0.94 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Boston Burger Company (Boylston)",
+  "type": "restaurant",
+  "address": "1100 Boylston St, Boston, MA 02215",
+  "lat": 42.3469,
+  "lng": -71.0883,
+  "website": "https://bostonburgercompany.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Has a full bar and the official site confirms it's open in 2026. Toast and delivery pages list only non-alcoholic drinks and the Toast page blocked fetching. An Untappd user mentioned a $3 PBR, but it's undated and probably a special, so it wasn't used. About 0.89 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Kings Dining & Entertainment (Back Bay)",
+  "type": "bar",
+  "address": "50 Dalton St, Boston, MA 02115",
+  "lat": 42.3473,
+  "lng": -71.0836,
+  "website": "https://www.playatkings.com/boston-backbay-menus/",
+  "beer": null,
+  "mixed": null,
+  "notes": "Bowling, food and full bar. The official menu page's drinks section didn't load any prices. The only prices found ($2.95 Bud Light pint) come from a very old Scribd menu, so they weren't used. About 0.97 mi, right at the 1-mile edge.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Krasi",
+  "type": "restaurant",
+  "address": "48 Gloucester St, Boston, MA 02115",
+  "lat": 42.3487,
+  "lng": -71.0841,
+  "website": "https://www.krasiboston.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Greek meze and wine bar (replaced Cafe Jaffa). Serves Greek beers and spirits, but no beer or cocktail prices were found online. A review mentions house wine around $16/glass. About 0.92 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Trident Booksellers & Cafe",
+  "type": "restaurant",
+  "address": "338 Newbury St, Boston, MA 02115",
+  "lat": 42.3485,
+  "lng": -71.0862,
+  "website": "https://tridentbookscafe.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Bookstore cafe with beer, wine and a bar. The official site says the cocktail/beer/wine menus are only available in person, and the Toast page blocked fetching. Open per Yelp, Sept 2026. About 0.86 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "The Capital Grille",
+  "type": "restaurant",
+  "address": "900 Boylston St, Boston, MA 02115",
+  "lat": 42.3479,
+  "lng": -71.0839,
+  "website": "https://www.thecapitalgrille.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Upscale steakhouse with a full bar. Online menus list cocktails (Stoli Doli, etc.) but no prices. Not a budget option. About 0.94 mi.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "Pho Basil",
+  "type": "restaurant",
+  "address": "177A Massachusetts Ave, Boston, MA 02115",
+  "lat": 42.3462,
+  "lng": -71.0875,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Vietnamese/Thai restaurant near Berklee with a beer and wine list, but no prices were found. The license type wasn't confirmed. About 0.95 mi, close to the 1-mile edge.",
+  "area": "Back Bay"
+ },
+ {
+  "name": "The Kenmore",
+  "type": "bar",
+  "address": "476 Commonwealth Ave, Boston, MA 02215",
+  "lat": 42.3486,
+  "lng": -71.0939,
+  "website": "https://www.thekenmorebar.com",
+  "beer": {
+   "name": "Miller High Life (can/bottle)",
+   "price": 4.95,
+   "oz": null,
+   "source": "https://www.thekenmorebar.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Little Leaguer (Stoli Vanilla, triple sec, Fanta Orange) / The Undergrad",
+   "price": 10.5,
+   "source": "https://www.thekenmorebar.com/menus/",
+   "source_date": "unknown"
+  },
+  "notes": "Official menu page, undated but current website; Yelp shows activity through mid-2026. Occupies the former Lower Depths space (Lower Depths closed 2019). Narragansett $5.75, Coors Light draft $6. ~0.72 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Row 34 Kenmore Square",
+  "type": "restaurant",
+  "address": "498 Commonwealth Ave (Hotel Commonwealth), Boston, MA 02215",
+  "lat": 42.3486,
+  "lng": -71.0953,
+  "website": "https://www.row34.com/location/row34-kenmore-square/",
+  "beer": {
+   "name": "Fox Farm Rove Saison (draft)",
+   "price": 10,
+   "oz": 8,
+   "source": "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/H7IcpyVJRa5qCkaNGHM5_KENMORE_BEV_10_02_26.pdf",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "Tropical Fizz (citrus vodka, pineapple, coconut, soda)",
+   "price": 15,
+   "source": "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/H7IcpyVJRa5qCkaNGHM5_KENMORE_BEV_10_02_26.pdf",
+   "source_date": "2026-10"
+  },
+  "notes": "Opened 2025 in the former Island Creek Oyster Bar space. Beverage menu dated 10/02/26. Better value: Lawson's Scrag Mountain Pilsner 16oz $11. Price-to-item mapping read from PDF layout; high confidence. Has a separate happy hour menu (not used). ~0.74 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "India Quality Restaurant",
+  "type": "restaurant",
+  "address": "484 Commonwealth Ave, Boston, MA 02215",
+  "lat": 42.3485,
+  "lng": -71.0942,
+  "website": "https://indiaquality.com",
+  "beer": {
+   "name": "Heineken / Corona / Harpoon IPA / Singha (regular bottle)",
+   "price": 5.95,
+   "oz": 12,
+   "source": "https://indiaquality.com/drink-menu",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "notes": "Beer and wine only, so no mixed drinks. 'Regular' size assumed to be a standard 12oz bottle; large bottles cost more. Open per Yelp, Sept 2026. ~0.72 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Cornwall's",
+  "type": "bar",
+  "address": "644 Beacon St, Boston, MA 02215",
+  "lat": 42.3494,
+  "lng": -71.0955,
+  "website": "https://cornwalls.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Open (website lists hours Mon-Sat 11:30am-2am). No current drink prices found. Toast ordering page blocked, BeerMenus inactive. Old reviews cite ~$4.95 pints (likely 2010s, not used). Some sources say 654 Beacon; the official site says 644. ~0.68 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Eastern Standard",
+  "type": "restaurant",
+  "address": "775 Beacon St, Boston, MA 02215",
+  "lat": 42.3484,
+  "lng": -71.0991,
+  "website": "https://www.easternstandardboston.com",
+  "beer": null,
+  "mixed": {
+   "name": "Monte Paloma (amaro Montenegro, apricot, grapefruit soda, lime)",
+   "price": 15,
+   "source": "https://media-cdn.getbento.com/accounts/e34bb88b91e87e5658580bcbae1e77bd/media/ZAKsdEFhT065DE4E5WUq_ESK%20Cocktail%20Menu%207.8.26%20for%20website.pdf",
+   "source_date": "2026-07"
+  },
+  "notes": "Reopened 2023 at Fenway Center (775 Beacon), not the old 528 Comm Ave space. Solar Flare is also $15. Cheapest cocktail on a liquor base: Standard Marg $16. Beer list not published online. ~0.80 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Audubon",
+  "type": "bar",
+  "address": "838 Beacon St, Boston, MA 02215",
+  "lat": 42.3473,
+  "lng": -71.1031,
+  "website": "http://audubonboston.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Open per Yelp (updated Sept 2026). Official site has an expired SSL cert and the Toast page is blocked. Old Time Out listing says cocktails are $8-10, but that is too old to use. ~0.96 mi, close to the cutoff.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Hojoko",
+  "type": "restaurant",
+  "address": "1271 Boylston St (The Verb Hotel), Boston, MA 02215",
+  "lat": 42.3453,
+  "lng": -71.0968,
+  "website": "https://www.hojokoboston.com",
+  "beer": {
+   "name": "Bud Light (can)",
+   "price": 7,
+   "oz": null,
+   "source": "https://www.hojokoboston.com/menu/beer/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Subtle Beauty Highball (regular cocktails $17)",
+   "price": 17,
+   "source": "https://www.hojokoboston.com/menu/cocktails-copy/",
+   "source_date": "unknown"
+  },
+  "notes": "Cheapest 16oz draft: Allagash White $8. 'Bombs Away' drinks are $12 (e.g. tequila and pineapple shrub soda), but they are shot-style bombs, so not used. ~0.97 mi, close to the cutoff.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Loretta's Last Call",
+  "type": "bar",
+  "address": "1 Lansdowne St, Boston, MA 02215",
+  "lat": 42.3473,
+  "lng": -71.0945,
+  "website": "https://www.lorettaslastcall.com",
+  "beer": {
+   "name": "Pabst Blue Ribbon (can)",
+   "price": 5,
+   "oz": null,
+   "source": "https://www.lorettaslastcall.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Honey Bee (cocktail)",
+   "price": 14,
+   "source": "https://www.lorettaslastcall.com/menus",
+   "source_date": "unknown"
+  },
+  "notes": "Coors Light and Narragansett drafts $6. Boilermakers (beer plus whiskey shot) $12. No well drinks listed. Open per Yelp, June 2026. ~0.82 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Bill's Bar",
+  "type": "bar",
+  "address": "5 Lansdowne St, Boston, MA 02215",
+  "lat": 42.3473,
+  "lng": -71.0949,
+  "website": "https://www.billsbarboston.com",
+  "beer": {
+   "name": "Modelo (draft)",
+   "price": 8,
+   "oz": null,
+   "source": "https://www.billsbarboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "notes": "Cocktails listed without prices. Bottle/can prices not listed, so domestic bottles may be cheaper than $8. Mainly a music venue with a bar. ~0.82 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "The Lansdowne Pub",
+  "type": "bar",
+  "address": "9 Lansdowne St, Boston, MA 02215",
+  "lat": 42.3473,
+  "lng": -71.0952,
+  "website": "https://www.lansdownepubboston.com",
+  "beer": {
+   "name": "Sam Adams Local Legends or Modelo (draft)",
+   "price": 8,
+   "oz": null,
+   "source": "https://www.lansdownepubboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "notes": "The $8 price comes from a search-engine snapshot of the official menu page. The live page now shows the fall cocktail menu with no prices. Same group and price list as Bill's Bar. ~0.82 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Cheeky Monkey Brewing Co.",
+  "type": "bar",
+  "address": "3 Lansdowne St, Boston, MA 02215",
+  "lat": 42.3473,
+  "lng": -71.0947,
+  "website": "https://www.luckystrikeent.com/location/cheeky-monkey-brewing-co",
+  "beer": null,
+  "mixed": null,
+  "notes": "Open (Lucky Strike/Bowlero location page lists current hours). Brewpub with house beers. No published drink prices found. ~0.82 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Cask 'n Flagon",
+  "type": "bar",
+  "address": "62 Brookline Ave, Boston, MA 02215",
+  "lat": 42.3473,
+  "lng": -71.0982,
+  "website": "https://casknflagon.com",
+  "beer": {
+   "name": "Budweiser / Bud Light / Coors Light / Miller Lite (bottle)",
+   "price": 7,
+   "oz": 12,
+   "source": "https://casknflagon.com/wp-content/uploads/2025/07/2025-Cocktail-Menu.pdf",
+   "source_date": "2025-07"
+  },
+  "mixed": {
+   "name": "Cask Rum Punch",
+   "price": 15,
+   "source": "https://casknflagon.com/wp-content/uploads/2025/07/2025-Cocktail-Menu.pdf",
+   "source_date": "2025-07"
+  },
+  "notes": "2025 summer menu. In the PDF text, the single $15 price lines up with Cask Rum Punch (the first cocktail listed), but the layout makes this slightly uncertain. All other cocktails are $16-17. Drafts start at $8 (Coors Light, Miller Lite). ~0.85 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Game On!",
+  "type": "bar",
+  "address": "82 Lansdowne St, Boston, MA 02215",
+  "lat": 42.347,
+  "lng": -71.0985,
+  "website": "https://www.gameonboston.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Open in 2026 (hosted Opening Day and Aug 2026 events). Menu page lists drinks without prices. Blazing Paddles ping-pong bar is downstairs in the same building. ~0.88 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Bleacher Bar",
+  "type": "bar",
+  "address": "82A Lansdowne St, Boston, MA 02215",
+  "lat": 42.347,
+  "lng": -71.0967,
+  "website": "https://www.bleacherbarboston.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Open (Yelp Sept 2026). Official menu lists drinks without prices. A search snippet said Labatt Blue/Bud Light $6, but it looked like a special and couldn't be verified, so not used. ~0.84 mi.",
+  "area": "Fenway"
+ },
+ {
+  "name": "The Bullpen Kitchen + Tap",
+  "type": "bar",
+  "address": "19 Jersey St, Boston, MA 02215",
+  "lat": 42.3458,
+  "lng": -71.0987,
+  "website": "https://www.thebullpenboston.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Patio entrance at 110 Brookline Ave. Menu is posted only as images, so no prices could be read. Yelp updated July 2026. ~0.96 mi, close to the cutoff.",
+  "area": "Fenway"
+ },
+ {
+  "name": "Fuller's BU Pub",
+  "type": "bar",
+  "address": "225 Bay State Rd (Dahod Alumni Center), Boston, MA 02215",
+  "lat": 42.3509,
+  "lng": -71.1036,
+  "website": "https://www.bu.edu/dining/location/fullersbupub/",
+  "beer": null,
+  "mixed": null,
+  "notes": "BU Dining pub, 21+ with physical ID, open to the public. Serves beer only (15+ taps). Weekday daytime hours (closed weekends). BU's beer menu page has no prices. ~0.77 mi.",
+  "area": "Fenway"
+ }
+]

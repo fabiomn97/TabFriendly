@@ -1,0 +1,12 @@
+{
+ "name": "Little Donkey",
+ "type": "restaurant",
+ "address": "505 Massachusetts Ave, Cambridge, MA 02139",
+ "lat": 42.3643,
+ "lng": -71.1016,
+ "website": "http://www.littledonkeycambridge.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

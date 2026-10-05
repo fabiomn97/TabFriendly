@@ -1,0 +1,12 @@
+{
+ "name": "Brick & Mortar",
+ "type": "bar",
+ "address": "567 Massachusetts Ave, Cambridge, MA 02139",
+ "lat": 42.3649,
+ "lng": -71.1025,
+ "website": "https://www.brickmortarltd.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

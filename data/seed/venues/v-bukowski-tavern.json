@@ -1,0 +1,12 @@
+{
+ "name": "Bukowski Tavern",
+ "type": "bar",
+ "address": "50 Dalton St, Boston, MA 02115",
+ "lat": 42.3472,
+ "lng": -71.0838,
+ "website": "https://bukowski-tavern.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

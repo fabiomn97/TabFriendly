@@ -1,0 +1,12 @@
+{
+ "name": "Jaho Coffee Roaster & Wine Bar",
+ "type": "restaurant",
+ "address": "425 Massachusetts Ave, Cambridge, MA 02139",
+ "lat": 42.3638,
+ "lng": -71.1006,
+ "website": "https://www.jaho.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

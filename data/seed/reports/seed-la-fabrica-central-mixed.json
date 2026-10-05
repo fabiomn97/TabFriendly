@@ -1,0 +1,14 @@
+{
+ "venueId": "v-la-fabrica-central",
+ "kind": "mixed",
+ "drink": "Watermelon Mule",
+ "price": 14.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://places.singleplatform.com/la-fabrica-central/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "The Kenmore",
+ "type": "bar",
+ "address": "476 Commonwealth Ave, Boston, MA 02215",
+ "lat": 42.3486,
+ "lng": -71.0939,
+ "website": "https://www.thekenmorebar.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

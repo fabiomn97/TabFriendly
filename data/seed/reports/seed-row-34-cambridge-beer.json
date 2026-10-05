@@ -1,0 +1,14 @@
+{
+ "venueId": "v-row-34-cambridge",
+ "kind": "beer",
+ "drink": "Stoneface American Porter (draft)",
+ "price": 10.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/6kTIV6yMQC2PxRCxZ2GP_CAMB_Cocktails_8_21_26.pdf",
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

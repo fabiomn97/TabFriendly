@@ -1,0 +1,14 @@
+{
+ "venueId": "v-abe-louie-s",
+ "kind": "beer",
+ "drink": "Jack's Abby House Lager (draft)",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://restaurantguru.com/Abe-and-Louies-Boston/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

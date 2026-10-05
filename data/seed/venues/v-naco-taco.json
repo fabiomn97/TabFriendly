@@ -1,0 +1,12 @@
+{
+ "name": "Naco Taco",
+ "type": "restaurant",
+ "address": "297 Massachusetts Ave, Cambridge, MA 02139",
+ "lat": 42.3624,
+ "lng": -71.0981,
+ "website": "https://nacocentral.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

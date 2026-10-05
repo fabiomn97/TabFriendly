@@ -1,0 +1,12 @@
+{
+ "name": "Fallow Kin",
+ "type": "restaurant",
+ "address": "853 Main St, Cambridge, MA 02139",
+ "lat": 42.3635,
+ "lng": -71.0987,
+ "website": "https://www.fallowkin.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

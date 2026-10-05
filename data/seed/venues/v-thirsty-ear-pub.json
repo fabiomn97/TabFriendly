@@ -1,0 +1,12 @@
+{
+ "name": "Thirsty Ear Pub",
+ "type": "bar",
+ "address": "Ashdown House (NW35), 235 Albany St, Cambridge, MA 02139",
+ "lat": 42.36,
+ "lng": -71.098,
+ "website": "https://thirsty-ear.mit.edu/",
+ "note": "MIT ID required (affiliates and their guests).",
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-shy-bird-kendall-square",
+ "kind": "beer",
+ "drink": "Modelo Especial (bottle/can)",
+ "price": 6.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://media-cdn.getbento.com/accounts/f27f750a2ca06a82a2d1d3bf42867187/media/IEddQMS6RQeNj3toGa7A_SBK%20Beverage%20Menu%202026.pdf",
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

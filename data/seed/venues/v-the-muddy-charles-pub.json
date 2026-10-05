@@ -1,0 +1,12 @@
+{
+ "name": "The Muddy Charles Pub",
+ "type": "bar",
+ "address": "142 Memorial Dr (Walker Memorial, Bldg 50), Cambridge, MA 02139",
+ "lat": 42.3595,
+ "lng": -71.088,
+ "website": "https://muddy.mit.edu",
+ "note": "MIT ID required (affiliates and their guests). Cash only.",
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

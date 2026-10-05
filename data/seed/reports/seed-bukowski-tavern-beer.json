@@ -1,0 +1,14 @@
+{
+ "venueId": "v-bukowski-tavern",
+ "kind": "beer",
+ "drink": "Narragansett Lager (16 oz can)",
+ "price": 5.5,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://qrco.de/bbaK5S",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

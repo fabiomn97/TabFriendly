@@ -1,0 +1,750 @@
+<title>TabFriendly</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@500;600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Leaflet 1.9.4 base styles (inlined: the artifact CSP blocks external stylesheets) */
+.leaflet-image-layer,.leaflet-layer,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-pane,.leaflet-pane>canvas,.leaflet-pane>svg,.leaflet-tile,.leaflet-tile-container,.leaflet-zoom-box{position:absolute;left:0;top:0}.leaflet-container{overflow:hidden}.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;user-select:none;display:block}.leaflet-container .leaflet-overlay-pane svg{max-width:none!important;max-height:none!important}.leaflet-container.leaflet-touch-zoom{touch-action:pan-x pan-y}.leaflet-container.leaflet-touch-drag{touch-action:none;touch-action:pinch-zoom}.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{touch-action:none}.leaflet-container{-webkit-tap-highlight-color:transparent}.leaflet-zoom-box{width:0;height:0;box-sizing:border-box;z-index:800}.leaflet-pane{z-index:400}.leaflet-overlay-pane{z-index:400}.leaflet-marker-pane{z-index:600}.leaflet-tooltip-pane{z-index:650}.leaflet-popup-pane{z-index:700}.leaflet-map-pane canvas{z-index:100}.leaflet-map-pane svg{z-index:200}.leaflet-control{position:relative;z-index:800;pointer-events:auto;float:left;clear:both}.leaflet-bottom,.leaflet-top{position:absolute;z-index:1000;pointer-events:none}.leaflet-top{top:0}.leaflet-right{right:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}.leaflet-right .leaflet-control{float:right}.leaflet-top .leaflet-control{margin-top:10px}.leaflet-bottom .leaflet-control{margin-bottom:10px}.leaflet-left .leaflet-control{margin-left:10px}.leaflet-right .leaflet-control{margin-right:10px}.leaflet-zoom-animated{transform-origin:0 0}svg.leaflet-zoom-animated{will-change:transform}.leaflet-zoom-anim .leaflet-zoom-animated{transition:transform .25s cubic-bezier(0,0,.25,1)}.leaflet-zoom-anim .leaflet-zoom-hide{visibility:hidden}.leaflet-interactive{cursor:pointer}.leaflet-grab{cursor:grab}.leaflet-crosshair,.leaflet-crosshair .leaflet-interactive{cursor:crosshair}.leaflet-control{cursor:auto}.leaflet-dragging .leaflet-grab,.leaflet-dragging .leaflet-grab .leaflet-interactive{cursor:grabbing}.leaflet-image-layer,.leaflet-marker-icon,.leaflet-pane>svg path{pointer-events:none}.leaflet-marker-icon.leaflet-interactive,.leaflet-pane>svg path.leaflet-interactive{pointer-events:auto}.leaflet-bar a{display:block;text-align:center;text-decoration:none}.leaflet-control-zoom-in,.leaflet-control-zoom-out{font:600 20px/1 var(--f-body);text-indent:0}.leaflet-control-attribution{padding:0 6px;line-height:1.5}
+
+/* Layout: full-bleed hand-drawn street map; a price list / venue card sits as a bottom sheet on phones and a left rail on wide screens. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --fg: #14181d;
+  --muted: #5a6470;
+  --line: #dde2e7;
+  --tag: #f2b233;          /* amber price tag: the one bold color */
+  --tag-ink: #1b1710;
+  --tag-dim: #c9ced4;
+  --tag-dim-ink: #3f4752;
+  --link: #1f5f99;
+  --ok: #2f7d4f;
+  --danger: #b4372f;
+  --land: #e9ecef;
+  --road: #ffffff;
+  --road-mid: #fbf3df;
+  --road-major: #f6dfa4;
+  --water: #b7d1e4;
+  --park: #d3e4cd;
+  --rail: #b9c0c8;
+  --radius: #1f5f99;
+  --label: #6c7682;
+  --f-display: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --f-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Menlo, monospace;
+  --shadow: 0 6px 24px rgba(20, 30, 45, .14);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101317; --surface: #181d23; --fg: #e8ebee; --muted: #9aa4af; --line: #2a3139;
+    --tag: #f2b233; --tag-ink: #1b1710; --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3;
+    --link: #8cc0ee; --ok: #6cc28f; --danger: #ef7d74;
+    --land: #171b20; --road: #262c34; --road-mid: #2f343b; --road-major: #4a4130; --water: #13324a;
+    --park: #1b2a20; --rail: #3a424c; --radius: #8cc0ee; --label: #7f8a96;
+    --shadow: 0 6px 24px rgba(0, 0, 0, .5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101317; --surface: #181d23; --fg: #e8ebee; --muted: #9aa4af; --line: #2a3139;
+  --tag: #f2b233; --tag-ink: #1b1710; --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3;
+  --link: #8cc0ee; --ok: #6cc28f; --danger: #ef7d74;
+  --land: #171b20; --road: #262c34; --road-mid: #2f343b; --road-major: #4a4130; --water: #13324a;
+  --park: #1b2a20; --rail: #3a424c; --radius: #8cc0ee; --label: #7f8a96;
+  --shadow: 0 6px 24px rgba(0, 0, 0, .5);
+  color-scheme: dark;
+}
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.45 var(--f-body); overflow: hidden; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+a { color: var(--link); }
+
+#app { position: relative; height: 100%; display: grid; grid-template-rows: auto 1fr; }
+
+/* top bar */
+.bar {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 10px 16px; background: var(--surface); border-bottom: 1px solid var(--line); z-index: 1100;
+}
+.brand { display: flex; align-items: baseline; gap: 10px; min-width: 0; margin-right: auto; }
+.brand h1 { margin: 0; font: 800 28px/1 var(--f-display); letter-spacing: .01em; text-transform: uppercase; }
+.brand h1 span { background: var(--tag); color: var(--tag-ink); padding: 0 6px; border-radius: 3px; margin-left: 2px; }
+.brand p { margin: 0; color: var(--muted); font-size: 13px; }
+@media (max-width: 560px) {
+  .brand p { display: none; }
+  .bar { flex-wrap: nowrap; padding-block: 8px; }
+  .brand h1 { font-size: 24px; }
+  .add-long { display: none; }
+}
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+  padding: 8px 12px; font-weight: 600; font-size: 14px; min-height: 40px;
+}
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.btn.tag { background: var(--tag); color: var(--tag-ink); border-color: var(--tag); }
+.btn.ghost { border-color: transparent; background: transparent; }
+.btn.small { min-height: 32px; padding: 4px 10px; font-size: 13px; }
+.btn[disabled] { opacity: .5; cursor: not-allowed; }
+
+/* map */
+#mapWrap { position: relative; min-height: 0; }
+#map { position: absolute; inset: 0; background: var(--land); }
+.leaflet-container { font-family: var(--f-body); }
+.leaflet-bar { border-radius: 8px; overflow: hidden; box-shadow: var(--shadow); border: 1px solid var(--line); }
+.leaflet-bar a { background: var(--surface); color: var(--fg); width: 36px; height: 36px; line-height: 36px; border-bottom: 1px solid var(--line); }
+.leaflet-bar a:last-child { border-bottom: 0; }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 80%, transparent); color: var(--muted); font-size: 11px; }
+.leaflet-control-attribution a { color: var(--muted); }
+
+.area-label { font: 700 13px/1 var(--f-display); letter-spacing: .14em; text-transform: uppercase; color: var(--label); white-space: nowrap; transform: translate(-50%, -50%); position: absolute; pointer-events: none; }
+.area-label.river { font-style: italic; letter-spacing: .3em; color: color-mix(in srgb, var(--water) 40%, var(--label)); }
+.mit-dot { position: absolute; transform: translate(-50%, -50%); width: 14px; height: 14px; border-radius: 50%; background: var(--radius); border: 3px solid var(--surface); box-shadow: 0 0 0 1px var(--radius); }
+
+/* price-tag pins */
+.pin-wrap { width: 0 !important; height: 0 !important; }
+.pin {
+  position: absolute; left: 0; bottom: 7px; transform: translateX(-50%);
+  font: 600 13px/1 var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap;
+  padding: 5px 7px; border-radius: 6px; background: var(--tag); color: var(--tag-ink);
+  border: 1.5px solid var(--tag-ink); box-shadow: 0 2px 6px rgba(0,0,0,.25);
+  transition: transform .12s ease;
+}
+.pin::after {
+  content: ""; position: absolute; left: 50%; bottom: -7px; width: 10px; height: 10px; margin-left: -5px;
+  background: inherit; border-right: 1.5px solid var(--tag-ink); border-bottom: 1.5px solid var(--tag-ink);
+  transform: rotate(45deg); border-bottom-right-radius: 2px;
+}
+.pin.none { background: var(--tag-dim); color: var(--tag-dim-ink); border-color: var(--tag-dim-ink); }
+.pin.none::after { border-color: var(--tag-dim-ink); }
+.pin.sel { transform: translateX(-50%) scale(1.22); z-index: 2; background: var(--fg); color: var(--bg); border-color: var(--bg); }
+.pin.sel::after { border-color: var(--bg); }
+.pin.hid { opacity: .45; border-style: dashed; }
+.pin.dot { font-size: 0; padding: 0; width: 12px; height: 12px; border-radius: 50%; bottom: -6px; border-width: 1.5px; }
+.pin.dot::after { display: none; }
+.pick-mode #map { cursor: crosshair; }
+.draft-pin { position: absolute; transform: translate(-50%, -100%); font: 600 22px/1 var(--f-body); color: var(--danger); }
+
+/* sheet */
+.sheet {
+  position: absolute; z-index: 1050; background: var(--surface); box-shadow: var(--shadow);
+  display: flex; flex-direction: column; min-height: 0;
+  left: 0; right: 0; bottom: 0; max-height: 46%; border-radius: 14px 14px 0 0;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  transition: max-height .2s ease;
+}
+.sheet.expanded { max-height: 86%; }
+.sheet-head { display: flex; align-items: center; gap: 8px; padding: 6px 16px 8px; border-bottom: 1px solid var(--line); }
+.sheet-grip { display: block; width: 44px; height: 5px; border-radius: 3px; background: var(--line); margin: 8px auto 2px; border: 0; padding: 0; }
+.sheet-title { font: 800 20px/1.1 var(--f-display); text-transform: uppercase; letter-spacing: .02em; margin: 0; flex: 1; min-width: 0; text-wrap: balance; }
+.sheet-body { overflow-y: auto; padding: 4px 16px 16px; min-height: 0; overscroll-behavior: contain; }
+@media (min-width: 900px) {
+  .sheet { left: 16px; top: 16px; bottom: 16px; right: auto; width: 380px; max-height: none; border-radius: 12px; }
+  .sheet.expanded { max-height: none; }
+  .sheet-grip { display: none; }
+  .sheet-head { padding-top: 12px; }
+  .leaflet-left .leaflet-control { margin-left: 412px; }
+}
+
+/* list */
+.list { list-style: none; margin: 0; padding: 0; }
+.row {
+  width: 100%; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 12px;
+  text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 10px 0;
+}
+.row:hover .row-name { text-decoration: underline; }
+.row-name { font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row-meta { color: var(--muted); font-size: 13px; grid-column: 1; }
+.row-price { grid-row: 1 / span 2; grid-column: 2; text-align: right; font: 600 17px/1.2 var(--f-mono); font-variant-numeric: tabular-nums; }
+.row-price small { display: block; font: 500 12px/1.3 var(--f-mono); color: var(--muted); }
+.row-price.none { color: var(--muted); font-size: 13px; font-family: var(--f-body); font-weight: 500; }
+.list-note { color: var(--muted); font-size: 13px; margin: 10px 0 2px; }
+.stat { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--muted); padding: 8px 0 4px; }
+.stat b { color: var(--fg); font-family: var(--f-mono); font-weight: 600; }
+
+/* venue card */
+.v-meta { color: var(--muted); font-size: 13px; margin: 6px 0 10px; display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.chip { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 2px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.drink { border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin-bottom: 10px; }
+.drink-k { grid-column: 1 / -1; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.drink-p { font: 600 30px/1 var(--f-mono); font-variant-numeric: tabular-nums; align-self: center; }
+.drink-p.none { font: 500 15px/1.3 var(--f-body); color: var(--muted); }
+.drink-d { min-width: 0; align-self: center; }
+.drink-d strong { display: block; font-weight: 600; overflow-wrap: anywhere; }
+.drink-d span { color: var(--muted); font-size: 13px; font-family: var(--f-mono); }
+.drink-src { grid-column: 1 / -1; font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; border-top: 1px dashed var(--line); padding-top: 8px; margin-top: 4px; }
+.drink-src .user { color: var(--ok); font-weight: 600; }
+.drink-actions { grid-column: 1 / -1; display: flex; gap: 8px; margin-top: 4px; }
+details.hist { margin-top: 6px; }
+details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; padding: 6px 0; }
+.hist-item { border-bottom: 1px solid var(--line); padding: 8px 0; font-size: 13px; display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; }
+.hist-item.hidden-r { opacity: .55; text-decoration: line-through; }
+.hist-item .hp { font-family: var(--f-mono); font-weight: 600; }
+.hist-item .hm { color: var(--muted); grid-column: 1 / -1; overflow-wrap: anywhere; }
+.hist-item .ha { grid-column: 1 / -1; display: flex; gap: 6px; flex-wrap: wrap; }
+.notice { font-size: 13px; color: var(--muted); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 10px 0; }
+
+/* overlay form */
+.overlay { position: absolute; inset: 0; z-index: 1300; background: rgba(10, 14, 20, .45); display: flex; align-items: flex-end; justify-content: center; }
+@media (min-width: 640px) { .overlay { align-items: center; } }
+.panel { background: var(--surface); width: 100%; max-width: 460px; max-height: 92%; overflow-y: auto; border-radius: 14px 14px 0 0; padding: 18px 16px calc(18px + env(safe-area-inset-bottom, 0px)); box-shadow: var(--shadow); }
+@media (min-width: 640px) { .panel { border-radius: 14px; padding: 20px 22px; } }
+.panel h2 { margin: 0 0 4px; font: 800 24px/1.1 var(--f-display); text-transform: uppercase; letter-spacing: .02em; }
+.panel .sub { margin: 0 0 14px; color: var(--muted); font-size: 13px; }
+.field { display: grid; gap: 4px; margin-bottom: 12px; }
+.field label { font-size: 13px; font-weight: 600; }
+.field label em { font-style: normal; font-weight: 400; color: var(--muted); }
+.field input, .field select, .field textarea {
+  width: 100%; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 10px 12px; font-size: 16px;
+}
+.field textarea { min-height: 64px; resize: vertical; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.seg { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
+.seg button { border: 0; background: var(--bg); padding: 10px; font-weight: 600; font-size: 14px; }
+.seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.form-err { color: var(--danger); font-size: 13px; margin: 0 0 10px; }
+.form-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 6px; }
+.photo-prev { max-height: 120px; border-radius: 6px; margin-top: 6px; }
+
+/* banners */
+.pick-mode .sheet { display: none; }
+.pick-hint { white-space: nowrap; position: absolute; z-index: 1200; left: 50%; top: 12px; transform: translateX(-50%); background: var(--fg); color: var(--bg); border-radius: 999px; padding: 6px 6px 6px 16px; display: flex; gap: 10px; align-items: center; font-size: 14px; box-shadow: var(--shadow); max-width: calc(100% - 32px); }
+.pick-hint .btn { min-height: 30px; padding: 2px 10px; background: var(--bg); color: var(--fg); border: 0; }
+.toast { position: absolute; z-index: 1400; left: 50%; top: 72px; transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 14px; box-shadow: var(--shadow); max-width: calc(100% - 32px); }
+.gate { position: absolute; inset: 0; z-index: 1500; background: var(--bg); display: grid; place-items: center; padding: 16px; }
+.gate-card { max-width: 380px; text-align: center; }
+.gate-card h2 { font: 800 44px/1 var(--f-display); text-transform: uppercase; margin: 0 0 8px; }
+.gate-card h2 span { background: var(--tag); color: var(--tag-ink); padding: 0 8px; border-radius: 4px; }
+.gate-card p { color: var(--muted); margin: 0 0 18px; }
+.gate-card .btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.lightbox { position: absolute; inset: 0; z-index: 1600; background: rgba(0,0,0,.8); display: grid; place-items: center; padding: 16px; }
+.lightbox img { max-height: 90%; border-radius: 8px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div id="app">
+  <header class="bar">
+    <div class="brand">
+      <h1>Tab<span>Friendly</span></h1>
+      <p>Cheapest drinks within 1 mile of MIT</p>
+    </div>
+    <button class="btn" id="addVenueBtn" type="button">+ Add<span class="add-long">&nbsp;a</span>&nbsp;venue</button>
+  </header>
+  <div id="mapWrap">
+    <div id="map" role="application" aria-label="Map of bars and restaurants near MIT"></div>
+    <aside class="sheet" id="sheet" aria-live="polite">
+      <button class="sheet-grip" id="grip" type="button" aria-label="Expand or collapse list"></button>
+      <div class="sheet-head" id="sheetHead"></div>
+      <div class="sheet-body" id="sheetBody"></div>
+    </aside>
+    <div class="pick-hint" id="pickHint" hidden>
+      <span>Tap the venue's spot</span>
+      <button class="btn" type="button" id="pickCancel">Cancel</button>
+    </div>
+  </div>
+
+  <div class="overlay" id="formOverlay" hidden>
+    <form class="panel" id="form" novalidate></form>
+  </div>
+  <div class="lightbox" id="lightbox" hidden><img id="lightboxImg" alt="Menu photo submitted by a user"></div>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <div class="gate" id="gate" hidden>
+    <div class="gate-card">
+      <h2>Tab<span>Friendly</span></h2>
+      <p>This map lists drink prices at bars and restaurants. Are you 21 or older?</p>
+      <div class="btns">
+        <button class="btn primary" type="button" id="gateYes">Yes, I'm 21+</button>
+        <button class="btn" type="button" id="gateNo">No</button>
+      </div>
+      <p id="gateMsg" hidden style="margin-top:16px">Come back when you're 21. Cheap drinks will still be here.</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(() => {
+  "use strict";
+  const MIT = [42.35916, -71.09348];          // 77 Massachusetts Ave
+  const RADIUS_M = 1609.34;                     // 1 mile
+  const AREAS = [
+    ["Kendall Sq", 42.3626, -71.0855], ["Central Sq", 42.3652, -71.1035], ["Cambridgeport", 42.3575, -71.1075],
+    ["Back Bay", 42.3500, -71.0805], ["Kenmore", 42.3482, -71.0965], ["Fenway", 42.3437, -71.1000],
+    ["MIT", 42.3612, -71.0950],
+  ];
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch { /* storage unavailable */ } },
+  };
+
+  const S = {
+    db: null, dbState: "loading", me: null, canWrite: null, canMod: false,
+    venues: new Map(), reports: [], mod: new Map(),
+    selected: null, picking: false, readOnlyAfterRefusal: false,
+  };
+
+  // ---------- helpers ----------
+  function distMi(lat, lng) {
+    const R = 3958.8, toR = Math.PI / 180;
+    const dLat = (lat - MIT[0]) * toR, dLng = (lng - MIT[1]) * toR;
+    const a = Math.sin(dLat / 2) ** 2 + Math.cos(MIT[0] * toR) * Math.cos(lat * toR) * Math.sin(dLng / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
+  const money = (p) => "$" + (Number.isInteger(p) ? String(p) : p.toFixed(2));
+  const perOz = (r) => (r && r.oz ? Math.round((r.price / r.oz) * 100) + "¢/oz" : "");
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function checked(s) {
+    const m = /^(\d{4})-(\d{2})/.exec(s || "");
+    return m ? "checked " + MONTHS[+m[2] - 1] + " " + m[1] : "undated";
+  }
+  function fmtDay(iso) {
+    const d = new Date(iso);
+    return isNaN(d) ? "" : MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+  }
+  function hostOf(url) { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; } }
+  const safeUrl = (u) => (typeof u === "string" && /^https:\/\//i.test(u) ? u : null);
+
+  const isHidden = (id) => S.mod.get(id)?.hidden === true;
+  function reportsFor(venueId) {
+    return S.reports.filter((r) => r.venueId === venueId).sort((a, b) => (b.at || "").localeCompare(a.at || ""));
+  }
+  function current(venueId, kind) {
+    return reportsFor(venueId).find((r) => r.kind === kind && !isHidden(r.id)) || null;
+  }
+  function visibleVenues() {
+    return [...S.venues.values()].filter((v) => S.canMod || !isHidden(v.id));
+  }
+
+  // ---------- map ----------
+  const map = L.map("map", {
+    preferCanvas: true, zoomSnap: 0.25, minZoom: 12.75, maxZoom: 19, zoomControl: true, attributionControl: true,
+    maxBounds: [[42.30, -71.17], [42.41, -71.02]], maxBoundsViscosity: 0.8,
+  });
+  map.attributionControl.setPrefix(false);
+  map.attributionControl.addAttribution('Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors');
+  map.zoomControl.setPosition("topright");
+  const wide = matchMedia("(min-width: 900px)");
+  function fitRadius() {
+    const b = L.latLng(MIT).toBounds(RADIUS_M * 2);
+    map.fitBounds(b, wide.matches ? { paddingTopLeft: [412, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.47] });
+  }
+  fitRadius();
+
+  const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const base = { water: [], parks: [], rail: [], minor: [], mid: [], major: [], radius: null };
+  function styleBase() {
+    const z = map.getZoom(), k = Math.max(0.6, (z - 13) / 2.5);
+    base.water.forEach((l) => l.setStyle({ stroke: false, fillColor: css("--water"), fillOpacity: 1 }));
+    base.parks.forEach((l) => l.setStyle({ stroke: false, fillColor: css("--park"), fillOpacity: 1 }));
+    base.rail.forEach((l) => l.setStyle({ color: css("--rail"), weight: 1.5 * k, dashArray: "4 4" }));
+    base.minor.forEach((l) => l.setStyle({ color: css("--road"), weight: 2.2 * k }));
+    base.mid.forEach((l) => l.setStyle({ color: css("--road-mid"), weight: 3.4 * k }));
+    base.major.forEach((l) => l.setStyle({ color: css("--road-major"), weight: 4.6 * k }));
+    if (base.radius) base.radius.setStyle({ color: css("--radius"), weight: 1.5, dashArray: "6 6", fill: false });
+  }
+  base.radius = L.circle(MIT, { radius: RADIUS_M, interactive: false }).addTo(map);
+  L.marker(MIT, { icon: L.divIcon({ className: "", html: '<span class="mit-dot" title="77 Massachusetts Ave"></span>', iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map);
+  AREAS.forEach(([name, lat, lng]) => L.marker([lat, lng], { icon: L.divIcon({ className: "", html: `<span class="area-label">${esc(name)}</span>`, iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map));
+  L.marker([42.3545, -71.0905], { icon: L.divIcon({ className: "", html: '<span class="area-label river">Charles River</span>', iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map);
+
+  // basemap.json stores each line as delta-encoded ints in 1e-5 degrees (see tools/basemap_build.py)
+  function dec(flat, b) {
+    const pts = [];
+    let y = Math.round(b[0] * 1e5), x = Math.round(b[1] * 1e5);
+    for (let i = 0; i < flat.length; i += 2) { y += flat[i]; x += flat[i + 1]; pts.push([y / 1e5, x / 1e5]); }
+    return pts;
+  }
+  fetch("basemap.json").then((r) => r.json()).then((bm) => {
+    const opt = { interactive: false, smoothFactor: 1 }, b = bm.base;
+    bm.water.forEach((p) => base.water.push(L.polygon(p.map((r) => dec(r, b)), opt).addTo(map)));
+    bm.parks.forEach((p) => base.parks.push(L.polygon(p.map((r) => dec(r, b)), opt).addTo(map)));
+    bm.rail.forEach((p) => base.rail.push(L.polyline(dec(p, b), opt).addTo(map)));
+    ["minor", "mid", "major"].forEach((c) => bm.roads[c].forEach((p) => base[c].push(L.polyline(dec(p, b), opt).addTo(map))));
+    base.radius.bringToFront();
+    styleBase();
+  }).catch(() => toast("The street map didn't load. Venues still show, without streets."));
+  map.on("zoomend", styleBase);
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", styleBase);
+  new MutationObserver(styleBase).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+  // venue pins
+  const markers = new Map();
+  function pinFor(v) {
+    const beer = current(v.id, "beer");
+    const cls = ["pin", beer ? "" : "none", S.selected === v.id ? "sel" : "", isHidden(v.id) ? "hid" : ""].filter(Boolean).join(" ");
+    return { html: `<span class="${cls}">${beer ? esc(money(beer.price)) : "?"}</span>`, z: beer ? Math.round(1000 - beer.price * 50) : 0 };
+  }
+  function renderPins() {
+    const seen = new Set();
+    for (const v of visibleVenues()) {
+      seen.add(v.id);
+      const { html, z } = pinFor(v);
+      let m = markers.get(v.id);
+      if (!m) {
+        m = L.marker([v.lat, v.lng], { title: v.name, riseOnHover: true, keyboard: true });
+        m.on("click", () => {
+          if (S.picking) return toast(`${S.venues.get(v.id)?.name || "That venue"} is already on the map. Tap an empty spot.`);
+          select(v.id);
+        });
+        m.addTo(map);
+        markers.set(v.id, m);
+      }
+      m.setLatLng([v.lat, v.lng]);
+      if (m._tfHtml !== html) {
+        m.setIcon(L.divIcon({ className: "pin-wrap", html, iconSize: null }));
+        m._tfHtml = html;
+      }
+      m.setZIndexOffset(S.selected === v.id ? 5000 : z);
+    }
+    for (const [id, m] of markers) if (!seen.has(id)) { m.remove(); markers.delete(id); }
+    declutter();
+  }
+
+  // Where tags would overlap, keep the cheapest as a full tag and shrink the rest to dots.
+  function declutter() {
+    const items = [...markers.entries()].map(([id, m]) => ({ id, m, p: map.latLngToContainerPoint(m.getLatLng()), beer: current(id, "beer") }));
+    items.sort((a, b) => (b.id === S.selected) - (a.id === S.selected) || (a.beer ? a.beer.price : 1e9) - (b.beer ? b.beer.price : 1e9));
+    const placed = [];
+    for (const it of items) {
+      const el = it.m.getElement()?.querySelector(".pin");
+      if (!el) continue;
+      const w = (it.beer ? money(it.beer.price).length : 1) * 8 + 18, h = 26;
+      const box = { x1: it.p.x - w / 2 - 2, x2: it.p.x + w / 2 + 2, y1: it.p.y - h - 8, y2: it.p.y + 2 };
+      const hit = it.id !== S.selected && placed.some((b) => box.x1 < b.x2 && box.x2 > b.x1 && box.y1 < b.y2 && box.y2 > b.y1);
+      el.classList.toggle("dot", hit);
+      if (!hit) placed.push(box);
+    }
+  }
+  map.on("zoomend resize", declutter);
+
+  // ---------- sheet ----------
+  const sheet = $("sheet"), head = $("sheetHead"), body = $("sheetBody");
+  $("grip").addEventListener("click", () => sheet.classList.toggle("expanded"));
+
+  function render() {
+    renderPins();
+    if (S.selected && S.venues.has(S.selected)) renderVenue(S.venues.get(S.selected));
+    else { S.selected = null; renderList(); }
+  }
+
+  function renderList() {
+    head.innerHTML = `<h2 class="sheet-title">Cheapest beer nearby</h2>`;
+    if (S.dbState === "loading") { body.innerHTML = `<p class="list-note">Loading venues and prices…</p>`; return; }
+    if (S.dbState === "none") {
+      body.innerHTML = `<div class="notice">Prices live in TabFriendly's shared database, which this view can't reach. Open the app from claude.ai while signed in to see venues and prices.</div>`;
+      return;
+    }
+    const vs = visibleVenues().map((v) => ({ v, beer: current(v.id, "beer"), d: distMi(v.lat, v.lng) }));
+    if (!vs.length) {
+      body.innerHTML = `<div class="notice">No venues yet. Tap <b>+ Add a venue</b> to put the first one on the map.</div>`;
+      return;
+    }
+    vs.sort((a, b) => (a.beer ? a.beer.price : 1e9) - (b.beer ? b.beer.price : 1e9) || a.d - b.d);
+    const priced = vs.filter((x) => x.beer).length;
+    const cheapest = vs[0].beer;
+    let h = `<div class="stat"><span><b>${vs.length}</b> venues</span><span><b>${priced}</b> with a beer price</span>${cheapest ? `<span>from <b>${esc(money(cheapest.price))}</b></span>` : ""}</div><ul class="list">`;
+    for (const { v, beer, d } of vs) {
+      const priceCell = beer
+        ? `<span class="row-price">${esc(money(beer.price))}<small>${esc(perOz(beer) || (beer.oz ? beer.oz + " oz" : "size n/a"))}</small></span>`
+        : `<span class="row-price none">Add price</span>`;
+      h += `<li><button class="row" type="button" data-v="${esc(v.id)}"><span class="row-name">${esc(v.name)}</span>${priceCell}<span class="row-meta">${beer ? esc(beer.drink) + " · " : ""}${d.toFixed(1)} mi${isHidden(v.id) ? " · hidden" : ""}</span></button></li>`;
+    }
+    h += `</ul><p class="list-note">Prices come from published menus and from people like you. Spot a wrong one? Open the venue and update it.</p>`;
+    body.innerHTML = h;
+    body.querySelectorAll("[data-v]").forEach((b) => b.addEventListener("click", () => select(b.dataset.v, true)));
+  }
+
+  function drinkBlock(v, kind) {
+    const r = current(v.id, kind);
+    const label = kind === "beer" ? "Cheapest beer" : "Cheapest mixed drink";
+    let src = "";
+    if (r) {
+      if (r.source === "user") {
+        src = `<span class="user">User-reported</span><span>${esc(fmtDay(r.at))}</span>${r.note ? `<span>“${esc(r.note)}”</span>` : ""}`;
+      } else {
+        const u = safeUrl(r.sourceUrl);
+        src = `<span>Source: ${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>` : "published menu"}</span><span>${esc(checked(r.sourceDate))}</span>`;
+      }
+      if (r.hasPhoto) src += `<button class="btn small ghost" type="button" data-photo="${esc(r.id)}">Menu photo</button>`;
+    }
+    const detail = r
+      ? `<span class="drink-p">${esc(money(r.price))}</span><span class="drink-d"><strong>${esc(r.drink)}</strong><span>${kind === "beer" ? (r.oz ? esc(r.oz + " oz · " + perOz(r)) : "pour size not listed") : "mixed drink"}</span></span>`
+      : `<span class="drink-p none">No price yet</span><span></span>`;
+    const canPost = S.canWrite !== false && !S.readOnlyAfterRefusal;
+    return `<div class="drink"><span class="drink-k">${label}</span>${detail}${r ? `<div class="drink-src">${src}</div>` : ""}${canPost ? `<div class="drink-actions"><button class="btn small ${r ? "" : "tag"}" type="button" data-report="${kind}">${r ? "Update price" : "Add price"}</button></div>` : ""}</div>`;
+  }
+
+  function renderVenue(v) {
+    head.innerHTML = `<button class="btn small ghost" type="button" id="backBtn" aria-label="Back to list">←</button><h2 class="sheet-title">${esc(v.name)}</h2>`;
+    const d = distMi(v.lat, v.lng);
+    let h = `<div class="v-meta"><span class="chip">${v.type === "restaurant" ? "Restaurant" : "Bar"}</span>${v.address ? `<span>${esc(v.address)}</span>` : ""}<span>${d.toFixed(2)} mi from MIT</span>${safeUrl(v.website) ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}</div>`;
+    if (v.note) h += `<div class="notice">${esc(v.note)}</div>`;
+    if (isHidden(v.id)) h += `<div class="notice">This venue is hidden from everyone but editors. <button class="btn small" type="button" data-mod-restore="${esc(v.id)}">Restore venue</button></div>`;
+    h += drinkBlock(v, "beer") + drinkBlock(v, "mixed");
+    if (S.canWrite === false || S.readOnlyAfterRefusal) h += `<div class="notice">You can view prices but not post them. Ask the TabFriendly team for Contributor access to submit.</div>`;
+    const hist = reportsFor(v.id).filter((r) => S.canMod || !isHidden(r.id));
+    if (hist.length) {
+      h += `<details class="hist" id="hist"${S.histOpen ? " open" : ""}><summary>Price history (${hist.length})</summary>`;
+      for (const r of hist) {
+        const hidden = isHidden(r.id);
+        h += `<div class="hist-item${hidden ? " hidden-r" : ""}"><span>${r.kind === "beer" ? "Beer" : "Mixed"} · ${esc(r.drink)}${r.oz ? " · " + esc(r.oz) + " oz" : ""}</span><span class="hp">${esc(money(r.price))}</span>`
+          + `<span class="hm">${r.source === "user" ? "User-reported " + esc(fmtDay(r.at)) + (S.me && r.by === S.me ? " (you)" : "") : "From " + esc(hostOf(r.sourceUrl) || "published menu") + ", " + esc(checked(r.sourceDate))}${r.note ? " · “" + esc(r.note) + "”" : ""}</span>`;
+        const acts = [];
+        if (r.hasPhoto) acts.push(`<button class="btn small" type="button" data-photo="${esc(r.id)}">Menu photo</button>`);
+        if (S.canMod) acts.push(hidden ? `<button class="btn small" type="button" data-mod-restore="${esc(r.id)}">Restore</button>` : `<button class="btn small" type="button" data-mod-hide="${esc(r.id)}">Hide as wrong</button>`);
+        if (acts.length) h += `<span class="ha">${acts.join("")}</span>`;
+        h += `</div>`;
+      }
+      h += `</details>`;
+    }
+    if (S.canMod && !isHidden(v.id)) h += `<p style="margin-top:14px"><button class="btn small" type="button" data-mod-hide="${esc(v.id)}">Hide this venue</button></p>`;
+    body.innerHTML = h;
+    $("backBtn").addEventListener("click", () => select(null));
+    $("hist")?.addEventListener("toggle", (e) => (S.histOpen = e.target.open));
+    body.querySelectorAll("[data-report]").forEach((b) => b.addEventListener("click", () => openPriceForm(v.id, b.dataset.report)));
+    body.querySelectorAll("[data-photo]").forEach((b) => b.addEventListener("click", () => showPhoto(b.dataset.photo)));
+    body.querySelectorAll("[data-mod-hide]").forEach((b) => b.addEventListener("click", () => setHidden(b.dataset.modHide, true)));
+    body.querySelectorAll("[data-mod-restore]").forEach((b) => b.addEventListener("click", () => setHidden(b.dataset.modRestore, false)));
+  }
+
+  function select(id, pan) {
+    if (id !== S.selected) S.histOpen = false;
+    S.selected = id;
+    render();
+    if (id) {
+      body.scrollTop = 0;
+      const v = S.venues.get(id);
+      if (v && (pan || !map.getBounds().pad(-0.15).contains([v.lat, v.lng]))) map.panTo([v.lat, v.lng]);
+    }
+  }
+
+  // ---------- toast / lightbox ----------
+  let toastT;
+  function toast(msg) {
+    const t = $("toast");
+    t.textContent = msg; t.hidden = false;
+    clearTimeout(toastT); toastT = setTimeout(() => (t.hidden = true), 3500);
+  }
+  async function showPhoto(reportId) {
+    if (!S.db) return;
+    try {
+      const snap = await S.db.doc("photos/" + reportId).get();
+      const data = snap.exists ? snap.data().data : null;
+      if (typeof data !== "string" || !data.startsWith("data:image/")) return toast("That photo isn't available.");
+      $("lightboxImg").src = data; $("lightbox").hidden = false;
+    } catch { toast("Couldn't load the photo. Try again in a moment."); }
+  }
+  $("lightbox").addEventListener("click", () => ($("lightbox").hidden = true));
+
+  // ---------- forms ----------
+  const overlay = $("formOverlay"), form = $("form");
+  function closeForm() { overlay.hidden = true; form.innerHTML = ""; clearDraft(); }
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) closeForm(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (!$("lightbox").hidden) $("lightbox").hidden = true;
+    else if (!overlay.hidden) closeForm();
+    else if (S.picking) stopPick();
+  });
+
+  function writeError(e) {
+    const code = e && e.code;
+    if (code === "invalid_argument") { S.readOnlyAfterRefusal = true; return "You don't have permission to post here. Ask the TabFriendly team for Contributor access."; }
+    if (code === "quota_exceeded") return "The database is full, so nothing new can be saved. Let the TabFriendly team know.";
+    if (code === "resource_exhausted") return "Too many requests at once. Wait a few seconds and try again.";
+    return "Couldn't save right now. Check your connection and try again.";
+  }
+
+  async function shrinkPhoto(file) {
+    const img = await new Promise((res, rej) => {
+      const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = URL.createObjectURL(file);
+    });
+    for (const [max, q] of [[1100, 0.7], [900, 0.6], [700, 0.55], [520, 0.5]]) {
+      const s = Math.min(1, max / Math.max(img.width, img.height));
+      const c = document.createElement("canvas");
+      c.width = Math.round(img.width * s); c.height = Math.round(img.height * s);
+      c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+      const url = c.toDataURL("image/jpeg", q);
+      if (url.length < 230000) return url;
+    }
+    throw new Error("too big");
+  }
+
+  function openPriceForm(venueId, kind, fresh) {
+    const v = S.venues.get(venueId);
+    if (!v) return;
+    let k = kind || "beer";
+    let photo = null;
+    const draw = () => {
+      form.innerHTML = `
+        <h2>${fresh ? "Add a first price" : "Report a price"}</h2>
+        <p class="sub">${esc(v.name)} · it shows on the map right away.</p>
+        <div class="seg" role="group" aria-label="Drink type">
+          <button type="button" id="kBeer" aria-pressed="${k === "beer"}">Cheapest beer</button>
+          <button type="button" id="kMixed" aria-pressed="${k === "mixed"}">Cheapest mixed drink</button>
+        </div>
+        <div class="field"><label for="fDrink">Drink name</label><input id="fDrink" maxlength="80" autocomplete="off" placeholder="${k === "beer" ? "e.g. Narragansett Lager" : "e.g. Well rum & coke"}" required></div>
+        <div class="two">
+          <div class="field"><label for="fPrice">Price ($)</label><input id="fPrice" inputmode="decimal" placeholder="6.00" required></div>
+          ${k === "beer" ? `<div class="field"><label for="fOz">Pour size (oz) <em>optional</em></label><input id="fOz" inputmode="decimal" placeholder="16"></div>` : "<div></div>"}
+        </div>
+        <div class="field"><label for="fNote">Note <em>optional</em></label><input id="fNote" maxlength="200" placeholder="e.g. cash only, cans only"></div>
+        <div class="field"><label for="fPhoto">Menu photo <em>optional</em></label><input id="fPhoto" type="file" accept="image/*"><img id="fPrev" class="photo-prev" alt="" hidden></div>
+        <p class="form-err" id="fErr" hidden></p>
+        <div class="form-actions"><button class="btn" type="button" id="fCancel">${fresh ? "Skip" : "Cancel"}</button><button class="btn tag" type="submit" id="fSubmit">Post price</button></div>`;
+      $("kBeer").onclick = () => { k = "beer"; keepDraw(); };
+      $("kMixed").onclick = () => { k = "mixed"; keepDraw(); };
+      $("fCancel").onclick = closeForm;
+      $("fPhoto").onchange = async (e) => {
+        const f = e.target.files[0]; photo = null; $("fPrev").hidden = true;
+        if (!f) return;
+        try { photo = await shrinkPhoto(f); $("fPrev").src = photo; $("fPrev").hidden = false; }
+        catch { showErr("That photo couldn't be read. Try a JPEG or PNG."); e.target.value = ""; }
+      };
+    };
+    const keepDraw = () => {
+      const keep = { d: $("fDrink").value, p: $("fPrice").value, n: $("fNote").value, o: $("fOz") ? $("fOz").value : "" };
+      draw();
+      $("fDrink").value = keep.d; $("fPrice").value = keep.p; $("fNote").value = keep.n; if ($("fOz")) $("fOz").value = keep.o;
+      if (photo) { $("fPrev").src = photo; $("fPrev").hidden = false; }
+    };
+    const showErr = (m) => { $("fErr").textContent = m; $("fErr").hidden = false; };
+    draw();
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      const drink = $("fDrink").value.trim();
+      const price = Number($("fPrice").value.replace(/[$,\s]/g, ""));
+      const ozRaw = $("fOz") ? $("fOz").value.trim() : "";
+      const oz = ozRaw ? Number(ozRaw.replace(/oz/i, "").trim()) : null;
+      const note = $("fNote").value.trim();
+      if (!drink) return showErr("Enter the drink's name.");
+      if (!(price > 0 && price <= 100)) return showErr("Enter a price between $0.01 and $100.");
+      if (ozRaw && !(oz >= 4 && oz <= 64)) return showErr("Pour size should be between 4 and 64 oz, or leave it blank.");
+      if (!S.db) return showErr("Can't reach the shared database from this view.");
+      $("fSubmit").disabled = true;
+      try {
+        const ref = S.db.collection("reports").doc();
+        if (photo) await S.db.doc("photos/" + ref.id).set({ venueId, data: photo });
+        await ref.set({
+          venueId, kind: k, drink, price: Math.round(price * 100) / 100, oz: oz || null, note: note || null,
+          hasPhoto: !!photo, source: "user", sourceUrl: null, sourceDate: null, by: S.me, at: new Date().toISOString(),
+        });
+        closeForm();
+        toast("Price posted. Thanks!");
+        select(venueId);
+      } catch (err) {
+        showErr(writeError(err));
+        $("fSubmit").disabled = false;
+      }
+    };
+    overlay.hidden = false;
+    setTimeout(() => $("fDrink")?.focus(), 30);
+  }
+
+  // add venue: pick a point, then fill details
+  let draft = null;
+  function clearDraft() { if (draft) { draft.remove(); draft = null; } }
+  function stopPick() { S.picking = false; $("pickHint").hidden = true; document.body.classList.remove("pick-mode"); }
+  $("addVenueBtn").addEventListener("click", () => {
+    if (S.dbState !== "ready") return toast("Venues can't be added from this view.");
+    if (S.canWrite === false || S.readOnlyAfterRefusal) return toast("You need Contributor access to add venues.");
+    S.picking = true; $("pickHint").hidden = false; document.body.classList.add("pick-mode");
+    select(null);
+  });
+  $("pickCancel").addEventListener("click", stopPick);
+  map.on("click", (e) => {
+    if (!S.picking) return;
+    const { lat, lng } = e.latlng;
+    if (distMi(lat, lng) > 1) return toast("That spot is outside the 1-mile circle. Pick a place inside it.");
+    stopPick();
+    clearDraft();
+    draft = L.marker([lat, lng], { icon: L.divIcon({ className: "", html: '<span class="draft-pin">▼</span>', iconSize: [0, 0] }), interactive: false }).addTo(map);
+    openVenueForm(lat, lng);
+  });
+
+  function openVenueForm(lat, lng) {
+    form.innerHTML = `
+      <h2>Add a venue</h2>
+      <p class="sub">${distMi(lat, lng).toFixed(2)} mi from MIT. Next you can add its prices.</p>
+      <div class="field"><label for="vName">Name</label><input id="vName" maxlength="80" autocomplete="off" required></div>
+      <div class="field"><label for="vType">Type</label><select id="vType"><option value="bar">Bar</option><option value="restaurant">Restaurant</option></select></div>
+      <div class="field"><label for="vAddr">Street address <em>optional</em></label><input id="vAddr" maxlength="120" autocomplete="off" placeholder="e.g. 500 Massachusetts Ave"></div>
+      <p class="form-err" id="vErr" hidden></p>
+      <div class="form-actions"><button class="btn" type="button" id="vCancel">Cancel</button><button class="btn primary" type="submit" id="vSubmit">Add venue</button></div>`;
+    $("vCancel").onclick = closeForm;
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      const name = $("vName").value.trim();
+      const err = (m) => { $("vErr").textContent = m; $("vErr").hidden = false; };
+      if (!name) return err("Enter the venue's name.");
+      const dup = [...S.venues.values()].find((v) => v.name.toLowerCase() === name.toLowerCase());
+      if (dup) return err(`${dup.name} is already on the map. Close this and tap its pin to update prices.`);
+      $("vSubmit").disabled = true;
+      try {
+        const ref = S.db.collection("venues").doc();
+        await ref.set({ name, type: $("vType").value, address: $("vAddr").value.trim() || null, lat: +lat.toFixed(6), lng: +lng.toFixed(6), website: null, source: "user", by: S.me, at: new Date().toISOString() });
+        clearDraft();
+        S.venues.set(ref.id, { id: ref.id, name, type: $("vType").value, lat, lng });
+        toast(`${name} added.`);
+        openPriceForm(ref.id, "beer", true);
+      } catch (ex) { err(writeError(ex)); $("vSubmit").disabled = false; }
+    };
+    overlay.hidden = false;
+    setTimeout(() => $("vName").focus(), 30);
+  }
+
+  async function setHidden(id, hidden) {
+    try {
+      if (hidden) await S.db.doc("mod/" + id).set({ hidden: true, by: S.me, at: new Date().toISOString() });
+      else await S.db.doc("mod/" + id).delete();
+      toast(hidden ? "Hidden. The previous price shows again." : "Restored.");
+    } catch (e) { toast(writeError(e)); }
+  }
+
+  // ---------- age gate ----------
+  if (store.get("tf-21") !== "yes") $("gate").hidden = false;
+  $("gateYes").addEventListener("click", () => { store.set("tf-21", "yes"); $("gate").hidden = true; });
+  $("gateNo").addEventListener("click", () => { $("gateMsg").hidden = false; });
+
+  // ---------- data ----------
+  render();
+  (async () => {
+    const [db, user] = await Promise.all([window.claude?.use?.("db") ?? null, window.claude?.use?.("user") ?? null]);
+    if (user) {
+      const [id, can, mod] = await Promise.all([user.id(), user.can("data.write"), user.canEdit()]);
+      S.me = id; S.canWrite = can; S.canMod = mod;
+    }
+    if (!db) { S.dbState = "none"; render(); return; }
+    S.db = db;
+    let got = 0;
+    const ready = () => { if (++got >= 2 && S.dbState === "loading") S.dbState = "ready"; };
+    const onErr = (e) => { if (e.code === "revoked") { S.dbState = "none"; render(); } };
+    db.collection("venues").limit(1000).onSnapshot((snap) => {
+      S.venues = new Map();
+      snap.docs.forEach((d) => {
+        const v = d.data();
+        if (typeof v.lat === "number" && typeof v.lng === "number" && v.name) S.venues.set(d.id, { ...v, id: d.id });
+      });
+      ready(); render();
+    }, onErr);
+    db.collection("reports").orderBy("at", "desc").limit(1000).onSnapshot((snap) => {
+      S.reports = snap.docs.map((d) => ({ ...d.data(), id: d.id }))
+        .filter((r) => r.venueId && (r.kind === "beer" || r.kind === "mixed") && typeof r.price === "number" && r.drink);
+      ready(); render();
+    }, onErr);
+    db.collection("mod").limit(1000).onSnapshot((snap) => {
+      S.mod = new Map(snap.docs.map((d) => [d.id, d.data()]));
+      render();
+    }, onErr);
+  })();
+})();
+</script>

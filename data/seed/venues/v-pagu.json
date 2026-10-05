@@ -1,0 +1,12 @@
+{
+ "name": "Pagu",
+ "type": "restaurant",
+ "address": "310 Massachusetts Ave, Cambridge, MA 02139",
+ "lat": 42.3624,
+ "lng": -71.099,
+ "website": "https://gopagu.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

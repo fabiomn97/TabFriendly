@@ -1,0 +1,946 @@
+[
+ [
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-muddy-charles-pub",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-muddy-charles-pub.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-muddy-charles-pub-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-muddy-charles-pub-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-thirsty-ear-pub",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-thirsty-ear-pub.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-state-park",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-state-park.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-state-park-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-state-park-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-state-park-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-state-park-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-flat-top-johnny-s",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-flat-top-johnny-s.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-flat-top-johnny-s-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-flat-top-johnny-s-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-flat-top-johnny-s-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-flat-top-johnny-s-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-bar-at-eastern-edge-eastern-edge-food-hall",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-bar-at-eastern-edge-eastern-edge-food-hall.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-bar-at-eastern-edge-eastern-edge-food-hall-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-bar-at-eastern-edge-eastern-edge-food-hall-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-bar-at-eastern-edge-eastern-edge-food-hall-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-bar-at-eastern-edge-eastern-edge-food-hall-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-shy-bird-kendall-square",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-shy-bird-kendall-square.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-shy-bird-kendall-square-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-shy-bird-kendall-square-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-shy-bird-kendall-square-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-shy-bird-kendall-square-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-row-34-cambridge",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-row-34-cambridge.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-row-34-cambridge-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-row-34-cambridge-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-row-34-cambridge-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-row-34-cambridge-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-legal-sea-foods-kendall-square",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-legal-sea-foods-kendall-square.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-legal-sea-foods-kendall-square-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-legal-sea-foods-kendall-square-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-legal-sea-foods-kendall-square-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-legal-sea-foods-kendall-square-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-black-sheep-lounge-bar-kendall-hotel",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-black-sheep-lounge-bar-kendall-hotel.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-black-sheep-lounge-bar-kendall-hotel-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-black-sheep-lounge-bar-kendall-hotel-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-black-sheep-lounge-bar-kendall-hotel-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-black-sheep-lounge-bar-kendall-hotel-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-element-50-boston-marriott-cambridge",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-element-50-boston-marriott-cambridge.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-element-50-boston-marriott-cambridge-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-element-50-boston-marriott-cambridge-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-element-50-boston-marriott-cambridge-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-element-50-boston-marriott-cambridge-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-theory-bar-lounge-residence-inn-boston-cambridge",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-theory-bar-lounge-residence-inn-boston-cambridge.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-locke-bar-restaurant",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-locke-bar-restaurant.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-alice-monarch",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-alice-monarch.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-sumiao-hunan-kitchen",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-sumiao-hunan-kitchen.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-sumiao-hunan-kitchen-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-sumiao-hunan-kitchen-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-sumiao-hunan-kitchen-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-sumiao-hunan-kitchen-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-fuji-at-kendall",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-fuji-at-kendall.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-fuji-at-kendall-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-fuji-at-kendall-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-glass-house",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-glass-house.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-glass-house-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-glass-house-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-area-four-technology-square",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-area-four-technology-square.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-area-four-technology-square-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-area-four-technology-square-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-mamaleh-s-delicatessen",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-mamaleh-s-delicatessen.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-mamaleh-s-delicatessen-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-mamaleh-s-delicatessen-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-paperback-tavern-hyatt-regency-boston-cambridge",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-paperback-tavern-hyatt-regency-boston-cambridge.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-paperback-tavern-hyatt-regency-boston-cambridge-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-paperback-tavern-hyatt-regency-boston-cambridge-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-paperback-tavern-hyatt-regency-boston-cambridge-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-paperback-tavern-hyatt-regency-boston-cambridge-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-lamplighter-brewing-co-broadway-taproom",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-lamplighter-brewing-co-broadway-taproom.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-phoenix-landing",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-phoenix-landing.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-phoenix-landing-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-phoenix-landing-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-phoenix-landing-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-phoenix-landing-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-730-tavern-kitchen-patio",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-730-tavern-kitchen-patio.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-730-tavern-kitchen-patio-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-730-tavern-kitchen-patio-beer.json"
+  }
+ ],
+ [
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-730-tavern-kitchen-patio-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-730-tavern-kitchen-patio-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-little-donkey",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-little-donkey.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-little-donkey-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-little-donkey-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-little-donkey-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-little-donkey-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-naco-taco",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-naco-taco.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-naco-taco-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-naco-taco-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-naco-taco-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-naco-taco-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-roxy-s-arcade-formerly-a4cade",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-roxy-s-arcade-formerly-a4cade.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-roxy-s-arcade-formerly-a4cade-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-roxy-s-arcade-formerly-a4cade-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-roxy-s-arcade-formerly-a4cade-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-roxy-s-arcade-formerly-a4cade-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-pagu",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-pagu.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-pagu-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-pagu-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-pagu-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-pagu-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-brick-mortar",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-brick-mortar.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-brick-mortar-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-brick-mortar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-brick-mortar-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-brick-mortar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-viale",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-viale.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-viale-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-viale-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-viale-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-viale-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-la-fabrica-central",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-la-fabrica-central.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-la-fabrica-central-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-la-fabrica-central-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-la-fabrica-central-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-la-fabrica-central-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-fallow-kin",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-fallow-kin.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-fallow-kin-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-fallow-kin-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-fallow-kin-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-fallow-kin-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-koreana",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-koreana.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-koreana-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-koreana-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-koreana-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-koreana-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-miracle-of-science-bar-grill",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-miracle-of-science-bar-grill.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-miracle-of-science-bar-grill-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-miracle-of-science-bar-grill-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-middle-east",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-middle-east.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-middle-east-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-middle-east-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-middle-east-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-middle-east-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-cantab-lounge",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-cantab-lounge.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-manray",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-manray.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-darling",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-darling.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-cloud-spirits",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-cloud-spirits.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-mad-monkfish-formerly-thelonious-monkfish",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-mad-monkfish-formerly-thelonious-monkfish.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-india-pavilion",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-india-pavilion.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-dx-arcade",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-dx-arcade.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-jaho-coffee-roaster-wine-bar",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-jaho-coffee-roaster-wine-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-bukowski-tavern",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-bukowski-tavern.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bukowski-tavern-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-bukowski-tavern-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-bebop",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-bebop.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-bebop-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-bebop-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-bebop-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-bebop-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-dani-s-queer-bar",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-dani-s-queer-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-dani-s-queer-bar-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-dani-s-queer-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-dani-s-queer-bar-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-dani-s-queer-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-d16",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-d16.json"
+  }
+ ],
+ [
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-d16-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-d16-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-d16-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-d16-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-back-bay-social",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-back-bay-social.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-back-bay-social-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-back-bay-social-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-back-bay-social-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-back-bay-social-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-corner-tavern",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-corner-tavern.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-corner-tavern-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-corner-tavern-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-corner-tavern-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-corner-tavern-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-piattini",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-piattini.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-piattini-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-piattini-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-piattini-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-piattini-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-earls-kitchen-bar-prudential",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-earls-kitchen-bar-prudential.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-earls-kitchen-bar-prudential-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-earls-kitchen-bar-prudential-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-earls-kitchen-bar-prudential-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-earls-kitchen-bar-prudential-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-sonsie",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-sonsie.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-sonsie-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-sonsie-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-puro-ceviche-bar",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-puro-ceviche-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-puro-ceviche-bar-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-puro-ceviche-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-abe-louie-s",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-abe-louie-s.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-abe-louie-s-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-abe-louie-s-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-boston-burger-company-boylston",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-boston-burger-company-boylston.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-kings-dining-entertainment-back-bay",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-kings-dining-entertainment-back-bay.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-krasi",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-krasi.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-trident-booksellers-cafe",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-trident-booksellers-cafe.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-capital-grille",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-capital-grille.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-pho-basil",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-pho-basil.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-kenmore",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-kenmore.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-kenmore-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-kenmore-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-kenmore-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-kenmore-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-row-34-kenmore-square",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-row-34-kenmore-square.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-row-34-kenmore-square-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-row-34-kenmore-square-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-row-34-kenmore-square-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-row-34-kenmore-square-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-india-quality-restaurant",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-india-quality-restaurant.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-india-quality-restaurant-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-india-quality-restaurant-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-cornwall-s",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-cornwall-s.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-eastern-standard",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-eastern-standard.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-eastern-standard-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-eastern-standard-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-audubon",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-audubon.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-hojoko",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-hojoko.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-hojoko-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-hojoko-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-hojoko-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-hojoko-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-loretta-s-last-call",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-loretta-s-last-call.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-loretta-s-last-call-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-loretta-s-last-call-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-loretta-s-last-call-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-loretta-s-last-call-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-bill-s-bar",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-bill-s-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bill-s-bar-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-bill-s-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-lansdowne-pub",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-lansdowne-pub.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-lansdowne-pub-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-the-lansdowne-pub-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-cheeky-monkey-brewing-co",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-cheeky-monkey-brewing-co.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-cask-n-flagon",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-cask-n-flagon.json"
+  }
+ ],
+ [
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-cask-n-flagon-beer",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-cask-n-flagon-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-cask-n-flagon-mixed",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\reports\\seed-cask-n-flagon-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-game-on",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-game-on.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-bleacher-bar",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-bleacher-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-bullpen-kitchen-tap",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-the-bullpen-kitchen-tap.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-fuller-s-bu-pub",
+   "file_path": "C:\\Users\\fabio\\OneDrive - Massachusetts Institute of Technology\\Documents\\Git\\TabFriendly\\data\\seed\\venues\\v-fuller-s-bu-pub.json"
+  }
+ ]
+]

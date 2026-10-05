@@ -1,0 +1,14 @@
+{
+ "venueId": "v-element-50-boston-marriott-cambridge",
+ "kind": "mixed",
+ "drink": "New England Mule (Absolut, Grand Marnier, maple walnut, ginger beer)",
+ "price": 20.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.marriott.com/content/dam/marriott-digital/mc/us-canada/hws/b/boscb/en_us/document/assets/mc-boscb-element-50-menu-fall-18510.pdf",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

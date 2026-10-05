@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-phoenix-landing",
+ "kind": "mixed",
+ "drink": "Afterlight (gin, elderflower, cassia, lemon, soda)",
+ "price": 13.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.thephoenixlanding.com/menu/drinks",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

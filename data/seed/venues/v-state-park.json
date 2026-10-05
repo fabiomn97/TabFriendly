@@ -1,0 +1,12 @@
+{
+ "name": "State Park",
+ "type": "bar",
+ "address": "1 Kendall Sq, Bldg 300 (lower level), Cambridge, MA 02139",
+ "lat": 42.3667,
+ "lng": -71.0912,
+ "website": "https://stateparkbar.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-koreana",
+ "kind": "beer",
+ "drink": "Bud Light / Budweiser (bottle)",
+ "price": 5.5,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://koreanaboston.com/menu/drinks/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

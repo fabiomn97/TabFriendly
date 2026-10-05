@@ -1,0 +1,12 @@
+{
+ "name": "Locke Bar & Restaurant",
+ "type": "bar",
+ "address": "6 Broad Canal Way, Cambridge, MA 02142",
+ "lat": 42.3632,
+ "lng": -71.0826,
+ "website": "https://thelockebar.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

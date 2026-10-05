@@ -1,0 +1,12 @@
+{
+ "name": "Back Bay Social",
+ "type": "restaurant",
+ "address": "867 Boylston St, Boston, MA 02116",
+ "lat": 42.3488,
+ "lng": -71.0829,
+ "website": "https://www.backbaysocial.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

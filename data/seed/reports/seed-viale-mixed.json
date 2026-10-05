@@ -1,0 +1,14 @@
+{
+ "venueId": "v-viale",
+ "kind": "mixed",
+ "drink": "Vialé Draft Negroni (all cocktails $16)",
+ "price": 16.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.vialecambridge.com/beer-cocktails",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

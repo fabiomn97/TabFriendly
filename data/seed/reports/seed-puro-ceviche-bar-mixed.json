@@ -1,0 +1,14 @@
+{
+ "venueId": "v-puro-ceviche-bar",
+ "kind": "mixed",
+ "drink": "Pisco Sour",
+ "price": 16.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.purocevichebar.com/items/pisco-sour-2",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

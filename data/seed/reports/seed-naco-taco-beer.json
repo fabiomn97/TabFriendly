@@ -1,0 +1,14 @@
+{
+ "venueId": "v-naco-taco",
+ "kind": "beer",
+ "drink": "Modelo Especial (can/bottle)",
+ "price": 5.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://media-cdn.getbento.com/accounts/2ac88402edb3feed471982e0cbc35b61/media/0VB2zRicQxCQghtJvnby_Naco%20Dine%20In%20Version%207.28.21.pdf",
+ "sourceDate": "2021-07",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

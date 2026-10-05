@@ -1,0 +1,12 @@
+{
+ "name": "Fuji at Kendall",
+ "type": "restaurant",
+ "address": "300 Third St, Cambridge, MA 02142",
+ "lat": 42.3645,
+ "lng": -71.0833,
+ "website": "https://www.fujiatkendall.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

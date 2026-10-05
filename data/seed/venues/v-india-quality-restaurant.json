@@ -1,0 +1,12 @@
+{
+ "name": "India Quality Restaurant",
+ "type": "restaurant",
+ "address": "484 Commonwealth Ave, Boston, MA 02215",
+ "lat": 42.3485,
+ "lng": -71.0942,
+ "website": "https://indiaquality.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

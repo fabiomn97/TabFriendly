@@ -1,0 +1,12 @@
+{
+ "name": "The Bar at Eastern Edge (Eastern Edge Food Hall)",
+ "type": "bar",
+ "address": "290 Main St, Cambridge, MA 02142",
+ "lat": 42.3624,
+ "lng": -71.0875,
+ "website": "https://www.easternedgefoodhall.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

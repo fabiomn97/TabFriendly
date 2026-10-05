@@ -1,0 +1,14 @@
+{
+ "venueId": "v-miracle-of-science-bar-grill",
+ "kind": "beer",
+ "drink": "Any draft (e.g., Von Trapp Helles)",
+ "price": 9.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.miracleofscience.us/",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-fallow-kin",
+ "kind": "beer",
+ "drink": "Brick & Feather German Pilsner",
+ "price": 10.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.fallowkin.com/s/Beverage-Menu-5yh8.pdf",
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

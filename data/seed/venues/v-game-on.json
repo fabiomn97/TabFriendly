@@ -1,0 +1,12 @@
+{
+ "name": "Game On!",
+ "type": "bar",
+ "address": "82 Lansdowne St, Boston, MA 02215",
+ "lat": 42.347,
+ "lng": -71.0985,
+ "website": "https://www.gameonboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
