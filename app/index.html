@@ -881,7 +881,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         ? `<option value="">Not sure</option><option value="draft">Draft</option><option value="bottle">Bottle</option><option value="can">Can</option>`
         : `<option value="">Not sure</option><option value="well">Well drink</option><option value="cocktail">Cocktail</option>`;
       form.innerHTML = `
-        <h2>${fresh ? "Add a first price" : "Report a price"}</h2>
+        <h2>${fresh ? "Add a first price" : current(venueId, k) ? "Update price" : "Report a price"}</h2>
         <p class="sub">${esc(v.name)} · it shows on the map right away.</p>
         <div class="seg" role="group" aria-label="Drink type">
           <button type="button" id="kBeer" aria-pressed="${k === "beer"}">Cheapest beer</button>
@@ -897,8 +897,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         <div class="field"><label for="fPhoto">Menu photo <em>optional</em></label><input id="fPhoto" type="file" accept="image/*"><img id="fPrev" class="photo-prev" alt="" hidden></div>
         <p class="form-err" id="fErr" hidden></p>
         <div class="form-actions"><button class="btn" type="button" id="fCancel">${fresh ? "Skip" : "Cancel"}</button><button class="btn tag" type="submit" id="fSubmit">Post price</button></div>`;
-      $("kBeer").onclick = () => { k = "beer"; keepDraw(); };
-      $("kMixed").onclick = () => { k = "mixed"; keepDraw(); };
+      $("kBeer").onclick = () => { k = "beer"; switchKind(); };
+      $("kMixed").onclick = () => { k = "mixed"; switchKind(); };
       $("fCancel").onclick = closeForm;
       $("fPhoto").onchange = async (e) => {
         const f = e.target.files[0]; photo = null; $("fPrev").hidden = true;
@@ -913,8 +913,24 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       $("fDrink").value = keep.d; $("fPrice").value = keep.p; $("fNote").value = keep.n; if ($("fOz")) $("fOz").value = keep.o;
       if (photo) { $("fPrev").src = photo; $("fPrev").hidden = false; }
     };
+    // Editing an existing price: start from what's posted now so only the changes need typing.
+    const fill = (r) => {
+      $("fDrink").value = r.drink || "";
+      $("fPrice").value = typeof r.price === "number" ? r.price.toFixed(2) : "";
+      $("fServe").value = serveOf(r) || "";
+      $("fNote").value = r.note || "";
+      if ($("fOz")) $("fOz").value = r.oz || "";
+    };
+    // Switching drink type loads that type's posted price, if there is one; otherwise keep what's typed.
+    const switchKind = () => {
+      const r = !fresh && current(venueId, k);
+      if (!r) return keepDraw();
+      draw(); fill(r);
+      if (photo) { $("fPrev").src = photo; $("fPrev").hidden = false; }
+    };
     const showErr = (m) => { $("fErr").textContent = m; $("fErr").hidden = false; };
     draw();
+    if (!fresh && current(venueId, k)) fill(current(venueId, k));
     form.onsubmit = async (e) => {
       e.preventDefault();
       const drink = $("fDrink").value.trim();
