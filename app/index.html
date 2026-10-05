@@ -671,7 +671,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         h += `<div class="drink-src"><span>Source: ${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>` : "published menu"}</span><span>${esc(checked(r.sourceDate))}</span></div>`;
       }
     }
-    if (canPost()) h += `<div class="drink-actions"><button class="btn small ${r ? "" : "tag"}" type="button" data-report="${kind}">${r ? "Update price" : "Add price"}</button></div>`;
+    const acts = [];
+    if (canPost()) acts.push(`<button class="btn small ${r ? "" : "tag"}" type="button" data-report="${kind}">${r ? "Update price" : "Add price"}</button>`);
+    if (S.canMod && r) acts.push(`<button class="btn small danger" type="button" data-del-report="${esc(r.id)}">Delete price</button>`);
+    if (acts.length) h += `<div class="drink-actions">${acts.join("")}</div>`;
     return h + `</div>`;
   }
 
@@ -704,7 +707,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         const t = r.source === "user" ? tally(r.id) : null;
         h += `<div class="hist-item${hidden ? " hidden-r" : ""}"><span>${r.kind === "beer" ? "Beer" : "Mixed"} · ${esc(cleanName(r))}${r.oz ? " · " + esc(r.oz) + " oz" : ""}</span><span class="hp">${esc(money(r.price))}</span>`
           + `<span class="hm">${r.source === "user" ? "User-reported " + esc(fmtDay(r.at)) + (S.me && r.by === S.me ? " (you)" : "") + (t && (t.up || t.down) ? ` · ${t.up} yes / ${t.down} no` : "") : "From " + esc(hostOf(r.sourceUrl) || "published menu") + ", " + esc(checked(r.sourceDate))}${r.note ? " · “" + esc(r.note) + "”" : ""}</span>`;
-        if (S.canMod) h += `<span class="ha">${hidden ? `<button class="btn small" type="button" data-mod-restore="${esc(r.id)}">Restore</button>` : `<button class="btn small" type="button" data-mod-hide="${esc(r.id)}">Hide as wrong</button>`}</span>`;
+        if (S.canMod) h += `<span class="ha">${hidden ? `<button class="btn small" type="button" data-mod-restore="${esc(r.id)}">Restore</button>` : `<button class="btn small" type="button" data-mod-hide="${esc(r.id)}">Hide as wrong</button>`}<button class="btn small danger" type="button" data-del-report="${esc(r.id)}">Delete</button></span>`;
         h += `</div>`;
       }
       h += `</details>`;
@@ -719,7 +722,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     $("backBtn").addEventListener("click", () => select(null));
     $("hist")?.addEventListener("toggle", (e) => (S.histOpen = e.target.open));
     $("addPhotoBtn")?.addEventListener("click", () => { $("photoPick").value = ""; $("photoPick").click(); });
-    $("delVenueBtn")?.addEventListener("click", (e) => armDelete(e.currentTarget, v));
+    $("delVenueBtn")?.addEventListener("click", (e) => armConfirm(e.currentTarget, () => deleteVenue(v)));
+    body.querySelectorAll("[data-del-report]").forEach((b) => b.addEventListener("click", () => {
+      const r = S.reports.find((x) => x.id === b.dataset.delReport);
+      if (r) armConfirm(b, () => deleteReport(r));
+    }));
     body.querySelectorAll("[data-report]").forEach((b) => b.addEventListener("click", () => openPriceForm(v.id, b.dataset.report)));
     body.querySelectorAll("[data-photo]").forEach((b) => b.addEventListener("click", () => showPhoto(b.dataset.photo)));
     body.querySelectorAll("[data-vote]").forEach((b) => b.addEventListener("click", () => vote(b.dataset.vote, Number(b.dataset.val))));
@@ -818,15 +825,28 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     } catch (e) { toast(writeError(e)); }
   }
 
-  // Delete asks for a second tap (the viewer blocks confirm() dialogs).
-  function armDelete(btn, v) {
+  // Deletes ask for a second tap (the viewer blocks confirm() dialogs).
+  function armConfirm(btn, run) {
     if (!btn.classList.contains("armed")) {
+      const label = btn.textContent;
       btn.classList.add("armed");
       btn.textContent = "Tap again to delete for good";
-      setTimeout(() => { if (btn.isConnected) { btn.classList.remove("armed"); btn.textContent = "Delete venue"; } }, 5000);
+      setTimeout(() => { if (btn.isConnected) { btn.classList.remove("armed"); btn.textContent = label; } }, 5000);
       return;
     }
-    deleteVenue(v);
+    btn.disabled = true;
+    run();
+  }
+  // Remove one price report; the venue's next most recent price (if any) becomes current.
+  async function deleteReport(r) {
+    try {
+      if (r.hasPhoto) await S.db.doc("photos/" + r.id).delete();
+      if (S.mod.has(r.id)) await S.db.doc("mod/" + r.id).delete();
+      await S.db.doc("reports/" + r.id).delete();
+      const next = reportsFor(r.venueId).find((x) => x.id !== r.id && x.kind === r.kind && !isHidden(x.id));
+      const what = r.kind === "beer" ? "beer" : "mixed drink";
+      toast(next ? `Price deleted. The previous ${what} price, ${money(next.price)}, shows now.` : `Price deleted. This venue has no ${what} price now.`);
+    } catch (e) { toast(writeError(e)); }
   }
   async function deleteVenue(v) {
     const id = v.id;
