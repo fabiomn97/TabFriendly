@@ -1,7 +1,7 @@
 <title>TabFriendly</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@500;600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=IBM+Plex+Mono:wght@500;600&family=Instrument+Sans:wght@400;500;600&display=swap">
 <style>
 /* Leaflet 1.9.4 base styles (inlined: the artifact CSP blocks external stylesheets) */
 .leaflet-image-layer,.leaflet-layer,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-pane,.leaflet-pane>canvas,.leaflet-pane>svg,.leaflet-tile,.leaflet-tile-container,.leaflet-zoom-box{position:absolute;left:0;top:0}.leaflet-container{overflow:hidden}.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;user-select:none;display:block}.leaflet-container .leaflet-overlay-pane svg{max-width:none!important;max-height:none!important}.leaflet-container.leaflet-touch-zoom{touch-action:pan-x pan-y}.leaflet-container.leaflet-touch-drag{touch-action:none;touch-action:pinch-zoom}.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{touch-action:none}.leaflet-container{-webkit-tap-highlight-color:transparent}.leaflet-zoom-box{width:0;height:0;box-sizing:border-box;z-index:800}.leaflet-pane{z-index:400}.leaflet-overlay-pane{z-index:400}.leaflet-marker-pane{z-index:600}.leaflet-tooltip-pane{z-index:650}.leaflet-popup-pane{z-index:700}.leaflet-map-pane canvas{z-index:100}.leaflet-map-pane svg{z-index:200}.leaflet-control{position:relative;z-index:800;pointer-events:auto;float:left;clear:both}.leaflet-bottom,.leaflet-top{position:absolute;z-index:1000;pointer-events:none}.leaflet-top{top:0}.leaflet-right{right:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}.leaflet-right .leaflet-control{float:right}.leaflet-top .leaflet-control{margin-top:10px}.leaflet-bottom .leaflet-control{margin-bottom:10px}.leaflet-left .leaflet-control{margin-left:10px}.leaflet-right .leaflet-control{margin-right:10px}.leaflet-zoom-animated{transform-origin:0 0}svg.leaflet-zoom-animated{will-change:transform}.leaflet-zoom-anim .leaflet-zoom-animated{transition:transform .25s cubic-bezier(0,0,.25,1)}.leaflet-zoom-anim .leaflet-zoom-hide{visibility:hidden}.leaflet-interactive{cursor:pointer}.leaflet-grab{cursor:grab}.leaflet-crosshair,.leaflet-crosshair .leaflet-interactive{cursor:crosshair}.leaflet-control{cursor:auto}.leaflet-dragging .leaflet-grab,.leaflet-dragging .leaflet-grab .leaflet-interactive{cursor:grabbing}.leaflet-image-layer,.leaflet-marker-icon,.leaflet-pane>svg path{pointer-events:none}.leaflet-marker-icon.leaflet-interactive,.leaflet-pane>svg path.leaflet-interactive{pointer-events:auto}.leaflet-bar a{display:block;text-align:center;text-decoration:none}.leaflet-control-zoom-in,.leaflet-control-zoom-out{font:600 20px/1 var(--f-body);text-indent:0}.leaflet-control-attribution{padding:0 6px;line-height:1.5}
@@ -15,8 +15,13 @@
   --line: #dde2e7;
   --tag: #f2b233;          /* amber price tag: the one bold color */
   --tag-ink: #1b1710;
+  --sign: #1b1710;         /* the bar-sign logo plate; dark in both themes */
+  --sign-text: #fff6e0;
+  --sign-edge: transparent;
   --tag-dim: #c9ced4;
   --tag-dim-ink: #3f4752;
+  --best: #1f8a4c;         /* three cheapest */
+  --best-ink: #ffffff;
   --link: #1f5f99;
   --ok: #2f7d4f;
   --danger: #b4372f;
@@ -37,7 +42,8 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #101317; --surface: #181d23; --fg: #e8ebee; --muted: #9aa4af; --line: #2a3139;
-    --tag: #f2b233; --tag-ink: #1b1710; --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3;
+    --tag: #f2b233; --tag-ink: #1b1710; --sign: #1b1710; --sign-text: #fff6e0; --sign-edge: #4a4130;
+    --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3; --best: #3fb06f; --best-ink: #0b1a10;
     --link: #8cc0ee; --ok: #6cc28f; --danger: #ef7d74;
     --land: #171b20; --road: #262c34; --road-mid: #2f343b; --road-major: #4a4130; --water: #13324a;
     --park: #1b2a20; --rail: #3a424c; --radius: #8cc0ee; --label: #7f8a96;
@@ -47,7 +53,8 @@
 }
 :root[data-theme="dark"] {
   --bg: #101317; --surface: #181d23; --fg: #e8ebee; --muted: #9aa4af; --line: #2a3139;
-  --tag: #f2b233; --tag-ink: #1b1710; --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3;
+  --tag: #f2b233; --tag-ink: #1b1710; --sign: #1b1710; --sign-text: #fff6e0; --sign-edge: #4a4130;
+  --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3; --best: #3fb06f; --best-ink: #0b1a10;
   --link: #8cc0ee; --ok: #6cc28f; --danger: #ef7d74;
   --land: #171b20; --road: #262c34; --road-mid: #2f343b; --road-major: #4a4130; --water: #13324a;
   --park: #1b2a20; --rail: #3a424c; --radius: #8cc0ee; --label: #7f8a96;
@@ -63,35 +70,53 @@ button, input, select, textarea { font: inherit; color: inherit; }
 button { cursor: pointer; }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 a { color: var(--link); }
+.ico { width: 16px; height: 16px; flex: none; }
 
 #app { position: relative; height: 100%; display: grid; grid-template-rows: auto 1fr; }
 
 /* top bar */
 .bar {
-  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
-  padding: 10px 16px; background: var(--surface); border-bottom: 1px solid var(--line); z-index: 1100;
+  display: flex; align-items: center; gap: 12px;
+  padding: 8px 16px; background: var(--surface); border-bottom: 1px solid var(--line); position: relative; z-index: 1100;
 }
-.brand { display: flex; align-items: baseline; gap: 10px; min-width: 0; margin-right: auto; }
-.brand h1 { margin: 0; font: 800 28px/1 var(--f-display); letter-spacing: .01em; text-transform: uppercase; }
-.brand h1 span { background: var(--tag); color: var(--tag-ink); padding: 0 6px; border-radius: 3px; margin-left: 2px; }
+.brand { display: flex; align-items: center; gap: 12px; min-width: 0; margin-right: auto; }
 .brand p { margin: 0; color: var(--muted); font-size: 13px; }
-@media (max-width: 560px) {
-  .brand p { display: none; }
-  .bar { flex-wrap: nowrap; padding-block: 8px; }
-  .brand h1 { font-size: 24px; }
-  .add-long { display: none; }
+
+/* logo: a bar-sign plate with a pint glass breaking out of its left edge */
+.sign {
+  display: inline-flex; align-items: center; gap: 2px; margin: 0;
+  background: var(--sign); border: 1px solid var(--sign-edge); border-radius: 8px;
+  padding: 3px 12px 3px 4px; position: relative; white-space: nowrap;
+  font: 900 26px/1 var(--f-display); letter-spacing: .02em; text-transform: uppercase;
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--tag) 35%, transparent);
 }
+.sign svg { width: 38px; height: 38px; margin: -9px 2px -7px -2px; filter: drop-shadow(0 1px 0 rgba(0,0,0,.25)); }
+.sign .t1 { color: var(--sign-text); }
+.sign .t2 { color: var(--tag); }
+.sign.big { font-size: 46px; padding: 6px 18px 6px 8px; border-radius: 12px; }
+.sign.big svg { width: 64px; height: 64px; margin: -14px 4px -10px -4px; }
+
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
-  padding: 8px 12px; font-weight: 600; font-size: 14px; min-height: 40px;
+  padding: 8px 12px; font-weight: 600; font-size: 14px; min-height: 40px; white-space: nowrap;
 }
 .btn:hover { border-color: var(--muted); }
 .btn.primary { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 .btn.tag { background: var(--tag); color: var(--tag-ink); border-color: var(--tag); }
 .btn.ghost { border-color: transparent; background: transparent; }
+.btn.danger { color: var(--danger); }
+.btn.danger.armed { background: var(--danger); color: var(--surface); border-color: var(--danger); }
 .btn.small { min-height: 32px; padding: 4px 10px; font-size: 13px; }
 .btn[disabled] { opacity: .5; cursor: not-allowed; }
+.btn[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+
+@media (max-width: 560px) {
+  .brand p { display: none; }
+  .sign { font-size: 22px; }
+  .sign svg { width: 32px; height: 32px; }
+  .add-long { display: none; }
+}
 
 /* map */
 #mapWrap { position: relative; min-height: 0; }
@@ -121,12 +146,16 @@ a { color: var(--link); }
   background: inherit; border-right: 1.5px solid var(--tag-ink); border-bottom: 1.5px solid var(--tag-ink);
   transform: rotate(45deg); border-bottom-right-radius: 2px;
 }
+.pin em { font: 500 12px/1 var(--f-body); font-style: normal; margin-left: 6px; }
+.pin.best { background: var(--best); color: var(--best-ink); border-color: var(--best-ink); }
+.pin.best::after { border-color: var(--best-ink); }
 .pin.none { background: var(--tag-dim); color: var(--tag-dim-ink); border-color: var(--tag-dim-ink); }
 .pin.none::after { border-color: var(--tag-dim-ink); }
-.pin.sel { transform: translateX(-50%) scale(1.22); z-index: 2; background: var(--fg); color: var(--bg); border-color: var(--bg); }
+.pin.sel { transform: translateX(-50%) scale(1.15); z-index: 2; background: var(--fg); color: var(--bg); border-color: var(--bg); }
 .pin.sel::after { border-color: var(--bg); }
 .pin.hid { opacity: .45; border-style: dashed; }
 .pin.dot { font-size: 0; padding: 0; width: 12px; height: 12px; border-radius: 50%; bottom: -6px; border-width: 1.5px; }
+.pin.dot em { display: none; }
 .pin.dot::after { display: none; }
 .pick-mode #map { cursor: crosshair; }
 .draft-pin { position: absolute; transform: translate(-50%, -100%); font: 600 22px/1 var(--f-body); color: var(--danger); }
@@ -135,22 +164,33 @@ a { color: var(--link); }
 .sheet {
   position: absolute; z-index: 1050; background: var(--surface); box-shadow: var(--shadow);
   display: flex; flex-direction: column; min-height: 0;
-  left: 0; right: 0; bottom: 0; max-height: 46%; border-radius: 14px 14px 0 0;
+  left: 0; right: 0; bottom: 0; max-height: 50%; border-radius: 14px 14px 0 0;
   padding-bottom: env(safe-area-inset-bottom, 0px);
   transition: max-height .2s ease;
 }
 .sheet.expanded { max-height: 86%; }
-.sheet-head { display: flex; align-items: center; gap: 8px; padding: 6px 16px 8px; border-bottom: 1px solid var(--line); }
+.sheet-head { display: flex; align-items: center; gap: 8px; padding: 6px 16px 8px; }
 .sheet-grip { display: block; width: 44px; height: 5px; border-radius: 3px; background: var(--line); margin: 8px auto 2px; border: 0; padding: 0; }
 .sheet-title { font: 800 20px/1.1 var(--f-display); text-transform: uppercase; letter-spacing: .02em; margin: 0; flex: 1; min-width: 0; text-wrap: balance; }
-.sheet-body { overflow-y: auto; padding: 4px 16px 16px; min-height: 0; overscroll-behavior: contain; }
+.sheet-body { overflow-y: auto; padding: 4px 16px 16px; min-height: 0; overscroll-behavior: contain; border-top: 1px solid var(--line); }
 @media (min-width: 900px) {
-  .sheet { left: 16px; top: 16px; bottom: 16px; right: auto; width: 380px; max-height: none; border-radius: 12px; }
+  .sheet { left: 16px; top: 16px; bottom: 16px; right: auto; width: 390px; max-height: none; border-radius: 12px; }
   .sheet.expanded { max-height: none; }
   .sheet-grip { display: none; }
   .sheet-head { padding-top: 12px; }
-  .leaflet-left .leaflet-control { margin-left: 412px; }
+  .leaflet-left .leaflet-control { margin-left: 422px; }
 }
+
+/* list controls */
+.controls { display: grid; gap: 8px; padding: 0 16px 10px; }
+.seg { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button { border: 0; background: var(--bg); padding: 8px 6px; font-weight: 600; font-size: 13px; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.filter { display: grid; grid-template-columns: auto 1fr 3.6em; align-items: center; gap: 10px; font-size: 13px; }
+.filter label { font-weight: 600; }
+.filter input { width: 100%; accent-color: var(--best); }
+.filter output { font: 600 13px/1 var(--f-mono); text-align: right; }
 
 /* list */
 .list { list-style: none; margin: 0; padding: 0; }
@@ -160,26 +200,37 @@ a { color: var(--link); }
 }
 .row:hover .row-name { text-decoration: underline; }
 .row-name { font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.row-meta { color: var(--muted); font-size: 13px; grid-column: 1; }
+.row-meta { color: var(--muted); font-size: 13px; grid-column: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .row-price { grid-row: 1 / span 2; grid-column: 2; text-align: right; font: 600 17px/1.2 var(--f-mono); font-variant-numeric: tabular-nums; }
 .row-price small { display: block; font: 500 12px/1.3 var(--f-mono); color: var(--muted); }
 .row-price.none { color: var(--muted); font-size: 13px; font-family: var(--f-body); font-weight: 500; }
+.row.best .row-price b { background: var(--best); color: var(--best-ink); padding: 2px 6px; border-radius: 5px; font-weight: 600; }
+.best-chip { display: inline-block; margin-left: 6px; font: 600 10px/1.6 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--best); vertical-align: 2px; }
 .list-note { color: var(--muted); font-size: 13px; margin: 10px 0 2px; }
-.stat { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--muted); padding: 8px 0 4px; }
+.stat { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); padding: 8px 0 4px; }
 .stat b { color: var(--fg); font-family: var(--f-mono); font-weight: 600; }
 
 /* venue card */
-.v-meta { color: var(--muted); font-size: 13px; margin: 6px 0 10px; display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.v-meta { color: var(--muted); font-size: 13px; margin: 8px 0 10px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
 .chip { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 2px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
 .drink { border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin-bottom: 10px; }
+.drink.best { border-color: var(--best); box-shadow: inset 3px 0 0 var(--best); }
 .drink-k { grid-column: 1 / -1; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.drink-k .best-chip { margin-left: 4px; vertical-align: 0; }
 .drink-p { font: 600 30px/1 var(--f-mono); font-variant-numeric: tabular-nums; align-self: center; }
 .drink-p.none { font: 500 15px/1.3 var(--f-body); color: var(--muted); }
-.drink-d { min-width: 0; align-self: center; }
-.drink-d strong { display: block; font-weight: 600; overflow-wrap: anywhere; }
-.drink-d span { color: var(--muted); font-size: 13px; font-family: var(--f-mono); }
+.drink-d { min-width: 0; align-self: center; display: grid; gap: 4px; }
+.drink-d strong { font-weight: 600; font-size: 16px; overflow-wrap: anywhere; line-height: 1.25; }
+.drink-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.drink-tags span { font: 500 12px/1 var(--f-mono); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 3px 6px; color: var(--muted); }
 .drink-src { grid-column: 1 / -1; font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; border-top: 1px dashed var(--line); padding-top: 8px; margin-top: 4px; }
 .drink-src .user { color: var(--ok); font-weight: 600; }
+.drink-src .disputed { color: var(--danger); font-weight: 600; }
+.vote { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 13px; }
+.vote > span { color: var(--muted); margin-right: 2px; }
+.vote .btn { min-height: 32px; padding: 3px 10px; font-family: var(--f-mono); font-size: 13px; }
+.vote .btn.on-up { background: var(--ok); color: var(--surface); border-color: var(--ok); }
+.vote .btn.on-down { background: var(--danger); color: var(--surface); border-color: var(--danger); }
 .drink-actions { grid-column: 1 / -1; display: flex; gap: 8px; margin-top: 4px; }
 details.hist { margin-top: 6px; }
 details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; padding: 6px 0; }
@@ -189,6 +240,18 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 .hist-item .hm { color: var(--muted); grid-column: 1 / -1; overflow-wrap: anywhere; }
 .hist-item .ha { grid-column: 1 / -1; display: flex; gap: 6px; flex-wrap: wrap; }
 .notice { font-size: 13px; color: var(--muted); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 10px 0; }
+.photos { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; }
+.photos-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.photos-head h3 { margin: 0; font: 800 16px/1 var(--f-display); text-transform: uppercase; letter-spacing: .04em; }
+.photo-main { display: block; width: 100%; padding: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--bg); }
+.photo-main img { display: block; width: 100%; max-height: 320px; object-fit: cover; object-position: top; }
+.photo-cap { font-size: 12px; color: var(--muted); margin: 6px 0 0; }
+.thumbs { display: flex; gap: 6px; margin-top: 8px; overflow-x: auto; }
+.thumbs button { flex: none; padding: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; width: 64px; height: 64px; background: var(--bg); }
+.thumbs img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-empty { font-size: 13px; color: var(--muted); margin: 0; }
+.editor-zone { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; padding-top: 12px; border-top: 1px dashed var(--line); align-items: center; }
+.editor-zone > span { font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); width: 100%; }
 
 /* overlay form */
 .overlay { position: absolute; inset: 0; z-index: 1300; background: rgba(10, 14, 20, .45); display: flex; align-items: flex-end; justify-content: center; }
@@ -203,11 +266,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 .field input, .field select, .field textarea {
   width: 100%; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 10px 12px; font-size: 16px;
 }
-.field textarea { min-height: 64px; resize: vertical; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.seg { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
-.seg button { border: 0; background: var(--bg); padding: 10px; font-weight: 600; font-size: 14px; }
-.seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.panel .seg { grid-template-columns: 1fr 1fr; margin-bottom: 12px; }
+.panel .seg button { padding: 10px; font-size: 14px; }
 .form-err { color: var(--danger); font-size: 13px; margin: 0 0 10px; }
 .form-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 6px; }
 .photo-prev { max-height: 120px; border-radius: 6px; margin-top: 6px; }
@@ -218,29 +279,52 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 .pick-hint .btn { min-height: 30px; padding: 2px 10px; background: var(--bg); color: var(--fg); border: 0; }
 .toast { position: absolute; z-index: 1400; left: 50%; top: 72px; transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 14px; box-shadow: var(--shadow); max-width: calc(100% - 32px); }
 .gate { position: absolute; inset: 0; z-index: 1500; background: var(--bg); display: grid; place-items: center; padding: 16px; }
-.gate-card { max-width: 380px; text-align: center; }
-.gate-card h2 { font: 800 44px/1 var(--f-display); text-transform: uppercase; margin: 0 0 8px; }
-.gate-card h2 span { background: var(--tag); color: var(--tag-ink); padding: 0 8px; border-radius: 4px; }
-.gate-card p { color: var(--muted); margin: 0 0 18px; }
+.gate-card { max-width: 380px; text-align: center; display: grid; justify-items: center; gap: 18px; }
+.gate-card p { color: var(--muted); margin: 0; }
 .gate-card .btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
-.lightbox { position: absolute; inset: 0; z-index: 1600; background: rgba(0,0,0,.8); display: grid; place-items: center; padding: 16px; }
-.lightbox img { max-height: 90%; border-radius: 8px; }
+.lightbox { position: absolute; inset: 0; z-index: 1600; background: rgba(0,0,0,.85); display: grid; place-items: center; padding: 16px; }
+.lightbox img { max-height: 90%; max-width: 100%; border-radius: 8px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-pint" viewBox="0 0 40 40">
+      <path d="M9 13h18l-1.6 19.2a3 3 0 0 1-3 2.8h-8.8a3 3 0 0 1-3-2.8z" fill="#f2b233" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M26.6 17h3.6a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-4.4" fill="none" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M8 13.4c-.6-3 1.8-5.6 4.8-5 1-2.6 4.2-3.8 6.6-2.3 2.3-1.6 5.6-.9 6.8 1.7 2.6-.1 4.4 2.4 3.6 5.2H8z" fill="#fff6e0" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M14 18.5l.8 11M20.5 18.5l-.4 11" stroke="#fff6e0" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+    </symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M7 10.5V20H4v-9.5h3zm2 9.5h7.6a2 2 0 0 0 2-1.6l1.3-6.2a2 2 0 0 0-2-2.4H14l.8-3.6a1.8 1.8 0 0 0-1.8-2.2L9 10.5V20z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-cam" viewBox="0 0 24 24"><path d="M4 8h3l1.6-2.4h6.8L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  </defs>
+</svg>
 
 <div id="app">
   <header class="bar">
     <div class="brand">
-      <h1>Tab<span>Friendly</span></h1>
-      <p>Cheapest drinks within 1 mile of MIT</p>
+      <h1 class="sign" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span class="t1">Tab</span><span class="t2">Friendly</span></h1>
+      <p>Cheapest drinks within 1 mile of 77 Mass Ave</p>
     </div>
-    <button class="btn" id="addVenueBtn" type="button">+ Add<span class="add-long">&nbsp;a</span>&nbsp;venue</button>
+    <button class="btn" id="addVenueBtn" type="button"><span>+ Add<span class="add-long"> a</span> venue</span></button>
   </header>
   <div id="mapWrap">
-    <div id="map" role="application" aria-label="Map of bars and restaurants near MIT"></div>
+    <div id="map" role="application" aria-label="Map of bars and restaurants near 77 Massachusetts Ave"></div>
     <aside class="sheet" id="sheet" aria-live="polite">
       <button class="sheet-grip" id="grip" type="button" aria-label="Expand or collapse list"></button>
       <div class="sheet-head" id="sheetHead"></div>
+      <div class="controls" id="controls">
+        <div class="seg" role="group" aria-label="What to compare">
+          <button type="button" data-mode="beer" aria-pressed="true">Cheapest beer</button>
+          <button type="button" data-mode="mixed" aria-pressed="false">Cheapest drink</button>
+          <button type="button" data-mode="overall" aria-pressed="false">Overall</button>
+        </div>
+        <div class="filter">
+          <label for="maxPrice">Max price</label>
+          <input type="range" id="maxPrice" min="3" max="20" step="0.5" value="20">
+          <output id="maxOut" for="maxPrice">Any</output>
+        </div>
+      </div>
       <div class="sheet-body" id="sheetBody"></div>
     </aside>
     <div class="pick-hint" id="pickHint" hidden>
@@ -252,17 +336,18 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   <div class="overlay" id="formOverlay" hidden>
     <form class="panel" id="form" novalidate></form>
   </div>
+  <input type="file" id="photoPick" accept="image/*" hidden>
   <div class="lightbox" id="lightbox" hidden><img id="lightboxImg" alt="Menu photo submitted by a user"></div>
   <div class="toast" id="toast" role="status" hidden></div>
   <div class="gate" id="gate" hidden>
     <div class="gate-card">
-      <h2>Tab<span>Friendly</span></h2>
+      <div class="sign big" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span class="t1">Tab</span><span class="t2">Friendly</span></div>
       <p>This map lists drink prices at bars and restaurants. Are you 21 or older?</p>
       <div class="btns">
         <button class="btn primary" type="button" id="gateYes">Yes, I'm 21+</button>
         <button class="btn" type="button" id="gateNo">No</button>
       </div>
-      <p id="gateMsg" hidden style="margin-top:16px">Come back when you're 21. Cheap drinks will still be here.</p>
+      <p id="gateMsg" hidden>Come back when you're 21. Cheap drinks will still be here.</p>
     </div>
   </div>
 </div>
@@ -278,6 +363,12 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     ["Back Bay", 42.3500, -71.0805], ["Kenmore", 42.3482, -71.0965], ["Fenway", 42.3437, -71.1000],
     ["MIT", 42.3612, -71.0950],
   ];
+  const MODES = {
+    beer: { title: "Cheapest beer nearby", label: "beer" },
+    mixed: { title: "Cheapest mixed drinks nearby", label: "mixed drink" },
+    overall: { title: "Cheapest drinks nearby", label: "drink" },
+  };
+  const SLIDER_MAX = 20;
 
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -285,11 +376,15 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     get(k) { try { return localStorage.getItem(k); } catch { return null; } },
     set(k, v) { try { localStorage.setItem(k, v); } catch { /* storage unavailable */ } },
   };
+  const icon = (id, extra = "") => `<svg class="ico" ${extra} aria-hidden="true"><use href="#${id}"/></svg>`;
 
   const S = {
     db: null, dbState: "loading", me: null, canWrite: null, canMod: false,
-    venues: new Map(), reports: [], mod: new Map(),
-    selected: null, picking: false, readOnlyAfterRefusal: false,
+    venues: new Map(), reports: [], mod: new Map(), votes: new Map(),
+    photos: [], photosFor: null, unsubPhotos: null,
+    selected: null, picking: false, readOnlyAfterRefusal: false, histOpen: false,
+    mode: ["beer", "mixed", "overall"].includes(store.get("tf-mode")) ? store.get("tf-mode") : "beer",
+    maxPrice: null, best: new Set(),
   };
 
   // ---------- helpers ----------
@@ -313,6 +408,24 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function hostOf(url) { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; } }
   const safeUrl = (u) => (typeof u === "string" && /^https:\/\//i.test(u) ? u : null);
 
+  // How the drink is served. New reports store it; for researched ones, read it from the name.
+  const SERVE_LABEL = { draft: "Draft", bottle: "Bottle", can: "Can", well: "Well drink", cocktail: "Cocktail" };
+  function serveOf(r) {
+    if (r.serve && SERVE_LABEL[r.serve]) return r.serve;
+    const n = (r.drink || "").toLowerCase();
+    if (r.kind === "beer") {
+      if (/draft|draught|on tap|shorty|cup/.test(n)) return "draft";
+      if (/\bcan\b|cans/.test(n) && !/bottle/.test(n)) return "can";
+      if (/bottle/.test(n) && !/\bcan\b/.test(n)) return "bottle";
+      return null;
+    }
+    return /\bwell\b/.test(n) ? "well" : "cocktail";
+  }
+  // The drink name without the serving words already shown as a tag.
+  function cleanName(r) {
+    return (r.drink || "").replace(/\s*\((draft|draught|bottle|can|can\/bottle|bottle\/can|bottle or can)[^)]*\)\s*$/i, "").trim() || r.drink;
+  }
+
   const isHidden = (id) => S.mod.get(id)?.hidden === true;
   function reportsFor(venueId) {
     return S.reports.filter((r) => r.venueId === venueId).sort((a, b) => (b.at || "").localeCompare(a.at || ""));
@@ -320,8 +433,33 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function current(venueId, kind) {
     return reportsFor(venueId).find((r) => r.kind === kind && !isHidden(r.id)) || null;
   }
-  function visibleVenues() {
+  // The report the current mode compares on.
+  function pick(venueId, mode = S.mode) {
+    if (mode !== "overall") return current(venueId, mode);
+    const b = current(venueId, "beer"), m = current(venueId, "mixed");
+    if (!b) return m;
+    if (!m) return b;
+    return m.price < b.price ? m : b;
+  }
+  function allVenues() {
     return [...S.venues.values()].filter((v) => S.canMod || !isHidden(v.id));
+  }
+  // Venues that pass the price filter, plus their priced report for the mode.
+  function shownVenues() {
+    return allVenues().map((v) => ({ v, r: pick(v.id) })).filter(({ r }) => S.maxPrice == null || (r && r.price <= S.maxPrice));
+  }
+  function computeBest(items) {
+    const priced = items.filter((x) => x.r && !isHidden(x.v.id)).sort((a, b) => a.r.price - b.r.price || distMi(a.v.lat, a.v.lng) - distMi(b.v.lat, b.v.lng));
+    S.best = new Set(priced.slice(0, 3).map((x) => x.v.id));
+  }
+  function tally(reportId) {
+    let up = 0, down = 0, mine = 0;
+    for (const [uid, doc] of S.votes) {
+      const v = doc[reportId];
+      if (v === 1) up++; else if (v === -1) down++;
+      if (uid === S.me && (v === 1 || v === -1)) mine = v;
+    }
+    return { up, down, mine };
   }
 
   // ---------- map ----------
@@ -335,7 +473,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   const wide = matchMedia("(min-width: 900px)");
   function fitRadius() {
     const b = L.latLng(MIT).toBounds(RADIUS_M * 2);
-    map.fitBounds(b, wide.matches ? { paddingTopLeft: [412, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.47] });
+    map.fitBounds(b, wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] });
   }
   fitRadius();
 
@@ -378,16 +516,21 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   // venue pins
   const markers = new Map();
-  function pinFor(v) {
-    const beer = current(v.id, "beer");
-    const cls = ["pin", beer ? "" : "none", S.selected === v.id ? "sel" : "", isHidden(v.id) ? "hid" : ""].filter(Boolean).join(" ");
-    return { html: `<span class="${cls}">${beer ? esc(money(beer.price)) : "?"}</span>`, z: beer ? Math.round(1000 - beer.price * 50) : 0 };
+  function pinFor(v, r) {
+    const sel = S.selected === v.id;
+    const cls = ["pin", r ? (S.best.has(v.id) ? "best" : "") : "none", sel ? "sel" : "", isHidden(v.id) ? "hid" : ""].filter(Boolean).join(" ");
+    let label = r ? esc(money(r.price)) : "?";
+    if (sel && r) {
+      const n = cleanName(r);
+      label += `<em>${esc(n.length > 24 ? n.slice(0, 23) + "…" : n)}</em>`;
+    }
+    return { html: `<span class="${cls}">${label}</span>`, z: r ? Math.round(1000 - r.price * 40) : 0 };
   }
-  function renderPins() {
+  function renderPins(items) {
     const seen = new Set();
-    for (const v of visibleVenues()) {
+    for (const { v, r } of items) {
       seen.add(v.id);
-      const { html, z } = pinFor(v);
+      const { html, z } = pinFor(v, r);
       let m = markers.get(v.id);
       if (!m) {
         m = L.marker([v.lat, v.lng], { title: v.name, riseOnHover: true, keyboard: true });
@@ -403,7 +546,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         m.setIcon(L.divIcon({ className: "pin-wrap", html, iconSize: null }));
         m._tfHtml = html;
       }
-      m.setZIndexOffset(S.selected === v.id ? 5000 : z);
+      m.setZIndexOffset(S.selected === v.id ? 6000 : S.best.has(v.id) ? 3000 + z : z);
     }
     for (const [id, m] of markers) if (!seen.has(id)) { m.remove(); markers.delete(id); }
     declutter();
@@ -411,15 +554,17 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   // Where tags would overlap, keep the cheapest as a full tag and shrink the rest to dots.
   function declutter() {
-    const items = [...markers.entries()].map(([id, m]) => ({ id, m, p: map.latLngToContainerPoint(m.getLatLng()), beer: current(id, "beer") }));
-    items.sort((a, b) => (b.id === S.selected) - (a.id === S.selected) || (a.beer ? a.beer.price : 1e9) - (b.beer ? b.beer.price : 1e9));
+    const items = [...markers.entries()].map(([id, m]) => ({ id, m, p: map.latLngToContainerPoint(m.getLatLng()), r: pick(id) }));
+    const rank = (x) => (x.id === S.selected ? -2 : S.best.has(x.id) ? -1 : 0);
+    items.sort((a, b) => rank(a) - rank(b) || (a.r ? a.r.price : 1e9) - (b.r ? b.r.price : 1e9));
     const placed = [];
     for (const it of items) {
       const el = it.m.getElement()?.querySelector(".pin");
       if (!el) continue;
-      const w = (it.beer ? money(it.beer.price).length : 1) * 8 + 18, h = 26;
+      const w = el.textContent.length * 8 + 18, h = 26;
       const box = { x1: it.p.x - w / 2 - 2, x2: it.p.x + w / 2 + 2, y1: it.p.y - h - 8, y2: it.p.y + 2 };
-      const hit = it.id !== S.selected && placed.some((b) => box.x1 < b.x2 && box.x2 > b.x1 && box.y1 < b.y2 && box.y2 > b.y1);
+      const keep = rank(it) < 0;
+      const hit = !keep && placed.some((b) => box.x1 < b.x2 && box.x2 > b.x1 && box.y1 < b.y2 && box.y2 > b.y1);
       el.classList.toggle("dot", hit);
       if (!hit) placed.push(box);
     }
@@ -427,68 +572,128 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   map.on("zoomend resize", declutter);
 
   // ---------- sheet ----------
-  const sheet = $("sheet"), head = $("sheetHead"), body = $("sheetBody");
+  const sheet = $("sheet"), head = $("sheetHead"), body = $("sheetBody"), controls = $("controls");
   $("grip").addEventListener("click", () => sheet.classList.toggle("expanded"));
 
+  // mode toggle + price filter (static DOM so a live update never interrupts a drag)
+  const modeBtns = controls.querySelectorAll("[data-mode]");
+  function syncControls() {
+    modeBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === S.mode)));
+    $("maxOut").textContent = S.maxPrice == null ? "Any" : "≤ " + money(S.maxPrice);
+  }
+  modeBtns.forEach((b) => b.addEventListener("click", () => { S.mode = b.dataset.mode; store.set("tf-mode", S.mode); syncControls(); render(); }));
+  $("maxPrice").addEventListener("input", (e) => {
+    const v = Number(e.target.value);
+    S.maxPrice = v >= SLIDER_MAX ? null : v;
+    syncControls(); render();
+  });
+  syncControls();
+
   function render() {
-    renderPins();
+    const items = shownVenues();
+    computeBest(items);
+    // keep the selected venue on the map even if the filter would hide it
+    if (S.selected && S.venues.has(S.selected) && !items.some((x) => x.v.id === S.selected)) {
+      items.push({ v: S.venues.get(S.selected), r: pick(S.selected) });
+    }
+    renderPins(items);
     if (S.selected && S.venues.has(S.selected)) renderVenue(S.venues.get(S.selected));
-    else { S.selected = null; renderList(); }
+    else { if (S.selected) select(null); else renderList(items); }
   }
 
-  function renderList() {
-    head.innerHTML = `<h2 class="sheet-title">Cheapest beer nearby</h2>`;
+  function renderList(items) {
+    controls.hidden = false;
+    head.innerHTML = `<h2 class="sheet-title">${MODES[S.mode].title}</h2>`;
     if (S.dbState === "loading") { body.innerHTML = `<p class="list-note">Loading venues and prices…</p>`; return; }
     if (S.dbState === "none") {
       body.innerHTML = `<div class="notice">Prices live in TabFriendly's shared database, which this view can't reach. Open the app from claude.ai while signed in to see venues and prices.</div>`;
       return;
     }
-    const vs = visibleVenues().map((v) => ({ v, beer: current(v.id, "beer"), d: distMi(v.lat, v.lng) }));
-    if (!vs.length) {
+    if (!S.venues.size) {
       body.innerHTML = `<div class="notice">No venues yet. Tap <b>+ Add a venue</b> to put the first one on the map.</div>`;
       return;
     }
-    vs.sort((a, b) => (a.beer ? a.beer.price : 1e9) - (b.beer ? b.beer.price : 1e9) || a.d - b.d);
-    const priced = vs.filter((x) => x.beer).length;
-    const cheapest = vs[0].beer;
-    let h = `<div class="stat"><span><b>${vs.length}</b> venues</span><span><b>${priced}</b> with a beer price</span>${cheapest ? `<span>from <b>${esc(money(cheapest.price))}</b></span>` : ""}</div><ul class="list">`;
-    for (const { v, beer, d } of vs) {
-      const priceCell = beer
-        ? `<span class="row-price">${esc(money(beer.price))}<small>${esc(perOz(beer) || (beer.oz ? beer.oz + " oz" : "size n/a"))}</small></span>`
-        : `<span class="row-price none">Add price</span>`;
-      h += `<li><button class="row" type="button" data-v="${esc(v.id)}"><span class="row-name">${esc(v.name)}</span>${priceCell}<span class="row-meta">${beer ? esc(beer.drink) + " · " : ""}${d.toFixed(1)} mi${isHidden(v.id) ? " · hidden" : ""}</span></button></li>`;
+    const rows = items.map((x) => ({ ...x, d: distMi(x.v.lat, x.v.lng) }))
+      .sort((a, b) => (a.r ? a.r.price : 1e9) - (b.r ? b.r.price : 1e9) || a.d - b.d);
+    const priced = rows.filter((x) => x.r);
+    let h = `<div class="stat"><span><b>${rows.length}</b> ${S.maxPrice == null ? "venues" : "at " + esc(money(S.maxPrice)) + " or less"}</span><span><b>${priced.length}</b> with a ${MODES[S.mode].label} price</span>${priced[0] ? `<span>from <b>${esc(money(priced[0].r.price))}</b></span>` : ""}</div>`;
+    if (!rows.length) {
+      body.innerHTML = h + `<div class="notice">Nothing at or under ${esc(money(S.maxPrice))} yet. Raise the max price, or report a cheaper drink you've found.</div>`;
+      return;
     }
-    h += `</ul><p class="list-note">Prices come from published menus and from people like you. Spot a wrong one? Open the venue and update it.</p>`;
+    h += `<ul class="list">`;
+    for (const { v, r, d } of rows) {
+      const best = S.best.has(v.id);
+      let priceCell, meta;
+      if (r) {
+        const sub = r.kind === "beer" ? (perOz(r) || (r.oz ? r.oz + " oz" : "size n/a")) : "mixed";
+        priceCell = `<span class="row-price"><b>${esc(money(r.price))}</b><small>${esc(S.mode === "overall" ? (r.kind === "beer" ? "beer" : "mixed") : sub)}</small></span>`;
+        meta = esc(cleanName(r)) + " · " + d.toFixed(1) + " mi";
+      } else {
+        priceCell = `<span class="row-price none">Add price</span>`;
+        meta = d.toFixed(1) + " mi";
+      }
+      h += `<li><button class="row${best ? " best" : ""}" type="button" data-v="${esc(v.id)}"><span class="row-name">${esc(v.name)}${best ? '<span class="best-chip">Top 3</span>' : ""}</span>${priceCell}<span class="row-meta">${meta}${isHidden(v.id) ? " · hidden" : ""}</span></button></li>`;
+    }
+    h += `</ul><p class="list-note">The three cheapest are in green. Prices come from published menus and from people like you. Spot a wrong one? Open the venue and update it.</p>`;
     body.innerHTML = h;
     body.querySelectorAll("[data-v]").forEach((b) => b.addEventListener("click", () => select(b.dataset.v, true)));
   }
 
+  const canPost = () => S.canWrite !== false && !S.readOnlyAfterRefusal && S.dbState === "ready";
+
   function drinkBlock(v, kind) {
     const r = current(v.id, kind);
     const label = kind === "beer" ? "Cheapest beer" : "Cheapest mixed drink";
-    let src = "";
-    if (r) {
+    const isBest = r && S.best.has(v.id) && pick(v.id) === r;
+    let h = `<div class="drink${isBest ? " best" : ""}"><span class="drink-k">${label}${isBest ? '<span class="best-chip">Top 3 nearby</span>' : ""}</span>`;
+    if (!r) {
+      h += `<span class="drink-p none">No price yet</span><span></span>`;
+    } else {
+      const tags = [];
+      const sv = serveOf(r);
+      if (sv) tags.push(SERVE_LABEL[sv]);
+      if (kind === "beer") {
+        if (r.oz) tags.push(r.oz + " oz", perOz(r)); else tags.push("pour size not listed");
+      }
+      h += `<span class="drink-p">${esc(money(r.price))}</span><span class="drink-d"><strong>${esc(cleanName(r))}</strong><span class="drink-tags">${tags.map((t) => `<span>${esc(t)}</span>`).join("")}</span></span>`;
       if (r.source === "user") {
-        src = `<span class="user">User-reported</span><span>${esc(fmtDay(r.at))}</span>${r.note ? `<span>“${esc(r.note)}”</span>` : ""}`;
+        const t = tally(r.id);
+        const disputed = t.down > t.up;
+        h += `<div class="drink-src"><span class="user">User-reported</span><span>${esc(fmtDay(r.at))}</span>${r.note ? `<span>“${esc(r.note)}”</span>` : ""}${disputed ? '<span class="disputed">Disputed</span>' : ""}</div>`;
+        const mineReport = S.me && r.by === S.me;
+        const canVote = S.me && !mineReport && canPost();
+        h += `<div class="vote"><span>${mineReport ? "Your report:" : "Is this price right?"}</span>`
+          + `<button class="btn${t.mine === 1 ? " on-up" : ""}" type="button" data-vote="${esc(r.id)}" data-val="1" aria-pressed="${t.mine === 1}" ${canVote ? "" : "disabled"} aria-label="Yes, this price is right">${icon("i-up")} ${t.up}</button>`
+          + `<button class="btn${t.mine === -1 ? " on-down" : ""}" type="button" data-vote="${esc(r.id)}" data-val="-1" aria-pressed="${t.mine === -1}" ${canVote ? "" : "disabled"} aria-label="No, this price is wrong">${icon("i-up", 'style="transform:rotate(180deg)"')} ${t.down}</button></div>`;
       } else {
         const u = safeUrl(r.sourceUrl);
-        src = `<span>Source: ${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>` : "published menu"}</span><span>${esc(checked(r.sourceDate))}</span>`;
+        h += `<div class="drink-src"><span>Source: ${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>` : "published menu"}</span><span>${esc(checked(r.sourceDate))}</span></div>`;
       }
-      if (r.hasPhoto) src += `<button class="btn small ghost" type="button" data-photo="${esc(r.id)}">Menu photo</button>`;
     }
-    const detail = r
-      ? `<span class="drink-p">${esc(money(r.price))}</span><span class="drink-d"><strong>${esc(r.drink)}</strong><span>${kind === "beer" ? (r.oz ? esc(r.oz + " oz · " + perOz(r)) : "pour size not listed") : "mixed drink"}</span></span>`
-      : `<span class="drink-p none">No price yet</span><span></span>`;
-    const canPost = S.canWrite !== false && !S.readOnlyAfterRefusal;
-    return `<div class="drink"><span class="drink-k">${label}</span>${detail}${r ? `<div class="drink-src">${src}</div>` : ""}${canPost ? `<div class="drink-actions"><button class="btn small ${r ? "" : "tag"}" type="button" data-report="${kind}">${r ? "Update price" : "Add price"}</button></div>` : ""}</div>`;
+    if (canPost()) h += `<div class="drink-actions"><button class="btn small ${r ? "" : "tag"}" type="button" data-report="${kind}">${r ? "Update price" : "Add price"}</button></div>`;
+    return h + `</div>`;
+  }
+
+  function photosBlock(v) {
+    let h = `<section class="photos"><div class="photos-head"><h3>Menu</h3>${canPost() ? `<button class="btn small" type="button" id="addPhotoBtn">${icon("i-cam")} Add menu photo</button>` : ""}</div>`;
+    if (S.photosFor !== v.id) return h + `<p class="photo-empty">Loading photos…</p></section>`;
+    const ps = S.photos.filter((p) => typeof p.data === "string" && p.data.startsWith("data:image/"));
+    if (!ps.length) return h + `<p class="photo-empty">No menu photo yet.${canPost() ? " Snap one next time you're there." : ""}</p></section>`;
+    const [first, ...rest] = ps;
+    h += `<button class="photo-main" type="button" data-photo="${esc(first.id)}" aria-label="Open menu photo"><img src="${esc(first.data)}" alt="Menu photo of ${esc(v.name)}"></button>`;
+    h += `<p class="photo-cap">Added ${esc(fmtDay(first.at)) || "by a user"}${S.me && first.by === S.me ? " by you" : ""}</p>`;
+    if (rest.length) h += `<div class="thumbs">${rest.map((p) => `<button type="button" data-photo="${esc(p.id)}" aria-label="Open older menu photo"><img src="${esc(p.data)}" alt=""></button>`).join("")}</div>`;
+    return h + `</section>`;
   }
 
   function renderVenue(v) {
+    controls.hidden = true;
     head.innerHTML = `<button class="btn small ghost" type="button" id="backBtn" aria-label="Back to list">←</button><h2 class="sheet-title">${esc(v.name)}</h2>`;
     const d = distMi(v.lat, v.lng);
-    let h = `<div class="v-meta"><span class="chip">${v.type === "restaurant" ? "Restaurant" : "Bar"}</span>${v.address ? `<span>${esc(v.address)}</span>` : ""}<span>${d.toFixed(2)} mi from MIT</span>${safeUrl(v.website) ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}</div>`;
+    let h = `<div class="v-meta"><span class="chip">${v.type === "restaurant" ? "Restaurant" : "Bar"}</span>${v.address ? `<span>${esc(v.address)}</span>` : ""}<span>${d.toFixed(2)} mi from 77 Mass Ave</span>${safeUrl(v.website) ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}</div>`;
     if (v.note) h += `<div class="notice">${esc(v.note)}</div>`;
-    if (isHidden(v.id)) h += `<div class="notice">This venue is hidden from everyone but editors. <button class="btn small" type="button" data-mod-restore="${esc(v.id)}">Restore venue</button></div>`;
+    if (isHidden(v.id)) h += `<div class="notice">This venue is hidden from everyone but editors.</div>`;
     h += drinkBlock(v, "beer") + drinkBlock(v, "mixed");
     if (S.canWrite === false || S.readOnlyAfterRefusal) h += `<div class="notice">You can view prices but not post them. Ask the TabFriendly team for Contributor access to submit.</div>`;
     const hist = reportsFor(v.id).filter((r) => S.canMod || !isHidden(r.id));
@@ -496,28 +701,45 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       h += `<details class="hist" id="hist"${S.histOpen ? " open" : ""}><summary>Price history (${hist.length})</summary>`;
       for (const r of hist) {
         const hidden = isHidden(r.id);
-        h += `<div class="hist-item${hidden ? " hidden-r" : ""}"><span>${r.kind === "beer" ? "Beer" : "Mixed"} · ${esc(r.drink)}${r.oz ? " · " + esc(r.oz) + " oz" : ""}</span><span class="hp">${esc(money(r.price))}</span>`
-          + `<span class="hm">${r.source === "user" ? "User-reported " + esc(fmtDay(r.at)) + (S.me && r.by === S.me ? " (you)" : "") : "From " + esc(hostOf(r.sourceUrl) || "published menu") + ", " + esc(checked(r.sourceDate))}${r.note ? " · “" + esc(r.note) + "”" : ""}</span>`;
-        const acts = [];
-        if (r.hasPhoto) acts.push(`<button class="btn small" type="button" data-photo="${esc(r.id)}">Menu photo</button>`);
-        if (S.canMod) acts.push(hidden ? `<button class="btn small" type="button" data-mod-restore="${esc(r.id)}">Restore</button>` : `<button class="btn small" type="button" data-mod-hide="${esc(r.id)}">Hide as wrong</button>`);
-        if (acts.length) h += `<span class="ha">${acts.join("")}</span>`;
+        const t = r.source === "user" ? tally(r.id) : null;
+        h += `<div class="hist-item${hidden ? " hidden-r" : ""}"><span>${r.kind === "beer" ? "Beer" : "Mixed"} · ${esc(cleanName(r))}${r.oz ? " · " + esc(r.oz) + " oz" : ""}</span><span class="hp">${esc(money(r.price))}</span>`
+          + `<span class="hm">${r.source === "user" ? "User-reported " + esc(fmtDay(r.at)) + (S.me && r.by === S.me ? " (you)" : "") + (t && (t.up || t.down) ? ` · ${t.up} yes / ${t.down} no` : "") : "From " + esc(hostOf(r.sourceUrl) || "published menu") + ", " + esc(checked(r.sourceDate))}${r.note ? " · “" + esc(r.note) + "”" : ""}</span>`;
+        if (S.canMod) h += `<span class="ha">${hidden ? `<button class="btn small" type="button" data-mod-restore="${esc(r.id)}">Restore</button>` : `<button class="btn small" type="button" data-mod-hide="${esc(r.id)}">Hide as wrong</button>`}</span>`;
         h += `</div>`;
       }
       h += `</details>`;
     }
-    if (S.canMod && !isHidden(v.id)) h += `<p style="margin-top:14px"><button class="btn small" type="button" data-mod-hide="${esc(v.id)}">Hide this venue</button></p>`;
+    h += photosBlock(v);
+    if (S.canMod) {
+      h += `<div class="editor-zone"><span>Editor tools</span>`
+        + (isHidden(v.id) ? `<button class="btn small" type="button" data-mod-restore="${esc(v.id)}">Restore venue</button>` : `<button class="btn small" type="button" data-mod-hide="${esc(v.id)}">Hide venue</button>`)
+        + `<button class="btn small danger" type="button" id="delVenueBtn">Delete venue</button></div>`;
+    }
     body.innerHTML = h;
     $("backBtn").addEventListener("click", () => select(null));
     $("hist")?.addEventListener("toggle", (e) => (S.histOpen = e.target.open));
+    $("addPhotoBtn")?.addEventListener("click", () => { $("photoPick").value = ""; $("photoPick").click(); });
+    $("delVenueBtn")?.addEventListener("click", (e) => armDelete(e.currentTarget, v));
     body.querySelectorAll("[data-report]").forEach((b) => b.addEventListener("click", () => openPriceForm(v.id, b.dataset.report)));
     body.querySelectorAll("[data-photo]").forEach((b) => b.addEventListener("click", () => showPhoto(b.dataset.photo)));
+    body.querySelectorAll("[data-vote]").forEach((b) => b.addEventListener("click", () => vote(b.dataset.vote, Number(b.dataset.val))));
     body.querySelectorAll("[data-mod-hide]").forEach((b) => b.addEventListener("click", () => setHidden(b.dataset.modHide, true)));
     body.querySelectorAll("[data-mod-restore]").forEach((b) => b.addEventListener("click", () => setHidden(b.dataset.modRestore, false)));
   }
 
+  function watchPhotos(venueId) {
+    if (S.unsubPhotos) { S.unsubPhotos(); S.unsubPhotos = null; }
+    S.photos = []; S.photosFor = null;
+    if (!venueId || !S.db) return;
+    S.unsubPhotos = S.db.collection("photos").where("venueId", "==", venueId).limit(20).onSnapshot((snap) => {
+      S.photos = snap.docs.map((d) => ({ ...d.data(), id: d.id })).sort((a, b) => (b.at || "").localeCompare(a.at || ""));
+      S.photosFor = venueId;
+      if (S.selected === venueId) render();
+    }, () => { S.photosFor = venueId; render(); });
+  }
+
   function select(id, pan) {
-    if (id !== S.selected) S.histOpen = false;
+    if (id !== S.selected) { S.histOpen = false; watchPhotos(id); }
     S.selected = id;
     render();
     if (id) {
@@ -534,16 +756,93 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     t.textContent = msg; t.hidden = false;
     clearTimeout(toastT); toastT = setTimeout(() => (t.hidden = true), 3500);
   }
-  async function showPhoto(reportId) {
-    if (!S.db) return;
-    try {
-      const snap = await S.db.doc("photos/" + reportId).get();
-      const data = snap.exists ? snap.data().data : null;
-      if (typeof data !== "string" || !data.startsWith("data:image/")) return toast("That photo isn't available.");
-      $("lightboxImg").src = data; $("lightbox").hidden = false;
-    } catch { toast("Couldn't load the photo. Try again in a moment."); }
+  function showPhoto(id) {
+    const p = S.photos.find((x) => x.id === id);
+    if (!p) return;
+    $("lightboxImg").src = p.data; $("lightbox").hidden = false;
   }
   $("lightbox").addEventListener("click", () => ($("lightbox").hidden = true));
+
+  // ---------- writes ----------
+  function writeError(e) {
+    const code = e && e.code;
+    if (code === "invalid_argument") { S.readOnlyAfterRefusal = true; return "You don't have permission to post here. Ask the TabFriendly team for Contributor access."; }
+    if (code === "quota_exceeded") return "The database is full, so nothing new can be saved. Let the TabFriendly team know.";
+    if (code === "resource_exhausted") return "Too many requests at once. Wait a few seconds and try again.";
+    return "Couldn't save right now. Check your connection and try again.";
+  }
+
+  let voting = false;
+  async function vote(reportId, val) {
+    if (!S.me || voting) return;
+    const mine = { ...(S.votes.get(S.me) || {}) };
+    if (mine[reportId] === val) delete mine[reportId]; else mine[reportId] = val;
+    voting = true;
+    try { await S.db.doc("votes/" + S.me).set(mine); }
+    catch (e) { toast(e && e.code === "invalid_argument" ? "Your vote couldn't be saved. You may need Contributor access." : writeError(e)); }
+    finally { voting = false; }
+  }
+
+  async function shrinkPhoto(file) {
+    const img = await new Promise((res, rej) => {
+      const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = URL.createObjectURL(file);
+    });
+    for (const [max, q] of [[1200, 0.7], [1000, 0.62], [800, 0.55], [600, 0.5]]) {
+      const s = Math.min(1, max / Math.max(img.width, img.height));
+      const c = document.createElement("canvas");
+      c.width = Math.round(img.width * s); c.height = Math.round(img.height * s);
+      c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+      const url = c.toDataURL("image/jpeg", q);
+      if (url.length < 230000) return url;
+    }
+    throw new Error("too big");
+  }
+  $("photoPick").addEventListener("change", async (e) => {
+    const f = e.target.files[0], venueId = S.selected;
+    if (!f || !venueId) return;
+    toast("Uploading photo…");
+    try {
+      const data = await shrinkPhoto(f);
+      await S.db.collection("photos").doc().set({ venueId, data, by: S.me, at: new Date().toISOString() });
+      toast("Menu photo added. Thanks!");
+    } catch (err) {
+      toast(err && err.code ? writeError(err) : "That photo couldn't be read. Try a JPEG or PNG.");
+    }
+  });
+
+  async function setHidden(id, hidden) {
+    try {
+      if (hidden) await S.db.doc("mod/" + id).set({ hidden: true, by: S.me, at: new Date().toISOString() });
+      else await S.db.doc("mod/" + id).delete();
+      toast(hidden ? "Hidden." : "Restored.");
+    } catch (e) { toast(writeError(e)); }
+  }
+
+  // Delete asks for a second tap (the viewer blocks confirm() dialogs).
+  function armDelete(btn, v) {
+    if (!btn.classList.contains("armed")) {
+      btn.classList.add("armed");
+      btn.textContent = "Tap again to delete for good";
+      setTimeout(() => { if (btn.isConnected) { btn.classList.remove("armed"); btn.textContent = "Delete venue"; } }, 5000);
+      return;
+    }
+    deleteVenue(v);
+  }
+  async function deleteVenue(v) {
+    const id = v.id;
+    try {
+      const photos = await S.db.collection("photos").where("venueId", "==", id).limit(100).get();
+      for (const d of photos.docs) await S.db.doc("photos/" + d.id).delete();
+      for (const r of S.reports.filter((x) => x.venueId === id)) {
+        await S.db.doc("reports/" + r.id).delete();
+        if (S.mod.has(r.id)) await S.db.doc("mod/" + r.id).delete();
+      }
+      if (S.mod.has(id)) await S.db.doc("mod/" + id).delete();
+      await S.db.doc("venues/" + id).delete();
+      select(null);
+      toast(`${v.name} deleted.`);
+    } catch (e) { toast(writeError(e)); }
+  }
 
   // ---------- forms ----------
   const overlay = $("formOverlay"), form = $("form");
@@ -556,35 +855,15 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     else if (S.picking) stopPick();
   });
 
-  function writeError(e) {
-    const code = e && e.code;
-    if (code === "invalid_argument") { S.readOnlyAfterRefusal = true; return "You don't have permission to post here. Ask the TabFriendly team for Contributor access."; }
-    if (code === "quota_exceeded") return "The database is full, so nothing new can be saved. Let the TabFriendly team know.";
-    if (code === "resource_exhausted") return "Too many requests at once. Wait a few seconds and try again.";
-    return "Couldn't save right now. Check your connection and try again.";
-  }
-
-  async function shrinkPhoto(file) {
-    const img = await new Promise((res, rej) => {
-      const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = URL.createObjectURL(file);
-    });
-    for (const [max, q] of [[1100, 0.7], [900, 0.6], [700, 0.55], [520, 0.5]]) {
-      const s = Math.min(1, max / Math.max(img.width, img.height));
-      const c = document.createElement("canvas");
-      c.width = Math.round(img.width * s); c.height = Math.round(img.height * s);
-      c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
-      const url = c.toDataURL("image/jpeg", q);
-      if (url.length < 230000) return url;
-    }
-    throw new Error("too big");
-  }
-
   function openPriceForm(venueId, kind, fresh) {
     const v = S.venues.get(venueId);
     if (!v) return;
     let k = kind || "beer";
     let photo = null;
     const draw = () => {
+      const serveOpts = k === "beer"
+        ? `<option value="">Not sure</option><option value="draft">Draft</option><option value="bottle">Bottle</option><option value="can">Can</option>`
+        : `<option value="">Not sure</option><option value="well">Well drink</option><option value="cocktail">Cocktail</option>`;
       form.innerHTML = `
         <h2>${fresh ? "Add a first price" : "Report a price"}</h2>
         <p class="sub">${esc(v.name)} · it shows on the map right away.</p>
@@ -592,11 +871,12 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
           <button type="button" id="kBeer" aria-pressed="${k === "beer"}">Cheapest beer</button>
           <button type="button" id="kMixed" aria-pressed="${k === "mixed"}">Cheapest mixed drink</button>
         </div>
-        <div class="field"><label for="fDrink">Drink name</label><input id="fDrink" maxlength="80" autocomplete="off" placeholder="${k === "beer" ? "e.g. Narragansett Lager" : "e.g. Well rum & coke"}" required></div>
+        <div class="field"><label for="fDrink">${k === "beer" ? "Beer brand and name" : "Drink name"}</label><input id="fDrink" maxlength="80" autocomplete="off" placeholder="${k === "beer" ? "e.g. Narragansett Lager" : "e.g. Rum & coke"}" required></div>
         <div class="two">
           <div class="field"><label for="fPrice">Price ($)</label><input id="fPrice" inputmode="decimal" placeholder="6.00" required></div>
-          ${k === "beer" ? `<div class="field"><label for="fOz">Pour size (oz) <em>optional</em></label><input id="fOz" inputmode="decimal" placeholder="16"></div>` : "<div></div>"}
+          <div class="field"><label for="fServe">${k === "beer" ? "Served as" : "Type"} <em>optional</em></label><select id="fServe">${serveOpts}</select></div>
         </div>
+        ${k === "beer" ? `<div class="field"><label for="fOz">Pour size (oz) <em>optional</em></label><input id="fOz" inputmode="decimal" placeholder="16"></div>` : ""}
         <div class="field"><label for="fNote">Note <em>optional</em></label><input id="fNote" maxlength="200" placeholder="e.g. cash only, cans only"></div>
         <div class="field"><label for="fPhoto">Menu photo <em>optional</em></label><input id="fPhoto" type="file" accept="image/*"><img id="fPrev" class="photo-prev" alt="" hidden></div>
         <p class="form-err" id="fErr" hidden></p>
@@ -625,18 +905,20 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       const price = Number($("fPrice").value.replace(/[$,\s]/g, ""));
       const ozRaw = $("fOz") ? $("fOz").value.trim() : "";
       const oz = ozRaw ? Number(ozRaw.replace(/oz/i, "").trim()) : null;
+      const serve = $("fServe").value || null;
       const note = $("fNote").value.trim();
-      if (!drink) return showErr("Enter the drink's name.");
+      if (!drink) return showErr(k === "beer" ? "Enter the beer's brand and name." : "Enter the drink's name.");
       if (!(price > 0 && price <= 100)) return showErr("Enter a price between $0.01 and $100.");
       if (ozRaw && !(oz >= 4 && oz <= 64)) return showErr("Pour size should be between 4 and 64 oz, or leave it blank.");
       if (!S.db) return showErr("Can't reach the shared database from this view.");
       $("fSubmit").disabled = true;
       try {
         const ref = S.db.collection("reports").doc();
-        if (photo) await S.db.doc("photos/" + ref.id).set({ venueId, data: photo });
+        const at = new Date().toISOString();
+        if (photo) await S.db.doc("photos/" + ref.id).set({ venueId, data: photo, by: S.me, at });
         await ref.set({
-          venueId, kind: k, drink, price: Math.round(price * 100) / 100, oz: oz || null, note: note || null,
-          hasPhoto: !!photo, source: "user", sourceUrl: null, sourceDate: null, by: S.me, at: new Date().toISOString(),
+          venueId, kind: k, drink, serve, price: Math.round(price * 100) / 100, oz: oz || null, note: note || null,
+          hasPhoto: !!photo, source: "user", sourceUrl: null, sourceDate: null, by: S.me, at,
         });
         closeForm();
         toast("Price posted. Thanks!");
@@ -674,7 +956,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function openVenueForm(lat, lng) {
     form.innerHTML = `
       <h2>Add a venue</h2>
-      <p class="sub">${distMi(lat, lng).toFixed(2)} mi from MIT. Next you can add its prices.</p>
+      <p class="sub">${distMi(lat, lng).toFixed(2)} mi from 77 Mass Ave. Next you can add its prices.</p>
       <div class="field"><label for="vName">Name</label><input id="vName" maxlength="80" autocomplete="off" required></div>
       <div class="field"><label for="vType">Type</label><select id="vType"><option value="bar">Bar</option><option value="restaurant">Restaurant</option></select></div>
       <div class="field"><label for="vAddr">Street address <em>optional</em></label><input id="vAddr" maxlength="120" autocomplete="off" placeholder="e.g. 500 Massachusetts Ave"></div>
@@ -691,23 +973,16 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       $("vSubmit").disabled = true;
       try {
         const ref = S.db.collection("venues").doc();
-        await ref.set({ name, type: $("vType").value, address: $("vAddr").value.trim() || null, lat: +lat.toFixed(6), lng: +lng.toFixed(6), website: null, source: "user", by: S.me, at: new Date().toISOString() });
+        const doc = { name, type: $("vType").value, address: $("vAddr").value.trim() || null, lat: +lat.toFixed(6), lng: +lng.toFixed(6), website: null, note: null, source: "user", by: S.me, at: new Date().toISOString() };
+        await ref.set(doc);
         clearDraft();
-        S.venues.set(ref.id, { id: ref.id, name, type: $("vType").value, lat, lng });
+        S.venues.set(ref.id, { ...doc, id: ref.id });
         toast(`${name} added.`);
         openPriceForm(ref.id, "beer", true);
       } catch (ex) { err(writeError(ex)); $("vSubmit").disabled = false; }
     };
     overlay.hidden = false;
     setTimeout(() => $("vName").focus(), 30);
-  }
-
-  async function setHidden(id, hidden) {
-    try {
-      if (hidden) await S.db.doc("mod/" + id).set({ hidden: true, by: S.me, at: new Date().toISOString() });
-      else await S.db.doc("mod/" + id).delete();
-      toast(hidden ? "Hidden. The previous price shows again." : "Restored.");
-    } catch (e) { toast(writeError(e)); }
   }
 
   // ---------- age gate ----------
@@ -743,6 +1018,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     }, onErr);
     db.collection("mod").limit(1000).onSnapshot((snap) => {
       S.mod = new Map(snap.docs.map((d) => [d.id, d.data()]));
+      render();
+    }, onErr);
+    db.collection("votes").limit(1000).onSnapshot((snap) => {
+      S.votes = new Map(snap.docs.map((d) => [d.id, d.data() || {}]));
       render();
     }, onErr);
   })();
