@@ -16,7 +16,8 @@
   --tag: #f2b233;          /* amber price tag: the one bold color */
   --tag-ink: #1b1710;
   --sign: #1b1710;         /* the bar-sign logo plate; dark in both themes */
-  --sign-text: #fff6e0;
+  --sign-text: #ffffff;
+  --mit: #a31f34;           /* MIT cardinal red */
   --sign-edge: transparent;
   --tag-dim: #c9ced4;
   --tag-dim-ink: #3f4752;
@@ -42,7 +43,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #101317; --surface: #181d23; --fg: #e8ebee; --muted: #9aa4af; --line: #2a3139;
-    --tag: #f2b233; --tag-ink: #1b1710; --sign: #1b1710; --sign-text: #fff6e0; --sign-edge: #4a4130;
+    --tag: #f2b233; --tag-ink: #1b1710; --sign: #1b1710; --sign-text: #ffffff; --mit: #a31f34; --sign-edge: #4a4130;
     --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3; --best: #3fb06f; --best-ink: #0b1a10;
     --link: #8cc0ee; --ok: #6cc28f; --danger: #ef7d74;
     --land: #171b20; --road: #262c34; --road-mid: #2f343b; --road-major: #4a4130; --water: #13324a;
@@ -53,7 +54,7 @@
 }
 :root[data-theme="dark"] {
   --bg: #101317; --surface: #181d23; --fg: #e8ebee; --muted: #9aa4af; --line: #2a3139;
-  --tag: #f2b233; --tag-ink: #1b1710; --sign: #1b1710; --sign-text: #fff6e0; --sign-edge: #4a4130;
+  --tag: #f2b233; --tag-ink: #1b1710; --sign: #1b1710; --sign-text: #ffffff; --mit: #a31f34; --sign-edge: #4a4130;
   --tag-dim: #3a424c; --tag-dim-ink: #c4cbd3; --best: #3fb06f; --best-ink: #0b1a10;
   --link: #8cc0ee; --ok: #6cc28f; --danger: #ef7d74;
   --land: #171b20; --road: #262c34; --road-mid: #2f343b; --road-major: #4a4130; --water: #13324a;
@@ -91,7 +92,7 @@ a { color: var(--link); }
   box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--tag) 35%, transparent);
 }
 .sign svg { width: 38px; height: 38px; margin: -9px 2px -7px -2px; filter: drop-shadow(0 1px 0 rgba(0,0,0,.25)); }
-.sign .t1 { color: var(--sign-text); }
+.sign .t1 { color: var(--sign-text); background: var(--mit); padding: 3px 6px 2px; border-radius: 4px; margin-right: 5px; line-height: .9; }
 .sign .t2 { color: var(--tag); }
 .sign.big { font-size: 46px; padding: 6px 18px 6px 8px; border-radius: 12px; }
 .sign.big svg { width: 64px; height: 64px; margin: -14px 4px -10px -4px; }
@@ -244,7 +245,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 .photos-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
 .photos-head h3 { margin: 0; font: 800 16px/1 var(--f-display); text-transform: uppercase; letter-spacing: .04em; }
 .photo-main { display: block; width: 100%; padding: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--bg); }
-.photo-main img { display: block; width: 100%; max-height: 320px; object-fit: cover; object-position: top; }
+.photo-main img { display: block; width: 100%; height: auto; max-height: 70vh; object-fit: contain; }
 .photo-cap { font-size: 12px; color: var(--muted); margin: 6px 0 0; }
 .thumbs { display: flex; gap: 6px; margin-top: 8px; overflow-x: auto; }
 .thumbs button { flex: none; padding: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; width: 64px; height: 64px; background: var(--bg); }
@@ -292,8 +293,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     <symbol id="i-pint" viewBox="0 0 40 40">
       <path d="M9 13h18l-1.6 19.2a3 3 0 0 1-3 2.8h-8.8a3 3 0 0 1-3-2.8z" fill="#f2b233" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
       <path d="M26.6 17h3.6a3 3 0 0 1 3 3v4.5a3 3 0 0 1-3 3h-4.4" fill="none" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
-      <path d="M8 13.4c-.6-3 1.8-5.6 4.8-5 1-2.6 4.2-3.8 6.6-2.3 2.3-1.6 5.6-.9 6.8 1.7 2.6-.1 4.4 2.4 3.6 5.2H8z" fill="#fff6e0" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
-      <path d="M14 18.5l.8 11M20.5 18.5l-.4 11" stroke="#fff6e0" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      <path d="M8 13.4c-.6-3 1.8-5.6 4.8-5 1-2.6 4.2-3.8 6.6-2.3 2.3-1.6 5.6-.9 6.8 1.7 2.6-.1 4.4 2.4 3.6 5.2H8z" fill="#ffffff" stroke="#1b1710" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M14 18.5l.8 11M20.5 18.5l-.4 11" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".7"/>
     </symbol>
     <symbol id="i-up" viewBox="0 0 24 24"><path d="M7 10.5V20H4v-9.5h3zm2 9.5h7.6a2 2 0 0 0 2-1.6l1.3-6.2a2 2 0 0 0-2-2.4H14l.8-3.6a1.8 1.8 0 0 0-1.8-2.2L9 10.5V20z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
     <symbol id="i-cam" viewBox="0 0 24 24"><path d="M4 8h3l1.6-2.4h6.8L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
