@@ -1,0 +1,12 @@
+{
+ "name": "Mr. Bartley's Burger Cottage",
+ "type": "restaurant",
+ "address": "1246 Massachusetts Ave, Cambridge, MA 02138",
+ "lat": 42.37246,
+ "lng": -71.11621,
+ "website": "https://www.mrbartley.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

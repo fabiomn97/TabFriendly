@@ -34,7 +34,7 @@ for sub in ("venues", "reports"):
 
 for v in venues:
     d = dist_mi(v["lat"], v["lng"])
-    if d > 1.0:
+    if d > 1.5:
         print(f"skip (outside radius, {d:.2f} mi): {v['name']}")
         continue
     vid = "v-" + slug(v["name"])

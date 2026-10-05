@@ -1,0 +1,12 @@
+{
+ "name": "Pammy's",
+ "type": "restaurant",
+ "address": "928 Massachusetts Ave, Cambridge, MA 02139",
+ "lat": 42.36843,
+ "lng": -71.10919,
+ "website": "https://www.pammyscambridge.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

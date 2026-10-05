@@ -1,0 +1,12 @@
+{
+ "name": "Daedalus",
+ "type": "restaurant",
+ "address": "45 1/2 Mount Auburn St, Cambridge, MA 02138",
+ "lat": 42.37134,
+ "lng": -71.11658,
+ "website": "https://www.daedalusrestaurantcambridge.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

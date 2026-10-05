@@ -1,0 +1,14 @@
+{
+ "venueId": "v-monteverdi",
+ "kind": "beer",
+ "drink": "Coors Light (bottle)",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.monteverdirestaurant.com/wp-content/uploads/MV-Menu_Beverage-030126.pdf",
+ "sourceDate": "2026-03",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-legal-sea-foods-park-square",
+ "kind": "beer",
+ "drink": "Bud Light (bottle)",
+ "price": 7.5,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.legalseafoods.com/wp-content/uploads/2026/06/Bev-Menu-Park-June26.pdf",
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

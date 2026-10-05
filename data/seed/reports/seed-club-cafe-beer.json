@@ -1,0 +1,14 @@
+{
+ "venueId": "v-club-cafe",
+ "kind": "beer",
+ "drink": "Dorchester Brewing Daddy Light",
+ "price": 8.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.clubcafe.com/menus/drink-menu.pdf",
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

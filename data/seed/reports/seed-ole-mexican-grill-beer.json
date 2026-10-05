@@ -1,0 +1,14 @@
+{
+ "venueId": "v-ole-mexican-grill",
+ "kind": "beer",
+ "drink": "Negra Modelo (draft)",
+ "price": 5.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://olerestaurantgroup.com/cocktails",
+ "sourceDate": "2019-04",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

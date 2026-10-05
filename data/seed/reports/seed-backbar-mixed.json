@@ -1,0 +1,14 @@
+{
+ "venueId": "v-backbar",
+ "kind": "mixed",
+ "drink": "Pride menu cocktail (e.g. Heated Rivals)",
+ "price": 17.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.backbarunion.com/menu",
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

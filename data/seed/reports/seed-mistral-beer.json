@@ -1,0 +1,14 @@
+{
+ "venueId": "v-mistral",
+ "kind": "beer",
+ "drink": "Victory Prima Pils",
+ "price": 12.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://mistralbistro.com/wp-content/uploads/2026/09/Mistral-Cocktail-BTG-Spirits-CJ.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

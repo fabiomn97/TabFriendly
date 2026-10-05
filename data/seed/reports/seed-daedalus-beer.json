@@ -1,0 +1,14 @@
+{
+ "venueId": "v-daedalus",
+ "kind": "beer",
+ "drink": "Coors Light (bottle)",
+ "price": 7.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.daedalusrestaurantcambridge.com/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

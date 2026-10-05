@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-sea-hag-restaurant-bar",
+ "kind": "mixed",
+ "drink": "James Joyce",
+ "price": 12.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://seahag02138.com/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

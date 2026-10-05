@@ -1,0 +1,12 @@
+{
+ "name": "The Cheesecake Factory - Cambridge",
+ "type": "restaurant",
+ "address": "100 Cambridgeside Place, Cambridge, MA 02141",
+ "lat": 42.36717,
+ "lng": -71.07626,
+ "website": "https://locations.thecheesecakefactory.com/ma/cambridge-23.html",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

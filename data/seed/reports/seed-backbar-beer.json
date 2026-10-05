@@ -1,0 +1,14 @@
+{
+ "venueId": "v-backbar",
+ "kind": "beer",
+ "drink": "Narragansett Lager (can)",
+ "price": 4.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.backbarunion.com/beer-wine",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

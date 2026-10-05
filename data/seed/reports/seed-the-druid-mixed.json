@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-druid",
+ "kind": "mixed",
+ "drink": "Druid Bloody Mary (brunch)",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://places.singleplatform.com/druid-restaurant/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

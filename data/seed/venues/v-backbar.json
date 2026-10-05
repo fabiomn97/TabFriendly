@@ -1,0 +1,12 @@
+{
+ "name": "backbar",
+ "type": "bar",
+ "address": "7 Sanborn Ct, Somerville, MA 02143",
+ "lat": 42.37975,
+ "lng": -71.09454,
+ "website": "https://www.backbarunion.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

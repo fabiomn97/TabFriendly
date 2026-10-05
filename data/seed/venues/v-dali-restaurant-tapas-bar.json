@@ -1,0 +1,12 @@
+{
+ "name": "Dalí Restaurant & Tapas Bar",
+ "type": "restaurant",
+ "address": "415 Washington St, Somerville, MA 02143",
+ "lat": 42.37837,
+ "lng": -71.10684,
+ "website": "https://dalirestaurant.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

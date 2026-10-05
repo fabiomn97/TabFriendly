@@ -1,0 +1,12 @@
+{
+ "name": "The Lexington",
+ "type": "restaurant",
+ "address": "100 North First Street, Cambridge, MA 02141",
+ "lat": 42.37198,
+ "lng": -71.07547,
+ "website": "https://www.thelexingtoncx.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

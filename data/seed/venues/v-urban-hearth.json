@@ -1,0 +1,12 @@
+{
+ "name": "Urban Hearth",
+ "type": "restaurant",
+ "address": "1281 Cambridge St, Cambridge, MA 02139",
+ "lat": 42.3736,
+ "lng": -71.09877,
+ "website": "https://www.urbanhearth.net/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

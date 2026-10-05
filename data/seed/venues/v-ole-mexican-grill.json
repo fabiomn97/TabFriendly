@@ -1,0 +1,12 @@
+{
+ "name": "Olé Mexican Grill",
+ "type": "restaurant",
+ "address": "11 Springfield St, Cambridge, MA 02139",
+ "lat": 42.37407,
+ "lng": -71.10015,
+ "website": "https://olerestaurantgroup.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

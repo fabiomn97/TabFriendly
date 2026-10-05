@@ -1,0 +1,12 @@
+{
+ "name": "Tasty Burger Fenway",
+ "type": "restaurant",
+ "address": "86 Van Ness St, Boston, MA 02215",
+ "lat": 42.3449,
+ "lng": -71.0993,
+ "website": "https://www.tastyburger.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

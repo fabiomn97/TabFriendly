@@ -1,0 +1,14 @@
+{
+ "venueId": "v-grill-23-bar",
+ "kind": "mixed",
+ "drink": "Steel Magnolia",
+ "price": 18.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.grill23.com/s/Wine-List-100326-WEB-VERSION.pdf",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

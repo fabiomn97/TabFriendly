@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-lexington",
+ "kind": "mixed",
+ "drink": "Mr. Owl (whiskey cocktail)",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://drive.google.com/file/d/1UeYnu33iCMASHqrTMm3h4DZZV1DU9dwa/view",
+ "sourceDate": "2026-07",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

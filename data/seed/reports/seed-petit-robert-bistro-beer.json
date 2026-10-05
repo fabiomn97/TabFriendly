@@ -1,0 +1,14 @@
+{
+ "venueId": "v-petit-robert-bistro",
+ "kind": "beer",
+ "drink": "Miller High Life (can)",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.petitrobertbistro.com/s/NEW-COCKTAILS-MAY-2026.pdf",
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

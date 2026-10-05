@@ -1,0 +1,14 @@
+{
+ "venueId": "v-areca-asian-bar",
+ "kind": "mixed",
+ "drink": "Midnight Margarita",
+ "price": 14.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.arecabar.com/_files/ugd/58e41c_e875d3d507ac42b4847541fd8587c0fb.pdf",
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

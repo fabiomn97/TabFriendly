@@ -1,0 +1,12 @@
+{
+ "name": "Petit Robert Bistro",
+ "type": "restaurant",
+ "address": "480 Columbus Ave, Boston, MA 02118",
+ "lat": 42.34284,
+ "lng": -71.07861,
+ "website": "https://www.petitrobertbistro.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-clery-s",
+ "kind": "beer",
+ "drink": "Clerys Lager (draft)",
+ "price": 5.5,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.clerysboston.com/menu/drink-menu/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -300,7 +300,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   <header class="bar">
     <div class="brand">
       <h1 class="logo" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span><span class="w1">Tab</span><span class="w2">Friendly</span></span></h1>
-      <p>Cheapest drinks within 1 mile of 77 Mass Ave</p>
+      <p>Cheapest drinks within 1.5 miles of 77 Mass Ave</p>
     </div>
     <button class="btn" id="addVenueBtn" type="button"><span>+ Add<span class="add-long"> a</span> venue</span></button>
   </header>
@@ -353,7 +353,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 (() => {
   "use strict";
   const MIT = [42.35916, -71.09348];          // 77 Massachusetts Ave
-  const RADIUS_M = 1609.34;                     // 1 mile
+  const RADIUS_MI = 1.5;
+  const RADIUS_M = RADIUS_MI * 1609.34;
   const AREAS = [
     ["Kendall Sq", 42.3626, -71.0855], ["Central Sq", 42.3652, -71.1035], ["Cambridgeport", 42.3575, -71.1075],
     ["Back Bay", 42.3500, -71.0805], ["Kenmore", 42.3482, -71.0965], ["Fenway", 42.3437, -71.1000],
@@ -460,7 +461,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   // ---------- map ----------
   const map = L.map("map", {
-    preferCanvas: true, zoomSnap: 0.25, minZoom: 12.75, maxZoom: 19, zoomControl: true, attributionControl: true,
+    preferCanvas: true, zoomSnap: 0.25, minZoom: 12.25, maxZoom: 19, zoomControl: true, attributionControl: true,
     maxBounds: [[42.30, -71.17], [42.41, -71.02]], maxBoundsViscosity: 0.8,
   });
   map.attributionControl.setPrefix(false);
@@ -979,7 +980,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   map.on("click", (e) => {
     if (!S.picking) return;
     const { lat, lng } = e.latlng;
-    if (distMi(lat, lng) > 1) return toast("That spot is outside the 1-mile circle. Pick a place inside it.");
+    if (distMi(lat, lng) > RADIUS_MI) return toast(`That spot is outside the ${RADIUS_MI}-mile circle. Pick a place inside it.`);
     stopPick();
     clearDraft();
     draft = L.marker([lat, lng], { icon: L.divIcon({ className: "", html: '<span class="draft-pin">▼</span>', iconSize: [0, 0] }), interactive: false }).addTo(map);

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-five-horses-tavern-south-end",
+ "kind": "beer",
+ "drink": "Miller High Life (bottle/can)",
+ "price": 5.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.fivehorsestavern.com/south-end-menu/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-bronwyn",
+ "kind": "mixed",
+ "drink": "Elo-Quince (gin, quince liqueur, lemon, bitters)",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://bronwynrestaurant.com/menus/Dinner.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

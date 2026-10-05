@@ -1,0 +1,14 @@
+{
+ "venueId": "v-c-side-bar",
+ "kind": "mixed",
+ "drink": "Berry-Necessary",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.csidebar.com/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

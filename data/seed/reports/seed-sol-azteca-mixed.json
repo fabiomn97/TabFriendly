@@ -1,0 +1,14 @@
+{
+ "venueId": "v-sol-azteca",
+ "kind": "mixed",
+ "drink": "Fresh Tito",
+ "price": 13.75,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://solaztecaboston.com/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

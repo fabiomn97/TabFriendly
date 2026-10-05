@@ -1,0 +1,14 @@
+{
+ "venueId": "v-petit-robert-bistro",
+ "kind": "mixed",
+ "drink": "Le Verger (vodka, elderflower, pear)",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.petitrobertbistro.com/s/MAY-COCKTAILS-2026.pdf",
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

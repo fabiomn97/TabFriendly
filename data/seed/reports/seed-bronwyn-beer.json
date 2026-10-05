@@ -1,0 +1,14 @@
+{
+ "venueId": "v-bronwyn",
+ "kind": "beer",
+ "drink": "Weihenstephaner Festbier (draft pint)",
+ "price": 11.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://bronwynrestaurant.com/menus/Dinner.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-davio-s-northern-italian-steakhouse",
+ "kind": "mixed",
+ "drink": "Bos-hattan",
+ "price": 20.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://davios.com/sites/default/files/downloads/Online%20Beverage%20List%20September%2023%202026%20Boston.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

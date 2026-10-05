@@ -1,0 +1,934 @@
+[
+ [
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-trina-s-starlite-lounge",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-trina-s-starlite-lounge.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-druid",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-druid.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-ole-mexican-grill",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-ole-mexican-grill.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-urban-hearth",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-urban-hearth.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-oak-bistro",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-oak-bistro.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-dali-restaurant-tapas-bar",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-dali-restaurant-tapas-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-vera-s",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-vera-s.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-independent",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-independent.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-backbar",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-backbar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-bronwyn",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-bronwyn.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-jungle",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-jungle.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-tap-151-bar-and-grill",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-tap-151-bar-and-grill.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-lexington",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-lexington.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-c-side-bar",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-c-side-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-monteverdi",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-monteverdi.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-scull-keel",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-scull-keel.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-bambara-kitchen-bar",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-bambara-kitchen-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-cheesecake-factory-cambridge",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-cheesecake-factory-cambridge.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-gato-exotico",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-gato-exotico.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-areca-asian-bar",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-areca-asian-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-hill-tavern",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-hill-tavern.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-clery-s",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-clery-s.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-salty-pig",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-salty-pig.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-alibi-bar-lounge",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-alibi-bar-lounge.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-davio-s-northern-italian-steakhouse",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-davio-s-northern-italian-steakhouse.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-mistral",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-mistral.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-grill-23-bar",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-grill-23-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-lucie-drink-dine",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-lucie-drink-dine.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-bistro-du-midi",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-bistro-du-midi.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-paramount-beacon-hill",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-paramount-beacon-hill.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-legal-sea-foods-copley-place",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-legal-sea-foods-copley-place.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-legal-sea-foods-park-square",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-legal-sea-foods-park-square.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-club-cafe",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-club-cafe.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-westland",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-westland.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-srv",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-srv.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-delux-cafe",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-delux-cafe.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-five-horses-tavern-south-end",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-five-horses-tavern-south-end.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-petit-robert-bistro",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-petit-robert-bistro.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-citizen-public-house-oyster-bar",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-citizen-public-house-oyster-bar.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-sunset-cantina",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-sunset-cantina.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-taberna-de-haro",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-taberna-de-haro.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-cisco-brewers-fenway",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-cisco-brewers-fenway.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-shy-bird-fenway",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-shy-bird-fenway.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-tasty-burger-fenway",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-tasty-burger-fenway.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-fool-s-errand",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-fool-s-errand.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-bar-cino-brookline",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-bar-cino-brookline.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-plough-and-stars",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-plough-and-stars.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-pammy-s",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-pammy-s.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-daedalus",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-daedalus.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-the-sea-hag-restaurant-bar",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-the-sea-hag-restaurant-bar.json"
+  }
+ ],
+ [
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-mr-bartley-s-burger-cottage",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-mr-bartley-s-burger-cottage.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-sol-azteca",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-sol-azteca.json"
+  },
+  {
+   "op": "set",
+   "collection": "venues",
+   "doc_id": "v-gyu-kaku-japanese-bbq-brookline",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\venues\\v-gyu-kaku-japanese-bbq-brookline.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-trina-s-starlite-lounge-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-trina-s-starlite-lounge-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-trina-s-starlite-lounge-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-trina-s-starlite-lounge-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-druid-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-druid-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-ole-mexican-grill-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-ole-mexican-grill-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-ole-mexican-grill-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-ole-mexican-grill-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-urban-hearth-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-urban-hearth-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-urban-hearth-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-urban-hearth-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-oak-bistro-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-oak-bistro-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-oak-bistro-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-oak-bistro-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-dali-restaurant-tapas-bar-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-dali-restaurant-tapas-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-dali-restaurant-tapas-bar-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-dali-restaurant-tapas-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-vera-s-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-vera-s-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-vera-s-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-vera-s-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-independent-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-independent-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-independent-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-independent-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-backbar-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-backbar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-backbar-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-backbar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bronwyn-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-bronwyn-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bronwyn-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-bronwyn-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-jungle-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-jungle-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-jungle-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-jungle-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-tap-151-bar-and-grill-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-tap-151-bar-and-grill-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-tap-151-bar-and-grill-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-tap-151-bar-and-grill-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-lexington-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-lexington-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-lexington-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-lexington-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-c-side-bar-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-c-side-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-c-side-bar-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-c-side-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-monteverdi-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-monteverdi-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-monteverdi-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-monteverdi-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-scull-keel-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-scull-keel-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-scull-keel-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-scull-keel-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bambara-kitchen-bar-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-bambara-kitchen-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bambara-kitchen-bar-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-bambara-kitchen-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-cheesecake-factory-cambridge-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-cheesecake-factory-cambridge-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-cheesecake-factory-cambridge-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-cheesecake-factory-cambridge-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-gato-exotico-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-gato-exotico-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-areca-asian-bar-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-areca-asian-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-areca-asian-bar-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-areca-asian-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-hill-tavern-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-hill-tavern-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-hill-tavern-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-hill-tavern-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-clery-s-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-clery-s-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-clery-s-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-clery-s-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-salty-pig-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-salty-pig-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-alibi-bar-lounge-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-alibi-bar-lounge-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-alibi-bar-lounge-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-alibi-bar-lounge-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-davio-s-northern-italian-steakhouse-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-davio-s-northern-italian-steakhouse-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-davio-s-northern-italian-steakhouse-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-davio-s-northern-italian-steakhouse-mixed.json"
+  }
+ ],
+ [
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-mistral-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-mistral-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-mistral-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-mistral-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-grill-23-bar-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-grill-23-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-grill-23-bar-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-grill-23-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-lucie-drink-dine-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-lucie-drink-dine-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-lucie-drink-dine-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-lucie-drink-dine-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bistro-du-midi-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-bistro-du-midi-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bistro-du-midi-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-bistro-du-midi-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-paramount-beacon-hill-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-paramount-beacon-hill-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-paramount-beacon-hill-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-paramount-beacon-hill-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-legal-sea-foods-copley-place-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-legal-sea-foods-copley-place-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-legal-sea-foods-copley-place-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-legal-sea-foods-copley-place-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-legal-sea-foods-park-square-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-legal-sea-foods-park-square-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-legal-sea-foods-park-square-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-legal-sea-foods-park-square-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-club-cafe-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-club-cafe-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-club-cafe-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-club-cafe-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-westland-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-westland-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-westland-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-westland-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-srv-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-srv-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-srv-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-srv-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-delux-cafe-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-delux-cafe-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-delux-cafe-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-delux-cafe-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-five-horses-tavern-south-end-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-five-horses-tavern-south-end-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-five-horses-tavern-south-end-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-five-horses-tavern-south-end-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-petit-robert-bistro-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-petit-robert-bistro-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-petit-robert-bistro-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-petit-robert-bistro-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-citizen-public-house-oyster-bar-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-citizen-public-house-oyster-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-citizen-public-house-oyster-bar-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-citizen-public-house-oyster-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-sunset-cantina-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-sunset-cantina-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-sunset-cantina-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-sunset-cantina-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-taberna-de-haro-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-taberna-de-haro-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-taberna-de-haro-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-taberna-de-haro-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-cisco-brewers-fenway-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-cisco-brewers-fenway-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-cisco-brewers-fenway-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-cisco-brewers-fenway-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-shy-bird-fenway-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-shy-bird-fenway-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-shy-bird-fenway-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-shy-bird-fenway-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-tasty-burger-fenway-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-tasty-burger-fenway-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-fool-s-errand-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-fool-s-errand-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-fool-s-errand-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-fool-s-errand-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bar-cino-brookline-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-bar-cino-brookline-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-bar-cino-brookline-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-bar-cino-brookline-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-plough-and-stars-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-plough-and-stars-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-pammy-s-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-pammy-s-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-pammy-s-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-pammy-s-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-daedalus-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-daedalus-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-daedalus-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-daedalus-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-sea-hag-restaurant-bar-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-sea-hag-restaurant-bar-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-the-sea-hag-restaurant-bar-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-the-sea-hag-restaurant-bar-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-mr-bartley-s-burger-cottage-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-mr-bartley-s-burger-cottage-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-mr-bartley-s-burger-cottage-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-mr-bartley-s-burger-cottage-mixed.json"
+  }
+ ],
+ [
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-sol-azteca-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-sol-azteca-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-sol-azteca-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-sol-azteca-mixed.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-gyu-kaku-japanese-bbq-brookline-beer",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-gyu-kaku-japanese-bbq-brookline-beer.json"
+  },
+  {
+   "op": "set",
+   "collection": "reports",
+   "doc_id": "seed-gyu-kaku-japanese-bbq-brookline-mixed",
+   "file_path": "C:\\Users\\moore\\git\\TabFriendly\\data\\seed\\reports\\seed-gyu-kaku-japanese-bbq-brookline-mixed.json"
+  }
+ ]
+]

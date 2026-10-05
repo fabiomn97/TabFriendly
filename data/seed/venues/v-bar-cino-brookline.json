@@ -1,0 +1,12 @@
+{
+ "name": "Bar 'Cino Brookline",
+ "type": "restaurant",
+ "address": "1032 Beacon St, Brookline, MA 02446",
+ "lat": 42.3461,
+ "lng": -71.1084,
+ "website": "https://www.barcino.com/brookline",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-sunset-cantina",
+ "kind": "beer",
+ "drink": "Pabst Blue Ribbon (draft)",
+ "price": 5.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://bostonsunsetcantina.com/wp-content/uploads/2026/09/DRINKS-MENU-SUNSET-SEP21-2026.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

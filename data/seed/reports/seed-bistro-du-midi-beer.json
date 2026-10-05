@@ -1,0 +1,14 @@
+{
+ "venueId": "v-bistro-du-midi",
+ "kind": "beer",
+ "drink": "Kronenbourg 1664 (bottle)",
+ "price": 9.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.bistrodumidi.com/s/Bistro-du-Midi-Wine-List-ver-09212026.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

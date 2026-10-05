@@ -5,7 +5,7 @@ Where this spec and the brief differ, this spec wins.
 
 ## Product
 A mobile-friendly web app, hosted as a claude.ai artifact, that maps bars and restaurants
-within **1 mile of 77 Massachusetts Ave** and labels each with its cheapest drinks.
+within **1.5 miles of 77 Massachusetts Ave** and labels each with its cheapest drinks.
 Audience: college and graduate students aged 21+.
 
 ## Per-venue data
@@ -27,7 +27,7 @@ Each price records its source (a URL, or "user-reported") and the date it was ch
 - The full submission history is kept so a bad entry can be rolled back.
 - Form: **drink name** and **price** are required. **Pour size** (beer), **menu photo** and **note** are optional.
   Price per oz shows only when the pour size is known.
-- Users can **add a new venue** by dropping a pin inside the 1-mile radius, then add its prices.
+- Users can **add a new venue** by dropping a pin inside the 1.5-mile radius, then add its prices.
 
 ## Other
 - Simple 21+ click-through gate, shown once per browser.

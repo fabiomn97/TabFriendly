@@ -1,0 +1,14 @@
+{
+ "venueId": "v-taberna-de-haro",
+ "kind": "beer",
+ "drink": "Estrella Lager (bottle)",
+ "price": 7.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://places.singleplatform.com/taberna-de-haro/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

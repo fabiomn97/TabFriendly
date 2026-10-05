@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-salty-pig",
+ "kind": "mixed",
+ "drink": "Whiskey Blues",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.thesaltypig.com/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

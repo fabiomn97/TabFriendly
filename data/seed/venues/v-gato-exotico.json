@@ -1,0 +1,12 @@
+{
+ "name": "Gato Exotico",
+ "type": "restaurant",
+ "address": "100 Cambridgeside Place, Cambridge, MA 02141",
+ "lat": 42.36722,
+ "lng": -71.07654,
+ "website": "https://www.gatoexotico.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

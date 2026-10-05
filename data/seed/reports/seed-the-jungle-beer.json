@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-jungle",
+ "kind": "beer",
+ "drink": "Miller High Life (bottle)",
+ "price": 5.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.toasttab.com/local/order/the-jungle/r-27f09256-b73f-4dbb-8f2a-c2e26007ce5f",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

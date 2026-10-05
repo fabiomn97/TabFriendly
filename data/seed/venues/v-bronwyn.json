@@ -1,0 +1,12 @@
+{
+ "name": "Bronwyn",
+ "type": "restaurant",
+ "address": "255 Washington St, Somerville, MA 02143",
+ "lat": 42.37974,
+ "lng": -71.0946,
+ "website": "https://bronwynrestaurant.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

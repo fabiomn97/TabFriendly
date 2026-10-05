@@ -1,0 +1,14 @@
+{
+ "venueId": "v-srv",
+ "kind": "beer",
+ "drink": "Von Trapp Helles Lager",
+ "price": 9.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.srvboston.com/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

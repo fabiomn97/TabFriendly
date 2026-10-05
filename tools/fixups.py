@@ -7,6 +7,8 @@ v = json.load(open(P, encoding="utf-8"))
 
 # Pagu was found by two agents with different geocodes; 310 Mass Ave matches the Central entry.
 v = [x for x in v if x["name"] != "Pagu (Kendall)"]
+# The Cellar's only prices ($2.50 PBR) come from a long-stale SinglePlatform listing; leave it for users to add.
+v = [x for x in v if x["name"] != "The Cellar"]
 RENAME = {
     "Pagu (Central)": "Pagu",
     "Brick & Mortar (Acqua & Bocca rebrand an": "Brick & Mortar",

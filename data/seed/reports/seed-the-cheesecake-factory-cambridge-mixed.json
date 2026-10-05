@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-cheesecake-factory-cambridge",
+ "kind": "mixed",
+ "drink": "Bloody Mary",
+ "price": 14.95,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://menu.thecheesecakefactory.com/ma/cambridge-23/from-the-bar/",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

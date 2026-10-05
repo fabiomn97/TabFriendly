@@ -1,6 +1,6 @@
 # TabFriendly
 
-A mobile-friendly map of the cheapest beer and mixed drink at bars and restaurants within one mile of MIT (77 Massachusetts Ave).
+A mobile-friendly map of the cheapest beer and mixed drink at bars and restaurants within 1.5 miles of MIT (77 Massachusetts Ave).
 Prices start from published menus, and students keep them current by reporting what they paid.
 
 **Live app:** https://claude.ai/artifact/QcmT22SRxJQFA8iM6xHRME (a claude.ai artifact; open it signed in to claude.ai)

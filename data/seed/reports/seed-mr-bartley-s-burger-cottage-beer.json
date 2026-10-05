@@ -1,0 +1,14 @@
+{
+ "venueId": "v-mr-bartley-s-burger-cottage",
+ "kind": "beer",
+ "drink": "Coors Light (bottle)",
+ "price": 6.5,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.mrbartley.com/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

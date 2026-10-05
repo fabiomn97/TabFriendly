@@ -1,0 +1,12 @@
+{
+ "name": "Sunset Cantina",
+ "type": "restaurant",
+ "address": "916 Commonwealth Ave, Boston, MA 02215",
+ "lat": 42.3508,
+ "lng": -71.117,
+ "website": "https://bostonsunsetcantina.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

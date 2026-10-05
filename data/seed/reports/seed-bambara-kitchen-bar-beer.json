@@ -1,0 +1,14 @@
+{
+ "venueId": "v-bambara-kitchen-bar",
+ "kind": "beer",
+ "drink": "Bud Light (can/bottle)",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://places.singleplatform.com/bambara-restaurant/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

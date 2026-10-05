@@ -1,0 +1,14 @@
+{
+ "venueId": "v-cisco-brewers-fenway",
+ "kind": "beer",
+ "drink": "Shark Tracker Light Lager (draft)",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://ciscobrewersfenway.squarespace.com/drinkmenu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
