@@ -1,0 +1,428 @@
+{
+ "venueId": "v-viale",
+ "items": [
+  {
+   "name": "Harvest",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Hoodie Weather",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pesca Succosa",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Federal Hill Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Fiore Rosso",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Oaxacan Tea Party",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Paradiso",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Viale Draft Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Aspro Estivo",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Clockwork Orange",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Barewolf 'Vialé' Pilsner",
+   "type": "Barewolf Vialé Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Castle Island 'Keeper' Pale Ale",
+   "type": "Castle Island Keeper",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lawson's Finest 'Sip o' Sunshine' IPA",
+   "type": "Lawson's Finest Sip of Sunshine",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Peroni",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Miller 'High Life'",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Hero 95 Light Lager",
+   "type": "Hero 95 Light Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Schilling 'Alexandr' Pilsner",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Barewolf 'Central Square' IPA",
+   "type": "Barewolf Central Square IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Zero Gravity 'Madonna' DIPA",
+   "type": "Zero Gravity Madonna",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Medusa Oktoberfest Lager",
+   "type": "Medusa Oktoberfest",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Mighty Squirrel Mocha Stout",
+   "type": "Mighty Squirrel Mocha Stout",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Exhibit A 'Panda Punch' Sour",
+   "type": "Exhibit A Panda Punch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Artifact 'Feels Like Home' Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Barewolf 'Dry Hard' Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "High Noon Vodka Seltzer Lime",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Vermont 'Zephyr' Vermouth Seltzer",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Averna (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Braulio (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Bully Boy (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Dell'Etna (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fernet Branca (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Meletti (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Montenegro (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Santa Maria (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Zucca Rabarbaro (amaro)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Carpano Antica (vermouth)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "VT Vermouth Boreas (vermouth)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "VT Vermouth Harvest (vermouth)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Prosecco, Ca' di Rajo NV",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Lambrusco, Rodica 2023",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Friulano, Scarpetta 2022",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Vermentino, Cantine Boriassi 2025",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Passerina, Ciavolich 2024",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Falanghina, Mustilli 2024",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Frappato, Caruso & Minini 2025",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Catarratto, Dario Serrentino 2024",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Sangiovese (Chilled), Field Recordings 2024",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Tuscan Field Blend, Sequerciani 2023",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Super Tuscan, Terrante 2024",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Barbera, Casa di Baal 2024",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  }
+ ],
+ "sources": [
+  "https://www.vialecambridge.com/beer-cocktails",
+  "https://www.vialecambridge.com/wine-menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

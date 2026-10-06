@@ -1,0 +1,281 @@
+{
+ "venueId": "v-taberna-de-haro",
+ "items": [
+  {
+   "name": "The Straight Law",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Gin Tonic Prémio",
+   "type": "Gin & Tonic",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Gin Tonic Especial",
+   "type": "Gin & Tonic",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Bonecrusher",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Ay, Benditto",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cloud 9",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Puro Fuego",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "The Goat",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Albaariza",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cristalino (Contraluz Mezcal Cristalino)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mercat Brut Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Biutiful Rosé Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Bohigas Xarel-Lo",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Mestizaje Merseguera Blend",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Benito Santos Albariño",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Cono 4 Monastrell",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Mibal Tinto Fino",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Orlegi Tempranillo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Alegre Valgañon Tempranillo Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rubentis Txakolina Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Estrella Lager",
+   "type": "Estrella Damm",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Sidra Isastegui (glass)",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Vermú (red or white vermouth)",
+   "type": "Vermouth",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Manzanilla Deliciosa (Valdespino)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Manzanilla 3 en Rama Sanlucar (Lustau)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Manzanilla de la Riva",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Fino el Maestro Sierra",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Fino 3 en Rama, Jerez (Lustau)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Fino 3 en Rama, Puerto de Santa Maria (Lustau)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Amontillado Escuadrilla (Lustau)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Amontillado la Cigarrera",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Palo Cortado Leonor (Gonzalez Byass)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Palo Cortado Manuel Aragon",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Oloroso el Cerro VOS (Hornillos)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

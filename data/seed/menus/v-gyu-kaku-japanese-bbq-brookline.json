@@ -1,0 +1,435 @@
+{
+ "venueId": "v-gyu-kaku-japanese-bbq-brookline",
+ "items": [
+  {
+   "name": "Kirin Ichiban (Mug)",
+   "type": "Kirin Ichiban",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Kirin Ichiban (Mega Mug)",
+   "type": "Kirin Ichiban",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 32,
+   "price": 14.0
+  },
+  {
+   "name": "Asahi Super Dry",
+   "type": "Asahi",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Gyu-Kaku House Sake (Regular 300 ml carafe)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 10.1,
+   "price": 9.0
+  },
+  {
+   "name": "Gyu-Kaku House Sake (Jumbo 600 ml carafe)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 20.3,
+   "price": 17.0
+  },
+  {
+   "name": "Kurosawa Junmai (Glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Kurosawa Junmai (Carafe 300 ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 10.1,
+   "price": 22.0
+  },
+  {
+   "name": "Hana Lychee Sake (Glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Tokyo Iced Tea",
+   "type": "Long Island Iced Tea",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Coco-Mo",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Lychee Gin Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Mango Tango",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Lychee Berry Fizz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Blue Lagoon",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Very Berry Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mango Mai Tai",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Lychee-Tini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Whiskey Sunrise",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Tropical Breeze",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Mango Lychee Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Peach Iced Tea",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sparkling Orchard",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Strawberry Lychee Margaritas",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Peach Pineapple Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Blue Moon",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Kirin Light",
+   "type": "Kirin Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Sapporo",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Sapporo Light",
+   "type": "Sapporo Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "High Noon Green Tea",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "High Noon Mango",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Sparkling (Glass)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Chardonnay (Glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Sauvignon Blanc (Glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Cabernet Sauvignon (Glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Pinot Noir (Glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Plum Wine (Glass)",
+   "type": "Plum wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Suntory Toki",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Jameson",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Maker's Mark",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Jack Daniel's",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Johnnie Walker Black",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Macallan 12 yr",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Bacardi",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Malibu",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Grey Goose",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Tito's",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Don Julio Blanco",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Patrón",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Hennessy",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Tanqueray",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Bombay Sapphire",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Hendrick's",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://www.gyu-kaku.com/wp-content/uploads/2026/01/bos_sob_drink2512.pdf"
+ ],
+ "sourceDate": "2025-12",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

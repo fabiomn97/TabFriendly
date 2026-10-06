@@ -1,0 +1,163 @@
+{
+ "venueId": "v-piattini",
+ "items": [
+  {
+   "name": "Piattini Lemonade",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Passionfruit Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Fall Spritz",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Negroni Del Porto",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Fumoso",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Fiore Di Miele",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Ciao Bella",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Pistachio Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Ginger Julep",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Samuel Adams Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Samuel Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Long Trail VT IPA",
+   "type": "Long Trail VT IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Peroni",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Blue Moon",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Angry Orchard Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Maine Beer Company Lunch IPA",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  }
+ ],
+ "sources": [
+  "https://www.piattini.com/menu/drinks/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,212 @@
+{
+ "venueId": "v-d16",
+ "items": [
+  {
+   "name": "Clown Shoes Rainbows Are Real Hazy IPA",
+   "type": "Clown Shoes Rainbows Are Real",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Jack's Abby Post Shift Pilsner",
+   "type": "Jack's Abby Post Shift Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Blue Moon Belgian White",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast Original Blend Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Guinness Irish Stout",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Kona Big Wave Golden Ale",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Maine Beer Co Lunch IPA",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Sip of Sunshine DIPA",
+   "type": "Lawson's Finest Sip of Sunshine",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "One-Time",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Under Suspicion",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Grand Stretch In The Evening",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "The Barwick",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Right to Remain Silent",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Lady In Red",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Code 95",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "JingPing Penalty",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "City Watch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Fens Calvary",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "D4",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Back Bay Cruiser",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Code 99",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  }
+ ],
+ "sources": [
+  "https://www.d16boston.com/menu/beer/",
+  "https://www.d16boston.com/menu/cocktails/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

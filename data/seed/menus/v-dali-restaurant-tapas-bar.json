@@ -1,0 +1,375 @@
+{
+ "venueId": "v-dali-restaurant-tapas-bar",
+ "items": [
+  {
+   "name": "Harpoon IPA | seasonal",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Kronenbourg 1664",
+   "type": "Kronenbourg 1664",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Estrella Galicia Especial",
+   "type": "Estrella Galicia",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Modelo Negra",
+   "type": "Negra Modelo",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Dalí Palmer",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Dirty Diablo",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Ibiza",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Lavender Gimlet",
+   "type": "Gimlet",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sí Papi",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Momento Duende",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mexicali Blues",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "El Passion",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mango Caipirinha",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Basque Country Lemonade",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Dalí '89",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Vanilla ~ Cherry Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Dia de la Suerte",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "The Avenue",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "French 75",
+   "type": "French 75",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pisco Sour",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Corpse Reviver",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sazerac",
+   "type": "Sazerac",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Vesper Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Blanc de Pacs",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Honoro Vera Verdejo",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Licia Albariño",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Honoro Vera Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Montecillo Crianza",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Atteca Garnacha",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Viña Herminia Tempranillo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Tarima Hill Monastrell",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Poema Cava Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sangria Blanca",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "White Swallow",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Brazilian Wax",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Leaving Juarez",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sinrise & Sinset",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Chica Choco Churro",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://dalirestaurant.com/wineliquor/beer/",
+  "https://dalirestaurant.com/wineliquor/cocktails/",
+  "https://dalirestaurant.com/wineliquor/125-2/",
+  "https://dalirestaurant.com/wineliquor/red-wines/",
+  "https://dalirestaurant.com/wineliquor/the-fun-stuff/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

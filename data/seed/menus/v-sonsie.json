@@ -1,0 +1,179 @@
+{
+ "venueId": "v-sonsie",
+ "items": [
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "K Drop",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Pera Perla",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Que Lo Que",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Moby Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "The Night Cometh",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Dana Digs It",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Lamarca Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pere Mata 'Cupada' Cava Rosé",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Peyrassol Les Commandeurs Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Minuty Prestige Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Pinot Grigio — Kris Delle Venezie",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sauvignon Blanc — The Crossings",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Chardonnay — Cantina Tramin",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Sancerre — Domaine Serge Laporte",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Malbec — Fazzio by La Posta",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pinot Noir — Upwell",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rosso di Montepulciano — Cantina Dei",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cabernet Sauvignon — Josh",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Merlot — Advice From John by Orin Swift",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Heavensake — Junmai 12",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  }
+ ],
+ "sources": [
+  "https://www.sonsieboston.com/menus"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

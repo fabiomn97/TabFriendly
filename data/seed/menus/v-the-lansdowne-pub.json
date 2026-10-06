@@ -1,0 +1,59 @@
+{
+ "venueId": "v-the-lansdowne-pub",
+ "items": [
+  {
+   "name": "La Marca Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Riff Organic Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Fleur de Mer Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Crossings Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Josh Craftsman Cabernet",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Julia James Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  }
+ ],
+ "sources": [
+  "https://www.lansdownepubboston.com/menus/"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

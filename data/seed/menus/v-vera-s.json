@@ -1,0 +1,315 @@
+{
+ "venueId": "v-vera-s",
+ "items": [
+  {
+   "name": "Martini Service",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Pear & Fig Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Vera's Seasonal Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "One Eyed Jack",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Hypnotize Me",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Rings of Saturn",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Don't Call Me Shirley",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Blackberry Bram-ba-lam",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Daiquiri Royale",
+   "type": "Daiquiri",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Practically Magic",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Out of Office",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Gourd Vibes Only",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Frozen Paloma",
+   "type": "Paloma",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Limoncello (house made)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Mystery Shot",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Stoli Doli (house made)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "House White",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "House Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "House Orange",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "House Red",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Lambrusco Scarpetta Frico",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "can",
+   "oz": 8.5,
+   "price": 14.0
+  },
+  {
+   "name": "Cava Poema Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Topo Chico Strawberry Guava Hard Seltzer",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Peroni",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 8.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 5.0
+  },
+  {
+   "name": "Surfside Vodka Iced Tea",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Woodchuck Pearsecco Bubbly Dry Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Castle Island Pilsner",
+   "type": "Castle Island Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Weihenstephaner Hefeweizen",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Jack's Abby House Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Night Shift Nite Lite",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Modelo",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Shipyard Pumpkinhead Wheat Ale",
+   "type": "Shipyard Pumpkinhead",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Downeast Original Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://verasunionsquare.com/wp-content/uploads/2026/10/VERAS-MENU-10.1.26.pdf"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

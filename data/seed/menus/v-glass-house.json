@@ -1,0 +1,187 @@
+{
+ "venueId": "v-glass-house",
+ "items": [
+  {
+   "name": "Tajín Dream Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Garden Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Forever Blue",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Matcha Man",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "White Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Smooth Sailing",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Farmers Market Mule",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Lechmere Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "J Vineyards Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "La Petite Grace Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Tilia Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Hayes Ranch Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Banshee Cabernet",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Director's Cut Cabernet",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Anterra Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Babich Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "1924 Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Château Souverain Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Adéle Blanc Sec Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "La Jolie Fleur Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Chloe Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Louis de Grenelle Brut Rosé",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  }
+ ],
+ "sources": [
+  "https://www.glasshousecambridge.com/menus/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

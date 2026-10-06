@@ -1,0 +1,316 @@
+{
+ "venueId": "v-the-citizen-public-house-oyster-bar",
+ "items": [
+  {
+   "name": "Ideal Manhattan",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "The Citizen Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Strawberry Slam",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Boulevardier",
+   "type": "Boulevardier",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Doctor's Orders",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "What's the Word?",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Peach, Please!",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Riptide Mule",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "All Star Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Jell-o Shot of the Night",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "The Boar's Ass",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Shift Drink (shot & Narragansett Lager)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Shot & A Beer (Watchpost Whiskey & Miller High Life)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Pickleback",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pares Balta Cava Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Torresella Prosecco Brut Rose",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Ramey 'Fort Ross-Seaview' Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Andrian Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Vina Cobos Felino Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Truchard 'Franklin Cuvee' Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Dr. Konstantin Frank Gruner Veltliner",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Chateau Saint-Roch Old Vines",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Perla Terra Barolo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Sokol Blosser Evolution Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Cusumano Nero D'Avola",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Maison Noir In Sheep's Clothing Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Delas Freres Cotes du Rhone",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Maine Beer Co. Lunch IPA",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Jack's Abby House Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Widowmaker Brewing Blue Comet",
+   "type": "Widowmaker Blue Comet",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Mast Landing Beer Named Duck",
+   "type": "Mast Landing Beer Named Duck",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Schilling Alexandr Czech Pilsner",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Grimm Artisanal Ales Weisse",
+   "type": "Grimm Weisse",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Guinness Draught Stout",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Coors Banquet",
+   "type": "Coors Banquet",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "1911 Original Dry Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://www.thecitizenboston.com/menu/drink/",
+  "https://www.thecitizenboston.com/menus/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,235 @@
+{
+ "venueId": "v-cisco-brewers-fenway",
+ "items": [
+  {
+   "name": "Blueberry Lemonade",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Madaket Mule",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Blue Haired Lady",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "F-Yeah",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Cisco Disco",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "La Langosta Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Rum Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Boston Garden",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Nantucket Café",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Forever New England",
+   "type": "Cisco Forever New England",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Shark Tracker",
+   "type": "Cisco Shark Tracker",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Whale's Tale",
+   "type": "Cisco Whale's Tale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Grey Lady",
+   "type": "Cisco Grey Lady",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Gripah",
+   "type": "Cisco Gripah",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Wandering Haze",
+   "type": "Cisco Wandering Haze",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Cisco IPA",
+   "type": "Cisco IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Cran Vodka Soda",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Blue Vodka Soda",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Ruby Vodka Soda",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lime Tequila Soda",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Piña Tequila Soda",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Rise Espresso Martini",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Nantucket Vineyard Pinot Gris",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Nantucket Vineyard Sparkling White",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Nantucket Vineyard Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Nantucket Vineyard Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Nantucket Vineyard Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Nantucket Vineyard Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  }
+ ],
+ "sources": [
+  "https://ciscobrewersfenway.squarespace.com/drinkmenu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

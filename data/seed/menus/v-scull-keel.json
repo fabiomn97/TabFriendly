@@ -1,0 +1,475 @@
+{
+ "venueId": "v-scull-keel",
+ "items": [
+  {
+   "name": "Stormflower",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Lavender Coastline",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Dockside Espresso",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Sunset Heatwave Margarita",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Coastal Cooler Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Harbor Barrel Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Copper Current",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Shoreline Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "The Boathouse Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Salted Meridian-Rita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pink Lighthouse Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Anejo Rum Sidecar",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Keel House Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Day Break",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Scull Run IPA by Lamplighter Brewery",
+   "type": "Lamplighter Scull Run IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Bells Two Hearted IPA",
+   "type": "Bell's Two Hearted",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sam Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "True North Northern Haze",
+   "type": "True North Northern Haze",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Sam Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "High Noon Seltzer",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Corona Premier",
+   "type": "Corona Premier",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fat Tire",
+   "type": "New Belgium Fat Tire",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Modelo",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Samuel Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "La Marca Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "J Vineyards Cuvee Sparkling",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.5
+  },
+  {
+   "name": "Kettmeir Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Kettmeir Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Santa Margherita Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Santa Margherita Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 27.0
+  },
+  {
+   "name": "J. de Villebois Pouilly-Fumé Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "J. de Villebois Pouilly-Fumé Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 27.0
+  },
+  {
+   "name": "Mohua Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Mohua Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.5
+  },
+  {
+   "name": "Chalk Hill Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Chalk Hill Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.5
+  },
+  {
+   "name": "Chalone Vineyards Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Chalone Vineyards Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "King Estate Rosé of Pinot Noir",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "King Estate Rosé of Pinot Noir",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Siduri Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Siduri Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 27.0
+  },
+  {
+   "name": "Chateau Chapelle d'Alienor Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Chateau Chapelle d'Alienor Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Cline Cellars Ancient Vines Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Cline Cellars Ancient Vines Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.5
+  },
+  {
+   "name": "Quilt Threadcount Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Quilt Threadcount Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 27.0
+  },
+  {
+   "name": "Les Jamelles Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Les Jamelles Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.0
+  }
+ ],
+ "sources": [
+  "https://artbarcambridge.com/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

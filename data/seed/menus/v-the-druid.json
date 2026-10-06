@@ -1,0 +1,275 @@
+{
+ "venueId": "v-the-druid",
+ "items": [
+  {
+   "name": "Irish Old Fashion",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Irish Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Spicy Margo",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Perfect Pimms",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Iced Irish Coffee",
+   "type": "Irish Coffee",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Seasonal Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Smithwicks",
+   "type": "Smithwick's Red Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Veltins Pilsner",
+   "type": "Veltins Pilsener",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Downeast Cider Original",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Harp Irish Lager",
+   "type": "Harp Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lamplighter Brewing Rotating",
+   "type": "Lamplighter (rotating)",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Maine Beer Co. Rotating",
+   "type": "Maine Beer Co. (rotating)",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Amstel Light",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Duvel",
+   "type": "Duvel",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Narragansett 16oz.",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Magners Irish Cider 16oz.",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Rotating Spiked Seltzers",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Oyster Bay Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Delle Venezie Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Domaine Des Homs Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Winzer Krems Grüner Veltliner",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Tembo Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lyeth Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Reunion Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  }
+ ],
+ "sources": [
+  "https://druidpub.com/menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

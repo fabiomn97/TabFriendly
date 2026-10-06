@@ -1,0 +1,203 @@
+{
+ "venueId": "v-petit-robert-bistro",
+ "items": [
+  {
+   "name": "Lucky Luke",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "5 A.M. in Paris",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Camerone",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Namaste",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Aphrodite",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Le Verger",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Solara Spritz",
+   "type": "Aperol Spritz",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Monte-Carlo",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Kronenbourg 1664 Lager",
+   "type": "Kronenbourg 1664",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Kronenbourg Blanc Witbier",
+   "type": "Kronenbourg 1664 Blanc",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Fiddlehead New England IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Duvel",
+   "type": "Duvel",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Orval",
+   "type": "Orval",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Weihenstephaner Hefeweizen",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Rothaus Tannenzäpfle Pilsner",
+   "type": "Rothaus Tannenzäpfle",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Bissell Brothers Substance IPA",
+   "type": "Bissell Brothers The Substance",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Schilling Alexandr Czech Pils",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Night Shift Whirlpool Pale Ale",
+   "type": "Night Shift Whirlpool",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "O'Hara's Nitro Irish Stout",
+   "type": "O'Hara's Nitro Irish Stout",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Truly Hard Seltzer",
+   "type": "Truly",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Aval French Hard Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Downeast Original Hard Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  }
+ ],
+ "sources": [
+  "https://www.petitrobertbistro.com/s/MAY-COCKTAILS-2026.pdf"
+ ],
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

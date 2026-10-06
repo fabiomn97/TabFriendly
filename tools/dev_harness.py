@@ -7,7 +7,7 @@ import glob, json, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data = {c: {os.path.basename(f)[:-5]: json.load(open(f, encoding="utf-8"))
-            for f in glob.glob(os.path.join(ROOT, "data", "seed", c, "*.json"))} for c in ("venues", "reports")}
+            for f in glob.glob(os.path.join(ROOT, "data", "seed", c, "*.json"))} for c in ("venues", "reports", "menus")}
 data["mod"], data["photos"], data["votes"] = {}, {}, {}
 # A report from another user, so voting can be tried locally.
 data["reports"]["dev-other-user"] = {

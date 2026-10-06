@@ -1,0 +1,467 @@
+{
+ "venueId": "v-locke-bar-restaurant",
+ "items": [
+  {
+   "name": "Jameson",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Bushmills",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Bushmill 12",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Bushmills 1608",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Jameson 18 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 30.0
+  },
+  {
+   "name": "Jameson Black Barrel",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Middleton",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Mitchell & Sons Blue Spot",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mitchell & Sons Green Spot",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mitchell & Sons Yellow Spot",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Redbreast 12 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Redbreast 15 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Tullamore Dew",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Angels Envy",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Baker's",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Basil Hayden",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Booker's",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Bulleit Bourbon",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Bully Boy",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Elijah Craig",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Four Roses",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "High West",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Longbranch",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Woodford Reserve",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Blantons",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Bowman Borthers",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Buffalo Trace",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Horse Soldier",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Knob Creek",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Makers Mark",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Michters",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Maen",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Maen 8 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 43.0
+  },
+  {
+   "name": "Maen 12 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 57.0
+  },
+  {
+   "name": "Nikka Days",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Nikka Single Malt Miyagikyo",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Takimine 8 Year Koji Fermented",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Hibiki Harmony",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Bulleit Rye",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "High West (Rye)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Kentucky Owl Wiseman",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Knob Creek Rye",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Olde Overholt",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Ardbeg 10 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Balvenie 12 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Dewars White Label",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Glenfiddich 12 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Glenlivet 12 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Johnnie Walker Black Label",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Johnnie Walker Gold Label",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Johnnie Walker Platinum Label",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 30.0
+  },
+  {
+   "name": "Johnnie Walker Blue Label",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Lagavulin 16 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Laphroaig 10 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Macallan 12 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Monkey Shoulder",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Oban 14 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  }
+ ],
+ "sources": [
+  "https://thelockebar.com/cambridge-kendall-square-locke-bar-and-restaurant-drink-menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

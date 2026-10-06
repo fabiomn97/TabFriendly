@@ -1,0 +1,363 @@
+{
+ "venueId": "v-the-corner-tavern",
+ "items": [
+  {
+   "name": "Ketel One Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Vieux Carre",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Espadin Paloma",
+   "type": "Paloma",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Strawberry Bee's Knees",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Spiced Pear Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Hibiscus French 75",
+   "type": "French 75",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Cipriani Bellini",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Shipyard Pumpkinhead Ale",
+   "type": "Shipyard Pumpkinhead",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Jacks Abbey House Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Lawsons Finest Liquids Little Sip IPA",
+   "type": "Lawson's Finest Little Sip",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Weihenstephaner Fest Beer (.5 liter)",
+   "type": "Weihenstephaner Festbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16.9,
+   "price": 9.5
+  },
+  {
+   "name": "Weihenstephaner Fest Beer (1 liter)",
+   "type": "Weihenstephaner Festbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 33.8,
+   "price": 15.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Narragansett 16oz",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Bud Light Bottle",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Cambridge Brewing Co. Amber Ale",
+   "type": "Cambridge Brewing Amber Ale",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Blue Moon",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Stella",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Down East Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Left Hand Nitro Milk Stout",
+   "type": "Left Hand Milk Stout Nitro",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Nutrl",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Sun Cruiser Lemonade",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "High Noon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Stormalong Legendary Dry Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Lawson's Sip of Sunshine",
+   "type": "Lawson's Finest Sip of Sunshine",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Naveran Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Cote Mas Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Falchini Vernaccia",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pine Ridge Chenin Blanc-Viognier",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "J Lohr October Nights Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Zuccardi Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Col D'Orcia Rosso Di Montalcino",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "J.Lohr Hilltop Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Meiomi Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Chateau Beauchene Grande Reserve Cotes Du Rhone",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://www.thecornerboston.com/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,499 @@
+{
+ "venueId": "v-the-phoenix-landing",
+ "items": [
+  {
+   "name": "Mighty Squirrel Sour Face",
+   "type": "Mighty Squirrel Sour Face",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Magners Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Tennent's Lager",
+   "type": "Tennent's Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Harp Lager",
+   "type": "Harp Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Carlsberg",
+   "type": "Carlsberg",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Ayinger Bairisch Pils",
+   "type": "Ayinger Bairisch Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Guinness Irish Stout",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.25
+  },
+  {
+   "name": "Smithwicks Irish Ale",
+   "type": "Smithwick's Irish Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Stoneface IPA",
+   "type": "Stoneface IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Weihenstephaner Hefeweissbier",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Kopparberg Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Downeast Blackberry Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Stormalong Red Skies at Night",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Citizen Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Truly",
+   "type": "Truly",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Blue Chill Superlyte",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Nutrl Blueberry",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sun Cruiser Iced Tea Vodka",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "High Noon Hard Seltzer",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.25
+  },
+  {
+   "name": "White Claw",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Dream Patch",
+   "type": "Dream Patch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Zero Gravity Madonna",
+   "type": "Zero Gravity Madonna",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Daura Damm Pale Lager",
+   "type": "Estrella Damm Daura",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "La Chouffe",
+   "type": "La Chouffe",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "Duvel",
+   "type": "Duvel",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Allagash Curieux",
+   "type": "Allagash Curieux",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.25
+  },
+  {
+   "name": "Blue Moon Belgian White",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Bud Lite",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Amstel Light",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Modelo",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Aperol Oasis",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rua Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Tall Ship Tea",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Golden Drift",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "The Scotch Mule",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Sip Happens",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pornstar Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Citrico Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Afterlight",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "House Red Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sun Goddess Ramato Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Planeta Sicilia DOC Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Villa Sandi Il Fresco Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "BonAnno Los Carneros Napa Valley Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Velante Friuli-Venezia Giulia Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Black Cottage Marlborough Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Heritage Du Conseiller Bouchard Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Le Temps Est Vent Côtes Du Rhône",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Emilio Moro Ribera Del Duero Tempranillo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  }
+ ],
+ "sources": [
+  "https://www.thephoenixlanding.com/menu/drinks"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

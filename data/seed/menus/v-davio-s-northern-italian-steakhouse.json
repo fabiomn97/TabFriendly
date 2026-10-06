@@ -1,0 +1,579 @@
+{
+ "venueId": "v-davio-s-northern-italian-steakhouse",
+ "items": [
+  {
+   "name": "Davio's Doli Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Mediterraneo Cosmo Martini",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Getting Ready Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Ode to Summer",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Something Funky",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Hot & Dirty Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Italian Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Bos-hattan",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Apple Cider Margarita",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Cranberry, Ginger Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Lavender Haze",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Blueberry Pie",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Apple Cider Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Pumpkin Pie Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Spiced Pear",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Chai Maple Latte",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Harbor Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "The Golden Pharoah",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Cranberry Harvest",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Autumn Bloom",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Midnight Harvest Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "The Isabella",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Italian Spice",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Chocolate, Peanut Butter Delight",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Fall Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Amstel Light",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Moretti",
+   "type": "Birra Moretti",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Sam Adams",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Wormtown 'Be Hoppy' IPA",
+   "type": "Wormtown Be Hoppy",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Angry Orchard",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Davio's Blood Orange Hazy IPA",
+   "type": "Davio's Blood Orange Hazy IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Mighty Squirrel Cloud Candy IPA",
+   "type": "Mighty Squirrel Cloud Candy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Peroni Nastro Azzurro",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Lord Hobo Hazy IPA 617",
+   "type": "Lord Hobo 617",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Boulevard Whiskey Barrel Stout",
+   "type": "Boulevard Whiskey Barrel Stout",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "NV Prosecco, Gambino",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "NV Louis Roederer Brut Premier",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "NV Veuve-Clicquot 'Yellow Label'",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "2024 Pinot Grigio, Barone Fini",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2023 Pinot Grigio, Conte Brandolini d'Adda",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2024 Dry Riesling, Chateau Ste. Michelle",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "2024 Sauvignon Blanc, Starborough",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2025 Sauvignon Blanc, Davio's Reserve",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "2024 Trebbiano, Pieropan Soave",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2024 Chenin Blanc, Dry Creek Vineyard",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "2024 Chardonnay, Davio's Reserve",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "2024 Chardonnay, Antinori 'Bramito'",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "2023 Chardonnay, Jordan",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 26.0
+  },
+  {
+   "name": "2024 Chardonnay, Rombauer",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "2025 Planeta Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2025 Whispering Angel Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "2024 Centorri Moscato di Pavia",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "2023 Pinot Noir, Davio's Reserve",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "2023 Pinot Noir, Louis Latour Bourgogne Rouge",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "2022 Merlot, Napa Cellars",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "2024 Malbec, Finca el Origen",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2023 Red Blend, Conundrum",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2023 Cabernet Sauvignon, Davio's Reserve",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "2023 Nebbiolo, Damilano",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "2022 Zinfandel, Dry Creek 'Heritage Vines'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "2023 Chianti Classico, San Felice",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "2024 Super Tuscan, Brancaia 'Tre'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "2024 Super Tuscan, Guado al Tasso 'Il Bruciato'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 29.0
+  },
+  {
+   "name": "2021 Cabernet Sauvignon, Jordan (Premier Pour)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "2021 Cabernet Sauvignon, Silver Oak (Premier Pour)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 46.0
+  }
+ ],
+ "sources": [
+  "https://davios.com/sites/default/files/downloads/Online%20Beverage%20List%20September%2023%202026%20Boston.pdf"
+ ],
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

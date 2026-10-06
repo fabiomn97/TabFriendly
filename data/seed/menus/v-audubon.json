@@ -1,0 +1,417 @@
+{
+ "venueId": "v-audubon",
+ "items": [
+  {
+   "name": "Exhibit 'A' Cat's Meow (New England IPA)",
+   "type": "Exhibit A Cat's Meow",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Trillium Rotating IPA",
+   "type": "Trillium (rotating)",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 11.0
+  },
+  {
+   "name": "Devil's Purse Handline Kölsch",
+   "type": "Devil's Purse Handline Kolsch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Maine Beer Co. Lunch (American IPA)",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 10.0
+  },
+  {
+   "name": "Bent Water Pilsner",
+   "type": "Bent Water Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Jack's Abby Shipping Out of Boston (Amber Lager)",
+   "type": "Jack's Abby Shipping Out of Boston",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sour - rotating selection",
+   "type": "Rotating Sour",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 10.0
+  },
+  {
+   "name": "Lawson's Hopcelot (American IPA)",
+   "type": "Lawson's Finest Hopcelot",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Hitachino Nest White (Witbier)",
+   "type": "Hitachino Nest White Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Oxbow Farmhouse Ale (Saison)",
+   "type": "Oxbow Farmhouse Pale Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Ghostfish Came From the Haze (Gluten Free)",
+   "type": "Ghostfish Came From the Haze",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Orval (Belgian Pale)",
+   "type": "Orval",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pacifico",
+   "type": "Pacifico",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Bud",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Diet Bud",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Zero Gravity Madonna (Double IPA)",
+   "type": "Zero Gravity Madonna",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Trappist Rochefort 8 (Belgian Dark)",
+   "type": "Rochefort 8",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Lord Hobo 617 (Local Lager)",
+   "type": "Lord Hobo 617",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Night Shift Nite Lite (Local Light)",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Downeast Unfiltered",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Downeast Blackberry",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "High Noon Watermelon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Shacksbury Dry",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Left Hand Spiced Latte (Pumpkin)",
+   "type": "Left Hand Spiced Latte",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Night Shift Piescraper (Pumpkin)",
+   "type": "Night Shift Piescraper",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Smuttynose Pumpkin Ale",
+   "type": "Smuttynose Pumpkin Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Downeast Pumpkin Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Cabernet - '23 Casillero del Diablo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Pinot Noir - '24 Le Charmel",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Garnacha - '21 Proyecto",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Chardonnay - '23 Dreaming Tree",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sauv. Blanc - '22 Bonterra",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Alvarinho - '22 Nortico",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Orange - '24 Solis Lumen",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Sparkling - NV Mistinguett",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Rosé Sparkling - NV Lunetta",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Lambrusco - NV Quercioli",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Rosé - '25 La Petite Perriere",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Black Manhattan",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Martinez",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Anchorita",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Alien Boy",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Desert Rose",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Patio Crusher",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mint To Be",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Milk Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Spice Girl",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Yella Fella",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  }
+ ],
+ "sources": [],
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

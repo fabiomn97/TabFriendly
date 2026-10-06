@@ -1,0 +1,323 @@
+{
+ "venueId": "v-alice-monarch",
+ "items": [
+  {
+   "name": "First Look",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Americano Infinito",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "East of Amalfi",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pink Peppercorn Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Green Tomatoes",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Strawberry Top Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Alice Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Grappolo Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Guinness Stout (6 oz)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 6,
+   "price": 7.0
+  },
+  {
+   "name": "Guinness Stout (16 oz)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Maine Woods & Waters IPA (6 oz)",
+   "type": "Maine Beer Co. Woods & Waters",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 6,
+   "price": 8.0
+  },
+  {
+   "name": "Maine Woods & Waters IPA (16 oz)",
+   "type": "Maine Beer Co. Woods & Waters",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Oxbow Luppolo Italian Lager (6 oz)",
+   "type": "Oxbow Luppolo",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 6,
+   "price": 7.0
+  },
+  {
+   "name": "Oxbow Luppolo Italian Lager (16 oz)",
+   "type": "Oxbow Luppolo",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Miller High Life (7 oz)",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 7,
+   "price": 3.0
+  },
+  {
+   "name": "Miller High Life (12 oz)",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 5.0
+  },
+  {
+   "name": "Nite Lite Light Lager",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Birrificio Italiano Tipopils",
+   "type": "Birrificio Italiano Tipopils",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Barreled Souls Barrel Aged Barley Wine Ale",
+   "type": "Barreled Souls Barley Wine",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "NV Prosecco Caposaldo",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "NV Muscadet Domaines Landron 'Atmosphères'",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "NV Brut 1er Cru Gonet-Médeville",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "NV Cava Dibon Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2021 Cava Alta Alella Mirgin Brut Reserva",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "NV Rosé Scarpetta 'Timido' Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2024 Etna Bianco Cottanera",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "2022 Soave Classico Gini",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2023 Fiano di Avellino Rocca del Principe",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "2022 Muscadet Domaine Bâtard Langelier 'Les Prières'",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "2024 Pinot Grigio Alverdi",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "2022 Chardonnay Buehler",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2024 Rosé Carrel & Senger",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2023 Sangiovese Vallepicciola Chianti Classico",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "2023 Sangiovese Stolpman 'Love You Bunches'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "2024 Frappato Feudi del Pisciotto",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2021 Negroamaro Masseria Li Veli 'Askos'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "2024 Rosso Tua Rita",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2022 Cabernet Sauvignon Markham 'Six Stack'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2022 Red Blend Hedges 'CMS'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://aliceandmonarch.com/menu/wine-beverages/"
+ ],
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

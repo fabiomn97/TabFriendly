@@ -1,0 +1,363 @@
+{
+ "venueId": "v-monteverdi",
+ "items": [
+  {
+   "name": "Hibiscus Cosmo",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Jam Session",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Up In Smoke",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Monteverdi Mule",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Matcha Mirage",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Sunfruit Spritz",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Floradora",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Big Trouble Little Tiki",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "House Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Night Shift Fluffy IPA",
+   "type": "Night Shift Fluffy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Allagash White Belgian Wheat",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Maine Lunch IPA",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sam Adam's Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Whalers Rise APA",
+   "type": "Whalers Rise",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Sam Adam's Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Aeronaut Nando West Coast IPA",
+   "type": "Aeronaut Nando",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Peroni Italian Lager",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Cold Harbor Juice Freak NE IPA",
+   "type": "Cold Harbor Juice Freak",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Corona Extra Pale Lager",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Chimay Première Trappist Dubbel",
+   "type": "Chimay Première",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Coors Light Light Lager",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "High Noon Hard Seltzer",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Prosecco, Gambino",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sparkling Rosé, Gruet",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Cava, Raventos Blanc De Blanc",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Gualtieri Lambrusco, Fortana",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Giornata 'Orangotango'",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Forever Young (Côtes de Provence)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pinot Grigio, Benvolio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Vermentino, Santa Maria La Palma",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Gavi di Gavi, Araldica 'La Luciana'",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sauvignon Blanc, Forever Young",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Sauvignon Blanc, Stoneleigh",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Chardonnay, La Crema",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Falanghina, Vesevo 'Beneventano'",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pinot Noir, Cooper Mountain",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Montepulciano, Brecciarolo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Nebbiolo, Pertinace",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Malbec, Forever Young",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Trig Point",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Super Tuscan, 'Il Bruciato'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Valpolicella Classico, Salette",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  }
+ ],
+ "sources": [
+  "https://www.monteverdirestaurant.com/wp-content/uploads/MV-Menu_Beverage-030126.pdf"
+ ],
+ "sourceDate": "2026-03",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

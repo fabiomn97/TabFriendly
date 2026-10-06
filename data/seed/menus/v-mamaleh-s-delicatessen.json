@@ -1,0 +1,33 @@
+{
+ "venueId": "v-mamaleh-s-delicatessen",
+ "items": [
+  {
+   "name": "Malted Brandy Alexander 21+",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": null,
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Bourbon Vanilla Milkshake 21+",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": null,
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Mocha Milkshake 21+",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": null,
+   "oz": null,
+   "price": 16.5
+  }
+ ],
+ "sources": [],
+ "sourceDate": "2025-03",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,211 @@
+{
+ "venueId": "v-pagu",
+ "items": [
+  {
+   "name": "Orion Rice Lager",
+   "type": "Orion Rice Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Estrella Galicia Lager",
+   "type": "Estrella Galicia",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Lamplighter Birds of a Feather IPA",
+   "type": "Lamplighter Birds of a Feather",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Hitachino Nest Red Rice Ale",
+   "type": "Hitachino Nest Red Rice Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 13.0
+  },
+  {
+   "name": "Farthest Star 'In a Strange Land' Junmai Sake",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": 8,
+   "price": 17.0
+  },
+  {
+   "name": "Farthest Star 'Mountains on the Moon' Nigori Sake",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": 8,
+   "price": 17.0
+  },
+  {
+   "name": "Amabuki Junmai Ginjo Himawari Sunflower (180ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": 6.1,
+   "price": 22.0
+  },
+  {
+   "name": "Isastegi Sagardoa Naturala Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 13.0
+  },
+  {
+   "name": "NV Bohigas Cava Brut Reserva",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2024 Itsas Mendi Bizkaiko Txakolina",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2024 Foral Alvarinho",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2024 Muga Tempranillo Blanco",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2024 Gulp Hablo Sauvignon Blanc Orange",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2024 Rezabal Txakoli Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2023 Zorzal Graciano",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2025 Parts & Labor Red Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2020 Izadi Reserva Tempranillo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Cranberry Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Paper Crane",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Gin Gin Tea",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Lei It On Me",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pica Pika",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Gonna Be Golden",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Kyoto Temple",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Strawberry Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  }
+ ],
+ "sources": [
+  "https://cdn.shopify.com/s/files/1/0569/3849/6069/files/6.1.26_dinner.pdf?v=1780933265"
+ ],
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

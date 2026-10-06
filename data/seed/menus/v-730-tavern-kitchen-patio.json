@@ -1,0 +1,1011 @@
+{
+ "venueId": "v-730-tavern-kitchen-patio",
+ "items": [
+  {
+   "name": "Kona Big Wave Golden Ale (Regular)",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Kona Big Wave Golden Ale (Tall)",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Samuel Adams Seasonal (Regular)",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Samuel Adams Seasonal (Tall)",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Cisco Whale's Tale (Regular)",
+   "type": "Cisco Whale's Tale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Cisco Whale's Tale (Tall)",
+   "type": "Cisco Whale's Tale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Michelob Ultra (Regular)",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Michelob Ultra (Tall)",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Bud Light (Regular)",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Bud Light (Tall)",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Stella Artois (Tall)",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Von Trapp Pilsner (Regular)",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Von Trapp Pilsner (Tall)",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Allagash White Ale (Regular)",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Allagash White Ale (Tall)",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Blue Moon Belgian White (Regular)",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Blue Moon Belgian White (Tall)",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Lamplighter (Short)",
+   "type": "Lamplighter (rotating)",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Maine Lunch IPA (Short)",
+   "type": "Maine Beer Company Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Maine Lunch IPA (Regular)",
+   "type": "Maine Beer Company Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Industrial Arts Wrench Hazy IPA (Short)",
+   "type": "Industrial Arts Wrench",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Industrial Arts Wrench Hazy IPA (Regular)",
+   "type": "Industrial Arts Wrench",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Mighty Squirrel Cloud Candy (Regular)",
+   "type": "Mighty Squirrel Cloud Candy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Mighty Squirrel Cloud Candy (Tall)",
+   "type": "Mighty Squirrel Cloud Candy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Fiddlehead IPA (Regular)",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Fiddlehead IPA (Tall)",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Be Hoppy by Wormtown (Regular)",
+   "type": "Wormtown Be Hoppy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Be Hoppy by Wormtown (Tall)",
+   "type": "Wormtown Be Hoppy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Cisco IPA (Regular)",
+   "type": "Cisco IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Cisco IPA (Tall)",
+   "type": "Cisco IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Guinness Stout (Regular)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Guinness Stout (Tall)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Downeast Original (Regular)",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Downeast Original (Tall)",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Wachusett Blueberry (Regular)",
+   "type": "Wachusett Blueberry",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Wachusett Blueberry (Tall)",
+   "type": "Wachusett Blueberry",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Modelo Especial (Regular)",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Modelo Especial (Tall)",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Sam Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Coors Light Bottle",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Busch Light",
+   "type": "Busch Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "PBR Can",
+   "type": "Pabst Blue Ribbon",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Pulp Daddy",
+   "type": "Pulp Daddy",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lord Hobo Boom Sauce",
+   "type": "Lord Hobo Boom Sauce",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Bentwater Sluice Juice",
+   "type": "Bentwater Sluice Juice",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Lagunitas",
+   "type": "Lagunitas IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Harpoon",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Corona Light",
+   "type": "Corona Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Amstel Light Bottle",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Rotating Sour Selection",
+   "type": "Rotating Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Nutrl Vodka Seltzer",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "High Noon Seltzer",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "White Claw Malt Seltzer",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast Seasonal Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Citizen Dirty Mayor Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Seasonal Canned Cocktail Rotating",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "\"Oopsies\" Pomegranate Detox",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Salted Caramel Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "Little Red Central",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "Blanche Lady",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Casamigos Paloma",
+   "type": "Paloma",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "730 Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Limoncello Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Passion Fruit Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "Blueberry Lemon Drop Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.5
+  },
+  {
+   "name": "Watermelon Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Spicy Mango Margarita",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cosmo Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pomegranate Club",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Cucumber Elderflower Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mojitos",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Caipirinha",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "The Aphrodite",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Peach Bourbon Lemonade",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Lemon Blueberry Thyme Mule",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Blue Line",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Raspberry Lemonade",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "730 Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Red Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "White Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Cabernet, Liberty School",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Cabernet, Liberty School",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Cabernet, Coppola",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Cabernet, Coppola",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 16.0
+  },
+  {
+   "name": "Merlot, Noble Vines",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Merlot, Noble Vines",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Pinot Noir, Murphy Goode",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "Pinot Noir, Murphy Goode",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Noir, Meiomi",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Pinot Noir, Meiomi",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 16.0
+  },
+  {
+   "name": "Malbec, Catena Vista",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Malbec, Catena Vista",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Red Blend, Bread & Butter",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Red Blend, Bread & Butter",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Chardonnay, Kendall Jackson",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "Chardonnay, Kendall Jackson",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 16.0
+  },
+  {
+   "name": "Chardonnay, La Crema",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Chardonnay, La Crema",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 17.0
+  },
+  {
+   "name": "Pinot Grigio, Casalini",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "Pinot Grigio, Casalini",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Pinot Grigio, Villa Marchesi",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Pinot Grigio, Villa Marchesi",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Sauv Blanc, Villa Maria",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Sauv Blanc, Villa Maria",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Sauv Blanc, Kim Crawford",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Sauv Blanc, Kim Crawford",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 17.0
+  },
+  {
+   "name": "Riesling, Pacific Rim",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "Riesling, Pacific Rim",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Vinho Verde, Miguels",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "Vinho Verde, Miguels",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Rose, Chloe",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "Rose, Chloe",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Rose, Saleya",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "Rose, Saleya",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Brut, Wycliff",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 7.0
+  },
+  {
+   "name": "Brut, Wycliff",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 9.0
+  },
+  {
+   "name": "Prosecco, LaMarca (split)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://730tavern.com/cambridge-central-square-730-tavern-kitchen-and-patio-drink-menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

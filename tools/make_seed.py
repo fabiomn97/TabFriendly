@@ -1,6 +1,7 @@
 """Turn data/venues.json (the reviewed research list) into one JSON file per database document.
 
-Output: data/seed/venues/<id>.json and data/seed/reports/<id>.json, plus data/seed/batches.json —
+Output: data/seed/venues/<id>.json, data/seed/reports/<id>.json and data/seed/menus/<venue id>.json (from
+data/menus.json, if present), plus data/seed/batches.json —
 a list of ArtifactData batch-write lists (50 writes max each) that point at those files.
 
 Run:  python tools/make_seed.py
@@ -27,7 +28,7 @@ def slug(s):
 
 venues = json.load(open(SRC, encoding="utf-8"))
 writes, seen = [], set()
-for sub in ("venues", "reports"):
+for sub in ("venues", "reports", "menus"):
     os.makedirs(os.path.join(OUT, sub), exist_ok=True)
     for f in os.listdir(os.path.join(OUT, sub)):
         os.remove(os.path.join(OUT, sub, f))
@@ -60,6 +61,23 @@ for v in venues:
         json.dump(rep, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         writes.append({"op": "set", "collection": "reports", "doc_id": rid, "file_path": path})
 
-batches = [writes[i:i + 50] for i in range(0, len(writes), 50)]
+n_reports = len(writes) - len(seen)
+
+# Full drink menus (data/menus.json, built by tools/merge_menus.py): one doc per venue, keyed by the venue id.
+menu_writes = []
+MENUS = os.path.join(ROOT, "data", "menus.json")
+for m in json.load(open(MENUS, encoding="utf-8")) if os.path.exists(MENUS) else []:
+    if m["venue_id"] not in seen or not m["items"]:
+        continue
+    doc = {"venueId": m["venue_id"], "items": m["items"], "sources": m["menu_sources"],
+           "sourceDate": m["menu_date"] if m["menu_date"] != "unknown" else None, "by": None, "at": SEED_AT}
+    path = os.path.join(OUT, "menus", m["venue_id"] + ".json")
+    json.dump(doc, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    menu_writes.append({"op": "set", "collection": "menus", "doc_id": m["venue_id"], "file_path": path})
+writes += menu_writes
+
+chunk = lambda ws: [ws[i:i + 50] for i in range(0, len(ws), 50)]
+batches = chunk(writes)
 json.dump(batches, open(os.path.join(OUT, "batches.json"), "w", encoding="utf-8"), indent=1)
-print(f"{len(seen)} venues, {len(writes) - len(seen)} price reports, {len(batches)} batches")
+json.dump(chunk(menu_writes), open(os.path.join(OUT, "batches_menus.json"), "w", encoding="utf-8"), indent=1)
+print(f"{len(seen)} venues, {n_reports} price reports, {len(menu_writes)} menus, {len(batches)} batches")

@@ -1,0 +1,355 @@
+{
+ "venueId": "v-the-independent",
+ "items": [
+  {
+   "name": "Passionfruit Paloma",
+   "type": "Paloma",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Snapdragon",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Grapefruit Gimlet",
+   "type": "Gimlet",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Afterburn",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Bandoliers",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Gardens of Laputa",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Freezer Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Baklava Whiskey Sour",
+   "type": "Whiskey Sour",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Raspberry Spritz",
+   "type": "House cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Elderflower & White Peach Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "The Liffey Descent",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Irish Coffee (Classic)",
+   "type": "Irish Coffee",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Iced Irish Coffee",
+   "type": "Irish Coffee",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Dibon Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Osmote Cayuga White Pet-Nat",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Petit Bourgeois Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Rouvalis 'Asprolithi' Roditis",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Roussely (Orange)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Les Cardonnieres Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Uivo Renegado (Chilled Red)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Melovivo Frappato",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Artuke Tempranillo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Night Shift Nite Lite Lager",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Zero Gravity Green State Lager",
+   "type": "Zero Gravity Green State Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Devil's Purse Kölsch",
+   "type": "Devil's Purse Kölsch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Weihenstephaner Hefeweizen",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16.9,
+   "price": 9.0
+  },
+  {
+   "name": "Tuckerman Pale Ale",
+   "type": "Tuckerman Pale Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Cambridge Amber Ale",
+   "type": "Cambridge Brewing Amber",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Notch Left of The Dial IPA",
+   "type": "Notch Left of the Dial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Fiddlehead New England IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Finback Rolling In Clouds IPA",
+   "type": "Finback Rolling in Clouds",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Maine Lunch IPA",
+   "type": "Maine Beer Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 12.0
+  },
+  {
+   "name": "Duchesse Barrel-Aged Belgian Sour",
+   "type": "Duchesse de Bourgogne",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Guinness Stout",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 9.0
+  },
+  {
+   "name": "Citizen Cider Rotating",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Lawson's Sip of Sunshine IPA",
+   "type": "Lawson's Sip of Sunshine",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Surfside Iced Tea & Vodka",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Topo Chico Hard Seltzer",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Downeast Original Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Magners Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 20,
+   "price": 10.0
+  }
+ ],
+ "sources": [
+  "https://theindo.com/wp-content/uploads/2026/06/Final-Dinner-Bev-6.19.26.pdf"
+ ],
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

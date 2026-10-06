@@ -1,0 +1,1347 @@
+{
+ "venueId": "v-bistro-du-midi",
+ "items": [
+  {
+   "name": "Bistro Quinze",
+   "type": "French 75",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Oui Chef",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Champs de Lavande",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Poire Fumée",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 26.0
+  },
+  {
+   "name": "Can-Can",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Air France",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Boylston Tea Co.",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Trillium Rotating IPA",
+   "type": "Trillium Rotating IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Rothaus Tannenzäpfle Pilsner",
+   "type": "Rothaus Tannenzäpfle",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Oxbow Farmhouse Pale Ale",
+   "type": "Oxbow Farmhouse Pale Ale",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lamplighter Birds of a Feather IPA",
+   "type": "Lamplighter Birds of a Feather",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Kronenbourg 1664 Lager",
+   "type": "Kronenbourg 1664",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Andechs Hell",
+   "type": "Andechs Hell",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Samuel Smith Nut Brown Ale",
+   "type": "Samuel Smith Nut Brown Ale",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Ommegang Abbey Ale",
+   "type": "Ommegang Abbey Ale",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Van Steenberge Monk's Cafe Flemish Sour",
+   "type": "Van Steenberge Monk's Cafe",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Lindemans Framboise",
+   "type": "Lindemans Framboise",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Eric Bordelet Sidre Tendre",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Girost-Moussy Champagne Brut Tradition",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "Zonin Prosecco Extra Dry",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Grigio Ca Donini",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Sauvignon Blanc Groth",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Sauvignon Blanc Fournier Père et Fils Sancerre",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "Riesling Max Kilburg Vertigo Feinherb",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Chenin Blanc Champalou Vouvray Sec",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Chardonnay Mathieu Paquet Cuvée Louise Mâcon-Villages",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Chardonnay Routestock Sonoma Coast",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Chardonnay Domaine de Montille Clos du Château",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Chateau Peyrassol La Croix Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Pinot Noir Denis Fouquerand Hautes-Côtes de Beaune",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 29.0
+  },
+  {
+   "name": "Gamay Dupeuble Beaujolais",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cabernet Franc Chanteleuserie Bourgueil",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Grenache Blend J.L. Chave Mon Coeur Côtes-du-Rhône",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Nebbiolo Guido Porro Camilu Langhe",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Malbec Altos Las Hormigas Clásico",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Merlot Blend Château Moulin Canon Fronsac",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Cabernet Sauvignon Daou",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Cabernet Sauvignon Mount Veeder",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Patrick Bottex Bugey Cerdon Demi-Sec Sparkling Rosé",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Aperol",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Campari",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Lillet Blanc",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lillet Rouge",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Pernod",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Pimm’s No. 1",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Ricard Pastis",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Grey Goose",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Ketel One",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Titos",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Wheatley",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Citadelle",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Bombay Sapphire",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Hendricks",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Monkey 47",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Plymouth",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "St. George Botanivore",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Tanqueray",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Flor de Caña Silver",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Mad River Maple",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Black Seal",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Leblon Cachaça",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Baie des Trésors Plein Soleil",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Wray & Nephew Overproof",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Casamigos Blanco",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Casamigos Reposado",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Casamigos Añejo",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Clase Azul Reposado",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Clase Azul Gold",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Don Julio Blanco",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Don Julio Reposado",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Don Julio Añejo",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Don Julio 1942",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "El Tesoro Extra Anejo",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 57.0
+  },
+  {
+   "name": "Lunazul Blanco",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Tequila Ocho Blanco",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Tequila Ocho Reposado",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Mad River Revolution",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Michter’s US 1",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Michter’s 10 year Single Barrel",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Sazerac",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Rittenhouse",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "WhistlePig 10 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "WhistlePig Old World 12 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 43.0
+  },
+  {
+   "name": "Blanton’s",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 26.0
+  },
+  {
+   "name": "Bombergers",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 30.0
+  },
+  {
+   "name": "Bomberger’s PFG",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Booker’s Little Book, Ch 6",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Eagle Rare 10 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Elijah Craig Small Batch",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Elijah Craig Barrel Proof",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "Elijah Craig 18 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "E.H. Taylor Small Batch",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Four Roses",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Knob Creek 21 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 98.0
+  },
+  {
+   "name": "Maker’s Mark",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Old Grand-Dad 114",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Old Rip Van Winkle 10 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "Parkers Heritage Double Barrel",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Rabbit Hole Cavehille",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Weller Special Reserve",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Weller Full Proof",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Weller 12 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Woodford Reserve",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Jack Daniels",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Jameson",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Michter’s US 1 Sour Mash",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Michter’s US 1 American Whiskey",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Shenk’s Homestead Sour Mash",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Caisteal Chamuis",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Dewars White Label",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Johnnie Walker Black Label",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Aberfeldy 12 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Balvenie 12 year DoubleWood",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Balvenie 14 year Caribbean Cask",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "Benromach 10 year Speyside",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Macallan 12 year Speyside",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Macallan 18 year Speyside",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "Mossburn #22 Speyside 2009",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Bowmore 18 year Islay",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "Laphroaig 10 year Islay",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Oban 14 year Highland",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Hakushu 12 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Hibiki Harmony",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Nikka Coffey Grain",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Nikka Miyagiko",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Suntory Toki",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Yamazaki 12 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "Jean Fillioux VSOP",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Jean Fillioux Tres Vieux XO Extra",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Jean Fillioux Cigar Club",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Pierre Ferrand Ambre",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pierre Ferrand Reserve",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Pierre Ferrand Selection des Anges",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Hennessy VS",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Hine 2006",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Tesseron Lot No. 90, XO Ovation",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 30.0
+  },
+  {
+   "name": "Tesseron Lot No. 76 XO Tradition",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "Tesseron Lot No. 53, XO Perfection",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Cerbois VSOP",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Cerbois XO",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Dartigalongue Hors d’Âge",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Dartigalongue Vintage 2000",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Delord Napoléon",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Delord 25 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Christian Drouhin VSOP",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Claque-Pépin 20 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 29.0
+  },
+  {
+   "name": "Amaretto",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Bailey’s",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Benedictine",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Chartreuse Yellow",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Chartreuse Yellow V.E.P.",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Chartreuse Green",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Chartreuse Green V.E.P.",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Chartreuse M.O.F.",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Chartreuse 1605",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 29.0
+  },
+  {
+   "name": "Cointreau",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Cynar",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Dolin Genepy de Alps",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Frangelico",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Grand Marnier",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Limoncello",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Montenegro Amaro",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Maraschino",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Nonino Amaro",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sambuca",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "St. Germain",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "St. George Absinthe",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  }
+ ],
+ "sources": [
+  "https://www.bistrodumidi.com/s/Bistro-du-Midi-Wine-List-ver-09212026.pdf"
+ ],
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

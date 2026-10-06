@@ -1,0 +1,643 @@
+{
+ "venueId": "v-loretta-s-last-call",
+ "items": [
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Castle Island Keeper IPA",
+   "type": "Castle Island Keeper",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Modelo",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Coors Banquet",
+   "type": "Coors Banquet",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Garage Beer Lime",
+   "type": "Garage Beer Lime",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Lone Star",
+   "type": "Lone Star",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Mighty Squirrel Double Cloud",
+   "type": "Mighty Squirrel Double Cloud",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Pabst Blue Ribbon",
+   "type": "Pabst Blue Ribbon",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Sam Adams Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Shiner Bock",
+   "type": "Shiner Bock",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Zero Gravity Conehead IPA",
+   "type": "Zero Gravity Conehead",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Downeast",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "High Noon Watermelon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Nutrl Orange",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "White Claw Black Cherry 16oz",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Lucky One Lemonade",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Sun Cruiser Blueberry",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Sun Cruiser Tea",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Surfside Ice Tea",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "All Night Revival",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Garnet Ghost Town (Doug's)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Honey Bee",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Huck Around & Find Out",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Peaches Down in Pelham",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Watermelon Crawl",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Budweiser & Taffer's Brown Butter Whiskey (boilermaker)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Coors Banquet & Jack Daniels Blackberry (boilermaker)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Miller Lite & Jack Daniels Honey (boilermaker)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Pabst Blue Ribbon & Four Walls Irish Whiskey (boilermaker)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Crossings Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Josh Cellars Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "La Marca Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Balcones Single Malt Whiskey",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Bernheim Wheat",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Blantons",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Buffalo Trace",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Bulleit",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Bulleit Rye",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Clyde Mays Alabama Whiskey",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Dad's Hat Rye",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Eagle Rare",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Evan Williams Small Batch",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Fighting Cock",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Fireball",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Four Roses Small Batch",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Gentleman Jack",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "George Dickel",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "George Dickel Rye",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "George Dickel White",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Hudson Baby Bourbon",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Jack Daniels",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Jack Daniels Honey",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Jack Daniels Single Barrel",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Jim Beam",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Jim Beam Devil's Cut",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Jim Beam Red Stag Honey Tea",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Journeyman Buggy Whip Wheat",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Makers Mark",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Old Crow",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Red River Texas Bourbon",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Wild Turkey",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Georgia Moon Apple Pie",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Georgia Moon Fruit Jar",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Midnight Moon Blueberry",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Ole Smoky Blackberry",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Ole Smoky Peach",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Ole Smoky Strawberry",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "South House Moonshine",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  }
+ ],
+ "sources": [
+  "https://www.lorettaslastcall.com/menus"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

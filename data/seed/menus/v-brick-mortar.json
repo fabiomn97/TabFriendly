@@ -1,0 +1,1131 @@
+{
+ "venueId": "v-brick-mortar",
+ "items": [
+  {
+   "name": "Electric Kool-Aid Acid Test",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Apollo Sunshine",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "What's New Pussycat",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Smash Cut",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Mexican Radio",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Old Fashioned Aura",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Concert Weed",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Breakin' Dishes",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Darling Nikki Vesper",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Cactus Flower Garden",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Hot Rod Lincoln | The Hot & Dirty",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Surfer Rosalía",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Pink Beach Flip Flops",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Border Trilogy | Little Beer + Tequila & Chaser",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "The Rusty Ducati",
+   "type": "House cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Trampling Flower Beds",
+   "type": "House cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Negroni Sbagliato",
+   "type": "House cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Aeronaut | the great Northern IPA",
+   "type": "Aeronaut The Great Northern",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 5.0
+  },
+  {
+   "name": "Cerveza Pacifico Clara",
+   "type": "Pacifico",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Guinness | Extra Stout",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 11.2,
+   "price": 9.0
+  },
+  {
+   "name": "Narragansett & Del's | Shandy",
+   "type": "Narragansett Del's Shandy",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Artifact Cider Project | wolf at the door",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Banshee Ten of Cups | Sparkling white",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "La Petit Marquise | Sparkling Rosé (Cremant)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Andrea Felici | Verdicchio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Cirò Bianco | Vignetti Vumbaca",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Sa Raja | Cannonau | Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Luigi Voghera | Nebbiolo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Carminucci | Rosso Piceno Grotte sul Mare",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Glenmorangie | 18 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "The Balvenie | Caribbean Cask | 14 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 26.0
+  },
+  {
+   "name": "Glenlivet | Double Oak | 12 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Talisker Distiller’s Edition | Single Malt",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Springbank | 12 year | Cask Strength",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "Bookers | Storyteller Batch 2023",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Eagle Rare 10 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Weller Special Reserve",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "High N' Wicked | The Judge",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Henry McKenna Single Barrel | 10 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Old Fitzgerald Bottled In Bond | 9 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Buffalo Trace",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Elijah Craig | Small Batch",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Heaven Hill Heritage Collection | Aged 22 years | small batch",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Pikesville | Straight Rye | 6 years",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Catoctin Creek | Gwar \"Ragnarök\" 2022",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "King's County Distillery | Empire Rye",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Suntory | Toki",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "nikka | Whisky from the barrel",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "The Yamazaki | Single Malt | 12 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "Nikka | Taketsuru Pure Malt",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Nikka | Coffey Grain",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Jack Daniels | Bonded",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Kings Code | Kings County Ditillery",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "St George Baller | Japanese Style American Whiskey",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Parker's Heritage | Kentucky Straight Wheat | 11 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Parker's Heritage | Barrel Finished | 14 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 30.0
+  },
+  {
+   "name": "Mad River Distillery | Mad Apple",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Johnnie Walker Black Label | 12 year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Jameson",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Tyrconnell | Single Malt",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "West Cork | Distiller's Black Cask",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "La Gritona | Reposado",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Fortaleza | Reposado",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Fortaleza | Blanco",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Siembra Valles | Still Strength Blanco",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "G4 | Reposado",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "G4 | Blanco Premium",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Casachuin | Tahona | Blanco",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Siembra valles | Ancestral",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Tequila Ocho | Plata 2023",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Tequila Ocho | Reposado 2023",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Tequila Ocho Puntas | Distiller’s cut",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Tequila Ocho | El Bajio | Extra Añejo",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Siete Leguas | Anejo | 7 Year",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Gusto Histórico | Madrecuixe",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Peleton de la Muerte | Criollo",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "El Jolgorio | Tepeztate",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "Privateer Rum | Graffiti Alley | Ipswich MA",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Holmes Cay | 17 Year Fiji Single Cask",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Rhum JM | Gold Argricole",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rhum JM | White Agricole",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Foursquare | isonomy",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 26.0
+  },
+  {
+   "name": "Worthy Park | 109",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Wray & Nephew | Overproof",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Planteray | Stiggin's Fancy",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Planteray | Mister Fogg | Navy Strength",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Planteray | Cut & Dry",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pierre Ferrand | 10 Generations",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Pierre Ferrand | Renegade no. 2",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Pierre Ferrand | Renegade No. 3",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Chateau Arton | Haut Armagnac",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Paul Beau | Hors D'Age",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Armagnac | Domaine d'Aurensan",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Armagnac | Chateau de Leberon",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Courvoisier VS | Cognac",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Guillon-Painturaud VSOP",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Laird's | Straight Apple Brandy",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Hendrick's | Small Batch",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Bols Genever",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mahon | destilerias xoriguer",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Bluecoat | American Dry",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "SAJ Gin",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Empress | indigo",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "The Botanist | Islay Dry",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Bluecoat | Elderflower Gin",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Bombay Sapphire",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Citadelle | Vive le Cornichon",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Tito's",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Nikka Coffey Vodka",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Belvedere | Lake Bartezek",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Kettle One",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Chartreuse | VEP | Yellow",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Chartreuse | VEP | Green",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Chartreuse | Yellow",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Chartreuse | Green",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Benedictine",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Chambord",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Licor 43",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Ancho Reyes | Chile Ancho Liqueur",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Five Farms | Irish Cream",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Grand Marnier",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pimm's",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Sambuca | Molinari",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Limoncello | Meletti",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Fratello | Hazlenut Liqueur",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Kahlua | Rum & Coffee Liqueur",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Cointreau | Orange Liqueur",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Singani 63",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Campari",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Aperol",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Averna",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fernet Branca",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fernet Vallet",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Cynar",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Meletti",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Zucca Rabarbaro",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Luxardo Amaro Abano",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Montenegro",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Felix Bigallet | China-China",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  }
+ ],
+ "sources": [
+  "https://www.brickmortarltd.com/menus/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,59 @@
+{
+ "venueId": "v-miracle-of-science-bar-grill",
+ "items": [
+  {
+   "name": "Stellwagen NE IPA",
+   "type": "Stellwagen NE IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Berkshire Brewery White",
+   "type": "Berkshire Brewing White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Dorchester Brewing Fruit Punch Sour",
+   "type": "Dorchester Brewing Fruit Punch Sour",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Aeronaut Marzen",
+   "type": "Aeronaut Marzen",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Counterweight IPA",
+   "type": "Counter Weight IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Von Trapp Helles",
+   "type": "Von Trapp Helles",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://www.miracleofscience.us/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

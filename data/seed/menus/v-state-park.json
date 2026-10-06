@@ -1,0 +1,446 @@
+{
+ "venueId": "v-state-park",
+ "items": [
+  {
+   "name": "Lake Havasu",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Cranberry Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "50/50 Margarita",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Bonecrusher",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Beetnik",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mustang Island",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "State Park Cocktail",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Where Eagles Dare",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Green Walnut",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Latin Quarter",
+   "type": "Sazerac",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Cobra's Fang (frozen)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Frozen Paloma",
+   "type": "Paloma",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Zero Gravity Conehead IPA",
+   "type": "Zero Gravity Conehead",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Lamplighter Birds Of A Feather NEIPA",
+   "type": "Lamplighter Birds of a Feather",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Notch Czech-Style Pilsner",
+   "type": "Notch Czech-Style Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sacred Profane Dark Lager",
+   "type": "Sacred Profane Dark Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Tecate Original Lager",
+   "type": "Tecate",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 5.5
+  },
+  {
+   "name": "Shiner Bock",
+   "type": "Shiner Bock",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Allagash White Ale",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Dogfish Head Festina Pêche",
+   "type": "Dogfish Head Festina Pêche",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Oxbow Farmhouse Pale Ale",
+   "type": "Oxbow Farmhouse Pale Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.75
+  },
+  {
+   "name": "Orval Belgian Pale Ale",
+   "type": "Orval",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 14.5
+  },
+  {
+   "name": "Rochefort 8",
+   "type": "Rochefort 8",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 14.5
+  },
+  {
+   "name": "Drie Fonteinen Oude Kriek #93",
+   "type": "Drie Fonteinen Oude Kriek",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 26.0
+  },
+  {
+   "name": "Okocim O.K. Beer",
+   "type": "Okocim O.K. Beer",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Reissdorf Kölsch",
+   "type": "Reissdorf Kölsch",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Ridgeway Bitter",
+   "type": "Ridgeway Bitter",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 16.0
+  },
+  {
+   "name": "Grimm Weisse",
+   "type": "Grimm Weisse",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "Lawson's Finest Nitro Stout",
+   "type": "Lawson's Finest Nitro Stout",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Schlenkerla Helles Lager",
+   "type": "Schlenkerla Helles",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Dudleytown Berried Bones",
+   "type": "Dudleytown Berried Bones",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Trillium Fort Point New England IPA",
+   "type": "Trillium Fort Point",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "Untold East By Northwest IPA",
+   "type": "Untold East By Northwest",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Fiddlehead Second Fiddle DIPA",
+   "type": "Fiddlehead Second Fiddle",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "Lunar Hard Seltzer Yuzu",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Artifact Cider Long Way Back",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "Shacksbury Cider Yuzu Ginger",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Joto Sake Graffiti Cup",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 6.8,
+   "price": 14.0
+  },
+  {
+   "name": "Amabuki Sake Himawari Cup",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Hana Makgeolli Mak 8",
+   "type": "Makgeolli",
+   "kind": "other",
+   "serve": null,
+   "oz": 8,
+   "price": 15.0
+  },
+  {
+   "name": "Toronto",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "M & M",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Green Tea Shot",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Latin Nickel",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Alsina & Sardà Cava Brut Reserva",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Luc Poullain x Mary Taylor Touraine Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Poderi Cellario Quantobasta Bianco",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Muller-Ruprecht Orange",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Jérémie Huchet Chapeau Melon Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Poderi Cellario Quantobasta Rosso",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "From the Tank Côtes-du-Rhône Rouge",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  }
+ ],
+ "sources": [
+  "https://stateparkbar.com/menus/drinks-menu",
+  "https://cdn.prod.website-files.com/64405780c79bf6df9a87061c/6a86ec929ef66bf64d119ffc_Drinks%2020260815.jpg",
+  "https://cdn.prod.website-files.com/64405780c79bf6df9a87061c/6a86ec99cb65cf2187f9b81c_Drinks%20202608152.jpg",
+  "https://cdn.prod.website-files.com/64405780c79bf6df9a87061c/69e95f7346c9029720145325_Drinks%20202604224.jpg"
+ ],
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

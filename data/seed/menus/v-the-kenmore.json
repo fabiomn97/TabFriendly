@@ -1,0 +1,675 @@
+{
+ "venueId": "v-the-kenmore",
+ "items": [
+  {
+   "name": "Bentwater Sluice Juice",
+   "type": "Bent Water Sluice Juice",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Xul Tiny Umbrella",
+   "type": "Xul Tiny Umbrella",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.5
+  },
+  {
+   "name": "Aeronaut Robot Crush",
+   "type": "Aeronaut Robot Crush",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Exhibit A Everyday Lager",
+   "type": "Exhibit A Everyday Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Maine Lunch",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 12.0
+  },
+  {
+   "name": "Bissel Brothers Substance",
+   "type": "Bissell Brothers The Substance",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "3 Floyds Zombie Dust",
+   "type": "3 Floyds Zombie Dust",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.75
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Fat Tire",
+   "type": "New Belgium Fat Tire",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Stella",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Lawsons Easy Sip",
+   "type": "Lawson's Finest Easy Sip",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Widowmaker Green Wizard",
+   "type": "Widowmaker Green Wizard",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Lawson's Sip of Sunshine",
+   "type": "Lawson's Finest Sip of Sunshine",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 12.5
+  },
+  {
+   "name": "Zero Gravity Conehead",
+   "type": "Zero Gravity Conehead",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Bent Water Double Thunderfunk",
+   "type": "Bent Water Double Thunderfunk",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 12.5
+  },
+  {
+   "name": "Sloop Brewing Juice Bomb",
+   "type": "Sloop Juice Bomb",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.5
+  },
+  {
+   "name": "Voodoo Ranger IPA",
+   "type": "Voodoo Ranger IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 19.2,
+   "price": 10.0
+  },
+  {
+   "name": "Voodoo Ranger Juice Force",
+   "type": "Voodoo Ranger Juice Force",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 19,
+   "price": 12.0
+  },
+  {
+   "name": "Toppling Goliath King Sue",
+   "type": "Toppling Goliath King Sue",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 12.5
+  },
+  {
+   "name": "Zero Gravity Conehead Haze",
+   "type": "Zero Gravity Conehead Haze",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Zero Gravity Madonna",
+   "type": "Zero Gravity Madonna",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 12.5
+  },
+  {
+   "name": "Foam Built To Spill",
+   "type": "Foam Built To Spill",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 12.5
+  },
+  {
+   "name": "Fiddlehead Second Fiddle",
+   "type": "Fiddlehead Second Fiddle",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Bells Two Hearted",
+   "type": "Bell's Two Hearted",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 11.5
+  },
+  {
+   "name": "Zero Gravity Green State Lager",
+   "type": "Zero Gravity Green State Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Hero 95",
+   "type": "Sam Adams Hero 95",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Moat Mountain Miss V's Blueberry Ale",
+   "type": "Moat Mountain Miss V's Blueberry Ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Sullivan's Malting Red Ale",
+   "type": "Sullivan's Red Ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Kona Big Wave",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Widowmaker Riff City Lager",
+   "type": "Widowmaker Riff City Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Weldworks Berlinish Fish",
+   "type": "Weldworks Berlinish Fish",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Weldworks Breakfast in Bed",
+   "type": "Weldworks Breakfast in Bed",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Destill Sour Pickle",
+   "type": "Destill Sour Pickle",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Prairie Artisan Smoothie Esses",
+   "type": "Prairie Artisan Smoothie Esses",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Prairie Artisan Thai Delight",
+   "type": "Prairie Artisan Thai Delight",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Prairie Artisan Beach Drink",
+   "type": "Prairie Artisan Beach Drink",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Vanished Valley Fernando",
+   "type": "Vanished Valley Fernando",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "Austin Street After the Glitter Fades",
+   "type": "Austin Street After the Glitter Fades",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Drekkerfest Fluff and Stuff",
+   "type": "Drekkerfest Fluff and Stuff",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "450 Brewing Gassed Gummies",
+   "type": "450 Brewing Gassed Gummies",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "450 Brewing Breaking Dab",
+   "type": "450 Brewing Breaking Dab",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Branch and Blade Sack Lunch",
+   "type": "Branch and Blade Sack Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Japas Cervejaria Sawa Yuzu",
+   "type": "Japas Cervejaria Sawa Yuzu",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Long Live Hola Fantasma",
+   "type": "Long Live Hola Fantasma",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Mortaliish Hydra",
+   "type": "Mortaliish Hydra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.75
+  },
+  {
+   "name": "Narragansett Dels Shandy",
+   "type": "Narragansett Del's Shandy",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.75
+  },
+  {
+   "name": "Narragansett Fresh Catch",
+   "type": "Narragansett Fresh Catch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.95
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Sam Adams",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Twisted Tea",
+   "type": "Hard tea",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Voodoo Ranger Hard Charged Tea (Lemon)",
+   "type": "Hard tea",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Citizen Cider The Dirty Mayor",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.5
+  },
+  {
+   "name": "Citizen Unified Press",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.5
+  },
+  {
+   "name": "Downeast Original Blend",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Happy Dad Grape",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Happy Dad Fruit Punch",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Sunboy Pineapple",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.5
+  },
+  {
+   "name": "Sunboy Passion Fruit",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.5
+  },
+  {
+   "name": "Sunboy Tangerine",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.5
+  },
+  {
+   "name": "Sunboy Mango",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.5
+  },
+  {
+   "name": "Lightstrike Blue Rush",
+   "type": "Lightstrike Blue Rush",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16.9,
+   "price": 9.5
+  },
+  {
+   "name": "Sun Cruiser Classic",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sun Cruiser Half and Half",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Anterra Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Dreaming Tree Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Lab Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Misguided Vines Aurora Catarratto",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Meiomi Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Dreaming Tree Crush",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Leese-Fitch Cabernet",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Leese-Fitch Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Little Leaguer",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "The Undergrad",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Suicide Squeeze",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "The Pink Hat",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.5
+  }
+ ],
+ "sources": [
+  "https://www.thekenmorebar.com/menus/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

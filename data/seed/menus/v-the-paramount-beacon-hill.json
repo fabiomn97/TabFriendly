@@ -1,0 +1,291 @@
+{
+ "venueId": "v-the-paramount-beacon-hill",
+ "items": [
+  {
+   "name": "Cabernet Sauvignon, Lapis Luna",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pinot Noir, Mon Frere",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Malbec, Doña Paula",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Chianti Classico, Poggio Bonelli",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Mimosa (Traditional OJ / Limoncello)",
+   "type": "Mimosa",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Red Sangria Seasonal",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rose Bellini",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Margaritas de la Casa",
+   "type": "Wine cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Aperol Spritz",
+   "type": "Aperol Spritz",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Hugo Mojito Spritz",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Wine cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sunset Lychee Martini",
+   "type": "Wine cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Negroni",
+   "type": "Wine cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Manhattan Boulevard",
+   "type": "Wine cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Bee's Knees Last Work",
+   "type": "Wine cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Special Babe Rosé with Bubbles",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Rose, Cape Bleue",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "La Luca Prosecco Mini Bottle",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pinot Grigio, Tenuta Sant'Anna",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Chardonnay, Man Family Wines",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sauvignon Blanc, Yealands",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Melon de Bourgogne, Chateau La Berriere",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Cisco Shark Tracker Lager",
+   "type": "Cisco Shark Tracker",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Wachusett Blueberry Ale",
+   "type": "Wachusett Blueberry",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Lamplighter Birds of a Feather Ale",
+   "type": "Lamplighter Birds of a Feather",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Mayflower IPA",
+   "type": "Mayflower IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Sam Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Jack's Abby House Helles Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Jack's Abby Shipping Out Boston Lager",
+   "type": "Jack's Abby Shipping Out of Boston",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Downeast Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Stella Artois Lager",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Beer Michelada Cocktail",
+   "type": "Michelada",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://www.paramountboston.com/menu/beacon-hill-drinks/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

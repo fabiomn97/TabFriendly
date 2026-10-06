@@ -26,6 +26,7 @@ Scope and decisions are in [SPEC.md](SPEC.md).
 ```
 python tools/merge_research.py <dir with kendall/central/backbay/kenmore.json>   # -> data/venues.json
 python tools/fixups.py                                                           # manual corrections
+python tools/merge_menus.py <menus_*.json>                                       # full drink menus -> data/menus.json
 python tools/make_seed.py                                                        # -> data/seed/* (one JSON per db doc)
 python tools/review_sheet.py                                                     # -> data/venues_review.csv
 ```

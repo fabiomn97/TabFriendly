@@ -1,0 +1,99 @@
+{
+ "venueId": "v-backbar",
+ "items": [
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 4.0
+  },
+  {
+   "name": "Moosehead Lager",
+   "type": "Moosehead Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 4.0
+  },
+  {
+   "name": "Schilling Alexandr",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Sacred Profane Dark Lager",
+   "type": "Sacred Profane Dark Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Sierra Nevada Pale Ale",
+   "type": "Sierra Nevada Pale Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 4.0
+  },
+  {
+   "name": "Idle Hands Farmhouse Pale Ale",
+   "type": "Idle Hands Farmhouse Pale Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Foam Brewers Long Distance Driver",
+   "type": "Foam Long Distance Driver",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Bissell Brothers The Substance",
+   "type": "Bissell Brothers The Substance",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Long Live The Promise",
+   "type": "Long Live The Promise",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Hudson North Standard Dry Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  }
+ ],
+ "sources": [
+  "https://www.backbarunion.com/beer-wine"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

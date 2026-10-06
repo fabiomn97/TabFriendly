@@ -1,0 +1,292 @@
+{
+ "venueId": "v-roxy-s-arcade-formerly-a4cade",
+ "items": [
+  {
+   "name": "Madeline Vs Badeline",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Kung Fu Pandan",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "The Cosmic Spirit",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Machete Don't Tango",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "The Cottage",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Franky's Super Cola",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Bye Bye Butterfree",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "The Clash At Demonhead",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Princess Peach's Downfall",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "The Phantom",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Killscreen Painkiller",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rainbow Road",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Secret Of The Ooze",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Tickle Me Elmo",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Compound V",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Morty's Mind Blower (jello shot)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Canned Wine - Crisp Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "can",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Canned Wine - Rogue Red",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "can",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Canned Wine - Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "can",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Night Shift Nite Lite",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Lamplighter IPA",
+   "type": "Lamplighter IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Jack's Abbey Post Shift Pils",
+   "type": "Jack's Abby Post Shift Pilsner",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "White Claw",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Surfside Iced Tea & Lemonade",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Exhibit \"A\" Cats Meow NEIPA",
+   "type": "Exhibit A Cat's Meow",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Widowmaker Blue Comet IPA",
+   "type": "Widowmaker Blue Comet",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Zero Gravity Conehead IPA",
+   "type": "Zero Gravity Conehead",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Prairie Rainbow Sherbert Sour",
+   "type": "Prairie Rainbow Sherbert",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "High Limb Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Bell's Amber Ale",
+   "type": "Bell's Amber Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Bunker Brewing Brown Ale",
+   "type": "Bunker Brewing Brown Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Guiness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://roxysarcade.com/menus/games-52b5l",
+  "https://images.squarespace-cdn.com/content/v1/63eeb3af4efb8c120ab6e16c/c72bb8fa-945b-4685-bc45-861a4eaac681/1.png"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

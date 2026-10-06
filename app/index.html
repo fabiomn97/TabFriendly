@@ -187,6 +187,38 @@ a { color: var(--link); }
 .filter input { width: 100%; accent-color: var(--best); }
 .filter output { font: 600 13px/1 var(--f-mono); text-align: right; }
 
+/* drink-type filter */
+.dfilter { display: grid; gap: 6px; }
+.dfilter-head { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.dfilter-head > span { font-weight: 600; }
+.dchips { display: flex; flex-wrap: wrap; gap: 4px; flex: 1; min-width: 0; }
+.dchip { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; background: var(--fg); color: var(--bg); border: 0; border-radius: 999px; padding: 3px 7px 3px 10px; max-width: 100%; }
+.dchip span { font-size: 15px; line-height: 1; opacity: .75; }
+.dpanel { border: 1px solid var(--line); border-radius: 8px; background: var(--bg); padding: 8px; display: grid; gap: 6px; }
+.dpanel input[type="search"] { width: 100%; border: 1px solid var(--line); background: var(--surface); border-radius: 6px; padding: 8px 10px; font-size: 16px; }
+.dlist { list-style: none; margin: 0; padding: 0; max-height: 34vh; overflow-y: auto; overscroll-behavior: contain; }
+.dlist h4 { margin: 10px 0 2px; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.dlist li:first-child h4 { margin-top: 2px; }
+.dlist label { display: grid; grid-template-columns: auto 1fr auto; gap: 8px; align-items: center; padding: 7px 2px; font-size: 14px; cursor: pointer; border-bottom: 1px solid var(--line); }
+.dlist input { width: 18px; height: 18px; accent-color: var(--fg); margin: 0; }
+.dlist small { color: var(--muted); font: 500 12px/1.2 var(--f-mono); text-align: right; white-space: nowrap; }
+.dpanel-foot { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); }
+.dpanel-foot > span:last-child { display: flex; gap: 6px; }
+
+/* full drink menu on the venue card */
+details.menu { margin-top: 6px; }
+details.menu summary { cursor: pointer; font-weight: 600; font-size: 14px; padding: 6px 0; }
+.menu h4, .mine h3 { margin: 10px 0 2px; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.mine { margin: 0 0 12px; }
+.mine h3 { margin-top: 0; }
+.mi { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.mi > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.mi .mp { font: 600 14px/1.3 var(--f-mono); font-variant-numeric: tabular-nums; text-align: right; }
+.mi .mt { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+.mi.hit { box-shadow: inset 3px 0 0 var(--best); padding-left: 10px; }
+.mi.low .mp { color: var(--best); }
+.menu-src { font-size: 12px; color: var(--muted); margin: 8px 0 0; overflow-wrap: anywhere; }
+
 /* list */
 .list { list-style: none; margin: 0; padding: 0; }
 .row {
@@ -310,7 +342,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       <button class="sheet-grip" id="grip" type="button" aria-label="Expand or collapse list"></button>
       <div class="sheet-head" id="sheetHead"></div>
       <div class="controls" id="controls">
-        <div class="seg" role="group" aria-label="What to compare">
+        <div class="seg" id="modeSeg" role="group" aria-label="What to compare">
           <button type="button" data-mode="beer" aria-pressed="true">Cheapest beer</button>
           <button type="button" data-mode="mixed" aria-pressed="false">Cheapest drink</button>
           <button type="button" data-mode="overall" aria-pressed="false">Overall</button>
@@ -319,6 +351,18 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
           <label for="maxPrice">Max price</label>
           <input type="range" id="maxPrice" min="3" max="20" step="0.5" value="20">
           <output id="maxOut" for="maxPrice">Any</output>
+        </div>
+        <div class="dfilter">
+          <div class="dfilter-head">
+            <span>Drinks</span>
+            <div class="dchips" id="drinkChips"></div>
+            <button class="btn small" type="button" id="drinkBtn" aria-expanded="false" aria-controls="drinkPanel">Choose drinks</button>
+          </div>
+          <div class="dpanel" id="drinkPanel" hidden>
+            <input type="search" id="drinkSearch" placeholder="Search, e.g. Coors Light or margarita" autocomplete="off" aria-label="Search drinks">
+            <ul class="dlist" id="drinkList"></ul>
+            <div class="dpanel-foot"><span id="drinkCount"></span><span><button class="btn small ghost" type="button" id="drinkClear">Clear</button><button class="btn small primary" type="button" id="drinkDone">Done</button></span></div>
+          </div>
         </div>
       </div>
       <div class="sheet-body" id="sheetBody"></div>
@@ -382,7 +426,12 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     selected: null, picking: false, readOnlyAfterRefusal: false, histOpen: false,
     mode: ["beer", "mixed", "overall"].includes(store.get("tf-mode")) ? store.get("tf-mode") : "beer",
     maxPrice: null, best: new Set(),
+    menus: new Map(), menuItems: new Map(), typeIndex: [], typeVer: 0, menuOpen: false,
+    types: new Set(savedTypes()),  // drink types ticked in the Drinks filter
   };
+  function savedTypes() {
+    try { const a = JSON.parse(store.get("tf-drinks") || "[]"); return Array.isArray(a) ? a.filter((t) => typeof t === "string") : []; } catch { return []; }
+  }
 
   // ---------- helpers ----------
   function distMi(lat, lng) {
@@ -406,9 +455,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   const safeUrl = (u) => (typeof u === "string" && /^https:\/\//i.test(u) ? u : null);
 
   // How the drink is served. New reports store it; for researched ones, read it from the name.
-  const SERVE_LABEL = { draft: "Draft", bottle: "Bottle", can: "Can", well: "Well drink", cocktail: "Cocktail" };
+  const SERVE_LABEL = { draft: "Draft", bottle: "Bottle", can: "Can", well: "Well drink", cocktail: "Cocktail", glass: "Glass" };
   function serveOf(r) {
     if (r.serve && SERVE_LABEL[r.serve]) return r.serve;
+    if (r.kind === "wine" || r.kind === "other") return null;
     const n = (r.drink || "").toLowerCase();
     if (r.kind === "beer") {
       if (/draft|draught|on tap|shorty|cup/.test(n)) return "draft";
@@ -430,10 +480,76 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function current(venueId, kind) {
     return reportsFor(venueId).find((r) => r.kind === kind && !isHidden(r.id)) || null;
   }
-  // The report the current mode compares on.
+
+  // ---------- drink menus ----------
+  // Each venue's researched menu lives in menus/<venueId>; its items are shaped like reports (source "menu")
+  // so the map, list and card can show either.
+  const KIND_LABEL = { beer: "Beer", mixed: "Mixed drinks", wine: "Wine", other: "Cider, seltzer, cans & shots" };
+  const TYPE_ALIASES = [
+    [/\bpbr\b|\bpabst\b/, "Pabst Blue Ribbon"], [/\bhigh life\b/, "Miller High Life"], [/\bmiller lite\b/, "Miller Lite"],
+    [/\bcoors light\b/, "Coors Light"], [/\bbud light\b/, "Bud Light"], [/\bmich(elob)? ultra\b/, "Michelob Ultra"],
+    [/\b(narragansett|gansett)\b/, "Narragansett Lager"], [/\bboston lager\b/, "Sam Adams Boston Lager"], [/\bwell\b/, "Well drink"],
+  ];
+  function indexMenus() {
+    S.menuItems = new Map();
+    for (const [vid, m] of S.menus) {
+      const src = (Array.isArray(m.sources) ? m.sources : [])[0] || null;
+      S.menuItems.set(vid, (Array.isArray(m.items) ? m.items : [])
+        .filter((it) => it && it.name && KIND_LABEL[it.kind] && typeof it.price === "number" && it.price > 0)
+        .map((it, i) => ({
+          id: `menu:${vid}:${i}`, venueId: vid, kind: it.kind, drink: String(it.name), type: String(it.type || it.name),
+          serve: it.serve || null, oz: typeof it.oz === "number" ? it.oz : null, price: it.price,
+          source: "menu", sourceUrl: src, sourceDate: m.sourceDate || null,
+        })));
+    }
+    // longest type names first, so "Coors Light" wins over "Coors" when reading a report's free-text name
+    S.typeIndex = [...new Set([...S.menuItems.values()].flat().map((it) => it.type))]
+      .filter((t) => t.length >= 4).sort((a, b) => b.length - a.length)
+      .map((t) => ({ t, re: new RegExp("(^|[^a-z0-9])" + t.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "($|[^a-z0-9])") }));
+    S.typeVer++;
+  }
+  // Menu items carry a type; a posted report only has a free-text name (sometimes listing several beers
+  // at one price), so match it to every known type it names.
+  function typesOf(d) {
+    if (d.type) return [d.type];
+    if (d._tv !== S.typeVer) {
+      const n = (d.drink || "").toLowerCase();
+      const ts = new Set(TYPE_ALIASES.filter(([re]) => re.test(n)).map(([, t]) => t));
+      for (const x of S.typeIndex) if (x.re.test(n)) ts.add(x.t);
+      d._types = [...ts];
+      d._tv = S.typeVer;
+    }
+    return d._types;
+  }
+  // Every priced drink at a venue. With a researched menu: the menu, with a user's newer report replacing
+  // menu items of the same type. Without one: the venue's current posted prices.
+  function drinksAt(venueId) {
+    const reps = ["beer", "mixed"].map((k) => current(venueId, k)).filter((r) => r && typesOf(r).length);
+    const menu = S.menuItems.get(venueId) || [];
+    if (!menu.length) return reps;
+    const users = reps.filter((r) => r.source === "user");
+    const userTypes = new Set(users.flatMap(typesOf));
+    return [...menu.filter((it) => !userTypes.has(it.type)), ...users];
+  }
+  const isPicked = (d) => typesOf(d).some((t) => S.types.has(t));
+  function matches(venueId) {
+    return drinksAt(venueId).filter(isPicked).sort((a, b) => a.price - b.price);
+  }
+  // Cheapest beer or mixed drink: a user's report is the latest word; otherwise the cheaper of the
+  // researched price and anything cheaper on the venue's menu.
+  function best(venueId, kind) {
+    const r = current(venueId, kind);
+    if (r && r.source === "user") return r;
+    const m = (S.menuItems.get(venueId) || []).reduce((a, it) => (it.kind === kind && (!a || it.price < a.price) ? it : a), null);
+    if (!r) return m;
+    if (!m) return r;
+    return m.price < r.price ? m : r;
+  }
+  // The price the map and list compare on: the cheapest ticked drink, or else the mode's cheapest.
   function pick(venueId, mode = S.mode) {
-    if (mode !== "overall") return current(venueId, mode);
-    const b = current(venueId, "beer"), m = current(venueId, "mixed");
+    if (S.types.size) return matches(venueId)[0] || null;
+    if (mode !== "overall") return best(venueId, mode);
+    const b = best(venueId, "beer"), m = best(venueId, "mixed");
     if (!b) return m;
     if (!m) return b;
     return m.price < b.price ? m : b;
@@ -441,9 +557,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function allVenues() {
     return [...S.venues.values()].filter((v) => S.canMod || !isHidden(v.id));
   }
-  // Venues that pass the price filter, plus their priced report for the mode.
+  // Venues that pass the filters, plus their priced drink for the mode.
   function shownVenues() {
-    return allVenues().map((v) => ({ v, r: pick(v.id) })).filter(({ r }) => S.maxPrice == null || (r && r.price <= S.maxPrice));
+    return allVenues().map((v) => ({ v, r: pick(v.id) }))
+      .filter(({ r }) => (!S.types.size || r) && (S.maxPrice == null || (r && r.price <= S.maxPrice)));
   }
   function computeBest(items) {
     const priced = items.filter((x) => x.r && !isHidden(x.v.id)).sort((a, b) => a.r.price - b.r.price || distMi(a.v.lat, a.v.lng) - distMi(b.v.lat, b.v.lng));
@@ -577,12 +694,73 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function syncControls() {
     modeBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === S.mode)));
     $("maxOut").textContent = S.maxPrice == null ? "Any" : "≤ " + money(S.maxPrice);
+    $("modeSeg").hidden = S.types.size > 0;
+    $("drinkChips").innerHTML = [...S.types].map((t) => `<button class="dchip" type="button" data-untype="${esc(t)}" aria-label="Remove ${esc(t)}">${esc(t)}<span aria-hidden="true">×</span></button>`).join("");
+    $("drinkBtn").textContent = S.types.size ? "Edit" : "Choose drinks";
+    $("drinkCount").textContent = S.types.size ? `${S.types.size} selected` : "Tick one or more drinks";
   }
   modeBtns.forEach((b) => b.addEventListener("click", () => { S.mode = b.dataset.mode; store.set("tf-mode", S.mode); syncControls(); render(); }));
   $("maxPrice").addEventListener("input", (e) => {
     const v = Number(e.target.value);
     S.maxPrice = v >= SLIDER_MAX ? null : v;
     syncControls(); render();
+  });
+
+  // drink-type filter: searchable checkboxes of every drink type on the venues' menus
+  const dPanel = $("drinkPanel");
+  function typeCatalog() {
+    const cat = new Map();
+    for (const v of allVenues()) {
+      for (const d of drinksAt(v.id)) {
+        for (const t of typesOf(d)) {
+          let c = cat.get(t);
+          if (!c) cat.set(t, (c = { t, kinds: {}, venues: new Set(), min: Infinity }));
+          c.kinds[d.kind] = (c.kinds[d.kind] || 0) + 1;
+          c.venues.add(v.id);
+          c.min = Math.min(c.min, d.price);
+        }
+      }
+    }
+    return [...cat.values()].map((c) => ({ ...c, kind: Object.entries(c.kinds).sort((a, b) => b[1] - a[1])[0][0] }));
+  }
+  function renderDrinkList() {
+    const q = $("drinkSearch").value.trim().toLowerCase();
+    const cat = typeCatalog().filter((c) => !q || c.t.toLowerCase().includes(q) || S.types.has(c.t));
+    // keep ticked types that no venue lists any more, so they can be unticked
+    for (const t of S.types) if (!cat.some((c) => c.t === t)) cat.push({ t, kind: "other", venues: new Set(), min: Infinity });
+    cat.sort((a, b) => (S.types.has(b.t) - S.types.has(a.t)) || b.venues.size - a.venues.size || a.t.localeCompare(b.t));
+    let h = "";
+    for (const kind of Object.keys(KIND_LABEL)) {
+      const cs = cat.filter((c) => c.kind === kind);
+      if (!cs.length) continue;
+      h += `<li><h4>${KIND_LABEL[kind]}</h4></li>` + cs.map((c) => `<li><label><input type="checkbox" value="${esc(c.t)}"${S.types.has(c.t) ? " checked" : ""}><span>${esc(c.t)}</span>`
+        + `<small>${c.venues.size ? `${c.venues.size} ${c.venues.size === 1 ? "place" : "places"} · from ${esc(money(c.min))}` : "none listed"}</small></label></li>`).join("");
+    }
+    $("drinkList").innerHTML = h || `<li class="list-note">${S.menus.size ? "No drinks match that search." : "Drink menus are still loading."}</li>`;
+  }
+  function setTypes(list, fromList) {
+    S.types = new Set(list);
+    store.set("tf-drinks", JSON.stringify([...S.types]));
+    syncControls(); render();
+    if (!dPanel.hidden && !fromList) renderDrinkList();  // ticking a box keeps the list (and its scroll) as is
+  }
+  function openDrinks(open) {
+    dPanel.hidden = !open;
+    $("drinkBtn").setAttribute("aria-expanded", String(open));
+    if (open) { renderDrinkList(); sheet.classList.add("expanded"); }
+  }
+  $("drinkBtn").addEventListener("click", () => openDrinks(dPanel.hidden));
+  $("drinkDone").addEventListener("click", () => openDrinks(false));
+  $("drinkClear").addEventListener("click", () => setTypes([]));
+  $("drinkSearch").addEventListener("input", renderDrinkList);
+  $("drinkList").addEventListener("change", (e) => {
+    const next = new Set(S.types);
+    if (e.target.checked) next.add(e.target.value); else next.delete(e.target.value);
+    setTypes(next, true);
+  });
+  $("drinkChips").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-untype]");
+    if (b) setTypes([...S.types].filter((t) => t !== b.dataset.untype));
   });
   syncControls();
 
@@ -600,7 +778,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   function renderList(items) {
     controls.hidden = false;
-    head.innerHTML = `<h2 class="sheet-title">${MODES[S.mode].title}</h2>`;
+    const sel = [...S.types];
+    const title = !sel.length ? MODES[S.mode].title : sel.length === 1 ? `Cheapest ${sel[0]} nearby` : `Cheapest of your ${sel.length} drinks`;
+    head.innerHTML = `<h2 class="sheet-title">${esc(title)}</h2>`;
     if (S.dbState === "loading") { body.innerHTML = `<p class="list-note">Loading venues and prices…</p>`; return; }
     if (S.dbState === "none") {
       body.innerHTML = `<div class="notice">Prices live in TabFriendly's shared database, which this view can't reach. Open the app from claude.ai while signed in to see venues and prices.</div>`;
@@ -613,9 +793,12 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const rows = items.map((x) => ({ ...x, d: distMi(x.v.lat, x.v.lng) }))
       .sort((a, b) => (a.r ? a.r.price : 1e9) - (b.r ? b.r.price : 1e9) || a.d - b.d);
     const priced = rows.filter((x) => x.r);
-    let h = `<div class="stat"><span><b>${rows.length}</b> ${S.maxPrice == null ? "venues" : "at " + esc(money(S.maxPrice)) + " or less"}</span><span><b>${priced.length}</b> with a ${MODES[S.mode].label} price</span>${priced[0] ? `<span>from <b>${esc(money(priced[0].r.price))}</b></span>` : ""}</div>`;
+    let h = `<div class="stat"><span><b>${rows.length}</b> ${S.maxPrice == null ? "venues" : "at " + esc(money(S.maxPrice)) + " or less"}</span><span><b>${priced.length}</b> with ${sel.length ? "your drinks" : "a " + MODES[S.mode].label + " price"}</span>${priced[0] ? `<span>from <b>${esc(money(priced[0].r.price))}</b></span>` : ""}</div>`;
     if (!rows.length) {
-      body.innerHTML = h + `<div class="notice">Nothing at or under ${esc(money(S.maxPrice))} yet. Raise the max price, or report a cheaper drink you've found.</div>`;
+      const why = sel.length && S.maxPrice == null ? "No venue lists the drinks you picked yet. Try adding more drinks."
+        : sel.length ? `None of your drinks are ${esc(money(S.maxPrice))} or less. Raise the max price or add more drinks.`
+        : `Nothing at or under ${esc(money(S.maxPrice))} yet. Raise the max price, or report a cheaper drink you've found.`;
+      body.innerHTML = h + `<div class="notice">${why}</div>`;
       return;
     }
     h += `<ul class="list">`;
@@ -623,8 +806,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       const best = S.best.has(v.id);
       let priceCell, meta;
       if (r) {
-        const sub = r.kind === "beer" ? (perOz(r) || (r.oz ? r.oz + " oz" : "size n/a")) : "mixed";
-        priceCell = `<span class="row-price"><b>${esc(money(r.price))}</b><small>${esc(S.mode === "overall" ? (r.kind === "beer" ? "beer" : "mixed") : sub)}</small></span>`;
+        const sub = sel.length ? (r.oz ? r.oz + " oz" : SERVE_LABEL[serveOf(r)] || KIND_LABEL[r.kind].toLowerCase())
+          : S.mode === "overall" ? (r.kind === "beer" ? "beer" : "mixed")
+          : r.kind === "beer" ? (perOz(r) || (r.oz ? r.oz + " oz" : "size n/a")) : "mixed";
+        priceCell = `<span class="row-price"><b>${esc(money(r.price))}</b><small>${esc(sub)}</small></span>`;
         meta = esc(cleanName(r)) + " · " + d.toFixed(1) + " mi";
       } else {
         priceCell = `<span class="row-price none">Add price</span>`;
@@ -640,7 +825,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   const canPost = () => S.canWrite !== false && !S.readOnlyAfterRefusal && S.dbState === "ready";
 
   function drinkBlock(v, kind) {
-    const r = current(v.id, kind);
+    const r = best(v.id, kind);
     const label = kind === "beer" ? "Cheapest beer" : "Cheapest mixed drink";
     const isBest = r && S.best.has(v.id) && pick(v.id) === r;
     let h = `<div class="drink${isBest ? " best" : ""}"><span class="drink-k">${label}${isBest ? '<span class="best-chip">Top 3 nearby</span>' : ""}</span>`;
@@ -670,9 +855,37 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     }
     const acts = [];
     if (canPost()) acts.push(`<button class="btn small ${r ? "" : "tag"}" type="button" data-report="${kind}">${r ? "Update price" : "Add price"}</button>`);
-    if (S.canMod && r) acts.push(`<button class="btn small danger" type="button" data-del-report="${esc(r.id)}">Delete price</button>`);
+    if (S.canMod && r && r.source !== "menu") acts.push(`<button class="btn small danger" type="button" data-del-report="${esc(r.id)}">Delete price</button>`);
     if (acts.length) h += `<div class="drink-actions">${acts.join("")}</div>`;
     return h + `</div>`;
+  }
+
+  function menuRow(d, low) {
+    const t = d.type || "";  // only menu items name their type outright; for reports the name already says it
+    const bare = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+    const tags = [SERVE_LABEL[serveOf(d)], d.oz ? d.oz + " oz" : "", d.kind === "beer" ? perOz(d) : "",
+      t && !bare(d.drink).includes(bare(t)) ? t : "", d.source === "user" ? "user-reported" : ""].filter(Boolean);
+    return `<div class="mi${isPicked(d) ? " hit" : ""}${low ? " low" : ""}"><span>${esc(d.drink)}</span><span class="mp">${esc(money(d.price))}</span>`
+      + (tags.length ? `<span class="mt">${esc(tags.join(" · "))}</span>` : "") + `</div>`;
+  }
+  // The ticked drinks this venue has, cheapest first.
+  function mineBlock(v) {
+    const ms = matches(v.id);
+    return `<section class="mine"><h3>Your drinks here</h3>`
+      + (ms.length ? ms.map((d, i) => menuRow(d, i === 0)).join("") : `<p class="photo-empty">None of the drinks you picked are on this venue's menu.</p>`) + `</section>`;
+  }
+  function menuBlock(v) {
+    const items = S.menuItems.get(v.id) || [];
+    if (!items.length) return "";
+    const m = S.menus.get(v.id) || {};
+    let h = `<details class="hist menu" id="menuDet"${S.menuOpen ? " open" : ""}><summary>Full drink menu (${items.length})</summary>`;
+    for (const kind of Object.keys(KIND_LABEL)) {
+      const ks = items.filter((it) => it.kind === kind).sort((a, b) => a.price - b.price || a.drink.localeCompare(b.drink));
+      if (ks.length) h += `<h4>${KIND_LABEL[kind]}</h4>` + ks.map((it, i) => menuRow(it, i === 0)).join("");
+    }
+    const srcs = (Array.isArray(m.sources) ? m.sources : []).map(safeUrl).filter(Boolean);
+    h += `<p class="menu-src">${srcs.length ? "From " + srcs.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>`).join(", ") : "From published menus"}, ${esc(checked(m.sourceDate))}. Regular prices; happy hours aren't included. Cheapest of each kind in green.</p>`;
+    return h + `</details>`;
   }
 
   function photosBlock(v) {
@@ -694,7 +907,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     let h = `<div class="v-meta"><span class="chip">${v.type === "restaurant" ? "Restaurant" : "Bar"}</span>${v.address ? `<span>${esc(v.address)}</span>` : ""}<span>${d.toFixed(2)} mi from 77 Mass Ave</span>${safeUrl(v.website) ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}</div>`;
     if (v.note) h += `<div class="notice">${esc(v.note)}</div>`;
     if (isHidden(v.id)) h += `<div class="notice">This venue is hidden from everyone but editors.</div>`;
+    if (S.types.size) h += mineBlock(v);
     h += drinkBlock(v, "beer") + drinkBlock(v, "mixed");
+    h += menuBlock(v);
     if (S.canWrite === false || S.readOnlyAfterRefusal) h += `<div class="notice">You can view prices but not post them. Ask the TabFriendly team for Contributor access to submit.</div>`;
     const hist = reportsFor(v.id).filter((r) => S.canMod || !isHidden(r.id));
     if (hist.length) {
@@ -718,6 +933,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     body.innerHTML = h;
     $("backBtn").addEventListener("click", () => select(null));
     $("hist")?.addEventListener("toggle", (e) => (S.histOpen = e.target.open));
+    $("menuDet")?.addEventListener("toggle", (e) => (S.menuOpen = e.target.open));
     $("addPhotoBtn")?.addEventListener("click", () => { $("photoPick").value = ""; $("photoPick").click(); });
     $("delVenueBtn")?.addEventListener("click", (e) => armConfirm(e.currentTarget, () => deleteVenue(v)));
     body.querySelectorAll("[data-del-report]").forEach((b) => b.addEventListener("click", () => {
@@ -879,7 +1095,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     let photo = null;
     let dirty = false;  // has the person typed anything since the form was filled?
     const draw = () => {
-      const cur = current(venueId, k);
+      const cur = best(venueId, k);
       const serveOpts = k === "beer"
         ? `<option value="">Not sure</option><option value="draft">Draft</option><option value="bottle">Bottle</option><option value="can">Can</option>`
         : `<option value="">Not sure</option><option value="well">Well drink</option><option value="cocktail">Cocktail</option>`;
@@ -919,7 +1135,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     };
     // Start from the venue's current price for this drink, so an update only needs the parts that changed.
     const prefill = () => {
-      const r = current(venueId, k);
+      const r = best(venueId, k);
       if (!r) return;
       $("fDrink").value = cleanName(r) || "";
       $("fPrice").value = Number.isInteger(r.price) ? String(r.price) : r.price.toFixed(2);
@@ -1049,6 +1265,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       S.reports = snap.docs.map((d) => ({ ...d.data(), id: d.id }))
         .filter((r) => r.venueId && (r.kind === "beer" || r.kind === "mixed") && typeof r.price === "number" && r.drink);
       ready(); render();
+    }, onErr);
+    db.collection("menus").limit(1000).onSnapshot((snap) => {
+      S.menus = new Map(snap.docs.map((d) => { const m = d.data() || {}; return [m.venueId || d.id, m]; }));
+      indexMenus(); render();
+      if (!dPanel.hidden) renderDrinkList();
     }, onErr);
     db.collection("mod").limit(1000).onSnapshot((snap) => {
       S.mod = new Map(snap.docs.map((d) => [d.id, d.data()]));

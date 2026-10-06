@@ -1,0 +1,443 @@
+{
+ "venueId": "v-grill-23-bar",
+ "items": [
+  {
+   "name": "Nominé-Renard Brut, Champagne",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Girost-Moussy Brut Tradition, Champagne",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "Zonin Extra Brut Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Marqués de Cáceres Deusa Nai Albariño 2023",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Dial Tone Chardonnay, Santa Barbara 2024",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Mathieu Paquet Macon-Villages Cuvee Louise 2023",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Famille Savary Chablis Hommage 2024",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Hirsch Hirschvergnügen Grüner Veltliner 2023",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Ca' Donini Pinot Grigio 2024",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Willi Haag Brauneberger Juffer Riesling Kabinett 2024",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Groth Sauvignon Blanc, Napa 2024",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Peyrassol La Croix Rosé 2025",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Hall Cabernet Sauvignon, Napa 2022",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Daou Cabernet Sauvignon, Paso Robles 2023",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Château Moulin Canon-Fronsac Merlot 2020",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Altos Las Hormigas Malbec 2023",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "G.D. Vajra Langhe Nebbiolo 2025",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Mt. Beautiful Pinot Noir 2020",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Castello di Ama Montebuoni Chianti Classico Riserva 2021",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "J.L. Chave Mon Coeur Côtes-du-Rhône 2024",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Pago del Cielo Celeste Crianza 2022",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Ridge Three Valleys Zinfandel 2023",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Brown Butter Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Hanyak",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Tarragona",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Steel Magnolia",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Death & Taxes",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Big Crush",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Rye Paper Plane",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Sakura Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Rosé Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Exhibit 'A' Goody Two Shoes",
+   "type": "Exhibit 'A' Goody Two Shoes",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Trillium Rotating Selection",
+   "type": "Trillium (rotating)",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Zero Gravity Green State Lager",
+   "type": "Zero Gravity Green State",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sierra Nevada Pale Ale",
+   "type": "Sierra Nevada Pale Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Delirium Tremens",
+   "type": "Delirium Tremens",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Augustiner Edelstoff",
+   "type": "Augustiner Edelstoff",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 8.0
+  },
+  {
+   "name": "Ayinger Celebrator",
+   "type": "Ayinger Celebrator",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 12.0
+  },
+  {
+   "name": "Brouwerij Verhaeghe Duchesse de Bourgogne",
+   "type": "Duchesse de Bourgogne",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 18.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Cisco Whale's Tale Pale Ale",
+   "type": "Cisco Whale's Tale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast Original Blend Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Duvel",
+   "type": "Duvel",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 12.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": null,
+   "oz": 14.9,
+   "price": 10.0
+  },
+  {
+   "name": "Lamplighter Rabbit Rabbit",
+   "type": "Lamplighter Rabbit Rabbit",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Lawson's Finest Sip of Sunshine",
+   "type": "Lawson's Finest Sip of Sunshine",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Rothaus Tannenzäpfle",
+   "type": "Rothaus Tannenzäpfle",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12.2,
+   "price": 10.0
+  },
+  {
+   "name": "Sierra Nevada Hazy Little Thing",
+   "type": "Sierra Nevada Hazy Little Thing",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 8.0
+  },
+  {
+   "name": "Weihenstephaner Hefe Weissbier",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 8.0
+  }
+ ],
+ "sources": [
+  "https://www.grill23.com/s/Wine-List-100326-WEB-VERSION.pdf"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

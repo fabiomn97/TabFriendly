@@ -1,0 +1,435 @@
+{
+ "venueId": "v-the-bebop",
+ "items": [
+  {
+   "name": "Makers Mark Manhatten",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sarti Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Ilegal Mezcal Margarita",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Grey Goose Berry Rouge Cosmo",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Gran Hornitos Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Bacardi Mai Tai",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Smithwicks Red Ale",
+   "type": "Smithwick's Red Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Magners Irish Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "White Hag Little Fawn Session IPA",
+   "type": "White Hag Little Fawn",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Downeast Seasonal",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Whalers Pale Ale",
+   "type": "Whalers Pale Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Widowmaker Blue Comet IPA",
+   "type": "Widowmaker Blue Comet",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sam Seasonal (Oktoberfest)",
+   "type": "Sam Adams Octoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "House Lager by Yuengling Flight",
+   "type": "Yuengling Flight",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Carlsberg Pilsner",
+   "type": "Carlsberg Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Jack's Abby Copper Legend",
+   "type": "Jack's Abby Copper Legend",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "New Belgium Fat Tire",
+   "type": "New Belgium Fat Tire",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Shipyard Pumpkinhead",
+   "type": "Shipyard Pumpkinhead",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Amstel Light",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Corona Light",
+   "type": "Corona Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Sam Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "1911 Cider Donut",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Surfside Tea + Lemonade",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "PBR",
+   "type": "Pabst Blue Ribbon",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Sun Cruiser Ice Tea or Blueberry Lemonade",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Night Shift Brewing (Rotating)",
+   "type": "Night Shift Rotating",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Ghostfish Watchstander Stout",
+   "type": "Ghostfish Watchstander Stout",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Ghostfish Kick Step IPA",
+   "type": "Ghostfish Kick Step IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast Original Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Angry Orchard Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Kopparberg Pear Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "High Noon Peach or Pineapple",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Wachusett Pumpkin Ale",
+   "type": "Wachusett Pumpkan",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Maschio Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Chalk Hill Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Ruffino Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Nine Hats Riesling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Kim Crawford Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "DeLoach Heritage Reserve Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "La Crema Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Amalaya Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "R Collection Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "7 Moons Dark Side Red Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://www.thebebopboston.com/menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,1028 @@
+{
+ "venueId": "v-gato-exotico",
+ "items": [
+  {
+   "name": "Alma Del Jaguar Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "Alma Del Jaguar Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Alma Del Jaguar Nocturna (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "Alma Del Jaguar Nocturna (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Cayeya Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "Cayeya Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Cazadores Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 6.0
+  },
+  {
+   "name": "Cazadores Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Clase Azul Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 20.0
+  },
+  {
+   "name": "Clase Azul Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "El Mexicano Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "El Mexicano Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Espolon Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 6.0
+  },
+  {
+   "name": "Espolon Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "G4 Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "G4 Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Leyenda 1925 Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 14.0
+  },
+  {
+   "name": "Leyenda 1925 Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 29.0
+  },
+  {
+   "name": "Mayenda Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "Mayenda Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Mijenta Blanco (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 13.0
+  },
+  {
+   "name": "Mijenta Blanco (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Ocho Plata (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 8.0
+  },
+  {
+   "name": "Ocho Plata (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Patron Silver (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "Patron Silver (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Peleton de la Muerte (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 6.0
+  },
+  {
+   "name": "Peleton de la Muerte (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Siete Leguas Siete Decadas (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 18.0
+  },
+  {
+   "name": "Siete Leguas Siete Decadas (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 37.0
+  },
+  {
+   "name": "Alma Del Jaguar Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "Alma Del Jaguar Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Butterfly Cannon (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 20.0
+  },
+  {
+   "name": "Butterfly Cannon (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "Cayeya Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "Cayeya Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Cazadores Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 6.0
+  },
+  {
+   "name": "Cazadores Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Chaquira Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 31.0
+  },
+  {
+   "name": "Chaquira Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 63.0
+  },
+  {
+   "name": "Clase Azul Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 23.0
+  },
+  {
+   "name": "Clase Azul Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "El Tesoro Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "El Tesoro Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Espolon Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 6.0
+  },
+  {
+   "name": "Espolon Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "La Gritona Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 10.0
+  },
+  {
+   "name": "La Gritona Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Leyenda 1925 Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 17.0
+  },
+  {
+   "name": "Leyenda 1925 Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Mijenta Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "Mijenta Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Mijenta Symphony #2 (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 13.0
+  },
+  {
+   "name": "Mijenta Symphony #2 (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Ocho Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 8.0
+  },
+  {
+   "name": "Ocho Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Patron Ahumado Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 13.0
+  },
+  {
+   "name": "Patron Ahumado Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Patron Reposado (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 10.0
+  },
+  {
+   "name": "Patron Reposado (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Patron Reposado El Alto (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 21.0
+  },
+  {
+   "name": "Patron Reposado El Alto (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 43.0
+  },
+  {
+   "name": "Alma Del Jaguar Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 13.0
+  },
+  {
+   "name": "Alma Del Jaguar Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Casa Del Sol Angel Reserve (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 23.0
+  },
+  {
+   "name": "Casa Del Sol Angel Reserve (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "Cayeya Cristalino El Diablo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 19.0
+  },
+  {
+   "name": "Cayeya Cristalino El Diablo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Chaquira Extra Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 33.0
+  },
+  {
+   "name": "Chaquira Extra Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 67.0
+  },
+  {
+   "name": "Clase Azul Gold 24K (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 34.0
+  },
+  {
+   "name": "Clase Azul Gold 24K (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 69.0
+  },
+  {
+   "name": "Espolon Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "Espolon Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Leyenda 1925 Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 22.0
+  },
+  {
+   "name": "Leyenda 1925 Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Mandala Extra Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 23.0
+  },
+  {
+   "name": "Mandala Extra Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "Marques de Casa Noble (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 20.0
+  },
+  {
+   "name": "Marques de Casa Noble (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "Mi Casa 9 Year Extra Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 25.0
+  },
+  {
+   "name": "Mi Casa 9 Year Extra Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 51.0
+  },
+  {
+   "name": "Ocho Extra Anejo 2022 (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 36.0
+  },
+  {
+   "name": "Ocho Extra Anejo 2022 (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 73.0
+  },
+  {
+   "name": "Ocho Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 13.0
+  },
+  {
+   "name": "Ocho Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Patron Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 11.0
+  },
+  {
+   "name": "Patron Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Patron Cristalino Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 12.0
+  },
+  {
+   "name": "Patron Cristalino Anejo (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Patron Gran Burdeos Anejo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 54.0
+  },
+  {
+   "name": "Patron Gran Patron Piedra (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 37.0
+  },
+  {
+   "name": "Patron Gran Patron Piedra (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "Tears of Llorona No. 3 (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 23.0
+  },
+  {
+   "name": "Tears of Llorona No. 3 (as a margarita)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "El Jolgorio Barril (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 17.0
+  },
+  {
+   "name": "El Jolgorio Barril (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Gracias a Dios (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 10.0
+  },
+  {
+   "name": "Gracias a Dios (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Mezcal Vago Elote Espadin (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 7.0
+  },
+  {
+   "name": "Mezcal Vago Elote Espadin (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Leyendas San Luis Potosi Verde (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "Leyendas San Luis Potosi Verde (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Leyendas Ancho Guerrero (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 12.0
+  },
+  {
+   "name": "Leyendas Ancho Guerrero (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Leyendas Cenzio (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 14.0
+  },
+  {
+   "name": "Leyendas Cenzio (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 29.0
+  },
+  {
+   "name": "Leyendas Oaxaca Espadin (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 10.0
+  },
+  {
+   "name": "Leyendas Oaxaca Espadin (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "Leyendas Pichumel (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 18.0
+  },
+  {
+   "name": "Leyendas Pichumel (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 37.0
+  },
+  {
+   "name": "Leyendas Tobala (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 15.0
+  },
+  {
+   "name": "Leyendas Tobala (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 31.0
+  },
+  {
+   "name": "Mezcel Trascendente (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 7.0
+  },
+  {
+   "name": "Mezcel Trascendente (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Montelobos Ensamble Mezcal (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 13.0
+  },
+  {
+   "name": "Montelobos Ensamble Mezcal (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Montelobos Joven Mezcal (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "Montelobos Joven Mezcal (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Peloton de la Muerte Maguey (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 6.0
+  },
+  {
+   "name": "Peloton de la Muerte Maguey (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Real Minero Barril Mezcal (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 18.0
+  },
+  {
+   "name": "Real Minero Barril Mezcal (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 37.0
+  },
+  {
+   "name": "Real Minero 5 Largo (1oz)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 23.0
+  },
+  {
+   "name": "Real Minero 5 Largo (as an old fashioned or margarita)",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "Montelobos Mezcal Pechuga",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Xicaru Pechuga Mole Mezcal",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://heyzine.com/flip-book/87133cd40d.html",
+  "https://cdnm.heyzine.com/files/uploaded/v3/87133cd40d0389b09d24929c2a03a3b8bea2f7d6.pdf"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

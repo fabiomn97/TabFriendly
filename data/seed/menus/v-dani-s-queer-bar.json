@@ -1,0 +1,323 @@
+{
+ "venueId": "v-dani-s-queer-bar",
+ "items": [
+  {
+   "name": "Pumpkin Spice Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Smoked Apple Butter Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Apple Cider Gin Sour",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Shipyard Pumpkin Head (cinnamon rim)",
+   "type": "Shipyard Pumpkinhead",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Pinky Promise",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Bitter Butch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "The Curse",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "The Lesson",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "A Blessing in Disguise",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Dirty Dani",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Dani's Favorite Caipirinha",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Long Distance",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Side Piece",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Dani's House Margarita (draft cocktail)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Dani's Rotating Bevie (draft cocktail)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Frozen-Tini's",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Blue Moon",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Brooklyn Lager",
+   "type": "Brooklyn Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Sam Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Down East Cider Blackberry",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Jack's Abby Banner City",
+   "type": "Jack's Abby Banner City",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Wachusett Country Lemonade",
+   "type": "Wachusett Country Lemonade",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Stowe Cider High & Dry",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Night Shift Summer Sour",
+   "type": "Night Shift Summer Sour",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "After the Glitter Fades",
+   "type": "After the Glitter Fades",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Lucky's Lemonade",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Suncruiser",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "High Noon (Pineapple/Watermelon/Passion Fruit)",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "House of Brown Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Dashwood Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Unknown Author Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Kylie Minogue Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  }
+ ],
+ "sources": [
+  "https://www.danisqueerbar.com/menu?menu=drink-menu"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

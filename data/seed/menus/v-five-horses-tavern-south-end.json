@@ -1,0 +1,603 @@
+{
+ "venueId": "v-five-horses-tavern-south-end",
+ "items": [
+  {
+   "name": "Berry Love",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Blackberry Crush",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Oaxaca Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Heart of Gold",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Raspberry Benito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Live it Up",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Purple Rain",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "South End Manhattan",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pickle Rick",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Stacy's Mom",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Orange Crush",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Silk & Sour",
+   "type": "Whiskey Sour",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Salted Caramel Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pumpkin Spice Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Scorpion Bowl (For One)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pineapple Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Tavern Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 10.5
+  },
+  {
+   "name": "Hill Farmstead Edward",
+   "type": "Hill Farmstead Edward",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Bissell Brothers The Substance IPA",
+   "type": "Bissell Brothers The Substance",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Foam Built to Spill",
+   "type": "Foam Built To Spill",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Long Trail Vermont IPA",
+   "type": "Long Trail Vermont IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Lone Pine Brightside IPA",
+   "type": "Lone Pine Brightside",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Bentwater Sluice Juice",
+   "type": "Bentwater Sluice Juice",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 14,
+   "price": 9.0
+  },
+  {
+   "name": "Maine Beer Lunch",
+   "type": "Maine Beer Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Fat Orange Cat Baby Kittens",
+   "type": "Fat Orange Cat Baby Kittens",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 12.0
+  },
+  {
+   "name": "Founders Porter",
+   "type": "Founders Porter",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Switchback Ale",
+   "type": "Switchback Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Smuttynose Old Brown Dog",
+   "type": "Smuttynose Old Brown Dog",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "O'Hara's Irish Red",
+   "type": "O'Hara's Irish Red",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16.9,
+   "price": 9.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 10.0
+  },
+  {
+   "name": "Weihenstephaner Hefe Weissbier",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16.9,
+   "price": 11.0
+  },
+  {
+   "name": "Wachusett Blueberry Ale",
+   "type": "Wachusett Blueberry",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Founders Rubaeus",
+   "type": "Founders Rubaeus",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Mighty Squirrel Blackberry Sourface",
+   "type": "Mighty Squirrel Sourface",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Kona Big Wave",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Lord Hobo 617 Lager",
+   "type": "Lord Hobo 617 Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Schilling Alexandr Pilsner",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "High Limb Core",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Magners Irish Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Gaffel Kolsch",
+   "type": "Gaffel Kolsch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Pacifico",
+   "type": "Pacifico",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Lone Star",
+   "type": "Lone Star",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Sam Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Lawson's Sip of Sunshine",
+   "type": "Lawson's Sip of Sunshine",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Lord Hobo Boom Sauce",
+   "type": "Lord Hobo Boom Sauce",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Wormtown Be Hoppy IPA",
+   "type": "Wormtown Be Hoppy",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Dupont Saison",
+   "type": "Dupont Saison",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Paulaner Hefeweizen",
+   "type": "Paulaner Hefeweizen",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Smithwick's",
+   "type": "Smithwick's",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "White Claw Black Cherry",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "White Claw Mango",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Pinot Grigio, Villa Marchesi",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Chardonnay, Black Stallion",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sauvignon Blanc, Stoneleigh",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pinot Noir, Z Alexander Brown",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Coppola",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "(Uncaged) Red Blend, Z Alexander Brown",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Prosecco, Beato Bartolomeo Braganza",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  }
+ ],
+ "sources": [
+  "https://www.fivehorsestavern.com/south-end-menu/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

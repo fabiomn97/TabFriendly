@@ -1,0 +1,243 @@
+{
+ "venueId": "v-mr-bartley-s-burger-cottage",
+ "items": [
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Allagash",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "JacksAbby Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Garage Light Beer",
+   "type": "Garage Light Beer",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Regular Sam Adams BOTTLE",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Corona Bottle",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Coors Light Btl",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "DownEast Original Can",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "DownEast Winter Blend",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Truly seltzer",
+   "type": "Truly",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "HSQ Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Bloody Mary",
+   "type": "Bloody Mary",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Vodka Soda",
+   "type": "Vodka Soda",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Vodka OJ",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Bad Apple Mule",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Dirty Shirley",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Uncle Rickey Raz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Irish Cream Coffee",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Spiked Hot Chocolate",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Peppermint Spiked Hot Chocolate",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Spiked Apple Cider",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Elvis (Boozy MilkShake)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Lemon Merinque (Boozy MilkShake)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Apple Pie A La Mode (Boozy MilkShake)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Classic Chocolate (Boozy MilkShake)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Classic Vanilla (Boozy MilkShake)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Classic Coffee (Boozy MilkShake)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Classic Strawberry (Boozy MilkShake)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://www.mrbartley.com/menu"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,235 @@
+{
+ "venueId": "v-pammy-s",
+ "items": [
+  {
+   "name": "Pure Guava",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "El Grito",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Musa Miso",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Fond Farewell",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Elysian Fields",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Water of Life",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Barn Burner",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Negroni (draft aperitivo)",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Litte Red Corvette (draft aperitivo)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Workhorse Pilsner, Counter Weight",
+   "type": "Counter Weight Workhorse Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "eMCee IPA, Equilibrium",
+   "type": "Equilibrium eMCee",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Weissbier, Grimm",
+   "type": "Grimm Weissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Six Grain Milk Stout, Austin Street",
+   "type": "Austin Street Six Grain Milk Stout",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "High Life American Lager, Miller",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 5.0
+  },
+  {
+   "name": "Slush Fruited Sour, Prairie Artisan Ales",
+   "type": "Prairie Artisan Ales Slush",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Beltane Wild Ale, Plan Bee",
+   "type": "Plan Bee Beltane",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12.7,
+   "price": 26.0
+  },
+  {
+   "name": "Mass Appeal Cider, Stormalong",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Averna",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Braulio",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Cynar",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Cynar 70",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "dell' Erborista",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Foro",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lucano",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Meletti",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Nonino",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Sibilla",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Zucca",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  }
+ ],
+ "sources": [
+  "https://www.pammyscambridge.com/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

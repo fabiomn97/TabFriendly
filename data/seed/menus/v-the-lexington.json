@@ -1,0 +1,267 @@
+{
+ "venueId": "v-the-lexington",
+ "items": [
+  {
+   "name": "Von Trapp 'North German' Pilsner",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Counter Weight \"Bright Wave\" IPA",
+   "type": "Counter Weight Bright Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Maine Beer Company \"Lunch IPA\"",
+   "type": "Maine Beer Company Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Grimm \"Weisse\"",
+   "type": "Grimm Weisse",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Dudleytown \"Berried Bones\" Sour",
+   "type": "Dudleytown Berried Bones",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Von Trapp Pilsner",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Conehead IPA",
+   "type": "Zero Gravity Conehead",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "ANXO Cidre Blanc",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Stormalong \"Light of the Sun\" Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Fonta Flora \"Golden Beet\" Appalachian Gueuze",
+   "type": "Fonta Flora Golden Beet",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12.7,
+   "price": 22.0
+  },
+  {
+   "name": "Jester King Live Oak Kollaborationsbier",
+   "type": "Jester King Live Oak Kollaborationsbier",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 25.0
+  },
+  {
+   "name": "Slice of Life",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Electric Mayhem",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Afterglow",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Second Wind",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Black Pearl",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Inner Orbit",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Cincuenta",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Mr. Owl",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Spring Forward",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Penicillin",
+   "type": "Penicillin",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "NV Descregut Brut Nature Reserva Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Charalaboglou Wines \"In Anthesis\" Malagouzia",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "DeLaille 'Unique' Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Koehler-Ruprecht Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Days Wine 'Lemonade' Pinot Noir Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Michael Gindl 'Michi's Farm' Orange Gruner Veltliner",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Kara-Tara Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Bodegas y Vinedos 'Artuke' Rioja",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Colori Wines Red Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Hubba Wines 'Cou Cou Mon Poulet' Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  }
+ ],
+ "sources": [
+  "https://drive.google.com/file/d/1UeYnu33iCMASHqrTMm3h4DZZV1DU9dwa/view"
+ ],
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

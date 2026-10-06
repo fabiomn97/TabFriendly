@@ -1,0 +1,211 @@
+{
+ "venueId": "v-tasty-burger-fenway",
+ "items": [
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Sam Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 6.5
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 6.5
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Notch Session Pils",
+   "type": "Notch Session Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Jack's Abby House Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Night Shift Whirlpool Pale Ale",
+   "type": "Night Shift Whirlpool",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Downeast Original Blend Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "PBR Lager",
+   "type": "Pabst Blue Ribbon",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Two Roads Hefeweizen",
+   "type": "Two Roads Hefeweizen",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Glutenberg American Pale Ale",
+   "type": "Glutenberg American Pale Ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Wachusett Blueberry",
+   "type": "Wachusett Blueberry",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Oskar Blues Dale's Pale Ale",
+   "type": "Oskar Blues Dale's Pale Ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Sixpoint Resin Double IPA",
+   "type": "Sixpoint Resin",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Twisted Tea (tallboy)",
+   "type": "Hard tea",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "White Claw Black Cherry",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Zonin Prosecco (mini split)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Nobilo Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Chateau Souverain Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Hahn Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Hahn Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  }
+ ],
+ "sources": [
+  "https://www.tastyburger.com/menu/menu/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

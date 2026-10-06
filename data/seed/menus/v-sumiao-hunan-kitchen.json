@@ -1,0 +1,387 @@
+{
+ "venueId": "v-sumiao-hunan-kitchen",
+ "items": [
+  {
+   "name": "Sticky Rice Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Sumiao Mai Tai",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Lychee Royale",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cool & Breezy",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Common Speech",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mum's the Word",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Fung Wah",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Perpetual Motion",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Red Ruby",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Noir - Domaine Villargeau",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Syrah - Saint Cosme Côtes-du-Rhône",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cabernet Sauvignon - Requiem",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Albariño - Monte Pio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Sauvignon Blanc - Delaille 'Unique'",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Chardonnay - Kara Tara",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Prosecco - Adami Garbel",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sparkling Rosé - Arnaud Lambert",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Jack Abby's Seasonal Lager",
+   "type": "Jack's Abby Seasonal Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Notch Session Pilsner",
+   "type": "Notch Session Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Nightshift Whirlpool Pale Ale",
+   "type": "Night Shift Whirlpool",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Allagash White Ale",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Aeronaut Dr Nandu IPA",
+   "type": "Aeronaut Dr. Nandu",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Lamplighter Rabbit Rabbit IPA",
+   "type": "Lamplighter Rabbit Rabbit",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Tsing Tao Lager",
+   "type": "Tsingtao",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sapporo Premium",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Snow Beer",
+   "type": "Snow Beer",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Asahi Super Dry",
+   "type": "Asahi",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "MouTai baijiu",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 80.0
+  },
+  {
+   "name": "WuLiangYe baijiu",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 28.0
+  },
+  {
+   "name": "LuZhou LaoJiao baijiu",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 12.0
+  },
+  {
+   "name": "Xi Feng Jiu baijiu",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "Red Star Er Guo Tou baijiu",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "Ming River baijiu",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": 1,
+   "price": 9.0
+  },
+  {
+   "name": "Hot Sake - Gekkeikan Junmai-shu",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Kibo Sake - SakeOne Momokawa (250ml can)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "\"Diamond\" Junmai Ginjo - SakeOne Momokawa",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 4,
+   "price": 10.0
+  },
+  {
+   "name": "\"Diamond\" Junmai Ginjo - SakeOne Momokawa",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 24.0
+  },
+  {
+   "name": "Heiwa Shuzo Nigori",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 4,
+   "price": 14.0
+  },
+  {
+   "name": "Heiwa Shuzo Nigori",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 38.0
+  },
+  {
+   "name": "Ohmine 3 Grain Junmai Daiginjo",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 4,
+   "price": 15.0
+  },
+  {
+   "name": "Ohmine 3 Grain Junmai Daiginjo",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 40.0
+  },
+  {
+   "name": "Abe Shuzo Junmai Ginjo",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 4,
+   "price": 20.0
+  },
+  {
+   "name": "Abe Shuzo Junmai Ginjo",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 54.0
+  },
+  {
+   "name": "\"Demon Slayer\" Wakatake Junmai Daiginjo",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 4,
+   "price": 20.0
+  },
+  {
+   "name": "\"Demon Slayer\" Wakatake Junmai Daiginjo",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 58.0
+  },
+  {
+   "name": "\"Moonstone\" Asian Pear Sake - Momokawa",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 4,
+   "price": 10.0
+  },
+  {
+   "name": "\"Moonstone\" Asian Pear Sake - Momokawa",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 24.0
+  }
+ ],
+ "sources": [
+  "https://www.sumiaohunan.com/"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,211 @@
+{
+ "venueId": "v-cheeky-monkey-brewing-co",
+ "items": [
+  {
+   "name": "Paradise Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Mango Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Passion Project",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Island Time",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Purple Rain",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Moscow Mule",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Paloma",
+   "type": "Paloma",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Aperol Spritz",
+   "type": "Aperol Spritz",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Lock & Key Pinot Gris",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 8.0
+  },
+  {
+   "name": "Lock & Key Pinot Gris",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 11.0
+  },
+  {
+   "name": "Vintage Sunset Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 8.0
+  },
+  {
+   "name": "Vintage Sunset Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 11.0
+  },
+  {
+   "name": "Night Swim Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 8.0
+  },
+  {
+   "name": "Night Swim Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 11.0
+  },
+  {
+   "name": "Secret Crush Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 8.0
+  },
+  {
+   "name": "Secret Crush Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 11.0
+  },
+  {
+   "name": "Pink Minx Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 8.0
+  },
+  {
+   "name": "Pink Minx Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 11.0
+  },
+  {
+   "name": "House Sparkling",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "White Claw",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "High Noon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Surfside",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.5
+  }
+ ],
+ "sources": [
+  "https://www.luckystrikeent.com/en/assets/cheeky-monkey-brewing-co-menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

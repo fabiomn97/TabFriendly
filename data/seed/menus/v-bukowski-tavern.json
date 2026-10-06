@@ -1,0 +1,723 @@
+{
+ "venueId": "v-bukowski-tavern",
+ "items": [
+  {
+   "name": "Sierra Nevada Pale Ale",
+   "type": "Sierra Nevada Pale Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Toppling Goliath Pseudo Sue",
+   "type": "Toppling Goliath Pseudo Sue",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Zero Gravity Little Wolf",
+   "type": "Zero Gravity Little Wolf",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Berkshire Brewing Dandy Lion Haze",
+   "type": "Berkshire Brewing Dandy Lion Haze",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Dogfish Head 60 Minute IPA",
+   "type": "Dogfish Head 60 Minute IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Ghostfish Grapefruit IPA",
+   "type": "Ghostfish Grapefruit IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.5
+  },
+  {
+   "name": "Lone Pine Brightside",
+   "type": "Lone Pine Brightside",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.5
+  },
+  {
+   "name": "Revolution Anti-Hero",
+   "type": "Revolution Anti-Hero",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Sloop Juice Bomb IPA",
+   "type": "Sloop Juice Bomb",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Berkshire Brewing Tiger Lily",
+   "type": "Berkshire Brewing Tiger Lily",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Cigar City Florida Man",
+   "type": "Cigar City Florida Man",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Two Roads Road 2 Ruin",
+   "type": "Two Roads Road 2 Ruin",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Czechvar Pils",
+   "type": "Czechvar Pils",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Devil's Purse Handline Kolsch",
+   "type": "Devil's Purse Handline Kolsch",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Notch Session Pils",
+   "type": "Notch Session Pils",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Paulaner Pils",
+   "type": "Paulaner Pils",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Peak Organic Fresh Cut Dry Hopped Pils",
+   "type": "Peak Organic Fresh Cut",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Captain Lawrence Classic Lager",
+   "type": "Captain Lawrence Classic Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Coors Banquet",
+   "type": "Coors Banquet",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 5.5
+  },
+  {
+   "name": "Corona Premier",
+   "type": "Corona Premier",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Estrella Daura Damm",
+   "type": "Estrella Damm Daura",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Jack's Abby House Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Lonestar Original",
+   "type": "Lone Star Beer",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Miller Highlife",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 5.5
+  },
+  {
+   "name": "Miller Light",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 5.5
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Narragansett Atlantic Lite Lager",
+   "type": "Narragansett Atlantic Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 5.5
+  },
+  {
+   "name": "Sacred Profane Pale Lager",
+   "type": "Sacred Profane Pale Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Sam Adams Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Schlitz Lager",
+   "type": "Schlitz Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Yuengling Traditional Lager",
+   "type": "Yuengling Traditional Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 5.5
+  },
+  {
+   "name": "3 Floyds Gumballhead",
+   "type": "3 Floyds Gumballhead",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Allagash Belgian White Ale",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Blue Moon Belgian White Ale",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Hacker-Pschorr Hefeweiss",
+   "type": "Hacker-Pschorr Hefe Weisse",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16.9,
+   "price": 8.5
+  },
+  {
+   "name": "Jack's Abby Blood Orange Radler",
+   "type": "Jack's Abby Blood Orange Radler",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Paulaner Hefeweizen",
+   "type": "Paulaner Hefeweizen",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16.9,
+   "price": 8.5
+  },
+  {
+   "name": "Schneider Aventinus Dopple",
+   "type": "Schneider Aventinus",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16.9,
+   "price": 15.0
+  },
+  {
+   "name": "Weihenstephaner Hefeweiss",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16.9,
+   "price": 9.0
+  },
+  {
+   "name": "Weihenstephaner Hefeweissbier Dunkel",
+   "type": "Weihenstephaner Hefeweissbier Dunkel",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16.9,
+   "price": 13.0
+  },
+  {
+   "name": "Dogfish Head Citrus Squall Imperial Blonde",
+   "type": "Dogfish Head Citrus Squall",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Provincetown Golden Hook Ale",
+   "type": "Provincetown Golden Hook",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Von Trapp Vienna Lager",
+   "type": "Von Trapp Vienna Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Lexington Brewing Vanilla Barrel Cream Ale",
+   "type": "Lexington Brewing Vanilla Barrel Cream Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.5
+  },
+  {
+   "name": "Founders Dirty Bastard",
+   "type": "Founders Dirty Bastard",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Newburgh Brown Ale",
+   "type": "Newburgh Brown Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Bunker Chic-a-dee Bitter Nitro",
+   "type": "Bunker Chic-a-dee",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Ayinger Celebrator Doppelbock",
+   "type": "Ayinger Celebrator",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 11.0
+  },
+  {
+   "name": "Jack's Abby Smoke & Dagger",
+   "type": "Jack's Abby Smoke & Dagger",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Sacred Profane Dark Lager",
+   "type": "Sacred Profane Dark Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Von Trapp Dunkel",
+   "type": "Von Trapp Dunkel",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Founders Dark Rich Porter",
+   "type": "Founders Porter",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Maui Coconut Hiwa Porter",
+   "type": "Maui Coconut Hiwa Porter",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.5
+  },
+  {
+   "name": "Ipswich Oatmeal Stout",
+   "type": "Ipswich Oatmeal Stout",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Left Hand Nitro Milk Stout",
+   "type": "Left Hand Milk Stout Nitro",
+   "kind": "beer",
+   "serve": null,
+   "oz": 13.7,
+   "price": 8.5
+  },
+  {
+   "name": "Founders Breakfast Stout",
+   "type": "Founders Breakfast Stout",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.5
+  },
+  {
+   "name": "Great Divide Yeti",
+   "type": "Great Divide Yeti",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Boulevard Tank 7 Farmhouse Ale",
+   "type": "Boulevard Tank 7",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Great Divide Colette",
+   "type": "Great Divide Colette",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Oxbow Farmhouse Pale Ale",
+   "type": "Oxbow Farmhouse Pale Ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Allagash Tripel",
+   "type": "Allagash Tripel",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 9.5
+  },
+  {
+   "name": "Bosteels Tripel Karmeliet",
+   "type": "Tripel Karmeliet",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 15.0
+  },
+  {
+   "name": "Huyghe Delirium Tremens",
+   "type": "Delirium Tremens",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16.9,
+   "price": 14.0
+  },
+  {
+   "name": "Brooklyn Bel Air Sour",
+   "type": "Brooklyn Bel Air Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Crooked Stave Sour Rose Wild Ale",
+   "type": "Crooked Stave Sour Rosé",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Sea Dog Wild Blueberry Wheat Ale",
+   "type": "Sea Dog Wild Blueberry",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Smuttynose Seasonal Sour",
+   "type": "Smuttynose Seasonal Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Two Roads Lushee Passion Fruit Gose",
+   "type": "Two Roads Lushee",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Verhaeghe Duchesse de Bourgogne",
+   "type": "Duchesse de Bourgogne",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 16.0
+  },
+  {
+   "name": "Citizens Unified Press Unfiltered Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Embark Strawberry Rhubarb",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Far From the Tree Juicy Mix Dry Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Graft Birds of Paradise Moscow Mule",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 8.5
+  },
+  {
+   "name": "Havoc Hop Swarm Dry Hopped Mead",
+   "type": "Mead",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Hudson North Ginger Citrus semi-dry",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Shacksbury Rosé Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Stormalong Legendary Dry Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Juneshine Painkiller Kombucha",
+   "type": "Hard kombucha",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 8.5
+  },
+  {
+   "name": "Lunar Yuzu Seltzer",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 8.5
+  },
+  {
+   "name": "Lone River Ranch Water Grapefruit",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Reed's Dark & Stormy Ginger Beer",
+   "type": "Reed's Dark & Stormy",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Topo-Chico Spiked Strawberry/Guava Seltzer",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Troegs Freaky Squeeze Spiked Peach Orangeade",
+   "type": "Troegs Freaky Squeeze",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Red wine (Cabernet / Grenache / Pinot Noir)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "White wine (Chardonnay / Sauvignon Blanc)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  }
+ ],
+ "sources": [
+  "https://qrco.de/bbaK5S"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

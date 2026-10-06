@@ -1,0 +1,531 @@
+{
+ "venueId": "v-earls-kitchen-bar-prudential",
+ "items": [
+  {
+   "name": "Colada Crush",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Guava Vodka Crush",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Earls Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "The Spicy Margarita",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.5
+  },
+  {
+   "name": "Guava Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.5
+  },
+  {
+   "name": "Mango Smokeshow Margarita",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.5
+  },
+  {
+   "name": "Peach Bellini Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.5
+  },
+  {
+   "name": "Don Julio Reserve Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Premier '42 Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Strawberry Cosmopolitan",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Nitro Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Passion Fruit Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.5
+  },
+  {
+   "name": "Lychee Tini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.5
+  },
+  {
+   "name": "Tequila Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.75
+  },
+  {
+   "name": "Earls Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Amaretto Sour",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Passion Fruit Mai Tai",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Sparkling Peach Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Sunset Spritz",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Cambria Katherine's Vineyard Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 15.5
+  },
+  {
+   "name": "Cambria Katherine's Vineyard Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 24.5
+  },
+  {
+   "name": "August Kesseler 'R' Riesling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 10.5
+  },
+  {
+   "name": "August Kesseler 'R' Riesling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 16.5
+  },
+  {
+   "name": "Matanzas Creek Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 14.0
+  },
+  {
+   "name": "Matanzas Creek Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 22.0
+  },
+  {
+   "name": "Borghi Ad Est Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 12.0
+  },
+  {
+   "name": "Borghi Ad Est Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 19.0
+  },
+  {
+   "name": "Settlement Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 15.0
+  },
+  {
+   "name": "Settlement Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 23.75
+  },
+  {
+   "name": "Murphy-Goode Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 14.5
+  },
+  {
+   "name": "Murphy-Goode Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 22.75
+  },
+  {
+   "name": "Marqués de Riscal Rioja Reserva",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 15.0
+  },
+  {
+   "name": "Marqués de Riscal Rioja Reserva",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 23.75
+  },
+  {
+   "name": "Antinori Toscana Rosso",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 14.0
+  },
+  {
+   "name": "Antinori Toscana Rosso",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 22.0
+  },
+  {
+   "name": "Duckhorn Napa Valley Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 26.75
+  },
+  {
+   "name": "Duckhorn Napa Valley Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 42.0
+  },
+  {
+   "name": "Siduri Santa Barbara Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 15.25
+  },
+  {
+   "name": "Siduri Santa Barbara Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 24.25
+  },
+  {
+   "name": "La Crema Monterey Pinot Noir Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 13.0
+  },
+  {
+   "name": "La Crema Monterey Pinot Noir Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 20.25
+  },
+  {
+   "name": "Calafuria Rosé Negroamaro",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 14.75
+  },
+  {
+   "name": "Calafuria Rosé Negroamaro",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 23.25
+  },
+  {
+   "name": "Roseblood d'Estoublon Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 16.5
+  },
+  {
+   "name": "Roseblood d'Estoublon Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 8,
+   "price": 26.0
+  },
+  {
+   "name": "Ferrari Brut Rosé",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 21.0
+  },
+  {
+   "name": "Ferrari Brut Rosé",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 7,
+   "price": 29.0
+  },
+  {
+   "name": "Bollicini Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 12.5
+  },
+  {
+   "name": "Bollicini Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 7,
+   "price": 17.25
+  },
+  {
+   "name": "Downeast Seasonal Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Maine Beer Company Lunch IPA",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.75
+  },
+  {
+   "name": "Lord Hobo Boom Sauce",
+   "type": "Lord Hobo Boom Sauce",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.25
+  },
+  {
+   "name": "Samuel Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.75
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Brooklyn Lager",
+   "type": "Brooklyn Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://earls.ca/locations/prudential/menu/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

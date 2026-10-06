@@ -1,0 +1,267 @@
+{
+ "venueId": "v-row-34-cambridge",
+ "items": [
+  {
+   "name": "Freezer Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Tropical Fizz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Golden Tide",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Smoky Smooth",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Strawberry Moon",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Hot & (Un)Bothered",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Rose Boulevard",
+   "type": "Boulevardier",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Italian Summer",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Current Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "French 34",
+   "type": "French 75",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Scrag Mountain Pilsner",
+   "type": "Lawson's Finest Scrag Mountain Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Tannenzäpfle Pilsner",
+   "type": "Rothaus Tannenzäpfle",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 11.0
+  },
+  {
+   "name": "Hefe Weissbier",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Photon",
+   "type": "Equilibrium Photon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "The Substance",
+   "type": "Bissell Brothers The Substance",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 13.0
+  },
+  {
+   "name": "Lunch",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 13.0
+  },
+  {
+   "name": "Congress Street",
+   "type": "Trillium Congress Street",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Daily Serving Tropical Punch",
+   "type": "Trillium Daily Serving Tropical Punch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 8,
+   "price": 11.0
+  },
+  {
+   "name": "American Porter",
+   "type": "Stoneface American Porter",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "2024 Can Sumoi Muntanya",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2024 J. de Villebois Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2024 Gaintza Txakoli Blanco",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2024 Gaspard Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2024 Elena Walch Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "2024 Christina Grüner Veltliner",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2024 Mas La Chevaliere Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "2024 Maison Gutowski La Dépendance",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2023 Martha Stoumen Post Flirtation Red",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "2022 Brandborg Bench Lands Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2023 Gail Doris Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  }
+ ],
+ "sources": [
+  "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/6kTIV6yMQC2PxRCxZ2GP_CAMB_Cocktails_8_21_26.pdf"
+ ],
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

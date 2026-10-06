@@ -1,0 +1,219 @@
+{
+ "venueId": "v-sol-azteca",
+ "items": [
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Corona Light",
+   "type": "Corona Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Sam Adams",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Dogfish Head 60 Min",
+   "type": "Dogfish Head 60 Minute IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Dos Equis Lager",
+   "type": "Dos Equis",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Dos Equis Amber",
+   "type": "Dos Equis Amber",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Negra Modelo",
+   "type": "Negra Modelo",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Sol Spicy Margarita",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mezcal Margarita",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Azteca Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.25
+  },
+  {
+   "name": "Cadillac Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Colorful Ghost Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pama-Rita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Tamarindo Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Passion Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Guava Premium Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Mezcaloma",
+   "type": "Mezcal Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Blackberry Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "Coconut Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "Smoke Express",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "Fresh Tito",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.75
+  },
+  {
+   "name": "Chile Smash",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "Sangria (small glass)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sangria (large glass)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  }
+ ],
+ "sources": [
+  "https://solaztecaboston.com/menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,627 @@
+{
+ "venueId": "v-the-westland",
+ "items": [
+  {
+   "name": "Cava Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Cava Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Poema Brut Rosé Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Poema Brut Rosé Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Korbel Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Korbel Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Kendall Jackson Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Kendall Jackson Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.5
+  },
+  {
+   "name": "Bottega Vinaia Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Bottega Vinaia Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Chateau Ste Michelle Riesling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "Chateau Ste Michelle Riesling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.5
+  },
+  {
+   "name": "Pine Ridge Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 8.5
+  },
+  {
+   "name": "Pine Ridge Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.5
+  },
+  {
+   "name": "Sabine Grotham Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 8.5
+  },
+  {
+   "name": "Sabine Grotham Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.5
+  },
+  {
+   "name": "Rocca Delle Macie Chianti Classico",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Rocca Delle Macie Chianti Classico",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.5
+  },
+  {
+   "name": "Murphy Goode Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "Murphy Goode Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.5
+  },
+  {
+   "name": "Aruma Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.5
+  },
+  {
+   "name": "Aruma Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 17.5
+  },
+  {
+   "name": "Francis Coppola Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Francis Coppola Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Robert Mondavi Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "Robert Mondavi Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.5
+  },
+  {
+   "name": "Sam Adams Seasonal Octoberfest",
+   "type": "Sam Adams Octoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Sam Adams Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Schilling Alexandr Pilsner",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Vermont Beer Makers Scarlet",
+   "type": "Vermont Beer Makers Scarlet",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Beer'd Kittens & Canoes",
+   "type": "Beer'd Kittens & Canoes",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Downeast Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Maine Lunch",
+   "type": "Maine Beer Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 4.95
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Ten Bends Cream Puff War",
+   "type": "Ten Bends Cream Puff War",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Victory Juicy Monkey",
+   "type": "Victory Juicy Monkey",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Dorchester Neponset Gold",
+   "type": "Dorchester Neponset Gold",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Dorchester Punch Bowl Sour",
+   "type": "Dorchester Punch Bowl",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Burlington Lighthouse",
+   "type": "Burlington Lighthouse",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Lone Pine Summer Lights",
+   "type": "Lone Pine Summer Lights",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Abita Purple Haze",
+   "type": "Abita Purple Haze",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Idle Hands Blueberry",
+   "type": "Idle Hands Blueberry",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Foam Dead Flowers",
+   "type": "Foam Dead Flowers",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Narragansett Fresh Catch",
+   "type": "Narragansett Fresh Catch",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Cambridge The Great Pumpkin Ale",
+   "type": "Cambridge Great Pumpkin",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Dorchester Beantown Series Vietnamese Coffee Stout",
+   "type": "Dorchester Beantown Series",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Mast Landing Gunner's Daughter",
+   "type": "Mast Landing Gunner's Daughter",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Downeast Cider Donut",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast Apple Pie",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast Blackberry",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Topo Chico Hard Seltzer",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Sun Cruiser Spiked Iced Tea",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Pocket Pear",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "How Ya Keepin', Cuzzie?",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Smokey and the Ube",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Apple Of My Rye",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Summer Anthem",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Hey Buddy",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "French Gimlet",
+   "type": "Gimlet",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Revenge of the Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Westland Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Westland Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Choco Berry Bon Bon",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Say Chai For Me",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Good Humor, Good Vibes",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "The Northender",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  }
+ ],
+ "sources": [
+  "https://www.westlandboston.com/menus/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

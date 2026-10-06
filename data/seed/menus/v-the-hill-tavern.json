@@ -1,0 +1,803 @@
+{
+ "venueId": "v-the-hill-tavern",
+ "items": [
+  {
+   "name": "House Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Spicy Margarita",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Strawberry Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Passion Fruit Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Peared Up Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "SeasSangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Grapefruit Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Green Monster (shot)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Snow Shoe (shot)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "White Tea (shot)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Green Tea (shot)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Cisco Whale's Tale",
+   "type": "Cisco Whale's Tale Pale Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Maine Lunch",
+   "type": "Maine Beer Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Lagunitas",
+   "type": "Lagunitas IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Sierra Hazy Little",
+   "type": "Sierra Nevada Hazy Little Thing",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Wormtown Be Hoppy",
+   "type": "Wormtown Be Hoppy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Bentwater Sluice Juice",
+   "type": "Bent Water Sluice Juice",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Mighty Squirrel",
+   "type": "Mighty Squirrel IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Zero Gravity Madonna",
+   "type": "Zero Gravity Madonna",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.25
+  },
+  {
+   "name": "Kona Big Wave",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Guinness Irish Stout",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.25
+  },
+  {
+   "name": "Allagash White Ale",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Rockport Brewing Whale Cove White",
+   "type": "Rockport Whale Cove White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Stoneface Berliner Weisse",
+   "type": "Stoneface Berliner Weisse",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Night Shift Nite Lite",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Sam Adam's Boston Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Jack's Abby House Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Notch Pilsner",
+   "type": "Notch Session Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Whalers Brewing",
+   "type": "Whalers Rotating",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Troeg's Brewing",
+   "type": "Troegs Rotating",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Downeast Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Mango Cart Wheat Ale",
+   "type": "Golden Road Mango Cart",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.25
+  },
+  {
+   "name": "Cisco Grey Lady",
+   "type": "Cisco Grey Lady",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Breckenridge Vanilla Porter",
+   "type": "Breckenridge Vanilla Porter",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Abita Purple Haze",
+   "type": "Abita Purple Haze",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.25
+  },
+  {
+   "name": "Zero Gravity Conehead",
+   "type": "Zero Gravity Conehead",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Bentwater Thunderfunk",
+   "type": "Bent Water Thunderfunk",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Night Shift Whirlpool",
+   "type": "Night Shift Whirlpool",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Left Hand Milk Stout",
+   "type": "Left Hand Milk Stout",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "New Belguim VooDoo",
+   "type": "New Belgium Voodoo Ranger IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Victory Golden Monkey",
+   "type": "Victory Golden Monkey",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Rockport Brewing Jetty Juice Hazy IPA",
+   "type": "Rockport Jetty Juice",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Rockport Brewing Pescato Italian Pils",
+   "type": "Rockport Pescato",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Jack's Abby Copper Legend",
+   "type": "Jack's Abby Copper Legend",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Jack's Abby Red Tape",
+   "type": "Jack's Abby Red Tape",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Jack's Abby Pride & Parquet",
+   "type": "Jack's Abby Pride & Parquet",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Sierra Nevada Pale Ale",
+   "type": "Sierra Nevada Pale Ale",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.25
+  },
+  {
+   "name": "T.Goliath Pseudo Sue Pale Ale",
+   "type": "Toppling Goliath Pseudo Sue",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "New Belgium Fat Tire",
+   "type": "New Belgium Fat Tire",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.25
+  },
+  {
+   "name": "Magic Hat #9",
+   "type": "Magic Hat #9",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.75
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Yuengling Lager",
+   "type": "Yuengling Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.25
+  },
+  {
+   "name": "Amstel Light",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.75
+  },
+  {
+   "name": "Corona Light",
+   "type": "Corona Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.75
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Heineken Light",
+   "type": "Heineken Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.25
+  },
+  {
+   "name": "Modelo Negra",
+   "type": "Negra Modelo",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.25
+  },
+  {
+   "name": "Two Roads Gose",
+   "type": "Two Roads Gose",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Collective Arts Sour",
+   "type": "Collective Arts Sour",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Wachusett Blueberry",
+   "type": "Wachusett Blueberry",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Dogfish Head SeaQuench",
+   "type": "Dogfish Head SeaQuench Ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Crabbie's Ginger Beer",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Truly Wild Berry",
+   "type": "Truly",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 7.25
+  },
+  {
+   "name": "White Claw, Mango or Black Cherry",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 7.25
+  },
+  {
+   "name": "Truly Vodka",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Downeast Vodka",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.25
+  },
+  {
+   "name": "Nutrl Vodka",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Viva Huckleberry",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.75
+  },
+  {
+   "name": "Stormalong Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Twisted Tea",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.25
+  },
+  {
+   "name": "Rex Goliath Cabernet",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Monte Luce Cabernet",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Rex Goliath Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Tripache Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Firesteed Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Rosenblum Zin",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Teal Lake Shiraz",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Alta Clase Sangiovese",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Rex Goliath Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "St. Francis Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Cupcake Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Alta Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Whispering Tree Reisling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Radley Finch Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Archer Rose (canned)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "can",
+   "oz": null,
+   "price": 9.25
+  },
+  {
+   "name": "Babe Rose (canned)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "can",
+   "oz": null,
+   "price": 9.75
+  }
+ ],
+ "sources": [
+  "https://thehilltavernboston.com/drink-menu/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

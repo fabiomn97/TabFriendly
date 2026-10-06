@@ -1,0 +1,339 @@
+{
+ "venueId": "v-bronwyn",
+ "items": [
+  {
+   "name": "Weihenstephaner Festbier",
+   "type": "Weihenstephaner Festbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Weihenstephaner Festbier (Liter)",
+   "type": "Weihenstephaner Festbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 33.8,
+   "price": 21.0
+  },
+  {
+   "name": "Paulaner Märzen",
+   "type": "Paulaner Oktoberfest Märzen",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Paulaner Märzen (Liter)",
+   "type": "Paulaner Oktoberfest Märzen",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 33.8,
+   "price": 23.0
+  },
+  {
+   "name": "Zero Gravity Oktoberfest Märzen",
+   "type": "Zero Gravity Oktoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Hacker Pschorr Märzen Festbier",
+   "type": "Hacker-Pschorr Oktoberfest Märzen",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Erdinger Hefeweizen",
+   "type": "Erdinger Hefeweizen",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "BRLO IPA",
+   "type": "BRLO IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Weihenstephaner Dunkel Weiss",
+   "type": "Weihenstephaner Hefeweissbier Dunkel",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Ayinger 'Celebrator' Doppelbock",
+   "type": "Ayinger Celebrator",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "High Limb 'Pumpkin Spice Lover' Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sierra Nevada Festbier",
+   "type": "Sierra Nevada Oktoberfest",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Von Trapp Oktoberfest Märzen",
+   "type": "Von Trapp Oktoberfest",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Ordinem Ecentrici Coctores Festbier",
+   "type": "Ordinem Ecentrici Coctores Festbier",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Weltenburger Kloster Barock Dunkel",
+   "type": "Weltenburger Kloster Barock Dunkel",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Andechs Doppelbock Dunkel",
+   "type": "Andechs Doppelbock Dunkel",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Schneider 'Aventinus' Doppelbock",
+   "type": "Schneider Aventinus",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Aeronaut Raspberry Sour",
+   "type": "Aeronaut Raspberry Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Stiegl Grapefruit Radler",
+   "type": "Stiegl Grapefruit Radler",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Artifact 'Long Way Back' Dry Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Glühwein",
+   "type": "House cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Apfelmacht",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Elo-Quince",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "The Schönberry",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Frau Fizzy Fig",
+   "type": "House cocktail",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Czech Yourself (Haus Negroni)",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Liebestrank",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Honey Bear",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Sparkling Riesling, Henkell",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sparkling Rosé Pinot Noir, Fritz Mueller",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Riesling, Ansgar Clüsserath",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Grüner Veltliner, Stadt Krems",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sauvignon Blanc, Sattlerhof",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Reserve Riesling Trocken, Loimer",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Ribolla (Orange Wine), Krasno",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pinot Noir, Hex Vom Dasenstein",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "St. Laurent, Reinisch",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Movia",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Reserve Pinot Noir, Meyer-Näkel",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 28.0
+  },
+  {
+   "name": "Bärenjäger Honey Liqueur (dessert pairing)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Schladerer Cherry Kirschwasser (dessert pairing)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://bronwynrestaurant.com/menus/Dinner.pdf"
+ ],
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

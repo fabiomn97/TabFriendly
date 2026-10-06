@@ -1,0 +1,236 @@
+{
+ "venueId": "v-hojoko",
+ "items": [
+  {
+   "name": "Sapporo Premium Lager",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "True North Vincianne Blonde",
+   "type": "True North Vincianne Blonde",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Japas Matsurika Pilsner",
+   "type": "Japas Matsurika Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Finback Rolling Through the Clouds",
+   "type": "Finback Rolling Through the Clouds",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Widowmaker Blue Comet",
+   "type": "Widowmaker Blue Comet",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Aeronaut Hop Hop & Away",
+   "type": "Aeronaut Hop Hop & Away",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Night Shift Santilli",
+   "type": "Night Shift Santilli",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Nite Lite",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Sapporo",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 22,
+   "price": 14.0
+  },
+  {
+   "name": "Asahi 'Super Dry'",
+   "type": "Asahi",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16.9,
+   "price": 11.0
+  },
+  {
+   "name": "Echigo Koshihikari Lager",
+   "type": "Echigo Koshihikari Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Suntory Flavored Seltzers",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Subtle Beauty Highball",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Pan-Daiquiri",
+   "type": "Daiquiri",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Kischido-Rita",
+   "type": "Spicy Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "La Neta",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "PK Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Mai Tai",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Pack of Newports",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Pacific Island Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Pina Colada (frozen)",
+   "type": "Pina Colada",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Saturn (frozen)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Tequila & Pineapple Shrub Soda",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Curaçao & Root Beer",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Yuzu Sake Bomb",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  }
+ ],
+ "sources": [
+  "https://www.hojokoboston.com/menu/beer/",
+  "https://www.hojokoboston.com/menu/cocktails-copy/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

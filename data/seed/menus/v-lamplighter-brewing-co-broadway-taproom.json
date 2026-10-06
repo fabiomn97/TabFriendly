@@ -1,0 +1,19 @@
+{
+ "venueId": "v-lamplighter-brewing-co-broadway-taproom",
+ "items": [
+  {
+   "name": "Thornberry Hard Seltzer",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 12,
+   "price": 8.0
+  }
+ ],
+ "sources": [
+  "https://lamplighterbrewing.com/collections/on-tap-at-broadway"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

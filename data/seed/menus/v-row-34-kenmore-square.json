@@ -1,0 +1,243 @@
+{
+ "venueId": "v-row-34-kenmore-square",
+ "items": [
+  {
+   "name": "Freezer Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Golden Tide",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Prickly Business",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Pera Speziata",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Tropical Fizz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Star in the Making",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Strawberry Moon",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "White Lotus Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "High Noon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Scrag Mountain",
+   "type": "Lawson's Finest Scrag Mountain Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Tannenzäpfle",
+   "type": "Rothaus Tannenzäpfle",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Rove",
+   "type": "Fox Farm Rove",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 8,
+   "price": 10.0
+  },
+  {
+   "name": "White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 11.0
+  },
+  {
+   "name": "Hefe Weissbier",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Peeper",
+   "type": "Maine Beer Co Peeper",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 11.0
+  },
+  {
+   "name": "The Substance",
+   "type": "Bissell Brothers The Substance",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 13.0
+  },
+  {
+   "name": "Green Wizard",
+   "type": "Widowmaker Green Wizard",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 11.0
+  },
+  {
+   "name": "2024 Can Sumoi",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2025 Gaintza Txakoli",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2024 J. de Villebois Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2025 Cellario Vermentino",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2024 Christina Grüner Veltliner",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2025 Gaspard Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2024 Mas la Chevalière Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "2024 Maison Gutowski",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2023 Martha Stoumen Post Flirtation Red",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "2022 Brandborg Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2024 Cou Cou Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  }
+ ],
+ "sources": [
+  "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/H7IcpyVJRa5qCkaNGHM5_KENMORE_BEV_10_02_26.pdf"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
