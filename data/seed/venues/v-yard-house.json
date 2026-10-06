@@ -1,0 +1,12 @@
+{
+ "name": "Yard House",
+ "type": "bar",
+ "address": "126 Brookline Ave, Boston, MA 02215",
+ "lat": 42.3453,
+ "lng": -71.1,
+ "website": "https://www.yardhouse.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

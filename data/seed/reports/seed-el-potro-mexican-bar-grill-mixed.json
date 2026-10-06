@@ -1,0 +1,14 @@
+{
+ "venueId": "v-el-potro-mexican-bar-grill",
+ "kind": "mixed",
+ "drink": "House Margarita",
+ "price": 12.5,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://elpotromexicangrill.com/wp-content/uploads/2024/05/ElPotro-Menu-0524.pdf",
+ "sourceDate": "2024-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

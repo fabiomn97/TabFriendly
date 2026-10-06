@@ -1,0 +1,12 @@
+{
+ "name": "Tall Order",
+ "type": "bar",
+ "address": "70 Beacon St, Somerville, MA 02143",
+ "lat": 42.3763,
+ "lng": -71.1041,
+ "website": "https://tallorderbar.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

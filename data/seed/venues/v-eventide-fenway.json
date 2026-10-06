@@ -1,0 +1,12 @@
+{
+ "name": "Eventide Fenway",
+ "type": "restaurant",
+ "address": "1321 Boylston St, Boston, MA 02215",
+ "lat": 42.3444,
+ "lng": -71.0986,
+ "website": "https://www.eventideoysterco.com/eventide-fenway",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

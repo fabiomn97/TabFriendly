@@ -1,0 +1,14 @@
+{
+ "venueId": "v-m-j-o-connor-s-park-plaza",
+ "kind": "mixed",
+ "drink": "Spicy Pineapple Margarita",
+ "price": 14.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.mjoconnors.com/back-bay-menus/",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

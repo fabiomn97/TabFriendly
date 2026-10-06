@@ -1,0 +1,12 @@
+{
+ "name": "Waypoint",
+ "type": "restaurant",
+ "address": "1030 Massachusetts Ave, Cambridge, MA 02138",
+ "lat": 42.3697,
+ "lng": -71.1124,
+ "website": "https://www.waypointharvard.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

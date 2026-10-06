@@ -16,6 +16,10 @@ RENAME = {
 NOTES = {  # shown to users on the venue card
     "The Muddy Charles Pub": "MIT ID required (affiliates and their guests). Cash only.",
     "Thirsty Ear Pub": "MIT ID required (affiliates and their guests).",
+    "Sweet Cheeks Q": "Closing after Nov 24, 2026.",
+    "Paradise Rock Club": "Music venue: the bars usually need a show ticket.",
+    "Scullers Jazz Club": "Jazz club: usually needs a show ticket.",
+    "Over the Charles Rooftop Bar (DoubleTree Suites)": "Seasonal rooftop (about June to October).",
 }
 for x in v:
     for old, new in RENAME.items():

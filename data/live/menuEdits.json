@@ -1,0 +1,142 @@
+{
+ "1o10b23rzahrigz61jkl": {
+  "at": "2026-10-06T01:42:49.136Z",
+  "item": {
+   "kind": "wine",
+   "name": "White Wine",
+   "oz": null,
+   "price": 5,
+   "serve": "glass",
+   "type": "White wine"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "52fm42hwyc63vckr6lxb": {
+  "at": "2026-10-06T01:43:21.350Z",
+  "item": {
+   "kind": "wine",
+   "name": "Brut",
+   "oz": null,
+   "price": 17,
+   "serve": "bottle",
+   "type": "Brut"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "606842inw2hggyzp1jmj": {
+  "at": "2026-10-06T01:42:35.841Z",
+  "item": {
+   "kind": "wine",
+   "name": "Rosé",
+   "oz": null,
+   "price": 5,
+   "serve": "glass",
+   "type": "Rosé"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "78ufzi8kqtf92x0wfpzk": {
+  "at": "2026-10-06T01:40:32.632Z",
+  "item": {
+   "kind": "beer",
+   "name": "Rapscallion Lager",
+   "oz": null,
+   "price": 3.5,
+   "serve": "draft",
+   "type": "Rapscallion Lager"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "7jcv38a1elr5126o72iu": {
+  "at": "2026-10-06T01:37:07.059Z",
+  "item": {
+   "kind": "beer",
+   "name": "Harpoon Big League Pale Ale",
+   "oz": null,
+   "price": 4,
+   "serve": "draft",
+   "type": "Harpoon Big League Pale Ale"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "8vxgtxht7dl8tojqmuyu": {
+  "at": "2026-10-06T01:40:04.385Z",
+  "item": {
+   "kind": "other",
+   "name": "Artifact Cider Feels Like Home",
+   "oz": null,
+   "price": 3.5,
+   "serve": "draft",
+   "type": "Artifact Cider Feels Like Home"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "bp223mdh65pkey6eit05": {
+  "at": "2026-10-06T01:42:43.438Z",
+  "item": {
+   "kind": "wine",
+   "name": "Red Wine",
+   "oz": null,
+   "price": 5,
+   "serve": "glass",
+   "type": "Red wine"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "lekee4ag5c2s2j81qm1q": {
+  "at": "2026-10-06T01:37:38.961Z",
+  "item": {
+   "kind": "beer",
+   "name": "Miller High Life",
+   "oz": null,
+   "price": 2,
+   "serve": "draft",
+   "type": "Miller High Life"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "scfc910wraqqg1ocew52": {
+  "at": "2026-10-06T01:37:16.470Z",
+  "item": {
+   "kind": "beer",
+   "name": "Mayflower Crispy Business Kolsch",
+   "oz": null,
+   "price": 3.5,
+   "serve": "draft",
+   "type": "Mayflower Crispy Business Kolsch"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ },
+ "ufwdbn2mstprhlzrq8g8": {
+  "at": "2026-10-06T01:43:58.238Z",
+  "item": {
+   "kind": "beer",
+   "name": "Founders Rubaeus",
+   "oz": null,
+   "price": 4,
+   "serve": "draft",
+   "type": "Founders Rubaeus"
+  },
+  "removed": false,
+  "target": null,
+  "venueId": "v-the-muddy-charles-pub"
+ }
+}

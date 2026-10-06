@@ -1,0 +1,12 @@
+{
+ "name": "Uptown Social",
+ "type": "restaurant",
+ "address": "604 Columbus Ave, Boston, MA 02118",
+ "lat": 42.3392,
+ "lng": -71.0834,
+ "website": "https://uptownsocialboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

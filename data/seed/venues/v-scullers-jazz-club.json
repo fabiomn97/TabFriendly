@@ -1,0 +1,12 @@
+{
+ "name": "Scullers Jazz Club",
+ "type": "bar",
+ "address": "400 Soldiers Field Rd, Boston, MA 02134",
+ "lat": 42.3603,
+ "lng": -71.1182,
+ "website": "https://scullersjazz.com/",
+ "note": "Jazz club: usually needs a show ticket.",
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

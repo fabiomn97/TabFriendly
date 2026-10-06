@@ -1,0 +1,14 @@
+{
+ "venueId": "v-scullers-jazz-club",
+ "kind": "beer",
+ "drink": "Bud Light (bottle)",
+ "price": 8.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://qrco.de/bcR5ln",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

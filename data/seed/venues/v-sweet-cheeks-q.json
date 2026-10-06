@@ -1,0 +1,12 @@
+{
+ "name": "Sweet Cheeks Q",
+ "type": "restaurant",
+ "address": "1381 Boylston St, Boston, MA 02215",
+ "lat": 42.3437,
+ "lng": -71.1013,
+ "website": "https://www.sweetcheeksq.com",
+ "note": "Closing after Nov 24, 2026.",
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-sweet-cheeks-q",
+ "kind": "beer",
+ "drink": "Miller High Life pony",
+ "price": 3.0,
+ "oz": 7,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://places.singleplatform.com/sweet-cheeks-q/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

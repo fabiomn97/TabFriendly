@@ -2529,5 +2529,479 @@
   },
   "notes": "From the drink menu PDF linked on the Brookline location page (uploaded Jan 2026). Several signature cocktails are $12 (Tokyo Iced Tea, Coco-Mo, Mango Tango). Happy-hour prices (Mon-Thu) excluded. The PDF footer says pricing may vary by location.",
   "area": "Brookline (St. Mary's / BU edge)"
+ },
+ {
+  "name": "Over the Charles Rooftop Bar (DoubleTree Suites)",
+  "type": "bar",
+  "address": "400 Soldiers Field Rd, Boston, MA 02134",
+  "lat": 42.3603,
+  "lng": -71.1183,
+  "website": "https://www.opentable.com/r/over-the-charles-boston-2",
+  "beer": {
+   "name": "Banner City Light Lager (can)",
+   "price": 8,
+   "oz": null,
+   "source": "https://restaurantguru.com/Over-the-Charles-Rooftop-Bar-Boston-2/menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Berry Amused (cocktail)",
+   "price": 16,
+   "source": "https://restaurantguru.com/Over-the-Charles-Rooftop-Bar-Boston-2/menu",
+   "source_date": "unknown"
+  },
+  "notes": "Seasonal 16th-floor rooftop (about June-Oct), so it may be closing for the season around now; 1.27 mi. Prices come from a user-posted menu on RestaurantGuru (owner menu labeled '2025 OTC Menu') and may have changed. Can size isn't stated.",
+  "area": "Allston Buwest",
+  "venue_note": "Seasonal rooftop (about June to October)."
+ },
+ {
+  "name": "Scullers Jazz Club",
+  "type": "bar",
+  "address": "400 Soldiers Field Rd, Boston, MA 02134",
+  "lat": 42.3603,
+  "lng": -71.1182,
+  "website": "https://scullersjazz.com/",
+  "beer": {
+   "name": "Bud Light (bottle)",
+   "price": 8,
+   "oz": 12,
+   "source": "https://qrco.de/bcR5ln",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "House cocktails (French 75, Lemon Drop, Sidecar, Old Fashioned, Espresso Martini)",
+   "price": 18,
+   "source": "https://qrco.de/bcR5ln",
+   "source_date": "2026-10"
+  },
+  "notes": "Jazz club in the DoubleTree; usually needs a show ticket; 1.27 mi. Prices come from its live-updating menu PDF linked from scullersjazz.com/our-menu (dated Oct 2026). Heineken 0.0 is also $8 but non-alcoholic. The menu lists no cheaper well drink.",
+  "area": "Allston Buwest",
+  "venue_note": "Jazz club: usually needs a show ticket."
+ },
+ {
+  "name": "Beacon Hill Pub",
+  "type": "bar",
+  "address": "149 Charles St, Boston, MA 02114",
+  "lat": 42.36,
+  "lng": -71.0707,
+  "website": "https://www.facebook.com/beaconhillpubboston/",
+  "beer": {
+   "name": "Narragansett tallboy",
+   "price": 3,
+   "oz": 16,
+   "source": "https://www.boston-barhopper.com/boston-barhopper/2012/11/11/beacon-hill-pub",
+   "source_date": "2012-11"
+  },
+  "mixed": null,
+  "notes": "1.16 mi. Cash-only dive. Beer price is from a 2012 blog post and is very likely higher now. Only straight spirit prices were found (Jameson rocks $6.50, 2012).",
+  "area": "Downtown"
+ },
+ {
+  "name": "M.J. O'Connor's (Park Plaza)",
+  "type": "bar",
+  "address": "27 Columbus Ave, Boston, MA 02116",
+  "lat": 42.3514,
+  "lng": -71.0685,
+  "website": "https://www.mjoconnors.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Spicy Pineapple Margarita",
+   "price": 14,
+   "source": "https://www.mjoconnors.com/back-bay-menus/",
+   "source_date": "2026-10"
+  },
+  "notes": "1.38 mi. The official menu lists beers with no prices. A $13 'Go Blue' cocktail is on a game-day specials menu, so it is excluded.",
+  "area": "Downtown"
+ },
+ {
+  "name": "El Potro Mexican Bar & Grill",
+  "type": "restaurant",
+  "address": "61 Union Sq, Somerville, MA 02143",
+  "lat": 42.3797,
+  "lng": -71.0963,
+  "website": "https://elpotromexicangrill.com/",
+  "beer": null,
+  "mixed": {
+   "name": "House Margarita",
+   "price": 12.5,
+   "source": "https://elpotromexicangrill.com/wp-content/uploads/2024/05/ElPotro-Menu-0524.pdf",
+   "source_date": "2024-05"
+  },
+  "notes": "Margarita price comes from a search-engine excerpt of the May 2024 menu PDF, which would not open directly (SSL error), so it is unverified. A $4.40 imported beer price also appeared but could not be confirmed, so beer is null.",
+  "area": "East Cambridge Somerville"
+ },
+ {
+  "name": "Sweet Cheeks Q",
+  "type": "restaurant",
+  "address": "1381 Boylston St, Boston, MA 02215",
+  "lat": 42.3437,
+  "lng": -71.1013,
+  "website": "https://www.sweetcheeksq.com",
+  "beer": {
+   "name": "Miller High Life pony",
+   "price": 3,
+   "oz": 7,
+   "source": "http://places.singleplatform.com/sweet-cheeks-q/menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktail (e.g. Dollywood)",
+   "price": 11,
+   "source": "http://places.singleplatform.com/sweet-cheeks-q/menu",
+   "source_date": "unknown"
+  },
+  "notes": "CLOSING Nov 24, 2026. Prices from SinglePlatform listing that is likely several years old - treat as doubtful/understated. Pony bottles are 7oz. 16oz draft listed at $7.",
+  "area": "Fenway Longwood Brookline",
+  "venue_note": "Closing after Nov 24, 2026."
+ },
+ {
+  "name": "Waypoint",
+  "type": "restaurant",
+  "address": "1030 Massachusetts Ave, Cambridge, MA 02138",
+  "lat": 42.3697,
+  "lng": -71.1124,
+  "website": "https://www.waypointharvard.com",
+  "beer": {
+   "name": "Lone Pine Portland Ale (draft)",
+   "price": 8,
+   "oz": null,
+   "source": "https://www.waypointharvard.com/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Gentian Forecast (Salers, Sazerac rye, absinthe)",
+   "price": 14,
+   "source": "https://www.waypointharvard.com/",
+   "source_date": "unknown"
+  },
+  "notes": "Site retrieved 2026-10 shows dinner hours, and the wine list suggests a 2025-26 menu. There were earlier closure rumors; worth verifying it is open.",
+  "area": "Harvard Inman"
+ },
+ {
+  "name": "Tall Order",
+  "type": "bar",
+  "address": "70 Beacon St, Somerville, MA 02143",
+  "lat": 42.3763,
+  "lng": -71.1041,
+  "website": "https://tallorderbar.com",
+  "beer": {
+   "name": "Miller Lite (Coors Banquet same price)",
+   "price": 5.15,
+   "oz": null,
+   "source": "https://tallorderbar.com/drink-menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Little Panda (low-ABV: fino sherry, dry vermouth, Rhum J.M., lime)",
+   "price": 14.42,
+   "source": "https://tallorderbar.com/drink-menu",
+   "source_date": "unknown"
+  },
+  "notes": "Replaced Thirsty Scholar Pub and opened March 2025. Menu prices appear to include a ~3% surcharge (base $5; the Boston Globe cited $5 Miller Lite in 2025-05). Full-strength cocktails are $15.45. In Somerville near Inman; possible overlap with the Somerville agent.",
+  "area": "Harvard Inman"
+ },
+ {
+  "name": "Lolita Cocina & Tequila Bar (Back Bay)",
+  "type": "restaurant",
+  "address": "271 Dartmouth St, Boston, MA 02116",
+  "lat": 42.3507,
+  "lng": -71.0776,
+  "website": "https://www.lolitamexican.com/location/lolita-back-bay/",
+  "beer": {
+   "name": "Tecate (can) / any beer",
+   "price": 9,
+   "oz": null,
+   "source": "https://www.lolitamexican.com/lolita-back-bay-menu/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Bloody Maria",
+   "price": 14,
+   "source": "https://www.lolitamexican.com/lolita-back-bay-menu/",
+   "source_date": "unknown"
+  },
+  "notes": "Right on the 1.0 mi line (computed 1.00 mi from a Census-interpolated geocode), so it may be just inside or just outside. All beers $9; house margarita $16.",
+  "area": "Southend Copley"
+ },
+ {
+  "name": "Anchovies",
+  "type": "bar",
+  "address": "433 Columbus Ave, Boston, MA 02116",
+  "lat": 42.344,
+  "lng": -71.0778,
+  "website": null,
+  "beer": {
+   "name": "Narragansett tallboy",
+   "price": 3.5,
+   "oz": 16,
+   "source": "https://www.bostonglobe.com/lifestyle/food-dining/2019/04/02/always-want-eating-meatballs-anchovies/yhzzGBaJKU2KicD2kS4KpL/story.html",
+   "source_date": "2019-04"
+  },
+  "mixed": {
+   "name": "Mixed drink (per customer review)",
+   "price": 12,
+   "source": "https://p2bars.com/bars-near-me/anchovies/",
+   "source_date": "unknown"
+  },
+  "notes": "OLD and indirect sources: the $3.50 tallboy (and $5 Harpoon) is from a 2019 Boston Globe piece as summarized by search, so the current price is likely higher. The $12 mixed drink comes from a review quoted on an aggregator, with reviews dated 2023-24. Open as of Sept 2026 (Yelp). A classic cheap dive with famously big pours; a strong student pick, but the prices need checking. 1.32 mi.",
+  "area": "Southend Copley"
+ },
+ {
+  "name": "Wally's Cafe Jazz Club",
+  "type": "bar",
+  "address": "427 Massachusetts Ave, Boston, MA 02118",
+  "lat": 42.3415,
+  "lng": -71.0832,
+  "website": null,
+  "beer": null,
+  "mixed": {
+   "name": "Well drink (per reviews)",
+   "price": 9,
+   "source": "https://www.tripadvisor.com/Attraction_Review-g60745-d290589-Reviews-Wally_s_Cafe_Jazz_Club-Boston_Massachusetts.html",
+   "source_date": "unknown"
+  },
+  "notes": "No menu online. Reviews mention $5 beers (old) and a more recent $9 beer, plus $9 well drinks; review dates are unclear. Live jazz nightly, no cover, may have a drink minimum. 1.33 mi.",
+  "area": "Southend Copley"
+ },
+ {
+  "name": "Paradise Rock Club",
+  "type": "bar",
+  "address": "967-969 Commonwealth Ave, Boston, MA 02215",
+  "lat": 42.3517,
+  "lng": -71.1197,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Music venue with bars; usually needs a show ticket; 1.44 mi. Reviews give beer at about $7-8 but no itemized dated source, so the price is left null.",
+  "area": "Allston Buwest",
+  "venue_note": "Music venue: the bars usually need a show ticket."
+ },
+ {
+  "name": "Bisuteki Tokyo Japanese Steak House",
+  "type": "restaurant",
+  "address": "777 Memorial Dr, Cambridge, MA 02139",
+  "lat": 42.3586,
+  "lng": -71.1151,
+  "website": "https://www.opentable.com/bisuteki-tokyo-japanese-steak-house-marriott-hotel-cambridge",
+  "beer": null,
+  "mixed": null,
+  "notes": "Hibachi steakhouse in the Courtyard Marriott on Memorial Dr (Cambridge side, west of the BU Bridge); 1.10 mi. Listings say it serves beer, wine and cocktails; online menus omit drinks.",
+  "area": "Allston Buwest"
+ },
+ {
+  "name": "The Sevens Ale House",
+  "type": "bar",
+  "address": "77 Charles St, Boston, MA 02114",
+  "lat": 42.3583,
+  "lng": -71.0705,
+  "website": "https://www.facebook.com/SevensAle/",
+  "beer": null,
+  "mixed": null,
+  "notes": "1.17 mi. Classic Beacon Hill pub; no online drink prices found.",
+  "area": "Downtown"
+ },
+ {
+  "name": "Cheers Beacon Hill",
+  "type": "bar",
+  "address": "84 Beacon St, Boston, MA 02108",
+  "lat": 42.3558,
+  "lng": -71.0713,
+  "website": "https://www.cheersboston.com/",
+  "beer": null,
+  "mixed": null,
+  "notes": "1.16 mi. The official menu lists drafts and cocktails with no prices. A review mentions drafts at about $10. A souvenir mug costs $14 extra.",
+  "area": "Downtown"
+ },
+ {
+  "name": "Harvard Gardens",
+  "type": "restaurant",
+  "address": "316 Cambridge St, Boston, MA 02114",
+  "lat": 42.361,
+  "lng": -71.0688,
+  "website": "https://www.harvardgardens.com/",
+  "beer": null,
+  "mixed": null,
+  "notes": "1.27 mi. The official menu lists beers and cocktails without prices (wine is $13-15 a glass).",
+  "area": "Downtown"
+ },
+ {
+  "name": "Lamplighter Brewing Co. CX",
+  "type": "bar",
+  "address": "110 N First St, Cambridge, MA 02141",
+  "lat": 42.3715,
+  "lng": -71.0772,
+  "website": "https://lamplighterbrewing.com/pages/110-n-first-street-cx-taproom",
+  "beer": null,
+  "mixed": null,
+  "notes": "Brewery taproom. No draft prices are published online; the website's on-tap prices ($15.20+) are for 4-pack cans, not pours. Coordinates are approximate.",
+  "area": "East Cambridge Somerville"
+ },
+ {
+  "name": "Courtside Restaurant & Pub",
+  "type": "bar",
+  "address": "291 Cambridge St, Cambridge, MA 02141",
+  "lat": 42.3712,
+  "lng": -71.0809,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Sports pub and karaoke bar in East Cambridge, about 1.05 mi (near the 1.0 mi edge). Only old aggregator menus (allmenus, zmenu) exist, with no current drink prices.",
+  "area": "East Cambridge Somerville"
+ },
+ {
+  "name": "Juliet",
+  "type": "restaurant",
+  "address": "263 Washington St, Somerville, MA 02143",
+  "lat": 42.3797,
+  "lng": -71.0965,
+  "website": "https://www.julietsomerville.com/",
+  "beer": null,
+  "mixed": null,
+  "notes": "Confirmed open in 2026 (9am-9pm, closed Tue). The online menus list food only, and the Toast page is behind a bot check, so no drink prices were found.",
+  "area": "East Cambridge Somerville"
+ },
+ {
+  "name": "Yard House",
+  "type": "bar",
+  "address": "126 Brookline Ave, Boston, MA 02215",
+  "lat": 42.3453,
+  "lng": -71.1,
+  "website": "https://www.yardhouse.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Chain beer hall with 100+ taps; no current priced menu found online (Untappd lists beers without prices). Older reports of ~$6-8 pints are outdated.",
+  "area": "Fenway Longwood Brookline"
+ },
+ {
+  "name": "Eventide Fenway",
+  "type": "restaurant",
+  "address": "1321 Boylston St, Boston, MA 02215",
+  "lat": 42.3444,
+  "lng": -71.0986,
+  "website": "https://www.eventideoysterco.com/eventide-fenway",
+  "beer": null,
+  "mixed": null,
+  "notes": "Fast-casual oyster/lobster roll spot with drafts and cocktails; website lists drinks without prices and Toast ordering page was not accessible.",
+  "area": "Fenway Longwood Brookline"
+ },
+ {
+  "name": "Basho Japanese Brasserie",
+  "type": "restaurant",
+  "address": "1338 Boylston St, Boston, MA 02215",
+  "lat": 42.3443,
+  "lng": -71.0986,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Sushi/robata with full bar; no priced drink menu found (website blocked).",
+  "area": "Fenway Longwood Brookline"
+ },
+ {
+  "name": "Time Out Market Boston (bars)",
+  "type": "bar",
+  "address": "401 Park Dr, Boston, MA 02215",
+  "lat": 42.3458,
+  "lng": -71.1046,
+  "website": "https://www.timeout.com/time-out-market-boston",
+  "beer": null,
+  "mixed": null,
+  "notes": "Food hall with two bars (local drafts, cocktails); no prices published online.",
+  "area": "Fenway Longwood Brookline"
+ },
+ {
+  "name": "Trillium Fenway",
+  "type": "bar",
+  "address": "401 Park Dr, Boston, MA 02215",
+  "lat": 42.3458,
+  "lng": -71.1046,
+  "website": "https://www.trilliumbrewing.com/pages/fenway",
+  "beer": null,
+  "mixed": null,
+  "notes": "Brewery taproom/beer garden; draft prices only on Toast (blocked). Untappd lists to-go bottles from $6.05 (330ml) but that is retail, not an on-premise pour. Beer and wine only, so no mixed drinks expected.",
+  "area": "Fenway Longwood Brookline"
+ },
+ {
+  "name": "MIDA Fenway",
+  "type": "restaurant",
+  "address": "1391 Boylston St, Boston, MA 02215",
+  "lat": 42.3437,
+  "lng": -71.1013,
+  "website": "https://www.midaboston.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Italian restaurant with full bar; no priced drink menu found.",
+  "area": "Fenway Longwood Brookline"
+ },
+ {
+  "name": "nathálie",
+  "type": "bar",
+  "address": "186 Brookline Ave, Boston, MA 02215",
+  "lat": 42.3441,
+  "lng": -71.1018,
+  "website": "https://www.nathaliebar.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Natural wine bar; no priced menu online. Mainly wine; cocktail availability uncertain.",
+  "area": "Fenway Longwood Brookline"
+ },
+ {
+  "name": "Hong Kong Restaurant (The Kong)",
+  "type": "bar",
+  "address": "1238 Massachusetts Ave, Cambridge, MA 02138",
+  "lat": 42.3725,
+  "lng": -71.116,
+  "website": "https://www.hongkongharvard.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Open in 2026; upstairs bar Thu-Sat 8pm-2am. Famous student scorpion-bowl spot. The official drinks list (Scorpion Bowl, Mai Tai, Miller High Life 12oz, etc.) gives no prices.",
+  "area": "Harvard Inman"
+ },
+ {
+  "name": "Uptown Social",
+  "type": "restaurant",
+  "address": "604 Columbus Ave, Boston, MA 02118",
+  "lat": 42.3392,
+  "lng": -71.0834,
+  "website": "https://uptownsocialboston.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Opened April 2026 in the former Darryl's Corner Bar space. Cocktail bar; the menu page and Toast ordering page show no real drink prices. Open Thu-Sun. 1.47 mi.",
+  "area": "Southend Copley"
+ },
+ {
+  "name": "Champions (Boston Marriott Copley Place)",
+  "type": "bar",
+  "address": "110 Huntington Ave, Boston, MA 02116",
+  "lat": 42.3469,
+  "lng": -71.0795,
+  "website": "https://www.opentable.com/r/champions",
+  "beer": null,
+  "mixed": null,
+  "notes": "Hotel sports bar, 36 drafts in 16 and 23oz. A review mentions about $9 for a 12oz pour, which is too vague to use. 1.11 mi.",
+  "area": "Southend Copley"
+ },
+ {
+  "name": "Jacque's Cabaret",
+  "type": "bar",
+  "address": "79 Broadway, Boston, MA 02116",
+  "lat": 42.3498,
+  "lng": -71.0672,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "notes": "Bay Village drag cabaret, cash only, $7-10 cover. Reviews vary widely ($7 cocktails vs. complaints about pricey well vodka); there is no menu and review dates are unknown, so no price recorded. 1.49 mi.",
+  "area": "Southend Copley"
+ },
+ {
+  "name": "Douzo",
+  "type": "restaurant",
+  "address": "131 Dartmouth St, Boston, MA 02116",
+  "lat": 42.3467,
+  "lng": -71.0756,
+  "website": "https://www.douzosushi.com",
+  "beer": null,
+  "mixed": null,
+  "notes": "Sushi restaurant with a full bar, open per its official site. The drink menu sits behind a ChowNow link, so no prices were found. 1.25 mi.",
+  "area": "Southend Copley"
  }
 ]

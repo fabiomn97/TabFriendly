@@ -1,0 +1,14 @@
+{
+ "venueId": "v-tall-order",
+ "kind": "mixed",
+ "drink": "Little Panda (low-ABV: fino sherry, dry vermouth, Rhum J.M., lime)",
+ "price": 14.42,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://tallorderbar.com/drink-menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

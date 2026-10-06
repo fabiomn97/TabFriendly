@@ -1,0 +1,14 @@
+{
+ "venueId": "v-tall-order",
+ "kind": "beer",
+ "drink": "Miller Lite (Coors Banquet same price)",
+ "price": 5.15,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://tallorderbar.com/drink-menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

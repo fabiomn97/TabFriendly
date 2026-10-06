@@ -1,0 +1,14 @@
+{
+ "venueId": "v-waypoint",
+ "kind": "mixed",
+ "drink": "Gentian Forecast (Salers, Sazerac rye, absinthe)",
+ "price": 14.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.waypointharvard.com/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

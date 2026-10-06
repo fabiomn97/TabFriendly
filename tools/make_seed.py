@@ -2,7 +2,7 @@
 
 Output: data/seed/venues/<id>.json, data/seed/reports/<id>.json and data/seed/menus/<venue id>.json (from
 data/menus.json, if present), plus data/seed/batches.json —
-a list of ArtifactData batch-write lists (50 writes max each) that point at those files.
+a list of ArtifactData batch-write lists (50 writes max each) for the documents not in the live snapshot (data/live/).
 
 Run:  python tools/make_seed.py
 """
@@ -76,8 +76,18 @@ for m in json.load(open(MENUS, encoding="utf-8")) if os.path.exists(MENUS) else 
     menu_writes.append({"op": "set", "collection": "menus", "doc_id": m["venue_id"], "file_path": path})
 writes += menu_writes
 
+# Documents already in the latest live snapshot (data/live/) are never re-sent: a write would overwrite edits
+# made in the app, and the database refuses unpinned writes to existing documents anyway.
+live = set()
+for coll in ("venues", "reports", "menus"):
+    p = os.path.join(ROOT, "data", "live", coll + ".json")
+    if os.path.exists(p):
+        live.update(f"{coll}/{k}" for k in json.load(open(p, encoding="utf-8")))
+writes = [w for w in writes if f"{w['collection']}/{w['doc_id']}" not in live]
+menu_writes = [w for w in menu_writes if f"{w['collection']}/{w['doc_id']}" not in live]
+
 chunk = lambda ws: [ws[i:i + 50] for i in range(0, len(ws), 50)]
 batches = chunk(writes)
 json.dump(batches, open(os.path.join(OUT, "batches.json"), "w", encoding="utf-8"), indent=1)
 json.dump(chunk(menu_writes), open(os.path.join(OUT, "batches_menus.json"), "w", encoding="utf-8"), indent=1)
-print(f"{len(seen)} venues, {n_reports} price reports, {len(menu_writes)} menus, {len(batches)} batches")
+print(f"{len(seen)} venues, {n_reports} price reports; {len(writes)} documents not live yet, in {len(batches)} batches")

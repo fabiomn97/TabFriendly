@@ -1,0 +1,14 @@
+{
+ "venueId": "v-anchovies",
+ "kind": "beer",
+ "drink": "Narragansett tallboy",
+ "price": 3.5,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.bostonglobe.com/lifestyle/food-dining/2019/04/02/always-want-eating-meatballs-anchovies/yhzzGBaJKU2KicD2kS4KpL/story.html",
+ "sourceDate": "2019-04",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

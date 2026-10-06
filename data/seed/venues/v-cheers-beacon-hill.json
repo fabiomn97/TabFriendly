@@ -1,0 +1,12 @@
+{
+ "name": "Cheers Beacon Hill",
+ "type": "bar",
+ "address": "84 Beacon St, Boston, MA 02108",
+ "lat": 42.3558,
+ "lng": -71.0713,
+ "website": "https://www.cheersboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

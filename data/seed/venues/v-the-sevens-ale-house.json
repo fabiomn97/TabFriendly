@@ -1,0 +1,12 @@
+{
+ "name": "The Sevens Ale House",
+ "type": "bar",
+ "address": "77 Charles St, Boston, MA 02114",
+ "lat": 42.3583,
+ "lng": -71.0705,
+ "website": "https://www.facebook.com/SevensAle/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
