@@ -218,6 +218,10 @@ details.menu summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 .mi.hit { box-shadow: inset 3px 0 0 var(--best); padding-left: 10px; }
 .mi.low .mp { color: var(--best); }
 .menu-src { font-size: 12px; color: var(--muted); margin: 8px 0 0; overflow-wrap: anywhere; }
+.mi.can { grid-template-columns: 1fr auto auto; align-items: center; }
+.mi .mi-ed { min-height: 28px; padding: 2px 8px; font-size: 12px; }
+.mi.gone > span { opacity: .55; text-decoration: line-through; }
+.menu-ed { margin-top: 10px; }
 
 /* list */
 .list { list-style: none; margin: 0; padding: 0; }
@@ -426,7 +430,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     selected: null, picking: false, readOnlyAfterRefusal: false, histOpen: false,
     mode: ["beer", "mixed", "overall"].includes(store.get("tf-mode")) ? store.get("tf-mode") : "beer",
     maxPrice: null, best: new Set(),
-    menus: new Map(), menuItems: new Map(), typeIndex: [], typeVer: 0, menuOpen: false,
+    menus: new Map(), menuEdits: [], menuItems: new Map(), menuRemoved: new Map(), typeIndex: [], typeVer: 0, menuOpen: false,
     types: new Set(savedTypes()),  // drink types ticked in the Drinks filter
   };
   function savedTypes() {
@@ -490,17 +494,47 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     [/\bcoors light\b/, "Coors Light"], [/\bbud light\b/, "Bud Light"], [/\bmich(elob)? ultra\b/, "Michelob Ultra"],
     [/\b(narragansett|gansett)\b/, "Narragansett Lager"], [/\bboston lager\b/, "Sam Adams Boston Lager"], [/\bwell\b/, "Well drink"],
   ];
+  // Editors' changes live in menuEdits, one doc per change, so two editors never overwrite each other:
+  // an added drink ({target: null, item}), or a change to a researched drink ({target: its key, item | removed}).
+  const bareName = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const itemKey = (it) => bareName(it.name) + "|" + (typeof it.oz === "number" ? it.oz : "");
+  function editDocId(venueId, key) {
+    let h = 5381;
+    for (const c of key) h = ((h * 33) ^ c.charCodeAt(0)) >>> 0;
+    return `o-${venueId}-${h.toString(36)}`;
+  }
+  function cleanItem(it) {
+    return it && it.name && KIND_LABEL[it.kind] && typeof it.price === "number" && it.price > 0
+      ? { name: String(it.name), type: String(it.type || it.name), kind: it.kind, serve: it.serve || null, oz: typeof it.oz === "number" ? it.oz : null, price: it.price }
+      : null;
+  }
+  const toDrink = (it) => ({ kind: it.kind, drink: it.name, type: it.type, serve: it.serve, oz: it.oz, price: it.price });
   function indexMenus() {
     S.menuItems = new Map();
-    for (const [vid, m] of S.menus) {
+    S.menuRemoved = new Map();
+    const edits = new Map();
+    for (const e of S.menuEdits) if (e.venueId) (edits.get(e.venueId) || edits.set(e.venueId, []).get(e.venueId)).push(e);
+    for (const vid of new Set([...S.menus.keys(), ...edits.keys()])) {
+      const m = S.menus.get(vid) || {};
       const src = (Array.isArray(m.sources) ? m.sources : [])[0] || null;
-      S.menuItems.set(vid, (Array.isArray(m.items) ? m.items : [])
-        .filter((it) => it && it.name && KIND_LABEL[it.kind] && typeof it.price === "number" && it.price > 0)
-        .map((it, i) => ({
-          id: `menu:${vid}:${i}`, venueId: vid, kind: it.kind, drink: String(it.name), type: String(it.type || it.name),
-          serve: it.serve || null, oz: typeof it.oz === "number" ? it.oz : null, price: it.price,
-          source: "menu", sourceUrl: src, sourceDate: m.sourceDate || null,
-        })));
+      const es = edits.get(vid) || [];
+      const byTarget = new Map(es.filter((e) => e.target).map((e) => [e.target, e]));
+      const items = [], removed = [];
+      (Array.isArray(m.items) ? m.items : []).forEach((raw, i) => {
+        const it = cleanItem(raw);
+        if (!it) return;
+        const key = itemKey(it), e = byTarget.get(key);
+        const base = { id: `menu:${vid}:${i}`, venueId: vid, key, source: "menu", sourceUrl: src, sourceDate: m.sourceDate || null };
+        if (e && e.removed) { removed.push({ ...base, ...toDrink(it), editId: e.id }); return; }
+        const ed = e && cleanItem(e.item);
+        items.push(ed ? { ...base, ...toDrink(ed), source: "editor", edited: true, editId: e.id, at: e.at } : { ...base, ...toDrink(it) });
+      });
+      for (const e of es) {
+        const it = !e.target && !e.removed && cleanItem(e.item);
+        if (it) items.push({ id: `edit:${e.id}`, venueId: vid, ...toDrink(it), source: "editor", editId: e.id, at: e.at });
+      }
+      if (items.length) S.menuItems.set(vid, items);
+      if (removed.length) S.menuRemoved.set(vid, removed);
     }
     // longest type names first, so "Coors Light" wins over "Coors" when reading a report's free-text name
     S.typeIndex = [...new Set([...S.menuItems.values()].flat().map((it) => it.type))]
@@ -535,15 +569,14 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function matches(venueId) {
     return drinksAt(venueId).filter(isPicked).sort((a, b) => a.price - b.price);
   }
-  // Cheapest beer or mixed drink: a user's report is the latest word; otherwise the cheaper of the
-  // researched price and anything cheaper on the venue's menu.
+  // Cheapest beer or mixed drink: a user's report is the latest word. Otherwise the venue's menu (researched,
+  // plus editors' changes) is the fuller, newer record for any kind it lists; the researched cheapest
+  // price fills in where it lists none.
   function best(venueId, kind) {
     const r = current(venueId, kind);
     if (r && r.source === "user") return r;
     const m = (S.menuItems.get(venueId) || []).reduce((a, it) => (it.kind === kind && (!a || it.price < a.price) ? it : a), null);
-    if (!r) return m;
-    if (!m) return r;
-    return m.price < r.price ? m : r;
+    return m || r;
   }
   // The price the map and list compare on: the cheapest ticked drink, or else the mode's cheapest.
   function pick(venueId, mode = S.mode) {
@@ -848,6 +881,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         h += `<div class="vote"><span>${mineReport ? "Your report:" : "Is this price right?"}</span>`
           + `<button class="btn${t.mine === 1 ? " on-up" : ""}" type="button" data-vote="${esc(r.id)}" data-val="1" aria-pressed="${t.mine === 1}" ${canVote ? "" : "disabled"} aria-label="Yes, this price is right">${icon("i-up")} ${t.up}</button>`
           + `<button class="btn${t.mine === -1 ? " on-down" : ""}" type="button" data-vote="${esc(r.id)}" data-val="-1" aria-pressed="${t.mine === -1}" ${canVote ? "" : "disabled"} aria-label="No, this price is wrong">${icon("i-up", 'style="transform:rotate(180deg)"')} ${t.down}</button></div>`;
+      } else if (r.source === "editor") {
+        h += `<div class="drink-src"><span class="user">${r.edited ? "Updated" : "Added"} by an editor</span><span>${esc(fmtDay(r.at))}</span></div>`;
       } else {
         const u = safeUrl(r.sourceUrl);
         h += `<div class="drink-src"><span>Source: ${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>` : "published menu"}</span><span>${esc(checked(r.sourceDate))}</span></div>`;
@@ -855,17 +890,19 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     }
     const acts = [];
     if (canPost()) acts.push(`<button class="btn small ${r ? "" : "tag"}" type="button" data-report="${kind}">${r ? "Update price" : "Add price"}</button>`);
-    if (S.canMod && r && r.source !== "menu") acts.push(`<button class="btn small danger" type="button" data-del-report="${esc(r.id)}">Delete price</button>`);
+    if (S.canMod && r && S.reports.includes(r)) acts.push(`<button class="btn small danger" type="button" data-del-report="${esc(r.id)}">Delete price</button>`);
     if (acts.length) h += `<div class="drink-actions">${acts.join("")}</div>`;
     return h + `</div>`;
   }
 
   function menuRow(d, low) {
     const t = d.type || "";  // only menu items name their type outright; for reports the name already says it
-    const bare = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
     const tags = [SERVE_LABEL[serveOf(d)], d.oz ? d.oz + " oz" : "", d.kind === "beer" ? perOz(d) : "",
-      t && !bare(d.drink).includes(bare(t)) ? t : "", d.source === "user" ? "user-reported" : ""].filter(Boolean);
-    return `<div class="mi${isPicked(d) ? " hit" : ""}${low ? " low" : ""}"><span>${esc(d.drink)}</span><span class="mp">${esc(money(d.price))}</span>`
+      t && !bareName(d.drink).includes(bareName(t)) ? t : "", d.source === "user" ? "user-reported" : "",
+      d.source === "editor" ? (d.edited ? "updated" : "added") + " by an editor" : ""].filter(Boolean);
+    const canEdit = S.canMod && (d.key || d.editId);
+    return `<div class="mi${canEdit ? " can" : ""}${isPicked(d) ? " hit" : ""}${low ? " low" : ""}"><span>${esc(d.drink)}</span><span class="mp">${esc(money(d.price))}</span>`
+      + (canEdit ? `<button class="btn small ghost mi-ed" type="button" data-medit="${esc(d.id)}" aria-label="Edit ${esc(d.drink)}">Edit</button>` : "")
       + (tags.length ? `<span class="mt">${esc(tags.join(" · "))}</span>` : "") + `</div>`;
   }
   // The ticked drinks this venue has, cheapest first.
@@ -876,15 +913,24 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   }
   function menuBlock(v) {
     const items = S.menuItems.get(v.id) || [];
-    if (!items.length) return "";
-    const m = S.menus.get(v.id) || {};
+    const removed = S.canMod ? S.menuRemoved.get(v.id) || [] : [];
+    if (!items.length && !S.canMod) return "";
     let h = `<details class="hist menu" id="menuDet"${S.menuOpen ? " open" : ""}><summary>Full drink menu (${items.length})</summary>`;
+    if (!items.length) h += `<p class="photo-empty">No drink menu yet.</p>`;
     for (const kind of Object.keys(KIND_LABEL)) {
       const ks = items.filter((it) => it.kind === kind).sort((a, b) => a.price - b.price || a.drink.localeCompare(b.drink));
       if (ks.length) h += `<h4>${KIND_LABEL[kind]}</h4>` + ks.map((it, i) => menuRow(it, i === 0)).join("");
     }
-    const srcs = (Array.isArray(m.sources) ? m.sources : []).map(safeUrl).filter(Boolean);
-    h += `<p class="menu-src">${srcs.length ? "From " + srcs.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>`).join(", ") : "From published menus"}, ${esc(checked(m.sourceDate))}. Regular prices; happy hours aren't included. Cheapest of each kind in green.</p>`;
+    if (S.canMod) h += `<div class="menu-ed"><button class="btn small" type="button" data-madd="1">+ Add a drink</button></div>`;
+    if (removed.length) {
+      h += `<h4>Removed by editors</h4>` + removed.map((it) => `<div class="mi can gone"><span>${esc(it.drink)}</span><span class="mp">${esc(money(it.price))}</span>`
+        + `<button class="btn small ghost mi-ed" type="button" data-mrestore="${esc(it.editId)}" aria-label="Restore ${esc(it.drink)}">Restore</button></div>`).join("");
+    }
+    const m = S.menus.get(v.id);
+    if (m) {
+      const srcs = (Array.isArray(m.sources) ? m.sources : []).map(safeUrl).filter(Boolean);
+      h += `<p class="menu-src">${srcs.length ? "From " + srcs.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>`).join(", ") : "From published menus"}, ${esc(checked(m.sourceDate))}. Regular prices; happy hours aren't included. Cheapest of each kind in green.</p>`;
+    }
     return h + `</details>`;
   }
 
@@ -934,6 +980,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     $("backBtn").addEventListener("click", () => select(null));
     $("hist")?.addEventListener("toggle", (e) => (S.histOpen = e.target.open));
     $("menuDet")?.addEventListener("toggle", (e) => (S.menuOpen = e.target.open));
+    body.querySelectorAll("[data-medit]").forEach((b) => b.addEventListener("click", () => openMenuItemForm(v.id, (S.menuItems.get(v.id) || []).find((x) => x.id === b.dataset.medit))));
+    body.querySelectorAll("[data-madd]").forEach((b) => b.addEventListener("click", () => openMenuItemForm(v.id, null)));
+    body.querySelectorAll("[data-mrestore]").forEach((b) => b.addEventListener("click", () => restoreMenuItem(b.dataset.mrestore)));
     $("addPhotoBtn")?.addEventListener("click", () => { $("photoPick").value = ""; $("photoPick").click(); });
     $("delVenueBtn")?.addEventListener("click", (e) => armConfirm(e.currentTarget, () => deleteVenue(v)));
     body.querySelectorAll("[data-del-report]").forEach((b) => b.addEventListener("click", () => {
@@ -1182,6 +1231,75 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     setTimeout(() => $("fDrink")?.focus(), 30);
   }
 
+  // Editors add, change or remove drinks on a venue's full menu.
+  function writeMenuEdit(venueId, it, change) {
+    const doc = { venueId, by: S.me, at: new Date().toISOString(), ...change };
+    if (it && it.key) return S.db.doc("menuEdits/" + editDocId(venueId, it.key)).set({ ...doc, target: it.key });  // a researched drink
+    if (it && change.removed) return S.db.doc("menuEdits/" + it.editId).delete();  // a drink an editor added
+    return (it ? S.db.doc("menuEdits/" + it.editId) : S.db.collection("menuEdits").doc()).set({ ...doc, target: null });
+  }
+  async function restoreMenuItem(editId) {
+    try { await S.db.doc("menuEdits/" + editId).delete(); toast("Drink restored."); } catch (e) { toast(writeError(e)); }
+  }
+  function openMenuItemForm(venueId, it) {
+    const v = S.venues.get(venueId);
+    if (!v || !S.canMod) return;
+    const types = [...new Set([...S.menuItems.values()].flat().map((x) => x.type))].sort((a, b) => a.localeCompare(b));
+    const opt = (val, label, cur) => `<option value="${val}"${cur === val ? " selected" : ""}>${label}</option>`;
+    form.innerHTML = `
+      <h2>${it ? "Edit drink" : "Add a drink"}</h2>
+      <p class="sub">${esc(v.name)} · full drink menu. Use the regular price, not happy hour.</p>
+      <div class="field"><label for="mName">Drink name</label><input id="mName" maxlength="80" autocomplete="off" placeholder="e.g. Coors Light or Spicy Paloma" required></div>
+      <div class="field"><label for="mType">Drink type <em>what the Drinks filter lists; leave blank to use the name</em></label><input id="mType" maxlength="60" autocomplete="off" list="mTypes" placeholder="e.g. Coors Light, Margarita, Red wine"><datalist id="mTypes">${types.map((t) => `<option value="${esc(t)}">`).join("")}</datalist></div>
+      <div class="two">
+        <div class="field"><label for="mKind">Kind</label><select id="mKind">${opt("beer", "Beer", it?.kind)}${opt("mixed", "Mixed drink", it?.kind)}${opt("wine", "Wine", it?.kind)}${opt("other", "Cider, seltzer, can or shot", it?.kind)}</select></div>
+        <div class="field"><label for="mServe">Served as <em>optional</em></label><select id="mServe">${opt("", "Not sure", it?.serve || "")}${["draft", "bottle", "can", "well", "cocktail", "glass"].map((x) => opt(x, SERVE_LABEL[x], it?.serve)).join("")}</select></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="mPrice">Price ($)</label><input id="mPrice" inputmode="decimal" placeholder="6.00" required></div>
+        <div class="field"><label for="mOz">Pour size (oz) <em>optional</em></label><input id="mOz" inputmode="decimal" placeholder="16"></div>
+      </div>
+      <p class="form-err" id="mErr" hidden></p>
+      <div class="form-actions">${it ? `<button class="btn danger" type="button" id="mRemove">Remove</button><span style="flex:1"></span>` : ""}<button class="btn" type="button" id="mCancel">Cancel</button><button class="btn tag" type="submit" id="mSubmit">${it ? "Save" : "Add drink"}</button></div>`;
+    if (it) {
+      $("mName").value = it.drink; $("mType").value = it.type || "";
+      $("mPrice").value = Number.isInteger(it.price) ? String(it.price) : it.price.toFixed(2);
+      if (it.oz) $("mOz").value = String(it.oz);
+    }
+    const err = (m) => { $("mErr").textContent = m; $("mErr").hidden = false; };
+    $("mCancel").onclick = closeForm;
+    $("mRemove")?.addEventListener("click", (e) => armConfirm(e.currentTarget, async () => {
+      try { await writeMenuEdit(venueId, it, { item: null, removed: true }); closeForm(); toast("Drink removed. Editors can restore it from the menu."); }
+      catch (ex) { err(writeError(ex)); }
+    }));
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      const name = $("mName").value.trim().replace(/\s+/g, " ");
+      let type = $("mType").value.trim().replace(/\s+/g, " ") || name;
+      type = types.find((t) => t.toLowerCase() === type.toLowerCase()) || type;  // reuse an existing spelling
+      const price = Number($("mPrice").value.replace(/[$,\s]/g, ""));
+      const ozRaw = $("mOz").value.trim();
+      const oz = ozRaw ? Number(ozRaw.replace(/oz/i, "").trim()) : null;
+      if (!name) return err("Enter the drink's name.");
+      if (!(price > 0 && price <= 100)) return err("Enter a price between $0.01 and $100.");
+      if (ozRaw && !(oz >= 1 && oz <= 64)) return err("Pour size should be between 1 and 64 oz, or leave it blank.");
+      if (!S.db) return err("Can't reach the shared database from this view.");
+      const item = { name, type, kind: $("mKind").value, serve: $("mServe").value || null, oz: oz || null, price: Math.round(price * 100) / 100 };
+      $("mSubmit").disabled = true;
+      try {
+        await writeMenuEdit(venueId, it, { item, removed: false });
+        closeForm();
+        toast(it ? "Drink updated." : "Drink added.");
+        select(venueId);
+      } catch (ex) {
+        err(writeError(ex));
+        $("mSubmit").disabled = false;
+      }
+    };
+    overlay.hidden = false;
+    setTimeout(() => $("mName").focus(), 30);
+  }
+
   // add venue: pick a point, then fill details
   let draft = null;
   function clearDraft() { if (draft) { draft.remove(); draft = null; } }
@@ -1268,6 +1386,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     }, onErr);
     db.collection("menus").limit(1000).onSnapshot((snap) => {
       S.menus = new Map(snap.docs.map((d) => { const m = d.data() || {}; return [m.venueId || d.id, m]; }));
+      indexMenus(); render();
+      if (!dPanel.hidden) renderDrinkList();
+    }, onErr);
+    db.collection("menuEdits").limit(1000).onSnapshot((snap) => {
+      S.menuEdits = snap.docs.map((d) => ({ ...d.data(), id: d.id }));
       indexMenus(); render();
       if (!dPanel.hidden) renderDrinkList();
     }, onErr);
