@@ -1,0 +1,283 @@
+{
+ "venueId": "v-prairie-fire",
+ "items": [
+  {
+   "name": "Shacksbury Classic (Dry Cider) 12oz",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Allagash Copain 12oz",
+   "type": "Allagash Copain",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "von Trapp Bohemian Pilsner 16oz",
+   "type": "von Trapp Bohemian Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Schilling Beer Co. Especial 16oz",
+   "type": "Schilling Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Weihenstephan Hefeweissbier 16oz",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "von Trapp Oktoberfest 16oz",
+   "type": "Von Trapp Oktoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Guinness 16oz",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Vermont Beer Makers Scarlet 16oz",
+   "type": "Vermont Beer Makers Scarlet",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Hill Farmstead Edward 16oz",
+   "type": "Hill Farmstead Edward",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Maine Beer Company Wolfe's Neck 16oz",
+   "type": "Maine Beer Co. Wolfe's Neck",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Little Willow Deep Dive 16oz",
+   "type": "Little Willow Deep Dive",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Fox Farm Double Burst 12oz",
+   "type": "Fox Farm Double Burst",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 12.0
+  },
+  {
+   "name": "NV Sommariva Prosecco Superiore",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "NV Poema Brut Rose Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "2025 Raphael Midoir Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2023 Dr. H. Thanisch Kabinett Riesling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "2024 Vigne Guadagno Falanghina",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2023 Domaine Thevenet & Fils Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2023 Salvatore Marino Catarratto",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2025 Chateau de Roquefort \"Corail\" Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2024 Anne Amie Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2022 Centovigne Nebbiolo",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2024 Umani Ronchi Montepulciano",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2024 Domaine de Pallus Chinon Cabernet Franc",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2021 Cardedu Cannonau",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "2022 Tenuta Bocca Di Lupo Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Bacchanalia",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Hechicera",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Disappearing Act",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "I'm So Chai",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Aplomb-Ba-Bomb",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Pep in Your Step",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Jack Rose",
+   "type": "Jack Rose",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Hunter's Moon Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  }
+ ],
+ "sources": [
+  "https://prairiefirebrookline.com/menus"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

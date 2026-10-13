@@ -1,0 +1,99 @@
+{
+ "venueId": "v-j-j-foley-s-cafe",
+ "items": [
+  {
+   "name": "JJ Foleys Red Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Cranberry Spicy Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Ruby Red Cosmo",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Blueberry Lemonade",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Bahama Mama",
+   "type": "Bahama Mama",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "St Germain Cocktail",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Skinny Rita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Aperol Spritz",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Tea Time",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Orange Crush",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://www.jjfoleyscafe.com/menu#menu=drink-menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

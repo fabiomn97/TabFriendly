@@ -1,0 +1,187 @@
+{
+ "venueId": "v-toscano-harvard-square",
+ "items": [
+  {
+   "name": "Pinot Grigio, Cavazza Estate (quartino)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Falanghina, Feudi di San Gregorio (quartino)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Grillo Sicilia, Tenuta Regaleali (quartino)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Chardonnay, Tormaresca Stainless Steel (quartino)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Chardonnay, Bramito Castello Sala Antinori Oak (quartino)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Vermentino La Pettegola, Banfi (quartino)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Sauvignon Blanc, Alturis Venezia Giulia (quartino)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Rose, La Spinetta Casanova (quartino)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Lambrusco di Sorbara DOC (187mL)",
+   "type": "Lambrusco",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rose Jules, Rosato Prosecco (187mL)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Chianti Colli Senesi, Falchini (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Montepulciano d'Abruzzo, Spinelli (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Nero d'Avola, Saverio Faro (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Sangiovese, La Spinetta Nero di Casanova (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Pinot Nero, Alturis Friuli (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Pinot Noir, Sadler's Well Santa Barbara County (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Nebbiolo Langhe, Il Principe Michele Chiarlo (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Cabernet, Il Buon Bastardo, Cantina Gaffino (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Yantra, Tenuta Sette Cieli Super Tuscan (quartino)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Prosecco Bollicini (187ml)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Moscato d'Asti, Sori Gramella (187ml)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Rosa Regale Banfi Brachetto d'Acqui (187ml)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  }
+ ],
+ "sources": [
+  "https://www.toscanoboston.com/menu/wine-list/toscano-wine-list-harvardsquare.pdf"
+ ],
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

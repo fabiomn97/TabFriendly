@@ -1,0 +1,547 @@
+{
+ "venueId": "v-the-maharaja",
+ "items": [
+  {
+   "name": "Sangria White (Glass, 6oz)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Sangria White (Maharaja Pour, 9oz)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Sangria Red (Glass, 6oz)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "Sangria Red (Maharaja Pour, 9oz)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 13.0
+  },
+  {
+   "name": "Borgo Pinot Grigio (Glass, 6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Borgo Pinot Grigio (Maharaja Pour, 9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Angeline \"Reserve\" Sauvignon Blanc (Glass, 6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Angeline \"Reserve\" Sauvignon Blanc (Maharaja Pour, 9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Martin Ray \"Sonoma\" Chardonnay (Glass, 6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Martin Ray \"Sonoma\" Chardonnay (Maharaja Pour, 9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "A to Z Riesling (Glass, 6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "A to Z Riesling (Maharaja Pour, 9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Jean Luc Columbo Rose (Glass, 6oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Jean Luc Columbo Rose (Maharaja Pour, 9oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Educated Guess Cabernet Sauvignon (Glass, 6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Educated Guess Cabernet Sauvignon (Maharaja Pour, 9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "J. Lohr \"Hilltop\" Cabernet Sauvignon (Glass, 6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 17.0
+  },
+  {
+   "name": "J. Lohr \"Hilltop\" Cabernet Sauvignon (Maharaja Pour, 9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "McManis Pinot Noir (Glass, 6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "McManis Pinot Noir (Maharaja Pour, 9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Aruma Malbec (Glass, 6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Aruma Malbec (Maharaja Pour, 9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Zuccardi Q Malbec (Glass, 6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Zuccardi Q Malbec (Maharaja Pour, 9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Jim Jim Shiraz (Glass, 6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Jim Jim Shiraz (Maharaja Pour, 9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Goose Ridge Merlot (Glass, 6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Goose Ridge Merlot (Maharaja Pour, 9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Seven Hills Merlot (Glass, 6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Seven Hills Merlot (Maharaja Pour, 9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Prosecco (Glass)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Classic Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Mango Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mirchitini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mumbaitini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Lychee Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pomegranate Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Passion Fruit Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Chocolate Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Classic Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Bell Pepper Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Cachumber Cooler",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Kentucky Mule",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Horse's Neck",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Mango Rum Lassi",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mangolada",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rum and Coke (Old Monk)",
+   "type": "Rum & Coke",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Bloody Mary",
+   "type": "Bloody Mary",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pinacolada",
+   "type": "Pina Colada",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Long Island Iced Tea",
+   "type": "Long Island Iced Tea",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Mimosa",
+   "type": "Mimosa",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Classic Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mango Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pomegranate Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Tamarind Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Classic Cosmo",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Lemon Drop Cosmo",
+   "type": "Lemon Drop",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Fuzzy Cosmo",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Rupee Beer Indian Craft Beer (16 oz)",
+   "type": "Rupee",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Kingfisher Indian Lager (12 oz)",
+   "type": "Kingfisher",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Taj Mahal Indian lager (22oz)",
+   "type": "Taj Mahal",
+   "kind": "beer",
+   "serve": null,
+   "oz": 22,
+   "price": 13.0
+  },
+  {
+   "name": "Taj Mahal Indian lager (12oz)",
+   "type": "Taj Mahal",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Flying Horse Indian lager (22oz)",
+   "type": "Flying Horse",
+   "kind": "beer",
+   "serve": null,
+   "oz": 22,
+   "price": 13.0
+  },
+  {
+   "name": "Corona (12oz)",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Heineken (12oz)",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Sam Adams (12oz)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Blue Moon Belgian White (12oz)",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  }
+ ],
+ "sources": [
+  "https://maharajaboston.com/wp-content/uploads/2026/05/Maharaja-Drinks-Menu-2026.pdf"
+ ],
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

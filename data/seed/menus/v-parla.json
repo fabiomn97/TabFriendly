@@ -1,0 +1,308 @@
+{
+ "venueId": "v-parla",
+ "items": [
+  {
+   "name": "Stormalong \"Legendary Dry\" Cider",
+   "type": "Stormalong Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Brooklyn \"Bel Air\" Sour",
+   "type": "Brooklyn Bel Air Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Exhibit 'A' \"Goody 2 Shoes\" Kölsch Lager",
+   "type": "Exhibit A Goody 2 Shoes",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Six Point \"The Crisp\" Pilsner",
+   "type": "Sixpoint The Crisp",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Maine \"Peeper\" Pale Ale",
+   "type": "Maine Beer Co Peeper",
+   "kind": "beer",
+   "serve": null,
+   "oz": 17,
+   "price": 16.0
+  },
+  {
+   "name": "Lord Hobo \"Freebird\" Golden Ale",
+   "type": "Lord Hobo Freebird",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Entitled \"Wit & Wisdom\" Wheat",
+   "type": "Entitled Wit & Wisdom",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Two Roads \"Road 2 Ruin\" DIPA",
+   "type": "Two Roads Road 2 Ruin",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Maine \"Lunch\" IPA",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": 17,
+   "price": 17.0
+  },
+  {
+   "name": "Jack's Abby \"Smoke & Dagger\" Black Lager",
+   "type": "Jack's Abby Smoke & Dagger",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Pause Button (Miller High Life bottle)",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 5.0
+  },
+  {
+   "name": "Mercat Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Prendo Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "S. Febvre Sauvi B",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Hahn Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "20K Leguas Blend (Orange)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Roquesante Provence Blend Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Whiplash Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Passaia Super Tuscan",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "St. Cosme G/S/M Blend",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Tapiz Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Requiem Cab Sauv",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Monte Zovo Valpolicella",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Parla Mule (Shrub Cocktail)",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Parla Marg (Shrub Cocktail)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Respect Yr Elders (Shrub Cocktail)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Shrub & Bubbles (Shrub Cocktail)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sherry Cobbler (Shrub Cocktail)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "En Vogue",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Forest For The Trees",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Regal Fields",
+   "type": "French 75",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cojones de Abeja",
+   "type": "Bees Knees",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pretty In Pink",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Parlatini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Okay, Friendo",
+   "type": "Old Pal",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Sippin' On Sizzurp",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "\"Voted Boston's Best\" (Espresso Martini)",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  }
+ ],
+ "sources": [
+  "https://www.parlaboston.com/beerwine",
+  "https://www.parlaboston.com/cocktails"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

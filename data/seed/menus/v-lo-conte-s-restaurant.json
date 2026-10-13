@@ -1,0 +1,284 @@
+{
+ "venueId": "v-lo-conte-s-restaurant",
+ "items": [
+  {
+   "name": "House Wine - Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "House Wine - Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "House Wine - Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "House Wine - Chianti",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Rye Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Peach Bellini",
+   "type": "Bellini",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Manhattan",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Aperol Spritz",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Sangria (glass)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Limoncello Shot",
+   "type": "Limoncello",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Sambuca",
+   "type": "Sambuca",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Prosecco Brut Il Fresco DOC, Valdo (9oz)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Moscato D'Asti, Ricossa (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Moscato D'Asti, Ricossa (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Rose, Pasqua \"11 Minutes\" Trevenezie (6oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Rose, Pasqua \"11 Minutes\" Trevenezie (9oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Pinot Grigio, Angelini (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Pinot Grigio, Angelini (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Sauvignon Blanc, Peter Yealands (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Sauvignon Blanc, Peter Yealands (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Chardonnay, Josh Cellars (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Chardonnay, Josh Cellars (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Chardonnay, Mer Soleil Reserve (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Chardonnay, Mer Soleil Reserve (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 16.0
+  },
+  {
+   "name": "Sangiovese, Sassoregale (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Sangiovese, Sassoregale (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Chianti, Frescobaldi Castiglioni (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Chianti, Frescobaldi Castiglioni (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 15.0
+  },
+  {
+   "name": "Pinot Noir, Highlands 41 (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Pinot Noir, Highlands 41 (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 14.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Franciscan Estate (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Franciscan Estate (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 16.0
+  }
+ ],
+ "sources": [
+  "https://locontes.com/menus/wine-list/",
+  "https://locontes.com/wp-content/uploads/2025/10/LoContes-wine-and-beer.pdf"
+ ],
+ "sourceDate": "2025-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -5,6 +5,7 @@ Drink types are what the app's Drinks filter lists, so spellings are unified her
 cocktails map to one canonical name, and any other type takes its most common spelling across venues.
 
 Usage: python tools/merge_menus.py <menus_1.json> [<menus_2.json> ...]
+(pass data/menus.json first to keep the menus already merged)
 """
 import collections, json, os, re, sys, unicodedata
 
@@ -51,6 +52,7 @@ STALE = {
     "v-pho-basil": "undated SinglePlatform listing with very old prices",
     "v-india-quality-restaurant": "undated menu with stale-looking prices",
     "v-flat-top-johnny-s": "2011-2013 drink page; the address is now Alice & Monarch, so the bar looks closed",
+    "v-wild-rover": "only price is an undated Instagram post ($2 Labatt drafts), likely a promotion",
 }
 # The Paramount (Beacon Hill) has a beer-and-wine license: its "cocktails" are made with wine-based stand-ins.
 WINE_COCKTAILS = {"v-the-paramount-beacon-hill"}

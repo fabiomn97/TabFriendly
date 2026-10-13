@@ -1,0 +1,83 @@
+{
+ "venueId": "v-club-passim",
+ "items": [
+  {
+   "name": "Gotham Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "J Lohr Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Pine Ridge Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Lunetta Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Bridge Lane Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Angeline Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Santa Julia Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Gotham Vezzi Barbera",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Gotham Rancho Rodeo Cabernet",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  }
+ ],
+ "sources": [
+  "https://www.passim.org/live-music/kitchen/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

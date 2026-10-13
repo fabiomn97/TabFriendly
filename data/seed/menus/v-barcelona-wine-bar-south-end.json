@@ -1,0 +1,659 @@
+{
+ "venueId": "v-barcelona-wine-bar-south-end",
+ "items": [
+  {
+   "name": "NV BarCava, Brut (6oz)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "NV Tierra Limpia, Brut Rosé (6oz)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "2025 Mila Albariño (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "2025 Menade Verdejo (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2025 Ostatu Viura, Malvasia (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.5
+  },
+  {
+   "name": "2024 Le Naturel Garnacha Blanca (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "2025 Pinord, Diorama Xarel-lo (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.5
+  },
+  {
+   "name": "2023 B.R.O.T., Blanc Inicial (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.5
+  },
+  {
+   "name": "2025 Orto Vins, Les Argiles Macabeo (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "2023 Alvear, 3 Miradas Pedro Ximénez (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2025 Bico Amarelo Vinho Verde (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "2025 Aylin Sauvignon Blanc (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2025 Bodega Cerro Chapeu Chardonnay (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "2025 1752 Gran Tradicion Petit Manseng Blend (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "2025 Iniceri, Abisso Catarratto (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2023 Liquid Geography Mencía (6oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "2025 Familia Schroeder, Saurus Pinot Noir (6oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "2025 Christophe Avi Cabernet Sauvignon (6oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2025 No Es Pituko Malvar, Airén (6oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 10.0
+  },
+  {
+   "name": "2020 Nucerro Reserva Rioja (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "2021 Marqués de Tomares Crianza Rioja (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "2022 Bardos Ribera del Duero (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "2025 Glup Glup Garnacha (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.0
+  },
+  {
+   "name": "2023 Azul y Garanza Tempranillo (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 9.5
+  },
+  {
+   "name": "2021 Alberto Orte, A Portela Mencía (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "2025 Sotabosc Garnacha, Cariñena (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2023 Coster dels Olivers Priorat (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "2025 Vins de Pedra, Negre de Folls (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "2023 La Vinyeta, Bongo Monastrell (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2021 Península, Vino de Montaña (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2020 Gota, Bergamota (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "2023 Caves São João, Baga Novo (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "2023 Quieto, Gran Corte (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "2022 Peñalolen Cabernet Sauvignon (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "2022 Polkura Syrah (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "2025 Casas del Bosque Pinot Noir (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.5
+  },
+  {
+   "name": "2022 Garage Wine Company, Revival País (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.5
+  },
+  {
+   "name": "2022 Alto de la Ballena Cabernet Franc Blend (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "2023 Dom. des Tourelles, Bekaa Rouge (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Jarana Fino (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 5.5
+  },
+  {
+   "name": "La Cigarrera Manzanilla (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 8.0
+  },
+  {
+   "name": "Los Arcos Amontillado (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 6.0
+  },
+  {
+   "name": "Carlos VII Amontillado (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 13.0
+  },
+  {
+   "name": "Península Palo Cortado (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 8.5
+  },
+  {
+   "name": "15 Años Oloroso (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 12.0
+  },
+  {
+   "name": "Asuncion Oloroso (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 14.0
+  },
+  {
+   "name": "East India Solera Oloroso Dulce (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 7.5
+  },
+  {
+   "name": "Nectar Pedro Ximénez (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 9.0
+  },
+  {
+   "name": "Solera 1927 Pedro Ximénez (3oz)",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 3,
+   "price": 16.0
+  },
+  {
+   "name": "Passenger Princess",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.5
+  },
+  {
+   "name": "Gin & Jus",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Dos Penínsulas",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Alebrijes",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Side Hustle",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.5
+  },
+  {
+   "name": "Bourbon Spice Rack",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Ipanema",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Mr. Rogers",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Gintonic - Catalan",
+   "type": "Gin & Tonic",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Gintonic - Valencian",
+   "type": "Gin & Tonic",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Gintonic - Galician",
+   "type": "Gin & Tonic",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "White or Red Sangria (glass)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Guns & Rosés (glass)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Estrella Galicia Lager (Caña)",
+   "type": "Estrella Galicia",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 4.25
+  },
+  {
+   "name": "Estrella Galicia Lager (Doble)",
+   "type": "Estrella Galicia",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Jack's Abby Post Shift Pilsner (Caña)",
+   "type": "Jack's Abby Post Shift",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 3.75
+  },
+  {
+   "name": "Jack's Abby Post Shift Pilsner (Doble)",
+   "type": "Jack's Abby Post Shift",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Exhibit 'A' Cat's Meow Hazy IPA (Caña)",
+   "type": "Exhibit A Cat's Meow",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 4.75
+  },
+  {
+   "name": "Exhibit 'A' Cat's Meow Hazy IPA (Doble)",
+   "type": "Exhibit A Cat's Meow",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Narragansett Light (16oz.)",
+   "type": "Narragansett Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Peroni Lager",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Estrella Damm Daura Gluten-Free Lager",
+   "type": "Estrella Damm Daura",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Von Trapp Bohemian Pilsner",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Hitachino Nest White",
+   "type": "Hitachino Nest White",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Founders All Day IPA",
+   "type": "Founders All Day IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Night Shift Whirlpool Hazy NE IPA",
+   "type": "Night Shift Whirlpool",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Jack's Abby Hoponius Union IPL",
+   "type": "Jack's Abby Hoponius Union",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  },
+  {
+   "name": "Lagunitas Maximus IPA",
+   "type": "Lagunitas Maximus",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Lord Hobo Boom Sauce",
+   "type": "Lord Hobo Boom Sauce",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Allagash Tripel",
+   "type": "Allagash Tripel",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Down East Cider Original",
+   "type": "Down East Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Isastegi Sagardo Natural Cider (750mL)",
+   "type": "Isastegi Cider",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 28.0
+  }
+ ],
+ "sources": [
+  "https://barcelonawinebar.com/media/10-9-26-Menu-South-End.pdf"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,579 @@
+{
+ "venueId": "v-coolidge-corner-clubhouse",
+ "items": [
+  {
+   "name": "The Cat's Meow",
+   "type": "Exhibit 'A' The Cat's Meow",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.25
+  },
+  {
+   "name": "Whirlpool",
+   "type": "Night Shift Whirlpool",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.25
+  },
+  {
+   "name": "Lunch",
+   "type": "Maine Beer Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 13.0
+  },
+  {
+   "name": "Little Sip",
+   "type": "Lawson's Little Sip",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.25
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.75
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Save the Robots",
+   "type": "Radiant Pig Save the Robots",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Green Wizard",
+   "type": "Widowmaker Green Wizard",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Zombie Dust",
+   "type": "3 Floyds Zombie Dust",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "The Substance",
+   "type": "Bissell Brothers The Substance",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 11.5
+  },
+  {
+   "name": "Tubular IPA",
+   "type": "Orono Tubular",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Northern Haze",
+   "type": "True North Northern Haze",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.75
+  },
+  {
+   "name": "Be Hoppy",
+   "type": "Wormtown Be Hoppy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.75
+  },
+  {
+   "name": "Cloud Candy IPA",
+   "type": "Mighty Squirrel Cloud Candy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.75
+  },
+  {
+   "name": "Maine Blueberry",
+   "type": "UFO Maine Blueberry",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.75
+  },
+  {
+   "name": "Lamp Pils",
+   "type": "Lamplighter Lamp Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.25
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "von Trapp Pilsner",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Alexandr",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Pennsylvania Lager",
+   "type": "Troegs Pennsylvania Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "House Lager",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Modelo Especial",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.75
+  },
+  {
+   "name": "Smuttynose Pumpkin Ale",
+   "type": "Smuttynose Pumpkin Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.25
+  },
+  {
+   "name": "Brooklyn Oktoberfest",
+   "type": "Brooklyn Oktoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.25
+  },
+  {
+   "name": "Samuel Adams Octoberfest",
+   "type": "Sam Adams Octoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Switchback Ale",
+   "type": "Switchback Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.25
+  },
+  {
+   "name": "Big Wave",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Guinness Draught",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.75
+  },
+  {
+   "name": "Downeast Original Blend",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.25
+  },
+  {
+   "name": "Downeast Unfiltered Craft Seasonal Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.25
+  },
+  {
+   "name": "Heady Topper",
+   "type": "Heady Topper",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 15.0
+  },
+  {
+   "name": "Suncrusier Ice Tea",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.25
+  },
+  {
+   "name": "Masshole Light Lager",
+   "type": "Masshole Light Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 5.0
+  },
+  {
+   "name": "Montucky Cold Snacks",
+   "type": "Montucky Cold Snacks",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 6.5
+  },
+  {
+   "name": "NÜTRL Vodka Seltzer",
+   "type": "NUTRL",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "High Noon Sun Sips Vodka & Soda",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Lollipop Forest Blackberry & Raspberry",
+   "type": "Deciduous Lollipop Forest",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Banner City Light Lager",
+   "type": "Jack's Abby Banner City Light Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 5.0
+  },
+  {
+   "name": "Voodoo Ranger Juice Force IPA",
+   "type": "Voodoo Ranger Juice Force",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 19.2,
+   "price": 11.0
+  },
+  {
+   "name": "Lagunitas IPA",
+   "type": "Lagunitas IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 19.2,
+   "price": 11.0
+  },
+  {
+   "name": "The Dirty Mayor",
+   "type": "Citizen Cider Dirty Mayor",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Amstel Light",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.75
+  },
+  {
+   "name": "Brooklyn Lager",
+   "type": "Brooklyn Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "90 Minute Imperial IPA",
+   "type": "Dogfish Head 90 Minute",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.75
+  },
+  {
+   "name": "Michelob ULTRA",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Weihenstephaner Hefeweissbier",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Old Brown Dog Ale",
+   "type": "Smuttynose Old Brown Dog",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Castello di Gabbiano Cavaliere d'Oro Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Fleur de Mer Rosé",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.5
+  },
+  {
+   "name": "Villa Marchesi Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Oyster Bay Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.75
+  },
+  {
+   "name": "Meiomi Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Woodbridge Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Woodbridge Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Woodbridge Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Decoy Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Marques de Caceres Crianza",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.75
+  },
+  {
+   "name": "Meiomi Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "Bar Dog Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Trapiche Malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Woodbridge Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Woodbridge Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  }
+ ],
+ "sources": [
+  "https://www.coolidgecornerclubhouse.com/#new-page-section"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

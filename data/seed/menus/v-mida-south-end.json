@@ -1,0 +1,315 @@
+{
+ "venueId": "v-mida-south-end",
+ "items": [
+  {
+   "name": "Lambrusco Blend NV, Cleto Chiarli \"Brut de Noir\"",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Lumassina 2021, Punta Crena \"Frizzante\"",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Cortese 2021, La Raia \"Gavi\"",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pecorini 2022, Gran Sasso",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Albana 2022, Cai Di Sopra \"Sardona\"",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Grechetto 2021, Sergio Mottura \"Poggio della Costa\"",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Teroldego Blend 2023, Foradori \"Lezer\"",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Frappato 2021, Valle dell' Acate \"Il Frappato\"",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Dolcetto 2022, Abbona \"Sori Dij But\"",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Negroamaro 2020, L'Archetipo \"Niuru Maru\"",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Piedirosso Blend 2020, Reale \"Cardamone\"",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Amalfi Coast",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Secret Garden",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Bitter Venetian",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Dante Piccante",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Apollonia Spritz",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sicilian Smash",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Chester In The Rye",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "MIDA Classic Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Aperol (Spritz)",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Aperol (Rocks)",
+   "type": "Aperol",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Campari (Spritz)",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Campari (Rocks)",
+   "type": "Campari",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Cappelletti (Spritz)",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Cappelletti (Rocks)",
+   "type": "Cappelletti",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Contratto (Spritz)",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Contratto (Rocks)",
+   "type": "Contratto",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Cocchi Americano (Spritz)",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Cocchi Americano (Rocks)",
+   "type": "Cocchi Americano",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Italicus Rosolio (Spritz)",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Italicus Rosolio (Rocks)",
+   "type": "Italicus",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Lillet Blanc (Spritz)",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Lillet Blanc (Rocks)",
+   "type": "Lillet",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Notch Brewing Sesh Pils",
+   "type": "Notch Session Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Peroni Nastro Azzurro",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Lamplighter Rabbit Rabbit",
+   "type": "Lamplighter Rabbit Rabbit",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 11.0
+  }
+ ],
+ "sources": [
+  "https://checkle.menu/mida_boston-1"
+ ],
+ "sourceDate": "2024-07",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

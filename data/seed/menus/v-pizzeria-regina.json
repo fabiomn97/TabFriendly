@@ -1,0 +1,348 @@
+{
+ "venueId": "v-pizzeria-regina",
+ "items": [
+  {
+   "name": "Bud Light (16oz draft)",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 6.5
+  },
+  {
+   "name": "Coors Light (16oz draft)",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 6.5
+  },
+  {
+   "name": "Harpoon IPA (16oz draft)",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Peroni (16oz draft)",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Blue Moon (16oz draft)",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Stella Artois (16oz draft)",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Sam Adams (16oz draft)",
+   "type": "Samuel Adams",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Sam Adams Seasonal (16oz draft)",
+   "type": "Samuel Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Featured Beer (16oz draft)",
+   "type": "Featured draft",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.75
+  },
+  {
+   "name": "Angry Orchard (12oz bottle)",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Corona (12oz bottle)",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 5.5
+  },
+  {
+   "name": "Heineken (12oz bottle)",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Not Your Father's Root Beer (12oz bottle)",
+   "type": "Not Your Father's Root Beer",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Pabst Blue Ribbon",
+   "type": "Pabst Blue Ribbon",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "High Noon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Truly",
+   "type": "Truly",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "White Claw",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Sun Cruisers",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Amaro Montenegro (cordial)",
+   "type": "Cordial",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Fernet Branca (cordial)",
+   "type": "Cordial",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Sambuca Romana (cordial)",
+   "type": "Cordial",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Fabrizia Limoncello (cordial)",
+   "type": "Cordial",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Amaretto DiSaronno (cordial)",
+   "type": "Cordial",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Prosecco, La Marca (split)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "Pinot Grigio, Ecco Domani",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Sauvignon Blanc, Nobilo",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "Chardonnay, William Hill",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Moscato, Castello Poggio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Prophecy Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Pinot Noir, Chateau Souverain",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Cabernet Sauvignon, Louis Martini",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.5
+  },
+  {
+   "name": "Cabernet Sauvignon, Bonanza",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Super Tuscan, Brancaia",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.5
+  },
+  {
+   "name": "Chianti, Bell'Agio",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Chianti, DaVinci",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.5
+  },
+  {
+   "name": "House Pinot Grigio, Copper Ridge",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "House Chardonnay, Copper Ridge",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "House Merlot, Copper Ridge",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "House Cabernet Sauvignon, Copper Ridge",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "House White Zinfandel, Copper Ridge",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "House Chianti, Antane",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.5
+  }
+ ],
+ "sources": [
+  "https://www.pizzeriaregina.com/assets/files/reg-NE-menu-426.pdf",
+  "https://www.pizzeriaregina.com/north_end.html"
+ ],
+ "sourceDate": "2026-04",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

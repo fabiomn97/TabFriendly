@@ -1,0 +1,267 @@
+{
+ "venueId": "v-source",
+ "items": [
+  {
+   "name": "Calm Your Teats",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Herb Your Enthusiasm",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "You Can Sip This Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Hot Stuff",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Blueberry Basil Gin Cup",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Don't Hue Forget About Me",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Smoke that Pineapple",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "SOURCE Espresso",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "SOURCE Bloody Mary (brunch)",
+   "type": "Bloody Mary",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "SOURCE Sangria (Glass)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Black & Blue Mimosa (brunch)",
+   "type": "Mimosa",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Kiwi Be Friends? Mimosa (brunch)",
+   "type": "Mimosa",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sunshine Mimosa (brunch)",
+   "type": "Mimosa",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Aeronaut Brewing Co., A Year with Dr. Nandu",
+   "type": "A Year with Dr. Nandu",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Foam Brewers, Dead Flowers",
+   "type": "Dead Flowers",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 12.5
+  },
+  {
+   "name": "Jack's Abby, Shipping Out of Boston",
+   "type": "Shipping Out of Boston",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Narragansett Brewing Co.",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Night Shift Brewing, Nite Lite",
+   "type": "Nite Lite",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Samuel Adams",
+   "type": "Samuel Adams",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Carlson Orchards, Honeycrisp",
+   "type": "Carlson Orchards Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Downeast Cider Co., Rotating Seasonal",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "NV Brut Prosecco, Zardetto",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "NV Brut Rose, Grandial",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "NV Lambrusco, Lini",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2023 Chardonnay, Jean-Marc Brocard",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2024 Pinot Grigio, Maso Canali",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "2024 Sauvignon Blanc, Villa Maria",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "2024 Parra Jimenez, Gulp Hablo (orange)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2024 Chateau de Berne 'Romance' (rose)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "2022 Cabernet Sauvignon, Ancient Peaks",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "2022 Chianti Colli Senesi, Il Palio",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "2022 Pinot Noir, Sean Minor",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  }
+ ],
+ "sources": [
+  "https://sourcerestaurants.com/cambridge-harvard-square-source-restaurants-drink-menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

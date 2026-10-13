@@ -1,4 +1,4 @@
-﻿"""Compact the Overpass dump into a small basemap.json for the TabFriendly map.
+"""Compact the Overpass dump into a small basemap.json for the TabFriendly map.
 
 Output coordinates are [lat, lng] rounded to 5 decimals (about 1 m), simplified with Douglas-Peucker.
 """
@@ -150,6 +150,133 @@ for el in osm["elements"]:
         for o in outer_rings:
             water.append([o] + inner_rings)
             inner_rings = []  # attach holes to the first outer only; fine for the river islands here
+
+
+# Boston Harbor and its channels (Fort Point, Reserved, Chelsea Creek, the Mystic mouth) are sea, which OSM
+# draws only as natural=coastline lines with land on the left and water on the right. The ways returned
+# are those touching the fetch box, so the coast is complete inside it: clip the coast to that box and
+# close each piece clockwise along the box edge, which keeps the water on the right of every ring.
+CS, CW, CN, CE = 42.3050, -71.1650, 42.4120, -71.0220  # BBOX in basemap_fetch.py
+BW, BH = CE - CW, CN - CS
+PERIM = 2 * (BW + BH)
+
+
+def chains(ways):
+    """Join coastline ways end-to-start, keeping their direction."""
+    ways = [list(w) for w in ways if len(w) > 1]
+    out = []
+    while ways:
+        c = ways.pop()
+        grown = True
+        while grown and c[0] != c[-1]:
+            grown = False
+            for i, w in enumerate(ways):
+                if w[0] == c[-1]:
+                    c += ways.pop(i)[1:]
+                    grown = True
+                    break
+                if w[-1] == c[0]:
+                    c = ways.pop(i)[:-1] + c
+                    grown = True
+                    break
+        out.append(c)
+    return out
+
+
+def inside(p):
+    return CS <= p[0] <= CN and CW <= p[1] <= CE
+
+
+def cross(a, b):
+    """Point where segment a->b crosses the box edge, going from inside to outside or back."""
+    best = None
+    for k, lim in ((0, CS), (0, CN), (1, CW), (1, CE)):
+        if a[k] != b[k]:
+            t = (lim - a[k]) / (b[k] - a[k])
+            if 0 <= t <= 1:
+                q = (a[0] + t * (b[0] - a[0]), a[1] + t * (b[1] - a[1]))
+                if CS - 1e-9 <= q[0] <= CN + 1e-9 and CW - 1e-9 <= q[1] <= CE + 1e-9 and (best is None or t < best[0]):
+                    best = (t, q)
+    return best[1] if best else None
+
+
+def pieces(c):
+    """Parts of a chain inside the box; each open part starts and ends on the box edge."""
+    out, cur = [], None
+    for a, b in zip(c, c[1:]):
+        ia, ib = inside(a), inside(b)
+        if ia and cur is None:
+            cur = [a]
+        if ia and ib:
+            cur.append(b)
+        elif ia and not ib:
+            q = cross(b, a)  # first edge hit walking back from outside
+            cur.append(q)
+            out.append(cur)
+            cur = None
+        elif not ia and ib:
+            cur = [cross(a, b), b]
+    if cur:
+        out.append(cur)
+    return out
+
+
+def edge_t(p):
+    """Clockwise position on the box edge, starting at the north-west corner."""
+    y, x = p
+    d = {abs(y - CN): x - CW, abs(x - CE): BW + (CN - y), abs(y - CS): BW + BH + (CE - x), abs(x - CW): 2 * BW + BH + (y - CS)}
+    return d[min(d)] % PERIM
+
+
+CORNERS = [(0.0, (CN, CW)), (BW, (CN, CE)), (BW + BH, (CS, CE)), (2 * BW + BH, (CS, CW))]
+
+
+def area2(r):
+    return sum(a[1] * b[0] - b[1] * a[0] for a, b in zip(r, r[1:] + r[:1]))
+
+
+def in_ring(p, r):
+    y, x, hit = p[0], p[1], False
+    for (y0, x0), (y1, x1) in zip(r, r[1:] + r[:1]):
+        if (y0 > y) != (y1 > y) and x < x0 + (y - y0) * (x1 - x0) / (y1 - y0):
+            hit = not hit
+    return hit
+
+
+coast = [pts(el["geometry"]) for el in osm["elements"]
+         if el["type"] == "way" and el.get("tags", {}).get("natural") == "coastline" and el.get("geometry")]
+open_parts, islands, seas = [], [], []
+for c in chains(coast):
+    if c[0] == c[-1] and all(inside(p) for p in c):
+        (islands if area2(c[:-1]) > 0 else seas).append(c[:-1])  # counter-clockwise ring = land on the left = island
+    else:
+        if c[0] == c[-1]:  # a closed coast that leaves the box: start it outside so every piece begins on the edge
+            k = next(i for i, p in enumerate(c) if not inside(p))
+            c = c[k:-1] + c[:k + 1]
+        open_parts += [p for p in pieces(c) if len(p) > 1]
+todo = [dict(pts=p, t_in=edge_t(p[0]), t_out=edge_t(p[-1])) for p in open_parts]
+while todo:
+    first = cur = todo.pop(0)
+    ring = list(cur["pts"])
+    while True:
+        cands = todo + [first]
+        nxt = min(cands, key=lambda q: (q["t_in"] - cur["t_out"]) % PERIM)
+        gap = (nxt["t_in"] - cur["t_out"]) % PERIM
+        ring += [p for t, p in sorted(CORNERS, key=lambda c: (c[0] - cur["t_out"]) % PERIM)
+                 if 0 < (t - cur["t_out"]) % PERIM < gap]
+        if nxt is first:
+            break
+        todo.remove(nxt)
+        ring += nxt["pts"]
+        cur = nxt
+    seas.append(ring)
+for r in seas:
+    holes = [i for i in islands if in_ring(i[0], r)]
+    rings = [rnd(dp(x + x[:1], TOL)) for x in [r] + holes]
+    rings = [x for x in rings if len(x) > 3]
+    if rings:
+        water.append(rings)
+print("coastline:", len(coast), "ways ->", len(seas), "sea polygons,", len(islands), "islands")
 
 
 # Compact encoding: each line/ring becomes a flat int list in 1e-5 degree units —

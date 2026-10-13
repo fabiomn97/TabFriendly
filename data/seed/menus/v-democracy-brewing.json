@@ -1,0 +1,172 @@
+{
+ "venueId": "v-democracy-brewing",
+ "items": [
+  {
+   "name": "GL - Chard",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "GL - Sauv Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "GL - Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "GL - Brachetto",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "GL - Cab Sauv",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "GL - Grenache",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "GL - Petite Syrah",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Seltzer - 8% ABV",
+   "type": "Seltzer cocktail",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Suzie Palmer (seltzer cocktail)",
+   "type": "Seltzer cocktail",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Workers Pint",
+   "type": "Democracy Workers Pint",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Body Language",
+   "type": "Democracy Body Language",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Fair Play",
+   "type": "Democracy Fair Play",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Vienna Maltz",
+   "type": "Democracy Vienna Maltz",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Pale Revere",
+   "type": "Democracy Pale Revere",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Fins Up!",
+   "type": "Democracy Fins Up",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Loyal Nine",
+   "type": "Loyal Nine",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Blueberry Bestie",
+   "type": "Seltzer cocktail",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Mango Bravo",
+   "type": "House cocktail",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Watermelon 16oz Tulip",
+   "type": "House cocktail",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 15.0
+  },
+  {
+   "name": "La Clasica 16oz Tulip",
+   "type": "House cocktail",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 14.0
+  }
+ ],
+ "sources": [
+  "https://www.toasttab.com/local/order/democracy-brewing/r-3c842e38-3c5e-45ea-83ef-799925de64be",
+  "https://democracybrewing.com/locations/downtown"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

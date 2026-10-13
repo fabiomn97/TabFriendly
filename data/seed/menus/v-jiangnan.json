@@ -1,0 +1,27 @@
+{
+ "venueId": "v-jiangnan",
+ "items": [
+  {
+   "name": "Aperol Spritz",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.95
+  },
+  {
+   "name": "Blueberry Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.95
+  }
+ ],
+ "sources": [
+  "https://www.jiangnanboston.com/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

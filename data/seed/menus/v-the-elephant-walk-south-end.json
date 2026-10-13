@@ -1,0 +1,467 @@
+{
+ "venueId": "v-the-elephant-walk-south-end",
+ "items": [
+  {
+   "name": "Down East 'Original Blend' Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Sam Adams Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Singha",
+   "type": "Singha",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Nutrl Vodka Seltzer",
+   "type": "NUTRL",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "La Fin du Monde Tripel Blonde Trappist Ale",
+   "type": "La Fin du Monde",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Rothaus Tannenzapfle Pilsner",
+   "type": "Rothaus Tannenzäpfle",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Night Shift 'Nite - Lite' Light Lager",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Delirium Tremens Belgian Blond Tripel Ale",
+   "type": "Delirium Tremens",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Weihenstephaner Hefeweissen",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Mighty Squirrel 'Cloud Candy' IPA",
+   "type": "Mighty Squirrel Cloud Candy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Castle Island 'Keeper' IPA",
+   "type": "Castle Island Keeper",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Maine Beer Company Lunch IPA",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Exhibit A \"Goody 2 Shoes\" Kölsch Style Ale",
+   "type": "Exhibit A Goody 2 Shoes",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Cremant de Bourgogne Blanc de Blancs Extra Brut, Domaine Thevenard (6 oz)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.0
+  },
+  {
+   "name": "Cremant de Bourgogne Blanc de Blancs Extra Brut, Domaine Thevenard (9 oz)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 22.0
+  },
+  {
+   "name": "Dry Rosé, Domaine de Fondréche (6 oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Dry Rosé, Domaine de Fondréche (9 oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Pinot Nero Bianco \"Sillery\", Frecciarossa (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.0
+  },
+  {
+   "name": "Pinot Nero Bianco \"Sillery\", Frecciarossa (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 22.0
+  },
+  {
+   "name": "Sancerre \"La Clef du Récit\", Anthony Girard (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 21.0
+  },
+  {
+   "name": "Sancerre \"La Clef du Récit\", Anthony Girard (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 32.0
+  },
+  {
+   "name": "Reuilly Blanc, Dyckerkhoff (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Reuilly Blanc, Dyckerkhoff (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Pinot Grigio 'Lumo', Colterenzio (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Grigio 'Lumo', Colterenzio (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Chardonnay, Macon Villages, Pascal Renaud (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Chardonnay, Macon Villages, Pascal Renaud (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Gruner Veltliner, Groiss (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Gruner Veltliner, Groiss (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Riesling Trocken, A. Christmann (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Riesling Trocken, A. Christmann (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Chianti Classico Riserva \"Borro del Diavolo\", Ormanni (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 21.0
+  },
+  {
+   "name": "Chianti Classico Riserva \"Borro del Diavolo\", Ormanni (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 32.0
+  },
+  {
+   "name": "Pinot Noir, Bourgogne Côte d'Or, Stephen Brocard (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 19.0
+  },
+  {
+   "name": "Pinot Noir, Bourgogne Côte d'Or, Stephen Brocard (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 28.0
+  },
+  {
+   "name": "Côtes du Rhône 'La Borde', Plan des Moines (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Côtes du Rhône 'La Borde', Plan des Moines (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Cabernet Sauvignon Lyeth (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Cabernet Sauvignon Lyeth (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Haut Médoc, Reflets de Cissac (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Haut Médoc, Reflets de Cissac (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Etna Rosso \"Gaio Gaio\", Massimiliano Calabretta (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Etna Rosso \"Gaio Gaio\", Massimiliano Calabretta (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Raspberry '75",
+   "type": "French 75",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Passion Fruit Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Ginger Lemon Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "White Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Purple Panda",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Manilla Cosmo",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Elegant Whippet",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Cambodian Mule",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Psychedelic Cocktail",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Figgen' Delicious",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Smoke & Bubbles",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "One Night in Angkor",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Cinato Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  }
+ ],
+ "sources": [
+  "https://elephantwalkboston.com/drink-menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

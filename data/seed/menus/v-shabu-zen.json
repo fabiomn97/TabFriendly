@@ -1,0 +1,299 @@
+{
+ "venueId": "v-shabu-zen",
+ "items": [
+  {
+   "name": "Gekkeikan House Sake (150ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Hana Lychee Sake (Glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Choya Plum Wine (Glass)",
+   "type": "Plum wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Ikezo Jelly Sake (180ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Gekkeikan Zipang Sparkling Sake (250ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Frose",
+   "type": "Frose",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Tokyo Mule",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Berry Beary Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Hello Kitty-tini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lemon Drop Martini",
+   "type": "Lemon Drop",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Watermelon Saketini",
+   "type": "Saketini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Raspberry Chiller",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lychee Saketini",
+   "type": "Saketini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lychee Bellini",
+   "type": "Bellini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sapporo",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Sapporo Silver",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": null,
+   "oz": 22,
+   "price": 10.0
+  },
+  {
+   "name": "Sapporo Reserve",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": null,
+   "oz": 22,
+   "price": 10.0
+  },
+  {
+   "name": "Sapporo Light",
+   "type": "Sapporo Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Asahi",
+   "type": "Asahi",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Tsing Tao",
+   "type": "Tsingtao",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Singha",
+   "type": "Singha",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Samuel Adams Boston Lager",
+   "type": "Samuel Adams",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Samuel Adams New England IPA",
+   "type": "Samuel Adams NE IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Far From the Tree Hopped Apple Cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Sake Bomb",
+   "type": "Sake Bomb",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "White Zinfandel, Beringer",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Pinot Grigio, Beringer",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Sauvignon Blanc, Peter Yealands",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Riesling, J. Lohr 'Bay Mist'",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Petit Rose, Guy Saget",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Merlot, Hahn",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Pinot Noir, Castle Rock",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Cabernet Sauvignon, J. Lohr 'Seven Oaks'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Prosecco, Valdo",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://www.shabuzen.com/menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,107 @@
+{
+ "venueId": "v-alewives-taproom",
+ "items": [
+  {
+   "name": "Newburyport - Plum Island Belgian White",
+   "type": "Newburyport Plum Island",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Newburyport - Greenhead",
+   "type": "Newburyport Greenhead",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Widowmaker - Blue Comet",
+   "type": "Widowmaker Blue Comet",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Austin Street - Patina",
+   "type": "Austin Street Patina",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "UFO - Maine Blueberry",
+   "type": "UFO Maine Blueberry",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Newburyport - Overboard",
+   "type": "Newburyport Overboard",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Greater Good - Pulp Daddy",
+   "type": "Greater Good Pulp Daddy",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Guinness - Stout",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Narragansett - Del's Shandy",
+   "type": "Narragansett Del's Shandy",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Artifact - Feels Like Home",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Apres (Hard Seltzer - Rotating Styles)",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.5
+  }
+ ],
+ "sources": [
+  "https://www.alewivesboston.com/menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

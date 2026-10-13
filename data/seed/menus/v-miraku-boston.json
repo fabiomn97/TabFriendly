@@ -1,0 +1,67 @@
+{
+ "venueId": "v-miraku-boston",
+ "items": [
+  {
+   "name": "Koshihikari Beer by Echigo",
+   "type": "Echigo Koshihikari",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Orion The Draft",
+   "type": "Orion",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Echigo Flying IPA",
+   "type": "Echigo Flying IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Yuzu Lager",
+   "type": "Yuzu Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Nanbu Bijin",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Drunken Whale Sake",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Little Sumo Sake (Junmai Genshu)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://www.miraku-usa.com/menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

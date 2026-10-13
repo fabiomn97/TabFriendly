@@ -1,0 +1,467 @@
+{
+ "venueId": "v-momosan-morimoto",
+ "items": [
+  {
+   "name": "Bruins Black & Gold Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sake-Tini Yuzu",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Tokyo Mule",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Eastern Tradition",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Celtics Green",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Spiced Car",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Shiso-jito",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Yuzu Whiskey Sour",
+   "type": "Whiskey Sour",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Shochu Side Car",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Shochu Sunrise",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Spicy Shochu",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Brut, Treveri Cellars \"Morimoto Dream\"",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sparkling Rose, Treveri Cellars \"Morimoto Dream\"",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Prosecco, Mionetto, Treviso Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Prosecco Rose, Bisol Jeio",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Grigio, Tiamo",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Sauvignon Blanc, Goldschmidt Vineyards",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Chardonnay, J Lohr \"Riverstone\"",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "La Croix rose, Peyrassol",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pinot Noir, J Lohr \"Falcon's Perch\"",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Broadbent",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Rogue Brewery, Morimoto Soba Ale (16oz)",
+   "type": "Rogue Morimoto Soba Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 14.0
+  },
+  {
+   "name": "Rogue Brewery, Morimoto Soba Ale (20oz)",
+   "type": "Rogue Morimoto Soba Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 18.0
+  },
+  {
+   "name": "True North, Juicy IPA (16oz)",
+   "type": "True North Juicy IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "True North, Juicy IPA (20oz)",
+   "type": "True North Juicy IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 17.0
+  },
+  {
+   "name": "Heineken (16oz)",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "Heineken (20oz)",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 17.0
+  },
+  {
+   "name": "Sapporo Premium Lager (16oz)",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Sapporo Premium Lager (20oz)",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 15.0
+  },
+  {
+   "name": "Downeast Cider (16oz)",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "Downeast Cider (20oz)",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 20,
+   "price": 18.0
+  },
+  {
+   "name": "Kirin Ichiban (16oz)",
+   "type": "Kirin Ichiban",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "Kirin Ichiban (20oz)",
+   "type": "Kirin Ichiban",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 16.0
+  },
+  {
+   "name": "Hitachino Nest \"Red Rice\"",
+   "type": "Hitachino Nest Red Rice",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11,
+   "price": 12.0
+  },
+  {
+   "name": "Hitachino Nest \"White Ale\"",
+   "type": "Hitachino Nest White Ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 11,
+   "price": 12.0
+  },
+  {
+   "name": "Echigo \"Flying IPA\"",
+   "type": "Echigo Flying IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 12.0
+  },
+  {
+   "name": "Echigo Koshihikari Rice Beer",
+   "type": "Echigo Koshihikari",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 16,
+   "price": 17.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Morimoto Junmai (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "HOYO \"Farmer's Daughter\" Manamusume Junmai (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Shichi Hon Yari \"Seven Spearsmen\" Junmai (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Tozai \"Typhoon\" Futsushu Junmai (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Kamo Zumi Kome Kome-Shu \"Happy Bride\" Junmai (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Morimoto Ginjo (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Dewazakura \"Tenth Degree\" Izumi Judan Ginjo (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Ruyjin \"Dragon God\" Ginjo Namazume (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Yuki No Bosha \"Cabin in the Snow\" Ginjo (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Morimoto Daiginjo (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Kubota Daiginjo (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Rihaku Shuzo \"Dreamy Clouds\" Nigori (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Morimoto Sparkling Nigori (glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Morimoto Junmai Easy Cup",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Joto Junmai \"Graffiti\" Cup",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Soto Junmai Cup",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Yuki Oteki \"Yeti\" Junmai Nigori Cup",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  }
+ ],
+ "sources": [
+  "https://www.momosanboston.com/menu/momosan-beverage/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -25,7 +25,7 @@ Scope and decisions are in [SPEC.md](SPEC.md). `app/` matches the live version.
   - Viewers and people outside the organization can only read.
   - Editors can also hide or delete prices and venues, and edit drink menus.
 - Prices count for six months: user and editor entries from when they were posted, researched prices from their menu's date, or from when we checked an undated menu.
-- `data/live/` is a snapshot of the live database (venues, reports, menus, menuEdits, hours), refreshed Oct 13, 2026 (menus Oct 6), without user ids, photos or votes.
+- `data/live/` is a snapshot of the live database (venues, reports, menus, menuEdits, hours), refreshed Oct 13, 2026, without user ids, photos or votes.
 
 ## Data pipeline
 
@@ -33,7 +33,7 @@ Scope and decisions are in [SPEC.md](SPEC.md). `app/` matches the live version.
 python tools/merge_research.py <dir with kendall/central/backbay/kenmore.json>   # -> data/venues.json (original 1-mile research)
 python tools/add_research.py [--keep-unpriced] <research.json> ...               # append venues inside 2 mi that aren't listed yet
 python tools/fixups.py                                                           # manual corrections
-python tools/merge_menus.py <menus_*.json>                                       # full drink menus -> data/menus.json
+python tools/merge_menus.py data/menus.json <menus_*.json>                         # full drink menus -> data/menus.json
 python tools/merge_hours.py <hours_*.json | research.json> ...                    # opening hours -> data/hours.json
 python tools/make_seed.py                                                        # -> data/seed/* (one JSON per db doc)
 python tools/review_sheet.py                                                     # -> data/venues_review.csv

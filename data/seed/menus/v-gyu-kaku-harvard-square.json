@@ -1,0 +1,323 @@
+{
+ "venueId": "v-gyu-kaku-harvard-square",
+ "items": [
+  {
+   "name": "Kirin Ichiban (Mug 12 oz)",
+   "type": "Kirin Ichiban",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 6.5
+  },
+  {
+   "name": "Kirin Ichiban (Mega Mug 32 oz)",
+   "type": "Kirin Ichiban",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 32,
+   "price": 14.0
+  },
+  {
+   "name": "Kirin Ichiban (Pitcher 60 oz)",
+   "type": "Kirin Ichiban",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 60,
+   "price": 26.0
+  },
+  {
+   "name": "Asahi Super Dry (Glass 12 oz)",
+   "type": "Asahi",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Blue Moon",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Kirin Light",
+   "type": "Kirin Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Sapporo",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Sapporo Light",
+   "type": "Sapporo Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Gyu-Kaku House Sake (Regular 300 ml Carafe)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Gyu-Kaku House Sake (Jumbo 600 ml Carafe)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Kurosawa Junmai (Glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Kurosawa Junmai (Carafe 300 ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Hana Lychee Sake (Glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Mio Sparkling Sake (Bottle 300 ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Gyu-Kaku Nigori Sake (Bottle 375 ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Han Jan Original Soju (375 ml)",
+   "type": "Soju",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Sparkling (Glass)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Chardonnay (Glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Sauvignon Blanc (Glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Cabernet Sauvignon (Glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Pinot Noir (Glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Plum Wine (Glass)",
+   "type": "Plum wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Tropical Sunrise",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "\"Sake to Me\" Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Tokyo Peach",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sex on the Beach",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lychee Saketini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Strawberry Mojito",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Strawberry Lemonade Soju",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Lychee Sojutini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "White Peach Sojutini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Coco-Mo Soju",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Strawberry Cloud",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Strawberry Sake Sunrise",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Sake Lemon Drop",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Lychee Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Peach Pineapple Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Peach Iced Tea",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  }
+ ],
+ "sources": [
+  "https://www.gyu-kaku.com/wp-content/uploads/2026/01/brl_hsq_drink2512.pdf"
+ ],
+ "sourceDate": "2025-12",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

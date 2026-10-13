@@ -1,4 +1,4 @@
-﻿import json, urllib.request, urllib.parse, os, sys
+import json, urllib.request, urllib.parse, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BBOX = "42.3050,-71.1650,42.4120,-71.0220"
@@ -7,6 +7,7 @@ Q = f"""[out:json][timeout:120];
   way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|motorway_link|trunk_link|primary_link|secondary_link|tertiary_link|living_street|pedestrian)$"]({BBOX});
   way["natural"="water"]({BBOX});
   relation["natural"="water"]({BBOX});
+  way["natural"="coastline"]({BBOX});
   way["leisure"~"^(park|pitch|garden)$"]({BBOX});
   way["railway"="rail"]({BBOX});
 );

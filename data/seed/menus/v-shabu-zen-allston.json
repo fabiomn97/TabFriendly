@@ -1,0 +1,299 @@
+{
+ "venueId": "v-shabu-zen-allston",
+ "items": [
+  {
+   "name": "Gekkeikan House Sake (150ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Ikezo Jelly Sake (180ml)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Hana Lychee Sake (Glass)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Choya Plum Wine (Glass)",
+   "type": "Plum wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Mojito (Glass)",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sangria (Glass)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Frose (Glass)",
+   "type": "Frose",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Tokyo Mule (Glass)",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Berry Beary Martini (Glass)",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Hello Kitty-tini (Glass)",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lemon Drop Martini (Glass)",
+   "type": "Lemon Drop",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Watermelon Saketini (Glass)",
+   "type": "Saketini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Raspberry Chiller (Glass)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lychee Saketini (Glass)",
+   "type": "Saketini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Lychee Bellini (Glass)",
+   "type": "Bellini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Soju (375ml)",
+   "type": "Soju",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Sapporo (12oz)",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Sapporo Silver (22oz)",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": null,
+   "oz": 22,
+   "price": 10.0
+  },
+  {
+   "name": "Sapporo Reserve (22oz)",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": null,
+   "oz": 22,
+   "price": 10.0
+  },
+  {
+   "name": "Sapporo Light (12oz)",
+   "type": "Sapporo Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Asahi (12oz)",
+   "type": "Asahi",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Tsing Tao (12oz)",
+   "type": "Tsingtao",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Singha (12oz)",
+   "type": "Singha",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Samuel Adams Boston Lager (12oz)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Samuel Adams New England IPA (16oz)",
+   "type": "Sam Adams New England IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Far From the Tree Hopped Apple Cider (16oz)",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Sake Bomb (12oz beer + shot of sake)",
+   "type": "Sake Bomb",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Beringer White Zinfandel",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Beringer Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Peter Yealands Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "J. Lohr \"Bay Mist\" Riesling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Guy Saget Petit Rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Hahn Merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Castle Rock Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "J. Lohr \"Seven Oaks\" Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Valdo Prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://www.shabuzen.com/menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

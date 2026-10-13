@@ -1,0 +1,155 @@
+{
+ "venueId": "v-metropolis-cafe",
+ "items": [
+  {
+   "name": "Mimosa",
+   "type": "Mimosa",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.5
+  },
+  {
+   "name": "Bloody Mary",
+   "type": "Bloody Mary",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.75
+  },
+  {
+   "name": "Aperol Spritz",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.75
+  },
+  {
+   "name": "Paloma",
+   "type": "Paloma",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.5
+  },
+  {
+   "name": "Cucumber Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.5
+  },
+  {
+   "name": "Strawberry Basil Gimlet",
+   "type": "Gimlet",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.75
+  },
+  {
+   "name": "Blood Orange Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.25
+  },
+  {
+   "name": "South End Smokeshow",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Pineapple Rum Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.5
+  },
+  {
+   "name": "Paper Plane",
+   "type": "Paper Plane",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.75
+  },
+  {
+   "name": "Kronenbourg 1664",
+   "type": "Kronenbourg 1664",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "Jacks Abby Post Shift Pilsner",
+   "type": "Jack's Abby Post Shift",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "True North Cerveza",
+   "type": "True North Cerveza",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 12.5
+  },
+  {
+   "name": "Lamplighter Rabbit Rabbit DIPA",
+   "type": "Lamplighter Rabbit Rabbit",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Fat Orange Cat Baby Kittens IPA",
+   "type": "Fat Orange Cat Baby Kittens",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 11.5
+  },
+  {
+   "name": "Von Trapp Dunkle",
+   "type": "Von Trapp Dunkel",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Downeast Original Cider",
+   "type": "Down East Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 11.5
+  }
+ ],
+ "sources": [
+  "https://www.metropolisboston.com/menus/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

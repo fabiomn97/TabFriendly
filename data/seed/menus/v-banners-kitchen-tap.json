@@ -1,0 +1,867 @@
+{
+ "venueId": "v-banners-kitchen-tap",
+ "items": [
+  {
+   "name": "Black and Gold Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "MVP Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Home Ice",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Spiced Mezcal Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Boston Tea Party",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Bacon-Washed Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Penalty Kill",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Strawberry Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Causeway Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Spritz No. 28",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Transfusion",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Barker's Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Suncruiser",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "High Noon Watermelon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Truly Wild Berry",
+   "type": "Truly",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "The Finnish Long Drink Traditional Citrus",
+   "type": "Long Drink",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Magners Dry Cider",
+   "type": "Magners",
+   "kind": "other",
+   "serve": "can",
+   "oz": 16.9,
+   "price": 10.0
+  },
+  {
+   "name": "The Dirty Mayor",
+   "type": "The Dirty Mayor",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Session Pils",
+   "type": "Session Pils",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Long Trail Amber Ale",
+   "type": "Long Trail Ale",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "617 Series Lager",
+   "type": "617 Series Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "617 Series Hazy IPA",
+   "type": "617 Series Hazy IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Cloud Candy",
+   "type": "Cloud Candy",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Birds of a Feather",
+   "type": "Birds of a Feather",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Fluffy",
+   "type": "Fluffy",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Tendril",
+   "type": "Tendril",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Sip of Sunshine",
+   "type": "Sip of Sunshine",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Hi-Def",
+   "type": "Hi-Def",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Sour Face Pink Lemonade (16oz)",
+   "type": "Sour Face Pink Lemonade",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Sour Face Pink Lemonade (20oz)",
+   "type": "Sour Face Pink Lemonade",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 15.0
+  },
+  {
+   "name": "Angry Orchard Crisp Apple (16oz)",
+   "type": "Angry Orchard",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Angry Orchard Crisp Apple (20oz)",
+   "type": "Angry Orchard",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 20,
+   "price": 10.0
+  },
+  {
+   "name": "Cider House Original Blend (16oz)",
+   "type": "Cider House Original Blend",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Cider House Original Blend (20oz)",
+   "type": "Cider House Original Blend",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 20,
+   "price": 14.0
+  },
+  {
+   "name": "Cider House Original Blend (64oz)",
+   "type": "Cider House Original Blend",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 64,
+   "price": 54.0
+  },
+  {
+   "name": "Unified Press (16oz)",
+   "type": "Unified Press",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Unified Press (20oz)",
+   "type": "Unified Press",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 20,
+   "price": 14.0
+  },
+  {
+   "name": "Harpoon IPA (16oz)",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Harpoon IPA (20oz)",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Cisco IPA (16oz)",
+   "type": "Cisco IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Cisco IPA (20oz)",
+   "type": "Cisco IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 11.0
+  },
+  {
+   "name": "Cisco IPA (64oz)",
+   "type": "Cisco IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 64,
+   "price": 44.0
+  },
+  {
+   "name": "Fiddlehead (16oz)",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead (20oz)",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Lagunitas (16oz)",
+   "type": "Lagunitas IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Lagunitas (20oz)",
+   "type": "Lagunitas IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 14.0
+  },
+  {
+   "name": "Hazy Little Thing (16oz)",
+   "type": "Hazy Little Thing",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Hazy Little Thing (20oz)",
+   "type": "Hazy Little Thing",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Hazy Little Thing (64oz)",
+   "type": "Hazy Little Thing",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 64,
+   "price": 50.0
+  },
+  {
+   "name": "Lunch (16oz)",
+   "type": "Maine Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 14.0
+  },
+  {
+   "name": "Lunch (20oz)",
+   "type": "Maine Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 18.0
+  },
+  {
+   "name": "Boom Sauce (16oz)",
+   "type": "Boom Sauce",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Miller Lite (16oz)",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Miller Lite (20oz)",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 12.0
+  },
+  {
+   "name": "Mango Cart (16oz)",
+   "type": "Mango Cart",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Mango Cart (20oz)",
+   "type": "Mango Cart",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 15.0
+  },
+  {
+   "name": "Bud Light (16oz)",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Bud Light (20oz)",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Michelob Ultra (16oz)",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Michelob Ultra (20oz)",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Samuel Adams American Light (16oz)",
+   "type": "Sam Adams Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Samuel Adams American Light (20oz)",
+   "type": "Sam Adams Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 10.0
+  },
+  {
+   "name": "Coors Light (16oz)",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Coors Light (20oz)",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 12.0
+  },
+  {
+   "name": "Guinness (16.9oz)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16.9,
+   "price": 10.0
+  },
+  {
+   "name": "Nite Lite (16oz)",
+   "type": "Nite Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Nite Lite (20oz)",
+   "type": "Nite Lite",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Big Wave (16oz)",
+   "type": "Big Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Big Wave (20oz)",
+   "type": "Big Wave",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Pumpkinhead Ale (16oz)",
+   "type": "Pumpkinhead",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Pumpkinhead Ale (20oz)",
+   "type": "Pumpkinhead",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 12.0
+  },
+  {
+   "name": "Sea Dog Blueberry (16oz)",
+   "type": "Sea Dog Blueberry",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Sea Dog Blueberry (20oz)",
+   "type": "Sea Dog Blueberry",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 12.0
+  },
+  {
+   "name": "Sierra Nevada Pils (16oz)",
+   "type": "Sierra Nevada Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Sierra Nevada Pils (20oz)",
+   "type": "Sierra Nevada Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Samuel Adams Boston Lager (16oz)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Samuel Adams Boston Lager (20oz)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Schilling Alexandr (16oz)",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Schilling Alexandr (20oz)",
+   "type": "Schilling Alexandr",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 10.0
+  },
+  {
+   "name": "Budweiser (16oz)",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Budweiser (20oz)",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Switchback Ale (16oz)",
+   "type": "Switchback Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Switchback Ale (20oz)",
+   "type": "Switchback Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 15.0
+  },
+  {
+   "name": "Stella Artois (16oz)",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Stella Artois (20oz)",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 14.0
+  },
+  {
+   "name": "Allagash White (16oz)",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Allagash White (20oz)",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 14.0
+  },
+  {
+   "name": "Samuel Adams \"Banners Brew\" (16oz)",
+   "type": "Sam Adams Banners Brew",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Samuel Adams \"Banners Brew\" (20oz)",
+   "type": "Sam Adams Banners Brew",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 11.0
+  },
+  {
+   "name": "Samuel Adams \"Banners Brew\" (64oz)",
+   "type": "Sam Adams Banners Brew",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 64,
+   "price": 38.0
+  },
+  {
+   "name": "First Landing (16oz)",
+   "type": "First Landing",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "First Landing (20oz)",
+   "type": "First Landing",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 14.0
+  },
+  {
+   "name": "Samuel Adams Octoberfest (16oz)",
+   "type": "Sam Adams Octoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Samuel Adams Octoberfest (20oz)",
+   "type": "Sam Adams Octoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 14.0
+  },
+  {
+   "name": "Blue Moon Belgian White (16oz)",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Blue Moon Belgian White (20oz)",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 13.0
+  },
+  {
+   "name": "Blue Moon Belgian White (64oz)",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 64,
+   "price": 40.0
+  },
+  {
+   "name": "Von Trapp Pilsner (16oz)",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Von Trapp Pilsner (20oz)",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 16.0
+  },
+  {
+   "name": "Shed Mountain Ale (16oz)",
+   "type": "Shed Mountain Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Shed Mountain Ale (20oz)",
+   "type": "Shed Mountain Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 15.0
+  },
+  {
+   "name": "Prosecco, La Marca (187ml)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 17.0
+  }
+ ],
+ "sources": [
+  "https://www.bannerskitchenandtap.com/menu/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

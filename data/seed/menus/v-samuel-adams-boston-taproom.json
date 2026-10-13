@@ -1,0 +1,459 @@
+{
+ "venueId": "v-samuel-adams-boston-taproom",
+ "items": [
+  {
+   "name": "Boston Lager (22oz)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "Boston Lager (16oz)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Boston Lager (5.5oz)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Octoberfest (22oz)",
+   "type": "Sam Adams Octoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "Octoberfest (16oz)",
+   "type": "Sam Adams Octoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Octoberfest (5.5oz)",
+   "type": "Sam Adams Octoberfest",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "American Light (22oz)",
+   "type": "Sam Adams American Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "American Light (16oz)",
+   "type": "Sam Adams American Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "American Light (5.5oz)",
+   "type": "Sam Adams American Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "New England Juicy IPA (22oz)",
+   "type": "Sam Adams New England Juicy IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 12.0
+  },
+  {
+   "name": "New England Juicy IPA (16oz)",
+   "type": "Sam Adams New England Juicy IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "New England Juicy IPA (5.5oz)",
+   "type": "Sam Adams New England Juicy IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Cherry Wheat (22oz)",
+   "type": "Sam Adams Cherry Wheat",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "Cherry Wheat (16oz)",
+   "type": "Sam Adams Cherry Wheat",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Cherry Wheat (5.5oz)",
+   "type": "Sam Adams Cherry Wheat",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Jack-O Pumpkin Ale (22oz)",
+   "type": "Sam Adams Jack-O Pumpkin Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "Jack-O Pumpkin Ale (16oz)",
+   "type": "Sam Adams Jack-O Pumpkin Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Jack-O Pumpkin Ale (5.5oz)",
+   "type": "Sam Adams Jack-O Pumpkin Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Boston Brick Red (22oz)",
+   "type": "Sam Adams Boston Brick Red",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "Boston Brick Red (16oz)",
+   "type": "Sam Adams Boston Brick Red",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Boston Brick Red (5.5oz)",
+   "type": "Sam Adams Boston Brick Red",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Market Lager (22oz)",
+   "type": "Sam Adams Market Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 12.0
+  },
+  {
+   "name": "Market Lager (16oz)",
+   "type": "Sam Adams Market Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Market Lager (5.5oz)",
+   "type": "Sam Adams Market Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Beer Garden Pumpernickel Dunkel (22oz)",
+   "type": "Sam Adams Beer Garden Pumpernickel Dunkel",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "Beer Garden Pumpernickel Dunkel (16oz)",
+   "type": "Sam Adams Beer Garden Pumpernickel Dunkel",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Beer Garden Pumpernickel Dunkel (5.5oz)",
+   "type": "Sam Adams Beer Garden Pumpernickel Dunkel",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Mass. Importante (22oz)",
+   "type": "Sam Adams Mass. Importante",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 12.0
+  },
+  {
+   "name": "Mass. Importante (16oz)",
+   "type": "Sam Adams Mass. Importante",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Mass. Importante (5.5oz)",
+   "type": "Sam Adams Mass. Importante",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Total Mass (22oz)",
+   "type": "Sam Adams Total Mass",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 12.0
+  },
+  {
+   "name": "Total Mass (16oz)",
+   "type": "Sam Adams Total Mass",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Total Mass (5.5oz)",
+   "type": "Sam Adams Total Mass",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Blancha Chai Wit (22oz)",
+   "type": "Sam Adams Blancha Chai Wit",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 13.0
+  },
+  {
+   "name": "Blancha Chai Wit (16oz)",
+   "type": "Sam Adams Blancha Chai Wit",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Blancha Chai Wit (5.5oz)",
+   "type": "Sam Adams Blancha Chai Wit",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 6.0
+  },
+  {
+   "name": "Czech Dark Lager (22oz)",
+   "type": "Sam Adams Czech Dark Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 12.0
+  },
+  {
+   "name": "Czech Dark Lager (16oz)",
+   "type": "Sam Adams Czech Dark Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Czech Dark Lager (5.5oz)",
+   "type": "Sam Adams Czech Dark Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Julian Edel-Brau Lager (22oz)",
+   "type": "Sam Adams Julian Edel-Brau Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "Julian Edel-Brau Lager (16oz)",
+   "type": "Sam Adams Julian Edel-Brau Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Julian Edel-Brau Lager (5.5oz)",
+   "type": "Sam Adams Julian Edel-Brau Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Truly Wild Berry Hard Seltzer (22oz)",
+   "type": "Truly",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 22,
+   "price": 11.0
+  },
+  {
+   "name": "Truly Wild Berry Hard Seltzer (16oz)",
+   "type": "Truly",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Truly Wild Berry Hard Seltzer (5.5oz)",
+   "type": "Truly",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Jamaicaway IPA (12oz)",
+   "type": "Sam Adams Jamaicaway IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 9.0
+  },
+  {
+   "name": "Jamaicaway IPA (5.5oz)",
+   "type": "Sam Adams Jamaicaway IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.0
+  },
+  {
+   "name": "Hip to be Hibiscus (12oz)",
+   "type": "Sam Adams Hip to be Hibiscus",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Hip to be Hibiscus (5.5oz)",
+   "type": "Sam Adams Hip to be Hibiscus",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 5.04
+  },
+  {
+   "name": "Mochi Mamey (12oz)",
+   "type": "Sam Adams Mochi Mamey",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Mochi Mamey (5.5oz)",
+   "type": "Sam Adams Mochi Mamey",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 5.5,
+   "price": 6.0
+  },
+  {
+   "name": "All Else Pales (.5 Liter)",
+   "type": "Sam Adams All Else Pales",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Pitcher: Boston Lager, Octoberfest, American Light or Truly (60oz)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 60,
+   "price": 24.0
+  },
+  {
+   "name": "Pitcher: New England Juicy IPA, Cherry Wheat, Edel-Brau or Brick Red (60oz)",
+   "type": "Sam Adams New England Juicy IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 60,
+   "price": 26.0
+  },
+  {
+   "name": "Beer Garden Schwarzbier (16oz Can)",
+   "type": "Sam Adams Beer Garden Schwarzbier",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Porch(fest) Rocker (16oz Can)",
+   "type": "Sam Adams Porch Rocker",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 10.0
+  }
+ ],
+ "sources": [
+  "https://www.samueladams.com/taprooms/sam-adams-boston-taproom/whats-on-tap"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

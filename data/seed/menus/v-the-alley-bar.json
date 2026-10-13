@@ -1,0 +1,225 @@
+{
+ "venueId": "v-the-alley-bar",
+ "items": [
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "PBR",
+   "type": "Pabst Blue Ribbon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 4.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Blue Moon, Belgian White",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Cisco, Grey Lady",
+   "type": "Cisco Grey Lady",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Allagash, White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Cisco, Whale's Tale",
+   "type": "Cisco Whale's Tale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Distihl, Seasonal",
+   "type": "Distihl Seasonal Sour",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Aeronaut, Dr. Nandu",
+   "type": "Aeronaut Dr. Nandu",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Lagunitas IPA",
+   "type": "Lagunitas IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Ballast Point, Grapefruit",
+   "type": "Ballast Point Grapefruit Sculpin",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Lord Hobo, Boom Sauce",
+   "type": "Lord Hobo Boom Sauce",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Night Shift, The 87",
+   "type": "Night Shift The 87",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Smuttynose Porter",
+   "type": "Smuttynose Porter",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Left Hand, Nitro Stout",
+   "type": "Left Hand Nitro",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast Cider (draft)",
+   "type": "Down East Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Miller Lite (bottle)",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Bud Light (bottle)",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Budweiser (bottle)",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller High Life (bottle)",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Corona (bottle)",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Heineken (bottle)",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Guiness Stout (bottle)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Smirnoff Ice (bottle)",
+   "type": "Smirnoff Ice",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "White Claw, Black Cherry",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  }
+ ],
+ "sources": [],
+ "sourceDate": "2020-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,307 @@
+{
+ "venueId": "v-alcove",
+ "items": [
+  {
+   "name": "Raspberry Lime Rickey",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Wayside",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Milk Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Monk's Mystery",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Crème de Cassis Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Sweet Pea",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Smoke Signals",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Zakim",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Von Trapp Pilsner",
+   "type": "Von Trapp Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "True North 'Northern Haze'",
+   "type": "True North Northern Haze",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Fiddlehead White",
+   "type": "Fiddlehead White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Deschutes 'Fresh Squeezed'",
+   "type": "Deschutes Fresh Squeezed",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Oxbow 'Farmhouse' Pale Ale",
+   "type": "Oxbow Farmhouse Pale Ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Ipswich Oatmeal Stout",
+   "type": "Ipswich Oatmeal Stout",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 12,
+   "price": 11.0
+  },
+  {
+   "name": "Night Shift 'Nite Lite'",
+   "type": "Night Shift Nite Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Tecate",
+   "type": "Tecate",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Vitamin Sea Rotating Selection",
+   "type": "Vitamin Sea",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 13.0
+  },
+  {
+   "name": "Brasserie d'Achouffe 'La Chouffe'",
+   "type": "La Chouffe",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 11.0
+  },
+  {
+   "name": "Isastegi Sagardo Naturala (330ml)",
+   "type": "Isastegi Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "1911 Original Hard Cider",
+   "type": "1911 Hard Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "High Noon Half Iced Tea Half Lemonade",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "NV Poggio Costa Brut (Prosecco)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "NV Pierre Sparr Brut Rosé (Crémant d'Alsace)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "'24 Ca'Stelle Pinot Grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "'23 Clos de la Vierge 'Le Carré de Peñs'",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "'24 Château Nicot (Entre-Deux-Mers)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "'19 Famille Lieubeau 'Goulaine' Muscadet",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "'22 Hook + Wine Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "NV Bodegas La Cigarrera Manzanilla",
+   "type": "Sherry",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "'25 G.D. Vajra 'Rosabella'",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "'24 Pavette Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "'24 Armand Heitz Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "'23 Famille Perrin Réserve Côtes du Rhône",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "'22 Comtesse de Malet Roguefort",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "'22 Trefethen 'Eshcol'",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 19.0
+  }
+ ],
+ "sources": [
+  "https://alcoveboston.com/wp-content/uploads/2026/09/ALC_DRINKS_9_2_26.pdf"
+ ],
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,252 @@
+{
+ "venueId": "v-troquet-on-south",
+ "items": [
+  {
+   "name": "House Sparkling - Kila Cava",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 4,
+   "price": 12.0
+  },
+  {
+   "name": "Champagne, Taittinger Brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 4,
+   "price": 33.0
+  },
+  {
+   "name": "Sparkling, Gruet Brut Rose",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 4,
+   "price": 30.0
+  },
+  {
+   "name": "House Chardonnay - Resonance",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Chablis, Dousset",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 22.0
+  },
+  {
+   "name": "House Rose - Muga",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Sauvignon Blanc, Eos",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Pinot Grigio, Pighin",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Riesling, Seeker",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.0
+  },
+  {
+   "name": "House Cabernet Sauvignon - Ballard Lane",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 12.0
+  },
+  {
+   "name": "Pinot Noir, Seeker",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Chianti Classico, Villa Nozzole",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 22.0
+  },
+  {
+   "name": "Cotes du Rhone, Parallele 45",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 22.0
+  },
+  {
+   "name": "Flower Power Sour",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "La Passion",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "From Boston, With Love",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Cosmic Kiwi Milk Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "When the Bull Winks",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Prima Belladonna",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "There's Always Money in the Banana Stand",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "House Lager",
+   "type": "House lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Kronenbourg 1664",
+   "type": "Kronenbourg 1664",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Old Speckled Hen (Nitro Pale Ale)",
+   "type": "Old Speckled Hen",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "Maine Lunch",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Maine Little Whaleboat",
+   "type": "Maine Beer Co. Little Whaleboat",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Hill Farmstead Double Mosaic (14 oz)",
+   "type": "Hill Farmstead Double Mosaic",
+   "kind": "beer",
+   "serve": null,
+   "oz": 14,
+   "price": 11.0
+  },
+  {
+   "name": "Smuttynose Blackberry Sour",
+   "type": "Smuttynose Blackberry Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Murphy's Stout (14.9 oz)",
+   "type": "Murphy's Stout",
+   "kind": "beer",
+   "serve": null,
+   "oz": 14.9,
+   "price": 6.0
+  },
+  {
+   "name": "Downeast Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 7.0
+  }
+ ],
+ "sources": [
+  "https://www.troquetboston.com/s/Lunch-930.pdf",
+  "https://www.troquetboston.com/s/Dinner-Bar.pdf"
+ ],
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

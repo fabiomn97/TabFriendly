@@ -1,0 +1,219 @@
+{
+ "venueId": "v-warren-tavern",
+ "items": [
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Old Fashioned Tea Party",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Planters Punch",
+   "type": "Rum Punch",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Joseph's Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Blueberry Mule",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Two Pleasant Manhattan",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Jamo Cold Brew (Brunch)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Bloody Mary (Brunch)",
+   "type": "Bloody Mary",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Mama-Mosa (Brunch)",
+   "type": "Mimosa",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Palapa Iced Coffee (Brunch)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Michelada (Brunch)",
+   "type": "Michelada",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sam Adams \"Cold Snap\" White Ale",
+   "type": "Sam Adams Cold Snap",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Hill Farmstead \"Edward\" Pale Ale",
+   "type": "Hill Farmstead Edward",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Night Shift \"Whirlpool\" Pale Ale",
+   "type": "Night Shift Whirlpool",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Downeast \"Original\" GF",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 13,
+   "price": 8.0
+  },
+  {
+   "name": "Maine Beer Co. \"Lunch\" IPA",
+   "type": "Maine Beer Co. Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": 13,
+   "price": 10.0
+  },
+  {
+   "name": "Maine Beer Co. \"Dinner\" DIPA",
+   "type": "Maine Beer Co. Dinner",
+   "kind": "beer",
+   "serve": null,
+   "oz": 13,
+   "price": 13.0
+  },
+  {
+   "name": "Courthouse \"Adverse Possession\" DIPA",
+   "type": "Courthouse Adverse Possession",
+   "kind": "beer",
+   "serve": null,
+   "oz": 13,
+   "price": 12.0
+  },
+  {
+   "name": "Lamplighter \"Birds of a Feather\" IPA",
+   "type": "Lamplighter Birds of a Feather",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 5.0
+  },
+  {
+   "name": "Devil's Purse \"Handline Kolsch\"",
+   "type": "Devil's Purse Handline Kolsch",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Jack's Abby \"Shipping out of Boston\" Amber Lager",
+   "type": "Jack's Abby Shipping Out of Boston",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": null,
+   "oz": 20,
+   "price": 9.0
+  }
+ ],
+ "sources": [
+  "https://www.warrentavern.com/menus"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
