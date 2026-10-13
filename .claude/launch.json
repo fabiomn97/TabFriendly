@@ -1,6 +1,0 @@
-{
-  "version": "0.0.1",
-  "configurations": [
-    { "name": "tabfriendly-dev", "runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "8766", "--directory", "app"], "port": 8766 }
-  ]
-}
