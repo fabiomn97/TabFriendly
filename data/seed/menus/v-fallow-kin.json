@@ -200,6 +200,142 @@
    "serve": null,
    "oz": null,
    "price": 10.0
+  },
+  {
+   "name": "Arnaud Lambert, Crémant de Loire NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "1701, Brut Nature, Franciacorta NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 136.0
+  },
+  {
+   "name": "Sloovere, 'Psyche', Champagne NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 175.0
+  },
+  {
+   "name": "Huré Frères, 'Insouciance', Rosé Champagne NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 200.0
+  },
+  {
+   "name": "Marie Courtin, 'Concordance' Blanc de Noirs, Champagne NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 275.0
+  },
+  {
+   "name": "Day Wines, Alsatian White Blend, Willamette Valley 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Reveille, 'Carpe', Grenache Gris & Muscat, Côte Catalanes 2021 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "Montenidoli, 'Tradizionale', Vernaccia di San Gimignano 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Falkenstein, Krettnacher Altenberg, Riesling Spätlese Troken, Mosel 2025 (bottle",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
+  },
+  {
+   "name": "Chidaine, 'Les Tuffeaux', Chenin Blanc Tendre, Montlouis 2020 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 110.0
+  },
+  {
+   "name": "Falsini, 'Via Aurelia', Vermentino, Bolgheri 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 120.0
+  },
+  {
+   "name": "Pardas Sus Scrofa, Sumoll, Penedès 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Castello di Bagnolo, 'SET' Piedmontese Blend 2018 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "La Grosse Pierre, Gamay, Chiroubles 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Liska, Gamay Noir, Willamette Valley 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Bedrock Wine Co., Old Vine Zinfandel, Sonoma 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Loop de Loop, 'Birdsong' Syrah, Columbia Gorge 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
   }
  ],
  "sources": [

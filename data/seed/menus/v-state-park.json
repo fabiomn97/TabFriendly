@@ -432,6 +432,78 @@
    "serve": "glass",
    "oz": null,
    "price": 11.0
+  },
+  {
+   "name": "Zero Gravity | Conehead IPA (pitcher)",
+   "type": "Zero Gravity Conehead IPA",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 33.75
+  },
+  {
+   "name": "Lamplighter | Birds Of A Feather NEIPA (pitcher)",
+   "type": "Lamplighter Birds of a Feather",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 37.5
+  },
+  {
+   "name": "Narragansett | Lager (pitcher)",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 22.5
+  },
+  {
+   "name": "Notch | Czech-Style Pilsner (pitcher)",
+   "type": "Notch Czech-Style Pilsner",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 33.75
+  },
+  {
+   "name": "Sacred Profane | Dark Lager (pitcher)",
+   "type": "Sacred Profane Dark Lager",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 37.5
+  },
+  {
+   "name": "Alsina & Sardà | Cava Brut Reserva (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Luc Poullain x Mary Taylor | Touraine Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Muller-Ruprecht | Orange (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Jérémie Huchet | Chapeau Melon Rosé (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 35.0
   }
  ],
  "sources": [

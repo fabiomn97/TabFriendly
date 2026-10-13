@@ -352,6 +352,134 @@
    "serve": null,
    "oz": null,
    "price": 16.0
+  },
+  {
+   "name": "Troupis 'Pitys Ritinitis' PDO Retsina NV (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Markou Vineyards PDO Retsina of Attiki NV (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "Skouras, PDO Mantinia 2025 (moschofilero) (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Thymiopoulos Vineyards 'Atma White' PGI Macedonia 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 57.0
+  },
+  {
+   "name": "Skouras 'Salto' PGI Peloponnese 2022 (moschofilero) (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Alpha Estate 'Turtle Vineyards' PGI Florina 2024 (malagousia) (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Voyatzi PGI Velventos 2024 (xinomavro/tsapournakos) (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Troupis 'Hoof & Lur' PGI Arcadia 2024 (moschofilero) (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "Oenops 'Apla' EO Greece 2025 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 66.0
+  },
+  {
+   "name": "Vaimaki 'Apeiros Gaea' Pet Nat EO Greece NV (debina) (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Paparas 'Melanthia' Ancestral PGI Tyrnavos 2024 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Tatsis, PGI Macedonia 2020 (limnio) (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Halkia, PGI Corinth 2024 (agiorgitiko) (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 66.0
+  },
+  {
+   "name": "Markou 'Emeis' PGI Attiki 2022 (mandilaria/agiorgitiko) (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Zafeirakis PGI Tyrnavos 2021 (limniona) (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Aivalis, PDO Nemea 2023 (agiorgitiko) (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 69.0
   }
  ],
  "sources": [

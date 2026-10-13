@@ -264,11 +264,173 @@
    "serve": "glass",
    "oz": null,
    "price": 17.0
+  },
+  {
+   "name": "NV Batiso Prosecco DOCG (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 57.0
+  },
+  {
+   "name": "NV Medici Ermette Lambrusco \"Concerto\" (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 57.0
+  },
+  {
+   "name": "NV Azimut Cava Extra Brut Rosé (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 66.0
+  },
+  {
+   "name": "NV Jean Lassalle Champagne Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 90.0
+  },
+  {
+   "name": "NV Veuve Clicquot Champagne Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 120.0
+  },
+  {
+   "name": "NV Ruinart Champagne Brut Blanc de Blancs (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
+  },
+  {
+   "name": "2023 Cantina Boriassi \"Linaro\" Vermentino (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "2009 Château Anglican \"Granit St Lu\" Melon de Bourgogne (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "2020 Famille Hugel Pinot Gris \"Classic\" (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "2022 Mustilli Falanghina del Sannio DOC (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "2021 Domaine Brun \"Terres Dorées\" Chardonnay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 66.0
+  },
+  {
+   "name": "2021 Domaine Delaille \"Unique\" Sauvignon Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 69.0
+  },
+  {
+   "name": "2021 Terra Ambera Muscat of Alexandria (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 66.0
+  },
+  {
+   "name": "2022 Peyrassol La Croix (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "2020 Château du Trignon Côtes du Rhône (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 57.0
+  },
+  {
+   "name": "2021 Domaine de la Beche Morgon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "2020 Jean-Maurice Raffault Chinon \"Les Galuches\" (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "2022 Cantrina Riviera del Garda Classico (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "2022 Corte Bravi Scatto IGT Verona (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "2019 Château Pertignas Bordeaux (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 66.0
   }
  ],
  "sources": [
   "https://www.frenchieboston.com/drink-list",
-  "https://images.squarespace-cdn.com/content/v1/57fe48826b8f5bd0c5622865/9a8e7f88-6a76-47b4-86b7-7ef9717630d7/Screen+Shot+2025-07-01+at+8.43.42+PM.png"
+  "https://images.squarespace-cdn.com/content/v1/57fe48826b8f5bd0c5622865/9a8e7f88-6a76-47b4-86b7-7ef9717630d7/Screen+Shot+2025-07-01+at+8.43.42+PM.png",
+  "https://images.squarespace-cdn.com/content/v1/57fe48826b8f5bd0c5622865/48ada454-5e2a-4bc3-8c73-f452441d6b65/Screen+Shot+2025-07-01+at+8.43.54+PM.png",
+  "https://images.squarespace-cdn.com/content/v1/57fe48826b8f5bd0c5622865/b965b2de-2eac-4d54-8bb7-ec012d146132/Screen+Shot+2025-07-01+at+8.44.04+PM.png"
  ],
  "sourceDate": "2025-07",
  "by": null,

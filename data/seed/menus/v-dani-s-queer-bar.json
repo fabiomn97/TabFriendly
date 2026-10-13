@@ -312,6 +312,14 @@
    "serve": "glass",
    "oz": null,
    "price": 10.0
+  },
+  {
+   "name": "Beer Pitcher (any draft beer) (pitcher)",
+   "type": "Draft beer",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 35.0
   }
  ],
  "sources": [

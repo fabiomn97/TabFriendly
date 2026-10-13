@@ -40,6 +40,22 @@
    "serve": "cocktail",
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "Amalfi (pitcher)",
+   "type": "Amalfi Spritz",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Sangria (pitcher)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 45.0
   }
  ],
  "sources": [

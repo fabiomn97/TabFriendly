@@ -592,6 +592,94 @@
    "serve": "glass",
    "oz": null,
    "price": 11.0
+  },
+  {
+   "name": "Fiddlehead IPA (pitcher)",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 29.0
+  },
+  {
+   "name": "Narragansett Lager (pitcher)",
+   "type": "Narragansett",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Kona Big Wave (pitcher)",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Tavern Sangria (pitcher)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Pinot Grigio, Villa Marchesi (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Chardonnay, Black Stallion (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Sauvignon Blanc, Stoneleigh (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Pinot Noir, Z Alexander Brown (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Coppola (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "(Uncaged) Red Blend, Z Alexander Brown (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Prosecco, Beato Bartolomeo Braganza (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
   }
  ],
  "sources": [

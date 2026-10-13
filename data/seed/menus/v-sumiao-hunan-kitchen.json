@@ -376,6 +376,150 @@
    "serve": null,
    "oz": 12,
    "price": 24.0
+  },
+  {
+   "name": "Pinot Noir, 2023 - Domaine Villargeau - Coteaux du Giennois (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Syrah, 2024 - Saint Cosme - Cotes-du-Rhone (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Cabernet Sauvignon, 2023 - Requiem - Columbia Valley (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "2023 - Cristom Mt. Jefferson Cuvee (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "2021 - Hirsch Vineyard San Andreas Fault (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 138.0
+  },
+  {
+   "name": "2022 - Domaine Vieux Telegraphe 'Telegramme' CDP (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 158.0
+  },
+  {
+   "name": "2021 - Heitz Cellar - Napa Valley (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 158.0
+  },
+  {
+   "name": "Albariño, 2024 - Monte Pio - Rías Baixas (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Sauvignon Blanc, 2024 - Delaille 'Unique' - Touraine (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Chardonnay, 2023 - Kara Tara - Western Cape (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "2023 - Cloudy Bay - Malborough (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "2023 - Domaine Frantz Chagnoleau 'Pastoral' - Pouilly Fuisse (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "Prosecco, NV - Adami Garbel - Treviso (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Sparkling Rosé, NV - Arnaud Lambert Rose - Loire Valley (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "NV - Billecart Salmon Brut Reserve (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 138.0
+  },
+  {
+   "name": "NV - Paul Bara Grand Cru Rose (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 168.0
+  },
+  {
+   "name": "2016 - Paul Bara Special Club (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 288.0
+  },
+  {
+   "name": "MV - Krug Brut Grand Cuvee (750ml) (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 498.0
   }
  ],
  "sources": [

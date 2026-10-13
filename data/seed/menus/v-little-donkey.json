@@ -320,9 +320,155 @@
    "serve": "glass",
    "oz": null,
    "price": 16.0
+  },
+  {
+   "name": "Azimut Penedes, Spain NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Filipa Pato \"3B\" Sparkling Rosé, Beira, Portugal NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Melsheimer \"Rurale\" Mosel, Germany '20 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 78.0
+  },
+  {
+   "name": "Keltis \"Mario Nature\" Slovenia NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "Lelarge Pugeot \"Tradition\" Extra Brut, Champagne, France NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 140.0
+  },
+  {
+   "name": "Quinta de Raza, Vinho Verde, Basto, Portugal '23 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Earl B. de Goulaine \"La Berriere\" Muscadet, Loire, France '24 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Land of Saints, Santa Barbara, California '25 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Christina, Burgenland, Austria '21 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Lagar d. Cervera, Rias Baixas, Spain '24 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Margins Wilson Vineyard, Clarksburg, California '24 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "Cantine Garrone Piedmont, Italy '22 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Meinklang \"Burgenland Red\" Burgenland, Austria '23 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Christina \"Kuhlbar Chillable Red\", Burgenland, Austria '24 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Clos Siguier Cahors, France '20 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Laura Lardy \"Gourde a Gamay\", Beaujolais-Villages, France '23 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 67.0
+  },
+  {
+   "name": "Clos de Fous, Maule, Chile '24 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Kiko Calvo, \"Bigardo\" Castilla y Leon, Spain '20 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
   }
  ],
- "sources": [],
+ "sources": [
+  "https://www.littledonkeycambridge.com/menu"
+ ],
  "sourceDate": null,
  "by": null,
  "at": "2026-10-05T00:00:00.000Z"

@@ -272,6 +272,150 @@
    "serve": null,
    "oz": null,
    "price": 9.0
+  },
+  {
+   "name": "21 Schramsberg \"Blanc de Blancs\" (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 97.0
+  },
+  {
+   "name": "NV A.R Lenoble \"V.20\" (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 99.0
+  },
+  {
+   "name": "NV EPC Brut Champagne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
+  },
+  {
+   "name": "16 Vazart Coquart \"Grand Bouquet\" (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 194.0
+  },
+  {
+   "name": "12 Hugues Godmé \"Millésime\" (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 208.0
+  },
+  {
+   "name": "16 Camille Saves \"Cuvée Anaîs Jolicoeur\" (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 244.0
+  },
+  {
+   "name": "24 Tyler Vineyards Chardonnay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 74.0
+  },
+  {
+   "name": "25 Quinta de Curvos Alvarinho (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "24 Sophie Schaal \"Alsace\" (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "25 Outward \"Montana de Oro\" (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 82.0
+  },
+  {
+   "name": "25 Kelley Fox Gruner Veltliner (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 85.0
+  },
+  {
+   "name": "23 Borgo del Tiglio \"Collio Bianco\" (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 90.0
+  },
+  {
+   "name": "20 Adega Marel \"Manolito Tinto\" (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "25 Sophie Schaal Pinot Noir (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 71.0
+  },
+  {
+   "name": "25 Outward/Shell Creek (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "23 Domaine de Fa \"Beaujolais en Besset\" (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "24 Jean-Philippe Fichet \"Bourgogne Rouge\" (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 84.0
+  },
+  {
+   "name": "24 Kelley Fox \"Mirabai\" (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 99.0
   }
  ],
  "sources": [

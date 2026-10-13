@@ -200,6 +200,70 @@
    "serve": "glass",
    "oz": null,
    "price": 10.0
+  },
+  {
+   "name": "Harpoon IPA (pitcher)",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Sam Adams Boston Lager (pitcher)",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 26.25
+  },
+  {
+   "name": "Sam Adams Seasonal (pitcher)",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 26.25
+  },
+  {
+   "name": "Fiddlehead IPA (pitcher)",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Downeast Original Blend Cider (pitcher)",
+   "type": "Cider",
+   "kind": "other",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Notch Session Pils (pitcher)",
+   "type": "Notch Session Pils",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Jack's Abby House Lager (pitcher)",
+   "type": "Jack's Abby House Lager",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "Night Shift Whirlpool Pale Ale (pitcher)",
+   "type": "Night Shift Whirlpool",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 29.0
   }
  ],
  "sources": [

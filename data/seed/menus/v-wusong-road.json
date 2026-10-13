@@ -136,11 +136,44 @@
    "serve": "glass",
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "Huber Riesling, Traisental, Austria (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "Huber Grüner Veltliner, Traisental, Austria (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "Huber Pinot Noir, Traisental, Austria (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 53.0
+  },
+  {
+   "name": "Bailly Lapierre Brut, Crémant de Bourgogne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 27.0
   }
  ],
  "sources": [
   "https://www.wusongroad.com/menu",
-  "https://heyzine.com/flip-book/2b2f24fba9.html"
+  "https://heyzine.com/flip-book/2b2f24fba9.html",
+  "https://cdnm.heyzine.com/files/uploaded/v3/2b2f24fba9c57ca005c56ee9e5079a5c6c0d1984.pdf"
  ],
  "sourceDate": "2026-09",
  "by": null,

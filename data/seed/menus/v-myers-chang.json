@@ -192,6 +192,78 @@
    "serve": null,
    "oz": 12,
    "price": 8.0
+  },
+  {
+   "name": "Bloodlust margarita (pitcher)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Mai Tai (pitcher)",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Charles Baur Crémant d'Alsace Brut NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Filipa Pato 3B Sparkling Rosé NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Sauvignon Blanc, Domaine du Grand Moulin, Loire 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Riesling, Weingut Gelerslay 'Vertigo' Feinherb, Mosel 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Chardonnay, Ian Brand Paysan Jacks' Hill, Monterey 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Cinsault, Domaine Rimbert 'Cousin Oscar', Languedoc 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Cabernet Franc, Red Tail Ridge, Finger Lakes 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
   }
  ],
  "sources": [

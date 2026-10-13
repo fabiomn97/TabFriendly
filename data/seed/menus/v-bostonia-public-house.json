@@ -800,10 +800,187 @@
    "serve": "glass",
    "oz": 14,
    "price": 32.0
+  },
+  {
+   "name": "Sparkling Wine, Scotto Cellars, NV, Lodi, CA (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Classic Brut, Gruet, NV, Albuquerque, NM (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Brut Rose, Gruet, NV, Albuquerque, NM (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Brut Blanc de Blancs, Sauvage, NV, Albuquerque, NM (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Brut, Domaine Carneros, NV, Carneros, CA (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 85.0
+  },
+  {
+   "name": "Perrier Jouet, NV, Epermay, FR (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 145.0
+  },
+  {
+   "name": "Pet-Nat Rose, Muller-Ruprecht, 2024, Pfalz, GER (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Rose, Chateau de Roquefort, Cotes de Provence \"Corail\" Rose, 2025, Provence, FR ",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Rose, One Stone Cellars, 2025, Paso Robles, CA (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Chardonnay, Bostonia Public House, NV, Napa Valley, CA (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Pinot Blanc, High Hook 2024 Willamette Valley, OR (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Pinot Grigio, Via Alpina, Colli Orientali Del Friuli, 2025, Friuli-Venezia Giuli",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Riesling, Seehof, Rheinhessen Deutscher Qulitatswein, 2023, Rheinhessen, DE (bot",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Sauvignon Blanc, Saint Clair Family Estate, 2023, Malborough, NZ (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Chardonnay, Husch Vineyards, 2023, Mendocino, CA (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Moschofilero, Troupis Winery, \"Hoof & Lur\", 2023, Peloponnese, GR (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Pinot Noir, Bostonia Public House, NV, Napa Valley, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Starmont, 2021, North Coast, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Merlot, Textbook 2022 Napa Valley CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Syrah, Barnard Griffin, 2022, Columbia Valley, WA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Gail Wines \"Doris\", 2022, Sonoma, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Zinfandel, Frey Biodynamic, 2021, Mendocino County, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
   }
  ],
  "sources": [
-  "https://www.bostoniapublichouse.com/drink"
+  "https://www.bostoniapublichouse.com/drink",
+  "https://www.bostoniapublichouse.com/menus/wine-menu?location=boston"
  ],
  "sourceDate": null,
  "by": null,

@@ -1016,11 +1016,37 @@
    "serve": null,
    "oz": null,
    "price": 9.0
+  },
+  {
+   "name": "gato Margarita (pitcher)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "bloody maria classico (pitcher)",
+   "type": "Bloody Maria",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "bloody maria tomatillo (pitcher)",
+   "type": "Bloody Maria",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 84.0
   }
  ],
  "sources": [
   "https://heyzine.com/flip-book/87133cd40d.html",
-  "https://cdnm.heyzine.com/files/uploaded/v3/87133cd40d0389b09d24929c2a03a3b8bea2f7d6.pdf"
+  "https://cdnm.heyzine.com/files/uploaded/v3/87133cd40d0389b09d24929c2a03a3b8bea2f7d6.pdf",
+  "https://cdnm.heyzine.com/files/uploaded/cdcff1dacf588fbe9243a4b4df892556cd2f8d45.pdf",
+  "https://cdnm.heyzine.com/files/uploaded/v3/7b3822764e29412b5430e73c02a02eeac217c2f9.pdf"
  ],
  "sourceDate": null,
  "by": null,

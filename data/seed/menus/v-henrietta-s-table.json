@@ -160,6 +160,14 @@
    "serve": null,
    "oz": null,
    "price": 9.0
+  },
+  {
+   "name": "NV Moët & Chandon Impérial Brut, Champagne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 175.0
   }
  ],
  "sources": [

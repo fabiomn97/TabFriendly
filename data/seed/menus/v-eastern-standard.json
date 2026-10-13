@@ -488,12 +488,205 @@
    "serve": "can",
    "oz": 12,
    "price": 9.0
+  },
+  {
+   "name": "NV Rene Briand Brut Rosé, Burgundy (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "'22 Alice Brut Nature, Prosecco di Valdobbiadene (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "NV Moutard Brut, Cremant de Bourgogne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 69.0
+  },
+  {
+   "name": "NV Piper Heidsieck '1785' Brut, Reims (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 108.0
+  },
+  {
+   "name": "NV Ayala 'Brut Majeur,' Aÿ (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 109.0
+  },
+  {
+   "name": "NV Autreau 1er cru Brut, Champillon (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 112.0
+  },
+  {
+   "name": "'25 Weingut Seehof Rheinhessen 'Pinot Noir' (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "'23 Bedrock 'Ode to Lulu' California 'Mourvèdre Blend' (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "'23 Domaine de la Tour du Bon Bandol 'Mourvèdre Blend' (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "'24 Gérard Boulay 'Sibylle' Sancerre 'Sauvignon Blanc' (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "'23 Château Pradeaux Cotes de Provence 'Mourvèdre Blend' (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 79.0
+  },
+  {
+   "name": "'22 Clos Cibonne 'Cuvée Speciale des Vignettes' Côtes de Provence 'Tibouren' (bo",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 119.0
+  },
+  {
+   "name": "'23 Domaine de la Pépière 'La Pepie' Muscadet 'Melon de Bourgogne' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "'23 Florian le Capitaine 'Les Aumônes' Vouvray 'Chenin Blanc' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "'25 Ken Forrester 'Old Vine Reserve' Stellenbosch 'Chenin Blanc' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "'23 Le Portail Cour-Cheverny 'Romorantin' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "'21 Bernhard Stadlman Thermenregion 'Riesling' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "'23 La Raia Gavi 'Cortese' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "'21 Vaeni Naoussa Naoussa 'Xinomavro' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "'23 Stéphane Lucas 'Papillon d'Orphée' Côtes du Tarn 'Fer Servadou' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "'21 I Custodi 'Pistus' Etna Rosso 'Nerello Mascalese' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "'22 Alex Foillard Beaujolais-Villages 'Gamay' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "'21 Lucien Lardy Les Thorins, Moulin-à-Vent 'Gamay' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "'23 Chateau du Petit Thouars 'Les Georges' Chinon 'Cabernet Franc' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
   }
  ],
  "sources": [
   "https://media-cdn.getbento.com/accounts/e34bb88b91e87e5658580bcbae1e77bd/media/ZAKsdEFhT065DE4E5WUq_ESK%20Cocktail%20Menu%207.8.26%20for%20website.pdf",
   "https://media-cdn.getbento.com/accounts/e34bb88b91e87e5658580bcbae1e77bd/media/WdmRdfaSSF6QsbfyeNJQ_Wine%20by%20the%20Glass%209%3A2%3A26.pdf",
-  "https://www.easternstandardboston.com/menus/"
+  "https://www.easternstandardboston.com/menus/",
+  "https://media-cdn.getbento.com/accounts/e34bb88b91e87e5658580bcbae1e77bd/media/meBnH3aTj6PyA29kB2UJ_ESK%20Wine%20List_2025%208.12.26%20website.pdf"
  ],
  "sourceDate": "2026-09",
  "by": null,

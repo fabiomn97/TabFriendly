@@ -616,6 +616,158 @@
    "serve": "cocktail",
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "Cava Brut NV Spain (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Rosé Cava NV Poema Brut Rose, Bracelona Spain (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Korbel Brut California (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Piper Heidsieck Cuvee Brut NV Cuvee, France (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 140.0
+  },
+  {
+   "name": "Kendall Jackson 2019 Chardonnay, Santa Barbara, California (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Chateau Ste Michelle 2021 Riesling, Columbia Valley, WA (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Kim Crawford 2022 Sauvignon Blanc, Marlborough, New Zealand (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Bottega Vinaia 2021 Pinot Grigio, Trentino, Italy (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Santa Margherita 2021 Pinot Grigio, Alto Adige (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "Rocca Della Macie 2011 Chianti Classico, Italy (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Aruma 2021 Malbec Mendoza (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Murphy Goode Pinot Noir, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Francis Coppola 2020 Cabernet Sauvignon, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Robert Mondavi 2023 Merlot (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Altesino \"Super Tuscan\" 2019 Sangiovese, Merlot, & Cabernet Sauvignon Blend, Tus",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Erggelet Brothers 2018 Zinfandel, Del Barba Vineyard, Contra Costa Vineyard, CA ",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Silenus, Tyros 2017 Cabernet Sauvignon, Napa Valley CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Stag's Leap Wine Cellars, Artemis 2019 Cabernet Sauvignon, Napa Valley, CA (bott",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 125.0
+  },
+  {
+   "name": "Cade Estate 2017 Cabernet Sauvignon, Howell Mountain, Napa Valley, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
   }
  ],
  "sources": [

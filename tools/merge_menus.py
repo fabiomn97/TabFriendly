@@ -12,7 +12,7 @@ import collections, json, os, re, sys, unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "menus.json")
 KINDS = {"beer", "mixed", "wine", "other"}
-SERVES = {"draft", "bottle", "can", "well", "cocktail", "glass"}
+SERVES = {"draft", "bottle", "can", "well", "cocktail", "glass", "pitcher"}
 CANON = """Coors Light|Coors Banquet|Bud Light|Budweiser|Miller Lite|Miller High Life|Michelob Ultra|Pabst Blue Ribbon|
 Narragansett Lager|Sam Adams Boston Lager|Guinness|Modelo Especial|Negra Modelo|Corona Extra|Corona Light|Pacifico|Dos Equis|
 Tecate|Heineken|Stella Artois|Peroni|Sapporo|Kirin Ichiban|Asahi|Tsingtao|Blue Moon|Harpoon IPA|Allagash White|
@@ -74,7 +74,7 @@ for f in sys.argv[1:]:
             continue
         items, seen = [], set()
         for it in m.get("items") or []:
-            price = num(it.get("price"), 0.5, 100)
+            price = num(it.get("price"), 0.5, 500)  # bottles of wine and pitchers can run past $100
             name = re.sub(r"\s+", " ", str(it.get("name") or "")).strip()
             kind = it.get("kind")
             if not price or not name or kind not in KINDS:

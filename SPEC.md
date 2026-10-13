@@ -32,6 +32,11 @@ Each price records its source (a URL, "user-reported", or "editor") and its date
 - A second toggle ranks by **Total price** or **Per ounce**. Per ounce ranks only drinks with a known pour size.
   Venues whose prices all lack a size show an `oz?` pin and are listed after the ranked ones.
 - A **Drinks** filter lets people search for and tick specific drinks (e.g. Coors Light, margarita). Each venue then shows its cheapest ticked drink.
+- A **Size** button next to it picks the portions that count. **Just for you:** glass, bottle, draft, can (the default).
+  **To share:** a bottle of wine, a pitcher. Rankings, the Drinks filter and the card's cheapest prices use only the ticked sizes;
+  with bottles of wine ticked, wine joins Cheapest drink and Overall, and the card adds a "Cheapest bottle of wine". Drinks whose
+  pour isn't known count only while all four personal sizes are ticked. The Max price slider goes up to $80 while a share size is on.
+  Menus list pitchers and bottles of wine after the personal pours, tagged "to share".
 - A **Max price** slider hides venues above the chosen price.
 - Each pin shows the price for the current view. The **three cheapest** are green.
 - List rows say whether the venue is open now.

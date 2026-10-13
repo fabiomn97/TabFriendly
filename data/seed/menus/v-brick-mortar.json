@@ -1120,6 +1120,70 @@
    "serve": null,
    "oz": null,
    "price": 14.0
+  },
+  {
+   "name": "Moet & Chandon | Grand Vintage Brut | 2013 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 195.0
+  },
+  {
+   "name": "Dom Pérignon | Brut | 2010 Vintage (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 495.0
+  },
+  {
+   "name": "Pol Roger | Brut | Extra Cuvée de Réserve | NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
+  },
+  {
+   "name": "Jean Vesselle | Brut Blanc de Noir | NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 120.0
+  },
+  {
+   "name": "G.H. Mumm & Cie | Grand Cordon Rosé | NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 125.0
+  },
+  {
+   "name": "Cruse Tradition Rose | 2019 Base (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 125.0
+  },
+  {
+   "name": "Möet & Chandon | Nectar Imperial Rosé | NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
+  },
+  {
+   "name": "Adam Mereaux | 'L'Affût' Blanc de Blancs Extra Brut | NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 120.0
   }
  ],
  "sources": [

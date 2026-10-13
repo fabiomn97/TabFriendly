@@ -312,6 +312,46 @@
    "serve": "cocktail",
    "oz": null,
    "price": 12.0
+  },
+  {
+   "name": "Sparkling (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 27.0
+  },
+  {
+   "name": "Chardonnay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 32.0
+  },
+  {
+   "name": "Sauvignon Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 32.0
+  },
+  {
+   "name": "Cabernet Sauvignon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 33.0
+  },
+  {
+   "name": "Pinot Noir (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 33.0
   }
  ],
  "sources": [
