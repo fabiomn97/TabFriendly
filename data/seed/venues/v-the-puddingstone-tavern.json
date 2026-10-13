@@ -1,0 +1,12 @@
+{
+ "name": "The Puddingstone Tavern",
+ "type": "bar",
+ "address": "1592 Tremont St, Boston, MA 02120",
+ "lat": 42.3335,
+ "lng": -71.1015,
+ "website": "http://www.thepuddingstonetavern.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

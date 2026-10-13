@@ -1,0 +1,12 @@
+{
+ "name": "City Winery",
+ "type": "restaurant",
+ "address": "80 Beverly Street, Boston, MA 02114",
+ "lat": 42.364064,
+ "lng": -71.058667,
+ "website": "https://citywinery.com/boston",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

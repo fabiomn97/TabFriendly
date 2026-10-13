@@ -1,0 +1,16 @@
+{
+ "venueId": "v-night-shift-brewing-lovejoy-wharf",
+ "hours": {
+  "mon": "15:00-21:00",
+  "tue": "15:00-21:00",
+  "wed": "15:00-21:00",
+  "thu": "15:00-21:00",
+  "fri": "11:30-23:00",
+  "sat": "11:30-23:00",
+  "sun": "11:30-20:00"
+ },
+ "source": "https://nightshiftbrewing.com/locations/boston-lovejoy-wharf",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

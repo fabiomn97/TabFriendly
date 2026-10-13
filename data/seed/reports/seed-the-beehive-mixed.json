@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-beehive",
+ "kind": "mixed",
+ "drink": "Tiki Rock / Beehive Sangria",
+ "price": 16.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.beehiveboston.com/menu?location=Location+1&menu=drinks",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

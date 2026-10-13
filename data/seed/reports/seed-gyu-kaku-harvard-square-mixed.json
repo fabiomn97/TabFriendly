@@ -1,0 +1,14 @@
+{
+ "venueId": "v-gyu-kaku-harvard-square",
+ "kind": "mixed",
+ "drink": "Strawberry Lemonade Soju",
+ "price": 11.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.gyu-kaku.com/wp-content/uploads/2026/01/brl_hsq_drink2512.pdf",
+ "sourceDate": "2025-12",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

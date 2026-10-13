@@ -1,0 +1,16 @@
+{
+ "venueId": "v-aeronaut-brewing-company",
+ "hours": {
+  "mon": "17:00-23:00",
+  "tue": "17:00-23:30",
+  "wed": "17:00-23:30",
+  "thu": "17:00-24:00",
+  "fri": "12:00-00:30",
+  "sat": "12:00-00:30",
+  "sun": "12:00-22:00"
+ },
+ "source": "https://www.aeronautbrewing.com/visit/somerville/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

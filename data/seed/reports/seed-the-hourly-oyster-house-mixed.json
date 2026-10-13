@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-hourly-oyster-house",
+ "kind": "mixed",
+ "drink": "Bee Sharp (also Dark Paradise)",
+ "price": 14.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.thehourlycambridge.com/menus",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

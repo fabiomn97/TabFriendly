@@ -1,0 +1,16 @@
+{
+ "venueId": "v-backbar",
+ "hours": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "17:00-00:00",
+  "thu": "17:00-00:00",
+  "fri": "17:00-00:00",
+  "sat": "17:00-00:00",
+  "sun": "17:00-00:00"
+ },
+ "source": "https://www.backbarunion.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

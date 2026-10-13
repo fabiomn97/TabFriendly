@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-maharaja",
+ "kind": "beer",
+ "drink": "Taj Mahal Indian Lager",
+ "price": 8.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://maharajaboston.com/wp-content/uploads/2026/05/Maharaja-Drinks-Menu-2026.pdf",
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

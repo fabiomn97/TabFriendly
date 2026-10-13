@@ -1,0 +1,14 @@
+{
+ "venueId": "v-stillwater",
+ "kind": "mixed",
+ "drink": "Pretty In Pink (Tito's, coconut, lime, cranberry; several cocktails at $15)",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.stillwaterboston.com/menus/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

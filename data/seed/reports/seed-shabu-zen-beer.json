@@ -1,0 +1,14 @@
+{
+ "venueId": "v-shabu-zen",
+ "kind": "beer",
+ "drink": "Sapporo",
+ "price": 6.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.shabuzen.com/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Lan Feast",
+ "type": "restaurant",
+ "address": "250 Harvard St, Brookline, MA 02446",
+ "lat": 42.341421,
+ "lng": -71.121229,
+ "website": "https://www.lan-feast.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

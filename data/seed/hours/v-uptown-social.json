@@ -1,0 +1,16 @@
+{
+ "venueId": "v-uptown-social",
+ "hours": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "closed",
+  "thu": "17:00-00:00",
+  "fri": "17:00-02:00",
+  "sat": "17:00-02:00",
+  "sun": "17:00-00:00"
+ },
+ "source": "https://uptownsocialboston.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

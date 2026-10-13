@@ -1,0 +1,16 @@
+{
+ "venueId": "v-pammy-s",
+ "hours": {
+  "mon": "17:00-22:30",
+  "tue": "17:00-22:30",
+  "wed": "17:00-22:30",
+  "thu": "17:00-22:30",
+  "fri": "17:00-23:30",
+  "sat": "17:00-23:30",
+  "sun": "closed"
+ },
+ "source": "https://www.pammyscambridge.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

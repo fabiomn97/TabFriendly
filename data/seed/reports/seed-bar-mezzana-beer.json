@@ -1,0 +1,14 @@
+{
+ "venueId": "v-bar-mezzana",
+ "kind": "beer",
+ "drink": "Miller High Life",
+ "price": 5.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://media-cdn.getbento.com/accounts/9e1594ca10a552622fa0d4283e742b5b/media/uknNehRReyghbd4fR8kh_9.17.26%20bev%20for%20web-ocr-compressed%C2%A0%281%29.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

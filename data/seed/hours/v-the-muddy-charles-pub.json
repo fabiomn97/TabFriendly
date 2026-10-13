@@ -1,0 +1,16 @@
+{
+ "venueId": "v-the-muddy-charles-pub",
+ "hours": {
+  "mon": "15:30-21:30",
+  "tue": "15:30-21:30",
+  "wed": "15:30-21:30",
+  "thu": "15:30-21:30",
+  "fri": "12:30-21:30",
+  "sat": "closed",
+  "sun": "closed"
+ },
+ "source": "https://muddy.mit.edu",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

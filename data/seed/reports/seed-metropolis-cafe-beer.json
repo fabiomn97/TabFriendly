@@ -1,0 +1,14 @@
+{
+ "venueId": "v-metropolis-cafe",
+ "kind": "beer",
+ "drink": "Von Trapp Dunkel",
+ "price": 10.5,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.metropolisboston.com/menus/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

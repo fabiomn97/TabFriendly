@@ -1,0 +1,12 @@
+{
+ "name": "The Alley Bar",
+ "type": "bar",
+ "address": "14 Pi Alley, Boston, MA",
+ "lat": 42.358109,
+ "lng": -71.058716,
+ "website": "http://www.thealleybar.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

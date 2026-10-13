@@ -1,7 +1,7 @@
 """Turn data/venues.json (the reviewed research list) into one JSON file per database document.
 
 Output: data/seed/venues/<id>.json, data/seed/reports/<id>.json and data/seed/menus/<venue id>.json (from
-data/menus.json, if present), plus data/seed/batches.json —
+data/menus.json, if present), data/seed/hours/<venue id>.json (from data/hours.json, if present), plus data/seed/batches.json —
 a list of ArtifactData batch-write lists (50 writes max each) for the documents not in the live snapshot (data/live/).
 
 Run:  python tools/make_seed.py
@@ -28,14 +28,14 @@ def slug(s):
 
 venues = json.load(open(SRC, encoding="utf-8"))
 writes, seen = [], set()
-for sub in ("venues", "reports", "menus"):
+for sub in ("venues", "reports", "menus", "hours"):
     os.makedirs(os.path.join(OUT, sub), exist_ok=True)
     for f in os.listdir(os.path.join(OUT, sub)):
         os.remove(os.path.join(OUT, sub, f))
 
 for v in venues:
     d = dist_mi(v["lat"], v["lng"])
-    if d > 1.5:
+    if d > 2.0:
         print(f"skip (outside radius, {d:.2f} mi): {v['name']}")
         continue
     vid = "v-" + slug(v["name"])
@@ -76,10 +76,24 @@ for m in json.load(open(MENUS, encoding="utf-8")) if os.path.exists(MENUS) else 
     menu_writes.append({"op": "set", "collection": "menus", "doc_id": m["venue_id"], "file_path": path})
 writes += menu_writes
 
+# Standard opening hours (data/hours.json, built by tools/merge_hours.py): one doc per venue, keyed by the venue id.
+HOURS = os.path.join(ROOT, "data", "hours.json")
+live_venues = set()
+p_live = os.path.join(ROOT, "data", "live", "venues.json")
+if os.path.exists(p_live):
+    live_venues = set(json.load(open(p_live, encoding="utf-8")))
+for vid, h in sorted((json.load(open(HOURS, encoding="utf-8")) if os.path.exists(HOURS) else {}).items()):
+    if vid not in seen and vid not in live_venues:
+        continue
+    doc = {"venueId": vid, "hours": h["hours"], "source": h.get("source"), "checked": h.get("checked"), "by": None, "at": SEED_AT}
+    path = os.path.join(OUT, "hours", vid + ".json")
+    json.dump(doc, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    writes.append({"op": "set", "collection": "hours", "doc_id": vid, "file_path": path})
+
 # Documents already in the latest live snapshot (data/live/) are never re-sent: a write would overwrite edits
 # made in the app, and the database refuses unpinned writes to existing documents anyway.
 live = set()
-for coll in ("venues", "reports", "menus"):
+for coll in ("venues", "reports", "menus", "hours"):
     p = os.path.join(ROOT, "data", "live", coll + ".json")
     if os.path.exists(p):
         live.update(f"{coll}/{k}" for k in json.load(open(p, encoding="utf-8")))

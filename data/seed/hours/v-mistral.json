@@ -1,0 +1,16 @@
+{
+ "venueId": "v-mistral",
+ "hours": {
+  "mon": "17:00-21:00",
+  "tue": "17:00-21:00",
+  "wed": "17:00-21:00",
+  "thu": "17:00-21:00",
+  "fri": "17:00-22:00",
+  "sat": "17:00-22:00",
+  "sun": "17:00-20:30"
+ },
+ "source": "https://mistralbistro.com/about-us/hours/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

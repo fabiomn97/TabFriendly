@@ -1,0 +1,14 @@
+{
+ "venueId": "v-troquet-on-south",
+ "kind": "mixed",
+ "drink": "Flower Power Sour (several cocktails at $17)",
+ "price": 17.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.troquetboston.com/s/Lunch-930.pdf",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

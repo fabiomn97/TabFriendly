@@ -1,0 +1,16 @@
+{
+ "venueId": "v-piattini",
+ "hours": {
+  "mon": "12:00-22:00",
+  "tue": "12:00-22:00",
+  "wed": "12:00-22:00",
+  "thu": "12:00-22:00",
+  "fri": "12:00-22:30",
+  "sat": "12:00-22:30",
+  "sun": "12:00-22:00"
+ },
+ "source": "https://www.piattini.com/location/piattini/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

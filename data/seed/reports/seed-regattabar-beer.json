@@ -1,0 +1,14 @@
+{
+ "venueId": "v-regattabar",
+ "kind": "beer",
+ "drink": "Stella Artois / Amstel Light",
+ "price": 9.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.regattabarjazz.com/menus/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

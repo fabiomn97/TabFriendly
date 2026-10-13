@@ -1,0 +1,12 @@
+{
+ "name": "Bar Mezzana",
+ "type": "restaurant",
+ "address": "360 Harrison Ave, Boston, MA 02118",
+ "lat": 42.344587,
+ "lng": -71.063512,
+ "website": "https://www.barmezzana.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

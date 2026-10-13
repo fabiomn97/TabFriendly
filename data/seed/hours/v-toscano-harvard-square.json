@@ -1,0 +1,16 @@
+{
+ "venueId": "v-toscano-harvard-square",
+ "hours": {
+  "mon": "11:30-21:30",
+  "tue": "11:30-21:30",
+  "wed": "11:30-21:30",
+  "thu": "11:30-21:30",
+  "fri": "11:30-21:30",
+  "sat": "11:30-21:30",
+  "sun": "11:30-21:30"
+ },
+ "source": "https://www.toscanoboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

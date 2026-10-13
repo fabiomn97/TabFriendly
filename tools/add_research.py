@@ -1,14 +1,15 @@
 """Append new research files to data/venues.json, keeping only venues inside the radius that aren't already listed.
 
 Each file is a JSON list in the data/venues.json shape (plus an optional "miles", which is recomputed from lat/lng).
-Usage: python tools/add_research.py <research.json> [<research.json> ...]
+Usage: python tools/add_research.py [--keep-unpriced] <research.json> [<research.json> ...]
+  --keep-unpriced  also add venues with no sourced price (they show as gray "?" pins); sprint 2 adds every researched venue.
 """
 import json, math, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = os.path.join(ROOT, "data", "venues.json")
 MIT = (42.35916, -71.09348)
-RADIUS_MI = 1.5
+RADIUS_MI = 2.0
 
 
 def dist_mi(lat, lng):
@@ -35,7 +36,8 @@ def priced(p):
 
 venues = json.load(open(P, encoding="utf-8"))
 added = 0
-for f in sys.argv[1:]:
+keep_unpriced = "--keep-unpriced" in sys.argv
+for f in [a for a in sys.argv[1:] if not a.startswith("--")]:
     for v in json.load(open(f, encoding="utf-8")):
         v.pop("miles", None)
         d = dist_mi(v["lat"], v["lng"])
@@ -45,7 +47,7 @@ for f in sys.argv[1:]:
         for k in ("beer", "mixed"):
             if v.get(k) and not priced(v[k]):
                 v[k] = None
-        if not v.get("beer") and not v.get("mixed"):
+        if not v.get("beer") and not v.get("mixed") and not keep_unpriced:
             print(f"skip (no sourced price): {v['name']}")
             continue
         dup = next((m for m in venues if norm(m["name"]) == norm(v["name"])), None)

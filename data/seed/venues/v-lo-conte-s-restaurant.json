@@ -1,0 +1,12 @@
+{
+ "name": "Lo Conte's Restaurant",
+ "type": "restaurant",
+ "address": "114 Salem Street, Boston",
+ "lat": 42.36463,
+ "lng": -71.055624,
+ "website": "https://locontes.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

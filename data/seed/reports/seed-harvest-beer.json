@@ -1,0 +1,14 @@
+{
+ "venueId": "v-harvest",
+ "kind": "beer",
+ "drink": "Samuel Adams Light Lager (bottle/can)",
+ "price": 7.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.harvestcambridge.com/s/Harvest-Beverage-List-64-Update.pdf",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

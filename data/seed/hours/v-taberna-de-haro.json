@@ -1,0 +1,16 @@
+{
+ "venueId": "v-taberna-de-haro",
+ "hours": {
+  "mon": "17:00-22:00",
+  "tue": "17:00-22:00",
+  "wed": "17:00-22:00",
+  "thu": "17:00-22:00",
+  "fri": "17:00-22:00",
+  "sat": "17:00-22:00",
+  "sun": "closed"
+ },
+ "source": "https://www.aaa.com/tripcanvas/restaurant/taberna-de-haro-AA3881",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

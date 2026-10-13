@@ -1,0 +1,16 @@
+{
+ "venueId": "v-josephine",
+ "hours": {
+  "mon": "11:00-23:00",
+  "tue": "11:00-23:00",
+  "wed": "11:00-23:00",
+  "thu": "11:00-23:00",
+  "fri": "11:00-00:30",
+  "sat": "10:30-14:30,17:00-00:30",
+  "sun": "10:30-14:30,17:00-23:00"
+ },
+ "source": "https://www.josephinepizza.com/hours-and-location/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

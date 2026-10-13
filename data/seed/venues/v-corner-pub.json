@@ -1,0 +1,12 @@
+{
+ "name": "Corner Pub",
+ "type": "bar",
+ "address": "162 Lincoln Street, Boston, MA 02111",
+ "lat": 42.350773,
+ "lng": -71.05839,
+ "website": "https://cornerpubboston.net/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

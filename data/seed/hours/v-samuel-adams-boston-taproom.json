@@ -1,0 +1,16 @@
+{
+ "venueId": "v-samuel-adams-boston-taproom",
+ "hours": {
+  "mon": "11:00-21:00",
+  "tue": "11:00-21:00",
+  "wed": "11:00-21:00",
+  "thu": "11:00-21:00",
+  "fri": "11:00-23:00",
+  "sat": "11:00-23:00",
+  "sun": "11:00-21:00"
+ },
+ "source": "https://www.samueladams.com/taprooms",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

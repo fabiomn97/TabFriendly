@@ -1,0 +1,16 @@
+{
+ "venueId": "v-yvonne-s",
+ "hours": {
+  "mon": "17:00-01:00",
+  "tue": "17:00-01:00",
+  "wed": "17:00-01:00",
+  "thu": "17:00-01:00",
+  "fri": "16:00-02:00",
+  "sat": "16:00-02:00",
+  "sun": "17:00-01:00"
+ },
+ "source": "https://www.yvonnesboston.com/location/yvonnes-boston/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

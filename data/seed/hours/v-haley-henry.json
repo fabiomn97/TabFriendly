@@ -1,0 +1,16 @@
+{
+ "venueId": "v-haley-henry",
+ "hours": {
+  "mon": "closed",
+  "tue": "15:00-23:00",
+  "wed": "15:00-23:00",
+  "thu": "15:00-23:00",
+  "fri": "15:00-00:00",
+  "sat": "12:00-00:00",
+  "sun": "closed"
+ },
+ "source": "https://www.haleyhenry.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

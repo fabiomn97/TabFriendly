@@ -1,0 +1,16 @@
+{
+ "venueId": "v-the-black-sheep-lounge-bar-kendall-hotel",
+ "hours": {
+  "mon": "closed",
+  "tue": "16:30-21:30",
+  "wed": "16:30-21:30",
+  "thu": "16:30-21:30",
+  "fri": "16:30-21:30",
+  "sat": "16:30-21:30",
+  "sun": "closed"
+ },
+ "source": "https://www.kendallhotel.com/dining/black-sheep/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-barcelona-wine-bar-south-end",
+ "kind": "beer",
+ "drink": "Jack's Abby Post Shift Pilsner (draft, caÃ±a)",
+ "price": 3.75,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://barcelonawinebar.com/media/10-9-26-Menu-South-End.pdf",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-shays-pub-wine-bar",
+ "hours": {
+  "mon": "16:00-00:00",
+  "tue": "16:00-00:00",
+  "wed": "16:00-00:00",
+  "thu": "12:00-01:00",
+  "fri": "12:00-01:00",
+  "sat": "12:00-01:00",
+  "sun": "12:00-23:00"
+ },
+ "source": "https://www.shayspubwinebar.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

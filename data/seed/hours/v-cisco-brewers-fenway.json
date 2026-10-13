@@ -1,0 +1,16 @@
+{
+ "venueId": "v-cisco-brewers-fenway",
+ "hours": {
+  "mon": "closed",
+  "tue": "16:00-23:00",
+  "wed": "16:00-23:00",
+  "thu": "16:00-23:00",
+  "fri": "15:00-23:00",
+  "sat": "12:00-23:00",
+  "sun": "12:00-21:00"
+ },
+ "source": "https://ciscobrewersfenway.squarespace.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-banners-kitchen-tap",
+ "kind": "beer",
+ "drink": "Samuel Adams American Light Lager (draft, 16 oz); also Narragansett 16oz can $7",
+ "price": 7.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.bannerskitchenandtap.com/menu/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

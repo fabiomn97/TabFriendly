@@ -1,0 +1,12 @@
+{
+ "name": "Shojo",
+ "type": "restaurant",
+ "address": "9A Tyler Street, Boston, MA 02111",
+ "lat": 42.351074,
+ "lng": -71.06074,
+ "website": "https://www.shojoboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

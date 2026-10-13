@@ -1,0 +1,12 @@
+{
+ "name": "Causeway",
+ "type": "restaurant",
+ "address": "65 Causeway Street, Boston, MA",
+ "lat": 42.364499,
+ "lng": -71.062651,
+ "website": "https://www.causewayboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

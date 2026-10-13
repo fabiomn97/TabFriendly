@@ -1,0 +1,12 @@
+{
+ "name": "Sloane's",
+ "type": "restaurant",
+ "address": "197 N Harvard St, Allston, MA",
+ "lat": 42.363587,
+ "lng": -71.129498,
+ "website": "https://www.sloanesboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

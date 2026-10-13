@@ -1,0 +1,12 @@
+{
+ "name": "Noir Bar",
+ "type": "bar",
+ "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+ "lat": 42.37236,
+ "lng": -71.12267,
+ "website": "https://www.noir-bar.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

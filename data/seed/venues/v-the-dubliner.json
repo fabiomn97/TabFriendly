@@ -1,0 +1,12 @@
+{
+ "name": "The Dubliner",
+ "type": "bar",
+ "address": "2 Center Plaza, Boston, MA",
+ "lat": 42.360303,
+ "lng": -71.060581,
+ "website": "https://www.thedublinerboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

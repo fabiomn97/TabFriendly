@@ -1,0 +1,14 @@
+{
+ "venueId": "v-lan-feast",
+ "kind": "beer",
+ "drink": "Corona Extra",
+ "price": 6.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.lan-feast.com/menu.html",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

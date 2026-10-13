@@ -1,0 +1,12 @@
+{
+ "name": "JJ Foley's Bar & Grille",
+ "type": "bar",
+ "address": "21 Kingston Street, Boston, MA 02111",
+ "lat": 42.353753,
+ "lng": -71.059063,
+ "website": "http://www.jjfoleys.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

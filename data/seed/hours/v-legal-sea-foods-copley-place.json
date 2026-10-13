@@ -1,0 +1,16 @@
+{
+ "venueId": "v-legal-sea-foods-copley-place",
+ "hours": {
+  "mon": "11:30-21:00",
+  "tue": "11:30-21:00",
+  "wed": "11:30-21:00",
+  "thu": "11:30-21:00",
+  "fri": "11:30-21:30",
+  "sat": "11:30-21:30",
+  "sun": "11:30-21:00"
+ },
+ "source": "https://www.legalseafoods.com/locations/boston-copley-place/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

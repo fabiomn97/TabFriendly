@@ -1,0 +1,12 @@
+{
+ "name": "Nubar",
+ "type": "restaurant",
+ "address": "16 Garden St (Sheraton Commander Hotel), Cambridge, MA",
+ "lat": 42.377181,
+ "lng": -71.122964,
+ "website": "https://www.nubarcambridge.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

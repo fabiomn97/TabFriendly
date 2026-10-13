@@ -1,0 +1,14 @@
+{
+ "venueId": "v-hamilton-restaurant-bar",
+ "kind": "beer",
+ "drink": "Narragansett Lager (can)",
+ "price": 5.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://hamiltonbrookline.com/brookline-coolidge-corner-hamilton-restaurant-and-bar-drink-menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-felipe-s-taqueria",
+ "hours": {
+  "mon": "11:00-01:00",
+  "tue": "11:00-01:00",
+  "wed": "11:00-01:00",
+  "thu": "11:00-02:00",
+  "fri": "11:00-02:00",
+  "sat": "11:00-02:00",
+  "sun": "11:00-01:00"
+ },
+ "source": "https://www.felipesboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

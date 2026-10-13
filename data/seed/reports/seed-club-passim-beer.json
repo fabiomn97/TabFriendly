@@ -1,0 +1,14 @@
+{
+ "venueId": "v-club-passim",
+ "kind": "beer",
+ "drink": "True North draft (pint)",
+ "price": 10.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.passim.org/live-music/kitchen/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

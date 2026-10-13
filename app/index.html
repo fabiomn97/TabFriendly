@@ -186,6 +186,21 @@ a { color: var(--link); }
 .filter label { font-weight: 600; }
 .filter input { width: 100%; accent-color: var(--best); }
 .filter output { font: 600 13px/1 var(--f-mono); text-align: right; }
+.seg.seg2 { grid-template-columns: 1fr 1fr; }
+
+/* opening hours on the venue card */
+.hours { margin: 4px 0 12px; }
+.hours-now { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; }
+.hours-now .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); flex: none; }
+.hours-now.open .dot { background: var(--ok); }
+.hours-now.open { color: var(--ok); }
+.hours details summary { cursor: pointer; font-size: 13px; color: var(--muted); padding: 4px 0; }
+.hours table { border-collapse: collapse; font-size: 13px; margin: 2px 0 4px; }
+.hours td { padding: 2px 14px 2px 0; font-variant-numeric: tabular-nums; }
+.hours tr.today td { font-weight: 700; }
+.hours .fine { font-size: 12px; color: var(--muted); margin: 4px 0 0; }
+.row-meta .open { color: var(--ok); }
+.stale-note { grid-column: 1 / -1; font-size: 12px; color: var(--muted); }
 
 /* drink-type filter */
 .dfilter { display: grid; gap: 6px; }
@@ -336,7 +351,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   <header class="bar">
     <div class="brand">
       <h1 class="logo" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span><span class="w1">Tab</span><span class="w2">Friendly</span></span></h1>
-      <p>Cheapest drinks within 1.5 miles of 77 Mass Ave</p>
+      <p>Cheapest drinks within 2 miles of 77 Mass Ave</p>
     </div>
     <button class="btn" id="addVenueBtn" type="button"><span>+ Add<span class="add-long"> a</span> venue</span></button>
   </header>
@@ -350,6 +365,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
           <button type="button" data-mode="beer" aria-pressed="true">Cheapest beer</button>
           <button type="button" data-mode="mixed" aria-pressed="false">Cheapest drink</button>
           <button type="button" data-mode="overall" aria-pressed="false">Overall</button>
+        </div>
+        <div class="seg seg2" id="unitSeg" role="group" aria-label="Rank by">
+          <button type="button" data-unit="total" aria-pressed="true">Total price</button>
+          <button type="button" data-unit="oz" aria-pressed="false">Per ounce</button>
         </div>
         <div class="filter">
           <label for="maxPrice">Max price</label>
@@ -401,12 +420,15 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 (() => {
   "use strict";
   const MIT = [42.35916, -71.09348];          // 77 Massachusetts Ave
-  const RADIUS_MI = 1.5;
+  const RADIUS_MI = 2;
   const RADIUS_M = RADIUS_MI * 1609.34;
   const AREAS = [
     ["Kendall Sq", 42.3626, -71.0855], ["Central Sq", 42.3652, -71.1035], ["Cambridgeport", 42.3575, -71.1075],
     ["Back Bay", 42.3500, -71.0805], ["Kenmore", 42.3482, -71.0965], ["Fenway", 42.3437, -71.1000],
-    ["MIT", 42.3612, -71.0950],
+    ["MIT", 42.3612, -71.0950], ["Harvard Sq", 42.3732, -71.1190], ["Inman Sq", 42.3736, -71.1003],
+    ["Union Sq", 42.3796, -71.0935], ["East Cambridge", 42.3700, -71.0790], ["Beacon Hill", 42.3588, -71.0680],
+    ["West End", 42.3645, -71.0650], ["Downtown", 42.3555, -71.0610], ["South End", 42.3420, -71.0725],
+    ["Longwood", 42.3378, -71.1060], ["Mission Hill", 42.3325, -71.0990], ["Allston", 42.3535, -71.1290],
   ];
   const MODES = {
     beer: { title: "Cheapest beer nearby", label: "beer" },
@@ -430,8 +452,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     selected: null, picking: false, readOnlyAfterRefusal: false, histOpen: false,
     mode: ["beer", "mixed", "overall"].includes(store.get("tf-mode")) ? store.get("tf-mode") : "beer",
     maxPrice: null, best: new Set(),
-    menus: new Map(), menuEdits: [], menuItems: new Map(), menuRemoved: new Map(), typeIndex: [], typeVer: 0, menuOpen: false,
+    menus: new Map(), menuEdits: [], menuItems: new Map(), menuRemoved: new Map(), menuStale: new Map(), typeIndex: [], typeVer: 0, menuOpen: false,
     types: new Set(savedTypes()),  // drink types ticked in the Drinks filter
+    unit: store.get("tf-unit") === "oz" ? "oz" : "total",  // rank by total price or price per ounce
+    hours: new Map(),
   };
   function savedTypes() {
     try { const a = JSON.parse(store.get("tf-drinks") || "[]"); return Array.isArray(a) ? a.filter((t) => typeof t === "string") : []; } catch { return []; }
@@ -481,8 +505,27 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function reportsFor(venueId) {
     return S.reports.filter((r) => r.venueId === venueId).sort((a, b) => (b.at || "").localeCompare(a.at || ""));
   }
+  // ---------- freshness ----------
+  // A price counts for six months from its date: a user's or editor's entry from when it was posted, a researched
+  // price from the date on its menu, or, when the menu is undated, from when we checked it.
+  const FRESH_MS = 183 * 864e5;
+  function ymd(s) {
+    const m = /^(\d{4})-(\d{2})(?:-(\d{2}))?/.exec(s || "");
+    return m ? Date.UTC(+m[1], +m[2] - 1, +(m[3] || 1)) : NaN;
+  }
+  function priceDate(x) {
+    if (x.source === "user" || x.source === "editor") return Date.parse(x.at);
+    const d = ymd(x.sourceDate);
+    return isNaN(d) ? Date.parse(x.checkedAt || x.at) : d;
+  }
+  const isFresh = (x) => { const d = priceDate(x); return !isNaN(d) && Date.now() - d <= FRESH_MS; };
+
+  // The venue's current cheapest beer or mixed drink report (menu entries are handled with the menu).
   function current(venueId, kind) {
-    return reportsFor(venueId).find((r) => r.kind === kind && !isHidden(r.id)) || null;
+    return reportsFor(venueId).find((r) => !r.menu && r.kind === kind && !isHidden(r.id) && isFresh(r)) || null;
+  }
+  function latestAny(venueId, kind) {
+    return reportsFor(venueId).find((r) => !r.menu && r.kind === kind && !isHidden(r.id)) || null;
   }
 
   // ---------- drink menus ----------
@@ -512,9 +555,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function indexMenus() {
     S.menuItems = new Map();
     S.menuRemoved = new Map();
-    const edits = new Map();
+    S.menuStale = new Map();
+    const edits = new Map(), userMenu = new Map();
     for (const e of S.menuEdits) if (e.venueId) (edits.get(e.venueId) || edits.set(e.venueId, []).get(e.venueId)).push(e);
-    for (const vid of new Set([...S.menus.keys(), ...edits.keys()])) {
+    for (const r of S.reports) if (r.menu && !isHidden(r.id)) (userMenu.get(r.venueId) || userMenu.set(r.venueId, []).get(r.venueId)).push(r);
+    for (const vid of new Set([...S.menus.keys(), ...edits.keys(), ...userMenu.keys()])) {
       const m = S.menus.get(vid) || {};
       const src = (Array.isArray(m.sources) ? m.sources : [])[0] || null;
       const es = edits.get(vid) || [];
@@ -524,7 +569,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         const it = cleanItem(raw);
         if (!it) return;
         const key = itemKey(it), e = byTarget.get(key);
-        const base = { id: `menu:${vid}:${i}`, venueId: vid, key, source: "menu", sourceUrl: src, sourceDate: m.sourceDate || null };
+        const base = { id: `menu:${vid}:${i}`, venueId: vid, key, source: "menu", sourceUrl: src, sourceDate: m.sourceDate || null, checkedAt: m.at || null };
         if (e && e.removed) { removed.push({ ...base, ...toDrink(it), editId: e.id }); return; }
         const ed = e && cleanItem(e.item);
         items.push(ed ? { ...base, ...toDrink(ed), source: "editor", edited: true, editId: e.id, at: e.at } : { ...base, ...toDrink(it) });
@@ -533,7 +578,22 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         const it = !e.target && !e.removed && cleanItem(e.item);
         if (it) items.push({ id: `edit:${e.id}`, venueId: vid, ...toDrink(it), source: "editor", editId: e.id, at: e.at });
       }
-      if (items.length) S.menuItems.set(vid, items);
+      // Anyone's menu entries (reports with menu: true). The newest version of a drink wins: an entry replaces the
+      // drink it edits (target) or one with the same name and size; otherwise it's a new drink on the menu.
+      const byKey = new Map(items.map((it) => [it.mkey = it.key || itemKey({ name: it.drink, oz: it.oz }), it]));
+      for (const r of (userMenu.get(vid) || []).slice().sort((a, b) => (a.at || "").localeCompare(b.at || ""))) {
+        const mkey = r.target || itemKey({ name: r.drink, oz: r.oz });
+        const old = byKey.get(mkey);
+        if (old && priceDate(old) > priceDate(r)) continue;
+        const it = { ...(old || { id: `entry:${r.id}`, venueId: vid }), mkey, kind: r.kind, drink: r.drink, type: r.type || r.drink,
+          serve: r.serve || null, oz: typeof r.oz === "number" ? r.oz : null, price: r.price, source: "user", at: r.at, reportId: r.id, edited: !!old };
+        if (old) items[items.indexOf(old)] = it; else items.push(it);
+        byKey.set(mkey, it);
+      }
+      // prices older than six months leave the menu, the filter and the ranking
+      const fresh = items.filter(isFresh);
+      if (fresh.length) S.menuItems.set(vid, fresh);
+      if (fresh.length < items.length) S.menuStale.set(vid, items.length - fresh.length);
       if (removed.length) S.menuRemoved.set(vid, removed);
     }
     // longest type names first, so "Coors Light" wins over "Coors" when reading a report's free-text name
@@ -578,8 +638,22 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const m = (S.menuItems.get(venueId) || []).reduce((a, it) => (it.kind === kind && (!a || it.price < a.price) ? it : a), null);
     return m || r;
   }
+  // Per-ounce ranking: price per oz where the pour size is known.
+  const ppo = (d) => (d && d.oz ? d.price / d.oz : null);
+  const val = (r) => (S.unit === "oz" ? ppo(r) : r.price);
+  const centsOz = (d) => Math.round(ppo(d) * 100) + "¢";
+  // Every candidate drink for the current view: the ticked drinks, or the mode's kinds plus the cheapest reports.
+  function pool(venueId, mode) {
+    if (S.types.size) return matches(venueId);
+    const kinds = mode === "overall" ? ["beer", "mixed"] : [mode];
+    const ds = drinksAt(venueId).filter((d) => kinds.includes(d.kind));
+    for (const k of kinds) { const r = current(venueId, k); if (r && !ds.includes(r)) ds.push(r); }
+    return ds;
+  }
   // The price the map and list compare on: the cheapest ticked drink, or else the mode's cheapest.
+  // Per ounce, only drinks with a known pour size count.
   function pick(venueId, mode = S.mode) {
+    if (S.unit === "oz") return pool(venueId, mode).filter((d) => d.oz).sort((a, b) => ppo(a) - ppo(b))[0] || null;
     if (S.types.size) return matches(venueId)[0] || null;
     if (mode !== "overall") return best(venueId, mode);
     const b = best(venueId, "beer"), m = best(venueId, "mixed");
@@ -592,11 +666,14 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   }
   // Venues that pass the filters, plus their priced drink for the mode.
   function shownVenues() {
-    return allVenues().map((v) => ({ v, r: pick(v.id) }))
-      .filter(({ r }) => (!S.types.size || r) && (S.maxPrice == null || (r && r.price <= S.maxPrice)));
+    return allVenues().map((v) => {
+      const r = pick(v.id);
+      // per ounce, venues whose prices all lack a pour size are marked rather than ranked
+      return { v, r, nosize: !r && S.unit === "oz" && pool(v.id, S.mode).length > 0 };
+    }).filter(({ r }) => (!S.types.size || r) && (S.maxPrice == null || (r && r.price <= S.maxPrice)));
   }
   function computeBest(items) {
-    const priced = items.filter((x) => x.r && !isHidden(x.v.id)).sort((a, b) => a.r.price - b.r.price || distMi(a.v.lat, a.v.lng) - distMi(b.v.lat, b.v.lng));
+    const priced = items.filter((x) => x.r && !isHidden(x.v.id)).sort((a, b) => val(a.r) - val(b.r) || distMi(a.v.lat, a.v.lng) - distMi(b.v.lat, b.v.lng));
     S.best = new Set(priced.slice(0, 3).map((x) => x.v.id));
   }
   function tally(reportId) {
@@ -611,8 +688,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   // ---------- map ----------
   const map = L.map("map", {
-    preferCanvas: true, zoomSnap: 0.25, minZoom: 12.25, maxZoom: 19, zoomControl: true, attributionControl: true,
-    maxBounds: [[42.30, -71.17], [42.41, -71.02]], maxBoundsViscosity: 0.8,
+    preferCanvas: true, zoomSnap: 0.25, minZoom: 11.75, maxZoom: 19, zoomControl: true, attributionControl: true,
+    maxBounds: [[42.27, -71.21], [42.44, -70.98]], maxBoundsViscosity: 0.8,
   });
   map.attributionControl.setPrefix(false);
   map.attributionControl.addAttribution('Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors');
@@ -650,10 +727,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   }
   fetch("basemap.json").then((r) => r.json()).then((bm) => {
     const opt = { interactive: false, smoothFactor: 1 }, b = bm.base;
-    bm.water.forEach((p) => base.water.push(L.polygon(p.map((r) => dec(r, b)), opt).addTo(map)));
-    bm.parks.forEach((p) => base.parks.push(L.polygon(p.map((r) => dec(r, b)), opt).addTo(map)));
-    bm.rail.forEach((p) => base.rail.push(L.polyline(dec(p, b), opt).addTo(map)));
-    ["minor", "mid", "major"].forEach((c) => bm.roads[c].forEach((p) => base[c].push(L.polyline(dec(p, b), opt).addTo(map))));
+    // one multi-shape layer per class keeps redraws fast with thousands of streets
+    base.water.push(L.polygon(bm.water.map((p) => p.map((r) => dec(r, b))), opt).addTo(map));
+    base.parks.push(L.polygon(bm.parks.map((p) => p.map((r) => dec(r, b))), opt).addTo(map));
+    base.rail.push(L.polyline(bm.rail.map((p) => dec(p, b)), opt).addTo(map));
+    ["minor", "mid", "major"].forEach((c) => base[c].push(L.polyline(bm.roads[c].map((p) => dec(p, b)), opt).addTo(map)));
     base.radius.bringToFront();
     styleBase();
   }).catch(() => toast("The street map didn't load. Venues still show, without streets."));
@@ -663,21 +741,21 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   // venue pins
   const markers = new Map();
-  function pinFor(v, r) {
+  function pinFor(v, r, nosize) {
     const sel = S.selected === v.id;
     const cls = ["pin", r ? (S.best.has(v.id) ? "best" : "") : "none", sel ? "sel" : "", isHidden(v.id) ? "hid" : ""].filter(Boolean).join(" ");
-    let label = r ? esc(money(r.price)) : "?";
+    let label = r ? esc(S.unit === "oz" ? centsOz(r) + "/oz" : money(r.price)) : nosize ? "oz?" : "?";
     if (sel && r) {
       const n = cleanName(r);
       label += `<em>${esc(n.length > 24 ? n.slice(0, 23) + "…" : n)}</em>`;
     }
-    return { html: `<span class="${cls}">${label}</span>`, z: r ? Math.round(1000 - r.price * 40) : 0 };
+    return { html: `<span class="${cls}">${label}</span>`, z: r ? Math.round(1000 - (S.unit === "oz" ? ppo(r) * 400 : r.price * 40)) : 0 };
   }
   function renderPins(items) {
     const seen = new Set();
-    for (const { v, r } of items) {
+    for (const { v, r, nosize } of items) {
       seen.add(v.id);
-      const { html, z } = pinFor(v, r);
+      const { html, z } = pinFor(v, r, nosize);
       let m = markers.get(v.id);
       if (!m) {
         m = L.marker([v.lat, v.lng], { title: v.name, riseOnHover: true, keyboard: true });
@@ -703,7 +781,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function declutter() {
     const items = [...markers.entries()].map(([id, m]) => ({ id, m, p: map.latLngToContainerPoint(m.getLatLng()), r: pick(id) }));
     const rank = (x) => (x.id === S.selected ? -2 : S.best.has(x.id) ? -1 : 0);
-    items.sort((a, b) => rank(a) - rank(b) || (a.r ? a.r.price : 1e9) - (b.r ? b.r.price : 1e9));
+    items.sort((a, b) => rank(a) - rank(b) || (a.r ? val(a.r) : 1e9) - (b.r ? val(b.r) : 1e9));
     const placed = [];
     for (const it of items) {
       const el = it.m.getElement()?.querySelector(".pin");
@@ -723,9 +801,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   $("grip").addEventListener("click", () => sheet.classList.toggle("expanded"));
 
   // mode toggle + price filter (static DOM so a live update never interrupts a drag)
-  const modeBtns = controls.querySelectorAll("[data-mode]");
+  const modeBtns = controls.querySelectorAll("[data-mode]"), unitBtns = controls.querySelectorAll("[data-unit]");
   function syncControls() {
     modeBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === S.mode)));
+    unitBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.unit === S.unit)));
     $("maxOut").textContent = S.maxPrice == null ? "Any" : "≤ " + money(S.maxPrice);
     $("modeSeg").hidden = S.types.size > 0;
     $("drinkChips").innerHTML = [...S.types].map((t) => `<button class="dchip" type="button" data-untype="${esc(t)}" aria-label="Remove ${esc(t)}">${esc(t)}<span aria-hidden="true">×</span></button>`).join("");
@@ -733,6 +812,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     $("drinkCount").textContent = S.types.size ? `${S.types.size} selected` : "Tick one or more drinks";
   }
   modeBtns.forEach((b) => b.addEventListener("click", () => { S.mode = b.dataset.mode; store.set("tf-mode", S.mode); syncControls(); render(); }));
+  unitBtns.forEach((b) => b.addEventListener("click", () => { S.unit = b.dataset.unit; store.set("tf-unit", S.unit); syncControls(); render(); }));
   $("maxPrice").addEventListener("input", (e) => {
     const v = Number(e.target.value);
     S.maxPrice = v >= SLIDER_MAX ? null : v;
@@ -812,7 +892,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function renderList(items) {
     controls.hidden = false;
     const sel = [...S.types];
-    const title = !sel.length ? MODES[S.mode].title : sel.length === 1 ? `Cheapest ${sel[0]} nearby` : `Cheapest of your ${sel.length} drinks`;
+    const title = (!sel.length ? MODES[S.mode].title : sel.length === 1 ? `Cheapest ${sel[0]} nearby` : `Cheapest of your ${sel.length} drinks`)
+      + (S.unit === "oz" ? ", per ounce" : "");
     head.innerHTML = `<h2 class="sheet-title">${esc(title)}</h2>`;
     if (S.dbState === "loading") { body.innerHTML = `<p class="list-note">Loading venues and prices…</p>`; return; }
     if (S.dbState === "none") {
@@ -824,9 +905,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       return;
     }
     const rows = items.map((x) => ({ ...x, d: distMi(x.v.lat, x.v.lng) }))
-      .sort((a, b) => (a.r ? a.r.price : 1e9) - (b.r ? b.r.price : 1e9) || a.d - b.d);
+      .sort((a, b) => (a.r ? val(a.r) : a.nosize ? 1e8 : 1e9) - (b.r ? val(b.r) : b.nosize ? 1e8 : 1e9) || a.d - b.d);
     const priced = rows.filter((x) => x.r);
-    let h = `<div class="stat"><span><b>${rows.length}</b> ${S.maxPrice == null ? "venues" : "at " + esc(money(S.maxPrice)) + " or less"}</span><span><b>${priced.length}</b> with ${sel.length ? "your drinks" : "a " + MODES[S.mode].label + " price"}</span>${priced[0] ? `<span>from <b>${esc(money(priced[0].r.price))}</b></span>` : ""}</div>`;
+    let h = `<div class="stat"><span><b>${rows.length}</b> ${S.maxPrice == null ? "venues" : "at " + esc(money(S.maxPrice)) + " or less"}</span><span><b>${priced.length}</b> with ${S.unit === "oz" ? "a known pour size" : sel.length ? "your drinks" : "a fresh " + MODES[S.mode].label + " price"}</span>${priced[0] ? `<span>from <b>${esc(S.unit === "oz" ? centsOz(priced[0].r) + "/oz" : money(priced[0].r.price))}</b></span>` : ""}</div>`;
     if (!rows.length) {
       const why = sel.length && S.maxPrice == null ? "No venue lists the drinks you picked yet. Try adding more drinks."
         : sel.length ? `None of your drinks are ${esc(money(S.maxPrice))} or less. Raise the max price or add more drinks.`
@@ -835,10 +916,18 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       return;
     }
     h += `<ul class="list">`;
-    for (const { v, r, d } of rows) {
+    for (const { v, r, d, nosize } of rows) {
       const best = S.best.has(v.id);
+      const st = openState(S.hours.get(v.id)?.hours);
+      const openTag = st ? (st.open ? ' · <span class="open">open now</span>' : " · closed now") : "";
       let priceCell, meta;
-      if (r) {
+      if (r && S.unit === "oz") {
+        priceCell = `<span class="row-price"><b>${esc(centsOz(r))}/oz</b><small>${esc(money(r.price) + " · " + r.oz + " oz")}</small></span>`;
+        meta = esc(cleanName(r)) + " · " + d.toFixed(1) + " mi";
+      } else if (nosize) {
+        priceCell = `<span class="row-price none">No pour size</span>`;
+        meta = d.toFixed(1) + " mi";
+      } else if (r) {
         const sub = sel.length ? (r.oz ? r.oz + " oz" : SERVE_LABEL[serveOf(r)] || KIND_LABEL[r.kind].toLowerCase())
           : S.mode === "overall" ? (r.kind === "beer" ? "beer" : "mixed")
           : r.kind === "beer" ? (perOz(r) || (r.oz ? r.oz + " oz" : "size n/a")) : "mixed";
@@ -848,9 +937,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         priceCell = `<span class="row-price none">Add price</span>`;
         meta = d.toFixed(1) + " mi";
       }
-      h += `<li><button class="row${best ? " best" : ""}" type="button" data-v="${esc(v.id)}"><span class="row-name">${esc(v.name)}${best ? '<span class="best-chip">Top 3</span>' : ""}</span>${priceCell}<span class="row-meta">${meta}${isHidden(v.id) ? " · hidden" : ""}</span></button></li>`;
+      h += `<li><button class="row${best ? " best" : ""}" type="button" data-v="${esc(v.id)}"><span class="row-name">${esc(v.name)}${best ? '<span class="best-chip">Top 3</span>' : ""}</span>${priceCell}<span class="row-meta">${meta}${openTag}${isHidden(v.id) ? " · hidden" : ""}</span></button></li>`;
     }
-    h += `</ul><p class="list-note">The three cheapest are in green. Prices come from published menus and from people like you. Spot a wrong one? Open the venue and update it.</p>`;
+    h += `</ul><p class="list-note">The three cheapest are in green. Prices come from published menus and from people like you, and only prices from the last six months count.${S.unit === "oz" ? " Per ounce ranks only drinks with a known pour size." : ""} Spot a wrong one? Open the venue and update it.</p>`;
     body.innerHTML = h;
     body.querySelectorAll("[data-v]").forEach((b) => b.addEventListener("click", () => select(b.dataset.v, true)));
   }
@@ -863,7 +952,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const isBest = r && S.best.has(v.id) && pick(v.id) === r;
     let h = `<div class="drink${isBest ? " best" : ""}"><span class="drink-k">${label}${isBest ? '<span class="best-chip">Top 3 nearby</span>' : ""}</span>`;
     if (!r) {
+      const old = latestAny(v.id, kind);
       h += `<span class="drink-p none">No price yet</span><span></span>`;
+      if (old && !isFresh(old)) h += `<span class="stale-note">The last price, ${esc(money(old.price))} (${esc(old.source === "user" ? fmtDay(old.at) : checked(old.sourceDate).replace("checked", "from"))}), is more than six months old.</span>`;
     } else {
       const tags = [];
       const sv = serveOf(r);
@@ -897,12 +988,12 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   function menuRow(d, low) {
     const t = d.type || "";  // only menu items name their type outright; for reports the name already says it
-    const tags = [SERVE_LABEL[serveOf(d)], d.oz ? d.oz + " oz" : "", d.kind === "beer" ? perOz(d) : "",
-      t && !bareName(d.drink).includes(bareName(t)) ? t : "", d.source === "user" ? "user-reported" : "",
-      d.source === "editor" ? (d.edited ? "updated" : "added") + " by an editor" : ""].filter(Boolean);
-    const canEdit = S.canMod && (d.key || d.editId);
+    const tags = [SERVE_LABEL[serveOf(d)], d.oz ? d.oz + " oz" : "", d.oz ? perOz(d) : "size n/a",
+      t && !bareName(d.drink).includes(bareName(t)) ? t : "", d.source === "user" ? "user-reported " + fmtDay(d.at) : "",
+      d.source === "editor" ? (d.edited ? "updated" : "added") + " by an editor " + fmtDay(d.at) : ""].filter(Boolean);
+    const canEdit = canPost() && d.mkey;
     return `<div class="mi${canEdit ? " can" : ""}${isPicked(d) ? " hit" : ""}${low ? " low" : ""}"><span>${esc(d.drink)}</span><span class="mp">${esc(money(d.price))}</span>`
-      + (canEdit ? `<button class="btn small ghost mi-ed" type="button" data-medit="${esc(d.id)}" aria-label="Edit ${esc(d.drink)}">Edit</button>` : "")
+      + (canEdit ? `<button class="btn small ghost mi-ed" type="button" data-medit="${esc(d.id)}" aria-label="Edit the price of ${esc(d.drink)}">Edit</button>` : "")
       + (tags.length ? `<span class="mt">${esc(tags.join(" · "))}</span>` : "") + `</div>`;
   }
   // The ticked drinks this venue has, cheapest first.
@@ -914,14 +1005,16 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function menuBlock(v) {
     const items = S.menuItems.get(v.id) || [];
     const removed = S.canMod ? S.menuRemoved.get(v.id) || [] : [];
-    if (!items.length && !S.canMod) return "";
+    if (!items.length && !canPost() && !S.canMod) return "";
     let h = `<details class="hist menu" id="menuDet"${S.menuOpen ? " open" : ""}><summary>Full drink menu (${items.length})</summary>`;
     if (!items.length) h += `<p class="photo-empty">No drink menu yet.</p>`;
     for (const kind of Object.keys(KIND_LABEL)) {
       const ks = items.filter((it) => it.kind === kind).sort((a, b) => a.price - b.price || a.drink.localeCompare(b.drink));
       if (ks.length) h += `<h4>${KIND_LABEL[kind]}</h4>` + ks.map((it, i) => menuRow(it, i === 0)).join("");
     }
-    if (S.canMod) h += `<div class="menu-ed"><button class="btn small" type="button" data-madd="1">+ Add a drink</button></div>`;
+    const stale = S.menuStale.get(v.id) || 0;
+    if (stale) h += `<p class="menu-src">${stale} ${stale === 1 ? "price is" : "prices are"} more than six months old and hidden.</p>`;
+    if (canPost()) h += `<div class="menu-ed"><button class="btn small" type="button" data-madd="1">+ Add a drink</button></div>`;
     if (removed.length) {
       h += `<h4>Removed by editors</h4>` + removed.map((it) => `<div class="mi can gone"><span>${esc(it.drink)}</span><span class="mp">${esc(money(it.price))}</span>`
         + `<button class="btn small ghost mi-ed" type="button" data-mrestore="${esc(it.editId)}" aria-label="Restore ${esc(it.drink)}">Restore</button></div>`).join("");
@@ -946,6 +1039,43 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     return h + `</section>`;
   }
 
+  // ---------- opening hours ----------
+  // hours/<venueId> holds {hours: {mon: "11:30-14:30,17:00-02:00", ..., sun: "closed"}, source, checked}.
+  const DAYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+  const DAY_NAME = { mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun" };
+  function nyNow() {
+    const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short", hour: "2-digit", minute: "2-digit", hourCycle: "h23" })
+      .formatToParts(new Date()).map((x) => [x.type, x.value]));
+    return { day: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(p.weekday), min: (+p.hour % 24) * 60 + +p.minute };
+  }
+  function ranges(str) {  // "11:30-14:30,17:00-02:00" -> [[690, 870], [1020, 1560]] (minutes; past midnight runs over 1440)
+    if (!str || /closed/i.test(str)) return [];
+    return String(str).split(",").map((x) => x.trim().match(/^(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})$/)).filter(Boolean)
+      .map((m) => { const a = +m[1] * 60 + +m[2]; let b = +m[3] * 60 + +m[4]; if (b <= a) b += 1440; return [a, b]; });
+  }
+  function openState(h) {
+    if (!h) return null;
+    const { day, min } = nyNow();
+    for (const [, b] of ranges(h[DAYS[(day + 6) % 7]])) if (b > 1440 && min < b - 1440) return { open: true, until: b - 1440 };
+    for (const [a, b] of ranges(h[DAYS[day]])) if (min >= a && min < b) return { open: true, until: b % 1440 };
+    for (let i = 0; i < 7; i++) for (const [a] of ranges(h[DAYS[(day + i) % 7]])) if (i > 0 || a > min) return { open: false, next: a, inDays: i, nextDay: DAYS[(day + i) % 7] };
+    return { open: false };
+  }
+  const clock = (m) => { const hr = Math.floor(m / 60) % 24, mm = m % 60; return (hr % 12 || 12) + (mm ? ":" + String(mm).padStart(2, "0") : "") + (hr < 12 ? "am" : "pm"); };
+  const dayHours = (str) => { const rs = ranges(str); return rs.length ? rs.map(([a, b]) => clock(a) + "–" + clock(b % 1440)).join(", ") : "Closed"; };
+  function hoursBlock(v) {
+    const H = S.hours.get(v.id);
+    if (!H || !H.hours) return `<section class="hours"><p class="hours-now"><span class="dot"></span>Hours not listed yet</p></section>`;
+    const st = openState(H.hours), today = DAYS[nyNow().day];
+    const now = st.open ? `Open now · until ${clock(st.until)}`
+      : st.next != null ? `Closed · opens ${st.inDays === 0 ? "" : st.inDays === 1 ? "tomorrow " : DAY_NAME[st.nextDay] + " "}${clock(st.next)}` : "Closed";
+    const rows = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"].map((d) => `<tr${d === today ? ' class="today"' : ""}><td>${DAY_NAME[d]}</td><td>${esc(dayHours(H.hours[d]))}</td></tr>`).join("");
+    const src = safeUrl(H.source);
+    return `<section class="hours"><p class="hours-now${st.open ? " open" : ""}"><span class="dot"></span>${esc(now)}</p>`
+      + `<details><summary>Weekly hours</summary><table>${rows}</table></details>`
+      + `<p class="fine">Hours may vary on holidays. Check the venue before you go.${src ? ` Source: <a href="${esc(src)}" target="_blank" rel="noopener">${esc(hostOf(src))}</a>${H.checked ? ", " + esc(checked(H.checked)) : ""}.` : ""}</p></section>`;
+  }
+
   function renderVenue(v) {
     controls.hidden = true;
     head.innerHTML = `<button class="btn small ghost" type="button" id="backBtn" aria-label="Back to list">←</button><h2 class="sheet-title">${esc(v.name)}</h2>`;
@@ -954,6 +1084,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     if (v.note) h += `<div class="notice">${esc(v.note)}</div>`;
     if (isHidden(v.id)) h += `<div class="notice">This venue is hidden from everyone but editors.</div>`;
     if (S.types.size) h += mineBlock(v);
+    h += hoursBlock(v);
     h += drinkBlock(v, "beer") + drinkBlock(v, "mixed");
     h += menuBlock(v);
     if (S.canWrite === false || S.readOnlyAfterRefusal) h += `<div class="notice">You can view prices but not post them. Ask the TabFriendly team for Contributor access to submit.</div>`;
@@ -963,7 +1094,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       for (const r of hist) {
         const hidden = isHidden(r.id);
         const t = r.source === "user" ? tally(r.id) : null;
-        h += `<div class="hist-item${hidden ? " hidden-r" : ""}"><span>${r.kind === "beer" ? "Beer" : "Mixed"} · ${esc(cleanName(r))}${r.oz ? " · " + esc(r.oz) + " oz" : ""}</span><span class="hp">${esc(money(r.price))}</span>`
+        h += `<div class="hist-item${hidden ? " hidden-r" : ""}"><span>${r.menu ? "Menu" : r.kind === "beer" ? "Beer" : "Mixed"} · ${esc(cleanName(r))}${r.oz ? " · " + esc(r.oz) + " oz" : ""}${isFresh(r) ? "" : " · over 6 months old"}</span><span class="hp">${esc(money(r.price))}</span>`
           + `<span class="hm">${r.source === "user" ? "User-reported " + esc(fmtDay(r.at)) + (S.me && r.by === S.me ? " (you)" : "") + (t && (t.up || t.down) ? ` · ${t.up} yes / ${t.down} no` : "") : "From " + esc(hostOf(r.sourceUrl) || "published menu") + ", " + esc(checked(r.sourceDate))}${r.note ? " · “" + esc(r.note) + "”" : ""}</span>`;
         if (S.canMod) h += `<span class="ha">${hidden ? `<button class="btn small" type="button" data-mod-restore="${esc(r.id)}">Restore</button>` : `<button class="btn small" type="button" data-mod-hide="${esc(r.id)}">Hide as wrong</button>`}<button class="btn small danger" type="button" data-del-report="${esc(r.id)}">Delete</button></span>`;
         h += `</div>`;
@@ -1243,12 +1374,12 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   }
   function openMenuItemForm(venueId, it) {
     const v = S.venues.get(venueId);
-    if (!v || !S.canMod) return;
+    if (!v || !canPost()) return;
     const types = [...new Set([...S.menuItems.values()].flat().map((x) => x.type))].sort((a, b) => a.localeCompare(b));
     const opt = (val, label, cur) => `<option value="${val}"${cur === val ? " selected" : ""}>${label}</option>`;
     form.innerHTML = `
-      <h2>${it ? "Edit drink" : "Add a drink"}</h2>
-      <p class="sub">${esc(v.name)} · full drink menu. Use the regular price, not happy hour.</p>
+      <h2>${it ? "Update a price" : "Add a drink"}</h2>
+      <p class="sub">${esc(v.name)} · it shows on the menu right away as user-reported, with today's date. Use the regular price, not happy hour.</p>
       <div class="field"><label for="mName">Drink name</label><input id="mName" maxlength="80" autocomplete="off" placeholder="e.g. Coors Light or Spicy Paloma" required></div>
       <div class="field"><label for="mType">Drink type <em>what the Drinks filter lists; leave blank to use the name</em></label><input id="mType" maxlength="60" autocomplete="off" list="mTypes" placeholder="e.g. Coors Light, Margarita, Red wine"><datalist id="mTypes">${types.map((t) => `<option value="${esc(t)}">`).join("")}</datalist></div>
       <div class="two">
@@ -1260,7 +1391,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         <div class="field"><label for="mOz">Pour size (oz) <em>optional</em></label><input id="mOz" inputmode="decimal" placeholder="16"></div>
       </div>
       <p class="form-err" id="mErr" hidden></p>
-      <div class="form-actions">${it ? `<button class="btn danger" type="button" id="mRemove">Remove</button><span style="flex:1"></span>` : ""}<button class="btn" type="button" id="mCancel">Cancel</button><button class="btn tag" type="submit" id="mSubmit">${it ? "Save" : "Add drink"}</button></div>`;
+      <div class="form-actions">${it && S.canMod ? `<button class="btn danger" type="button" id="mRemove">Remove</button><span style="flex:1"></span>` : ""}<button class="btn" type="button" id="mCancel">Cancel</button><button class="btn tag" type="submit" id="mSubmit">${it ? "Save price" : "Add drink"}</button></div>`;
     if (it) {
       $("mName").value = it.drink; $("mType").value = it.type || "";
       $("mPrice").value = Number.isInteger(it.price) ? String(it.price) : it.price.toFixed(2);
@@ -1268,9 +1399,13 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     }
     const err = (m) => { $("mErr").textContent = m; $("mErr").hidden = false; };
     $("mCancel").onclick = closeForm;
+    // Editors only: take the drink off the menu (a user's entry is hidden; a researched or editor drink is removed).
     $("mRemove")?.addEventListener("click", (e) => armConfirm(e.currentTarget, async () => {
-      try { await writeMenuEdit(venueId, it, { item: null, removed: true }); closeForm(); toast("Drink removed. Editors can restore it from the menu."); }
-      catch (ex) { err(writeError(ex)); }
+      try {
+        if (it.reportId) await S.db.doc("mod/" + it.reportId).set({ hidden: true, by: S.me, at: new Date().toISOString() });
+        if (it.key || it.editId) await writeMenuEdit(venueId, it, { item: null, removed: true });
+        closeForm(); toast("Drink removed. Editors can restore it from the menu or the price history.");
+      } catch (ex) { err(writeError(ex)); }
     }));
     form.onsubmit = async (e) => {
       e.preventDefault();
@@ -1284,12 +1419,16 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       if (!(price > 0 && price <= 100)) return err("Enter a price between $0.01 and $100.");
       if (ozRaw && !(oz >= 1 && oz <= 64)) return err("Pour size should be between 1 and 64 oz, or leave it blank.");
       if (!S.db) return err("Can't reach the shared database from this view.");
-      const item = { name, type, kind: $("mKind").value, serve: $("mServe").value || null, oz: oz || null, price: Math.round(price * 100) / 100 };
       $("mSubmit").disabled = true;
       try {
-        await writeMenuEdit(venueId, it, { item, removed: false });
+        // Saved as a dated, user-reported menu entry; the newest version of a drink is the one shown.
+        await S.db.collection("reports").doc().set({
+          venueId, menu: true, target: it ? it.mkey : null, kind: $("mKind").value, drink: name, type, serve: $("mServe").value || null,
+          oz: oz || null, price: Math.round(price * 100) / 100, note: null, hasPhoto: false, source: "user", sourceUrl: null, sourceDate: null,
+          by: S.me, at: new Date().toISOString(),
+        });
         closeForm();
-        toast(it ? "Drink updated." : "Drink added.");
+        toast(it ? "Price updated." : "Drink added.");
         select(venueId);
       } catch (ex) {
         err(writeError(ex));
@@ -1381,8 +1520,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     }, onErr);
     db.collection("reports").orderBy("at", "desc").limit(1000).onSnapshot((snap) => {
       S.reports = snap.docs.map((d) => ({ ...d.data(), id: d.id }))
-        .filter((r) => r.venueId && (r.kind === "beer" || r.kind === "mixed") && typeof r.price === "number" && r.drink);
-      ready(); render();
+        .filter((r) => r.venueId && (r.menu ? KIND_LABEL[r.kind] : r.kind === "beer" || r.kind === "mixed") && typeof r.price === "number" && r.drink);
+      indexMenus(); ready(); render();
     }, onErr);
     db.collection("menus").limit(1000).onSnapshot((snap) => {
       S.menus = new Map(snap.docs.map((d) => { const m = d.data() || {}; return [m.venueId || d.id, m]; }));
@@ -1394,9 +1533,13 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       indexMenus(); render();
       if (!dPanel.hidden) renderDrinkList();
     }, onErr);
+    db.collection("hours").limit(1000).onSnapshot((snap) => {
+      S.hours = new Map(snap.docs.map((d) => { const h = d.data() || {}; return [h.venueId || d.id, h]; }));
+      render();
+    }, onErr);
     db.collection("mod").limit(1000).onSnapshot((snap) => {
       S.mod = new Map(snap.docs.map((d) => [d.id, d.data()]));
-      render();
+      indexMenus(); render();
     }, onErr);
     db.collection("votes").limit(1000).onSnapshot((snap) => {
       S.votes = new Map(snap.docs.map((d) => [d.id, d.data() || {}]));

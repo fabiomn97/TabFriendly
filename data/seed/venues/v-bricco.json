@@ -1,0 +1,12 @@
+{
+ "name": "Bricco",
+ "type": "restaurant",
+ "address": "241 Hanover Street, Boston, MA",
+ "lat": 42.363177,
+ "lng": -71.054876,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

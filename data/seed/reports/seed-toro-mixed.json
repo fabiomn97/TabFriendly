@@ -1,0 +1,14 @@
+{
+ "venueId": "v-toro",
+ "kind": "mixed",
+ "drink": "House cocktails (e.g. Summer's End, GTOTM, El Hombre Sin Nombre)",
+ "price": 17.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.toro-restaurant.com/menus",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Ganko Ittetsu Ramen",
+ "type": "restaurant",
+ "address": "318 Harvard St Unit 3, Brookline, MA 02446",
+ "lat": 42.343142,
+ "lng": -71.123586,
+ "website": "https://gankoramen.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

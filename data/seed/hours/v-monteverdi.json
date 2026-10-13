@@ -1,0 +1,16 @@
+{
+ "venueId": "v-monteverdi",
+ "hours": {
+  "mon": "16:00-23:00",
+  "tue": "16:00-23:00",
+  "wed": "16:00-23:00",
+  "thu": "16:00-23:00",
+  "fri": "16:00-00:00",
+  "sat": "16:00-00:00",
+  "sun": "closed"
+ },
+ "source": "https://www.monteverdirestaurant.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

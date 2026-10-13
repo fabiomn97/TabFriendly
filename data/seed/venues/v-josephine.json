@@ -1,0 +1,12 @@
+{
+ "name": "Josephine",
+ "type": "restaurant",
+ "address": "515 Somerville Ave, Somerville, MA 02143",
+ "lat": 42.383221,
+ "lng": -71.105581,
+ "website": "https://www.josephinepizza.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

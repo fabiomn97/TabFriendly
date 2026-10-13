@@ -1,0 +1,16 @@
+{
+ "venueId": "v-longfellow-bar",
+ "hours": {
+  "mon": "17:00-00:00",
+  "tue": "17:00-00:00",
+  "wed": "17:00-00:00",
+  "thu": "17:00-00:00",
+  "fri": "17:00-00:00",
+  "sat": "17:00-00:00",
+  "sun": "17:00-00:00"
+ },
+ "source": "https://www.opentable.com/r/longfellow-cambridge",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

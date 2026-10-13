@@ -1,9 +1,9 @@
 {
  "venueId": "v-tasty-burger-fenway",
  "kind": "beer",
- "drink": "PBR (19.2oz tallboy can)",
+ "drink": "PBR Lager (tallboy can)",
  "price": 5.0,
- "oz": 19.2,
+ "oz": null,
  "note": null,
  "hasPhoto": false,
  "source": "web",

@@ -1,0 +1,12 @@
+{
+ "name": "Coppa",
+ "type": "restaurant",
+ "address": "253 Shawmut Ave, Boston, MA 02118",
+ "lat": 42.343425,
+ "lng": -71.068634,
+ "website": "https://www.coppaboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

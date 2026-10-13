@@ -1,0 +1,16 @@
+{
+ "venueId": "v-fool-s-errand",
+ "hours": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "16:00-00:00",
+  "thu": "16:00-00:00",
+  "fri": "16:00-01:00",
+  "sat": "16:00-01:00",
+  "sun": "16:00-00:00"
+ },
+ "source": "https://www.foolserrandboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-esmai-s",
+ "hours": {
+  "mon": "closed",
+  "tue": "16:00-22:00",
+  "wed": "16:00-22:00",
+  "thu": "11:00-22:00",
+  "fri": "11:00-00:00",
+  "sat": "10:00-00:00",
+  "sun": "10:00-21:00"
+ },
+ "source": "https://esmaisbrookline.com/ (schema.org openingHours)",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

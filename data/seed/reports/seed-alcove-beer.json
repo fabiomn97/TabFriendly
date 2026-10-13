@@ -1,0 +1,14 @@
+{
+ "venueId": "v-alcove",
+ "kind": "beer",
+ "drink": "Bud Light (can/bottle)",
+ "price": 6.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://alcoveboston.com/wp-content/uploads/2026/09/ALC_DRINKS_9_2_26.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

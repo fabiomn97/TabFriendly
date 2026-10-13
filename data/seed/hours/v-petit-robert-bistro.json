@@ -1,0 +1,16 @@
+{
+ "venueId": "v-petit-robert-bistro",
+ "hours": {
+  "mon": "11:00-21:30",
+  "tue": "11:00-21:30",
+  "wed": "11:00-21:30",
+  "thu": "11:00-21:30",
+  "fri": "11:00-22:00",
+  "sat": "10:00-22:00",
+  "sun": "10:00-21:30"
+ },
+ "source": "https://www.petitrobertbistro.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Myers + Chang",
+ "type": "restaurant",
+ "address": "1145 Washington St, Boston, MA 02118",
+ "lat": 42.3441,
+ "lng": -71.065,
+ "website": "https://www.myersandchang.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

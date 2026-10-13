@@ -1,0 +1,16 @@
+{
+ "venueId": "v-la-famiglia-giorgio-s",
+ "hours": {
+  "mon": "16:00-21:00",
+  "tue": "16:00-21:00",
+  "wed": "16:00-21:00",
+  "thu": "16:00-21:00",
+  "fri": "16:00-21:00",
+  "sat": "11:00-21:00",
+  "sun": "11:00-21:00"
+ },
+ "source": "https://www.lafamigliagiorgios.com/hours.html",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

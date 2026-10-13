@@ -1,0 +1,12 @@
+{
+ "name": "La Famiglia Giorgio's",
+ "type": "restaurant",
+ "address": "112 Salem Street, Boston, MA",
+ "lat": 42.364523,
+ "lng": -71.055593,
+ "website": "https://www.lafamigliagiorgios.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

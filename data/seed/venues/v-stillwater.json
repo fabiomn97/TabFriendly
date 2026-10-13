@@ -1,0 +1,12 @@
+{
+ "name": "Stillwater",
+ "type": "restaurant",
+ "address": "120 Kingston Street, Boston, MA 02111",
+ "lat": 42.352357,
+ "lng": -71.059035,
+ "website": "https://www.stillwaterboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

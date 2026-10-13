@@ -1,0 +1,16 @@
+{
+ "venueId": "v-sally-o-brien-s-bar-and-grill",
+ "hours": {
+  "mon": "15:00-01:00",
+  "tue": "closed",
+  "wed": "15:00-01:00",
+  "thu": "15:00-01:00",
+  "fri": "15:00-01:00",
+  "sat": "12:00-01:00",
+  "sun": "12:00-01:00"
+ },
+ "source": "https://www.sallyobriensbar.com/location/sally-obriens-bar-and-grill/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

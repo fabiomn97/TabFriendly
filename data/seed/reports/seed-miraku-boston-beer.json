@@ -1,0 +1,14 @@
+{
+ "venueId": "v-miraku-boston",
+ "kind": "beer",
+ "drink": "Orion The Draft / Echigo Flying IPA / Yuzu Lager",
+ "price": 9.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.miraku-usa.com/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

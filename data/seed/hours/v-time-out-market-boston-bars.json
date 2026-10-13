@@ -1,0 +1,16 @@
+{
+ "venueId": "v-time-out-market-boston-bars",
+ "hours": {
+  "mon": "08:30-22:00",
+  "tue": "08:30-22:00",
+  "wed": "08:30-22:00",
+  "thu": "08:30-22:00",
+  "fri": "08:30-23:00",
+  "sat": "09:00-23:00",
+  "sun": "09:00-22:00"
+ },
+ "source": "https://www.timeout.com/time-out-market-boston",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-the-dubliner",
+ "hours": {
+  "mon": "11:00-02:00",
+  "tue": "11:00-02:00",
+  "wed": "11:00-02:00",
+  "thu": "11:00-02:00",
+  "fri": "11:00-02:00",
+  "sat": "10:00-02:00",
+  "sun": "10:00-02:00"
+ },
+ "source": "https://www.thedublinerboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

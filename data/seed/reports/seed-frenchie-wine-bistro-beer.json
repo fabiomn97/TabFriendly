@@ -1,0 +1,14 @@
+{
+ "venueId": "v-frenchie-wine-bistro",
+ "kind": "beer",
+ "drink": "Lamplighter IPA / Kronenbourg 1664 / Allagash White",
+ "price": 9.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.frenchieboston.com/drink-list",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

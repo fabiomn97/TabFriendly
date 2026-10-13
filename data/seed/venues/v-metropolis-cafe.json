@@ -1,0 +1,12 @@
+{
+ "name": "Metropolis Cafe",
+ "type": "restaurant",
+ "address": "584 Tremont St, Boston, MA 02118",
+ "lat": 42.343238,
+ "lng": -71.072625,
+ "website": "https://www.metropolisboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

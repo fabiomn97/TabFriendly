@@ -1,0 +1,16 @@
+{
+ "venueId": "v-dali-restaurant-tapas-bar",
+ "hours": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "17:30-23:00",
+  "thu": "17:30-23:00",
+  "fri": "17:30-23:30",
+  "sat": "17:30-23:30",
+  "sun": "17:30-23:00"
+ },
+ "source": "https://dalirestaurant.com/information/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

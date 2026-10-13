@@ -1,0 +1,16 @@
+{
+ "venueId": "v-kings-dining-entertainment-back-bay",
+ "hours": {
+  "mon": "15:00-00:00",
+  "tue": "15:00-00:00",
+  "wed": "15:00-00:00",
+  "thu": "15:00-00:00",
+  "fri": "11:30-01:00",
+  "sat": "11:30-01:00",
+  "sun": "11:30-00:00"
+ },
+ "source": "https://www.playatkings.com/location/boston-back-bay/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

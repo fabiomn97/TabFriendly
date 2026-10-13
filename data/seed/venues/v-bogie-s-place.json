@@ -1,0 +1,12 @@
+{
+ "name": "Bogie's Place",
+ "type": "restaurant",
+ "address": "25 Temple Place, Boston, MA 02111",
+ "lat": 42.355167,
+ "lng": -71.06224,
+ "website": "https://www.bogiesplace.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

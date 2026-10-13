@@ -1,0 +1,16 @@
+{
+ "venueId": "v-cheeky-monkey-brewing-co",
+ "hours": {
+  "mon": "closed",
+  "tue": "16:00-22:00",
+  "wed": "16:00-22:00",
+  "thu": "16:00-01:00",
+  "fri": "16:00-02:00",
+  "sat": "12:00-02:00",
+  "sun": "12:00-23:00"
+ },
+ "source": "https://www.luckystrikeent.com/location/cheeky-monkey-brewing-co",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

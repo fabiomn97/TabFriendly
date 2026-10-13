@@ -1,0 +1,14 @@
+{
+ "venueId": "v-coppa",
+ "kind": "beer",
+ "drink": "Birra Moretti",
+ "price": 7.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.coppaboston.com/menus",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
