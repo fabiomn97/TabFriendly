@@ -1,0 +1,14 @@
+{
+ "venueId": "v-beacon-hill-pub",
+ "kind": "beer",
+ "drink": "Narragansett tallboy",
+ "price": 3.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.boston-barhopper.com/boston-barhopper/2012/11/11/beacon-hill-pub",
+ "sourceDate": "2012-11",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

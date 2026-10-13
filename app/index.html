@@ -362,6 +362,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       <h1 class="logo" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span><span class="w1">Tab</span><span class="w2">Friendly</span></span></h1>
       <p>Cheapest drinks within 2 miles of 77 Mass Ave</p>
     </div>
+    <button class="btn ghost small" id="editorBtn" type="button" hidden>Editor</button>
     <button class="btn" id="addVenueBtn" type="button"><span>+ Add<span class="add-long"> a</span> venue</span></button>
   </header>
   <div id="mapWrap">
@@ -439,6 +440,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="supa-db.js"></script>
 <script>
 (() => {
   "use strict";
@@ -991,7 +993,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     head.innerHTML = `<h2 class="sheet-title">${esc(title)}</h2>`;
     if (S.dbState === "loading") { body.innerHTML = `<p class="list-note">Loading venues and prices…</p>`; return; }
     if (S.dbState === "none") {
-      body.innerHTML = `<div class="notice">Prices live in TabFriendly's shared database, which this view can't reach. Open the app from claude.ai while signed in to see venues and prices.</div>`;
+      body.innerHTML = window.TFBackend
+        ? `<div class="notice">Couldn't reach the price database. Check your connection and reload the page.</div>`
+        : `<div class="notice">Prices live in TabFriendly's shared database, which this view can't reach. Open the app from claude.ai while signed in to see venues and prices.</div>`;
       return;
     }
     if (!S.venues.size) {
@@ -1592,10 +1596,41 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   $("gateYes").addEventListener("click", () => { store.set("tf-21", "yes"); $("gate").hidden = true; });
   $("gateNo").addEventListener("click", () => { $("gateMsg").hidden = false; });
 
+  // ---------- editor sign-in (Supabase build) ----------
+  // Contributors never sign in (they get a silent anonymous session); editors get an email link.
+  if (window.TFBackend) {
+    $("editorBtn").hidden = false;
+    $("editorBtn").addEventListener("click", async () => {
+      const email = await window.TFBackend.editorEmail();
+      form.innerHTML = email
+        ? `<h2>Editor</h2><p class="sub">Signed in as ${esc(email)}.</p>
+           <div class="form-actions"><button class="btn" type="button" id="eCancel">Close</button><button class="btn primary" type="submit">Sign out</button></div>`
+        : `<h2>Editor sign-in</h2><p class="sub">For the TabFriendly team. We'll email you a sign-in link. Anyone can post prices without signing in.</p>
+           <div class="field"><label for="eEmail">Email</label><input id="eEmail" type="email" autocomplete="email" required></div>
+           <p class="form-err" id="eErr" hidden></p>
+           <div class="form-actions"><button class="btn" type="button" id="eCancel">Cancel</button><button class="btn primary" type="submit" id="eSubmit">Email me a link</button></div>`;
+      $("eCancel").onclick = closeForm;
+      form.onsubmit = async (e) => {
+        e.preventDefault();
+        if (email) return window.TFBackend.signOut();
+        const addr = $("eEmail").value.trim();
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(addr)) { $("eErr").textContent = "Enter your email address."; $("eErr").hidden = false; return; }
+        $("eSubmit").disabled = true;
+        try { await window.TFBackend.signInEditor(addr); closeForm(); toast("Check your email for the sign-in link."); }
+        catch { $("eErr").textContent = "Couldn't send the link. Try again in a minute."; $("eErr").hidden = false; $("eSubmit").disabled = false; }
+      };
+      overlay.hidden = false;
+      if (!email) setTimeout(() => $("eEmail").focus(), 30);
+    });
+    window.TFBackend.editorEmail().then((em) => { if (em) $("editorBtn").textContent = "Editor ✓"; });
+  }
+
   // ---------- data ----------
   render();
   (async () => {
-    const [db, user] = await Promise.all([window.claude?.use?.("db") ?? null, window.claude?.use?.("user") ?? null]);
+    // claude.ai provides the database and user; elsewhere (Vercel) supa-db.js provides the same API on Supabase.
+    const host = window.claude?.use ? window.claude : window.TFBackend || null;
+    const [db, user] = await Promise.all([host?.use?.("db") ?? null, host?.use?.("user") ?? null]);
     if (user) {
       const [id, can, mod] = await Promise.all([user.id(), user.can("data.write"), user.canEdit()]);
       S.me = id; S.canWrite = can; S.canMod = mod;

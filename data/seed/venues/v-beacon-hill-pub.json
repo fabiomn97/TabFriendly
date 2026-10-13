@@ -1,0 +1,12 @@
+{
+ "name": "Beacon Hill Pub",
+ "type": "bar",
+ "address": "149 Charles St, Boston, MA 02114",
+ "lat": 42.36,
+ "lng": -71.0707,
+ "website": "https://www.facebook.com/beaconhillpubboston/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
