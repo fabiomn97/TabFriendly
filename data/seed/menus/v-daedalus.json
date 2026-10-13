@@ -312,6 +312,174 @@
    "serve": "cocktail",
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "Routas Rosé, France (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "Francis Coppola Sav Blanc/Pinot Grigio (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Kentia Albarino, Rias Baixas (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "Valravn Chardonnay, Sonoma County (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "Le Monde Pinot Grigio (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Wildsong Sauvignon Blanc, Hawke's Bay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "La Moussiere Sancerre (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 99.0
+  },
+  {
+   "name": "Hugel Pinot Blanc, Alsace (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Relax Riesling (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Raats Chenin Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 57.0
+  },
+  {
+   "name": "Averaen Pinot Noir, Oregon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "Pertinace Nebbiolo, Treiso (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Justin Cabernet Sauvignon, Paso Robles (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Villadoria Barolo (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 139.0
+  },
+  {
+   "name": "Rivata Barbaresco (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 78.0
+  },
+  {
+   "name": "Santa Cristina Chianti Superiore (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Honoro Vera Rioja (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Trivento Malbec (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "Le Paradou Grenache (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 57.0
+  },
+  {
+   "name": "Cantele Primitivo (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Francis Coppola Prosecco (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
   }
  ],
  "sources": [

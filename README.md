@@ -14,7 +14,7 @@ Scope and decisions are in [SPEC.md](SPEC.md). `app/` matches the live version.
 - Venues and prices live in the artifact's shared database:
   - `venues/{id}`: name, type, address, lat/lng, website, note
   - `reports/{id}`: one price report with drink, price, oz, source, and date. Without `menu`, it's a cheapest beer or mixed drink report (`kind` is `beer` or `mixed`): the newest fresh one that isn't hidden is the current price, and older reports form the history. With `menu: true`, it's anyone's menu entry (`kind` beer, mixed, wine or other, plus `type`, `serve`, and `target`, the menu drink it updates, or null for a new drink); the newest version of each drink wins.
-  - `menus/{venueId}`: the venue's researched drink menu (`items` with name, type, kind, serve, oz, price, plus `sources` and `sourceDate`). Only editors can write here.
+  - `menus/{venueId}`: the venue's researched drink menu (`items` with name, type, kind, serve, oz, price, plus `sources` and `sourceDate`; `serve` "pitcher", or "bottle" on a wine, marks a size to share). Only editors can write here.
   - `menuEdits/{id}`: one editor change to a menu (an added drink, or a change to or removal of a researched one). Only editors can write here.
   - `hours/{venueId}`: regular weekly hours (`hours: {mon: "11:30-14:30,17:00-02:00", ..., sun: "closed"}`, `source`, `checked`). Only editors can write here.
   - `photos/{id}`: menu photos (downscaled JPEG data URLs) tied to a venue
@@ -34,6 +34,7 @@ python tools/merge_research.py <dir with kendall/central/backbay/kenmore.json>  
 python tools/add_research.py [--keep-unpriced] <research.json> ...               # append venues inside 2 mi that aren't listed yet
 python tools/fixups.py                                                           # manual corrections
 python tools/merge_menus.py data/menus.json <menus_*.json>                         # full drink menus -> data/menus.json
+python tools/merge_share.py <share_*.json>                                       # pitchers and bottles of wine -> data/menus.json
 python tools/merge_hours.py <hours_*.json | research.json> ...                    # opening hours -> data/hours.json
 python tools/make_seed.py                                                        # -> data/seed/* (one JSON per db doc)
 python tools/review_sheet.py                                                     # -> data/venues_review.csv

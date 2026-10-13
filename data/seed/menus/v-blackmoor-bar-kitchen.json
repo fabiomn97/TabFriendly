@@ -232,6 +232,118 @@
    "serve": "glass",
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "Prosecco, Mionetto Doc, Treviso (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Sauvignon Blanc, Villa Maria, Marlborough (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Pinot Grigio, Benvolio, Friuli-Venezia Giulia (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Chardonnay, Carmel Road, Monterey (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Riesling, Schmitt-Sohne 'Relax' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Moscato d'Asti, Vietti 'Cascinetta' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Rosé, Gerard Bertrand, Cote des Roses (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Pinot Noir, Murphy-Goode, North Coast (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Merlot, Nobile Vines '181', Lodi (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Haras de Pirque 'Gran Reserve' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Malbec, Tilia, Mendoza (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Tempranillo, Franco-Espanolas 'Rioja Crianza' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Silver Palm, North Coast (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Sangiovese, Santa Cristina, Chianti 'Superiore' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
   }
  ],
  "sources": [

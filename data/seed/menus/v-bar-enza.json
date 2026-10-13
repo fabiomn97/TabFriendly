@@ -280,6 +280,158 @@
    "serve": "glass",
    "oz": null,
    "price": 16.0
+  },
+  {
+   "name": "Cleto Chiarli, 'Vecchia Modena' Lambrusco (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Prosecco, Marsuret, Treviso (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Noir/Nebbiolo, G.D. Vajra, N.S. Della Neve (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "Ca' Del Bosco, Cuvee NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 99.0
+  },
+  {
+   "name": "Camille Saves, Carte Blanche, Grand Cru, Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 111.0
+  },
+  {
+   "name": "Grillo, De Bartoli 'Terzavia', Brut Natur (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 112.0
+  },
+  {
+   "name": "Bisson, Ciliegiolo, Rosato 2022 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "Verdicchio di Matelica, 'Supera' Garofoli 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Riesling, Red Slate, Dr. Loosen 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Pinot Grigio, Ca'Stele 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Vernaccia di San Gimignano, Le Calcinaie 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Etna Bianco, Enrico IV, IL Valenti 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Grillo, Mozia, Tasca D'Almerita 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Cannonau, Inkibi, Sa Raja 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Ciro, Rosso Classico Superiore, Vigneti Vumbaca 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Terre 'Vigneti Delle Dolomiti', San Leonardo 2017 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Montepulciano, Cantine Mucci 2018 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Pileum, Cesanese del Piglio 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Frappato, Valle Dell'Acate, Vittoria 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
   }
  ],
  "sources": [

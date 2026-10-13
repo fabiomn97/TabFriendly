@@ -320,10 +320,163 @@
    "serve": "cocktail",
    "oz": null,
    "price": 18.0
+  },
+  {
+   "name": "adami bosco di gica {prosecco} NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "raventos i blanc brut rosé {penedes} 2021 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "domaine de taille triple zero {brut} NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "schramsberg vineyards {blanc de blancs} 2022 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 90.0
+  },
+  {
+   "name": "gosset {brut} NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 119.0
+  },
+  {
+   "name": "perrier-jouët grand {brut} NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 120.0
+  },
+  {
+   "name": "Pinot Gris & Blanc, au bon climat {santa barbara} 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Vernaccia, la lastra san gimignano {tuscany} 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Grenache Blanc, etc., chateau mont redon réserve {côtes du rhône} 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Chenin Blanc, domaine ogereau en chenin {anjou} 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Arneis, vietti roero {piedmont} 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Garganega, vigneti di foscarino soave classico {veneto} 2020 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Riesling, willi haag kabinett {mosel} 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Nero d'Avola, colosi {sicily} 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Gamay, jean-marc burgaud ruyere {morgon} 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Corvina & Rondinella, allegrini palazzo della torre {veneto} 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Pinot Noir, au bon climat {california} 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Tempranillo, torres celeste {ribera del duero} 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Nerello Mascalese, tenuta terre nerre rosso {etna} 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
   }
  ],
  "sources": [
-  "https://www.yvonnesboston.com/menus/"
+  "https://www.yvonnesboston.com/menus/",
+  "https://media-cdn.getbento.com/accounts/7c92cd8af75d593d46054390803e6f98/media/bPAPdJinTtKWnBhIzUhw_YV%20Wine%20List_compressed.pdf"
  ],
  "sourceDate": null,
  "by": null,

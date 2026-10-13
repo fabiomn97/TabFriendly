@@ -424,6 +424,198 @@
    "serve": null,
    "oz": null,
    "price": 8.0
+  },
+  {
+   "name": "Avissi Prosecco (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Veuve Clicquot Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 120.0
+  },
+  {
+   "name": "Veuve Clicquot Brut Rosé (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 140.0
+  },
+  {
+   "name": "Moët & Chandon Brut Impérial (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 120.0
+  },
+  {
+   "name": "Moët & Chandon Rosé Impérial (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
+  },
+  {
+   "name": "Champagne Moussé Fils, L'Or D'Eugene Rosé 2022 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
+  },
+  {
+   "name": "McBride Sisters Sauvignon Blanc 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Drouhin Vaudon 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Calera Chardonnay 2021 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Moscato d'Asti 2021 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Pike Road Pinot Gris (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Hands of Time Chardonnay 2021 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "Whispering Angel, Chateau d'Esclans (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Annabella Cabernet Sauvignon 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Montinore Pinot Noir 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Tapestry Red Blend 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Terrazas de los Andes Malbec 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Coto de Imaz Reserva Rioja 2018 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Caparzo Rosso di Montalcino 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Belle Glos Pinot Noir, Dairyman Vineyard 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 110.0
+  },
+  {
+   "name": "Domaine de la Solitude Chateauneuf-du-Pape 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 120.0
+  },
+  {
+   "name": "St. Supery Cabernet Sauvignon 2018 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
+  },
+  {
+   "name": "Antica Cabernet Sauvignon 2018 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 170.0
+  },
+  {
+   "name": "Caymus Cabernet Sauvignon 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 175.0
   }
  ],
  "sources": [

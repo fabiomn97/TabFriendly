@@ -168,6 +168,174 @@
    "serve": "glass",
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "Aperol Spritz Pitcher",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Hugo Spritz Pitcher",
+   "type": "Hugo Spritz",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Pere Mata 'Cupada', Cava Rosé, Penedès NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Vollereaux, Champagne NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
+  },
+  {
+   "name": "Pol Roger Brut, Champagne NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 130.0
+  },
+  {
+   "name": "Veuve Clicquot 'Yellow Label', Champagne NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 180.0
+  },
+  {
+   "name": "Planeta Rosé, Sicilia 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Peyrassol Rosé - Les Commandeurs, Provence 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Minuty Prestige, Mediterranean Rosé, Provence 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Vina Mayu, Sauvignon Blanc, Elqui Valley, Chile 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Columna, Albariño, Rias Baixas 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Domaine Nerantzi, Assyrtiko, Serres, GR 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Kumusha, Chenin Blanc, Western Cape 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Tobias, Chardonnay, Mendocino 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Fontanafredda, Gavi di Gavi, Piemonte 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Sierra Cantabria 'Crianza', Tempranillo, Rioja 2019 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Smith & Hook, Cabernet Sauvignon, Paso Robles 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Frei Brothers, Pinot Noir, Russian River Valley 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "Fonterutoli, Chianti Classico, Toscana 2018 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "Merlot - L'Ercole No 41, Columbia Valley 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Campogiovanni Rosso di Montalcino, Sangiovese, Tuscany 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 82.0
   }
  ],
  "sources": [

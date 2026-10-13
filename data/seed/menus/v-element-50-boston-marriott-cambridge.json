@@ -512,6 +512,198 @@
    "serve": null,
    "oz": null,
    "price": 42.0
+  },
+  {
+   "name": "Mionetto, Prosecco Brut, Valdobbiadene (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Chandon Brut, Yountville, CA (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Veuve Clicquot Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 190.0
+  },
+  {
+   "name": "Chateau Ste. Michelle, Riesling, Columbia Valley (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Brancott Estate Sauvignon Blanc, Marlborough (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc, Marlborough (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "J. Lohr Flume Crossing SB, Arroyo Seco (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Pighin Pinot Grigio, Friuli Grave (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Santa Margherita Pinot Grigio, Alto Adige (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Meiomi Chardonnay, Santa Barbara County (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Sonoma Cutrer Chardonnay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Wente Morning Fog Chardonnay, Livermore Valley (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Fleurs De Prairie, Cotes de Provence (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "DAOU, Paso Robles Rose (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Joel Gott Palisades Red Blend (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Argyle, Bloom House Pinot Noir, Willamette Valley (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "J Lohr Estates Merlot 'Los Osos', Paso Robles (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "St. Francis Merlot (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "H3 Cabernet Sauvignon, Horse Heaven Hills (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Chateau Ste. Michelle Cabernet (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Hess 'Allomi Vineyard' Cabernet Sauvignon, Napa Valley (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 85.0
+  },
+  {
+   "name": "Roth Estate Cabernet, Alexander Valley (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Meiomi Pinot Noir, Monterey County (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "J Lohr Pure Paso Proprietary Red, Paso Robles (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 63.0
   }
  ],
  "sources": [

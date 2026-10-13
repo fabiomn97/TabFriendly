@@ -360,11 +360,212 @@
    "serve": "bottle",
    "oz": null,
    "price": 8.0
+  },
+  {
+   "name": "NV Prosecco, Mionetto Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "NV Prosecco, La Gioiosa Treviso (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "NV Sparkling Rosé, Sommariva Extra Dry (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "NV Lambrusco Rosso Secco, Vai (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2023 Lambrusco Rosso, Zucchi 'Marascone' (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "NV Franciacorta, Barone Pizzini 'Animante' (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 90.0
+  },
+  {
+   "name": "2025 Sangiovese Rosé, il Borro 'Borrorosa' (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2024 Provence Rosé, Maison Saleya (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2024 Sangiovese 'il Rosé di Casanova', Spinetta (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2024 Provence Rosé, Peyrassol 'Templiers' (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "2025 Barbera Rosé, Lavignone, Pico Maccario (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 76.0
+  },
+  {
+   "name": "2024 Grenache blend, Chêne Bleu 'Le Rosé' (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 90.0
+  },
+  {
+   "name": "2024 Pinot Grigio, Benvolio (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "2024 Falanghina, Mastroberardino (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "2024 Nerello Mascalese Bianco, Terrazze Dell'Etna (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "2024 Sauvignon Blanc, Long Meadow Ranch (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "2025 Grillo, Tenuta Regaleali 'Cavallo delle Fate' (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2024 Pinot Grigio, Livio Felluga (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2023 Arneis Blange, Ceretto (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2023 Nero d'Avola, Tenuta Regaleali 'Lamuri' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2025 Nebbiolo, G.D. Vajra, J.C. Clare (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2023 Cabernet, Pavette, Lodi (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2023 Sangiovese Superiore, La Sabbiona 'Rosso Della Torre' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2024 Pinot Noir, Hofstätter (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2023 Sangiovese, Borgo Scopeto, Chianti Classico (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
   }
  ],
  "sources": [
   "https://www.primaboston.com/menus/dinner",
-  "https://irp.cdn-website.com/88b94f1c/dms3rep/multi/Prima-Dinner-Menu-7-31-26-2.jpg"
+  "https://irp.cdn-website.com/88b94f1c/dms3rep/multi/Prima-Dinner-Menu-7-31-26-2.jpg",
+  "https://irp.cdn-website.com/88b94f1c/files/uploaded/Prima+Dinner+Menu+7-31-26.pdf"
  ],
  "sourceDate": "2026-07",
  "by": null,

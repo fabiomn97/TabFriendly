@@ -152,10 +152,147 @@
    "serve": null,
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "Prosecco, Zonin DOC, Veneto NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Brut, Roederer Estate, California NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "Laurent Perrier Cuvée Rosé, France NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 180.0
+  },
+  {
+   "name": "Grillo, De Gregorio, Sicily 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 34.0
+  },
+  {
+   "name": "Pinot Grigio, La Vis Di Pinti, Alto Adige 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Sauvignon Blanc, Clos Du Bois, California 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Riesling, Schlink Haus, Germany 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Sauvignon Blanc, The Crossings, New Zealand 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Falanghina, La Capranera IGP, Campania 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Chardonnay, Josh Cellars \"Craftsman\", California 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Rose, Fleurs De Prairie, France 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "Rose, Fattoria Sardi Toscana 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Hayes Ranch Merlot, California 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 43.0
+  },
+  {
+   "name": "Pinot Noir, Backhouse, California 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Malbec Riserva, \"Talante\" Makia, Argentina 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Chateau De Saint Cosme, Grenache-Pinot Noir 2025 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Toscano Rosso, Sella Antica 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
   }
  ],
  "sources": [
-  "https://www.piattini.com/menu/drinks/"
+  "https://www.piattini.com/menu/drinks/",
+  "https://www.piattini.com/menus/"
  ],
  "sourceDate": null,
  "by": null,

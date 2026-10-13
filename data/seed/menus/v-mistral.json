@@ -800,10 +800,203 @@
    "serve": null,
    "oz": null,
    "price": 35.0
+  },
+  {
+   "name": "NV Zardetto Prosecco Brut, Veneto (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "NV Albert Bichot Crémant de Bourgogne Brut Rosé (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "2023 Michele Chiarlo 'Nivole' Moscato d'Asti (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "NV Laurent Perrier 'La Cuvée' Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 122.0
+  },
+  {
+   "name": "2021 Schramsberg 'Méthode Traditionnelle' Blanc de Blancs Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 130.0
+  },
+  {
+   "name": "NV Taittinger 'La Francaise' Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 150.0
+  },
+  {
+   "name": "2022 Trimbach Pinot Blanc, Alsace (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2025 Via Alpina Pinot Grigio, Collio (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2025 Frenzy Sauvignon Blanc, Marlborough (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2024 Trefethen Chardonnay, Oak Knoll, Napa Valley (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "2024 Jermann Pinot Grigio, Friuli (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "2025 Duckhorn Vineyards Sauvignon Blanc, Napa Valley (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "2022 Forever Young Rosé, Côtes de Provence (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2023 Patricia Green Cellars 'Helen Dusschee Freedom Hill Vineyard' Tempranillo R",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "2025 Peyrassol 'Cuvée des Commandeurs' Rosé (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "2023 Arnot-Roberts Rosé, California (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 100.0
+  },
+  {
+   "name": "2022 Forever Young 'Prestige' Rosé Cru Classé (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 105.0
+  },
+  {
+   "name": "2023 Château d'Esclans 'Rock Angel' Rosé (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 105.0
+  },
+  {
+   "name": "2022 Tenuta di Nozzole Chianti Classico Riserva (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2022 Forever Young 'Reserva' Malbec, Mendoza (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2023 Baileyana 'Grand Firepeak Cuvée' Pinot Noir, Edna Valley (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "2024 Domaine de Beaurenard, Côtes du Rhône (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "2023 Mendel Malbec, Mendoza (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "2022 Duckhorn 'Decoy' Red Blend, Sonoma (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
   }
  ],
  "sources": [
-  "https://mistralbistro.com/wp-content/uploads/2026/09/Mistral-Cocktail-BTG-Spirits-CJ.pdf"
+  "https://mistralbistro.com/wp-content/uploads/2026/09/Mistral-Cocktail-BTG-Spirits-CJ.pdf",
+  "https://mistralbistro.com/wp-content/uploads/2026/10/MISTRAL-Wine-List-ONLINE-10.11.2026.pdf"
  ],
  "sourceDate": "2026-09",
  "by": null,

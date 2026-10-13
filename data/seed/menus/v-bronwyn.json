@@ -328,6 +328,86 @@
    "serve": null,
    "oz": null,
    "price": 13.0
+  },
+  {
+   "name": "Sparkling Rosé, Pinot Noir - Fritz Mueller, Germany NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Riesling - Ansgar Clüsserath, Mosel 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Grüner Veltliner - Stadt Krems, Kremstal 2021 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Sauvignon Blanc - Sattlerhof, Sudsteiermark 2021 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "Reserve Riesling, Trocken - Loimer, Kamptal 2021 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "Ribolla (Orange Wine) - Krasno, Goriska Brda 2022 (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Pinot Noir - Hex Vom Dasenstein, Baden 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "St. Laurent - Reinisch, Thermenregion 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "Cabernet Sauvignon - Movia, Goriska Brda 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 76.0
+  },
+  {
+   "name": "Reserve Pinot Noir - Meyer-Näkel, Ahr 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 112.0
   }
  ],
  "sources": [

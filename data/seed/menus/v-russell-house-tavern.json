@@ -440,6 +440,198 @@
    "serve": "glass",
    "oz": null,
    "price": 18.0
+  },
+  {
+   "name": "Serena Prosecco Brut, Veneto NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Bohigas Cava Pinot Noir Rosé, Spain NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Roederer Estate Sparkling Brut, Anderson Valley NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "Vincent Couche Brut 'Eclipsia', Champagne NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
+  },
+  {
+   "name": "Cruse Wine Pétillant Naturel of Valdigué, Napa 2021 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
+  },
+  {
+   "name": "Cruse Wine Co. Brut Tradition, California NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
+  },
+  {
+   "name": "Mare Nostrum Rosé, Provence 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Cantrina Groppello Rosé, Lake Garda 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Giornato 'Orange Tango', Paso Robles 2024 (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Copain Rosé of Pinot Noir, Mendocino County 2022 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Cistercensi Coenobium Orange Wine, Lazio 2023 (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Division Wine Co. Skin-Contact L'Orange, Oregon 2022 (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Antxiola Txacolina, Basque Region 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Au Bon Climat Pinot Gris & Pinot Blanc, Santa Barbara County 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "Peju Sauvignon Blanc, North Coast 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Peter Lauer Riesling 'Barrel X', Mosel 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Verdad Albariño, Edna Valley 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Forlörn Hope Picpoul 'Trobairises', Sierra Foothills 2020 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "Cheveau Gamay Beaujolais-Village 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Valle dell'Acate Frappato, Sicily 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "Durette Gamay Beaujolais Morgon 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "Marietta Old Vine Red 'Lot 75', Sonoma MV (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Saint Cosme Côtes du Rhône Syrah 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Lindquist Syrah, Central Coast 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
   }
  ],
  "sources": [

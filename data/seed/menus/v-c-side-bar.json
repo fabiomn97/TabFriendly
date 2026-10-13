@@ -288,6 +288,158 @@
    "serve": "glass",
    "oz": null,
    "price": 13.0
+  },
+  {
+   "name": "NV Zonin Prosecco DOC, IT (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Pol Roger, Brut, NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "Vilmart, Grand Cellier, NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 85.0
+  },
+  {
+   "name": "Vilmart, Coeur de Cuvee, Brut, 2014 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 160.0
+  },
+  {
+   "name": "Louis Roderer, Cristal, 2015 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 350.0
+  },
+  {
+   "name": "Louis Roderer, Cristal, 2008 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 495.0
+  },
+  {
+   "name": "2023 Pinot Grigio, Villa Sandi, delle Venezie, IT (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Flowers Vineyard & Winery, Chardonnay, Sonoma Coast, 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "2023 Sauvignon Blanc, Pascal Jolivet, Val de Loire, FR (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "2021 Riesling, Dr. Fischer Bockstein Kabinett, Mosel, GR (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "2023 Chardonnay, Routestock, Sonoma Coast, CA (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Domain Gautheron, Les Fourneaux 1er Cru, Chablis, 2020 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2024 Rose - Grenache/Syrah/Cinsault, Peyrassol, La Croix, IGP, FR (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "2023 Sangiovese, Collazi, Chianti Classico, IT (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "2023 Malbec, Areyna, Lujan de Cujo, AR (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "2023 Syrah/Grenache, J.L. Chave Selections, Mon Coeur, Cotes du Rhone, FR (bottl",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Foillard, Cote du Py, Morgon, 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "2023 Pinot Noir, Stafford Hill, Willamette Valley, OR (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2023 Cabernet Sauvignon, Daou, Paso Robles, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
   }
  ],
  "sources": [

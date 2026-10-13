@@ -536,6 +536,166 @@
    "serve": null,
    "oz": 12,
    "price": 8.0
+  },
+  {
+   "name": "Borgo Pinot Grigio, Italy (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Angeline \"Reserve\" Sauvignon Blanc, California (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Martin Ray \"Sonoma\" Chardonnay, California (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "A to Z Riesling, Oregon (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Jean Luc Columbo Rose, France (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Santa Margherita Pinot Grigio, Italy (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Peju Winery Chardonnay, Napa Valley (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Groth Sauvignon Blanc, Napa Valley (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Educated Guess Cabernet Sauvignon, California (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "J. Lohr \"Hilltop\" Cabernet Sauvignon, California (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "McManis Pinot Noir, California (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Aruma Malbec, Argentina (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Zuccardi Q Malbec, Argentina (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Jim Jim Shiraz, Australia (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Goose Ridge Merlot, California (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Seven Hills Merlot, Washington (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Castiglion Del Bosco Brunello, Italy (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Groth Cabernet Sauvignon, California (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Cava Castellar, Spain (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Gosset Grande Reserve, Champagne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 110.0
   }
  ],
  "sources": [

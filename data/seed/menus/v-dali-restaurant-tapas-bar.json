@@ -360,6 +360,166 @@
    "serve": null,
    "oz": null,
    "price": 9.0
+  },
+  {
+   "name": "Sangria Blanca (small pitcher, 3-4 glasses)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Sangria (small pitcher, 3-4 glasses)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Sangria (large pitcher, 7-8 glasses)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Blanc de Pacs, Penedes/Catalonia 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "Honoro Vera Verdejo, Rueda/Castilla y León 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Licia, Rías Baixas 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Honoro Vera Rosé, Murcia/Jumilla 2023 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "Poema Cava Brut, Penedes/Catalonia (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Roederer Estate Brut Rosé (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Montecillo Crianza, Rioja 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 37.0
+  },
+  {
+   "name": "Atteca, Calatayud/Aragón 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Tres Picos, Borja, Zaragoza 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "Emilio Moro, Ribera del Duero 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 53.0
+  },
+  {
+   "name": "Viña Herminia Tempranillo, Rioja 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "Atance, Valencia 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Viña Alberdi Reserva, La Rioja Alta 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Tarima Hill, Alicante 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Muga Reserva, Rioja 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "San Vicente, Rioja 2019 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 105.0
+  },
+  {
+   "name": "Viña Tondonia Reserva, Rioja 2012 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 110.0
   }
  ],
  "sources": [

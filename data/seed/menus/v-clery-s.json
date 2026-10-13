@@ -472,6 +472,118 @@
    "serve": "glass",
    "oz": null,
    "price": 13.0
+  },
+  {
+   "name": "Clerys Lager by Bentwater Brew Co (pitcher)",
+   "type": "Clerys Lager",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Joel Gott Cabernet Sauvignon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "J Lohr Hilltop Cabernet Sauvignon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Three Thieves Pinot Noir (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Menage a Trois Merlot (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "The Show Malbec (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Trouble Maker Red Blend (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Chloe Pinot Grigio (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Benzinger Chardonnay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Seaglass Reisling (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Echo Bay Sauvignon Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Kim Crawford Sauvignon Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Saracina Chardonnay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Cote Mas Rose (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
   }
  ],
  "sources": [

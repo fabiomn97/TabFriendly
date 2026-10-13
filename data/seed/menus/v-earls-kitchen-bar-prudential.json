@@ -520,6 +520,182 @@
    "serve": "draft",
    "oz": null,
    "price": 9.0
+  },
+  {
+   "name": "August Kesseler 'R' Riesling (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 47.0
+  },
+  {
+   "name": "Borghi Ad Est Pinot Grigio (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 54.0
+  },
+  {
+   "name": "Kendall-Jackson Vintner's Reserve Pinot Gris (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Matanzas Creek Chenin Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 63.0
+  },
+  {
+   "name": "Ceretto Langhe Arneis (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Shaw + Smith Sauvignon Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 66.0
+  },
+  {
+   "name": "Bollicini Prosecco (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 56.0
+  },
+  {
+   "name": "Sauvage Blanc de Blancs (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Ferrari Brut Rose (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 94.0
+  },
+  {
+   "name": "Veuve Clicquot Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 170.0
+  },
+  {
+   "name": "Bollinger Special Cuvée Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 198.0
+  },
+  {
+   "name": "Laurent-Perrier Cuvée Brut Rosé (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 225.0
+  },
+  {
+   "name": "Michele Chiarlo Le Orme Barbera (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Famille Perrin Côtes du Rhône Réserve Grenache + Syrah (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "Heritage Willamette Pinot Noir (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "Antinori Toscana Rosso Sangiovese (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 63.0
+  },
+  {
+   "name": "Rocca delle Macìe Chianti Classico Sangiovese (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Stolpman Love You Bunches Sangiovese (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Murphy-Goode Cabernet Sauvignon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 65.0
+  },
+  {
+   "name": "La Crema Monterey Pinot Noir (rosé) (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 58.0
+  },
+  {
+   "name": "Calafuria Rosé Negroamaro (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 66.0
+  },
+  {
+   "name": "Roseblood d'Estoublon Grenache + Cinsault (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": 25.4,
+   "price": 74.0
   }
  ],
  "sources": [

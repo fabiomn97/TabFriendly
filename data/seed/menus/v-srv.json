@@ -224,10 +224,171 @@
    "serve": null,
    "oz": 12,
    "price": 11.0
+  },
+  {
+   "name": "Adami 'Bosco di Gica' Prosecco di Valdobbiadene Superiore NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Valdo 'Numero 10' Prosecco di Valdobbiadene Superiore 2016 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 71.0
+  },
+  {
+   "name": "Ferrari Brut, Chardonnay NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 74.0
+  },
+  {
+   "name": "Contratto Pas Dosé Alta Langa 2021 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 80.0
+  },
+  {
+   "name": "Bertrand-Delespierre 'Enfant de la Montagne' Pr Cru Extra Brut NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 90.0
+  },
+  {
+   "name": "Laherte Frères 'Ultratradition' Brut NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
+  },
+  {
+   "name": "Ferrando Metodo Classico Pas Dose, Erbaluce di Caluso 2018 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
+  },
+  {
+   "name": "Pasqua 'PassioneSentimento', Garganega 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 61.0
+  },
+  {
+   "name": "Montemelino, Grechetto 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 61.0
+  },
+  {
+   "name": "Elvio Cogno 'Anas-Cëtta', Nascetta 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Bocale, Trebbiano Spoletino 2022 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Benanti, Carricante 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Abbazia di Novacella, Kerner 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 67.0
+  },
+  {
+   "name": "La Leccia Chianti Superiore, Sangiovese 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Mustilli, Piedirosso 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 61.0
+  },
+  {
+   "name": "Valle dell'Acate, Frappato 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "Marco Felluga 'Varneri', Merlot 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "G.D. Vajra, Barbera d'Alba 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Sella & Mosca 'Tanca Farrà', Cannonau + Cabernet Sauvignon 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Valenti 'Norma' Etna Rosso, Nerello Mascalese 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
   }
  ],
  "sources": [
-  "https://www.srvboston.com/menu"
+  "https://www.srvboston.com/menu",
+  "https://www.srvboston.com/s/Wine-BTB-List-33126.pdf"
  ],
  "sourceDate": null,
  "by": null,

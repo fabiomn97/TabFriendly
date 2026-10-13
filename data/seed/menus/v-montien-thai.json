@@ -168,6 +168,62 @@
    "serve": "draft",
    "oz": null,
    "price": 9.5
+  },
+  {
+   "name": "Merlot, Black Stone (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 37.0
+  },
+  {
+   "name": "Pinor Noir, Unsorted (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "Cabernet Sauvignon, J Lohr 'Seven Oak' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "Chardonnay, J Lohr (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "Sauvignon Blanc, Pamelo (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Pinot Grigio, Cavit (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 39.0
+  },
+  {
+   "name": "Rose, La Petite Perriere (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 39.0
   }
  ],
  "sources": [

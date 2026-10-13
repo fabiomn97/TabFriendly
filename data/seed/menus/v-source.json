@@ -256,6 +256,94 @@
    "serve": "glass",
    "oz": null,
    "price": 14.0
+  },
+  {
+   "name": "SOURCE Sangria (pitcher)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "NV Brut Prosecco, Zardetto (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "NV Brut Rosé, Grandial (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "NV Lambrusco, Lini (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "2023 Chardonnay, Jean-Marc Brocard, Burgundy (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "2024 Pinot Grigio DOC, Maso Canali (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "2024 Sauvignon Blanc, Villa Maria Private Bin (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "2024 Chateau de Berne 'Romance', Côtes de Provence (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "2022 Cabernet Sauvignon, Ancient Peaks (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "2022 Chianti Colli Senesi DOCG, Il Palio (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2022 Pinot Noir, Sean Minor (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
   }
  ],
  "sources": [

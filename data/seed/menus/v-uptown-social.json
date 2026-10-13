@@ -272,6 +272,126 @@
    "serve": null,
    "oz": null,
    "price": 8.0
+  },
+  {
+   "name": "Social Sangria (Blanco or Roja) (pitcher)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Chardonnay, House Of Brown, Lodi (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "Pinot Gris, J Vineyards, Sonoma (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Riesling, Dr. Loosen, Mosel (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Sauvignon Blanc, Mohua, Marlborough (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Vinho Verde, Quinta da Aveleda Loureiro Alvarinho (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Maison Noir Horseshoes & Hand Grenades (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Red Blend, McBride Sisters, Central Coast (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 54.0
+  },
+  {
+   "name": "Pinot Noir, Maison Noir OPP, Willamette Valley (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 62.0
+  },
+  {
+   "name": "Merlot, Orin Swift You Had Me At Hell No (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Zinfandel Red Blend, Brown Estate Chaos Theory (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 98.0
+  },
+  {
+   "name": "Brut, J Vineyards Cuvée 20 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "Lambrusco, Castello del Poggio (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "Rosé Prosecco, Pasqua Romeo & Juliet's Wall (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Rosé, Château Miraval, Côtes de Provence (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
   }
  ],
  "sources": [

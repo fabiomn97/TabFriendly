@@ -432,6 +432,214 @@
    "serve": null,
    "oz": 11.2,
    "price": 8.0
+  },
+  {
+   "name": "Ferrari, Brut, Trento, Italy N.V. (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Roederer Estate, Brut, Anderson Valley N.V. (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "Domaine Huet, Brut, Vouvray Pétillant 2019 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 78.0
+  },
+  {
+   "name": "Peter Lauer, Brut, Riesling Sekt, Saar 2021 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 78.0
+  },
+  {
+   "name": "Nino Franco, Brut, Prosecco Rustico, Valdobbiadene N.V. (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 92.0
+  },
+  {
+   "name": "Schramsberg, Brut, Blanc de Blancs, North Coast 2021 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 95.0
+  },
+  {
+   "name": "Domaine du Héron, Sur Lie (Muscadet Sèvre et Maine) 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 35.0
+  },
+  {
+   "name": "Casarena Areyna, Valle de Cafayate, Saltam Torrontes 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "Bodegas Shaya, Rueda (Verdejo) 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "Pewsey Vale, Single Vineyard Estate, Eden Valley, Riesling 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "Elena Walch, Alto Adige (Pinot Grigio) 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Domäne Wachau, Terrassen, Federspiel, Wachau 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Mulderbosch, Stellenbosch, Sauvignon Blanc 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Entourage, Côtes de Provence 2025 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Peyrassol, La Croix Peyrassol, Méditerranée IGP 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Chateau D'Esclans, Whispering Angel, Côtes de Provence 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 78.0
+  },
+  {
+   "name": "François Cotat, Chavignol, Sancerre 2023 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 112.0
+  },
+  {
+   "name": "Pascal Cotat, Chavignol, Sancerre 2023 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 135.0
+  },
+  {
+   "name": "Block Nine, Caiden's Vineyards, California (Pinot Noir) 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Decoy, California (Merlot) 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Yalumba, Bush Vine, Barossa (Grenache) 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Stéphane Aviron, Beaujolais Villages 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 47.0
+  },
+  {
+   "name": "Adega de Borba, Reserva (Alentejo) 2018 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Descendientes de José Palacios, Petalos (Bierzo) 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Domaine de Pallus, Messanges Rouge (Chinon) 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Tomàs Cusiné, El Vilosell (Costers del Segre) 2017 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
   }
  ],
  "sources": [

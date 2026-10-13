@@ -176,6 +176,70 @@
    "serve": "glass",
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "Pinot Grigio, Ca'Stele, Friuli (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Sauvignon Blanc, Fournier Pouilly-Fumé, Loire Valley (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 76.0
+  },
+  {
+   "name": "Chardonnay, J. Drouhin, Burgundy (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Pinot Noir, Erath Vineyards Oregon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Justin Vineyards, Paso Robles, CA (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 76.0
+  },
+  {
+   "name": "Malbec, Clos de los Siete, Argentina (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "JM Sélèque Rosé Champagne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 168.0
+  },
+  {
+   "name": "Veuve Clicquot La Grand Dame 2012 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 420.0
   }
  ],
  "sources": [

@@ -240,6 +240,190 @@
    "serve": "glass",
    "oz": null,
    "price": 15.0
+  },
+  {
+   "name": "NV Barrat-Masson, Nature Les Margannes Blanc de Blancs, Champagne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 27.0
+  },
+  {
+   "name": "2014 Thierry Tissot Bugey Blanc Brut, Altesse (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "NV Benedicte et Stephane Tissot BBF (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 87.0
+  },
+  {
+   "name": "2008 Bruno Paillard Assemblage, Pinot Noir-Chard, Champagne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 89.0
+  },
+  {
+   "name": "NV Pierre Peters Cuvee Blanc de Blancs Brut, Champagne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 145.0
+  },
+  {
+   "name": "NV Moet & Chandon Imperial, Champagne (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 188.0
+  },
+  {
+   "name": "2018 Arneis, Angelo Negro Serra Lupini, Piedmont (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "2017 Pinot Grigio, Erath, Dundee, Oregon (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "2020 Pinot Grigio, Chloe, Valdadige (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "2018 Verdejo, Pago del Cielo Sur Lies, Celeste, Rueda (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "2015 Verdejo, Isaac Cantayano, Castilla y Leon (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "2019 Chardonnay, Bouchard Aine & Fils, Bourgogne (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "2023 Sauvignon Blanc, Whitehaven, Marlborough (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "2018 Sauvignon Blanc, Borgo Conventi Collio, Friuli (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "2018 Grenache Noir, Syrah, Cinsault, Mathilde Chapoutier, Provence (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 78.0
+  },
+  {
+   "name": "2021 Sauvignon, Muscat Puch-Hault Argali, Vermentino, Languedoc (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "2015 Albarino, Forlorn Hope Moresque, California (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 64.0
+  },
+  {
+   "name": "2017 Gamay, Domaine Richou 'Les Chateliers', Loire (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "2018 Nero D'Avola, Zabu, Sicilia (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "2020 Cabernet Sauvignon, Lockwood Paso Robles (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "2018 Pinot Noir, Buena Vista North Coast, Sonoma (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "2020 Pinot Noir, Firesteed, Oregon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
+  },
+  {
+   "name": "2007 Gamay, Chateau de la Terriere, Cuvee de la Lure, Beaujolais (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 58.0
   }
  ],
  "sources": [

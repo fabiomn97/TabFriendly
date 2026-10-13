@@ -448,10 +448,27 @@
    "serve": "can",
    "oz": 16,
    "price": 10.0
+  },
+  {
+   "name": "Pitcher: Boston Lager, Octoberfest, American Light and Truly (pitcher)",
+   "type": "Sam Adams",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": 60,
+   "price": 24.0
+  },
+  {
+   "name": "Pitcher: New England Juicy IPA, Cherry Wheat, Edel-Brau, or Brick Red (pitcher)",
+   "type": "Sam Adams",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": 60,
+   "price": 26.0
   }
  ],
  "sources": [
-  "https://www.samueladams.com/taprooms/sam-adams-boston-taproom/whats-on-tap"
+  "https://www.samueladams.com/taprooms/sam-adams-boston-taproom/whats-on-tap",
+  "https://business.untappd.com/locations/30700/themes/118326/js"
  ],
  "sourceDate": "2026-10",
  "by": null,

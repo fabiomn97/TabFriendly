@@ -456,6 +456,110 @@
    "serve": null,
    "oz": null,
    "price": 16.0
+  },
+  {
+   "name": "Seasonal Sangria, serves 2-3 (pitcher)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 25.0
+  },
+  {
+   "name": "Brut, Treveri Cellars, \"Morimoto Dream\", Washington (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Sparkling Rosé, Treveri Cellars, \"Morimoto Dream\", Washington (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Prosecco, Mionetto, Treviso Brut, Italy (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Prosecco Rosé, Bisol Jeio, Italy, 2021 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Pinot Grigio, Tiamo, Italy 2020 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Sauvignon Blanc, Goldschmidt Vineyards, New Zealand 2020 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Chardonnay, J Lohr, \"Riverstone\" California 2020 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Chardonnay, Grgich Hills, \"Morimoto Dream\" California (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 105.0
+  },
+  {
+   "name": "La Croix rosé, Peyrassol, France 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Pinot Noir, J Lohr, \"Falcon's Perch\", California (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 65.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Broadbent, North Coast, 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Grgich Hills, \"Morimoto Dream\", California, 2017 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 105.0
   }
  ],
  "sources": [

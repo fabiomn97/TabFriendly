@@ -584,6 +584,134 @@
    "serve": "bottle",
    "oz": null,
    "price": 5.0
+  },
+  {
+   "name": "Prosecco, Ruggeri 'Argeo', Treviso (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Rosé of Pinot Noir/Grasparossa, Cleto Chiarli, Emilia Romagna (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Chardonnay/Pinot Nero Franciacorta, Ca del Bosco, Lombardy (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 90.0
+  },
+  {
+   "name": "Pinot Grigio, Venezie, Torre di Luna, Trentino-Alto Adige (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Moscato d'Asti, Marenco Strev, Piedmont (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Vermentino, Cantina Mesa 'Giunco', Sardegna (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Falanghina, Paestum, La Capranera, Campania (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Turbiano Lugana, Ca dei Frati 'I Frati', Lombardy (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Riesling, Kuen Hof 'Eisacktaler', Alto Adige (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Rosé of Sangiovese, IGT, La Spinetta, Tuscany (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Pinot Noir, Borgo Magredo, Friuli (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Montepulciano, Masciarelli, Abruzzo (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 42.0
+  },
+  {
+   "name": "Malbec, La Posta 'Fazzio', Tupungato Mendoza (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Sangiovese Morellino di Scansano, Fattoria Le Pupille, Tuscany (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 50.0
+  },
+  {
+   "name": "Pinot Noir, Four Graces, Willamette Oregon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Sangiovese, Chianti Classico, Villa Cafaggio 'Single Estate', Tuscany (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
   }
  ],
  "sources": [

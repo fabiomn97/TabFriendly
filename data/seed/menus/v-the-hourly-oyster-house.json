@@ -424,6 +424,198 @@
    "serve": null,
    "oz": null,
    "price": 9.0
+  },
+  {
+   "name": "Ferrandiere Brut Blanc de Blancs, Limoux NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Serena Prosecco Brut, Veneto NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Bisol Brut Prosecco Rosé 'Jeio', Veneto (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Murgo Nerello Mascalese Sparkling Rosé, Sicily 2022 (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 66.0
+  },
+  {
+   "name": "Sébastien Girost Champagne Brut NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 88.0
+  },
+  {
+   "name": "Mereaux Extra Brut Blanc de Blancs, Champagne NV (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 115.0
+  },
+  {
+   "name": "Ameztoi Txakolina Rosé 'Rubentis', Basque 2025 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "Barone di Villagrande Nerello Rosé, Sicily 2023 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 59.0
+  },
+  {
+   "name": "Mare Nostrum Provence Rosé 2025 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Lucien Crochet Sancerre Rosé 2024 (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "Clos Roussely Orange Sauvignon, Loire 2024 (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Nicolucci Trebbiano Skin-Contact Bianco, Emilia-Romagna 2024 (bottle)",
+   "type": "Orange wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Aia Vecchia Vermentino, Tuscany 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Rouvalis Roditis 'Asprolithi', Peloponnese 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "Paul Buisse Sauvignon Blanc, Loire 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Whitaker-Tasca Grillo 'Mozia', Sicily 2024 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Fred Loimer Grüner Veltliner 'Lois', Kamptal 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Espelt Grenache Blanco 'Pla de Gates', Catalonia 2023 (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Durette Gamay Beaujolais Morgon 'Les Charmes' 2023 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 49.0
+  },
+  {
+   "name": "Château du Hureau Saumur 'Tuffe' 2022 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Saint Cosme Syrah, Rhône 2024 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Chelti Saperavi 'Heritage', Georgia 2020 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Château Tracy Pinot Noir 'Les Marnes', Loire 2025 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Chelti Saperavi in Amphora 'Quevri', Georgia 2021 (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
   }
  ],
  "sources": [
