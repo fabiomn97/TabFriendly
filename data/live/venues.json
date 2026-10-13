@@ -9,6 +9,28 @@
   "type": "bar",
   "website": null
  },
+ "v-21st-amendment": {
+  "address": "150 Bowdoin Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.358402,
+  "lng": -71.06265,
+  "name": "21st Amendment",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": null
+ },
+ "v-4th-wall": {
+  "address": "228 Tremont Street, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.351353,
+  "lng": -71.064663,
+  "name": "4th Wall",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.4thwallboston.com/"
+ },
  "v-730-tavern-kitchen-patio": {
   "address": "730 Massachusetts Ave, Cambridge, MA 02139",
   "at": "2026-10-05T00:00:00.000Z",
@@ -30,6 +52,61 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://abeandlouies.com"
+ },
+ "v-aeronaut-brewing-company": {
+  "address": "14 Tyler St, Somerville, MA 02143",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.381976,
+  "lng": -71.106238,
+  "name": "Aeronaut Brewing Company",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.aeronautbrewing.com/"
+ },
+ "v-al-dente": {
+  "address": "109 Salem Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.364235,
+  "lng": -71.055462,
+  "name": "Al Dente",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.aldenteboston.com"
+ },
+ "v-alcove": {
+  "address": "50 Lovejoy Wharf, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.367098,
+  "lng": -71.059903,
+  "name": "Alcove",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://alcoveboston.com/"
+ },
+ "v-alden-harlow": {
+  "address": "40 Brattle St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.373559,
+  "lng": -71.12139,
+  "name": "Alden & Harlow",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.aldenharlow.com/"
+ },
+ "v-alewives-taproom": {
+  "address": "100 High Street (High Street Place), Boston, MA 02110",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.354467,
+  "lng": -71.055676,
+  "name": "Alewives Taproom",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.alewivesboston.com/"
  },
  "v-alibi-bar-lounge": {
   "address": "215 Charles St, Boston, MA 02114",
@@ -63,6 +140,17 @@
   "source": "seed",
   "type": "bar",
   "website": null
+ },
+ "v-aquitaine": {
+  "address": "569 Tremont St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343783,
+  "lng": -71.072358,
+  "name": "Aquitaine",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.aquitaineboston.com/"
  },
  "v-area-four-technology-square": {
   "address": "500 Technology Sq, Cambridge, MA 02139",
@@ -108,6 +196,17 @@
   "type": "restaurant",
   "website": "https://www.backbaysocial.com"
  },
+ "v-back-deck": {
+  "address": "2 West Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.354348,
+  "lng": -71.061823,
+  "name": "Back Deck",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.backdeckboston.com/"
+ },
  "v-backbar": {
   "address": "7 Sanborn Ct, Somerville, MA 02143",
   "at": "2026-10-05T00:00:00.000Z",
@@ -130,6 +229,28 @@
   "type": "restaurant",
   "website": "https://www.bambara-cambridge.com/"
  },
+ "v-banners-kitchen-tap": {
+  "address": "82 Causeway Street, Boston, MA (Hub on Causeway)",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.365576,
+  "lng": -71.061588,
+  "name": "Banners Kitchen & Tap",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.bannerskitchenandtap.com/"
+ },
+ "v-banyan-bar-refuge": {
+  "address": "553 Tremont St, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.344067,
+  "lng": -71.071738,
+  "name": "Banyan Bar + Refuge",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.banyanboston.com/"
+ },
  "v-bar-cino-brookline": {
   "address": "1032 Beacon St, Brookline, MA 02446",
   "at": "2026-10-05T00:00:00.000Z",
@@ -140,6 +261,61 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.barcino.com/brookline"
+ },
+ "v-bar-enza": {
+  "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372228,
+  "lng": -71.122953,
+  "name": "Bar Enza",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.bar-enza.com/"
+ },
+ "v-bar-mezzana": {
+  "address": "360 Harrison Ave, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.344587,
+  "lng": -71.063512,
+  "name": "Bar Mezzana",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.barmezzana.com/"
+ },
+ "v-bar-moxy-moxy-boston-downtown": {
+  "address": "240 Tremont Street, Floor 2, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.350902,
+  "lng": -71.064756,
+  "name": "Bar Moxy (Moxy Boston Downtown)",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.marriott.com/en-us/hotels/bosox-moxy-boston-downtown/dining/"
+ },
+ "v-barcelona-wine-bar-south-end": {
+  "address": "525 Tremont St, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.344575,
+  "lng": -71.070864,
+  "name": "Barcelona Wine Bar (South End)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://barcelonawinebar.com/location/south-end/"
+ },
+ "v-barra": {
+  "address": "23A Bow St, Somerville, MA 02143",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.381399,
+  "lng": -71.097311,
+  "name": "Barra",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": null
  },
  "v-basho-japanese-brasserie": {
   "address": "1338 Boylston St, Boston, MA 02215",
@@ -162,6 +338,50 @@
   "source": "seed",
   "type": "bar",
   "website": "https://www.facebook.com/beaconhillpubboston/"
+ },
+ "v-beantown-pub": {
+  "address": "100 Tremont Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.357277,
+  "lng": -71.061023,
+  "name": "Beantown Pub",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": null
+ },
+ "v-benevento-s": {
+  "address": "111 Salem Street, Boston",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.364298,
+  "lng": -71.05546,
+  "name": "Benevento's",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://beneventosboston.com/"
+ },
+ "v-better-sorts-social-club": {
+  "address": "90 Tremont Street, Boston, MA (Kimpton Nine Zero)",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.357442,
+  "lng": -71.060737,
+  "name": "Better Sorts Social Club",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://bettersortsboston.com/"
+ },
+ "v-bijou": {
+  "address": "51 Stuart Street, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.351191,
+  "lng": -71.064151,
+  "name": "Bijou",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.bijouboston.com/"
  },
  "v-bill-s-bar": {
   "address": "5 Lansdowne St, Boston, MA 02215",
@@ -196,6 +416,17 @@
   "type": "restaurant",
   "website": "https://www.opentable.com/bisuteki-tokyo-japanese-steak-house-marriott-hotel-cambridge"
  },
+ "v-blackmoor-bar-kitchen": {
+  "address": "1 Chelsea St, Charlestown, MA 02129",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.37123,
+  "lng": -71.061539,
+  "name": "Blackmoor Bar & Kitchen",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://blackmoorbar.com/"
+ },
  "v-bleacher-bar": {
   "address": "82A Lansdowne St, Boston, MA 02215",
   "at": "2026-10-05T00:00:00.000Z",
@@ -207,6 +438,39 @@
   "type": "bar",
   "website": "https://www.bleacherbarboston.com"
  },
+ "v-bogie-s-place": {
+  "address": "25 Temple Place, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.355167,
+  "lng": -71.06224,
+  "name": "Bogie's Place",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.bogiesplace.com/"
+ },
+ "v-bootleg-special": {
+  "address": "400 Tremont St, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.347301,
+  "lng": -71.06839,
+  "name": "Bootleg Special",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://bootlegspecial.com/"
+ },
+ "v-bosso-ramen-tavern": {
+  "address": "24 Holyoke St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372168,
+  "lng": -71.118338,
+  "name": "Bosso Ramen Tavern",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.bossoramentavern.com/"
+ },
  "v-boston-burger-company-boylston": {
   "address": "1100 Boylston St, Boston, MA 02215",
   "at": "2026-10-05T00:00:00.000Z",
@@ -217,6 +481,28 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://bostonburgercompany.com"
+ },
+ "v-bostonia-public-house": {
+  "address": "131 State Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.359154,
+  "lng": -71.054467,
+  "name": "Bostonia Public House",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.bostoniapublichouse.com/"
+ },
+ "v-bricco": {
+  "address": "241 Hanover Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.363177,
+  "lng": -71.054876,
+  "name": "Bricco",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": null
  },
  "v-brick-mortar": {
   "address": "567 Massachusetts Ave, Cambridge, MA 02139",
@@ -273,6 +559,28 @@
   "type": "bar",
   "website": null
  },
+ "v-carlo-s-cucina-italiana": {
+  "address": "131 Brighton Ave, Allston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.353066,
+  "lng": -71.131165,
+  "name": "Carlo's Cucina Italiana",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://carloscucinaitaliana.com/"
+ },
+ "v-carrie-nation": {
+  "address": "11 Beacon Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.358382,
+  "lng": -71.061713,
+  "name": "Carrie Nation",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "http://www.carrienationcocktailclub.com/"
+ },
  "v-cask-n-flagon": {
   "address": "62 Brookline Ave, Boston, MA 02215",
   "at": "2026-10-05T00:00:00.000Z",
@@ -283,6 +591,39 @@
   "source": "seed",
   "type": "bar",
   "website": "https://casknflagon.com"
+ },
+ "v-cathedral-station": {
+  "address": "1222 Washington St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.342784,
+  "lng": -71.066841,
+  "name": "Cathedral Station",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "http://cathedralstation.com/"
+ },
+ "v-causeway": {
+  "address": "65 Causeway Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.364499,
+  "lng": -71.062651,
+  "name": "Causeway",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.causewayboston.com"
+ },
+ "v-celeste": {
+  "address": "21 Bow St, Somerville, MA 02143",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.381329,
+  "lng": -71.09727,
+  "name": "Celeste",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.celesteunionsquare.com/"
  },
  "v-champions-boston-marriott-copley-place": {
   "address": "110 Huntington Ave, Boston, MA 02116",
@@ -328,6 +669,17 @@
   "type": "bar",
   "website": "https://ciscobrewersfenway.squarespace.com/"
  },
+ "v-city-winery": {
+  "address": "80 Beverly Street, Boston, MA 02114",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.364064,
+  "lng": -71.058667,
+  "name": "City Winery",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://citywinery.com/boston"
+ },
  "v-clery-s": {
   "address": "113 Dartmouth St, Boston, MA 02116",
   "at": "2026-10-05T00:00:00.000Z",
@@ -360,6 +712,50 @@
   "source": "seed",
   "type": "bar",
   "website": "https://www.clubcafe.com/"
+ },
+ "v-club-passim": {
+  "address": "47 Palmer St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.374224,
+  "lng": -71.120013,
+  "name": "Club Passim",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.passim.org/"
+ },
+ "v-coolidge-corner-clubhouse": {
+  "address": "307 Harvard St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343292,
+  "lng": -71.122848,
+  "name": "Coolidge Corner Clubhouse",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.coolidgecornerclubhouse.com/"
+ },
+ "v-coppa": {
+  "address": "253 Shawmut Ave, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343425,
+  "lng": -71.068634,
+  "name": "Coppa",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.coppaboston.com/"
+ },
+ "v-corner-pub": {
+  "address": "162 Lincoln Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.350773,
+  "lng": -71.05839,
+  "name": "Corner Pub",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://cornerpubboston.net/"
  },
  "v-cornwall-s": {
   "address": "644 Beacon St, Boston, MA 02215",
@@ -460,6 +856,17 @@
   "type": "bar",
   "website": null
  },
+ "v-democracy-brewing": {
+  "address": "35 Temple Place, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.355114,
+  "lng": -71.062062,
+  "name": "Democracy Brewing",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.democracybrewing.com/"
+ },
  "v-douzo": {
   "address": "131 Dartmouth St, Boston, MA 02116",
   "at": "2026-10-05T00:00:00.000Z",
@@ -470,6 +877,17 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.douzosushi.com"
+ },
+ "v-durty-nelly-s": {
+  "address": "108 Blackstone Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.361693,
+  "lng": -71.056572,
+  "name": "Durty Nelly's",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.durtynellysboston.com/"
  },
  "v-dx-arcade": {
   "address": "580 Massachusetts Ave, Cambridge, MA 02139",
@@ -526,6 +944,39 @@
   "type": "bar",
   "website": "https://www.marriott.com/en-us/hotels/boscb-boston-marriott-cambridge/dining/"
  },
+ "v-emmet-s": {
+  "address": "6 Beacon Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.358149,
+  "lng": -71.061723,
+  "name": "Emmet's",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "http://www.emmetsirishpubandrestaurant.com"
+ },
+ "v-esmai-s": {
+  "address": "1306 Beacon St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.342574,
+  "lng": -71.120689,
+  "name": "Esmai's",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://esmaisbrookline.com/"
+ },
+ "v-estella": {
+  "address": "49 Temple Place, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.354945,
+  "lng": -71.061763,
+  "name": "Estella",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.estellaboston.com/"
+ },
  "v-eventide-fenway": {
   "address": "1321 Boylston St, Boston, MA 02215",
   "at": "2026-10-05T00:00:00.000Z",
@@ -547,6 +998,17 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.fallowkin.com"
+ },
+ "v-felipe-s-taqueria": {
+  "address": "21 Brattle St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.373471,
+  "lng": -71.120511,
+  "name": "Felipe's Taqueria",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.felipesboston.com/"
  },
  "v-five-horses-tavern-south-end": {
   "address": "535 Columbus Ave, Boston, MA 02118",
@@ -581,6 +1043,39 @@
   "type": "bar",
   "website": "https://www.foolserrandboston.com/"
  },
+ "v-franklin-cafe": {
+  "address": "278 Shawmut Ave, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3428,
+  "lng": -71.0695,
+  "name": "Franklin Cafe",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.franklincafe.com/"
+ },
+ "v-frenchie-wine-bistro": {
+  "address": "560 Tremont St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343629,
+  "lng": -71.071758,
+  "name": "Frenchie Wine Bistro",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.frenchieboston.com/"
+ },
+ "v-fuji-at-high-street-place": {
+  "address": "100 High Street (High Street Place), Boston, MA 02110",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.354322,
+  "lng": -71.055735,
+  "name": "Fuji at High Street Place",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.highstreetplace.com/food-and-beverage/fuji-at-hsp/"
+ },
  "v-fuji-at-kendall": {
   "address": "300 Third St, Cambridge, MA 02142",
   "at": "2026-10-05T00:00:00.000Z",
@@ -614,6 +1109,17 @@
   "type": "bar",
   "website": "https://www.gameonboston.com"
  },
+ "v-ganko-ittetsu-ramen": {
+  "address": "318 Harvard St Unit 3, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343142,
+  "lng": -71.123586,
+  "name": "Ganko Ittetsu Ramen",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://gankoramen.com/"
+ },
  "v-gato-exotico": {
   "address": "100 Cambridgeside Place, Cambridge, MA 02141",
   "at": "2026-10-05T00:00:00.000Z",
@@ -624,6 +1130,17 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.gatoexotico.com/"
+ },
+ "v-ginger-exchange-somerville": {
+  "address": "22 Highland Ave, Somerville, MA 02143",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.384882,
+  "lng": -71.093813,
+  "name": "Ginger Exchange (Somerville)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.gingerexchange.com/somerville/"
  },
  "v-glass-house": {
   "address": "450 Kendall St, Cambridge, MA 02142",
@@ -636,6 +1153,39 @@
   "type": "restaurant",
   "website": "https://www.glasshousecambridge.com/"
  },
+ "v-grafton-street-pub-grill": {
+  "address": "1230 Massachusetts Ave, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.371872,
+  "lng": -71.120892,
+  "name": "Grafton Street Pub & Grill",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://graftonstreetcambridge.com/"
+ },
+ "v-grainne-o-malley-s": {
+  "address": "201 Harvard St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.339766,
+  "lng": -71.12071,
+  "name": "Grainne O'Malley's",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.omalleystavern.com/"
+ },
+ "v-grendel-s-den": {
+  "address": "89 Winthrop St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372422,
+  "lng": -71.120904,
+  "name": "Grendel's Den",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.grendelsden.com/"
+ },
  "v-grill-23-bar": {
   "address": "161 Berkeley St, Boston, MA 02116",
   "at": "2026-10-05T00:00:00.000Z",
@@ -646,6 +1196,39 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.grill23.com/"
+ },
+ "v-grotto-restaurant": {
+  "address": "37 Bowdoin Street",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.359917,
+  "lng": -71.063012,
+  "name": "Grotto Restaurant",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": null
+ },
+ "v-guy-fieri-s-boston-kitchen-bar": {
+  "address": "186 Tremont Street, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.351586,
+  "lng": -71.06442,
+  "name": "Guy Fieri's Boston Kitchen + Bar",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": null
+ },
+ "v-gyu-kaku-harvard-square": {
+  "address": "16-18 Eliot St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372034,
+  "lng": -71.121475,
+  "name": "Gyu-Kaku (Harvard Square)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.gyu-kaku.com/cambridge-harvard-square/"
  },
  "v-gyu-kaku-japanese-bbq-brookline": {
   "address": "1002 Beacon St, Brookline, MA 02446",
@@ -658,6 +1241,28 @@
   "type": "restaurant",
   "website": "https://www.gyu-kaku.com/brookline/"
  },
+ "v-haley-henry": {
+  "address": "45 Province Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.357505,
+  "lng": -71.059674,
+  "name": "haley.henry",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.haleyhenry.com"
+ },
+ "v-hamilton-restaurant-bar": {
+  "address": "1366 Beacon St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.341859,
+  "lng": -71.123299,
+  "name": "Hamilton Restaurant & Bar",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://hamiltonbrookline.com/"
+ },
  "v-harvard-gardens": {
   "address": "316 Cambridge St, Boston, MA 02114",
   "at": "2026-10-05T00:00:00.000Z",
@@ -668,6 +1273,28 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.harvardgardens.com/"
+ },
+ "v-harvest": {
+  "address": "44 Brattle St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.373768,
+  "lng": -71.121829,
+  "name": "Harvest",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.harvestcambridge.com/"
+ },
+ "v-henrietta-s-table": {
+  "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372281,
+  "lng": -71.123321,
+  "name": "Henrietta's Table",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.henriettastable.com/"
  },
  "v-hojoko": {
   "address": "1271 Boylston St (The Verb Hotel), Boston, MA 02215",
@@ -680,6 +1307,17 @@
   "type": "restaurant",
   "website": "https://www.hojokoboston.com"
  },
+ "v-hong-kong-faneuil-hall": {
+  "address": "65 Chatham Street, Boston, MA 02109",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.35975,
+  "lng": -71.0554,
+  "name": "Hong Kong (Faneuil Hall)",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://hongkongboston.com/"
+ },
  "v-hong-kong-restaurant-the-kong": {
   "address": "1238 Massachusetts Ave, Cambridge, MA 02138",
   "at": "2026-10-05T00:00:00.000Z",
@@ -690,6 +1328,50 @@
   "source": "seed",
   "type": "bar",
   "website": "https://www.hongkongharvard.com"
+ },
+ "v-hub-pub": {
+  "address": "18 Province Street, Boston",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.357172,
+  "lng": -71.059657,
+  "name": "Hub Pub",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://thehubpub.com/"
+ },
+ "v-hurricane-s-at-the-garden": {
+  "address": "150 Canal Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.364842,
+  "lng": -71.060733,
+  "name": "Hurricane's at the Garden",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.hurricanesboston.com/"
+ },
+ "v-icon-nightclub": {
+  "address": "100 Warrenton St, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.350661,
+  "lng": -71.066211,
+  "name": "Icon (nightclub)",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": null
+ },
+ "v-ilona": {
+  "address": "783 Tremont St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.339304,
+  "lng": -71.080688,
+  "name": "ilona",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://ilonasouthend.com/"
  },
  "v-india-pavilion": {
   "address": "17 Central Sq, Cambridge, MA 02139",
@@ -713,6 +1395,17 @@
   "type": "restaurant",
   "website": "https://indiaquality.com"
  },
+ "v-j-j-foley-s-cafe": {
+  "address": "117 E Berkeley St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343642,
+  "lng": -71.065294,
+  "name": "J.J. Foley's Cafe",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.jjfoleyscafe.com/"
+ },
  "v-jacque-s-cabaret": {
   "address": "79 Broadway, Boston, MA 02116",
   "at": "2026-10-05T00:00:00.000Z",
@@ -735,6 +1428,39 @@
   "type": "restaurant",
   "website": "https://www.jaho.com"
  },
+ "v-jiangnan": {
+  "address": "177 Tremont Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.353009,
+  "lng": -71.064208,
+  "name": "JiangNan",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.jiangnanboston.com/"
+ },
+ "v-jj-foley-s-bar-grille": {
+  "address": "21 Kingston Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.353753,
+  "lng": -71.059063,
+  "name": "JJ Foley's Bar & Grille",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "http://www.jjfoleys.com/"
+ },
+ "v-josephine": {
+  "address": "515 Somerville Ave, Somerville, MA 02143",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.383221,
+  "lng": -71.105581,
+  "name": "Josephine",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.josephinepizza.com/"
+ },
  "v-juliet": {
   "address": "263 Washington St, Somerville, MA 02143",
   "at": "2026-10-05T00:00:00.000Z",
@@ -745,6 +1471,17 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.julietsomerville.com/"
+ },
+ "v-kava-neo-taverna": {
+  "address": "315 Shawmut Ave, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.342323,
+  "lng": -71.070518,
+  "name": "Kava Neo-Taverna",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://kavaneotaverna.com/"
  },
  "v-kings-dining-entertainment-back-bay": {
   "address": "50 Dalton St, Boston, MA 02115",
@@ -790,6 +1527,17 @@
   "type": "restaurant",
   "website": null
  },
+ "v-la-famiglia-giorgio-s": {
+  "address": "112 Salem Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.364523,
+  "lng": -71.055593,
+  "name": "La Famiglia Giorgio's",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.lafamigliagiorgios.com/"
+ },
  "v-lamplighter-brewing-co-broadway-taproom": {
   "address": "284 Broadway, Cambridge, MA 02139",
   "at": "2026-10-05T00:00:00.000Z",
@@ -811,6 +1559,39 @@
   "source": "seed",
   "type": "bar",
   "website": "https://lamplighterbrewing.com/pages/110-n-first-street-cx-taproom"
+ },
+ "v-lan-feast": {
+  "address": "250 Harvard St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.341421,
+  "lng": -71.121229,
+  "name": "Lan Feast",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.lan-feast.com"
+ },
+ "v-laughing-monk-cafe-mission-hill": {
+  "address": "737 Huntington Ave, Boston, MA 02115",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.333989,
+  "lng": -71.105525,
+  "name": "Laughing Monk Cafe (Mission Hill)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.laughingmonkcafe.com/locations/mission-hill"
+ },
+ "v-legal-crossing-legal-sea-foods-downtown-crossing": {
+  "address": "558 Washington Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.353697,
+  "lng": -71.062154,
+  "name": "Legal Crossing (Legal Sea Foods Downtown Crossing)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://legalseafoods.com/locations/boston-downtown-crossing"
  },
  "v-legal-sea-foods-copley-place": {
   "address": "100 Huntington Ave, Boston, MA 02116",
@@ -856,6 +1637,17 @@
   "type": "restaurant",
   "website": "http://www.littledonkeycambridge.com"
  },
+ "v-lo-conte-s-restaurant": {
+  "address": "114 Salem Street, Boston",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.36463,
+  "lng": -71.055624,
+  "name": "Lo Conte's Restaurant",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://locontes.com/"
+ },
  "v-locke-bar-restaurant": {
   "address": "6 Broad Canal Way, Cambridge, MA 02142",
   "at": "2026-10-05T00:00:00.000Z",
@@ -877,6 +1669,17 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.lolitamexican.com/location/lolita-back-bay/"
+ },
+ "v-longfellow-bar": {
+  "address": "40 Brattle St #3, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.373603,
+  "lng": -71.121402,
+  "name": "Longfellow Bar",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.aldenharlow.com/"
  },
  "v-loretta-s-last-call": {
   "address": "1 Lansdowne St, Boston, MA 02215",
@@ -933,6 +1736,61 @@
   "type": "bar",
   "website": null
  },
+ "v-marliave": {
+  "address": "10 Bosworth Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.356907,
+  "lng": -71.060242,
+  "name": "Marliave",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.marliave.com"
+ },
+ "v-massimino-s": {
+  "address": "207 Endicott Street, Boston",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.366524,
+  "lng": -71.057877,
+  "name": "Massimino's",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://massiminosboston.com/"
+ },
+ "v-mast": {
+  "address": "45 Province Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.35711,
+  "lng": -71.060036,
+  "name": "Mast'",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.mastboston.com"
+ },
+ "v-mecha-noodle-bar": {
+  "address": "285 Harvard St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.342782,
+  "lng": -71.121952,
+  "name": "Mecha Noodle Bar",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.mechanoodlebar.com/"
+ },
+ "v-metropolis-cafe": {
+  "address": "584 Tremont St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343238,
+  "lng": -71.072625,
+  "name": "Metropolis Cafe",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.metropolisboston.com"
+ },
  "v-mida-fenway": {
   "address": "1391 Boylston St, Boston, MA 02215",
   "at": "2026-10-05T00:00:00.000Z",
@@ -943,6 +1801,28 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.midaboston.com"
+ },
+ "v-mida-south-end": {
+  "address": "782 Tremont St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.339022,
+  "lng": -71.080472,
+  "name": "MIDA (South End)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://midarestaurant.com/mida-boston"
+ },
+ "v-mija-cantina-tequila-bar": {
+  "address": "1 South Market Street, Faneuil Hall, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.360304,
+  "lng": -71.055456,
+  "name": "MIJA Cantina & Tequila Bar",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.mijaboston.com"
  },
  "v-miracle-of-science-bar-grill": {
   "address": "321 Massachusetts Ave, Cambridge, MA 02139",
@@ -955,6 +1835,17 @@
   "type": "bar",
   "website": "https://www.miracleofscience.us"
  },
+ "v-miraku-boston": {
+  "address": "9 Babcock St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343617,
+  "lng": -71.122873,
+  "name": "Miraku Boston",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.miraku-usa.com/"
+ },
  "v-mistral": {
   "address": "223 Columbus Ave, Boston, MA 02116",
   "at": "2026-10-05T00:00:00.000Z",
@@ -965,6 +1856,17 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://mistralbistro.com/"
+ },
+ "v-momosan-morimoto": {
+  "address": "80 Causeway Street (Hub Hall), Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.365444,
+  "lng": -71.061766,
+  "name": "Momosan Morimoto",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.hubhallboston.com/momosan-ramen-boston"
  },
  "v-monteverdi": {
   "address": "40 Edwin H Land Blvd, Cambridge, MA 02142",
@@ -977,6 +1879,50 @@
   "type": "restaurant",
   "website": "https://www.monteverdirestaurant.com/"
  },
+ "v-montien-thai": {
+  "address": "63 Stuart Street, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.351211,
+  "lng": -71.064365,
+  "name": "Montien Thai",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.montienthaiboston.com/"
+ },
+ "v-monument-charlestown-restaurant-tavern": {
+  "address": "224 Main St, Charlestown, MA 02129",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.376882,
+  "lng": -71.065978,
+  "name": "Monument Charlestown Restaurant & Tavern",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.monumentcharlestown.com/"
+ },
+ "v-mooo-xv-beacon": {
+  "address": "15 Beacon Street, Boston",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.35829,
+  "lng": -71.061982,
+  "name": "Mooo.... (XV Beacon)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://mooorestaurant.com/"
+ },
+ "v-mother-anna-s": {
+  "address": "211 Hanover Street",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.362712,
+  "lng": -71.055328,
+  "name": "Mother Anna's",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": null
+ },
  "v-mr-bartley-s-burger-cottage": {
   "address": "1246 Massachusetts Ave, Cambridge, MA 02138",
   "at": "2026-10-05T00:00:00.000Z",
@@ -987,6 +1933,17 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.mrbartley.com"
+ },
+ "v-myers-chang": {
+  "address": "1145 Washington St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3441,
+  "lng": -71.065,
+  "name": "Myers + Chang",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.myersandchang.com/"
  },
  "v-naco-taco": {
   "address": "297 Massachusetts Ave, Cambridge, MA 02139",
@@ -1010,6 +1967,61 @@
   "type": "bar",
   "website": "https://www.nathaliebar.com"
  },
+ "v-neptune-oyster": {
+  "address": "63 Salem Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.363243,
+  "lng": -71.056003,
+  "name": "Neptune Oyster",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.neptuneoyster.com/"
+ },
+ "v-night-shift-brewing-lovejoy-wharf": {
+  "address": "1 Lovejoy Wharf #101, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.367363,
+  "lng": -71.059407,
+  "name": "Night Shift Brewing Lovejoy Wharf",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://nightshiftbrewing.com/locations/boston-lovejoy-wharf"
+ },
+ "v-ninety-nine-restaurant-pub-charlestown": {
+  "address": "31 Austin St, Charlestown, MA 02129",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.374893,
+  "lng": -71.067061,
+  "name": "Ninety Nine Restaurant & Pub (Charlestown)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.99restaurants.com/locations/ma/charlestown"
+ },
+ "v-noir-bar": {
+  "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.37236,
+  "lng": -71.12267,
+  "name": "Noir Bar",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.noir-bar.com/"
+ },
+ "v-nubar": {
+  "address": "16 Garden St (Sheraton Commander Hotel), Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.377181,
+  "lng": -71.122964,
+  "name": "Nubar",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.nubarcambridge.com/"
+ },
  "v-oak-bistro": {
   "address": "1287 Cambridge St, Cambridge, MA 02139",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1031,6 +2043,17 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://olerestaurantgroup.com/"
+ },
+ "v-otto-pizza-coolidge-corner": {
+  "address": "289 Harvard St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.342891,
+  "lng": -71.122109,
+  "name": "Otto Pizza (Coolidge Corner)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.ottoportland.com/"
  },
  "v-over-the-charles-rooftop-bar-doubletree-suites": {
   "address": "400 Soldiers Field Rd, Boston, MA 02134",
@@ -1087,6 +2110,28 @@
   "type": "bar",
   "website": null
  },
+ "v-parla": {
+  "address": "230 Hanover Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.363233,
+  "lng": -71.055254,
+  "name": "Parla",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.parlaboston.com/"
+ },
+ "v-penguin-pizza": {
+  "address": "735 Huntington Ave, Boston, MA 02115",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.334063,
+  "lng": -71.105395,
+  "name": "Penguin Pizza",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "http://www.thepenguinpizza.com"
+ },
  "v-petit-robert-bistro": {
   "address": "480 Columbus Ave, Boston, MA 02118",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1120,6 +2165,50 @@
   "type": "restaurant",
   "website": "https://www.piattini.com"
  },
+ "v-picco": {
+  "address": "513 Tremont St, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.344881,
+  "lng": -71.070484,
+  "name": "Picco",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://piccoboston.com/"
+ },
+ "v-pizzeria-regina": {
+  "address": "11 1/2 Thacher Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.365404,
+  "lng": -71.056857,
+  "name": "Pizzeria Regina",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": null
+ },
+ "v-prairie-fire": {
+  "address": "242 Harvard St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.341284,
+  "lng": -71.12121,
+  "name": "Prairie Fire",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://prairiefirebrookline.com"
+ },
+ "v-prima": {
+  "address": "10 City Square, Charlestown, MA 02129",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3722722,
+  "lng": -71.0617366,
+  "name": "Prima",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": null
+ },
  "v-puro-ceviche-bar": {
   "address": "264 Newbury St, Boston, MA 02116",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1130,6 +2219,28 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.purocevichebar.com"
+ },
+ "v-regattabar": {
+  "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372203,
+  "lng": -71.122894,
+  "name": "Regattabar",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.regattabarjazz.com/"
+ },
+ "v-remnant-brewing-bow-market": {
+  "address": "2 Bow Market Way, Somerville, MA 02143",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.381161,
+  "lng": -71.097932,
+  "name": "Remnant Brewing (Bow Market)",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.remnantsomerville.com/"
  },
  "v-row-34-cambridge": {
   "address": "314 Main St, Cambridge, MA 02142",
@@ -1153,6 +2264,17 @@
   "type": "restaurant",
   "website": "https://www.row34.com/location/row34-kenmore-square/"
  },
+ "v-roxanne-s": {
+  "address": "6B Beacon Street, Boston, MA 02108",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.358179,
+  "lng": -71.061531,
+  "name": "Roxanne's",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.roxannesboston.com"
+ },
  "v-roxy-s-arcade-formerly-a4cade": {
   "address": "292 Massachusetts Ave, Cambridge, MA 02139",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1163,6 +2285,72 @@
   "source": "seed",
   "type": "bar",
   "website": "https://roxysarcade.com"
+ },
+ "v-ruka-restobar": {
+  "address": "505 Washington Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.354488,
+  "lng": -71.061739,
+  "name": "RUKA Restobar",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.rukarestobar.com/"
+ },
+ "v-russell-house-tavern": {
+  "address": "14 JFK St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.373145,
+  "lng": -71.119512,
+  "name": "Russell House Tavern",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.russellhousecambridge.com/"
+ },
+ "v-ruth-s-chris-steak-house": {
+  "address": "45 School Street, Boston",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.358091,
+  "lng": -71.059574,
+  "name": "Ruth's Chris Steak House",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.ruthschris.com/restaurant-locations/boston/"
+ },
+ "v-sally-o-brien-s-bar-and-grill": {
+  "address": "335 Somerville Ave, Somerville, MA 02143",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.380733,
+  "lng": -71.097932,
+  "name": "Sally O'Brien's Bar and Grill",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.sallyobriensbar.com/"
+ },
+ "v-saloniki-harvard-square": {
+  "address": "24 Dunster St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372817,
+  "lng": -71.118851,
+  "name": "Saloniki (Harvard Square)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.salonikigreek.com/"
+ },
+ "v-samuel-adams-boston-taproom": {
+  "address": "60 State Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.359678,
+  "lng": -71.056579,
+  "name": "Samuel Adams Boston Taproom",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.samueladams.com/taprooms/sam-adams-boston-taproom"
  },
  "v-scull-keel": {
   "address": "40 Edwin H Land Blvd, Cambridge, MA 02142",
@@ -1186,6 +2374,61 @@
   "type": "bar",
   "website": "https://scullersjazz.com/"
  },
+ "v-shabu-zen-allston": {
+  "address": "80 Brighton Ave, Allston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.352372,
+  "lng": -71.129082,
+  "name": "Shabu-Zen (Allston)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.shabuzen.com/"
+ },
+ "v-shabu-zen": {
+  "address": "16 Tyler Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.350869,
+  "lng": -71.060594,
+  "name": "Shabu Zen",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.shabuzen.com/"
+ },
+ "v-shays-pub-wine-bar": {
+  "address": "58 JFK St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.371748,
+  "lng": -71.120649,
+  "name": "Shays Pub & Wine Bar",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.shayspubwinebar.com/"
+ },
+ "v-shojo": {
+  "address": "9A Tyler Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.351074,
+  "lng": -71.06074,
+  "name": "Shojo",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.shojoboston.com/"
+ },
+ "v-shore-leave": {
+  "address": "11 William E. Mullins Way, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.345422,
+  "lng": -71.064269,
+  "name": "Shore Leave",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.shoreleaveboston.com/"
+ },
  "v-shy-bird-fenway": {
   "address": "201 Brookline Ave, Boston, MA 02215",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1207,6 +2450,39 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.shybird.com"
+ },
+ "v-sidebar": {
+  "address": "14 Bromfield Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.356523,
+  "lng": -71.060014,
+  "name": "Sidebar",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.sidebarboston.com"
+ },
+ "v-slade-s-bar-grill": {
+  "address": "958 Tremont St, Boston, MA 02120",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3373,
+  "lng": -71.0838,
+  "name": "Slade's Bar & Grill",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.toasttab.com/local/slades-bar-and-grill/r-9ce6766c-6ca1-46b9-b585-e10fbf295265"
+ },
+ "v-sloane-s": {
+  "address": "197 N Harvard St, Allston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.363587,
+  "lng": -71.129498,
+  "name": "Sloane's",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.sloanesboston.com/"
  },
  "v-sol-azteca": {
   "address": "914A Beacon St, Boston, MA 02215",
@@ -1230,6 +2506,17 @@
   "type": "restaurant",
   "website": "https://www.sonsieboston.com"
  },
+ "v-source": {
+  "address": "27 Church St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.374526,
+  "lng": -71.12003,
+  "name": "Source",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://sourcerestaurants.com/"
+ },
  "v-srv": {
   "address": "569 Columbus Ave, Boston, MA 02118",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1251,6 +2538,28 @@
   "source": "seed",
   "type": "bar",
   "website": "https://stateparkbar.com"
+ },
+ "v-stillwater": {
+  "address": "120 Kingston Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.352357,
+  "lng": -71.059035,
+  "name": "Stillwater",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.stillwaterboston.com/"
+ },
+ "v-sullivan-s-tap": {
+  "address": "168 Canal Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.365106,
+  "lng": -71.060995,
+  "name": "Sullivan's Tap",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.sullivanstapboston.com"
  },
  "v-sumiao-hunan-kitchen": {
   "address": "270 Third St, Cambridge, MA 02142",
@@ -1307,6 +2616,17 @@
   "type": "bar",
   "website": "https://tallorderbar.com"
  },
+ "v-tangierino-boston-cigar-club": {
+  "address": "83 Main St, Charlestown, MA 02129",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.373809,
+  "lng": -71.062657,
+  "name": "Tangierino (Boston Cigar Club)",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.tangierino.com/"
+ },
  "v-tap-151-bar-and-grill": {
   "address": "151 North First Street, Cambridge, MA 02141",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1329,6 +2649,28 @@
   "type": "restaurant",
   "website": "https://www.tastyburger.com/"
  },
+ "v-tavern-at-the-end-of-the-world": {
+  "address": "108 Cambridge St, Charlestown, MA 02129",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.382173,
+  "lng": -71.079366,
+  "name": "Tavern at the End of the World",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.tavernattheendoftheworld.com/"
+ },
+ "v-the-alley-bar": {
+  "address": "14 Pi Alley, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.358109,
+  "lng": -71.058716,
+  "name": "The Alley Bar",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "http://www.thealleybar.com"
+ },
  "v-the-bar-at-eastern-edge-eastern-edge-food-hall": {
   "address": "290 Main St, Cambridge, MA 02142",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1350,6 +2692,28 @@
   "source": "seed",
   "type": "bar",
   "website": "https://www.thebebopboston.com"
+ },
+ "v-the-beehive": {
+  "address": "541 Tremont St, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.344373,
+  "lng": -71.071381,
+  "name": "The Beehive",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.beehiveboston.com/"
+ },
+ "v-the-bell-in-hand": {
+  "address": "45-55 Union Street, Boston",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.361457,
+  "lng": -71.057041,
+  "name": "The Bell in Hand",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://thebellinhand.com/"
  },
  "v-the-black-sheep-lounge-bar-kendall-hotel": {
   "address": "350 Main St, Cambridge, MA 02142",
@@ -1428,6 +2792,50 @@
   "type": "bar",
   "website": "https://www.druidpub.com/"
  },
+ "v-the-dubliner": {
+  "address": "2 Center Plaza, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.360303,
+  "lng": -71.060581,
+  "name": "The Dubliner",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.thedublinerboston.com/"
+ },
+ "v-the-elephant-walk-south-end": {
+  "address": "South End, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.341178,
+  "lng": -71.070476,
+  "name": "The Elephant Walk South End",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.elephantwalk.com/"
+ },
+ "v-the-green-dragon-tavern": {
+  "address": "11 Marshall Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.361508,
+  "lng": -71.056862,
+  "name": "The Green Dragon Tavern",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.greendragonboston.com/"
+ },
+ "v-the-harp": {
+  "address": "85 Causeway Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.364582,
+  "lng": -71.062444,
+  "name": "The Harp",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.harpboston.com/"
+ },
  "v-the-hill-tavern": {
   "address": "228 Cambridge St, Boston, MA 02114",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1438,6 +2846,17 @@
   "source": "seed",
   "type": "bar",
   "website": "https://thehilltavernboston.com/"
+ },
+ "v-the-hourly-oyster-house": {
+  "address": "15 Dunster St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372883,
+  "lng": -71.119099,
+  "name": "The Hourly Oyster House",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.thehourlycambridge.com/"
  },
  "v-the-independent": {
   "address": "75 Union Sq, Somerville, MA 02143",
@@ -1505,6 +2924,17 @@
   "type": "restaurant",
   "website": "http://www.themadmonkfish.com"
  },
+ "v-the-maharaja": {
+  "address": "57 JFK St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372171,
+  "lng": -71.120779,
+  "name": "The Maharaja",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://maharajaboston.com/"
+ },
  "v-the-middle-east": {
   "address": "472-480 Massachusetts Ave, Cambridge, MA 02139",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1516,6 +2946,17 @@
   "type": "bar",
   "website": "https://www.mideastclub.com"
  },
+ "v-the-mission-bar-grill": {
+  "address": "724 Huntington Ave, Boston, MA 02115",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.33387,
+  "lng": -71.105058,
+  "name": "The Mission Bar & Grill",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.themissionbar.com/"
+ },
  "v-the-muddy-charles-pub": {
   "address": "142 Memorial Dr (Walker Memorial, Bldg 50), Cambridge, MA 02139",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1526,6 +2967,17 @@
   "source": "seed",
   "type": "bar",
   "website": "https://muddy.mit.edu"
+ },
+ "v-the-painted-burro": {
+  "address": "32 Church St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.374301,
+  "lng": -71.120248,
+  "name": "The Painted Burro",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.thepaintedburro.com/location/painted-burro-harvard-square/"
  },
  "v-the-paramount-beacon-hill": {
   "address": "44 Charles St, Boston, MA 02114",
@@ -1560,6 +3012,28 @@
   "type": "bar",
   "website": "https://www.ploughandstars.com"
  },
+ "v-the-point": {
+  "address": "147 Hanover Street, Boston, MA 02108",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.361766,
+  "lng": -71.05696,
+  "name": "The Point",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.thepointboston.com/"
+ },
+ "v-the-puddingstone-tavern": {
+  "address": "1592 Tremont St, Boston, MA 02120",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3335,
+  "lng": -71.1015,
+  "name": "The Puddingstone Tavern",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "http://www.thepuddingstonetavern.com/"
+ },
  "v-the-salty-pig": {
   "address": "130 Dartmouth St, Boston, MA 02116",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1592,6 +3066,39 @@
   "source": "seed",
   "type": "bar",
   "website": "https://www.facebook.com/SevensAle/"
+ },
+ "v-the-shawmut-inn": {
+  "address": "477 Shawmut Ave, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.338881,
+  "lng": -71.075909,
+  "name": "The Shawmut Inn",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.shawmutinn.com"
+ },
+ "v-the-smoke-shop-bbq-harvard-square": {
+  "address": "8 Holyoke St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372679,
+  "lng": -71.117953,
+  "name": "The Smoke Shop BBQ (Harvard Square)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://thesmokeshopbbq.com/harvard-square/"
+ },
+ "v-the-tam": {
+  "address": "222 Tremont Street, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.351516,
+  "lng": -71.06462,
+  "name": "The Tam",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.thetamboston.com/"
  },
  "v-the-westland": {
   "address": "10 Westland Ave, Boston, MA 02115",
@@ -1637,6 +3144,39 @@
   "type": "bar",
   "website": "https://www.timeout.com/time-out-market-boston"
  },
+ "v-tip-tap-room": {
+  "address": "138 Cambridge Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.361025,
+  "lng": -71.063968,
+  "name": "Tip Tap Room",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://thetiptaproom.com/"
+ },
+ "v-toro": {
+  "address": "1704 Washington St, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3371,
+  "lng": -71.0764,
+  "name": "Toro",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.toro-restaurant.com/"
+ },
+ "v-toscano-harvard-square": {
+  "address": "52 Brattle St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.374296,
+  "lng": -71.121965,
+  "name": "Toscano (Harvard Square)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.toscanoboston.com/"
+ },
  "v-trident-booksellers-cafe": {
   "address": "338 Newbury St, Boston, MA 02115",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1669,6 +3209,28 @@
   "source": "seed",
   "type": "bar",
   "website": "https://trinastarlite.com/"
+ },
+ "v-troquet-on-south": {
+  "address": "107 South Street, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.351,
+  "lng": -71.058,
+  "name": "Troquet on South",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.troquetboston.com/"
+ },
+ "v-union-oyster-house": {
+  "address": "41 Union Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.361275,
+  "lng": -71.056953,
+  "name": "Union Oyster House",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.unionoysterhouse.com/"
  },
  "v-uptown-social": {
   "address": "604 Columbus Ave, Boston, MA 02118",
@@ -1703,6 +3265,17 @@
   "type": "bar",
   "website": "https://verasunionsquare.com/"
  },
+ "v-versus": {
+  "address": "42 Province Street, Boston, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.356864,
+  "lng": -71.059961,
+  "name": "VERSUS",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.versusboston.com/"
+ },
  "v-viale": {
   "address": "502 Massachusetts Ave, Cambridge, MA 02139",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1713,6 +3286,39 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.vialecambridge.com"
+ },
+ "v-viva-karaoke-studios-formerly-limelight": {
+  "address": "204 Tremont Street, Boston, MA 02116",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3514,
+  "lng": -71.0647,
+  "name": "Viva Karaoke & Studios (formerly Limelight)",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.vivakaraoke.com/"
+ },
+ "v-waku-waku-ramen-harvard-sq": {
+  "address": "33 Brattle St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.373561,
+  "lng": -71.120913,
+  "name": "Waku Waku Ramen (Harvard Sq)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.wakuwakuramen.com/"
+ },
+ "v-waku-waku-ramen": {
+  "address": "Tyler/Beach St area, Chinatown, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.351229,
+  "lng": -71.060429,
+  "name": "Waku Waku Ramen",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.wakuwakuramen.com/"
  },
  "v-wally-s-cafe-jazz-club": {
   "address": "427 Massachusetts Ave, Boston, MA 02118",
@@ -1725,6 +3331,17 @@
   "type": "bar",
   "website": null
  },
+ "v-warren-tavern": {
+  "address": "2 Pleasant St, Charlestown, MA 02129",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.374186,
+  "lng": -71.063109,
+  "name": "Warren Tavern",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.warrentavern.com/"
+ },
  "v-waypoint": {
   "address": "1030 Massachusetts Ave, Cambridge, MA 02138",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1736,6 +3353,39 @@
   "type": "restaurant",
   "website": "https://www.waypointharvard.com"
  },
+ "v-wig-shop": {
+  "address": "27 Temple Place, Boston, MA 02111",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.355191,
+  "lng": -71.062217,
+  "name": "Wig Shop",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.wigshopboston.com/"
+ },
+ "v-wild-rover": {
+  "address": "63 Chatham Street, Boston, MA 02109",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3597,
+  "lng": -71.05545,
+  "name": "Wild Rover",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.wildroverboston.com/"
+ },
+ "v-wusong-road": {
+  "address": "112 Mount Auburn St, Cambridge, MA",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.372774,
+  "lng": -71.122273,
+  "name": "Wusong Road",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.wusongroad.com/"
+ },
  "v-yard-house": {
   "address": "126 Brookline Ave, Boston, MA 02215",
   "at": "2026-10-05T00:00:00.000Z",
@@ -1746,5 +3396,38 @@
   "source": "seed",
   "type": "bar",
   "website": "https://www.yardhouse.com"
+ },
+ "v-yellow-door-taqueria-south-end": {
+  "address": "354 Harrison Ave, Boston, MA 02118",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.344864,
+  "lng": -71.06341,
+  "name": "Yellow Door Taqueria (South End)",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "https://www.yellowdoortaqueria.com/"
+ },
+ "v-yvonne-s": {
+  "address": "2 Winter Place, Boston, MA 02108",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.3554,
+  "lng": -71.061541,
+  "name": "Yvonne's",
+  "note": null,
+  "source": "seed",
+  "type": "bar",
+  "website": "https://www.yvonnesboston.com/"
+ },
+ "v-zaftigs-delicatessen": {
+  "address": "335 Harvard St, Brookline, MA 02446",
+  "at": "2026-10-05T00:00:00.000Z",
+  "lat": 42.343826,
+  "lng": -71.123782,
+  "name": "Zaftigs Delicatessen",
+  "note": null,
+  "source": "seed",
+  "type": "restaurant",
+  "website": "http://www.zaftigs.com/"
  }
 }

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-sullivan-s-tap",
+ "hours": {
+  "mon": "15:00-23:00",
+  "tue": "10:00-23:00",
+  "wed": "10:00-23:00",
+  "thu": "10:00-23:00",
+  "fri": "10:00-00:30",
+  "sat": "10:00-00:30",
+  "sun": "15:00-23:00"
+ },
+ "source": "https://www.sullivanstapboston.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Alden & Harlow",
+ "type": "restaurant",
+ "address": "40 Brattle St, Cambridge, MA",
+ "lat": 42.373559,
+ "lng": -71.12139,
+ "website": "https://www.aldenharlow.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

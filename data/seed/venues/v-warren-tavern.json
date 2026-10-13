@@ -1,0 +1,12 @@
+{
+ "name": "Warren Tavern",
+ "type": "bar",
+ "address": "2 Pleasant St, Charlestown, MA 02129",
+ "lat": 42.374186,
+ "lng": -71.063109,
+ "website": "https://www.warrentavern.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

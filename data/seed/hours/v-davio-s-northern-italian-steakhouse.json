@@ -1,0 +1,16 @@
+{
+ "venueId": "v-davio-s-northern-italian-steakhouse",
+ "hours": {
+  "mon": "11:30-22:00",
+  "tue": "11:30-22:00",
+  "wed": "11:30-22:00",
+  "thu": "11:30-23:00",
+  "fri": "11:30-23:00",
+  "sat": "15:00-23:00",
+  "sun": "15:00-22:00"
+ },
+ "source": "https://davios.com/bos",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

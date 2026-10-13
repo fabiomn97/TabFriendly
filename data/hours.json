@@ -1,0 +1,3083 @@
+{
+ "v-abe-louie-s": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://abeandlouies.com",
+  "checked": "2026-10"
+ },
+ "v-aeronaut-brewing-company": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:30",
+   "wed": "17:00-23:30",
+   "thu": "17:00-24:00",
+   "fri": "12:00-00:30",
+   "sat": "12:00-00:30",
+   "sun": "12:00-22:00"
+  },
+  "source": "https://www.aeronautbrewing.com/visit/somerville/",
+  "checked": "2026-10"
+ },
+ "v-alcove": {
+  "hours": {
+   "mon": "12:00-22:00",
+   "tue": "12:00-22:00",
+   "wed": "12:00-22:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://alcoveboston.com/visit/",
+  "checked": "2026-10"
+ },
+ "v-alden-harlow": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-00:00",
+   "sat": "10:30-14:30,17:00-00:00",
+   "sun": "10:30-14:30,17:00-23:00"
+  },
+  "source": "https://www.aldenharlow.com/",
+  "checked": "2026-10"
+ },
+ "v-alewives-taproom": {
+  "hours": {
+   "mon": "15:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "closed"
+  },
+  "source": "https://www.alewivesboston.com/",
+  "checked": "2026-10"
+ },
+ "v-alibi-bar-lounge": {
+  "hours": {
+   "mon": "16:00-01:00",
+   "tue": "16:00-01:00",
+   "wed": "16:00-01:00",
+   "thu": "16:00-02:00",
+   "fri": "16:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "16:00-23:00"
+  },
+  "source": "https://www.alibiboston.com/",
+  "checked": "2026-10"
+ },
+ "v-alice-monarch": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-01:00",
+   "fri": "11:30-01:00",
+   "sat": "11:00-01:00",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://aliceandmonarch.com/",
+  "checked": "2026-10"
+ },
+ "v-aquitaine": {
+  "hours": {
+   "mon": "11:30-15:00,17:00-22:00",
+   "tue": "11:30-15:00,17:00-22:00",
+   "wed": "11:30-15:00,17:00-22:00",
+   "thu": "11:30-15:00,17:00-22:00",
+   "fri": "11:30-15:00,17:00-22:00",
+   "sat": "10:00-15:00,17:00-22:00",
+   "sun": "10:00-15:00,17:00-22:00"
+  },
+  "source": "https://www.aquitaineboston.com/location/marketplace/",
+  "checked": "2026-10"
+ },
+ "v-area-four-technology-square": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://www.areafour.com/location/area-four-kendall-square/",
+  "checked": "2026-10"
+ },
+ "v-areca-asian-bar": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://www.arecabar.com/",
+  "checked": "2026-10"
+ },
+ "v-back-bay-social": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://www.backbaysocial.com",
+  "checked": "2026-10"
+ },
+ "v-back-deck": {
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-21:00",
+   "wed": "11:30-21:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-20:00"
+  },
+  "source": "https://www.backdeckboston.com/?q=menu/beverage-0",
+  "checked": "2026-10"
+ },
+ "v-backbar": {
+  "hours": {
+   "mon": "closed",
+   "tue": "closed",
+   "wed": "17:00-00:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-00:00",
+   "sat": "17:00-00:00",
+   "sun": "17:00-00:00"
+  },
+  "source": "https://www.backbarunion.com/",
+  "checked": "2026-10"
+ },
+ "v-bambara-kitchen-bar": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "17:00-23:00"
+  },
+  "source": "https://www.bambara-cambridge.com/hours-location",
+  "checked": "2026-10"
+ },
+ "v-banners-kitchen-tap": {
+  "hours": {
+   "mon": "11:00-23:30",
+   "tue": "11:00-22:30",
+   "wed": "11:00-22:30",
+   "thu": "11:00-23:30",
+   "fri": "11:00-23:30",
+   "sat": "11:00-23:30",
+   "sun": "11:00-23:30"
+  },
+  "source": "https://www.patinagroup.com/banners/",
+  "checked": "2026-10"
+ },
+ "v-banyan-bar-refuge": {
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-23:00",
+   "sat": "16:00-23:00",
+   "sun": "10:00-22:00"
+  },
+  "source": "https://www.banyanboston.com/",
+  "checked": "2026-10"
+ },
+ "v-bar-cino-brookline": {
+  "hours": {
+   "mon": "11:30-21:30",
+   "tue": "11:30-21:30",
+   "wed": "11:30-21:30",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "10:30-22:00",
+   "sun": "10:30-21:00"
+  },
+  "source": "https://www.barcino.com/brookline",
+  "checked": "2026-10"
+ },
+ "v-bar-enza": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "17:00-22:00",
+   "sun": "closed"
+  },
+  "source": "https://www.bar-enza.com/",
+  "checked": "2026-10"
+ },
+ "v-bar-mezzana": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-00:00",
+   "sat": "17:00-00:00",
+   "sun": "closed"
+  },
+  "source": "https://www.barmezzana.com/contact/",
+  "checked": "2026-10"
+ },
+ "v-barcelona-wine-bar-south-end": {
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "14:00-01:00",
+   "sat": "11:00-01:00",
+   "sun": "11:00-23:00"
+  },
+  "source": "https://barcelonawinebar.com/location/south-end/",
+  "checked": "2026-10"
+ },
+ "v-basho-japanese-brasserie": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-22:00"
+  },
+  "source": "https://bashosushi.com/",
+  "checked": "2026-10"
+ },
+ "v-bill-s-bar": {
+  "hours": {
+   "mon": "closed",
+   "tue": "18:00-22:00",
+   "wed": "18:00-21:00",
+   "thu": "18:00-02:00",
+   "fri": "18:00-02:00",
+   "sat": "18:00-02:00",
+   "sun": "closed"
+  },
+  "source": "https://www.billsbarboston.com",
+  "checked": "2026-10"
+ },
+ "v-bistro-du-midi": {
+  "hours": {
+   "mon": "11:30-21:30",
+   "tue": "11:30-21:30",
+   "wed": "11:30-21:30",
+   "thu": "11:30-21:30",
+   "fri": "11:30-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-21:30"
+  },
+  "source": "https://www.bistrodumidi.com/",
+  "checked": "2026-10"
+ },
+ "v-bisuteki-tokyo-japanese-steak-house": {
+  "hours": {
+   "mon": "11:30-21:30",
+   "tue": "11:30-21:30",
+   "wed": "11:30-21:30",
+   "thu": "11:30-21:30",
+   "fri": "11:30-22:30",
+   "sat": "11:30-22:30",
+   "sun": "12:00-21:30"
+  },
+  "source": "https://www.opentable.co.uk/restaurant/profile/103585",
+  "checked": "2026-10"
+ },
+ "v-blackmoor-bar-kitchen": {
+  "hours": {
+   "mon": "11:00-23:00",
+   "tue": "11:00-23:00",
+   "wed": "11:00-23:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-23:00"
+  },
+  "source": "https://blackmoorbar.com/",
+  "checked": "2026-10"
+ },
+ "v-bleacher-bar": {
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-00:00",
+   "wed": "11:30-00:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-02:00",
+   "sat": "11:30-02:00",
+   "sun": "11:30-22:00"
+  },
+  "source": "https://www.bleacherbarboston.com",
+  "checked": "2026-10"
+ },
+ "v-bogie-s-place": {
+  "hours": {
+   "mon": "17:00-21:00",
+   "tue": "17:00-21:00",
+   "wed": "17:00-21:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "16:00-22:00",
+   "sun": "16:00-21:00"
+  },
+  "source": "https://www.bogiesplace.com/location/bogies-place/",
+  "checked": "2026-10"
+ },
+ "v-bootleg-special": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "16:00-23:00"
+  },
+  "source": "https://bootlegspecial.com/boston-south-end-bootleg-special-location-and-hours",
+  "checked": "2026-10"
+ },
+ "v-boston-burger-company-boylston": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://bostonburgercompany.com",
+  "checked": "2026-10"
+ },
+ "v-brick-mortar": {
+  "hours": {
+   "mon": "15:00-00:00",
+   "tue": "15:00-00:00",
+   "wed": "15:00-00:00",
+   "thu": "15:00-01:00",
+   "fri": "15:00-01:00",
+   "sat": "17:00-01:00",
+   "sun": "closed"
+  },
+  "source": "https://www.brickmortarltd.com/location/brick-mortar/",
+  "checked": "2026-10"
+ },
+ "v-bronwyn": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-00:00",
+   "sat": "12:00-00:00",
+   "sun": "12:00-22:00"
+  },
+  "source": "https://bronwynrestaurant.com/",
+  "checked": "2026-10"
+ },
+ "v-bukowski-tavern": {
+  "hours": {
+   "mon": "16:00-01:00",
+   "tue": "16:00-01:00",
+   "wed": "16:00-01:00",
+   "thu": "16:00-01:00",
+   "fri": "12:00-01:00",
+   "sat": "12:00-01:00",
+   "sun": "12:00-01:00"
+  },
+  "source": "https://bukowski-tavern.com",
+  "checked": "2026-10"
+ },
+ "v-c-side-bar": {
+  "hours": {
+   "mon": "13:00-20:00",
+   "tue": "12:00-20:00",
+   "wed": "12:00-21:00",
+   "thu": "11:00-21:00",
+   "fri": "11:00-21:00",
+   "sat": "11:00-21:00",
+   "sun": "11:00-19:00"
+  },
+  "source": "https://www.csidebar.com/",
+  "checked": "2026-10"
+ },
+ "v-carrie-nation": {
+  "hours": {
+   "mon": "closed",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "11:00-17:00"
+  },
+  "source": "https://www.carrienationcocktailclub.com/drink",
+  "checked": "2026-10"
+ },
+ "v-cask-n-flagon": {
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-00:00",
+   "wed": "11:30-00:00",
+   "thu": "11:30-00:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:30-00:00"
+  },
+  "source": "https://casknflagon.com/locations/boston/",
+  "checked": "2026-10"
+ },
+ "v-cathedral-station": {
+  "hours": {
+   "mon": "14:00-00:00",
+   "tue": "14:00-00:00",
+   "wed": "14:00-00:00",
+   "thu": "14:00-00:00",
+   "fri": "14:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-00:00"
+  },
+  "source": "http://cathedralstation.com/menu-1.html",
+  "checked": "2026-10"
+ },
+ "v-causeway": {
+  "hours": {
+   "mon": "09:00-02:00",
+   "tue": "09:00-02:00",
+   "wed": "09:00-02:00",
+   "thu": "09:00-02:00",
+   "fri": "09:00-02:00",
+   "sat": "09:00-02:00",
+   "sun": "09:00-02:00"
+  },
+  "source": "https://www.causewayboston.com",
+  "checked": "2026-10"
+ },
+ "v-celeste": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "16:00-21:00"
+  },
+  "source": "https://www.celesteunionsquare.com/",
+  "checked": "2026-10"
+ },
+ "v-cheeky-monkey-brewing-co": {
+  "hours": {
+   "mon": "closed",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-01:00",
+   "fri": "16:00-02:00",
+   "sat": "12:00-02:00",
+   "sun": "12:00-23:00"
+  },
+  "source": "https://www.luckystrikeent.com/location/cheeky-monkey-brewing-co",
+  "checked": "2026-10"
+ },
+ "v-cisco-brewers-fenway": {
+  "hours": {
+   "mon": "closed",
+   "tue": "16:00-23:00",
+   "wed": "16:00-23:00",
+   "thu": "16:00-23:00",
+   "fri": "15:00-23:00",
+   "sat": "12:00-23:00",
+   "sun": "12:00-21:00"
+  },
+  "source": "https://ciscobrewersfenway.squarespace.com/",
+  "checked": "2026-10"
+ },
+ "v-city-winery": {
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-23:00",
+   "fri": "13:00-23:00",
+   "sat": "10:00-23:00",
+   "sun": "10:00-22:00"
+  },
+  "source": "https://citywinery.com/boston",
+  "checked": "2026-10"
+ },
+ "v-club-cafe": {
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "16:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-00:00"
+  },
+  "source": "https://www.clubcafe.com/",
+  "checked": "2026-10"
+ },
+ "v-coolidge-corner-clubhouse": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-02:00"
+  },
+  "source": "https://www.coolidgecornerclubhouse.com/",
+  "checked": "2026-10"
+ },
+ "v-coppa": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "17:00-22:00",
+   "sun": "11:00-15:00,15:30-21:00"
+  },
+  "source": "https://www.coppaboston.com/location",
+  "checked": "2026-10"
+ },
+ "v-corner-pub": {
+  "hours": {
+   "mon": "11:00-00:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:30-23:30"
+  },
+  "source": "https://cornerpubboston.net/",
+  "checked": "2026-10"
+ },
+ "v-cornwall-s": {
+  "hours": {
+   "mon": "11:30-02:00",
+   "tue": "11:30-02:00",
+   "wed": "11:30-02:00",
+   "thu": "11:30-02:00",
+   "fri": "11:30-02:00",
+   "sat": "11:30-02:00",
+   "sun": "closed"
+  },
+  "source": "https://cornwalls.com",
+  "checked": "2026-10"
+ },
+ "v-daedalus": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:30",
+   "fri": "17:00-23:30",
+   "sat": "17:00-23:30",
+   "sun": "closed"
+  },
+  "source": "https://www.daedalusrestaurantcambridge.com",
+  "checked": "2026-10"
+ },
+ "v-dali-restaurant-tapas-bar": {
+  "hours": {
+   "mon": "closed",
+   "tue": "closed",
+   "wed": "17:30-23:00",
+   "thu": "17:30-23:00",
+   "fri": "17:30-23:30",
+   "sat": "17:30-23:30",
+   "sun": "17:30-23:00"
+  },
+  "source": "https://dalirestaurant.com/information/",
+  "checked": "2026-10"
+ },
+ "v-dani-s-queer-bar": {
+  "hours": {
+   "mon": "16:00-02:00",
+   "tue": "16:00-02:00",
+   "wed": "16:00-02:00",
+   "thu": "16:00-02:00",
+   "fri": "16:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://www.danisqueerbar.com",
+  "checked": "2026-10"
+ },
+ "v-darling": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-00:00",
+   "wed": "17:00-00:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-01:00",
+   "sat": "17:00-01:00",
+   "sun": "17:00-00:00"
+  },
+  "source": "https://www.darlingcambridge.com",
+  "checked": "2026-10"
+ },
+ "v-davio-s-northern-italian-steakhouse": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-23:00",
+   "fri": "11:30-23:00",
+   "sat": "15:00-23:00",
+   "sun": "15:00-22:00"
+  },
+  "source": "https://davios.com/bos",
+  "checked": "2026-10"
+ },
+ "v-democracy-brewing": {
+  "hours": {
+   "mon": "16:00-20:00",
+   "tue": "12:00-21:00",
+   "wed": "12:00-21:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-20:00"
+  },
+  "source": "https://www.democracybrewing.com/locations/downtown",
+  "checked": "2026-10"
+ },
+ "v-douzo": {
+  "hours": {
+   "mon": "11:30-23:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-23:00",
+   "fri": "11:30-23:00",
+   "sat": "11:30-23:00",
+   "sun": "11:30-23:00"
+  },
+  "source": "https://www.douzosushi.com",
+  "checked": "2026-10"
+ },
+ "v-durty-nelly-s": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://www.durtynellysboston.com/",
+  "checked": "2026-10"
+ },
+ "v-earls-kitchen-bar-prudential": {
+  "hours": {
+   "mon": "11:30-23:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:30",
+   "thu": "11:30-00:00",
+   "fri": "11:30-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-23:00"
+  },
+  "source": "https://earls.ca/locations/prudential/",
+  "checked": "2026-10"
+ },
+ "v-eastern-standard": {
+  "hours": {
+   "mon": "11:30-23:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-23:00",
+   "fri": "11:30-00:00",
+   "sat": "11:00-00:00",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://www.easternstandardboston.com/location/hours/",
+  "checked": "2026-10"
+ },
+ "v-element-50-boston-marriott-cambridge": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "17:00-23:00"
+  },
+  "source": "https://www.marriott.com/en-us/hotels/boscb-boston-marriott-cambridge/dining/",
+  "checked": "2026-10"
+ },
+ "v-emmet-s": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "http://www.emmetsirishpubandrestaurant.com",
+  "checked": "2026-10"
+ },
+ "v-esmai-s": {
+  "hours": {
+   "mon": "closed",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-00:00",
+   "sat": "10:00-00:00",
+   "sun": "10:00-21:00"
+  },
+  "source": "https://esmaisbrookline.com/ (schema.org openingHours)",
+  "checked": "2026-10"
+ },
+ "v-estella": {
+  "hours": {
+   "mon": "closed",
+   "tue": "closed",
+   "wed": "16:00-23:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "16:00-23:00"
+  },
+  "source": "https://www.estellaboston.com/location/estella/",
+  "checked": "2026-10"
+ },
+ "v-eventide-fenway": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://www.eventideoysterco.com/eventide-fenway",
+  "checked": "2026-10"
+ },
+ "v-fallow-kin": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "closed",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "17:00-22:00"
+  },
+  "source": "https://www.fallowkin.com",
+  "checked": "2026-10"
+ },
+ "v-felipe-s-taqueria": {
+  "hours": {
+   "mon": "11:00-01:00",
+   "tue": "11:00-01:00",
+   "wed": "11:00-01:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-01:00"
+  },
+  "source": "https://www.felipesboston.com/",
+  "checked": "2026-10"
+ },
+ "v-five-horses-tavern-south-end": {
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-00:00",
+   "wed": "11:30-00:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-00:00",
+   "sat": "10:00-00:00",
+   "sun": "10:00-00:00"
+  },
+  "source": "https://www.fivehorsestavern.com/location/south-end/",
+  "checked": "2026-10"
+ },
+ "v-fool-s-errand": {
+  "hours": {
+   "mon": "closed",
+   "tue": "closed",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "16:00-01:00",
+   "sat": "16:00-01:00",
+   "sun": "16:00-00:00"
+  },
+  "source": "https://www.foolserrandboston.com/",
+  "checked": "2026-10"
+ },
+ "v-franklin-cafe": {
+  "hours": {
+   "mon": "17:00-02:00",
+   "tue": "17:00-02:00",
+   "wed": "17:00-02:00",
+   "thu": "17:00-02:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://www.franklincafe.com/location/franklin-cafe/",
+  "checked": "2026-10"
+ },
+ "v-fuji-at-high-street-place": {
+  "hours": {
+   "mon": "11:00-20:00",
+   "tue": "11:00-20:00",
+   "wed": "11:00-20:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "closed"
+  },
+  "source": "https://www.highstreetplace.com/food-and-beverage/fuji-at-hsp/",
+  "checked": "2026-10"
+ },
+ "v-fuji-at-kendall": {
+  "hours": {
+   "mon": "11:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-21:00",
+   "fri": "11:00-21:00",
+   "sat": "11:00-21:00",
+   "sun": "closed"
+  },
+  "source": "https://www.fujiatkendall.com/",
+  "checked": "2026-10"
+ },
+ "v-fuller-s-bu-pub": {
+  "hours": {
+   "mon": "11:30-16:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-00:00",
+   "sat": "closed",
+   "sun": "closed"
+  },
+  "source": "https://www.bu.edu/dining/location/fullersbupub/",
+  "checked": "2026-10"
+ },
+ "v-game-on": {
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-00:00",
+   "wed": "11:30-00:00",
+   "thu": "11:30-02:00",
+   "fri": "11:30-02:00",
+   "sat": "11:30-02:00",
+   "sun": "11:30-00:00"
+  },
+  "source": "https://www.gameonboston.com/fenway",
+  "checked": "2026-10"
+ },
+ "v-ganko-ittetsu-ramen": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-21:00"
+  },
+  "source": "https://gankoramen.com/",
+  "checked": "2026-10"
+ },
+ "v-gato-exotico": {
+  "hours": {
+   "mon": "12:00-21:30",
+   "tue": "12:00-21:30",
+   "wed": "12:00-21:30",
+   "thu": "12:00-21:30",
+   "fri": "12:00-23:00",
+   "sat": "12:00-23:00",
+   "sun": "12:00-21:30"
+  },
+  "source": "https://www.gatoexotico.com/",
+  "checked": "2026-10"
+ },
+ "v-glass-house": {
+  "hours": {
+   "mon": "closed",
+   "tue": "12:00-20:30",
+   "wed": "12:00-20:30",
+   "thu": "12:00-20:30",
+   "fri": "12:00-20:30",
+   "sat": "closed",
+   "sun": "closed"
+  },
+  "source": "https://www.glasshousecambridge.com/location/glass-house/",
+  "checked": "2026-10"
+ },
+ "v-grafton-street-pub-grill": {
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-01:00",
+   "fri": "16:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-00:00"
+  },
+  "source": "https://graftonstreetcambridge.com/",
+  "checked": "2026-10"
+ },
+ "v-grainne-o-malley-s": {
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "12:00-02:00",
+   "sat": "14:00-02:00",
+   "sun": "14:00-00:00"
+  },
+  "source": "https://www.omalleystavern.com/contact-us",
+  "checked": "2026-10"
+ },
+ "v-grendel-s-den": {
+  "hours": {
+   "mon": "11:30-01:00",
+   "tue": "11:30-01:00",
+   "wed": "11:30-01:00",
+   "thu": "11:30-01:00",
+   "fri": "11:30-01:00",
+   "sat": "11:30-01:00",
+   "sun": "11:30-01:00"
+  },
+  "source": "https://www.timeout.com/boston/bars/grendels-den",
+  "checked": "2026-10"
+ },
+ "v-grill-23-bar": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:30",
+   "sat": "17:00-22:30",
+   "sun": "17:00-21:00"
+  },
+  "source": "https://www.grill23.com/",
+  "checked": "2026-10"
+ },
+ "v-gyu-kaku-harvard-square": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-21:30"
+  },
+  "source": "https://www.gyu-kaku.com/cambridge-harvard-square/",
+  "checked": "2026-10"
+ },
+ "v-gyu-kaku-japanese-bbq-brookline": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-21:30"
+  },
+  "source": "https://www.gyu-kaku.com/brookline/",
+  "checked": "2026-10"
+ },
+ "v-haley-henry": {
+  "hours": {
+   "mon": "closed",
+   "tue": "15:00-23:00",
+   "wed": "15:00-23:00",
+   "thu": "15:00-23:00",
+   "fri": "15:00-00:00",
+   "sat": "12:00-00:00",
+   "sun": "closed"
+  },
+  "source": "https://www.haleyhenry.com",
+  "checked": "2026-10"
+ },
+ "v-harvard-gardens": {
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-00:00",
+   "wed": "11:30-01:00",
+   "thu": "11:30-01:00",
+   "fri": "11:30-02:00",
+   "sat": "11:30-02:00",
+   "sun": "11:30-00:00"
+  },
+  "source": "https://www.harvardgardens.com/",
+  "checked": "2026-10"
+ },
+ "v-harvest": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://www.harvestcambridge.com/",
+  "checked": "2026-10"
+ },
+ "v-henrietta-s-table": {
+  "hours": {
+   "mon": "07:00-21:00",
+   "tue": "07:00-21:00",
+   "wed": "07:00-21:00",
+   "thu": "07:00-21:00",
+   "fri": "07:00-21:00",
+   "sat": "07:00-21:00",
+   "sun": "07:00-21:00"
+  },
+  "source": "https://www.henriettastable.com/",
+  "checked": "2026-10"
+ },
+ "v-hojoko": {
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-00:00",
+   "wed": "11:30-00:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-00:00",
+   "sat": "11:30-00:00",
+   "sun": "11:30-22:00"
+  },
+  "source": "https://www.hojokoboston.com/location/hojoko-boston/",
+  "checked": "2026-10"
+ },
+ "v-hong-kong-faneuil-hall": {
+  "hours": {
+   "mon": "closed",
+   "tue": "16:00-02:00",
+   "wed": "16:00-02:00",
+   "thu": "16:00-02:00",
+   "fri": "16:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "16:00-02:00"
+  },
+  "source": "https://hongkongboston.com/drink/",
+  "checked": "2026-10"
+ },
+ "v-hong-kong-restaurant-the-kong": {
+  "hours": {
+   "mon": "closed",
+   "tue": "12:00-20:00",
+   "wed": "12:00-20:00",
+   "thu": "12:00-02:00",
+   "fri": "12:00-02:00",
+   "sat": "12:00-02:00",
+   "sun": "12:00-20:00"
+  },
+  "source": "https://www.hongkongharvard.com",
+  "checked": "2026-10"
+ },
+ "v-india-pavilion": {
+  "hours": {
+   "mon": "11:30-22:30",
+   "tue": "11:30-22:30",
+   "wed": "11:30-22:30",
+   "thu": "11:30-22:30",
+   "fri": "11:30-22:30",
+   "sat": "11:30-22:30",
+   "sun": "11:30-22:30"
+  },
+  "source": "https://indiapavilion.co/directions.htm",
+  "checked": "2026-10"
+ },
+ "v-india-quality-restaurant": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:30",
+   "sun": "11:30-22:30"
+  },
+  "source": "https://indiaquality.com",
+  "checked": "2026-10"
+ },
+ "v-jaho-coffee-roaster-wine-bar": {
+  "hours": {
+   "mon": "06:30-23:00",
+   "tue": "06:30-23:00",
+   "wed": "06:30-23:00",
+   "thu": "06:30-23:00",
+   "fri": "06:30-23:00",
+   "sat": "06:30-23:00",
+   "sun": "06:30-23:00"
+  },
+  "source": "https://www.jaho.com/pages/market-central-central-square",
+  "checked": "2026-10"
+ },
+ "v-jj-foley-s-bar-grille": {
+  "hours": {
+   "mon": "10:00-02:00",
+   "tue": "10:00-02:00",
+   "wed": "10:00-02:00",
+   "thu": "10:00-02:00",
+   "fri": "10:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "12:00-02:00"
+  },
+  "source": "https://punchdrink.com/venues/j-j-foleys-bar-grille/",
+  "checked": "2026-10"
+ },
+ "v-josephine": {
+  "hours": {
+   "mon": "11:00-23:00",
+   "tue": "11:00-23:00",
+   "wed": "11:00-23:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-00:30",
+   "sat": "10:30-14:30,17:00-00:30",
+   "sun": "10:30-14:30,17:00-23:00"
+  },
+  "source": "https://www.josephinepizza.com/hours-and-location/",
+  "checked": "2026-10"
+ },
+ "v-juliet": {
+  "hours": {
+   "mon": "09:00-21:00",
+   "tue": "closed",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "17:00-22:00"
+  },
+  "source": "https://www.julietsomerville.com/wine-bar",
+  "checked": "2026-10"
+ },
+ "v-kings-dining-entertainment-back-bay": {
+  "hours": {
+   "mon": "15:00-00:00",
+   "tue": "15:00-00:00",
+   "wed": "15:00-00:00",
+   "thu": "15:00-00:00",
+   "fri": "11:30-01:00",
+   "sat": "11:30-01:00",
+   "sun": "11:30-00:00"
+  },
+  "source": "https://www.playatkings.com/location/boston-back-bay/",
+  "checked": "2026-10"
+ },
+ "v-koreana": {
+  "hours": {
+   "mon": "11:30-21:30",
+   "tue": "11:30-21:30",
+   "wed": "11:30-21:30",
+   "thu": "11:30-21:30",
+   "fri": "11:30-22:00",
+   "sat": "11:30-14:15,15:00-22:00",
+   "sun": "11:30-14:15,15:00-21:30"
+  },
+  "source": "https://koreanaboston.com",
+  "checked": "2026-10"
+ },
+ "v-krasi": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "11:00-14:30,17:00-23:00",
+   "sat": "10:00-15:00,17:00-23:00",
+   "sun": "10:00-15:00,17:00-23:00"
+  },
+  "source": "https://www.krasiboston.com",
+  "checked": "2026-10"
+ },
+ "v-la-famiglia-giorgio-s": {
+  "hours": {
+   "mon": "16:00-21:00",
+   "tue": "16:00-21:00",
+   "wed": "16:00-21:00",
+   "thu": "16:00-21:00",
+   "fri": "16:00-21:00",
+   "sat": "11:00-21:00",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://www.lafamigliagiorgios.com/hours.html",
+  "checked": "2026-10"
+ },
+ "v-lamplighter-brewing-co-broadway-taproom": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-00:00",
+   "fri": "11:00-00:00",
+   "sat": "11:00-00:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://lamplighterbrewing.com/",
+  "checked": "2026-10"
+ },
+ "v-lamplighter-brewing-co-cx": {
+  "hours": {
+   "mon": "13:00-22:00",
+   "tue": "13:00-22:00",
+   "wed": "13:00-22:00",
+   "thu": "13:00-00:00",
+   "fri": "12:00-00:00",
+   "sat": "12:00-00:00",
+   "sun": "12:00-22:00"
+  },
+  "source": "https://lamplighterbrewing.com/",
+  "checked": "2026-10"
+ },
+ "v-lan-feast": {
+  "hours": {
+   "mon": "11:30-15:00,17:00-21:30",
+   "tue": "11:30-15:00,17:00-21:30",
+   "wed": "11:30-15:00,17:00-21:30",
+   "thu": "11:30-15:00,17:00-21:30",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-22:00"
+  },
+  "source": "https://www.lan-feast.com/menu.html",
+  "checked": "2026-10"
+ },
+ "v-laughing-monk-cafe-mission-hill": {
+  "hours": {
+   "mon": "11:00-15:00,17:00-21:30",
+   "tue": "11:00-15:00,17:00-21:30",
+   "wed": "11:00-15:00,17:00-21:30",
+   "thu": "11:00-15:00,17:00-21:30",
+   "fri": "11:00-15:00,17:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-21:00"
+  },
+  "source": "https://www.laughingmonkcafe.com/locations/mission-hill",
+  "checked": "2026-10"
+ },
+ "v-legal-crossing-legal-sea-foods-downtown-crossing": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://legalseafoods.com/locations/boston-downtown-crossing",
+  "checked": "2026-10"
+ },
+ "v-legal-sea-foods-copley-place": {
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-21:00",
+   "wed": "11:30-21:00",
+   "thu": "11:30-21:00",
+   "fri": "11:30-21:30",
+   "sat": "11:30-21:30",
+   "sun": "11:30-21:00"
+  },
+  "source": "https://www.legalseafoods.com/locations/boston-copley-place/",
+  "checked": "2026-10"
+ },
+ "v-legal-sea-foods-kendall-square": {
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-21:00",
+   "wed": "11:30-21:00",
+   "thu": "11:30-21:00",
+   "fri": "11:30-21:30",
+   "sat": "11:30-21:30",
+   "sun": "11:30-21:00"
+  },
+  "source": "https://www.legalseafoods.com/locations/cambridge-kendall-square/",
+  "checked": "2026-10"
+ },
+ "v-legal-sea-foods-park-square": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "12:00-21:00"
+  },
+  "source": "https://www.legalseafoods.com/locations/boston-park-square/",
+  "checked": "2026-10"
+ },
+ "v-little-donkey": {
+  "hours": {
+   "mon": "17:00-21:00",
+   "tue": "17:00-21:00",
+   "wed": "17:00-21:00",
+   "thu": "17:00-21:00",
+   "fri": "16:00-22:00",
+   "sat": "16:00-22:00",
+   "sun": "closed"
+  },
+  "source": "http://www.littledonkeycambridge.com",
+  "checked": "2026-10"
+ },
+ "v-locke-bar-restaurant": {
+  "hours": {
+   "mon": "11:00-00:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-00:00",
+   "fri": "11:00-00:00",
+   "sat": "11:00-00:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://thelockebar.com/",
+  "checked": "2026-10"
+ },
+ "v-lolita-cocina-tequila-bar-back-bay": {
+  "hours": {
+   "mon": "11:00-01:00",
+   "tue": "11:00-01:00",
+   "wed": "11:00-01:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-01:00"
+  },
+  "source": "https://www.lolitamexican.com/location/lolita-back-bay/",
+  "checked": "2026-10"
+ },
+ "v-longfellow-bar": {
+  "hours": {
+   "mon": "17:00-00:00",
+   "tue": "17:00-00:00",
+   "wed": "17:00-00:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-00:00",
+   "sat": "17:00-00:00",
+   "sun": "17:00-00:00"
+  },
+  "source": "https://www.opentable.com/r/longfellow-cambridge",
+  "checked": "2026-10"
+ },
+ "v-loretta-s-last-call": {
+  "hours": {
+   "mon": "16:00-01:00",
+   "tue": "16:00-01:00",
+   "wed": "16:00-01:00",
+   "thu": "16:00-01:00",
+   "fri": "16:00-02:00",
+   "sat": "10:30-02:00",
+   "sun": "10:30-02:00"
+  },
+  "source": "https://www.lorettaslastcall.com",
+  "checked": "2026-10"
+ },
+ "v-lucie-drink-dine": {
+  "hours": {
+   "mon": "07:00-10:30",
+   "tue": "07:00-10:30,16:00-00:00",
+   "wed": "07:00-10:30,16:00-00:00",
+   "thu": "07:00-10:30,16:00-00:00",
+   "fri": "07:00-10:30,16:00-00:00",
+   "sat": "08:00-14:00,16:00-00:00",
+   "sun": "08:00-14:00"
+  },
+  "source": "https://luciebackbay.com/locationandhours",
+  "checked": "2026-10"
+ },
+ "v-m-j-o-connor-s-park-plaza": {
+  "hours": {
+   "mon": "11:30-01:00",
+   "tue": "11:30-01:00",
+   "wed": "11:30-01:00",
+   "thu": "11:30-02:00",
+   "fri": "11:30-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-01:00"
+  },
+  "source": "https://www.mjoconnors.com/location/mj-oconnors-back-bay/",
+  "checked": "2026-10"
+ },
+ "v-mamaleh-s-delicatessen": {
+  "hours": {
+   "mon": "08:00-20:00",
+   "tue": "08:00-20:00",
+   "wed": "08:00-20:00",
+   "thu": "08:00-20:00",
+   "fri": "08:00-20:00",
+   "sat": "08:00-20:00",
+   "sun": "08:00-20:00"
+  },
+  "source": "https://mamalehs.com/",
+  "checked": "2026-10"
+ },
+ "v-manray": {
+  "hours": {
+   "mon": "21:00-01:00",
+   "tue": "21:00-01:00",
+   "wed": "21:00-01:00",
+   "thu": "22:00-01:00",
+   "fri": "21:00-02:00",
+   "sat": "21:00-02:00",
+   "sun": "21:00-01:00"
+  },
+  "source": "https://www.manrayclub.com/",
+  "checked": "2026-10"
+ },
+ "v-metropolis-cafe": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "09:00-15:00,17:00-22:00",
+   "sun": "09:00-15:00,17:00-22:00"
+  },
+  "source": "https://www.metropolisboston.com/contact/",
+  "checked": "2026-10"
+ },
+ "v-mida-fenway": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://midarestaurant.com/mida-fenway",
+  "checked": "2026-10"
+ },
+ "v-mida-south-end": {
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-22:00",
+   "fri": "16:00-23:00",
+   "sat": "10:30-15:30,16:00-23:00",
+   "sun": "10:30-15:30,16:00-22:00"
+  },
+  "source": "https://midarestaurant.com/mida-boston",
+  "checked": "2026-10"
+ },
+ "v-mija-cantina-tequila-bar": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://www.mijaboston.com",
+  "checked": "2026-10"
+ },
+ "v-miracle-of-science-bar-grill": {
+  "hours": {
+   "mon": "11:30-01:00",
+   "tue": "11:30-01:00",
+   "wed": "11:30-01:00",
+   "thu": "11:30-02:00",
+   "fri": "11:30-02:00",
+   "sat": "11:30-02:00",
+   "sun": "11:30-01:00"
+  },
+  "source": "https://www.miracleofscience.us",
+  "checked": "2026-10"
+ },
+ "v-miraku-boston": {
+  "hours": {
+   "mon": "12:00-15:00,17:00-21:00",
+   "tue": "closed",
+   "wed": "12:00-15:00,17:00-21:00",
+   "thu": "12:00-15:00,17:00-21:00",
+   "fri": "12:00-15:00,17:00-21:00",
+   "sat": "12:00-15:00,17:00-21:00",
+   "sun": "12:00-15:00,17:00-21:00"
+  },
+  "source": "https://www.miraku-usa.com/menu",
+  "checked": "2026-10"
+ },
+ "v-mistral": {
+  "hours": {
+   "mon": "17:00-21:00",
+   "tue": "17:00-21:00",
+   "wed": "17:00-21:00",
+   "thu": "17:00-21:00",
+   "fri": "17:00-22:00",
+   "sat": "17:00-22:00",
+   "sun": "17:00-20:30"
+  },
+  "source": "https://mistralbistro.com/about-us/hours/",
+  "checked": "2026-10"
+ },
+ "v-monteverdi": {
+  "hours": {
+   "mon": "16:00-23:00",
+   "tue": "16:00-23:00",
+   "wed": "16:00-23:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-00:00",
+   "sat": "16:00-00:00",
+   "sun": "closed"
+  },
+  "source": "https://www.monteverdirestaurant.com/",
+  "checked": "2026-10"
+ },
+ "v-montien-thai": {
+  "hours": {
+   "mon": "11:30-21:30",
+   "tue": "11:30-21:30",
+   "wed": "11:30-21:30",
+   "thu": "11:30-21:30",
+   "fri": "11:30-22:30",
+   "sat": "11:30-22:30",
+   "sun": "16:00-21:30"
+  },
+  "source": "https://www.montienthaiboston.com/",
+  "checked": "2026-10"
+ },
+ "v-monument-charlestown-restaurant-tavern": {
+  "hours": {
+   "mon": "11:30-23:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-23:00",
+   "fri": "11:30-24:00",
+   "sat": "09:00-24:00",
+   "sun": "09:00-23:00"
+  },
+  "source": "https://www.monumentcharlestown.com/menu",
+  "checked": "2026-10"
+ },
+ "v-mr-bartley-s-burger-cottage": {
+  "hours": {
+   "mon": "11:00-20:00",
+   "tue": "11:00-20:00",
+   "wed": "11:00-20:00",
+   "thu": "11:00-20:00",
+   "fri": "11:00-20:30",
+   "sat": "11:00-20:30",
+   "sun": "11:00-16:00"
+  },
+  "source": "https://www.mrbartley.com",
+  "checked": "2026-10"
+ },
+ "v-myers-chang": {
+  "hours": {
+   "mon": "16:00-21:00",
+   "tue": "16:00-21:00",
+   "wed": "16:00-21:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-21:00"
+  },
+  "source": "https://www.myersandchang.com/hours-location/",
+  "checked": "2026-10"
+ },
+ "v-naco-taco": {
+  "hours": {
+   "mon": "11:00-23:00",
+   "tue": "11:00-23:00",
+   "wed": "11:00-23:00",
+   "thu": "11:00-00:00",
+   "fri": "11:00-00:00",
+   "sat": "11:00-00:00",
+   "sun": "11:00-23:00"
+  },
+  "source": "https://nacocentral.com",
+  "checked": "2026-10"
+ },
+ "v-nathalie": {
+  "hours": {
+   "mon": "closed",
+   "tue": "15:00-23:00",
+   "wed": "15:00-23:00",
+   "thu": "15:00-23:00",
+   "fri": "15:00-00:00",
+   "sat": "12:00-00:00",
+   "sun": "closed"
+  },
+  "source": "https://www.nathaliebar.com",
+  "checked": "2026-10"
+ },
+ "v-neptune-oyster": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-23:00"
+  },
+  "source": "https://www.neptuneoyster.com/",
+  "checked": "2026-10"
+ },
+ "v-night-shift-brewing-lovejoy-wharf": {
+  "hours": {
+   "mon": "15:00-21:00",
+   "tue": "15:00-21:00",
+   "wed": "15:00-21:00",
+   "thu": "15:00-21:00",
+   "fri": "11:30-23:00",
+   "sat": "11:30-23:00",
+   "sun": "11:30-20:00"
+  },
+  "source": "https://nightshiftbrewing.com/locations/boston-lovejoy-wharf",
+  "checked": "2026-10"
+ },
+ "v-ninety-nine-restaurant-pub-charlestown": {
+  "hours": {
+   "mon": "11:00-21:30",
+   "tue": "11:00-21:30",
+   "wed": "11:00-21:30",
+   "thu": "11:00-22:30",
+   "fri": "11:00-22:30",
+   "sat": "11:00-22:30",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://www.99restaurants.com/locations/ma/charlestown",
+  "checked": "2026-10"
+ },
+ "v-noir-bar": {
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-01:00",
+   "thu": "16:00-01:00",
+   "fri": "16:00-01:00",
+   "sat": "16:00-01:00",
+   "sun": "17:00-00:00"
+  },
+  "source": "https://www.noir-bar.com/",
+  "checked": "2026-10"
+ },
+ "v-nubar": {
+  "hours": {
+   "mon": "11:00-14:00,17:00-22:45",
+   "tue": "11:00-14:00,17:00-22:45",
+   "wed": "11:00-14:00,17:00-22:45",
+   "thu": "11:00-14:00,17:00-22:45",
+   "fri": "11:00-14:00,17:00-23:45",
+   "sat": "11:00-14:00,17:00-23:45",
+   "sun": "11:00-14:00,17:00-22:45"
+  },
+  "source": "https://www.nubarcambridge.com/",
+  "checked": "2026-10"
+ },
+ "v-oak-bistro": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://www.oakbistrorestaurant.com/location/oak-bistro-restaurant/",
+  "checked": "2026-10"
+ },
+ "v-ole-mexican-grill": {
+  "hours": {
+   "mon": "17:30-22:00",
+   "tue": "17:30-22:00",
+   "wed": "17:30-22:00",
+   "thu": "17:30-22:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "17:00-21:30"
+  },
+  "source": "https://olerestaurantgroup.com/dinner",
+  "checked": "2026-10"
+ },
+ "v-otto-pizza-coolidge-corner": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://www.ottoportland.com/locations",
+  "checked": "2026-10"
+ },
+ "v-pagu": {
+  "hours": {
+   "mon": "17:00-21:00",
+   "tue": "17:00-21:00",
+   "wed": "17:00-21:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "17:00-22:00",
+   "sun": "17:00-21:00"
+  },
+  "source": "https://gopagu.com",
+  "checked": "2026-10"
+ },
+ "v-pammy-s": {
+  "hours": {
+   "mon": "17:00-22:30",
+   "tue": "17:00-22:30",
+   "wed": "17:00-22:30",
+   "thu": "17:00-22:30",
+   "fri": "17:00-23:30",
+   "sat": "17:00-23:30",
+   "sun": "closed"
+  },
+  "source": "https://www.pammyscambridge.com",
+  "checked": "2026-10"
+ },
+ "v-paperback-tavern-hyatt-regency-boston-cambridge": {
+  "hours": {
+   "mon": "06:30-11:00,17:00-23:00",
+   "tue": "06:30-11:00,17:00-23:00",
+   "wed": "06:30-11:00,17:00-23:00",
+   "thu": "06:30-11:00,17:00-23:00",
+   "fri": "06:30-11:00,17:00-23:00",
+   "sat": "06:30-12:00,17:00-23:00",
+   "sun": "07:00-12:00,17:00-23:00"
+  },
+  "source": "https://www.paperbacktavern.com/",
+  "checked": "2026-10"
+ },
+ "v-parla": {
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "16:00-00:00",
+   "sat": "10:00-00:00",
+   "sun": "10:00-00:00"
+  },
+  "source": "https://www.parlaboston.com/beerwine",
+  "checked": "2026-10"
+ },
+ "v-penguin-pizza": {
+  "hours": {
+   "mon": "11:00-00:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-22:00"
+  },
+  "source": "http://www.thepenguinpizza.com/",
+  "checked": "2026-10"
+ },
+ "v-petit-robert-bistro": {
+  "hours": {
+   "mon": "11:00-21:30",
+   "tue": "11:00-21:30",
+   "wed": "11:00-21:30",
+   "thu": "11:00-21:30",
+   "fri": "11:00-22:00",
+   "sat": "10:00-22:00",
+   "sun": "10:00-21:30"
+  },
+  "source": "https://www.petitrobertbistro.com",
+  "checked": "2026-10"
+ },
+ "v-piattini": {
+  "hours": {
+   "mon": "12:00-22:00",
+   "tue": "12:00-22:00",
+   "wed": "12:00-22:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-22:30",
+   "sat": "12:00-22:30",
+   "sun": "12:00-22:00"
+  },
+  "source": "https://www.piattini.com/location/piattini/",
+  "checked": "2026-10"
+ },
+ "v-picco": {
+  "hours": {
+   "mon": "11:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-21:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://piccoboston.com/ (site business hours)",
+  "checked": "2026-10"
+ },
+ "v-prairie-fire": {
+  "hours": {
+   "mon": "16:00-21:00",
+   "tue": "16:00-21:00",
+   "wed": "16:00-21:00",
+   "thu": "16:00-21:00",
+   "fri": "16:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-21:00"
+  },
+  "source": "https://prairiefirebrookline.com/contact",
+  "checked": "2026-10"
+ },
+ "v-prima": {
+  "hours": {
+   "mon": "16:00-01:00",
+   "tue": "16:00-01:00",
+   "wed": "16:00-01:00",
+   "thu": "16:00-01:00",
+   "fri": "12:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-01:00"
+  },
+  "source": "OpenTable/AAA listings via web search (no venue site reachable)",
+  "checked": "2026-10"
+ },
+ "v-puro-ceviche-bar": {
+  "hours": {
+   "mon": "closed",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "12:00-23:00",
+   "fri": "12:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://www.purocevichebar.com",
+  "checked": "2026-10"
+ },
+ "v-remnant-brewing-bow-market": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-24:00",
+   "sat": "11:00-24:00",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://www.remnantsomerville.com/visit",
+  "checked": "2026-10"
+ },
+ "v-row-34-cambridge": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-23:00",
+   "fri": "11:30-23:00",
+   "sat": "11:30-23:00",
+   "sun": "11:30-22:00"
+  },
+  "source": "https://www.row34.com/location/row34-cambridge/",
+  "checked": "2026-10"
+ },
+ "v-row-34-kenmore-square": {
+  "hours": {
+   "mon": "16:00-23:00",
+   "tue": "16:00-23:00",
+   "wed": "16:00-23:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-23:00",
+   "sat": "11:30-23:00",
+   "sun": "11:30-22:00"
+  },
+  "source": "https://www.row34.com/location/row34-kenmore-square/",
+  "checked": "2026-10"
+ },
+ "v-roxy-s-arcade-formerly-a4cade": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-01:00",
+   "sat": "12:00-01:00",
+   "sun": "closed"
+  },
+  "source": "https://roxysarcade.com/hours-location",
+  "checked": "2026-10"
+ },
+ "v-ruka-restobar": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-00:00",
+   "sat": "17:00-00:00",
+   "sun": "17:00-23:00"
+  },
+  "source": "https://www.rukarestobar.com/location/hours-locations/",
+  "checked": "2026-10"
+ },
+ "v-russell-house-tavern": {
+  "hours": {
+   "mon": "11:00-00:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-00:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-00:00"
+  },
+  "source": "https://www.russellhousecambridge.com/",
+  "checked": "2026-10"
+ },
+ "v-sally-o-brien-s-bar-and-grill": {
+  "hours": {
+   "mon": "15:00-01:00",
+   "tue": "closed",
+   "wed": "15:00-01:00",
+   "thu": "15:00-01:00",
+   "fri": "15:00-01:00",
+   "sat": "12:00-01:00",
+   "sun": "12:00-01:00"
+  },
+  "source": "https://www.sallyobriensbar.com/location/sally-obriens-bar-and-grill/",
+  "checked": "2026-10"
+ },
+ "v-saloniki-harvard-square": {
+  "hours": {
+   "mon": "11:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-21:00",
+   "fri": "11:00-21:00",
+   "sat": "11:00-21:00",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://www.salonikigreek.com/locations",
+  "checked": "2026-10"
+ },
+ "v-samuel-adams-boston-taproom": {
+  "hours": {
+   "mon": "11:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-21:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-21:00"
+  },
+  "source": "https://www.samueladams.com/taprooms",
+  "checked": "2026-10"
+ },
+ "v-scull-keel": {
+  "hours": {
+   "mon": "07:00-14:00",
+   "tue": "07:00-14:00,16:00-23:00",
+   "wed": "07:00-14:00,16:00-23:00",
+   "thu": "07:00-14:00,16:00-23:00",
+   "fri": "07:00-14:00,16:00-23:00",
+   "sat": "07:00-14:00,16:00-23:00",
+   "sun": "07:00-14:00,16:00-22:00"
+  },
+  "source": "https://www.opentable.com/artbar-reservations-cambridge",
+  "checked": "2026-10"
+ },
+ "v-shabu-zen": {
+  "hours": {
+   "mon": "11:00-22:30",
+   "tue": "11:00-22:30",
+   "wed": "11:00-22:30",
+   "thu": "11:00-22:30",
+   "fri": "11:00-23:30",
+   "sat": "11:00-23:30",
+   "sun": "11:00-22:30"
+  },
+  "source": "https://www.shabuzen.com/boston-ma-location",
+  "checked": "2026-10"
+ },
+ "v-shabu-zen-allston": {
+  "hours": {
+   "mon": "11:30-22:30",
+   "tue": "11:30-22:30",
+   "wed": "11:30-22:30",
+   "thu": "11:30-22:30",
+   "fri": "11:30-23:15",
+   "sat": "11:30-23:15",
+   "sun": "11:30-22:30"
+  },
+  "source": "https://www.shabuzen.com/allston-ma-location",
+  "checked": "2026-10"
+ },
+ "v-shays-pub-wine-bar": {
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "12:00-01:00",
+   "fri": "12:00-01:00",
+   "sat": "12:00-01:00",
+   "sun": "12:00-23:00"
+  },
+  "source": "https://www.shayspubwinebar.com/",
+  "checked": "2026-10"
+ },
+ "v-shojo": {
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-00:00",
+   "sat": "11:30-00:00",
+   "sun": "11:30-21:00"
+  },
+  "source": "https://www.shojoboston.com/",
+  "checked": "2026-10"
+ },
+ "v-shore-leave": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-00:00",
+   "wed": "17:00-00:00",
+   "thu": "17:00-01:00",
+   "fri": "17:00-01:00",
+   "sat": "17:00-01:00",
+   "sun": "closed"
+  },
+  "source": "https://www.shoreleaveboston.com/location/shore-leave/",
+  "checked": "2026-10"
+ },
+ "v-shy-bird-fenway": {
+  "hours": {
+   "mon": "08:00-15:00,16:00-21:00",
+   "tue": "08:00-15:00,16:00-21:00",
+   "wed": "08:00-15:00,16:00-21:00",
+   "thu": "08:00-15:00,16:00-22:00",
+   "fri": "08:00-15:00,16:00-22:00",
+   "sat": "08:00-15:00,16:00-22:00",
+   "sun": "08:00-15:00,16:00-21:00"
+  },
+  "source": "https://www.shybird.com/location/fenway/",
+  "checked": "2026-10"
+ },
+ "v-shy-bird-kendall-square": {
+  "hours": {
+   "mon": "08:00-15:00,16:00-21:00",
+   "tue": "08:00-15:00,16:00-21:00",
+   "wed": "08:00-15:00,16:00-21:00",
+   "thu": "08:00-15:00,16:00-22:00",
+   "fri": "08:00-15:00,16:00-22:00",
+   "sat": "08:00-15:00,16:00-22:00",
+   "sun": "08:00-15:00,16:00-21:00"
+  },
+  "source": "https://www.shybird.com/location/shy-bird-kendall-square/",
+  "checked": "2026-10"
+ },
+ "v-slade-s-bar-grill": {
+  "hours": {
+   "mon": "closed",
+   "tue": "12:00-20:00",
+   "wed": "12:00-22:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-19:30"
+  },
+  "source": "Toast ordering listing (via search summary; page itself blocked)",
+  "checked": "2026-10"
+ },
+ "v-sloane-s": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-00:00",
+   "fri": "11:00-00:00",
+   "sat": "10:00-00:00",
+   "sun": "10:00-22:00"
+  },
+  "source": "https://www.sloanesboston.com/location/sloanes-boston/",
+  "checked": "2026-10"
+ },
+ "v-sol-azteca": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-21:00",
+   "wed": "17:00-21:00",
+   "thu": "17:00-21:00",
+   "fri": "17:00-22:00",
+   "sat": "16:00-22:00",
+   "sun": "17:00-21:00"
+  },
+  "source": "https://solaztecaboston.com",
+  "checked": "2026-10"
+ },
+ "v-sonsie": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-00:00",
+   "sat": "09:30-00:00",
+   "sun": "09:30-22:00"
+  },
+  "source": "https://www.sonsieboston.com",
+  "checked": "2026-10"
+ },
+ "v-source": {
+  "hours": {
+   "mon": "12:00-21:00",
+   "tue": "12:00-21:00",
+   "wed": "12:00-21:00",
+   "thu": "12:00-21:00",
+   "fri": "12:00-14:00,17:00-22:00",
+   "sat": "11:00-15:00,17:00-22:00",
+   "sun": "11:00-15:00,17:00-21:00"
+  },
+  "source": "https://sourcerestaurants.com/",
+  "checked": "2026-10"
+ },
+ "v-srv": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-23:00",
+   "sat": "16:30-23:00",
+   "sun": "16:30-22:00"
+  },
+  "source": "https://www.srvboston.com",
+  "checked": "2026-10"
+ },
+ "v-state-park": {
+  "hours": {
+   "mon": "14:00-01:00",
+   "tue": "14:00-01:00",
+   "wed": "14:00-01:00",
+   "thu": "14:00-01:00",
+   "fri": "14:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-01:00"
+  },
+  "source": "https://stateparkbar.com",
+  "checked": "2026-10"
+ },
+ "v-stillwater": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://www.stillwaterboston.com/location/stillwater/",
+  "checked": "2026-10"
+ },
+ "v-sullivan-s-tap": {
+  "hours": {
+   "mon": "15:00-23:00",
+   "tue": "10:00-23:00",
+   "wed": "10:00-23:00",
+   "thu": "10:00-23:00",
+   "fri": "10:00-00:30",
+   "sat": "10:00-00:30",
+   "sun": "15:00-23:00"
+  },
+  "source": "https://www.sullivanstapboston.com",
+  "checked": "2026-10"
+ },
+ "v-sumiao-hunan-kitchen": {
+  "hours": {
+   "mon": "closed",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-22:00"
+  },
+  "source": "https://www.sumiaohunan.com/",
+  "checked": "2026-10"
+ },
+ "v-sunset-cantina": {
+  "hours": {
+   "mon": "closed",
+   "tue": "12:00-22:00",
+   "wed": "12:00-22:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-00:00",
+   "sat": "12:00-00:00",
+   "sun": "closed"
+  },
+  "source": "https://bostonsunsetcantina.com/",
+  "checked": "2026-10"
+ },
+ "v-sweet-cheeks-q": {
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-21:00",
+   "wed": "11:30-21:00",
+   "thu": "11:30-21:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-21:00"
+  },
+  "source": "https://www.sweetcheeksq.com",
+  "checked": "2026-10"
+ },
+ "v-taberna-de-haro": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "17:00-22:00",
+   "sun": "closed"
+  },
+  "source": "https://www.aaa.com/tripcanvas/restaurant/taberna-de-haro-AA3881",
+  "checked": "2026-10"
+ },
+ "v-tall-order": {
+  "hours": {
+   "mon": "17:00-01:00",
+   "tue": "17:00-01:00",
+   "wed": "17:00-01:00",
+   "thu": "17:00-01:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "17:00-01:00"
+  },
+  "source": "https://tallorderbar.com",
+  "checked": "2026-10"
+ },
+ "v-tap-151-bar-and-grill": {
+  "hours": {
+   "mon": "11:00-00:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-01:00",
+   "sat": "11:00-01:00",
+   "sun": "10:00-00:00"
+  },
+  "source": "https://www.tap151.com/",
+  "checked": "2026-10"
+ },
+ "v-tavern-at-the-end-of-the-world": {
+  "hours": {
+   "mon": "10:00-02:00",
+   "tue": "10:00-02:00",
+   "wed": "10:00-02:00",
+   "thu": "10:00-02:00",
+   "fri": "10:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-02:00"
+  },
+  "source": "https://www.tavernattheendoftheworld.com/",
+  "checked": "2026-10"
+ },
+ "v-the-bar-at-eastern-edge-eastern-edge-food-hall": {
+  "hours": {
+   "mon": "07:00-21:00",
+   "tue": "07:00-21:00",
+   "wed": "07:00-21:00",
+   "thu": "07:00-21:00",
+   "fri": "07:00-22:00",
+   "sat": "08:00-22:00",
+   "sun": "08:00-21:00"
+  },
+  "source": "https://www.easternedgefoodhall.com",
+  "checked": "2026-10"
+ },
+ "v-the-bebop": {
+  "hours": {
+   "mon": "11:00-01:00",
+   "tue": "11:00-01:00",
+   "wed": "11:00-01:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-01:00",
+   "sat": "11:00-01:00",
+   "sun": "11:00-01:00"
+  },
+  "source": "https://www.thebebopboston.com",
+  "checked": "2026-10"
+ },
+ "v-the-bell-in-hand": {
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-00:00",
+   "wed": "11:30-00:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-02:00",
+   "sat": "11:30-02:00",
+   "sun": "11:30-00:00"
+  },
+  "source": "web search snippet citing thebellinhand.com (site blocks automated access)",
+  "checked": "2026-10"
+ },
+ "v-the-black-sheep-lounge-bar-kendall-hotel": {
+  "hours": {
+   "mon": "closed",
+   "tue": "16:30-21:30",
+   "wed": "16:30-21:30",
+   "thu": "16:30-21:30",
+   "fri": "16:30-21:30",
+   "sat": "16:30-21:30",
+   "sun": "closed"
+  },
+  "source": "https://www.kendallhotel.com/dining/black-sheep/",
+  "checked": "2026-10"
+ },
+ "v-the-capital-grille": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-23:00",
+   "sat": "17:00-23:00",
+   "sun": "16:00-21:00"
+  },
+  "source": "https://www.timeout.com/boston/restaurants/the-capital-grille-boston",
+  "checked": "2026-10"
+ },
+ "v-the-cheesecake-factory-cambridge": {
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "10:00-22:00"
+  },
+  "source": "https://locations.thecheesecakefactory.com/ma/cambridge-23.html",
+  "checked": "2026-10"
+ },
+ "v-the-citizen-public-house-oyster-bar": {
+  "hours": {
+   "mon": "16:30-01:00",
+   "tue": "16:30-01:00",
+   "wed": "16:30-01:00",
+   "thu": "16:30-02:00",
+   "fri": "16:30-02:00",
+   "sat": "16:30-02:00",
+   "sun": "16:30-23:00"
+  },
+  "source": "https://www.thecitizenboston.com/location/hours-location/",
+  "checked": "2026-10"
+ },
+ "v-the-corner-tavern": {
+  "hours": {
+   "mon": "11:30-02:00",
+   "tue": "11:30-02:00",
+   "wed": "11:30-02:00",
+   "thu": "11:30-02:00",
+   "fri": "11:30-02:00",
+   "sat": "11:30-02:00",
+   "sun": "11:30-02:00"
+  },
+  "source": "https://www.thecornerboston.com",
+  "checked": "2026-10"
+ },
+ "v-the-druid": {
+  "hours": {
+   "mon": "11:00-01:00",
+   "tue": "11:00-01:00",
+   "wed": "11:00-01:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-01:00"
+  },
+  "source": "https://www.timeout.com/boston/bars/the-druid",
+  "checked": "2026-10"
+ },
+ "v-the-dubliner": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-02:00"
+  },
+  "source": "https://www.thedublinerboston.com/",
+  "checked": "2026-10"
+ },
+ "v-the-elephant-walk-south-end": {
+  "hours": {
+   "mon": "16:00-21:00",
+   "tue": "16:00-21:00",
+   "wed": "16:00-21:00",
+   "thu": "16:00-21:00",
+   "fri": "16:00-22:00",
+   "sat": "16:00-22:00",
+   "sun": "12:00-21:00"
+  },
+  "source": "https://www.elephantwalk.com/",
+  "checked": "2026-10"
+ },
+ "v-the-green-dragon-tavern": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://www.greendragonboston.com/",
+  "checked": "2026-10"
+ },
+ "v-the-harp": {
+  "hours": {
+   "mon": "17:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "17:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "12:00-00:00"
+  },
+  "source": "https://www.harpboston.com/location/the-harp-boston/",
+  "checked": "2026-10"
+ },
+ "v-the-hill-tavern": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://thehilltavernboston.com/",
+  "checked": "2026-10"
+ },
+ "v-the-hourly-oyster-house": {
+  "hours": {
+   "mon": "11:00-23:00",
+   "tue": "11:00-23:00",
+   "wed": "11:00-23:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-23:00"
+  },
+  "source": "https://www.thehourlycambridge.com/",
+  "checked": "2026-10"
+ },
+ "v-the-independent": {
+  "hours": {
+   "mon": "15:00-01:00",
+   "tue": "15:00-01:00",
+   "wed": "15:00-01:00",
+   "thu": "15:00-01:00",
+   "fri": "15:00-01:00",
+   "sat": "15:00-01:00",
+   "sun": "11:00-01:00"
+  },
+  "source": "https://theindo.com/",
+  "checked": "2026-10"
+ },
+ "v-the-jungle": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-01:00",
+   "wed": "17:00-01:00",
+   "thu": "19:30-01:00",
+   "fri": "17:00-01:00",
+   "sat": "15:30-01:00",
+   "sun": "16:30-01:00"
+  },
+  "source": "https://www.thejunglemusicclub.com/",
+  "checked": "2026-10"
+ },
+ "v-the-kenmore": {
+  "hours": {
+   "mon": "11:00-01:00",
+   "tue": "11:00-01:00",
+   "wed": "11:00-01:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "10:00-01:00"
+  },
+  "source": "https://www.thekenmorebar.com/location/the-kenmore/",
+  "checked": "2026-10"
+ },
+ "v-the-lansdowne-pub": {
+  "hours": {
+   "mon": "16:00-02:00",
+   "tue": "16:00-02:00",
+   "wed": "16:00-02:00",
+   "thu": "16:00-02:00",
+   "fri": "16:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "16:00-02:00"
+  },
+  "source": "https://www.lansdownepubboston.com",
+  "checked": "2026-10"
+ },
+ "v-the-lexington": {
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-23:00",
+   "sat": "16:00-23:00",
+   "sun": "closed"
+  },
+  "source": "https://opentable.com/r/the-lexington-cambridge",
+  "checked": "2026-10"
+ },
+ "v-the-mad-monkfish-formerly-thelonious-monkfish": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-01:00",
+   "sat": "11:30-01:00",
+   "sun": "12:00-22:00"
+  },
+  "source": "http://www.themadmonkfish.com/location/the-mad-monkfish/",
+  "checked": "2026-10"
+ },
+ "v-the-maharaja": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "12:00-23:00",
+   "sat": "12:00-23:00",
+   "sun": "12:00-22:00"
+  },
+  "source": "https://maharajaboston.com/location-hours/",
+  "checked": "2026-10"
+ },
+ "v-the-middle-east": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-01:00",
+   "wed": "17:00-01:00",
+   "thu": "17:00-02:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "17:00-01:00"
+  },
+  "source": "https://www.mideastclub.com",
+  "checked": "2026-10"
+ },
+ "v-the-mission-bar-grill": {
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "09:00-02:00",
+   "sun": "09:00-02:00"
+  },
+  "source": "https://www.themissionbar.com/location/the-mission-bar-and-grill/",
+  "checked": "2026-10"
+ },
+ "v-the-muddy-charles-pub": {
+  "hours": {
+   "mon": "15:30-21:30",
+   "tue": "15:30-21:30",
+   "wed": "15:30-21:30",
+   "thu": "15:30-21:30",
+   "fri": "12:30-21:30",
+   "sat": "closed",
+   "sun": "closed"
+  },
+  "source": "https://muddy.mit.edu",
+  "checked": "2026-10"
+ },
+ "v-the-painted-burro": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-23:00",
+   "sat": "10:00-23:00",
+   "sun": "10:00-22:00"
+  },
+  "source": "https://www.thepaintedburro.com/location/painted-burro-harvard-square/",
+  "checked": "2026-10"
+ },
+ "v-the-paramount-beacon-hill": {
+  "hours": {
+   "mon": "07:00-22:00",
+   "tue": "07:00-22:00",
+   "wed": "07:00-22:00",
+   "thu": "07:00-22:00",
+   "fri": "07:00-22:00",
+   "sat": "08:00-22:00",
+   "sun": "08:00-22:00"
+  },
+  "source": "https://www.timeout.com/boston/restaurants/the-paramount-beacon-hill",
+  "checked": "2026-10"
+ },
+ "v-the-phoenix-landing": {
+  "hours": {
+   "mon": "17:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://www.thephoenixlanding.com",
+  "checked": "2026-10"
+ },
+ "v-the-plough-and-stars": {
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-01:00",
+   "wed": "11:30-01:00",
+   "thu": "11:30-02:00",
+   "fri": "11:30-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-00:00"
+  },
+  "source": "https://www.ploughandstars.com/contact",
+  "checked": "2026-10"
+ },
+ "v-the-point": {
+  "hours": {
+   "mon": "11:00-23:30",
+   "tue": "11:00-23:30",
+   "wed": "11:00-23:30",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-00:00"
+  },
+  "source": "https://thepointboston.com/location/the-point/",
+  "checked": "2026-10"
+ },
+ "v-the-salty-pig": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:30",
+   "sat": "11:30-22:30",
+   "sun": "11:30-22:00"
+  },
+  "source": "https://www.thesaltypig.com/location-hours",
+  "checked": "2026-10"
+ },
+ "v-the-sevens-ale-house": {
+  "hours": {
+   "mon": "11:30-01:00",
+   "tue": "11:30-01:00",
+   "wed": "11:30-01:00",
+   "thu": "11:30-01:00",
+   "fri": "11:30-01:00",
+   "sat": "11:30-01:00",
+   "sun": "12:00-01:00"
+  },
+  "source": "https://www.timeout.com/boston/bars/sevens-ale-house",
+  "checked": "2026-10"
+ },
+ "v-the-shawmut-inn": {
+  "hours": {
+   "mon": "16:30-23:00",
+   "tue": "16:30-23:00",
+   "wed": "16:30-23:00",
+   "thu": "16:30-23:00",
+   "fri": "16:30-23:00",
+   "sat": "16:30-23:00",
+   "sun": "16:30-23:00"
+  },
+  "source": "https://www.shawmutinn.com",
+  "checked": "2026-10"
+ },
+ "v-the-smoke-shop-bbq-harvard-square": {
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-21:00",
+   "wed": "11:30-21:00",
+   "thu": "11:30-21:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-21:00"
+  },
+  "source": "https://thesmokeshopbbq.com/harvard-square/",
+  "checked": "2026-10"
+ },
+ "v-the-tam": {
+  "hours": {
+   "mon": "10:00-02:00",
+   "tue": "10:00-02:00",
+   "wed": "10:00-02:00",
+   "thu": "10:00-02:00",
+   "fri": "10:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "source": "https://www.thetamboston.com/location/the-tam/",
+  "checked": "2026-10"
+ },
+ "v-the-westland": {
+  "hours": {
+   "mon": "closed",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "11:00-00:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-00:00"
+  },
+  "source": "https://www.westlandboston.com/location/the-westland/",
+  "checked": "2026-10"
+ },
+ "v-thirsty-ear-pub": {
+  "hours": {
+   "mon": "closed",
+   "tue": "19:00-22:00",
+   "wed": "closed",
+   "thu": "19:00-22:00",
+   "fri": "closed",
+   "sat": "closed",
+   "sun": "closed"
+  },
+  "source": "https://thirsty-ear.mit.edu/",
+  "checked": "2026-10"
+ },
+ "v-time-out-market-boston-bars": {
+  "hours": {
+   "mon": "08:30-22:00",
+   "tue": "08:30-22:00",
+   "wed": "08:30-22:00",
+   "thu": "08:30-22:00",
+   "fri": "08:30-23:00",
+   "sat": "09:00-23:00",
+   "sun": "09:00-22:00"
+  },
+  "source": "https://www.timeout.com/time-out-market-boston",
+  "checked": "2026-10"
+ },
+ "v-tip-tap-room": {
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-00:00",
+   "sat": "10:30-00:00",
+   "sun": "10:30-22:00"
+  },
+  "source": "https://thetiptaproom.com/",
+  "checked": "2026-10"
+ },
+ "v-toro": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "11:00-15:00,17:00-22:00"
+  },
+  "source": "https://www.toro-restaurant.com/hours-location-index",
+  "checked": "2026-10"
+ },
+ "v-toscano-harvard-square": {
+  "hours": {
+   "mon": "11:30-21:30",
+   "tue": "11:30-21:30",
+   "wed": "11:30-21:30",
+   "thu": "11:30-21:30",
+   "fri": "11:30-21:30",
+   "sat": "11:30-21:30",
+   "sun": "11:30-21:30"
+  },
+  "source": "https://www.toscanoboston.com/",
+  "checked": "2026-10"
+ },
+ "v-trident-booksellers-cafe": {
+  "hours": {
+   "mon": "08:00-22:00",
+   "tue": "08:00-22:00",
+   "wed": "08:00-22:00",
+   "thu": "08:00-22:00",
+   "fri": "08:00-22:00",
+   "sat": "08:00-22:00",
+   "sun": "08:00-22:00"
+  },
+  "source": "https://www.opentable.co.th/r/trident-booksellers-and-cafe-boston-2",
+  "checked": "2026-10"
+ },
+ "v-trillium-fenway": {
+  "hours": {
+   "mon": "closed",
+   "tue": "12:00-22:00",
+   "wed": "12:00-22:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-22:00"
+  },
+  "source": "https://www.trilliumbrewing.com/pages/fenway",
+  "checked": "2026-10"
+ },
+ "v-trina-s-starlite-lounge": {
+  "hours": {
+   "mon": "17:00-01:00",
+   "tue": "17:00-01:00",
+   "wed": "17:00-01:00",
+   "thu": "17:00-01:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "11:00-01:00"
+  },
+  "source": "https://trinastarlite.com/",
+  "checked": "2026-10"
+ },
+ "v-troquet-on-south": {
+  "hours": {
+   "mon": "closed",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "16:00-22:00",
+   "sun": "closed"
+  },
+  "source": "https://www.troquetboston.com/",
+  "checked": "2026-10"
+ },
+ "v-uptown-social": {
+  "hours": {
+   "mon": "closed",
+   "tue": "closed",
+   "wed": "closed",
+   "thu": "17:00-00:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "17:00-00:00"
+  },
+  "source": "https://uptownsocialboston.com",
+  "checked": "2026-10"
+ },
+ "v-urban-hearth": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "17:00-23:00"
+  },
+  "source": "https://www.urbanhearth.net/",
+  "checked": "2026-10"
+ },
+ "v-vera-s": {
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-00:00",
+   "wed": "17:00-00:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "17:00-00:00"
+  },
+  "source": "https://verasunionsquare.com/",
+  "checked": "2026-10"
+ },
+ "v-versus": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-01:00",
+   "sat": "15:00-01:00",
+   "sun": "15:00-23:00"
+  },
+  "source": "https://www.versusboston.com/",
+  "checked": "2026-10"
+ },
+ "v-viale": {
+  "hours": {
+   "mon": "17:00-21:00",
+   "tue": "17:00-21:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-22:00",
+   "fri": "16:00-22:00",
+   "sat": "10:30-14:30,17:00-22:00",
+   "sun": "10:30-14:30,17:00-21:00"
+  },
+  "source": "https://www.vialecambridge.com",
+  "checked": "2026-10"
+ },
+ "v-wally-s-cafe-jazz-club": {
+  "hours": {
+   "mon": "21:00-00:00",
+   "tue": "19:00-00:00",
+   "wed": "19:00-00:00",
+   "thu": "19:00-00:00",
+   "fri": "19:00-00:00",
+   "sat": "19:00-00:00",
+   "sun": "21:00-00:00"
+  },
+  "source": "https://wallyscafe.com/",
+  "checked": "2026-10"
+ },
+ "v-warren-tavern": {
+  "hours": {
+   "mon": "11:00-01:00",
+   "tue": "11:00-01:00",
+   "wed": "11:00-01:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-01:00"
+  },
+  "source": "https://www.warrentavern.com/",
+  "checked": "2026-10"
+ },
+ "v-waypoint": {
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "17:00-22:00",
+   "sun": "17:00-22:00"
+  },
+  "source": "https://www.waypointharvard.com",
+  "checked": "2026-10"
+ },
+ "v-wig-shop": {
+  "hours": {
+   "mon": "17:00-02:00",
+   "tue": "17:00-02:00",
+   "wed": "17:00-02:00",
+   "thu": "17:00-02:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "17:00-02:00"
+  },
+  "source": "https://www.wigshopboston.com/",
+  "checked": "2026-10"
+ },
+ "v-wusong-road": {
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "15:00-23:00",
+   "wed": "15:00-23:00",
+   "thu": "12:00-00:00",
+   "fri": "12:00-00:00",
+   "sat": "12:00-00:00",
+   "sun": "12:00-23:00"
+  },
+  "source": "https://www.wusongroad.com/",
+  "checked": "2026-10"
+ },
+ "v-yellow-door-taqueria-south-end": {
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-22:00"
+  },
+  "source": "https://www.yellowdoortaqueria.com/location/yellow-door-taqueria-south-end/",
+  "checked": "2026-10"
+ },
+ "v-yvonne-s": {
+  "hours": {
+   "mon": "17:00-01:00",
+   "tue": "17:00-01:00",
+   "wed": "17:00-01:00",
+   "thu": "17:00-01:00",
+   "fri": "16:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "17:00-01:00"
+  },
+  "source": "https://www.yvonnesboston.com/location/yvonnes-boston/",
+  "checked": "2026-10"
+ },
+ "v-zaftigs-delicatessen": {
+  "hours": {
+   "mon": "10:00-20:00",
+   "tue": "10:00-20:00",
+   "wed": "10:00-20:00",
+   "thu": "10:00-20:00",
+   "fri": "10:00-21:00",
+   "sat": "10:00-21:00",
+   "sun": "10:00-20:00"
+  },
+  "source": "http://www.zaftigs.com/locations.html",
+  "checked": "2026-10"
+ }
+}

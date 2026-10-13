@@ -1,0 +1,16 @@
+{
+ "venueId": "v-cask-n-flagon",
+ "hours": {
+  "mon": "11:30-00:00",
+  "tue": "11:30-00:00",
+  "wed": "11:30-00:00",
+  "thu": "11:30-00:00",
+  "fri": "11:00-02:00",
+  "sat": "11:00-02:00",
+  "sun": "11:30-00:00"
+ },
+ "source": "https://casknflagon.com/locations/boston/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

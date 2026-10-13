@@ -1,0 +1,12 @@
+{
+ "name": "Hub Pub",
+ "type": "bar",
+ "address": "18 Province Street, Boston",
+ "lat": 42.357172,
+ "lng": -71.059657,
+ "website": "https://thehubpub.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

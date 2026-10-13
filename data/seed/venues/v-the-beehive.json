@@ -1,0 +1,12 @@
+{
+ "name": "The Beehive",
+ "type": "restaurant",
+ "address": "541 Tremont St, Boston, MA 02116",
+ "lat": 42.344373,
+ "lng": -71.071381,
+ "website": "https://www.beehiveboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

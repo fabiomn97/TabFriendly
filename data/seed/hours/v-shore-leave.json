@@ -1,0 +1,16 @@
+{
+ "venueId": "v-shore-leave",
+ "hours": {
+  "mon": "closed",
+  "tue": "17:00-00:00",
+  "wed": "17:00-00:00",
+  "thu": "17:00-01:00",
+  "fri": "17:00-01:00",
+  "sat": "17:00-01:00",
+  "sun": "closed"
+ },
+ "source": "https://www.shoreleaveboston.com/location/shore-leave/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

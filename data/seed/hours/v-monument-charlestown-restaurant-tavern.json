@@ -1,0 +1,16 @@
+{
+ "venueId": "v-monument-charlestown-restaurant-tavern",
+ "hours": {
+  "mon": "11:30-23:00",
+  "tue": "11:30-23:00",
+  "wed": "11:30-23:00",
+  "thu": "11:30-23:00",
+  "fri": "11:30-24:00",
+  "sat": "09:00-24:00",
+  "sun": "09:00-23:00"
+ },
+ "source": "https://www.monumentcharlestown.com/menu",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

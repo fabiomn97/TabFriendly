@@ -1,0 +1,16 @@
+{
+ "venueId": "v-the-citizen-public-house-oyster-bar",
+ "hours": {
+  "mon": "16:30-01:00",
+  "tue": "16:30-01:00",
+  "wed": "16:30-01:00",
+  "thu": "16:30-02:00",
+  "fri": "16:30-02:00",
+  "sat": "16:30-02:00",
+  "sun": "16:30-23:00"
+ },
+ "source": "https://www.thecitizenboston.com/location/hours-location/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

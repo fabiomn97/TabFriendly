@@ -1,0 +1,12 @@
+{
+ "name": "Bar Enza",
+ "type": "restaurant",
+ "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+ "lat": 42.372228,
+ "lng": -71.122953,
+ "website": "https://www.bar-enza.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

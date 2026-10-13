@@ -1,0 +1,14 @@
+{
+ "venueId": "v-shore-leave",
+ "kind": "beer",
+ "drink": "Red Stripe Lager",
+ "price": 4.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://media-cdn.getbento.com/accounts/e7da1c737c9a24de6559bc50108468ca/media/tWB4v6kJRNnEsBTDyYvQ_9.29.26%20Scare-compressed.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

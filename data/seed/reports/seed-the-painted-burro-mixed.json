@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-painted-burro",
+ "kind": "mixed",
+ "drink": "De La Casa Margarita",
+ "price": 14.5,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.thepaintedburro.com/harvard-square-menus/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

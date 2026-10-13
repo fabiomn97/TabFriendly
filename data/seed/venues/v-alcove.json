@@ -1,0 +1,12 @@
+{
+ "name": "Alcove",
+ "type": "restaurant",
+ "address": "50 Lovejoy Wharf, Boston, MA",
+ "lat": 42.367098,
+ "lng": -71.059903,
+ "website": "https://alcoveboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

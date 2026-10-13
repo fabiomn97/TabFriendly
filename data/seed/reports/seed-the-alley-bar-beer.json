@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-alley-bar",
+ "kind": "beer",
+ "drink": "PBR (draft)",
+ "price": 4.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://www.thealleybar.com/menu/menu.pdf",
+ "sourceDate": "2020-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

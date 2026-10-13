@@ -1,0 +1,16 @@
+{
+ "venueId": "v-hong-kong-restaurant-the-kong",
+ "hours": {
+  "mon": "closed",
+  "tue": "12:00-20:00",
+  "wed": "12:00-20:00",
+  "thu": "12:00-02:00",
+  "fri": "12:00-02:00",
+  "sat": "12:00-02:00",
+  "sun": "12:00-20:00"
+ },
+ "source": "https://www.hongkongharvard.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

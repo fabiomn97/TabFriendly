@@ -1,0 +1,14 @@
+{
+ "venueId": "v-4th-wall",
+ "kind": "mixed",
+ "drink": "Lychee Martini (all cocktails $16)",
+ "price": 16.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.4thwallboston.com/site/drink-menu.png?v=2026-08-18",
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Al Dente",
+ "type": "restaurant",
+ "address": "109 Salem Street, Boston, MA",
+ "lat": 42.364235,
+ "lng": -71.055462,
+ "website": "https://www.aldenteboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

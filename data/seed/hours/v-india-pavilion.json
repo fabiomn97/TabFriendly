@@ -1,0 +1,16 @@
+{
+ "venueId": "v-india-pavilion",
+ "hours": {
+  "mon": "11:30-22:30",
+  "tue": "11:30-22:30",
+  "wed": "11:30-22:30",
+  "thu": "11:30-22:30",
+  "fri": "11:30-22:30",
+  "sat": "11:30-22:30",
+  "sun": "11:30-22:30"
+ },
+ "source": "https://indiapavilion.co/directions.htm",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

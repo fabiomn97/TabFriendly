@@ -7,7 +7,7 @@ import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "basemap.json")
 # Crop window for water polygons: the Charles River relation spans miles; keep the part near MIT.
-S, W, N, E = 42.315, -71.155, 42.400, -71.030
+S, W, N, E = 42.300, -71.170, 42.416, -71.018
 
 TOL = 0.000035
 osm = json.load(open(os.path.join(HERE, "osm.json"), encoding="utf-8"))

@@ -1,0 +1,12 @@
+{
+ "name": "Wild Rover",
+ "type": "bar",
+ "address": "63 Chatham Street, Boston, MA 02109",
+ "lat": 42.3597,
+ "lng": -71.05545,
+ "website": "https://www.wildroverboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

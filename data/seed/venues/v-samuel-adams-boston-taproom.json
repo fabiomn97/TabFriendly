@@ -1,0 +1,12 @@
+{
+ "name": "Samuel Adams Boston Taproom",
+ "type": "bar",
+ "address": "60 State Street, Boston, MA",
+ "lat": 42.359678,
+ "lng": -71.056579,
+ "website": "https://www.samueladams.com/taprooms/sam-adams-boston-taproom",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

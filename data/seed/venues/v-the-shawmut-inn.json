@@ -1,0 +1,12 @@
+{
+ "name": "The Shawmut Inn",
+ "type": "restaurant",
+ "address": "477 Shawmut Ave, Boston, MA 02118",
+ "lat": 42.338881,
+ "lng": -71.075909,
+ "website": "https://www.shawmutinn.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

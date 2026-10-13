@@ -1,0 +1,12 @@
+{
+ "name": "Toro",
+ "type": "restaurant",
+ "address": "1704 Washington St, Boston, MA 02118",
+ "lat": 42.3371,
+ "lng": -71.0764,
+ "website": "https://www.toro-restaurant.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-bill-s-bar",
+ "hours": {
+  "mon": "closed",
+  "tue": "18:00-22:00",
+  "wed": "18:00-21:00",
+  "thu": "18:00-02:00",
+  "fri": "18:00-02:00",
+  "sat": "18:00-02:00",
+  "sun": "closed"
+ },
+ "source": "https://www.billsbarboston.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

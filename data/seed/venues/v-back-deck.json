@@ -1,0 +1,12 @@
+{
+ "name": "Back Deck",
+ "type": "restaurant",
+ "address": "2 West Street, Boston, MA 02111",
+ "lat": 42.354348,
+ "lng": -71.061823,
+ "website": "https://www.backdeckboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

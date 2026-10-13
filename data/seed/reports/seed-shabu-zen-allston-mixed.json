@@ -1,0 +1,14 @@
+{
+ "venueId": "v-shabu-zen-allston",
+ "kind": "mixed",
+ "drink": "Tokyo Mule (and other $10 cocktails)",
+ "price": 10.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.shabuzen.com/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

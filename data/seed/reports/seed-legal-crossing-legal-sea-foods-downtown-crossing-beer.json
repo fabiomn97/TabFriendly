@@ -1,0 +1,14 @@
+{
+ "venueId": "v-legal-crossing-legal-sea-foods-downtown-crossing",
+ "kind": "beer",
+ "drink": "Budweiser / Bud Light (bottle/can)",
+ "price": 7.5,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.legalseafoods.com/wp-content/uploads/2026/06/Bev-Menu-Downtown-June26.pdf",
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

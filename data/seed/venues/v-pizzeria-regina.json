@@ -1,0 +1,12 @@
+{
+ "name": "Pizzeria Regina",
+ "type": "restaurant",
+ "address": "11 1/2 Thacher Street, Boston, MA",
+ "lat": 42.365404,
+ "lng": -71.056857,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

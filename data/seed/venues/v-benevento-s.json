@@ -1,0 +1,12 @@
+{
+ "name": "Benevento's",
+ "type": "restaurant",
+ "address": "111 Salem Street, Boston",
+ "lat": 42.364298,
+ "lng": -71.05546,
+ "website": "https://beneventosboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

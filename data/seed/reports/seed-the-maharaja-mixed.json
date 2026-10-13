@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-maharaja",
+ "kind": "mixed",
+ "drink": "Rum and Coke (Old Monk)",
+ "price": 13.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://maharajaboston.com/wp-content/uploads/2026/05/Maharaja-Drinks-Menu-2026.pdf",
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

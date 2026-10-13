@@ -1,0 +1,16 @@
+{
+ "venueId": "v-laughing-monk-cafe-mission-hill",
+ "hours": {
+  "mon": "11:00-15:00,17:00-21:30",
+  "tue": "11:00-15:00,17:00-21:30",
+  "wed": "11:00-15:00,17:00-21:30",
+  "thu": "11:00-15:00,17:00-21:30",
+  "fri": "11:00-15:00,17:00-22:00",
+  "sat": "12:00-22:00",
+  "sun": "12:00-21:00"
+ },
+ "source": "https://www.laughingmonkcafe.com/locations/mission-hill",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

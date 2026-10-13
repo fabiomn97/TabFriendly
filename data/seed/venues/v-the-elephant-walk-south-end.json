@@ -1,0 +1,12 @@
+{
+ "name": "The Elephant Walk South End",
+ "type": "restaurant",
+ "address": "South End, Boston, MA",
+ "lat": 42.341178,
+ "lng": -71.070476,
+ "website": "https://www.elephantwalk.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

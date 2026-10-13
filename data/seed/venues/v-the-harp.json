@@ -1,0 +1,12 @@
+{
+ "name": "The Harp",
+ "type": "bar",
+ "address": "85 Causeway Street, Boston, MA",
+ "lat": 42.364582,
+ "lng": -71.062444,
+ "website": "https://www.harpboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

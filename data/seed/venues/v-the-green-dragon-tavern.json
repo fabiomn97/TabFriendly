@@ -1,0 +1,12 @@
+{
+ "name": "The Green Dragon Tavern",
+ "type": "bar",
+ "address": "11 Marshall Street, Boston, MA",
+ "lat": 42.361508,
+ "lng": -71.056862,
+ "website": "https://www.greendragonboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

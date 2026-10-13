@@ -21,6 +21,10 @@ NOTES = {  # shown to users on the venue card
     "Scullers Jazz Club": "Jazz club: usually needs a show ticket.",
     "Over the Charles Rooftop Bar (DoubleTree Suites)": "Seasonal rooftop (about June to October).",
 }
+# Tasty Burger's chain menu lists "PBR Lager $5" under Tallboys with no size; the 19.2 oz in the research was a guess.
+for x in v:
+    if x["name"] == "Tasty Burger Fenway" and x.get("beer"):
+        x["beer"].update({"name": "PBR Lager (tallboy can)", "oz": None})
 for x in v:
     for old, new in RENAME.items():
         if x["name"].startswith(old):

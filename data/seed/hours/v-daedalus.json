@@ -1,0 +1,16 @@
+{
+ "venueId": "v-daedalus",
+ "hours": {
+  "mon": "17:00-23:00",
+  "tue": "17:00-23:00",
+  "wed": "17:00-23:00",
+  "thu": "17:00-23:30",
+  "fri": "17:00-23:30",
+  "sat": "17:00-23:30",
+  "sun": "closed"
+ },
+ "source": "https://www.daedalusrestaurantcambridge.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

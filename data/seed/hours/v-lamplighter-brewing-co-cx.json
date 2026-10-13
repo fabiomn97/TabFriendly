@@ -1,0 +1,16 @@
+{
+ "venueId": "v-lamplighter-brewing-co-cx",
+ "hours": {
+  "mon": "13:00-22:00",
+  "tue": "13:00-22:00",
+  "wed": "13:00-22:00",
+  "thu": "13:00-00:00",
+  "fri": "12:00-00:00",
+  "sat": "12:00-00:00",
+  "sun": "12:00-22:00"
+ },
+ "source": "https://lamplighterbrewing.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

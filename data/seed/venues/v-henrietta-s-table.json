@@ -1,0 +1,12 @@
+{
+ "name": "Henrietta's Table",
+ "type": "restaurant",
+ "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+ "lat": 42.372281,
+ "lng": -71.123321,
+ "website": "https://www.henriettastable.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

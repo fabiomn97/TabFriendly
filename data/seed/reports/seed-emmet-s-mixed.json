@@ -1,0 +1,14 @@
+{
+ "venueId": "v-emmet-s",
+ "kind": "mixed",
+ "drink": "Irish Coffee",
+ "price": 11.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://www.emmetsirishpubandrestaurant.com/#menu-emmets-boston-section",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

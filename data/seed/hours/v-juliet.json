@@ -1,0 +1,16 @@
+{
+ "venueId": "v-juliet",
+ "hours": {
+  "mon": "09:00-21:00",
+  "tue": "closed",
+  "wed": "17:00-22:00",
+  "thu": "17:00-22:00",
+  "fri": "17:00-23:00",
+  "sat": "17:00-23:00",
+  "sun": "17:00-22:00"
+ },
+ "source": "https://www.julietsomerville.com/wine-bar",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

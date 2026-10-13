@@ -1,0 +1,16 @@
+{
+ "venueId": "v-bootleg-special",
+ "hours": {
+  "mon": "17:00-23:00",
+  "tue": "17:00-23:00",
+  "wed": "17:00-23:00",
+  "thu": "17:00-00:00",
+  "fri": "17:00-02:00",
+  "sat": "16:00-02:00",
+  "sun": "16:00-23:00"
+ },
+ "source": "https://bootlegspecial.com/boston-south-end-bootleg-special-location-and-hours",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

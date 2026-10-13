@@ -1,0 +1,12 @@
+{
+ "name": "Grafton Street Pub & Grill",
+ "type": "bar",
+ "address": "1230 Massachusetts Ave, Cambridge, MA",
+ "lat": 42.371872,
+ "lng": -71.120892,
+ "website": "https://graftonstreetcambridge.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

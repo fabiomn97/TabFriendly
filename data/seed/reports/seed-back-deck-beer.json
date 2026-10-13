@@ -1,0 +1,14 @@
+{
+ "venueId": "v-back-deck",
+ "kind": "beer",
+ "drink": "Narragansett Lager (draft pint)",
+ "price": 7.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.backdeckboston.com/sites/default/files/2026.09%20BD%20beverage%20and%20wine.pdf",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

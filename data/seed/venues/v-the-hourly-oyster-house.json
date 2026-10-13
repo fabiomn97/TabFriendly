@@ -1,0 +1,12 @@
+{
+ "name": "The Hourly Oyster House",
+ "type": "restaurant",
+ "address": "15 Dunster St, Cambridge, MA",
+ "lat": 42.372883,
+ "lng": -71.119099,
+ "website": "https://www.thehourlycambridge.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

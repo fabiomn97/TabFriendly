@@ -1,0 +1,16 @@
+{
+ "venueId": "v-the-sevens-ale-house",
+ "hours": {
+  "mon": "11:30-01:00",
+  "tue": "11:30-01:00",
+  "wed": "11:30-01:00",
+  "thu": "11:30-01:00",
+  "fri": "11:30-01:00",
+  "sat": "11:30-01:00",
+  "sun": "12:00-01:00"
+ },
+ "source": "https://www.timeout.com/boston/bars/sevens-ale-house",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

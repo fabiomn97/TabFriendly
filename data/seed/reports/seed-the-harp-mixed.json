@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-harp",
+ "kind": "mixed",
+ "drink": "Strawberry on Causeway (Tito's, strawberry, lemon, soda) and most other cocktails",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.harpboston.com/the-harp-boston-menu/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

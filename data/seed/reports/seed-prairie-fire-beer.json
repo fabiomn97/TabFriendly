@@ -1,0 +1,14 @@
+{
+ "venueId": "v-prairie-fire",
+ "kind": "beer",
+ "drink": "von Trapp Bohemian Pilsner (draft)",
+ "price": 8.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://prairiefirebrookline.com/menus",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Celeste",
+ "type": "restaurant",
+ "address": "21 Bow St, Somerville, MA 02143",
+ "lat": 42.381329,
+ "lng": -71.09727,
+ "website": "https://www.celesteunionsquare.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

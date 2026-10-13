@@ -1,0 +1,16 @@
+{
+ "venueId": "v-fuji-at-high-street-place",
+ "hours": {
+  "mon": "11:00-20:00",
+  "tue": "11:00-20:00",
+  "wed": "11:00-20:00",
+  "thu": "11:00-22:00",
+  "fri": "11:00-22:00",
+  "sat": "11:00-22:00",
+  "sun": "closed"
+ },
+ "source": "https://www.highstreetplace.com/food-and-beverage/fuji-at-hsp/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

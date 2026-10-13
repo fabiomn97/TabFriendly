@@ -1,0 +1,12 @@
+{
+ "name": "MIDA (South End)",
+ "type": "restaurant",
+ "address": "782 Tremont St, Boston, MA 02118",
+ "lat": 42.339022,
+ "lng": -71.080472,
+ "website": "https://midarestaurant.com/mida-boston",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

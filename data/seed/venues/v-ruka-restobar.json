@@ -1,0 +1,12 @@
+{
+ "name": "RUKA Restobar",
+ "type": "restaurant",
+ "address": "505 Washington Street, Boston, MA 02111",
+ "lat": 42.354488,
+ "lng": -71.061739,
+ "website": "https://www.rukarestobar.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

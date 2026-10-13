@@ -1,0 +1,16 @@
+{
+ "venueId": "v-ruka-restobar",
+ "hours": {
+  "mon": "17:00-23:00",
+  "tue": "17:00-23:00",
+  "wed": "17:00-23:00",
+  "thu": "17:00-23:00",
+  "fri": "17:00-00:00",
+  "sat": "17:00-00:00",
+  "sun": "17:00-23:00"
+ },
+ "source": "https://www.rukarestobar.com/location/hours-locations/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

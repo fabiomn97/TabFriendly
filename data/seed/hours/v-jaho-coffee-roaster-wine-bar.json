@@ -1,0 +1,16 @@
+{
+ "venueId": "v-jaho-coffee-roaster-wine-bar",
+ "hours": {
+  "mon": "06:30-23:00",
+  "tue": "06:30-23:00",
+  "wed": "06:30-23:00",
+  "thu": "06:30-23:00",
+  "fri": "06:30-23:00",
+  "sat": "06:30-23:00",
+  "sun": "06:30-23:00"
+ },
+ "source": "https://www.jaho.com/pages/market-central-central-square",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

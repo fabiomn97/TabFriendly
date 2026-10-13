@@ -1,0 +1,12 @@
+{
+ "name": "The Painted Burro",
+ "type": "restaurant",
+ "address": "32 Church St, Cambridge, MA",
+ "lat": 42.374301,
+ "lng": -71.120248,
+ "website": "https://www.thepaintedburro.com/location/painted-burro-harvard-square/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

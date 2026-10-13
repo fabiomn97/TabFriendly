@@ -19,7 +19,7 @@ with open(os.path.join(ROOT, "data", "venues_review.csv"), "w", newline="", enco
                 "mixed drink", "mixed $", "mixed source", "mixed date", "research notes"])
     for a in sorted(v, key=lambda a: ((a.get("beer") or {}).get("price") or 99, a["name"])):
         b, m = a.get("beer") or {}, a.get("mixed") or {}
-        w.writerow([a["name"], a["area"], dist(a), b.get("name"), b.get("price"), b.get("oz"), b.get("source"),
+        w.writerow([a["name"], a.get("area", ""), dist(a), b.get("name"), b.get("price"), b.get("oz"), b.get("source"),
                     b.get("source_date"), m.get("name"), m.get("price"), m.get("source"), m.get("source_date"),
                     a.get("notes", "")])
 print("wrote data/venues_review.csv")

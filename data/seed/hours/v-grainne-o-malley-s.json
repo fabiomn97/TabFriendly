@@ -1,0 +1,16 @@
+{
+ "venueId": "v-grainne-o-malley-s",
+ "hours": {
+  "mon": "16:00-00:00",
+  "tue": "16:00-00:00",
+  "wed": "16:00-00:00",
+  "thu": "16:00-00:00",
+  "fri": "12:00-02:00",
+  "sat": "14:00-02:00",
+  "sun": "14:00-00:00"
+ },
+ "source": "https://www.omalleystavern.com/contact-us",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

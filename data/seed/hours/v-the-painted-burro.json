@@ -1,0 +1,16 @@
+{
+ "venueId": "v-the-painted-burro",
+ "hours": {
+  "mon": "17:00-22:00",
+  "tue": "17:00-22:00",
+  "wed": "17:00-22:00",
+  "thu": "17:00-22:00",
+  "fri": "17:00-23:00",
+  "sat": "10:00-23:00",
+  "sun": "10:00-22:00"
+ },
+ "source": "https://www.thepaintedburro.com/location/painted-burro-harvard-square/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-fuller-s-bu-pub",
+ "hours": {
+  "mon": "11:30-16:00",
+  "tue": "11:30-23:00",
+  "wed": "11:30-23:00",
+  "thu": "11:30-00:00",
+  "fri": "11:30-00:00",
+  "sat": "closed",
+  "sun": "closed"
+ },
+ "source": "https://www.bu.edu/dining/location/fullersbupub/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

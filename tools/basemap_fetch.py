@@ -1,7 +1,7 @@
 ﻿import json, urllib.request, urllib.parse, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BBOX = "42.3250,-71.1400,42.3920,-71.0450"
+BBOX = "42.3050,-71.1650,42.4120,-71.0220"
 Q = f"""[out:json][timeout:120];
 (
   way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|motorway_link|trunk_link|primary_link|secondary_link|tertiary_link|living_street|pedestrian)$"]({BBOX});

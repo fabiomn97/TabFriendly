@@ -1,0 +1,14 @@
+{
+ "venueId": "v-troquet-on-south",
+ "kind": "beer",
+ "drink": "House Lager (draft)",
+ "price": 6.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.troquetboston.com/s/Lunch-930.pdf",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

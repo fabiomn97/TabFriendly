@@ -1,0 +1,12 @@
+{
+ "name": "Beantown Pub",
+ "type": "bar",
+ "address": "100 Tremont Street, Boston, MA",
+ "lat": 42.357277,
+ "lng": -71.061023,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

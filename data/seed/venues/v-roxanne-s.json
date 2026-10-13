@@ -1,0 +1,12 @@
+{
+ "name": "Roxanne's",
+ "type": "bar",
+ "address": "6B Beacon Street, Boston, MA 02108",
+ "lat": 42.358179,
+ "lng": -71.061531,
+ "website": "https://www.roxannesboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

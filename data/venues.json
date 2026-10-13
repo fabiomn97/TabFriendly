@@ -2319,9 +2319,9 @@
   "lng": -71.0993,
   "website": "https://www.tastyburger.com/",
   "beer": {
-   "name": "PBR (19.2oz tallboy can)",
+   "name": "PBR Lager (tallboy can)",
    "price": 5,
-   "oz": 19.2,
+   "oz": null,
    "source": "https://www.tastyburger.com/menu/menu/",
    "source_date": "unknown"
   },
@@ -3003,5 +3003,3522 @@
   "mixed": null,
   "notes": "Sushi restaurant with a full bar, open per its official site. The drink menu sits behind a ChowNow link, so no prices were found. 1.25 mi.",
   "area": "Southend Copley"
+ },
+ {
+  "name": "The Dubliner",
+  "type": "bar",
+  "address": "2 Center Plaza, Boston, MA",
+  "lat": 42.360303,
+  "lng": -71.060581,
+  "website": "https://www.thedublinerboston.com/",
+  "beer": {
+   "name": "Coors Light / Bud Light / Budweiser / Miller Lite / Michelob Ultra / Coors Banquet (bottle/can)",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.thedublinerboston.com/drink-menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Pink Gin & Tonic (Glendalough Rose Gin)",
+   "price": 14,
+   "source": "https://www.thedublinerboston.com/drink-menu",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-02:00"
+  },
+  "hours_source": "https://www.thedublinerboston.com/",
+  "notes": "Menu images; prices exclude 3% hospitality fee. Cheapest draft $8 (Sam Adams, Harpoon IPA etc.), size not stated. Bottle size assumed standard 12 oz."
+ },
+ {
+  "name": "Better Sorts Social Club",
+  "type": "bar",
+  "address": "90 Tremont Street, Boston, MA (Kimpton Nine Zero)",
+  "lat": 42.357442,
+  "lng": -71.060737,
+  "website": "https://bettersortsboston.com/",
+  "beer": {
+   "name": "Night Shift Whirlpool (also Modelo, Dos Equis, Heineken Silver)",
+   "price": 8,
+   "oz": null,
+   "source": "https://bettersortsboston.com/cjinihr0k4kive73lxht5y98b/attachments/clyejzye87qio0bs3xlzcksjy-bssc-beverage-menu-final-6-27.pdf",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Negroni",
+   "price": 15,
+   "source": "https://bettersortsboston.com/cjinihr0k4kive73lxht5y98b/attachments/clyejzye87qio0bs3xlzcksjy-bssc-beverage-menu-final-6-27.pdf",
+   "source_date": "unknown"
+  },
+  "hours": null,
+  "hours_source": "https://bettersortsboston.com/",
+  "notes": "Hotel bar. Beverage PDF filename says '6-27' (year not stated, likely 2024). Site lists bar hours Mon-Sat only; Sunday dinner/bar hours not listed. Partial hours from site (day marked unknown not listed): mon 17:00-22:30; tue 17:00-22:30; wed 17:00-22:30; thu 17:00-22:30; fri 17:00-00:00; sat 17:00-00:00; sun unknown."
+ },
+ {
+  "name": "VERSUS",
+  "type": "bar",
+  "address": "42 Province Street, Boston, MA",
+  "lat": 42.356864,
+  "lng": -71.059961,
+  "website": "https://www.versusboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-01:00",
+   "sat": "15:00-01:00",
+   "sun": "15:00-23:00"
+  },
+  "hours_source": "https://www.versusboston.com/",
+  "notes": "Arcade bar. Drink menu (https://www.versusboston.com/drink) lists beers (PBR 16oz can etc.) and cocktails but no prices."
+ },
+ {
+  "name": "The Harp",
+  "type": "bar",
+  "address": "85 Causeway Street, Boston, MA",
+  "lat": 42.364582,
+  "lng": -71.062444,
+  "website": "https://www.harpboston.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Strawberry on Causeway (Tito's, strawberry, lemon, soda) and most other cocktails",
+   "price": 15,
+   "source": "https://www.harpboston.com/the-harp-boston-menu/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "17:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "12:00-00:00"
+  },
+  "hours_source": "https://www.harpboston.com/location/the-harp-boston/",
+  "notes": "Hours shown on site are a dated week (Oct 12-18) and appear to vary with TD Garden events. Single beer prices not listed; buckets/pitchers only (Labatt Blue Light pitcher $20; Miller High Life bucket $20, serves two). Has a rotating $5 drink menu (special, excluded)."
+ },
+ {
+  "name": "Emmet's",
+  "type": "bar",
+  "address": "6 Beacon Street, Boston, MA",
+  "lat": 42.358149,
+  "lng": -71.061723,
+  "website": "http://www.emmetsirishpubandrestaurant.com",
+  "beer": {
+   "name": "Narragansett or Miller High Life (bottle)",
+   "price": 6,
+   "oz": 12,
+   "source": "http://www.emmetsirishpubandrestaurant.com/#menu-emmets-boston-section",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Irish Coffee",
+   "price": 11,
+   "source": "http://www.emmetsirishpubandrestaurant.com/#menu-emmets-boston-section",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "hours_source": "http://www.emmetsirishpubandrestaurant.com",
+  "notes": "Menu is images; 3% hospitality fee not included in prices. Cheapest draft $8 (Von Trapp, Allagash, Banner City), size not stated. Classic cocktails (Tullamore DEW) price not shown on menu. Bottle size assumed 12 oz."
+ },
+ {
+  "name": "The Alley Bar",
+  "type": "bar",
+  "address": "14 Pi Alley, Boston, MA",
+  "lat": 42.358109,
+  "lng": -71.058716,
+  "website": "http://www.thealleybar.com",
+  "beer": {
+   "name": "PBR (draft)",
+   "price": 4,
+   "oz": null,
+   "source": "http://www.thealleybar.com/menu/menu.pdf",
+   "source_date": "2020-10"
+  },
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Gay/bear bar. Menu PDF created Oct 2020, so prices likely outdated (Coors Light/Bud Light draft $5, bottles $6). No mixed drinks listed. Website has no hours; OSM says daily 14:00-02:00 (unconfirmed)."
+ },
+ {
+  "name": "Tip Tap Room",
+  "type": "restaurant",
+  "address": "138 Cambridge Street, Boston, MA",
+  "lat": 42.361025,
+  "lng": -71.063968,
+  "website": "https://thetiptaproom.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Irish Coffee (brunch drinks menu)",
+   "price": 17,
+   "source": "https://thetiptaproom.com/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-00:00",
+   "sat": "10:30-00:00",
+   "sun": "10:30-22:00"
+  },
+  "hours_source": "https://thetiptaproom.com/",
+  "notes": "36 taps but beer list/prices not on site. Only priced liquor drink found is Irish Coffee on brunch menu ($17); Sangria $15 is wine-based. Site says Thu-Fri '11:30pm-12am' (typo; interpreted 11:30-00:00). Close to 1.5 mi edge (1.51)."
+ },
+ {
+  "name": "Night Shift Brewing Lovejoy Wharf",
+  "type": "bar",
+  "address": "1 Lovejoy Wharf #101, Boston, MA",
+  "lat": 42.367363,
+  "lng": -71.059407,
+  "website": "https://nightshiftbrewing.com/locations/boston-lovejoy-wharf",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "15:00-21:00",
+   "tue": "15:00-21:00",
+   "wed": "15:00-21:00",
+   "thu": "15:00-21:00",
+   "fri": "11:30-23:00",
+   "sat": "11:30-23:00",
+   "sun": "11:30-20:00"
+  },
+  "hours_source": "https://nightshiftbrewing.com/locations/boston-lovejoy-wharf",
+  "notes": "Brewery taproom/restaurant with cocktails. Drink prices only via Toast online ordering (not readable)."
+ },
+ {
+  "name": "Carrie Nation",
+  "type": "bar",
+  "address": "11 Beacon Street, Boston, MA",
+  "lat": 42.358382,
+  "lng": -71.061713,
+  "website": "http://www.carrienationcocktailclub.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "closed",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "11:00-17:00"
+  },
+  "hours_source": "https://www.carrienationcocktailclub.com/drink",
+  "notes": "Speakeasy cocktail club. Drink page has no prices. Monday not listed on site (assumed closed). Sunday listed as drag brunch 11-5."
+ },
+ {
+  "name": "Banners Kitchen & Tap",
+  "type": "bar",
+  "address": "82 Causeway Street, Boston, MA (Hub on Causeway)",
+  "lat": 42.365576,
+  "lng": -71.061588,
+  "website": "https://www.bannerskitchenandtap.com/",
+  "beer": {
+   "name": "Samuel Adams American Light Lager (draft, 16 oz); also Narragansett 16oz can $7",
+   "price": 7,
+   "oz": 16,
+   "source": "https://www.bannerskitchenandtap.com/menu/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Barker's Espresso Martini",
+   "price": 14,
+   "source": "https://www.bannerskitchenandtap.com/menu/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-23:30",
+   "tue": "11:00-22:30",
+   "wed": "11:00-22:30",
+   "thu": "11:00-23:30",
+   "fri": "11:00-23:30",
+   "sat": "11:00-23:30",
+   "sun": "11:00-23:30"
+  },
+  "hours_source": "https://www.patinagroup.com/banners/",
+  "notes": "Large sports bar under TD Garden. Hours may extend on concert/UFC nights."
+ },
+ {
+  "name": "Hurricane's at the Garden",
+  "type": "bar",
+  "address": "150 Canal Street, Boston, MA",
+  "lat": 42.364842,
+  "lng": -71.060733,
+  "website": "https://www.hurricanesboston.com/",
+  "beer": {
+   "name": "Coors Light or Miller Lite draft (small)",
+   "price": 5,
+   "oz": null,
+   "source": "https://www.hurricanesboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Spicy Mango Margarita / Blueberry Lemonade (most cocktails)",
+   "price": 15,
+   "source": "https://www.hurricanesboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": null,
+  "hours_source": "https://www.hurricanesboston.com/location/hurricanes-at-the-garden-/",
+  "notes": "Draft Coors Light/Miller Lite small $5, large $8 (sizes not stated). Hours are event-driven and listed per dated week (e.g., week of Oct 12 2026: Mon closed, Wed 16:00-00:00, Fri closed, Sat 12:00-02:00, Sun 12:00-00:00), so no regular weekly schedule."
+ },
+ {
+  "name": "Alcove",
+  "type": "restaurant",
+  "address": "50 Lovejoy Wharf, Boston, MA",
+  "lat": 42.367098,
+  "lng": -71.059903,
+  "website": "https://alcoveboston.com/",
+  "beer": {
+   "name": "Bud Light (can/bottle)",
+   "price": 6,
+   "oz": 12,
+   "source": "https://alcoveboston.com/wp-content/uploads/2026/09/ALC_DRINKS_9_2_26.pdf",
+   "source_date": "2026-09"
+  },
+  "mixed": {
+   "name": "Milk Punch (rotating selection)",
+   "price": 10,
+   "source": "https://alcoveboston.com/wp-content/uploads/2026/09/ALC_DRINKS_9_2_26.pdf",
+   "source_date": "2026-09"
+  },
+  "hours": {
+   "mon": "12:00-22:00",
+   "tue": "12:00-22:00",
+   "wed": "12:00-22:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "hours_source": "https://alcoveboston.com/visit/",
+  "notes": "4% kitchen admin fee added. Milk punch is a rotating spirit-based punch; next cheapest cocktail Raspberry Lime Rickey $16."
+ },
+ {
+  "name": "La Famiglia Giorgio's",
+  "type": "restaurant",
+  "address": "112 Salem Street, Boston, MA",
+  "lat": 42.364523,
+  "lng": -71.055593,
+  "website": "https://www.lafamigliagiorgios.com/",
+  "beer": {
+   "name": "Bud Light / Budweiser / Coors Light / Sam Adams / Corona / Stella (house beers)",
+   "price": 5,
+   "oz": null,
+   "source": "https://www.lafamigliagiorgios.com/drinks.html",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "American Mule (Tito's) / Negroni / Margarita / Flirtini",
+   "price": 12,
+   "source": "https://www.lafamigliagiorgios.com/drinks.html",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "16:00-21:00",
+   "tue": "16:00-21:00",
+   "wed": "16:00-21:00",
+   "thu": "16:00-21:00",
+   "fri": "16:00-21:00",
+   "sat": "11:00-21:00",
+   "sun": "11:00-21:00"
+  },
+  "hours_source": "https://www.lafamigliagiorgios.com/hours.html",
+  "notes": "Beer list says '$5 (unless otherwise noted)'; format (bottle vs draft) and size not stated. North End Italian, ~1.97 mi."
+ },
+ {
+  "name": "Parla",
+  "type": "restaurant",
+  "address": "230 Hanover Street, Boston, MA",
+  "lat": 42.363233,
+  "lng": -71.055254,
+  "website": "https://www.parlaboston.com/",
+  "beer": {
+   "name": "Miller High Life bottle ('Pause Button')",
+   "price": 5,
+   "oz": 12,
+   "source": "https://www.parlaboston.com/beerwine",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "16:00-00:00",
+   "sat": "10:00-00:00",
+   "sun": "10:00-00:00"
+  },
+  "hours_source": "https://www.parlaboston.com/beerwine",
+  "notes": "Cocktail bar/restaurant with 'Dungeon Master' dice cocktail list; cocktail prices not in page text. Hours are the stated 'cocktail hours'. Other beers $10 each. Beer menu is an image of unknown date."
+ },
+ {
+  "name": "Neptune Oyster",
+  "type": "restaurant",
+  "address": "63 Salem Street, Boston, MA",
+  "lat": 42.363243,
+  "lng": -71.056003,
+  "website": "https://www.neptuneoyster.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-23:00"
+  },
+  "hours_source": "https://www.neptuneoyster.com/",
+  "notes": "Beer and wine (local craft beers listed without prices). Hours: open 11am daily, raw bar until 10pm weekdays / 11pm weekends (interpreted Sat-Sun as weekend; Friday may be later)."
+ },
+ {
+  "name": "Al Dente",
+  "type": "restaurant",
+  "address": "109 Salem Street, Boston, MA",
+  "lat": 42.364235,
+  "lng": -71.055462,
+  "website": "https://www.aldenteboston.com",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": "https://www.aldenteboston.com",
+  "notes": "Beer list (Coors Light, PBR, etc.), wine, sangria, cordials; no prices online. Site omits Saturday hours (OSM says Fr-Sa 11:30-23:00). Partial hours from site (day marked unknown not listed): mon 11:30-22:00; tue 11:30-23:00; wed 11:30-23:00; thu 11:30-23:00; fri 11:30-23:00; sat unknown; sun 11:30-22:00."
+ },
+ {
+  "name": "Samuel Adams Boston Taproom",
+  "type": "bar",
+  "address": "60 State Street, Boston, MA",
+  "lat": 42.359678,
+  "lng": -71.056579,
+  "website": "https://www.samueladams.com/taprooms/sam-adams-boston-taproom",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-21:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-21:00"
+  },
+  "hours_source": "https://www.samueladams.com/taprooms",
+  "notes": "Brewery taproom above Faneuil Hall. Tap list page is JavaScript-rendered; prices not retrievable."
+ },
+ {
+  "name": "Hong Kong (Faneuil Hall)",
+  "type": "bar",
+  "address": "65 Chatham Street, Boston, MA 02109",
+  "lat": 42.35975,
+  "lng": -71.0554,
+  "website": "https://hongkongboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "closed",
+   "tue": "16:00-02:00",
+   "wed": "16:00-02:00",
+   "thu": "16:00-02:00",
+   "fri": "16:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "16:00-02:00"
+  },
+  "hours_source": "https://hongkongboston.com/drink/",
+  "notes": "Added (not in OSM list). Karaoke/dance bar known for scorpion bowls. Drink page lists drafts (Coors, Narragansett, Miller...) and bottles but no prices. Coordinates approximate; ~1.94 mi."
+ },
+ {
+  "name": "Wild Rover",
+  "type": "bar",
+  "address": "63 Chatham Street, Boston, MA 02109",
+  "lat": 42.3597,
+  "lng": -71.05545,
+  "website": "https://www.wildroverboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Added (not in OSM list). Three-floor Irish bar/nightclub. Only daily specials posted ($1 10oz Labatt Blue Light drafts Mondays, $4 16oz Bud Light Thursdays) - specials, not regular prices. Site says deals run 'Monday through Sunday until 2 a.m.' but no opening times. Coordinates approximate; ~1.94 mi."
+ },
+ {
+  "name": "The Green Dragon Tavern",
+  "type": "bar",
+  "address": "11 Marshall Street, Boston, MA",
+  "lat": 42.361508,
+  "lng": -71.056862,
+  "website": "https://www.greendragonboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "hours_source": "https://www.greendragonboston.com/",
+  "notes": "Drink menu (https://www.greendragonboston.com/drink-menu/) lists drafts, bottles (Bud Light, Miller High Life...) and cocktails without prices."
+ },
+ {
+  "name": "Durty Nelly's",
+  "type": "bar",
+  "address": "108 Blackstone Street, Boston, MA",
+  "lat": 42.361693,
+  "lng": -71.056572,
+  "website": "https://www.durtynellysboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "hours_source": "https://www.durtynellysboston.com/",
+  "notes": "Self-described dive bar in Haymarket. No drink prices online."
+ },
+ {
+  "name": "The Point",
+  "type": "bar",
+  "address": "147 Hanover Street, Boston, MA 02108",
+  "lat": 42.361766,
+  "lng": -71.05696,
+  "website": "https://www.thepointboston.com/",
+  "beer": {
+   "name": "Bud Light (draft)",
+   "price": 6,
+   "oz": null,
+   "source": "https://www.thepointboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Refresher (Tito's, lemonade, lime) / Very Berry Margarita / Royal Mule",
+   "price": 15,
+   "source": "https://www.thepointboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-23:30",
+   "tue": "11:00-23:30",
+   "wed": "11:00-23:30",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-00:00"
+  },
+  "hours_source": "https://thepointboston.com/location/the-point/",
+  "notes": "Draft size not stated. Other drafts $9; bottles/cans $10."
+ },
+ {
+  "name": "MIJA Cantina & Tequila Bar",
+  "type": "bar",
+  "address": "1 South Market Street, Faneuil Hall, Boston, MA",
+  "lat": 42.360304,
+  "lng": -71.055456,
+  "website": "https://www.mijaboston.com",
+  "beer": null,
+  "mixed": {
+   "name": "Mija Painkiller / La Paloma / Mojito / Naughty Naughty (most cocktails)",
+   "price": 17,
+   "source": "https://www.mijaboston.com/menus-3",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-22:00"
+  },
+  "hours_source": "https://www.mijaboston.com",
+  "notes": "Restaurant 11-10 Sun-Thu, 11-11 Fri-Sat; bar open until 2am Fri-Sat. Beer list has no prices online."
+ },
+ {
+  "name": "Sullivan's Tap",
+  "type": "bar",
+  "address": "168 Canal Street, Boston, MA",
+  "lat": 42.365106,
+  "lng": -71.060995,
+  "website": "https://www.sullivanstapboston.com",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "15:00-23:00",
+   "tue": "10:00-23:00",
+   "wed": "10:00-23:00",
+   "thu": "10:00-23:00",
+   "fri": "10:00-00:30",
+   "sat": "10:00-00:30",
+   "sun": "15:00-23:00"
+  },
+  "hours_source": "https://www.sullivanstapboston.com",
+  "notes": "Historic dive/sports bar near TD Garden. Site hours as parsed: Sun-Mon 3pm-11pm, Tue-Thu 10am-11pm, Fri-Sat 10am-12:30am (column layout; Tue-Thu 10am opening looks odd - verify). No drink prices online. OSM says 12:00-01:00."
+ },
+ {
+  "name": "Causeway",
+  "type": "restaurant",
+  "address": "65 Causeway Street, Boston, MA",
+  "lat": 42.364499,
+  "lng": -71.062651,
+  "website": "https://www.causewayboston.com",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "09:00-02:00",
+   "tue": "09:00-02:00",
+   "wed": "09:00-02:00",
+   "thu": "09:00-02:00",
+   "fri": "09:00-02:00",
+   "sat": "09:00-02:00",
+   "sun": "09:00-02:00"
+  },
+  "hours_source": "https://www.causewayboston.com",
+  "notes": "Bar/restaurant (brunch, cocktails, game day). Menus are images; no drink prices found. Address assumed 65 Causeway St."
+ },
+ {
+  "name": "Roxanne's",
+  "type": "bar",
+  "address": "6B Beacon Street, Boston, MA 02108",
+  "lat": 42.358179,
+  "lng": -71.061531,
+  "website": "https://www.roxannesboston.com",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": "https://www.roxannesboston.com",
+  "notes": "21+ cocktail bar; reservations recommended. Site says 'MON-SAT 4pm-Close' (closing time not stated; Sunday presumably closed). No drink prices online."
+ },
+ {
+  "name": "haley.henry",
+  "type": "bar",
+  "address": "45 Province Street, Boston, MA",
+  "lat": 42.357505,
+  "lng": -71.059674,
+  "website": "https://www.haleyhenry.com",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "closed",
+   "tue": "15:00-23:00",
+   "wed": "15:00-23:00",
+   "thu": "15:00-23:00",
+   "fri": "15:00-00:00",
+   "sat": "12:00-00:00",
+   "sun": "closed"
+  },
+  "hours_source": "https://www.haleyhenry.com",
+  "notes": "Natural wine bar (tinned fish); mainly wine, beer/cocktail availability and prices not shown."
+ },
+ {
+  "name": "The Bell in Hand",
+  "type": "bar",
+  "address": "45-55 Union Street, Boston",
+  "lat": 42.361457,
+  "lng": -71.057041,
+  "website": "https://thebellinhand.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:30-00:00",
+   "tue": "11:30-00:00",
+   "wed": "11:30-00:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-02:00",
+   "sat": "11:30-02:00",
+   "sun": "11:30-00:00"
+  },
+  "hours_source": "web search snippet citing thebellinhand.com (site blocks automated access)",
+  "notes": "Historic tavern (1795). Website returns 403 to fetchers; no drink prices found. Hours from a search result summary of the official site - verify. OSM suggests 11:00-02:00 daily."
+ },
+ {
+  "name": "Hub Pub",
+  "type": "bar",
+  "address": "18 Province Street, Boston",
+  "lat": 42.357172,
+  "lng": -71.059657,
+  "website": "https://thehubpub.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Downtown dive-style pub. Website is a JS shell with no content; no prices or confirmed hours. OSM hint: Mo-Sa 11:00-02:00; Su 12:00-02:00 (unconfirmed)."
+ },
+ {
+  "name": "Bostonia Public House",
+  "type": "bar",
+  "address": "131 State Street, Boston, MA",
+  "lat": 42.359154,
+  "lng": -71.054467,
+  "website": "https://www.bostoniapublichouse.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Website blocks automated access (403); no prices or hours retrieved. ~1.99 mi, at edge of band."
+ },
+ {
+  "name": "Sidebar",
+  "type": "bar",
+  "address": "14 Bromfield Street, Boston, MA",
+  "lat": 42.356523,
+  "lng": -71.060014,
+  "website": "https://www.sidebarboston.com",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Website blocks automated access (403). OSM hint: Mo-Sa 11:00-01:00, Su 12:00-01:00 (unconfirmed)."
+ },
+ {
+  "name": "Marliave",
+  "type": "restaurant",
+  "address": "10 Bosworth Street, Boston, MA",
+  "lat": 42.356907,
+  "lng": -71.060242,
+  "website": "https://www.marliave.com",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Historic restaurant with cocktail bar/oyster bar. Website blocks automated access (403); no prices or hours retrieved."
+ },
+ {
+  "name": "21st Amendment",
+  "type": "bar",
+  "address": "150 Bowdoin Street, Boston, MA",
+  "lat": 42.358402,
+  "lng": -71.06265,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Bar near the State House. Former domain (21stboston.com) now hosts unrelated content. Time Out lists daily 11:30am-2am (third-party, unconfirmed). No prices found."
+ },
+ {
+  "name": "Beantown Pub",
+  "type": "bar",
+  "address": "100 Tremont Street, Boston, MA",
+  "lat": 42.357277,
+  "lng": -71.061023,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Pub with pool tables across from Granary Burying Ground. beantownpub.com returns empty page; no prices/hours verified. Address from memory - verify."
+ },
+ {
+  "name": "City Winery",
+  "type": "restaurant",
+  "address": "80 Beverly Street, Boston, MA 02114",
+  "lat": 42.364064,
+  "lng": -71.058667,
+  "website": "https://citywinery.com/boston",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-23:00",
+   "fri": "13:00-23:00",
+   "sat": "10:00-23:00",
+   "sun": "10:00-22:00"
+  },
+  "hours_source": "https://citywinery.com/boston",
+  "notes": "Winery/music venue/restaurant (wine focus; full bar likely). Hours may change around shows. No beer/cocktail prices found."
+ },
+ {
+  "name": "Union Oyster House",
+  "type": "restaurant",
+  "address": "41 Union Street, Boston, MA",
+  "lat": 42.361275,
+  "lng": -71.056953,
+  "website": "https://www.unionoysterhouse.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "America's oldest restaurant; has Union Bar. Hours load via JavaScript widget (not retrievable); old commented-out hours: Sun-Wed 11-20, Thu 11-21, Fri-Sat 11-22. No drink prices online."
+ },
+ {
+  "name": "Mooo.... (XV Beacon)",
+  "type": "restaurant",
+  "address": "15 Beacon Street, Boston",
+  "lat": 42.35829,
+  "lng": -71.061982,
+  "website": "https://mooorestaurant.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Steakhouse in XV Beacon hotel with full bar (site). No drink prices online; hours not listed on homepage."
+ },
+ {
+  "name": "Ruth's Chris Steak House",
+  "type": "restaurant",
+  "address": "45 School Street, Boston",
+  "lat": 42.358091,
+  "lng": -71.059574,
+  "website": "https://www.ruthschris.com/restaurant-locations/boston/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Steakhouse with bar (OSM alcohol=yes). Location page did not load; no prices/hours retrieved."
+ },
+ {
+  "name": "Momosan Morimoto",
+  "type": "restaurant",
+  "address": "80 Causeway Street (Hub Hall), Boston, MA",
+  "lat": 42.365444,
+  "lng": -71.061766,
+  "website": "https://www.hubhallboston.com/momosan-ramen-boston",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Ramen counter in Hub Hall food hall; OSM alcohol=yes. Hub Hall overall hours Mon-Thu 6:00-22:30, Fri 6:00-23:00, Sat 7:00-23:00, Sun 7:00-22:00 (hall, not vendor). No prices retrieved."
+ },
+ {
+  "name": "Mast'",
+  "type": "restaurant",
+  "address": "45 Province Street, Boston, MA",
+  "lat": 42.35711,
+  "lng": -71.060036,
+  "website": "https://www.mastboston.com",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Neapolitan restaurant with bar; site is JS-rendered, no prices/hours retrieved."
+ },
+ {
+  "name": "Massimino's",
+  "type": "restaurant",
+  "address": "207 Endicott Street, Boston",
+  "lat": 42.366524,
+  "lng": -71.057877,
+  "website": "https://massiminosboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "North End Italian; site menus found but no drink prices; hours not retrieved."
+ },
+ {
+  "name": "Lo Conte's Restaurant",
+  "type": "restaurant",
+  "address": "114 Salem Street, Boston",
+  "lat": 42.36463,
+  "lng": -71.055624,
+  "website": "https://locontes.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "North End Italian; site JS-rendered, no data retrieved."
+ },
+ {
+  "name": "Benevento's",
+  "type": "restaurant",
+  "address": "111 Salem Street, Boston",
+  "lat": 42.364298,
+  "lng": -71.05546,
+  "website": "https://beneventosboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "North End Italian; drink list (Coors Light, Bud Light, PBR, sangria, wines) without prices. Site hours incomplete: Tue-Thu 11:00-23:00; Fri and Sun-Mon times missing."
+ },
+ {
+  "name": "Pizzeria Regina",
+  "type": "restaurant",
+  "address": "11 1/2 Thacher Street, Boston, MA",
+  "lat": 42.365404,
+  "lng": -71.056857,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Original North End location; serves beer and wine. OSM hint: Su-Th 11:00-23:30; Fr-Sa 11:00-00:30 (unconfirmed). No prices retrieved."
+ },
+ {
+  "name": "Bricco",
+  "type": "restaurant",
+  "address": "241 Hanover Street, Boston, MA",
+  "lat": 42.363177,
+  "lng": -71.054876,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "North End Italian with bar; no data retrieved."
+ },
+ {
+  "name": "Grotto Restaurant",
+  "type": "restaurant",
+  "address": "37 Bowdoin Street",
+  "lat": 42.359917,
+  "lng": -71.063012,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Beacon Hill Italian restaurant (wine/beer); no data retrieved."
+ },
+ {
+  "name": "Mother Anna's",
+  "type": "restaurant",
+  "address": "211 Hanover Street",
+  "lat": 42.362712,
+  "lng": -71.055328,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "North End Italian; no data retrieved."
+ },
+ {
+  "name": "Wig Shop",
+  "type": "bar",
+  "address": "27 Temple Place, Boston, MA 02111",
+  "lat": 42.355191,
+  "lng": -71.062217,
+  "website": "https://www.wigshopboston.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Battle Cat (cocktail; several cocktails tie at $18)",
+   "price": 18,
+   "source": "https://media-cdn.getbento.com/accounts/f49b99fbd611f6f6555dc1142414558f/media/sj75dVmIQoK7eu1HihwG_Wig%20Shop%20%28Vol.4%29%20-%20Official%20Menu%20%281%29%20%281%29.pdf",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-02:00",
+   "tue": "17:00-02:00",
+   "wed": "17:00-02:00",
+   "thu": "17:00-02:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "17:00-02:00"
+  },
+  "hours_source": "https://www.wigshopboston.com/",
+  "notes": "Cocktail lounge; menu Vol.4 labeled '2026-2027'. No beer listed on menu. Hours from site 'Mon-Sun 5pm-2am'."
+ },
+ {
+  "name": "Yvonne's",
+  "type": "bar",
+  "address": "2 Winter Place, Boston, MA 02108",
+  "lat": 42.3554,
+  "lng": -71.061541,
+  "website": "https://www.yvonnesboston.com/",
+  "beer": {
+   "name": "Miller High Life",
+   "price": 6,
+   "oz": null,
+   "source": "https://www.yvonnesboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Passion Fruit Mule (ties with several $17 cocktails)",
+   "price": 17,
+   "source": "https://www.yvonnesboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-01:00",
+   "tue": "17:00-01:00",
+   "wed": "17:00-01:00",
+   "thu": "17:00-01:00",
+   "fri": "16:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "17:00-01:00"
+  },
+  "hours_source": "https://www.yvonnesboston.com/location/yvonnes-boston/",
+  "notes": "Supper club/lounge; OSM lists as nightclub. Beer size not stated."
+ },
+ {
+  "name": "Shojo",
+  "type": "restaurant",
+  "address": "9A Tyler Street, Boston, MA 02111",
+  "lat": 42.351074,
+  "lng": -71.06074,
+  "website": "https://www.shojoboston.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Toki Highball Draft",
+   "price": 12,
+   "source": "https://www.shojoboston.com/cocktails",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-00:00",
+   "fri": "11:30-00:00",
+   "sat": "11:30-00:00",
+   "sun": "11:30-21:00"
+  },
+  "hours_source": "https://www.shojoboston.com/",
+  "notes": "Asian gastropub/bar in Chinatown. Cocktail page appears shared with Cambridge location (one item marked Cambridge exclusive). Site hours partly ambiguous (a Mon-Sun 11:30-21:00 line also shown); Sunday inferred. OSM had Tu-Th 11:30-23, Fr-Sa 11:30-00, Su-Mo 16-22. No beer prices online."
+ },
+ {
+  "name": "Corner Pub",
+  "type": "bar",
+  "address": "162 Lincoln Street, Boston, MA 02111",
+  "lat": 42.350773,
+  "lng": -71.05839,
+  "website": "https://cornerpubboston.net/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-00:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:30-23:30"
+  },
+  "hours_source": "https://cornerpubboston.net/",
+  "notes": "Leather District pub. Beer and cocktail menus redirect to a Union ordering webclip that did not render prices."
+ },
+ {
+  "name": "Alewives Taproom",
+  "type": "bar",
+  "address": "100 High Street (High Street Place), Boston, MA 02110",
+  "lat": 42.354467,
+  "lng": -71.055676,
+  "website": "https://www.alewivesboston.com/",
+  "beer": {
+   "name": "Narragansett Del's Shandy (can)",
+   "price": 9.5,
+   "oz": 16,
+   "source": "https://www.alewivesboston.com/menu",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "hours": {
+   "mon": "15:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "closed"
+  },
+  "hours_source": "https://www.alewivesboston.com/",
+  "notes": "Beer/cider bar in High Street Place food hall; no liquor. Most drafts also $9.50 (size not stated)."
+ },
+ {
+  "name": "Democracy Brewing",
+  "type": "bar",
+  "address": "35 Temple Place, Boston, MA 02111",
+  "lat": 42.355114,
+  "lng": -71.062062,
+  "website": "https://www.democracybrewing.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "16:00-20:00",
+   "tue": "12:00-21:00",
+   "wed": "12:00-21:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-20:00"
+  },
+  "hours_source": "https://www.democracybrewing.com/locations/downtown",
+  "notes": "Worker-owned brewpub; house beers in 5/16/32 oz pours but prices not listed online. Cocktails (michelada, seltzer drinks) listed without prices."
+ },
+ {
+  "name": "RUKA Restobar",
+  "type": "restaurant",
+  "address": "505 Washington Street, Boston, MA 02111",
+  "lat": 42.354488,
+  "lng": -71.061739,
+  "website": "https://www.rukarestobar.com/",
+  "beer": {
+   "name": "Cusqueña Dorada golden lager",
+   "price": 7,
+   "oz": null,
+   "source": "https://www.rukarestobar.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Kumo Sakura (several cocktails at $17)",
+   "price": 17,
+   "source": "https://www.rukarestobar.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-00:00",
+   "sat": "17:00-00:00",
+   "sun": "17:00-23:00"
+  },
+  "hours_source": "https://www.rukarestobar.com/location/hours-locations/",
+  "notes": "Peruvian-Japanese (Nikkei) restaurant in the Godfrey Hotel. Beer size not stated."
+ },
+ {
+  "name": "Stillwater",
+  "type": "restaurant",
+  "address": "120 Kingston Street, Boston, MA 02111",
+  "lat": 42.352357,
+  "lng": -71.059035,
+  "website": "https://www.stillwaterboston.com/",
+  "beer": {
+   "name": "Miller High Life (bottle/can)",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.stillwaterboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Pretty In Pink (Tito's, coconut, lime, cranberry; several cocktails at $15)",
+   "price": 15,
+   "source": "https://www.stillwaterboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "hours_source": "https://www.stillwaterboston.com/location/stillwater/",
+  "notes": "High Life listed under 'Bottles & Cans' (12 oz assumed as standard bottle/can, not printed). High Noon canned vodka seltzer also $6 if RTDs count."
+ },
+ {
+  "name": "Troquet on South",
+  "type": "restaurant",
+  "address": "107 South Street, Boston, MA 02111",
+  "lat": 42.351,
+  "lng": -71.058,
+  "website": "https://www.troquetboston.com/",
+  "beer": {
+   "name": "House Lager (draft)",
+   "price": 6,
+   "oz": 16,
+   "source": "https://www.troquetboston.com/s/Lunch-930.pdf",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Flower Power Sour (several cocktails at $17)",
+   "price": 17,
+   "source": "https://www.troquetboston.com/s/Lunch-930.pdf",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "closed",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "16:00-22:00",
+   "sun": "closed"
+  },
+  "hours_source": "https://www.troquetboston.com/",
+  "notes": "Not in OSM list; moved from Theatre District to the Leather District (107 South St); coordinates approximate (~1.90 mi). Beer section headed 'beer (16 oz)'. Site says late-night food Tue-Sat thru 23:45, so the bar likely stays open later than 22:00. Includes Offsuit bar. Menu filename suggests 9/30 but no printed date."
+ },
+ {
+  "name": "Fuji at High Street Place",
+  "type": "restaurant",
+  "address": "100 High Street (High Street Place), Boston, MA 02110",
+  "lat": 42.354322,
+  "lng": -71.055735,
+  "website": "https://www.highstreetplace.com/food-and-beverage/fuji-at-hsp/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-20:00",
+   "tue": "11:00-20:00",
+   "wed": "11:00-20:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "closed"
+  },
+  "hours_source": "https://www.highstreetplace.com/food-and-beverage/fuji-at-hsp/",
+  "notes": "Sushi stall in food hall; serves sake, Japanese beers and cocktails per HSP. Menu (highstreetplace.menu/fuji) is JS-only; no prices retrieved. Day order of HSP hours assumed Mon-Sat with Sunday closed."
+ },
+ {
+  "name": "The Tam",
+  "type": "bar",
+  "address": "222 Tremont Street, Boston, MA 02116",
+  "lat": 42.351516,
+  "lng": -71.06462,
+  "website": "https://www.thetamboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "10:00-02:00",
+   "tue": "10:00-02:00",
+   "wed": "10:00-02:00",
+   "thu": "10:00-02:00",
+   "fri": "10:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "hours_source": "https://www.thetamboston.com/location/the-tam/",
+  "notes": "Classic dive bar. Online menu lists draft/bottle beers (PBR, Narragansett, Schlitz, Lone Star, etc.) but no prices."
+ },
+ {
+  "name": "4th Wall",
+  "type": "bar",
+  "address": "228 Tremont Street, Boston, MA 02116",
+  "lat": 42.351353,
+  "lng": -71.064663,
+  "website": "https://www.4thwallboston.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Lychee Martini (all cocktails $16)",
+   "price": 16,
+   "source": "https://www.4thwallboston.com/site/drink-menu.png?v=2026-08-18",
+   "source_date": "2026-08"
+  },
+  "hours": null,
+  "hours_source": null,
+  "notes": "Restaurant & bar; site says open until 2:00 AM, food until 1:30 AM, but opening times not published. Drink menu lists drafts/bottles (PBR, Narragansett, High Life etc.) with no prices. Menu date from image version tag v=2026-08-18."
+ },
+ {
+  "name": "Back Deck",
+  "type": "restaurant",
+  "address": "2 West Street, Boston, MA 02111",
+  "lat": 42.354348,
+  "lng": -71.061823,
+  "website": "https://www.backdeckboston.com/",
+  "beer": {
+   "name": "Narragansett Lager (draft pint)",
+   "price": 7,
+   "oz": 16,
+   "source": "https://www.backdeckboston.com/sites/default/files/2026.09%20BD%20beverage%20and%20wine.pdf",
+   "source_date": "2026-09"
+  },
+  "mixed": {
+   "name": "Cape Cod Fizz (Triple 8 cranberry vodka, elderflower, lime, soda; several at $14)",
+   "price": 14,
+   "source": "https://www.backdeckboston.com/sites/default/files/2026.09%20BD%20beverage%20and%20wine.pdf",
+   "source_date": "2026-09"
+  },
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-21:00",
+   "wed": "11:30-21:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-20:00"
+  },
+  "hours_source": "https://www.backdeckboston.com/?q=menu/beverage-0",
+  "notes": "Grill restaurant. Drafts served in pints (stated). Hours combine lunch/brunch and dinner service; Sat/Sun brunch 11:30-15:00 then dinner from 15:00."
+ },
+ {
+  "name": "Bogie's Place",
+  "type": "restaurant",
+  "address": "25 Temple Place, Boston, MA 02111",
+  "lat": 42.355167,
+  "lng": -71.06224,
+  "website": "https://www.bogiesplace.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Dulce Ahumada (several cocktails at $16)",
+   "price": 16,
+   "source": "https://www.bogiesplace.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-21:00",
+   "tue": "17:00-21:00",
+   "wed": "17:00-21:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "16:00-22:00",
+   "sun": "16:00-21:00"
+  },
+  "hours_source": "https://www.bogiesplace.com/location/bogies-place/",
+  "notes": "Hidden steakhouse entered through the Wig Shop; no beer listed on menu."
+ },
+ {
+  "name": "Estella",
+  "type": "restaurant",
+  "address": "49 Temple Place, Boston, MA 02111",
+  "lat": 42.354945,
+  "lng": -71.061763,
+  "website": "https://www.estellaboston.com/",
+  "beer": {
+   "name": "Budweiser (can/bottle)",
+   "price": 7,
+   "oz": 12,
+   "source": "https://www.estellaboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Tastes Like Candy (vodka cocktail; several at $16)",
+   "price": 16,
+   "source": "https://www.estellaboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "closed",
+   "tue": "closed",
+   "wed": "16:00-23:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "16:00-23:00"
+  },
+  "hours_source": "https://www.estellaboston.com/location/estella/",
+  "notes": "Restaurant/lounge. Blue Moon also $7 (can/bottle). Best value per oz: Sam Adams Seasonal $8 per 20 oz draft."
+ },
+ {
+  "name": "Montien Thai",
+  "type": "restaurant",
+  "address": "63 Stuart Street, Boston, MA 02116",
+  "lat": 42.351211,
+  "lng": -71.064365,
+  "website": "https://www.montienthaiboston.com/",
+  "beer": {
+   "name": "Coors Light (bottle)",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.montienthaiboston.com/s/montienthaidrinkmenu.png",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "hours": {
+   "mon": "11:30-21:30",
+   "tue": "11:30-21:30",
+   "wed": "11:30-21:30",
+   "thu": "11:30-21:30",
+   "fri": "11:30-22:30",
+   "sat": "11:30-22:30",
+   "sun": "16:00-21:30"
+  },
+  "hours_source": "https://www.montienthaiboston.com/",
+  "notes": "Thai restaurant with full bar. Drink menu image lists cocktails (scorpion bowl, mai tai, Siam mule, martinis) without prices. Coors Light in bottled list; 12 oz assumed standard bottle. Site also has a conflicting line '7 days a week 5 PM to 5 AM' (likely template text)."
+ },
+ {
+  "name": "Shabu Zen",
+  "type": "restaurant",
+  "address": "16 Tyler Street, Boston, MA 02111",
+  "lat": 42.350869,
+  "lng": -71.060594,
+  "website": "https://www.shabuzen.com/",
+  "beer": {
+   "name": "Sapporo",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.shabuzen.com/menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktail, e.g. Lemon Drop Martini (glass)",
+   "price": 10,
+   "source": "https://www.shabuzen.com/menu",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-22:30",
+   "tue": "11:00-22:30",
+   "wed": "11:00-22:30",
+   "thu": "11:00-22:30",
+   "fri": "11:00-23:30",
+   "sat": "11:00-23:30",
+   "sun": "11:00-22:30"
+  },
+  "hours_source": "https://www.shabuzen.com/boston-ma-location",
+  "notes": "Hot pot. Menu lists sake and soju only (no hard liquor seen), so the $10 'martinis'/saketinis are likely sake- or soju-based. Menu may be shared with Allston location."
+ },
+ {
+  "name": "Waku Waku Ramen",
+  "type": "restaurant",
+  "address": "Tyler/Beach St area, Chinatown, Boston, MA 02111",
+  "lat": 42.351229,
+  "lng": -71.060429,
+  "website": "https://www.wakuwakuramen.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Ramen shop; serves Sapporo (22 oz) and sake, but no prices on site. OSM hours Mo-Th 11:30-00:00, Fr-Su 11:00-00:00 not confirmed on site."
+ },
+ {
+  "name": "Legal Crossing (Legal Sea Foods Downtown Crossing)",
+  "type": "restaurant",
+  "address": "558 Washington Street, Boston, MA 02111",
+  "lat": 42.353697,
+  "lng": -71.062154,
+  "website": "https://legalseafoods.com/locations/boston-downtown-crossing",
+  "beer": {
+   "name": "Budweiser / Bud Light (bottle/can)",
+   "price": 7.5,
+   "oz": 12,
+   "source": "https://www.legalseafoods.com/wp-content/uploads/2026/06/Bev-Menu-Downtown-June26.pdf",
+   "source_date": "2026-06"
+  },
+  "mixed": {
+   "name": "Bourbon Peach Tea Palmer (Cranberry Coast Cosmo also $13)",
+   "price": 13,
+   "source": "https://www.legalseafoods.com/wp-content/uploads/2026/06/Bev-Menu-Downtown-June26.pdf",
+   "source_date": "2026-06"
+  },
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-22:00"
+  },
+  "hours_source": "https://legalseafoods.com/locations/boston-downtown-crossing",
+  "notes": "Downtown-specific beverage menu (footer 'downtown | june26'). Michelob Ultra also $7.50. Hours from Legal's site as reported in search summary (page renders hours via JS); Time Out lists older late-night hours to 2am. Happy hour excluded."
+ },
+ {
+  "name": "JJ Foley's Bar & Grille",
+  "type": "bar",
+  "address": "21 Kingston Street, Boston, MA 02111",
+  "lat": 42.353753,
+  "lng": -71.059063,
+  "website": "http://www.jjfoleys.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "10:00-02:00",
+   "tue": "10:00-02:00",
+   "wed": "10:00-02:00",
+   "thu": "10:00-02:00",
+   "fri": "10:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "12:00-02:00"
+  },
+  "hours_source": "https://punchdrink.com/venues/j-j-foleys-bar-grille/",
+  "notes": "Historic Irish pub. Own site (GoDaddy, 2013) has no hours or prices; hours from Punch listing (Time Out says 10am-2am daily) - third-party, confirm via Google."
+ },
+ {
+  "name": "Guy Fieri's Boston Kitchen + Bar",
+  "type": "restaurant",
+  "address": "186 Tremont Street, Boston, MA 02116",
+  "lat": 42.351586,
+  "lng": -71.06442,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Full bar (craft beer, cocktails per 2021 press). No official website or menu found; prices and hours unknown."
+ },
+ {
+  "name": "Bar Moxy (Moxy Boston Downtown)",
+  "type": "bar",
+  "address": "240 Tremont Street, Floor 2, Boston, MA 02116",
+  "lat": 42.350902,
+  "lng": -71.064756,
+  "website": "https://www.marriott.com/en-us/hotels/bosox-moxy-boston-downtown/dining/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Hotel bar. Lyons Group listing: Mon-Thu 07:00-23:00, Fri-Sat 07:00-01:00, Sun 07:00-13:00; Marriott: Sun-Thu 07:00-23:00, Fri-Sat 07:00-00:00. Conflicting, so hours left null. No prices found."
+ },
+ {
+  "name": "Bijou",
+  "type": "bar",
+  "address": "51 Stuart Street, Boston, MA 02116",
+  "lat": 42.351191,
+  "lng": -71.064151,
+  "website": "https://www.bijouboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Nightclub/lounge (event nights, bottle service). Site has no drink prices or regular hours."
+ },
+ {
+  "name": "Viva Karaoke & Studios (formerly Limelight)",
+  "type": "bar",
+  "address": "204 Tremont Street, Boston, MA 02116",
+  "lat": 42.3514,
+  "lng": -71.0647,
+  "website": "https://www.vivakaraoke.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Not in OSM list. Karaoke bar with main-stage bar (beer, sake, wine historically). Time Out lists Mon-Fri 16:00-02:00, Sat-Sun 13:00-02:00 (unconfirmed). Coordinates approximate (~1.56 mi). Site is JS-only; no prices."
+ },
+ {
+  "name": "JiangNan",
+  "type": "restaurant",
+  "address": "177 Tremont Street, Boston, MA 02111",
+  "lat": 42.353009,
+  "lng": -71.064208,
+  "website": "https://www.jiangnanboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Chinese restaurant; site lists cocktails and wine ('varies by selection', no prices) and 'open daily from 11:30 AM' without closing times."
+ },
+ {
+  "name": "Sally O'Brien's Bar and Grill",
+  "type": "bar",
+  "address": "335 Somerville Ave, Somerville, MA 02143",
+  "lat": 42.380733,
+  "lng": -71.097932,
+  "website": "https://www.sallyobriensbar.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "15:00-01:00",
+   "tue": "closed",
+   "wed": "15:00-01:00",
+   "thu": "15:00-01:00",
+   "fri": "15:00-01:00",
+   "sat": "12:00-01:00",
+   "sun": "12:00-01:00"
+  },
+  "hours_source": "https://www.sallyobriensbar.com/location/sally-obriens-bar-and-grill/",
+  "notes": "Site lists no drink prices. Tuesday not listed on hours page; homepage says open 'Wednesday - Monday', so Tuesday marked closed."
+ },
+ {
+  "name": "Remnant Brewing (Bow Market)",
+  "type": "bar",
+  "address": "2 Bow Market Way, Somerville, MA 02143",
+  "lat": 42.381161,
+  "lng": -71.097932,
+  "website": "https://www.remnantsomerville.com/",
+  "beer": {
+   "name": "The Fun Police (dunkelweizen, draft)",
+   "price": 9.0,
+   "oz": 16,
+   "source": "https://www.remnantsomerville.com/beer-menu",
+   "source_date": "2026-10"
+  },
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-24:00",
+   "sat": "11:00-24:00",
+   "sun": "11:00-21:00"
+  },
+  "hours_source": "https://www.remnantsomerville.com/visit",
+  "notes": "Taproom opens 9am as cafe; beer service starts 11am, hours given from 11am. Untappd menu updated Oct 2026; 13oz pours from $9 too. Cocktails listed without prices."
+ },
+ {
+  "name": "Aeronaut Brewing Company",
+  "type": "bar",
+  "address": "14 Tyler St, Somerville, MA 02143",
+  "lat": 42.381976,
+  "lng": -71.106238,
+  "website": "https://www.aeronautbrewing.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:30",
+   "wed": "17:00-23:30",
+   "thu": "17:00-24:00",
+   "fri": "12:00-00:30",
+   "sat": "12:00-00:30",
+   "sun": "12:00-22:00"
+  },
+  "hours_source": "https://www.aeronautbrewing.com/visit/somerville/",
+  "notes": "Tap list has no prices online. Mimi's Chuka Diner operates inside the taproom (drinks via Aeronaut bar)."
+ },
+ {
+  "name": "Tavern at the End of the World",
+  "type": "bar",
+  "address": "108 Cambridge St, Charlestown, MA 02129",
+  "lat": 42.382173,
+  "lng": -71.079366,
+  "website": "https://www.tavernattheendoftheworld.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "10:00-02:00",
+   "tue": "10:00-02:00",
+   "wed": "10:00-02:00",
+   "thu": "10:00-02:00",
+   "fri": "10:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-02:00"
+  },
+  "hours_source": "https://www.tavernattheendoftheworld.com/",
+  "notes": "Irish pub, 50+ beers; site lists drinks (Bloody Mary, Irish G&T) but no drink prices. MA last call means drinks served to ~02:00 per site."
+ },
+ {
+  "name": "Monument Charlestown Restaurant & Tavern",
+  "type": "restaurant",
+  "address": "224 Main St, Charlestown, MA 02129",
+  "lat": 42.376882,
+  "lng": -71.065978,
+  "website": "https://www.monumentcharlestown.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:30-23:00",
+   "tue": "11:30-23:00",
+   "wed": "11:30-23:00",
+   "thu": "11:30-23:00",
+   "fri": "11:30-24:00",
+   "sat": "09:00-24:00",
+   "sun": "09:00-23:00"
+  },
+  "hours_source": "https://www.monumentcharlestown.com/menu",
+  "notes": "Hours derived from menu service times (lunch/brunch start to late-night end). Drink list only in PDF/image menus, no prices extracted."
+ },
+ {
+  "name": "Warren Tavern",
+  "type": "bar",
+  "address": "2 Pleasant St, Charlestown, MA 02129",
+  "lat": 42.374186,
+  "lng": -71.063109,
+  "website": "https://www.warrentavern.com/",
+  "beer": {
+   "name": "Bud Light",
+   "price": 5.0,
+   "oz": 16,
+   "source": "https://www.warrentavern.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Planters Punch",
+   "price": 12.0,
+   "source": "https://www.warrentavern.com/menus",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-01:00",
+   "tue": "11:00-01:00",
+   "wed": "11:00-01:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-01:00"
+  },
+  "hours_source": "https://www.warrentavern.com/",
+  "notes": "Menu undated (photos reference April 2026). Blueberry Mule also $12; brunch Michelada $10 is beer-based."
+ },
+ {
+  "name": "Josephine",
+  "type": "restaurant",
+  "address": "515 Somerville Ave, Somerville, MA 02143",
+  "lat": 42.383221,
+  "lng": -71.105581,
+  "website": "https://www.josephinepizza.com/",
+  "beer": {
+   "name": "Peroni Lager",
+   "price": 10.0,
+   "oz": null,
+   "source": "https://www.josephinepizza.com/menu/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Americano (Campari, vermouth, soda)",
+   "price": 14.0,
+   "source": "https://www.josephinepizza.com/menu/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-23:00",
+   "tue": "11:00-23:00",
+   "wed": "11:00-23:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-00:30",
+   "sat": "10:30-14:30,17:00-00:30",
+   "sun": "10:30-14:30,17:00-23:00"
+  },
+  "hours_source": "https://www.josephinepizza.com/hours-and-location/",
+  "notes": "Weekday hours split lunch 11:00-16:45 / dinner 17:00-; merged. Several house cocktails also $14."
+ },
+ {
+  "name": "Blackmoor Bar & Kitchen",
+  "type": "bar",
+  "address": "1 Chelsea St, Charlestown, MA 02129",
+  "lat": 42.37123,
+  "lng": -71.061539,
+  "website": "https://blackmoorbar.com/",
+  "beer": null,
+  "mixed": {
+   "name": "Bloody Mary (brunch cocktail menu)",
+   "price": 13.0,
+   "source": "https://blackmoorbar.com/menu/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-23:00",
+   "tue": "11:00-23:00",
+   "wed": "11:00-23:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-23:00"
+  },
+  "hours_source": "https://blackmoorbar.com/",
+  "notes": "34 rotating drafts (Untappd list updated Oct 2026) but no beer prices posted. All-day hand-crafted cocktails are $15; $13 Bloody Mary/Irish Coffee are on the weekend brunch menu."
+ },
+ {
+  "name": "Tangierino (Boston Cigar Club)",
+  "type": "bar",
+  "address": "83 Main St, Charlestown, MA 02129",
+  "lat": 42.373809,
+  "lng": -71.062657,
+  "website": "https://www.tangierino.com/",
+  "beer": {
+   "name": "Bud Light (bottle)",
+   "price": 8.0,
+   "oz": 12,
+   "source": "https://www.tangierino.com/menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Tangy Lemon Drop",
+   "price": 18.0,
+   "source": "https://www.tangierino.com/menu",
+   "source_date": "unknown"
+  },
+  "hours": null,
+  "hours_source": null,
+  "notes": "Menu now branded 'Boston Cigar Club' cocktails; drafts $8 for 10oz (Sam Adams, Jack's Abby, Guinness). Bottle size assumed standard 12oz. Site lists no hours or address; confirm venue is operating."
+ },
+ {
+  "name": "Prima",
+  "type": "restaurant",
+  "address": "10 City Square, Charlestown, MA 02129",
+  "lat": 42.3722722,
+  "lng": -71.0617366,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "16:00-01:00",
+   "tue": "16:00-01:00",
+   "wed": "16:00-01:00",
+   "thu": "16:00-01:00",
+   "fri": "12:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-01:00"
+  },
+  "hours_source": "OpenTable/AAA listings via web search (no venue site reachable)",
+  "notes": "Italian restaurant with grand bar in former Legal Oysteria space (Legal Oysteria closed). No drink prices found. Hours from third-party listings, not venue site."
+ },
+ {
+  "name": "Ninety Nine Restaurant & Pub (Charlestown)",
+  "type": "restaurant",
+  "address": "31 Austin St, Charlestown, MA 02129",
+  "lat": 42.374893,
+  "lng": -71.067061,
+  "website": "https://www.99restaurants.com/locations/ma/charlestown",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-21:30",
+   "tue": "11:00-21:30",
+   "wed": "11:00-21:30",
+   "thu": "11:00-22:30",
+   "fri": "11:00-22:30",
+   "sat": "11:00-22:30",
+   "sun": "11:00-21:00"
+  },
+  "hours_source": "https://www.99restaurants.com/locations/ma/charlestown",
+  "notes": "Chain pub; menu PDF (Apr 2026) lists 16oz/23oz draft mugs and cocktails but no prices. Thu-Sat bar to 22:30."
+ },
+ {
+  "name": "Celeste",
+  "type": "restaurant",
+  "address": "21 Bow St, Somerville, MA 02143",
+  "lat": 42.381329,
+  "lng": -71.09727,
+  "website": "https://www.celesteunionsquare.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "16:00-21:00"
+  },
+  "hours_source": "https://www.celesteunionsquare.com/",
+  "notes": "Peruvian restaurant with pisco cocktails; online menu image shows food only, no drink prices."
+ },
+ {
+  "name": "Barra",
+  "type": "restaurant",
+  "address": "23A Bow St, Somerville, MA 02143",
+  "lat": 42.381399,
+  "lng": -71.097311,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Mexico City-style bar/restaurant with margaritas and mezcal flights (flights $24 per The Infatuation); no menu prices found. Hours conflict between listings (OpenTable: Tue-Sat 17:00-22:00, Sun 11:00-15:00; rental listing: Wed-Sun evenings), so left null."
+ },
+ {
+  "name": "Ginger Exchange (Somerville)",
+  "type": "restaurant",
+  "address": "22 Highland Ave, Somerville, MA 02143",
+  "lat": 42.384882,
+  "lng": -71.093813,
+  "website": "https://www.gingerexchange.com/somerville/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Pan-Asian restaurant with bar; location page returned a server error so drink list/hours not confirmed. OSM hint: Mo-Th 11:30-22:00; Fr,Sa 11:30-23:00 (unverified, Sunday not given)."
+ },
+ {
+  "name": "Grafton Street Pub & Grill",
+  "type": "bar",
+  "address": "1230 Massachusetts Ave, Cambridge, MA",
+  "lat": 42.371872,
+  "lng": -71.120892,
+  "website": "https://graftonstreetcambridge.com/",
+  "beer": {
+   "name": "Miller High Life (package)",
+   "price": 6,
+   "oz": null,
+   "source": "https://graftonstreetcambridge.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House Bloody Mary (Tito's)",
+   "price": 12,
+   "source": "https://graftonstreetcambridge.com/menus",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-01:00",
+   "fri": "16:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-00:00"
+  },
+  "hours_source": "https://graftonstreetcambridge.com/",
+  "notes": "Bud Light package and Michelob Ultra draft also $6 (draft size not stated). Bloody Mary is on brunch list; cheapest house cocktail $14. OSM address said 59 JFK St; Grafton's street address is 1230 Mass Ave (corner)."
+ },
+ {
+  "name": "The Painted Burro",
+  "type": "restaurant",
+  "address": "32 Church St, Cambridge, MA",
+  "lat": 42.374301,
+  "lng": -71.120248,
+  "website": "https://www.thepaintedburro.com/location/painted-burro-harvard-square/",
+  "beer": {
+   "name": "Night Shift Santilli NE IPA (draft)",
+   "price": 8,
+   "oz": 16,
+   "source": "https://www.thepaintedburro.com/harvard-square-menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "De La Casa Margarita",
+   "price": 14.5,
+   "source": "https://www.thepaintedburro.com/harvard-square-menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-23:00",
+   "sat": "10:00-23:00",
+   "sun": "10:00-22:00"
+  },
+  "hours_source": "https://www.thepaintedburro.com/location/painted-burro-harvard-square/",
+  "notes": "Corona/Tecate/Pacifico 12 oz bottles $8. Weekend: brunch 10-15, bar 15-16, dinner 16-close."
+ },
+ {
+  "name": "Alden & Harlow",
+  "type": "restaurant",
+  "address": "40 Brattle St, Cambridge, MA",
+  "lat": 42.373559,
+  "lng": -71.12139,
+  "website": "https://www.aldenharlow.com/",
+  "beer": {
+   "name": "Grimm 'Light Cone' Pilsner (draft)",
+   "price": 9,
+   "oz": null,
+   "source": "https://www.aldenharlow.com/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "A&H Bloody Mary (brunch)",
+   "price": 13,
+   "source": "https://www.aldenharlow.com/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-00:00",
+   "sat": "10:30-14:30,17:00-00:00",
+   "sun": "10:30-14:30,17:00-23:00"
+  },
+  "hours_source": "https://www.aldenharlow.com/",
+  "notes": "Founders American Porter draft also $9. Cheapest dinner cocktail $15 (Crimson Grove, Thorn & Petal, Mint to Be). Site lists dinner Sun-Wed 5-11 (Monday listed in range)."
+ },
+ {
+  "name": "Source",
+  "type": "restaurant",
+  "address": "27 Church St, Cambridge, MA",
+  "lat": 42.374526,
+  "lng": -71.12003,
+  "website": "https://sourcerestaurants.com/",
+  "beer": {
+   "name": "Narragansett (can)",
+   "price": 5,
+   "oz": null,
+   "source": "https://sourcerestaurants.com/cambridge-harvard-square-source-restaurants-drink-menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Herb Your Enthusiasm (and other $16 cocktails)",
+   "price": 16,
+   "source": "https://sourcerestaurants.com/cambridge-harvard-square-source-restaurants-drink-menu",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "12:00-21:00",
+   "tue": "12:00-21:00",
+   "wed": "12:00-21:00",
+   "thu": "12:00-21:00",
+   "fri": "12:00-14:00,17:00-22:00",
+   "sat": "11:00-15:00,17:00-22:00",
+   "sun": "11:00-15:00,17:00-21:00"
+  },
+  "hours_source": "https://sourcerestaurants.com/",
+  "notes": "Can size not stated. Brunch menu lists Miller High Life $5 and Narragansett $6. Friday hours as posted on site (brunch 12-2, dinner 5-10) look odd; OSM says Fr 12-23."
+ },
+ {
+  "name": "The Smoke Shop BBQ (Harvard Square)",
+  "type": "restaurant",
+  "address": "8 Holyoke St, Cambridge, MA",
+  "lat": 42.372679,
+  "lng": -71.117953,
+  "website": "https://thesmokeshopbbq.com/harvard-square/",
+  "beer": null,
+  "mixed": {
+   "name": "Signature Old Fashioned",
+   "price": 13,
+   "source": "https://thesmokeshopbbq.com/cocktails/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:30-21:00",
+   "tue": "11:30-21:00",
+   "wed": "11:30-21:00",
+   "thu": "11:30-21:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-21:00"
+  },
+  "hours_source": "https://thesmokeshopbbq.com/harvard-square/",
+  "notes": "Beer list is a separate downloadable file not retrievable; beer price unknown. Cocktail list applies to all locations."
+ },
+ {
+  "name": "Bosso Ramen Tavern",
+  "type": "restaurant",
+  "address": "24 Holyoke St, Cambridge, MA",
+  "lat": 42.372168,
+  "lng": -71.118338,
+  "website": "https://www.bossoramentavern.com/",
+  "beer": {
+   "name": "Sapporo",
+   "price": 11,
+   "oz": null,
+   "source": "https://www.bossoramentavern.com/s/Drink-Menu-Letter-Size.pdf",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Whisky Highball (Whale's Wake)",
+   "price": 15,
+   "source": "https://www.bossoramentavern.com/s/Drink-Menu-Letter-Size.pdf",
+   "source_date": "unknown"
+  },
+  "hours": null,
+  "hours_source": null,
+  "notes": "Drink PDF linked from the site's menu page shows the Newbury St (Sushi by Bosso) address in footer; may be shared between both locations. Hours not on site."
+ },
+ {
+  "name": "Gyu-Kaku (Harvard Square)",
+  "type": "restaurant",
+  "address": "16-18 Eliot St, Cambridge, MA",
+  "lat": 42.372034,
+  "lng": -71.121475,
+  "website": "https://www.gyu-kaku.com/cambridge-harvard-square/",
+  "beer": {
+   "name": "Kirin Ichiban draft (mug)",
+   "price": 6.5,
+   "oz": 12,
+   "source": "https://www.gyu-kaku.com/wp-content/uploads/2026/01/brl_hsq_drink2512.pdf",
+   "source_date": "2025-12"
+  },
+  "mixed": {
+   "name": "Strawberry Lemonade Soju",
+   "price": 11,
+   "source": "https://www.gyu-kaku.com/wp-content/uploads/2026/01/brl_hsq_drink2512.pdf",
+   "source_date": "2025-12"
+  },
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-21:30"
+  },
+  "hours_source": "https://www.gyu-kaku.com/cambridge-harvard-square/",
+  "notes": "No hard liquor; cocktails are soju/sake based. Sake cocktails (Lychee Saketini etc.) $10. Hours are last seating. Menu date from file name (2512)."
+ },
+ {
+  "name": "The Maharaja",
+  "type": "restaurant",
+  "address": "57 JFK St, Cambridge, MA",
+  "lat": 42.372171,
+  "lng": -71.120779,
+  "website": "https://maharajaboston.com/",
+  "beer": {
+   "name": "Taj Mahal Indian Lager",
+   "price": 8,
+   "oz": 12,
+   "source": "http://maharajaboston.com/wp-content/uploads/2026/05/Maharaja-Drinks-Menu-2026.pdf",
+   "source_date": "2026-05"
+  },
+  "mixed": {
+   "name": "Rum and Coke (Old Monk)",
+   "price": 13,
+   "source": "http://maharajaboston.com/wp-content/uploads/2026/05/Maharaja-Drinks-Menu-2026.pdf",
+   "source_date": "2026-05"
+  },
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "12:00-23:00",
+   "sat": "12:00-23:00",
+   "sun": "12:00-22:00"
+  },
+  "hours_source": "https://maharajaboston.com/location-hours/",
+  "notes": "Corona/Heineken/Sam Adams 12 oz also $8. Horse's Neck and Classic Martini also $13. Menu titled 'Drinks Menu 2026', uploaded 2026-05."
+ },
+ {
+  "name": "Russell House Tavern",
+  "type": "bar",
+  "address": "14 JFK St, Cambridge, MA",
+  "lat": 42.373145,
+  "lng": -71.119512,
+  "website": "https://www.russellhousecambridge.com/",
+  "beer": {
+   "name": "Bud Light (package)",
+   "price": 6,
+   "oz": null,
+   "source": "https://www.russellhousecambridge.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktails (e.g. Georgia Mule)",
+   "price": 14,
+   "source": "https://www.russellhousecambridge.com/menus",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-00:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-00:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-00:00"
+  },
+  "hours_source": "https://www.russellhousecambridge.com/",
+  "notes": "Cheapest draft Widowmaker Riff City $8 (size not stated); Narragansett package $7. All cocktails $14."
+ },
+ {
+  "name": "Wusong Road",
+  "type": "bar",
+  "address": "112 Mount Auburn St, Cambridge, MA",
+  "lat": 42.372774,
+  "lng": -71.122273,
+  "website": "https://www.wusongroad.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "15:00-23:00",
+   "wed": "15:00-23:00",
+   "thu": "12:00-00:00",
+   "fri": "12:00-00:00",
+   "sat": "12:00-00:00",
+   "sun": "12:00-23:00"
+  },
+  "hours_source": "https://www.wusongroad.com/",
+  "notes": "Tiki bar + restaurant. Hours shown are bar hours (kitchen closes 1 hr earlier). Menu is image-only; no prices readable."
+ },
+ {
+  "name": "Henrietta's Table",
+  "type": "restaurant",
+  "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+  "lat": 42.372281,
+  "lng": -71.123321,
+  "website": "https://www.henriettastable.com/",
+  "beer": {
+   "name": "Bud Light (can/bottle)",
+   "price": 8,
+   "oz": null,
+   "source": "https://www.henriettastable.com/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "HT Greyhound",
+   "price": 15,
+   "source": "https://www.henriettastable.com/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "07:00-21:00",
+   "tue": "07:00-21:00",
+   "wed": "07:00-21:00",
+   "thu": "07:00-21:00",
+   "fri": "07:00-21:00",
+   "sat": "07:00-21:00",
+   "sun": "07:00-21:00"
+  },
+  "hours_source": "https://www.henriettastable.com/",
+  "notes": "Hours are full service day (breakfast 7-11, lunch/brunch, mid-day, supper 5-9); bar service hours not stated separately."
+ },
+ {
+  "name": "Harvest",
+  "type": "restaurant",
+  "address": "44 Brattle St, Cambridge, MA",
+  "lat": 42.373768,
+  "lng": -71.121829,
+  "website": "https://www.harvestcambridge.com/",
+  "beer": {
+   "name": "Samuel Adams Light Lager (bottle/can)",
+   "price": 7,
+   "oz": null,
+   "source": "https://www.harvestcambridge.com/s/Harvest-Beverage-List-64-Update.pdf",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Daily Buzz",
+   "price": 17,
+   "source": "https://www.harvestcambridge.com/s/Harvest-Beverage-List-64-Update.pdf",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-21:00"
+  },
+  "hours_source": "https://www.harvestcambridge.com/",
+  "notes": "Lunch 11:30-3 weekdays, brunch 11-2:45 weekends, bar midday service 3pm-close, dinner 5-10 (Sun 5-9)."
+ },
+ {
+  "name": "Shays Pub & Wine Bar",
+  "type": "bar",
+  "address": "58 JFK St, Cambridge, MA",
+  "lat": 42.371748,
+  "lng": -71.120649,
+  "website": "https://www.shayspubwinebar.com/",
+  "beer": {
+   "name": "Narragansett / Miller High Life / Miller Lite",
+   "price": 6,
+   "oz": null,
+   "source": "https://www.shayspubwinebar.com/menu",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "12:00-01:00",
+   "fri": "12:00-01:00",
+   "sat": "12:00-01:00",
+   "sun": "12:00-23:00"
+  },
+  "hours_source": "https://www.shayspubwinebar.com/",
+  "notes": "Beer and wine bar; no cocktails found (Time Out says no spirits, though menu has a 'Spirits' tab and a tequila-shot+Narragansett $10 special). Site lists Mon-Wed close as '12:00pm', interpreted as midnight. Domestic pour/container size not stated."
+ },
+ {
+  "name": "Grendel's Den",
+  "type": "bar",
+  "address": "89 Winthrop St, Cambridge, MA",
+  "lat": 42.372422,
+  "lng": -71.120904,
+  "website": "https://www.grendelsden.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:30-01:00",
+   "tue": "11:30-01:00",
+   "wed": "11:30-01:00",
+   "thu": "11:30-01:00",
+   "fri": "11:30-01:00",
+   "sat": "11:30-01:00",
+   "sun": "11:30-01:00"
+  },
+  "hours_source": "https://www.timeout.com/boston/bars/grendels-den",
+  "notes": "Own website blocked by Cloudflare (403); hours from Time Out/Superpages and match OSM, not confirmed on own site. Known for daily 5-7:30pm half-price food with $4 drink purchase (happy hour, not used)."
+ },
+ {
+  "name": "Felipe's Taqueria",
+  "type": "restaurant",
+  "address": "21 Brattle St, Cambridge, MA",
+  "lat": 42.373471,
+  "lng": -71.120511,
+  "website": "https://www.felipesboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-01:00",
+   "tue": "11:00-01:00",
+   "wed": "11:00-01:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-01:00"
+  },
+  "hours_source": "https://www.felipesboston.com/",
+  "notes": "Margaritas (house rocks, frozen, spicy) and rooftop bar; bar menu prices are image-only/not on site. Undated Airbnb tip mentions $7 frozen margaritas (not used)."
+ },
+ {
+  "name": "Nubar",
+  "type": "restaurant",
+  "address": "16 Garden St (Sheraton Commander Hotel), Cambridge, MA",
+  "lat": 42.377181,
+  "lng": -71.122964,
+  "website": "https://www.nubarcambridge.com/",
+  "beer": {
+   "name": "Budweiser / Bud Light / Miller Lite (bottle)",
+   "price": 7,
+   "oz": 12,
+   "source": "https://www.nubarcambridge.com/drinks",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Handcrafted cocktails (e.g. Islander Mai Tai, Coconut Margarita)",
+   "price": 15,
+   "source": "https://www.nubarcambridge.com/drinks",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-14:00,17:00-22:45",
+   "tue": "11:00-14:00,17:00-22:45",
+   "wed": "11:00-14:00,17:00-22:45",
+   "thu": "11:00-14:00,17:00-22:45",
+   "fri": "11:00-14:00,17:00-23:45",
+   "sat": "11:00-14:00,17:00-23:45",
+   "sun": "11:00-14:00,17:00-22:45"
+  },
+  "hours_source": "https://www.nubarcambridge.com/",
+  "notes": "Hotel restaurant. Bar Sun-Thu 5-10:45pm, Fri-Sat 5-11:45pm; lunch/Sunday brunch 11-2 (assumed drinks served). Breakfast 7-10:30 omitted."
+ },
+ {
+  "name": "Toscano (Harvard Square)",
+  "type": "restaurant",
+  "address": "52 Brattle St, Cambridge, MA",
+  "lat": 42.374296,
+  "lng": -71.121965,
+  "website": "https://www.toscanoboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:30-21:30",
+   "tue": "11:30-21:30",
+   "wed": "11:30-21:30",
+   "thu": "11:30-21:30",
+   "fri": "11:30-21:30",
+   "sat": "11:30-21:30",
+   "sun": "11:30-21:30"
+  },
+  "hours_source": "https://www.toscanoboston.com/",
+  "notes": "OSM name 'Toscanni'. Full-service Italian with bar; drink menu PDFs not readable/no prices found."
+ },
+ {
+  "name": "Sloane's",
+  "type": "restaurant",
+  "address": "197 N Harvard St, Allston, MA",
+  "lat": 42.363587,
+  "lng": -71.129498,
+  "website": "https://www.sloanesboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-00:00",
+   "fri": "11:00-00:00",
+   "sat": "10:00-00:00",
+   "sun": "10:00-22:00"
+  },
+  "hours_source": "https://www.sloanesboston.com/location/sloanes-boston/",
+  "notes": "Comfort food + cocktails at Barry's Corner. Cocktail menu page has no readable prices. Site schema.org data says Th-Sa close 23:30 (page text says 12AM)."
+ },
+ {
+  "name": "Carlo's Cucina Italiana",
+  "type": "restaurant",
+  "address": "131 Brighton Ave, Allston, MA",
+  "lat": 42.353066,
+  "lng": -71.131165,
+  "website": "https://carloscucinaitaliana.com/",
+  "beer": {
+   "name": "Budweiser / Bud Light / Miller / Miller Lite",
+   "price": 5,
+   "oz": null,
+   "source": "https://carloscucinaitaliana.com/wine-list/",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Beer and wine only; no cocktails listed. Hours not on website. Container size not stated."
+ },
+ {
+  "name": "Shabu-Zen (Allston)",
+  "type": "restaurant",
+  "address": "80 Brighton Ave, Allston, MA",
+  "lat": 42.352372,
+  "lng": -71.129082,
+  "website": "https://www.shabuzen.com/",
+  "beer": {
+   "name": "Sapporo / Asahi / Tsingtao / Sam Adams",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.shabuzen.com/menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Tokyo Mule (and other $10 cocktails)",
+   "price": 10,
+   "source": "https://www.shabuzen.com/menu",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:30-22:30",
+   "tue": "11:30-22:30",
+   "wed": "11:30-22:30",
+   "thu": "11:30-22:30",
+   "fri": "11:30-23:15",
+   "sat": "11:30-23:15",
+   "sun": "11:30-22:30"
+  },
+  "hours_source": "https://www.shabuzen.com/allston-ma-location",
+  "notes": "Menu shared across Allston and Chinatown locations. Cocktails likely soju/sake-based (sake bomb $7). Hot pot restaurant."
+ },
+ {
+  "name": "Saloniki (Harvard Square)",
+  "type": "restaurant",
+  "address": "24 Dunster St, Cambridge, MA",
+  "lat": 42.372817,
+  "lng": -71.118851,
+  "website": "https://www.salonikigreek.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-21:00",
+   "fri": "11:00-21:00",
+   "sat": "11:00-21:00",
+   "sun": "11:00-21:00"
+  },
+  "hours_source": "https://www.salonikigreek.com/locations",
+  "notes": "Fast-casual Greek; beer and wine offered at the Harvard location per site, no prices listed, no spirits."
+ },
+ {
+  "name": "Noir Bar",
+  "type": "bar",
+  "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+  "lat": 42.37236,
+  "lng": -71.12267,
+  "website": "https://www.noir-bar.com/",
+  "beer": {
+   "name": "Corona Extra",
+   "price": 8,
+   "oz": null,
+   "source": "https://www.noir-bar.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Gin-Gin Mule (also Martinez, Ward Eight)",
+   "price": 14,
+   "source": "https://www.noir-bar.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-01:00",
+   "thu": "16:00-01:00",
+   "fri": "16:00-01:00",
+   "sat": "16:00-01:00",
+   "sun": "17:00-00:00"
+  },
+  "hours_source": "https://www.noir-bar.com/",
+  "notes": "Charles Hotel page says Sun opens 4pm; Noir's own site says Sun 5pm (used). Main cocktail list starts at $16; $14 drinks on 'Spirits & More Cocktails' tab. Corona size not stated."
+ },
+ {
+  "name": "Bar Enza",
+  "type": "restaurant",
+  "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+  "lat": 42.372228,
+  "lng": -71.122953,
+  "website": "https://www.bar-enza.com/",
+  "beer": {
+   "name": "Miller High Life (bottle/can)",
+   "price": 6,
+   "oz": null,
+   "source": "https://www.bar-enza.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Negroni Classico (also other negronis/spritzes)",
+   "price": 15,
+   "source": "https://www.bar-enza.com/menus",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "17:00-22:00",
+   "sun": "closed"
+  },
+  "hours_source": "https://www.bar-enza.com/",
+  "notes": "OSM still names this space 'Benedetto' (Bar Enza replaced it). Charles Hotel page lists Mon-Sat 5-9:30pm. Spritzes $15 are wine-based; Negroni $15 is the spirit option."
+ },
+ {
+  "name": "Regattabar",
+  "type": "bar",
+  "address": "1 Bennett St (The Charles Hotel), Cambridge, MA",
+  "lat": 42.372203,
+  "lng": -71.122894,
+  "website": "https://www.regattabarjazz.com/",
+  "beer": {
+   "name": "Stella Artois / Amstel Light",
+   "price": 9,
+   "oz": null,
+   "source": "https://www.regattabarjazz.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Satin Doll (also Green in Blue)",
+   "price": 15,
+   "source": "https://www.regattabarjazz.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": null,
+  "hours_source": null,
+  "notes": "Jazz club, open only for ticketed shows (cover charge); no regular weekly hours."
+ },
+ {
+  "name": "Longfellow Bar",
+  "type": "bar",
+  "address": "40 Brattle St #3, Cambridge, MA",
+  "lat": 42.373603,
+  "lng": -71.121402,
+  "website": "https://www.aldenharlow.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "17:00-00:00",
+   "tue": "17:00-00:00",
+   "wed": "17:00-00:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-00:00",
+   "sat": "17:00-00:00",
+   "sun": "17:00-00:00"
+  },
+  "hours_source": "https://www.opentable.com/r/longfellow-cambridge",
+  "notes": "Cocktail bar above Alden & Harlow (same owners). Hours from OpenTable listing (dinner daily 5pm-12am); not confirmed on own site. No menu prices found."
+ },
+ {
+  "name": "Club Passim",
+  "type": "bar",
+  "address": "47 Palmer St, Cambridge, MA",
+  "lat": 42.374224,
+  "lng": -71.120013,
+  "website": "https://www.passim.org/",
+  "beer": {
+   "name": "True North draft (pint)",
+   "price": 10,
+   "oz": 16,
+   "source": "https://www.passim.org/live-music/kitchen/",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Folk music venue; beer, wine, cider only (no cocktails). Draft pints $10-11. Kitchen/bar open only during shows (opens at doors), no regular hours; ticketed."
+ },
+ {
+  "name": "The Hourly Oyster House",
+  "type": "restaurant",
+  "address": "15 Dunster St, Cambridge, MA",
+  "lat": 42.372883,
+  "lng": -71.119099,
+  "website": "https://www.thehourlycambridge.com/",
+  "beer": {
+   "name": "Narragansett Lager (draft)",
+   "price": 7,
+   "oz": null,
+   "source": "https://www.thehourlycambridge.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Bee Sharp (also Dark Paradise)",
+   "price": 14,
+   "source": "https://www.thehourlycambridge.com/menus",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:00-23:00",
+   "tue": "11:00-23:00",
+   "wed": "11:00-23:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-23:00"
+  },
+  "hours_source": "https://www.thehourlycambridge.com/",
+  "notes": "Bar 11am-11pm daily, kitchen 11am-10pm. Draft size not stated. Night Shift Nite Lite package also $7. Oyster Shooter $12 not counted (shooter)."
+ },
+ {
+  "name": "Shore Leave",
+  "type": "bar",
+  "address": "11 William E. Mullins Way, Boston, MA 02118",
+  "lat": 42.345422,
+  "lng": -71.064269,
+  "website": "https://www.shoreleaveboston.com/",
+  "beer": {
+   "name": "Red Stripe Lager",
+   "price": 4,
+   "oz": null,
+   "source": "https://media-cdn.getbento.com/accounts/e7da1c737c9a24de6559bc50108468ca/media/tWB4v6kJRNnEsBTDyYvQ_9.29.26%20Scare-compressed.pdf",
+   "source_date": "2026-09"
+  },
+  "mixed": {
+   "name": "House cocktails (e.g. Space Screams: vodka, raspberry, elderflower, lime)",
+   "price": 17,
+   "source": "https://media-cdn.getbento.com/accounts/e7da1c737c9a24de6559bc50108468ca/media/tWB4v6kJRNnEsBTDyYvQ_9.29.26%20Scare-compressed.pdf",
+   "source_date": "2026-09"
+  },
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-00:00",
+   "wed": "17:00-00:00",
+   "thu": "17:00-01:00",
+   "fri": "17:00-01:00",
+   "sat": "17:00-01:00",
+   "sun": "closed"
+  },
+  "hours_source": "https://www.shoreleaveboston.com/location/shore-leave/",
+  "notes": "Menu is the seasonal Halloween 'Scare Leave' version (file dated 9.29.26); Red Stripe size not stated (normally 11.2 oz bottle). All cocktails $17. Bar hours shown; kitchen closes 21:30."
+ },
+ {
+  "name": "Bootleg Special",
+  "type": "restaurant",
+  "address": "400 Tremont St, Boston, MA 02116",
+  "lat": 42.347301,
+  "lng": -71.06839,
+  "website": "https://bootlegspecial.com/",
+  "beer": {
+   "name": "Miller High Life (bottle/can)",
+   "price": 5,
+   "oz": 12,
+   "source": "https://bootlegspecial.com/boston-south-end-bootleg-special-drink-menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "B & S Smash (gin, strawberry, basil, soda) / NOLA Cane",
+   "price": 14,
+   "source": "https://bootlegspecial.com/boston-south-end-bootleg-special-drink-menu",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-23:00",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-00:00",
+   "fri": "17:00-02:00",
+   "sat": "16:00-02:00",
+   "sun": "16:00-23:00"
+  },
+  "hours_source": "https://bootlegspecial.com/boston-south-end-bootleg-special-location-and-hours",
+  "notes": "Bud Light also $5 (size not stated). Address per venue site is 400 Tremont St."
+ },
+ {
+  "name": "Banyan Bar + Refuge",
+  "type": "restaurant",
+  "address": "553 Tremont St, Boston, MA 02116",
+  "lat": 42.344067,
+  "lng": -71.071738,
+  "website": "https://www.banyanboston.com/",
+  "beer": {
+   "name": "Jack's Abby Banner City Light Lager",
+   "price": 7,
+   "oz": 12,
+   "source": "https://www.banyanboston.com/menus?menu=menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktails (Hot Girl Walk, Havana Heat, Little Miss Tang, Golden Girl)",
+   "price": 14,
+   "source": "https://www.banyanboston.com/menus?menu=menu",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-23:00",
+   "sat": "16:00-23:00",
+   "sun": "10:00-22:00"
+  },
+  "hours_source": "https://www.banyanboston.com/",
+  "notes": "Strawberry Sangria (wine-based) $13. Downeast Cider also $7/12oz. Happy hour daily 4-6pm (not used)."
+ },
+ {
+  "name": "Coppa",
+  "type": "restaurant",
+  "address": "253 Shawmut Ave, Boston, MA 02118",
+  "lat": 42.343425,
+  "lng": -71.068634,
+  "website": "https://www.coppaboston.com/",
+  "beer": {
+   "name": "Birra Moretti",
+   "price": 7,
+   "oz": 12,
+   "source": "https://www.coppaboston.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Coppa Paloma / Aperol Spritz",
+   "price": 16,
+   "source": "https://www.coppaboston.com/menus",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "17:00-22:00",
+   "sun": "11:00-15:00,15:30-21:00"
+  },
+  "hours_source": "https://www.coppaboston.com/location",
+  "notes": "OSM also lists Sat-Sun brunch 12-16; venue site lists brunch Sunday only."
+ },
+ {
+  "name": "Metropolis Cafe",
+  "type": "restaurant",
+  "address": "584 Tremont St, Boston, MA 02118",
+  "lat": 42.343238,
+  "lng": -71.072625,
+  "website": "https://www.metropolisboston.com",
+  "beer": {
+   "name": "Von Trapp Dunkel",
+   "price": 10.5,
+   "oz": null,
+   "source": "https://www.metropolisboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Paloma (brunch cocktail)",
+   "price": 15.5,
+   "source": "https://www.metropolisboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-22:00",
+   "sat": "09:00-15:00,17:00-22:00",
+   "sun": "09:00-15:00,17:00-22:00"
+  },
+  "hours_source": "https://www.metropolisboston.com/contact/",
+  "notes": "Cheapest dinner cocktail is Cucumber Spritz $16.50; Paloma $15.50 listed under brunch cocktails."
+ },
+ {
+  "name": "Cathedral Station",
+  "type": "bar",
+  "address": "1222 Washington St, Boston, MA 02118",
+  "lat": 42.342784,
+  "lng": -71.066841,
+  "website": "http://cathedralstation.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "14:00-00:00",
+   "tue": "14:00-00:00",
+   "wed": "14:00-00:00",
+   "thu": "14:00-00:00",
+   "fri": "14:00-02:00",
+   "sat": "11:00-02:00",
+   "sun": "11:00-00:00"
+  },
+  "hours_source": "http://cathedralstation.com/menu-1.html",
+  "notes": "Gay sports bar/neighborhood pub. Website has no drink prices; site footer says copyright 2022 so hours may be dated."
+ },
+ {
+  "name": "Hamilton Restaurant & Bar",
+  "type": "bar",
+  "address": "1366 Beacon St, Brookline, MA 02446",
+  "lat": 42.341859,
+  "lng": -71.123299,
+  "website": "https://hamiltonbrookline.com/",
+  "beer": {
+   "name": "Narragansett Lager (can)",
+   "price": 5,
+   "oz": 16,
+   "source": "https://hamiltonbrookline.com/brookline-coolidge-corner-hamilton-restaurant-and-bar-drink-menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktails (e.g. Rosey Wild Moon Mule, Benjamin Rush margarita)",
+   "price": 15,
+   "source": "https://hamiltonbrookline.com/brookline-coolidge-corner-hamilton-restaurant-and-bar-drink-menu",
+   "source_date": "unknown"
+  },
+  "hours": null,
+  "hours_source": null,
+  "notes": "Also $6 12oz bottles (Bud Light, Coors Light, Miller High Life/Lite). Menu says full liquor & mixers available but no well price listed. Hours not published on website."
+ },
+ {
+  "name": "Grainne O'Malley's",
+  "type": "bar",
+  "address": "201 Harvard St, Brookline, MA 02446",
+  "lat": 42.339766,
+  "lng": -71.12071,
+  "website": "https://www.omalleystavern.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "12:00-02:00",
+   "sat": "14:00-02:00",
+   "sun": "14:00-00:00"
+  },
+  "hours_source": "https://www.omalleystavern.com/contact-us",
+  "notes": "Irish pub. Online menu (dated 4-5-25) has food only, no drink prices. Hours: page lists kitchen hours plus bar closing times (12am Sun-Thu, 2am Fri-Sat); Sunday opens 1pm on Patriots game days."
+ },
+ {
+  "name": "Esmai's",
+  "type": "restaurant",
+  "address": "1306 Beacon St, Brookline, MA 02446",
+  "lat": 42.342574,
+  "lng": -71.120689,
+  "website": "https://esmaisbrookline.com/",
+  "beer": {
+   "name": "Narragansett Tall Boy",
+   "price": 6,
+   "oz": 16,
+   "source": "https://esmaisbrookline.com/drink-menu",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktails (e.g. Bee's Knees, Old Fashioned)",
+   "price": 17,
+   "source": "https://esmaisbrookline.com/drink-menu",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "closed",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "11:00-22:00",
+   "fri": "11:00-00:00",
+   "sat": "10:00-00:00",
+   "sun": "10:00-21:00"
+  },
+  "hours_source": "https://esmaisbrookline.com/ (schema.org openingHours)",
+  "notes": "Rooftop deck, 21+ after 6pm. Monday listed as 00:00-00:00 in site schema, interpreted as closed."
+ },
+ {
+  "name": "Prairie Fire",
+  "type": "restaurant",
+  "address": "242 Harvard St, Brookline, MA 02446",
+  "lat": 42.341284,
+  "lng": -71.12121,
+  "website": "https://prairiefirebrookline.com",
+  "beer": {
+   "name": "von Trapp Bohemian Pilsner (draft)",
+   "price": 8,
+   "oz": 16,
+   "source": "https://prairiefirebrookline.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Jack Rose / Disappearing Act / I'm So Chai",
+   "price": 15,
+   "source": "https://prairiefirebrookline.com/menus",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "16:00-21:00",
+   "tue": "16:00-21:00",
+   "wed": "16:00-21:00",
+   "thu": "16:00-21:00",
+   "fri": "16:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-21:00"
+  },
+  "hours_source": "https://prairiefirebrookline.com/contact",
+  "notes": "Draft sizes stated on menu (16oz). von Trapp Oktoberfest also $8/16oz. Seasonal beer garden."
+ },
+ {
+  "name": "Bar Mezzana",
+  "type": "restaurant",
+  "address": "360 Harrison Ave, Boston, MA 02118",
+  "lat": 42.344587,
+  "lng": -71.063512,
+  "website": "https://www.barmezzana.com/",
+  "beer": {
+   "name": "Miller High Life",
+   "price": 5,
+   "oz": 12,
+   "source": "https://media-cdn.getbento.com/accounts/9e1594ca10a552622fa0d4283e742b5b/media/uknNehRReyghbd4fR8kh_9.17.26%20bev%20for%20web-ocr-compressed%C2%A0%281%29.pdf",
+   "source_date": "2026-09"
+  },
+  "mixed": {
+   "name": "Mezzana Spritz / Improved Spritz",
+   "price": 16,
+   "source": "https://media-cdn.getbento.com/accounts/9e1594ca10a552622fa0d4283e742b5b/media/uknNehRReyghbd4fR8kh_9.17.26%20bev%20for%20web-ocr-compressed%C2%A0%281%29.pdf",
+   "source_date": "2026-09"
+  },
+  "hours": {
+   "mon": "closed",
+   "tue": "17:00-23:00",
+   "wed": "17:00-23:00",
+   "thu": "17:00-23:00",
+   "fri": "17:00-00:00",
+   "sat": "17:00-00:00",
+   "sun": "closed"
+  },
+  "hours_source": "https://www.barmezzana.com/contact/",
+  "notes": "Bar hours shown (dining room closes 22:00 Tue-Thu, 23:00 Fri-Sat). Beverage menu file dated 9.17.26. Cheapest spirit-forward cocktails $16-17."
+ },
+ {
+  "name": "Coolidge Corner Clubhouse",
+  "type": "bar",
+  "address": "307 Harvard St, Brookline, MA 02446",
+  "lat": 42.343292,
+  "lng": -71.122848,
+  "website": "https://www.coolidgecornerclubhouse.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "10:00-02:00",
+   "sun": "10:00-02:00"
+  },
+  "hours_source": "https://www.coolidgecornerclubhouse.com/",
+  "notes": "Sports bar. Drink menu is image-only and not published with prices; matches OSM hours."
+ },
+ {
+  "name": "Lan Feast",
+  "type": "restaurant",
+  "address": "250 Harvard St, Brookline, MA 02446",
+  "lat": 42.341421,
+  "lng": -71.121229,
+  "website": "https://www.lan-feast.com",
+  "beer": {
+   "name": "Corona Extra",
+   "price": 6,
+   "oz": null,
+   "source": "https://www.lan-feast.com/menu.html",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Lan Mojito (white rum) / Pineapple Passion",
+   "price": 13,
+   "source": "https://www.lan-feast.com/menu.html",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:30-15:00,17:00-21:30",
+   "tue": "11:30-15:00,17:00-21:30",
+   "wed": "11:30-15:00,17:00-21:30",
+   "thu": "11:30-15:00,17:00-21:30",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-22:00"
+  },
+  "hours_source": "https://www.lan-feast.com/menu.html",
+  "notes": "Chinese restaurant with full bar. Corona size not stated."
+ },
+ {
+  "name": "Miraku Boston",
+  "type": "restaurant",
+  "address": "9 Babcock St, Brookline, MA 02446",
+  "lat": 42.343617,
+  "lng": -71.122873,
+  "website": "https://www.miraku-usa.com/",
+  "beer": {
+   "name": "Orion The Draft / Echigo Flying IPA / Yuzu Lager",
+   "price": 9,
+   "oz": null,
+   "source": "https://www.miraku-usa.com/menu",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "hours": {
+   "mon": "12:00-15:00,17:00-21:00",
+   "tue": "closed",
+   "wed": "12:00-15:00,17:00-21:00",
+   "thu": "12:00-15:00,17:00-21:00",
+   "fri": "12:00-15:00,17:00-21:00",
+   "sat": "12:00-15:00,17:00-21:00",
+   "sun": "12:00-15:00,17:00-21:00"
+  },
+  "hours_source": "https://www.miraku-usa.com/menu",
+  "notes": "Ramen shop; beer and sake only, no mixed drinks. Site says lunch Wed-Mon 12-3, dinner 5-9 (OSM says no lunch Mon-Thu)."
+ },
+ {
+  "name": "Ganko Ittetsu Ramen",
+  "type": "restaurant",
+  "address": "318 Harvard St Unit 3, Brookline, MA 02446",
+  "lat": 42.343142,
+  "lng": -71.123586,
+  "website": "https://gankoramen.com/",
+  "beer": {
+   "name": "Jack's Abby House Lager / Brooklyn Lager",
+   "price": 6,
+   "oz": null,
+   "source": "https://gankoramen.com/brookline_menu.pdf",
+   "source_date": "unknown"
+  },
+  "mixed": null,
+  "hours": {
+   "mon": "11:30-22:00",
+   "tue": "11:30-22:00",
+   "wed": "11:30-22:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-21:00"
+  },
+  "hours_source": "https://gankoramen.com/",
+  "notes": "Ramen shop; beer and cider only, no mixed drinks."
+ },
+ {
+  "name": "Mecha Noodle Bar",
+  "type": "restaurant",
+  "address": "285 Harvard St, Brookline, MA 02446",
+  "lat": 42.342782,
+  "lng": -71.121952,
+  "website": "https://www.mechanoodlebar.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Full bar (Genesee Cream Ale 16oz draft, Asahi, cocktails) but website menu shows no prices. OSM hours (unconfirmed): Mo-Sa 11:30-22:00, Su 11:30-21:00."
+ },
+ {
+  "name": "Yellow Door Taqueria (South End)",
+  "type": "restaurant",
+  "address": "354 Harrison Ave, Boston, MA 02118",
+  "lat": 42.344864,
+  "lng": -71.06341,
+  "website": "https://www.yellowdoortaqueria.com/",
+  "beer": {
+   "name": "Narragansett Lager (can)",
+   "price": 5,
+   "oz": null,
+   "source": "https://www.yellowdoortaqueria.com/south-end-menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Margarita de la Casa (glass)",
+   "price": 15,
+   "source": "https://www.yellowdoortaqueria.com/south-end-menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-23:00",
+   "fri": "16:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-22:00"
+  },
+  "hours_source": "https://www.yellowdoortaqueria.com/location/yellow-door-taqueria-south-end/",
+  "notes": "Narragansett can size not stated. RosÃ© sangria $14 (wine + vodka); spirit cocktails from $14-15."
+ },
+ {
+  "name": "Penguin Pizza",
+  "type": "restaurant",
+  "address": "735 Huntington Ave, Boston, MA 02115",
+  "lat": 42.334063,
+  "lng": -71.105395,
+  "website": "http://www.thepenguinpizza.com",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-00:00",
+   "tue": "11:00-00:00",
+   "wed": "11:00-00:00",
+   "thu": "11:00-01:00",
+   "fri": "11:00-01:00",
+   "sat": "10:00-01:00",
+   "sun": "10:00-22:00"
+  },
+  "hours_source": "http://www.thepenguinpizza.com/",
+  "notes": "Mission Hill pizza & craft beer spot; website lists no drink prices. Site says Thu-Sat 11am-1am plus Sat-Sun brunch from 10am (Saturday start assumed 10:00)."
+ },
+ {
+  "name": "The Beehive",
+  "type": "restaurant",
+  "address": "541 Tremont St, Boston, MA 02116",
+  "lat": 42.344373,
+  "lng": -71.071381,
+  "website": "https://www.beehiveboston.com/",
+  "beer": {
+   "name": "Miller High Life (bottle/can)",
+   "price": 7.5,
+   "oz": null,
+   "source": "https://www.beehiveboston.com/menu?location=Location+1&menu=drinks",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Tiki Rock / Beehive Sangria",
+   "price": 16,
+   "source": "https://www.beehiveboston.com/menu?location=Location+1&menu=drinks",
+   "source_date": "unknown"
+  },
+  "hours": null,
+  "hours_source": null,
+  "notes": "Live-music bar/restaurant. Hours not shown on website."
+ },
+ {
+  "name": "Otto Pizza (Coolidge Corner)",
+  "type": "restaurant",
+  "address": "289 Harvard St, Brookline, MA 02446",
+  "lat": 42.342891,
+  "lng": -71.122109,
+  "website": "https://www.ottoportland.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-22:00",
+   "tue": "11:00-22:00",
+   "wed": "11:00-22:00",
+   "thu": "11:00-23:00",
+   "fri": "11:00-23:00",
+   "sat": "11:00-23:00",
+   "sun": "11:00-22:00"
+  },
+  "hours_source": "https://www.ottoportland.com/locations",
+  "notes": "Full-service location; serves beer/wine per OSM/common knowledge but no drink prices on website. Alcohol service not confirmed."
+ },
+ {
+  "name": "Franklin Cafe",
+  "type": "bar",
+  "address": "278 Shawmut Ave, Boston, MA 02118",
+  "lat": 42.3428,
+  "lng": -71.0695,
+  "website": "https://www.franklincafe.com/",
+  "beer": {
+   "name": "Miller High Life / Narragansett (bottle/can)",
+   "price": 5,
+   "oz": null,
+   "source": "https://www.franklincafe.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Mo Cocktail / Coconut Margarita / Cucumber Collins",
+   "price": 14,
+   "source": "https://www.franklincafe.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-02:00",
+   "tue": "17:00-02:00",
+   "wed": "17:00-02:00",
+   "thu": "17:00-02:00",
+   "fri": "17:00-02:00",
+   "sat": "17:00-02:00",
+   "sun": "11:00-02:00"
+  },
+  "hours_source": "https://www.franklincafe.com/location/franklin-cafe/",
+  "notes": "Not in OSM list; coordinates approximate (278 Shawmut Ave, ~1.67 mi). Kitchen open until 1:30am nightly. Sunday: brunch 11-3, bar & limited menu 3-5, regular service from 5. Stellwagen Cooler light lager draft $6 (size not stated)."
+ },
+ {
+  "name": "Toro",
+  "type": "restaurant",
+  "address": "1704 Washington St, Boston, MA 02118",
+  "lat": 42.3371,
+  "lng": -71.0764,
+  "website": "https://www.toro-restaurant.com/",
+  "beer": {
+   "name": "Narragansett Lager",
+   "price": 6,
+   "oz": null,
+   "source": "https://www.toro-restaurant.com/menus",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktails (e.g. Summer's End, GTOTM, El Hombre Sin Nombre)",
+   "price": 17,
+   "source": "https://www.toro-restaurant.com/menus",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "17:00-22:00",
+   "tue": "17:00-22:00",
+   "wed": "17:00-22:00",
+   "thu": "17:00-22:00",
+   "fri": "17:00-23:00",
+   "sat": "17:00-23:00",
+   "sun": "11:00-15:00,17:00-22:00"
+  },
+  "hours_source": "https://www.toro-restaurant.com/hours-location-index",
+  "notes": "Not in OSM list; coordinates approximate (~1.76 mi). Red/rosÃ© sangria (wine + brandy/singani) $14. Hours page also lists a shorter 5-9pm/5-10pm schedule (likely kitchen)."
+ },
+ {
+  "name": "Myers + Chang",
+  "type": "restaurant",
+  "address": "1145 Washington St, Boston, MA 02118",
+  "lat": 42.3441,
+  "lng": -71.065,
+  "website": "https://www.myersandchang.com/",
+  "beer": {
+   "name": "Orion Japanese rice lager",
+   "price": 6,
+   "oz": 12,
+   "source": "https://www.myersandchang.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Housemade soda (Mint Lime Rickey) + white rum ($6 + $8)",
+   "price": 14,
+   "source": "https://www.myersandchang.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "16:00-21:00",
+   "tue": "16:00-21:00",
+   "wed": "16:00-21:00",
+   "thu": "11:30-22:00",
+   "fri": "11:30-22:00",
+   "sat": "11:30-22:00",
+   "sun": "11:30-21:00"
+  },
+  "hours_source": "https://www.myersandchang.com/hours-location/",
+  "notes": "Not in OSM list; coordinates approximate (~1.79 mi). Listed house cocktails are $15 (Mai Tai, Bloodlust, Bee's Please); sake sangria $13."
+ },
+ {
+  "name": "Aquitaine",
+  "type": "restaurant",
+  "address": "569 Tremont St, Boston, MA 02118",
+  "lat": 42.343783,
+  "lng": -71.072358,
+  "website": "https://www.aquitaineboston.com/",
+  "beer": {
+   "name": "Fat Tire Amber Ale",
+   "price": 7.5,
+   "oz": null,
+   "source": "https://www.aquitaineboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "Petite Piquant (jalapeno tequila, Aperol, citrus)",
+   "price": 15,
+   "source": "https://www.aquitaineboston.com/menus/",
+   "source_date": "unknown"
+  },
+  "hours": {
+   "mon": "11:30-15:00,17:00-22:00",
+   "tue": "11:30-15:00,17:00-22:00",
+   "wed": "11:30-15:00,17:00-22:00",
+   "thu": "11:30-15:00,17:00-22:00",
+   "fri": "11:30-15:00,17:00-22:00",
+   "sat": "10:00-15:00,17:00-22:00",
+   "sun": "10:00-15:00,17:00-22:00"
+  },
+  "hours_source": "https://www.aquitaineboston.com/location/marketplace/",
+  "notes": "French bistro. Aperol Spritz $15 on brunch list."
+ },
+ {
+  "name": "Frenchie Wine Bistro",
+  "type": "restaurant",
+  "address": "560 Tremont St, Boston, MA 02118",
+  "lat": 42.343629,
+  "lng": -71.071758,
+  "website": "https://www.frenchieboston.com/",
+  "beer": {
+   "name": "Lamplighter IPA / Kronenbourg 1664 / Allagash White",
+   "price": 9,
+   "oz": null,
+   "source": "https://www.frenchieboston.com/drink-list",
+   "source_date": "unknown"
+  },
+  "mixed": {
+   "name": "House cocktails (e.g. Pretty in Pink, Old Fashioned, Amaretto Sour)",
+   "price": 16,
+   "source": "https://www.frenchieboston.com/drink-list",
+   "source_date": "unknown"
+  },
+  "hours": null,
+  "hours_source": "https://www.frenchieboston.com/location-2",
+  "notes": "Drink list is screenshot images (filenames dated 2025-07). Site gives only opening times: dinner Tue-Sat from 4pm; brunch Thu-Fri from 11am, Sat-Sun from 10am; closing times not published."
+ },
+ {
+  "name": "The Mission Bar & Grill",
+  "type": "bar",
+  "address": "724 Huntington Ave, Boston, MA 02115",
+  "lat": 42.33387,
+  "lng": -71.105058,
+  "website": "https://www.themissionbar.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-02:00",
+   "tue": "11:00-02:00",
+   "wed": "11:00-02:00",
+   "thu": "11:00-02:00",
+   "fri": "11:00-02:00",
+   "sat": "09:00-02:00",
+   "sun": "09:00-02:00"
+  },
+  "hours_source": "https://www.themissionbar.com/location/the-mission-bar-and-grill/",
+  "notes": "Mission Hill bar. Online menu lists ~17 drafts and cocktails but no drink prices. Location page shows two schedules: Mon-Fri 11am-2am / Sat-Sun 9am-2am (used, presumably bar) and Sun-Wed 11am-11pm / Thu-Sat 11am-12am (presumably kitchen)."
+ },
+ {
+  "name": "Laughing Monk Cafe (Mission Hill)",
+  "type": "restaurant",
+  "address": "737 Huntington Ave, Boston, MA 02115",
+  "lat": 42.333989,
+  "lng": -71.105525,
+  "website": "https://www.laughingmonkcafe.com/locations/mission-hill",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-15:00,17:00-21:30",
+   "tue": "11:00-15:00,17:00-21:30",
+   "wed": "11:00-15:00,17:00-21:30",
+   "thu": "11:00-15:00,17:00-21:30",
+   "fri": "11:00-15:00,17:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-21:00"
+  },
+  "hours_source": "https://www.laughingmonkcafe.com/locations/mission-hill",
+  "notes": "Thai + sushi with full bar/cocktail program; no drink prices published on site."
+ },
+ {
+  "name": "The Elephant Walk South End",
+  "type": "restaurant",
+  "address": "South End, Boston, MA",
+  "lat": 42.341178,
+  "lng": -71.070476,
+  "website": "https://www.elephantwalk.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "16:00-21:00",
+   "tue": "16:00-21:00",
+   "wed": "16:00-21:00",
+   "thu": "16:00-21:00",
+   "fri": "16:00-22:00",
+   "sat": "16:00-22:00",
+   "sun": "12:00-21:00"
+  },
+  "hours_source": "https://www.elephantwalk.com/",
+  "notes": "Cambodian-French; drink menu page 404s, no prices. Hours are last-seating times. Exact street address not confirmed (OSM point near Tremont/Union Park)."
+ },
+ {
+  "name": "Barcelona Wine Bar (South End)",
+  "type": "restaurant",
+  "address": "525 Tremont St, Boston, MA 02116",
+  "lat": 42.344575,
+  "lng": -71.070864,
+  "website": "https://barcelonawinebar.com/location/south-end/",
+  "beer": {
+   "name": "Jack's Abby Post Shift Pilsner (draft, caÃ±a)",
+   "price": 3.75,
+   "oz": null,
+   "source": "https://barcelonawinebar.com/media/10-9-26-Menu-South-End.pdf",
+   "source_date": "2026-10"
+  },
+  "mixed": {
+   "name": "Gin & Jus (Paco Pepe gin, lime, green grape, ginger)",
+   "price": 12,
+   "source": "https://barcelonawinebar.com/media/10-9-26-Menu-South-End.pdf",
+   "source_date": "2026-10"
+  },
+  "hours": {
+   "mon": "16:00-00:00",
+   "tue": "16:00-00:00",
+   "wed": "16:00-00:00",
+   "thu": "16:00-00:00",
+   "fri": "14:00-01:00",
+   "sat": "11:00-01:00",
+   "sun": "11:00-23:00"
+  },
+  "hours_source": "https://barcelonawinebar.com/location/south-end/",
+  "notes": "Regular menu (file dated 10-9-26). Cana is a small pour (size not stated); doble $7.50. Cheapest can: Founders All Day IPA $6.50; Narragansett Light 16oz $7. Red/white sangria (wine + dark rum) $10.50/glass."
+ },
+ {
+  "name": "Picco",
+  "type": "restaurant",
+  "address": "513 Tremont St, Boston, MA 02116",
+  "lat": 42.344881,
+  "lng": -71.070484,
+  "website": "https://piccoboston.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "11:00-21:00",
+   "tue": "11:00-21:00",
+   "wed": "11:00-21:00",
+   "thu": "11:00-21:00",
+   "fri": "11:00-22:00",
+   "sat": "11:00-22:00",
+   "sun": "11:00-21:00"
+  },
+  "hours_source": "https://piccoboston.com/ (site business hours)",
+  "notes": "Pizza/ice cream with craft beer drafts and cocktails; menu PDF link is broken (404), no prices found."
+ },
+ {
+  "name": "The Shawmut Inn",
+  "type": "restaurant",
+  "address": "477 Shawmut Ave, Boston, MA 02118",
+  "lat": 42.338881,
+  "lng": -71.075909,
+  "website": "https://www.shawmutinn.com",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "16:30-23:00",
+   "tue": "16:30-23:00",
+   "wed": "16:30-23:00",
+   "thu": "16:30-23:00",
+   "fri": "16:30-23:00",
+   "sat": "16:30-23:00",
+   "sun": "16:30-23:00"
+  },
+  "hours_source": "https://www.shawmutinn.com",
+  "notes": "Full liquor license; bar hours shown (dinner 5-10pm daily). Online menu has food only, no drink prices."
+ },
+ {
+  "name": "MIDA (South End)",
+  "type": "restaurant",
+  "address": "782 Tremont St, Boston, MA 02118",
+  "lat": 42.339022,
+  "lng": -71.080472,
+  "website": "https://midarestaurant.com/mida-boston",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "16:00-22:00",
+   "tue": "16:00-22:00",
+   "wed": "16:00-22:00",
+   "thu": "16:00-22:00",
+   "fri": "16:00-23:00",
+   "sat": "10:30-15:30,16:00-23:00",
+   "sun": "10:30-15:30,16:00-22:00"
+  },
+  "hours_source": "https://midarestaurant.com/mida-boston",
+  "notes": "Italian; drink menu is on an embedded checkle.menu page that rate-limited requests, so no prices."
+ },
+ {
+  "name": "J.J. Foley's Cafe",
+  "type": "bar",
+  "address": "117 E Berkeley St, Boston, MA 02118",
+  "lat": 42.343642,
+  "lng": -71.065294,
+  "website": "https://www.jjfoleyscafe.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Classic South End Irish pub. Website blocks automated access (403); no drink prices found. OSM hours hint (unconfirmed): daily 10:30-02:00; OpenTable lists dining hours lunch 11-5, dinner 5-11 (Sun 5-10), Sun brunch 10:30-1:30."
+ },
+ {
+  "name": "Slade's Bar & Grill",
+  "type": "bar",
+  "address": "958 Tremont St, Boston, MA 02120",
+  "lat": 42.3373,
+  "lng": -71.0838,
+  "website": "https://www.toasttab.com/local/slades-bar-and-grill/r-9ce6766c-6ca1-46b9-b585-e10fbf295265",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "closed",
+   "tue": "12:00-20:00",
+   "wed": "12:00-22:00",
+   "thu": "12:00-22:00",
+   "fri": "12:00-22:00",
+   "sat": "12:00-22:00",
+   "sun": "12:00-19:30"
+  },
+  "hours_source": "Toast ordering listing (via search summary; page itself blocked)",
+  "notes": "Lower Roxbury soul-food bar & live-music venue since 1928, new ownership (2025). Not in OSM list; coordinates approximate (~1.59 mi). Hours are from the Toast online-ordering listing and may reflect kitchen/ordering hours only; no drink prices found."
+ },
+ {
+  "name": "The Puddingstone Tavern",
+  "type": "bar",
+  "address": "1592 Tremont St, Boston, MA 02120",
+  "lat": 42.3335,
+  "lng": -71.1015,
+  "website": "http://www.thepuddingstonetavern.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": "http://www.thepuddingstonetavern.com/",
+  "notes": "Mission Hill bar (sister to The Mission Bar). Not in OSM list; coordinates approximate (~1.82 mi). Old website (c.2013) says Monday-Saturday 4pm-1am, Sunday not stated; weekly trivia listings in 2026 show doors at 4pm. Beer/cocktail pages are empty."
+ },
+ {
+  "name": "Kava Neo-Taverna",
+  "type": "restaurant",
+  "address": "315 Shawmut Ave, Boston, MA 02118",
+  "lat": 42.342323,
+  "lng": -71.070518,
+  "website": "https://kavaneotaverna.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Greek taverna with bar/cocktails. Website unreachable (connection refused) during research. OSM hours hint (unconfirmed): Mo-Th 16:00-22:30; Fr-Sa 11:00-23:30; Su 11:00-22:30."
+ },
+ {
+  "name": "ilona",
+  "type": "restaurant",
+  "address": "783 Tremont St, Boston, MA 02118",
+  "lat": 42.339304,
+  "lng": -71.080688,
+  "website": "https://ilonasouthend.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Eastern-Mediterranean restaurant with bar (OSM alcohol=yes). Website unreachable (same host as Kava) during research; no prices or hours confirmed."
+ },
+ {
+  "name": "Zaftigs Delicatessen",
+  "type": "restaurant",
+  "address": "335 Harvard St, Brookline, MA 02446",
+  "lat": 42.343826,
+  "lng": -71.123782,
+  "website": "http://www.zaftigs.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": {
+   "mon": "10:00-20:00",
+   "tue": "10:00-20:00",
+   "wed": "10:00-20:00",
+   "thu": "10:00-20:00",
+   "fri": "10:00-21:00",
+   "sat": "10:00-21:00",
+   "sun": "10:00-20:00"
+  },
+  "hours_source": "http://www.zaftigs.com/locations.html",
+  "notes": "Deli with a bar: menu says bar opens 10am daily (Bloody Marys, mimosas, beer/wine on tabletop menu); restaurant opens 8am. Closing per site Sun-Thu 8pm, Fri-Sat 9pm (OSM says 9/10pm). No drink prices online."
+ },
+ {
+  "name": "Icon (nightclub)",
+  "type": "bar",
+  "address": "100 Warrenton St, Boston, MA 02116",
+  "lat": 42.350661,
+  "lng": -71.066211,
+  "website": null,
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "OSM still labels this as 'Rumor' (defunct). Current occupant is Icon nightclub, operating as of Jan 2026 per Boston Licensing Board coverage. No menu or hours found. ~1.51 mi."
+ },
+ {
+  "name": "Waku Waku Ramen (Harvard Sq)",
+  "type": "restaurant",
+  "address": "33 Brattle St, Cambridge, MA",
+  "lat": 42.373561,
+  "lng": -71.120913,
+  "website": "https://www.wakuwakuramen.com/",
+  "beer": null,
+  "mixed": null,
+  "hours": null,
+  "hours_source": null,
+  "notes": "Menu lists Sapporo (22 oz) and several sakes, but no prices. Hours not on site; OSM hint: Mo-Th 11:30-21:30; Fr-Su 11:30-22:30."
  }
 ]

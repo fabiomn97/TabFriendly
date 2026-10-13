@@ -1,0 +1,16 @@
+{
+ "venueId": "v-brick-mortar",
+ "hours": {
+  "mon": "15:00-00:00",
+  "tue": "15:00-00:00",
+  "wed": "15:00-00:00",
+  "thu": "15:00-01:00",
+  "fri": "15:00-01:00",
+  "sat": "17:00-01:00",
+  "sun": "closed"
+ },
+ "source": "https://www.brickmortarltd.com/location/brick-mortar/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

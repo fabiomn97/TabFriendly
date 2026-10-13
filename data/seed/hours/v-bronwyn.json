@@ -1,0 +1,16 @@
+{
+ "venueId": "v-bronwyn",
+ "hours": {
+  "mon": "closed",
+  "tue": "17:00-23:00",
+  "wed": "17:00-23:00",
+  "thu": "17:00-00:00",
+  "fri": "17:00-00:00",
+  "sat": "12:00-00:00",
+  "sun": "12:00-22:00"
+ },
+ "source": "https://bronwynrestaurant.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

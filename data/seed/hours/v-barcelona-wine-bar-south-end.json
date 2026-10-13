@@ -1,0 +1,16 @@
+{
+ "venueId": "v-barcelona-wine-bar-south-end",
+ "hours": {
+  "mon": "16:00-00:00",
+  "tue": "16:00-00:00",
+  "wed": "16:00-00:00",
+  "thu": "16:00-00:00",
+  "fri": "14:00-01:00",
+  "sat": "11:00-01:00",
+  "sun": "11:00-23:00"
+ },
+ "source": "https://barcelonawinebar.com/location/south-end/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

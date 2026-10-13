@@ -1,0 +1,16 @@
+{
+ "venueId": "v-roxy-s-arcade-formerly-a4cade",
+ "hours": {
+  "mon": "17:00-23:00",
+  "tue": "17:00-23:00",
+  "wed": "17:00-23:00",
+  "thu": "17:00-23:00",
+  "fri": "17:00-01:00",
+  "sat": "12:00-01:00",
+  "sun": "closed"
+ },
+ "source": "https://roxysarcade.com/hours-location",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
