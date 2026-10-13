@@ -506,19 +506,6 @@
   "sourceUrl": "https://barcelonawinebar.com/media/10-9-26-Menu-South-End.pdf",
   "venueId": "v-barcelona-wine-bar-south-end"
  },
- "seed-beacon-hill-pub-beer": {
-  "at": "2026-10-05T00:00:00.000Z",
-  "drink": "Narragansett tallboy",
-  "hasPhoto": false,
-  "kind": "beer",
-  "note": null,
-  "oz": 16,
-  "price": 3,
-  "source": "web",
-  "sourceDate": "2012-11",
-  "sourceUrl": "https://www.boston-barhopper.com/boston-barhopper/2012/11/11/beacon-hill-pub",
-  "venueId": "v-beacon-hill-pub"
- },
  "seed-better-sorts-social-club-beer": {
   "at": "2026-10-05T00:00:00.000Z",
   "drink": "Night Shift Whirlpool (also Modelo, Dos Equis, Heineken Silver)",
@@ -1038,32 +1025,6 @@
   "sourceDate": "2026-09",
   "sourceUrl": "https://davios.com/sites/default/files/downloads/Online%20Beverage%20List%20September%2023%202026%20Boston.pdf",
   "venueId": "v-davio-s-northern-italian-steakhouse"
- },
- "seed-delux-cafe-beer": {
-  "at": "2026-10-05T00:00:00.000Z",
-  "drink": "Miller High Life",
-  "hasPhoto": false,
-  "kind": "beer",
-  "note": null,
-  "oz": null,
-  "price": 4,
-  "source": "web",
-  "sourceDate": null,
-  "sourceUrl": "https://www.toasttab.com/local/order/delux-cafe-boston-100-chandler-st",
-  "venueId": "v-delux-cafe"
- },
- "seed-delux-cafe-mixed": {
-  "at": "2026-10-05T00:00:00.000Z",
-  "drink": "Nick & Nora (gin, sage, grapefruit, honey, lemon)",
-  "hasPhoto": false,
-  "kind": "mixed",
-  "note": null,
-  "oz": null,
-  "price": 12,
-  "source": "web",
-  "sourceDate": null,
-  "sourceUrl": "https://www.toasttab.com/local/order/delux-cafe-boston-100-chandler-st",
-  "venueId": "v-delux-cafe"
  },
  "seed-earls-kitchen-bar-prudential-beer": {
   "at": "2026-10-05T00:00:00.000Z",

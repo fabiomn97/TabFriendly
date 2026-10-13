@@ -25506,14 +25506,6 @@
   "notes": "Official beverage list dated Sept 23 2026; all cocktails $20, bottles $7, drafts $8 (section prices). Premier Pour prices ($40/$46) mapped to Jordan/Silver Oak by layout order; Lord Hobo/Boulevard serve type unclear. Bottle/half-bottle wines and mocktails excluded."
  },
  {
-  "venue_id": "v-delux-cafe",
-  "name": "Delux Cafe",
-  "menu_sources": [],
-  "menu_date": "unknown",
-  "items": [],
-  "notes": "Only source is a Toast ordering page, which returned 403; SinglePlatform listing shows just one old cocktail special, and search snippets were from unverifiable aggregators, so no prices included."
- },
- {
   "venue_id": "v-democracy-brewing",
   "name": "Democracy Brewing",
   "menu_sources": [
@@ -34091,24 +34083,6 @@
    }
   ],
   "notes": "Official beverage list PDF dated 10/03/26 (126 pp). Included wines by the glass, cocktails and beer; excluded bottle list, dessert/fortified glass pours (Sauternes, sherry, port, Madeira), the long spirits list, and N/A. Glass-price-to-wine alignment verified from PDF word positions."
- },
- {
-  "venue_id": "v-grotto-restaurant",
-  "name": "Grotto Restaurant",
-  "menu_sources": [],
-  "menu_date": "unknown",
-  "items": [],
-  "notes": "LIKELY CLOSED: Boston Globe / Boston.com (July-Aug 2025) reported Grotto (37 Bowdoin St) closing around Aug 21, 2025 due to lease expiry; The Infatuation lists it as permanently closed; grottorestaurant.com domain no longer connected. No drink menu found."
- },
- {
-  "venue_id": "v-guy-fieri-s-boston-kitchen-bar",
-  "name": "Guy Fieri's Boston Kitchen + Bar",
-  "menu_sources": [
-   "https://www.nbcboston.com/news/local/guy-fieris-boston-kitchen-bar-in-downtown-boston-has-closed/3666446"
-  ],
-  "menu_date": "unknown",
-  "items": [],
-  "notes": "APPEARS CLOSED: Boston Restaurant Talk / NBC Boston reported the 186 Tremont St restaurant quietly closed after ~3 years (c. 2023-24); its page was removed from Fieri's site. No current drink menu found."
  },
  {
   "venue_id": "v-gyu-kaku-harvard-square",
@@ -50231,14 +50205,6 @@
   "menu_date": "unknown",
   "items": [],
   "notes": "Official site mentions a full bar and award-winning wine list but publishes no drink menu (only 2024 Thanksgiving food PDFs). No priced drink menu found online."
- },
- {
-  "venue_id": "v-mother-anna-s",
-  "name": "Mother Anna's",
-  "menu_sources": [],
-  "menu_date": "unknown",
-  "items": [],
-  "notes": "LIKELY CLOSED: OpenTable listing for 211 Hanover St says permanently closed. No website or drink menu found."
  },
  {
   "venue_id": "v-mr-bartley-s-burger-cottage",

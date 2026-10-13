@@ -9,6 +9,12 @@ v = json.load(open(P, encoding="utf-8"))
 v = [x for x in v if x["name"] != "Pagu (Kendall)"]
 # The Cellar's only prices ($2.50 PBR) come from a long-stale SinglePlatform listing; leave it for users to add.
 v = [x for x in v if x["name"] != "The Cellar"]
+# Closed (checked Oct 13, 2026): Grotto (lease ended Aug 2025), Mother Anna's (listed permanently closed),
+# Guy Fieri's Boston Kitchen (shut down); Courtside, Beacon Hill Pub, Delux Cafe and Pho Basil look closed (no current
+# presence; Pho Basil's domain is parked).
+CLOSED = {"Grotto Restaurant", "Mother Anna's", "Guy Fieri's Boston Kitchen + Bar", "Courtside Restaurant & Pub",
+          "Beacon Hill Pub", "Delux Cafe", "Pho Basil"}
+v = [x for x in v if x["name"] not in CLOSED]
 RENAME = {
     "Pagu (Central)": "Pagu",
     "Brick & Mortar (Acqua & Bocca rebrand an": "Brick & Mortar",

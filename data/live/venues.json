@@ -328,17 +328,6 @@
   "type": "restaurant",
   "website": null
  },
- "v-beacon-hill-pub": {
-  "address": "149 Charles St, Boston, MA 02114",
-  "at": "2026-10-05T00:00:00.000Z",
-  "lat": 42.36,
-  "lng": -71.0707,
-  "name": "Beacon Hill Pub",
-  "note": null,
-  "source": "seed",
-  "type": "bar",
-  "website": "https://www.facebook.com/beaconhillpubboston/"
- },
  "v-beantown-pub": {
   "address": "100 Tremont Street, Boston, MA",
   "at": "2026-10-05T00:00:00.000Z",
@@ -768,17 +757,6 @@
   "type": "bar",
   "website": "https://cornwalls.com"
  },
- "v-courtside-restaurant-pub": {
-  "address": "291 Cambridge St, Cambridge, MA 02141",
-  "at": "2026-10-05T00:00:00.000Z",
-  "lat": 42.3712,
-  "lng": -71.0809,
-  "name": "Courtside Restaurant & Pub",
-  "note": null,
-  "source": "seed",
-  "type": "bar",
-  "website": null
- },
  "v-d16": {
   "address": "955 Boylston St, Unit A, Boston, MA 02115",
   "at": "2026-10-05T00:00:00.000Z",
@@ -844,17 +822,6 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://davios.com/bos"
- },
- "v-delux-cafe": {
-  "address": "100 Chandler St, Boston, MA 02116",
-  "at": "2026-10-05T00:00:00.000Z",
-  "lat": 42.34632,
-  "lng": -71.0729,
-  "name": "Delux Cafe",
-  "note": null,
-  "source": "seed",
-  "type": "bar",
-  "website": null
  },
  "v-democracy-brewing": {
   "address": "35 Temple Place, Boston, MA 02111",
@@ -1196,28 +1163,6 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.grill23.com/"
- },
- "v-grotto-restaurant": {
-  "address": "37 Bowdoin Street",
-  "at": "2026-10-05T00:00:00.000Z",
-  "lat": 42.359917,
-  "lng": -71.063012,
-  "name": "Grotto Restaurant",
-  "note": null,
-  "source": "seed",
-  "type": "restaurant",
-  "website": null
- },
- "v-guy-fieri-s-boston-kitchen-bar": {
-  "address": "186 Tremont Street, Boston, MA 02116",
-  "at": "2026-10-05T00:00:00.000Z",
-  "lat": 42.351586,
-  "lng": -71.06442,
-  "name": "Guy Fieri's Boston Kitchen + Bar",
-  "note": null,
-  "source": "seed",
-  "type": "restaurant",
-  "website": null
  },
  "v-gyu-kaku-harvard-square": {
   "address": "16-18 Eliot St, Cambridge, MA",
@@ -1912,17 +1857,6 @@
   "type": "restaurant",
   "website": "https://mooorestaurant.com/"
  },
- "v-mother-anna-s": {
-  "address": "211 Hanover Street",
-  "at": "2026-10-05T00:00:00.000Z",
-  "lat": 42.362712,
-  "lng": -71.055328,
-  "name": "Mother Anna's",
-  "note": null,
-  "source": "seed",
-  "type": "restaurant",
-  "website": null
- },
  "v-mr-bartley-s-burger-cottage": {
   "address": "1246 Massachusetts Ave, Cambridge, MA 02138",
   "at": "2026-10-05T00:00:00.000Z",
@@ -2142,17 +2076,6 @@
   "source": "seed",
   "type": "restaurant",
   "website": "https://www.petitrobertbistro.com"
- },
- "v-pho-basil": {
-  "address": "177A Massachusetts Ave, Boston, MA 02115",
-  "at": "2026-10-05T00:00:00.000Z",
-  "lat": 42.3462,
-  "lng": -71.0875,
-  "name": "Pho Basil",
-  "note": null,
-  "source": "seed",
-  "type": "restaurant",
-  "website": null
  },
  "v-piattini": {
   "address": "226 Newbury St, Boston, MA 02116",

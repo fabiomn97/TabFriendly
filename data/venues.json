@@ -1059,18 +1059,6 @@
   "area": "Back Bay"
  },
  {
-  "name": "Pho Basil",
-  "type": "restaurant",
-  "address": "177A Massachusetts Ave, Boston, MA 02115",
-  "lat": 42.3462,
-  "lng": -71.0875,
-  "website": null,
-  "beer": null,
-  "mixed": null,
-  "notes": "Vietnamese/Thai restaurant near Berklee with a beer and wine list, but no prices were found. The license type wasn't confirmed. About 0.95 mi, close to the 1-mile edge.",
-  "area": "Back Bay"
- },
- {
   "name": "The Kenmore",
   "type": "bar",
   "address": "476 Commonwealth Ave, Boston, MA 02215",
@@ -2128,29 +2116,6 @@
   "area": "South End"
  },
  {
-  "name": "Delux Cafe",
-  "type": "bar",
-  "address": "100 Chandler St, Boston, MA 02116",
-  "lat": 42.34632,
-  "lng": -71.0729,
-  "website": null,
-  "beer": {
-   "name": "Miller High Life",
-   "price": 4,
-   "oz": null,
-   "source": "https://www.toasttab.com/local/order/delux-cafe-boston-100-chandler-st",
-   "source_date": "unknown"
-  },
-  "mixed": {
-   "name": "Nick & Nora (gin, sage, grapefruit, honey, lemon)",
-   "price": 12,
-   "source": "https://www.toasttab.com/local/order/delux-cafe-boston-100-chandler-st",
-   "source_date": "unknown"
-  },
-  "notes": "Prices are from Delux's Toast online-ordering menu as surfaced via the search index (Toast blocks direct fetching, so please verify in a browser). Coors Light also $4; Narragansett/Schlitz tall boys $5; cocktails and classics listed at $12. An older undated SinglePlatform menu showed a $10 cocktail but was not used. Classic South End dive.",
-  "area": "South End"
- },
- {
   "name": "Five Horses Tavern - South End",
   "type": "bar",
   "address": "535 Columbus Ave, Boston, MA 02118",
@@ -2579,24 +2544,6 @@
   "venue_note": "Jazz club: usually needs a show ticket."
  },
  {
-  "name": "Beacon Hill Pub",
-  "type": "bar",
-  "address": "149 Charles St, Boston, MA 02114",
-  "lat": 42.36,
-  "lng": -71.0707,
-  "website": "https://www.facebook.com/beaconhillpubboston/",
-  "beer": {
-   "name": "Narragansett tallboy",
-   "price": 3,
-   "oz": 16,
-   "source": "https://www.boston-barhopper.com/boston-barhopper/2012/11/11/beacon-hill-pub",
-   "source_date": "2012-11"
-  },
-  "mixed": null,
-  "notes": "1.16 mi. Cash-only dive. Beer price is from a 2012 blog post and is very likely higher now. Only straight spirit prices were found (Jameson rocks $6.50, 2012).",
-  "area": "Downtown"
- },
- {
   "name": "M.J. O'Connor's (Park Plaza)",
   "type": "bar",
   "address": "27 Columbus Ave, Boston, MA 02116",
@@ -2834,18 +2781,6 @@
   "beer": null,
   "mixed": null,
   "notes": "Brewery taproom. No draft prices are published online; the website's on-tap prices ($15.20+) are for 4-pack cans, not pours. Coordinates are approximate.",
-  "area": "East Cambridge Somerville"
- },
- {
-  "name": "Courtside Restaurant & Pub",
-  "type": "bar",
-  "address": "291 Cambridge St, Cambridge, MA 02141",
-  "lat": 42.3712,
-  "lng": -71.0809,
-  "website": null,
-  "beer": null,
-  "mixed": null,
-  "notes": "Sports pub and karaoke bar in East Cambridge, about 1.05 mi (near the 1.0 mi edge). Only old aggregator menus (allmenus, zmenu) exist, with no current drink prices.",
   "area": "East Cambridge Somerville"
  },
  {
@@ -3889,32 +3824,6 @@
   "notes": "North End Italian with bar; no data retrieved."
  },
  {
-  "name": "Grotto Restaurant",
-  "type": "restaurant",
-  "address": "37 Bowdoin Street",
-  "lat": 42.359917,
-  "lng": -71.063012,
-  "website": null,
-  "beer": null,
-  "mixed": null,
-  "hours": null,
-  "hours_source": null,
-  "notes": "Beacon Hill Italian restaurant (wine/beer); no data retrieved."
- },
- {
-  "name": "Mother Anna's",
-  "type": "restaurant",
-  "address": "211 Hanover Street",
-  "lat": 42.362712,
-  "lng": -71.055328,
-  "website": null,
-  "beer": null,
-  "mixed": null,
-  "hours": null,
-  "hours_source": null,
-  "notes": "North End Italian; no data retrieved."
- },
- {
   "name": "Wig Shop",
   "type": "bar",
   "address": "27 Temple Place, Boston, MA 02111",
@@ -4437,19 +4346,6 @@
   },
   "hours_source": "https://punchdrink.com/venues/j-j-foleys-bar-grille/",
   "notes": "Historic Irish pub. Own site (GoDaddy, 2013) has no hours or prices; hours from Punch listing (Time Out says 10am-2am daily) - third-party, confirm via Google."
- },
- {
-  "name": "Guy Fieri's Boston Kitchen + Bar",
-  "type": "restaurant",
-  "address": "186 Tremont Street, Boston, MA 02116",
-  "lat": 42.351586,
-  "lng": -71.06442,
-  "website": null,
-  "beer": null,
-  "mixed": null,
-  "hours": null,
-  "hours_source": null,
-  "notes": "Full bar (craft beer, cocktails per 2021 press). No official website or menu found; prices and hours unknown."
  },
  {
   "name": "Bar Moxy (Moxy Boston Downtown)",
