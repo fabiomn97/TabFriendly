@@ -135,7 +135,6 @@ a { color: var(--link); }
 .locate.on { color: #1a73e8; }
 .locate.busy { opacity: .5; }
 .near-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 0 0 8px; padding: 6px 10px; border-radius: 8px; background: color-mix(in srgb, #1a73e8 10%, var(--surface)); font-size: 13px; }
-.mit-dot { position: absolute; transform: translate(-50%, -50%); width: 14px; height: 14px; border-radius: 50%; background: var(--radius); border: 3px solid var(--surface); box-shadow: 0 0 0 1px var(--radius); }
 
 /* price-tag pins */
 .pin-wrap { width: 0 !important; height: 0 !important; }
@@ -264,6 +263,10 @@ details.menu summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
 /* accounts and leaderboard (Supabase build) */
 .acct-btn { max-width: 10em; overflow: hidden; text-overflow: ellipsis; display: inline-block; }
+#acctBtn.has-pts { flex-direction: column; align-items: flex-end; gap: 1px; line-height: 1.1; }
+.acct-pts { font: 500 10px/1.1 var(--f-mono); color: var(--muted); white-space: nowrap; }
+.acct-pts b { color: var(--fg); font-weight: 600; }
+.acct-pts .short { display: none; }
 .lb-row { display: grid; grid-template-columns: 2.4em 1fr auto; gap: 8px; align-items: center; padding: 8px 6px; border-bottom: 1px solid var(--line); font-size: 14px; }
 .lb-row .rk { font: 600 13px/1 var(--f-mono); color: var(--muted); text-align: right; }
 .lb-row .nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
@@ -275,6 +278,9 @@ details.menu summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   .bar { gap: 4px; padding-inline: 12px; }
   .bar .btn.small { padding-inline: 5px; }
   .acct-btn { max-width: 4.4em; }
+  .acct-pts .long { display: none; }
+  .acct-pts .short { display: inline; }
+  .acct-pts { font-size: 9px; letter-spacing: -.02em; }
   .has-acct .add-word { display: none; }  /* room for the account buttons: "+ venue" */
 }
 .lb-bar select { width: 100%; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 8px 10px; font-size: 15px; }
@@ -913,7 +919,6 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     base.major.forEach((l) => l.setStyle({ color: css("--road-major"), weight: 4.6 * k }));
     if (base.radius) base.radius.setStyle({ color: css("--radius"), weight: 1.5, dashArray: "6 6", fill: false });
   }
-  L.marker(MIT, { icon: L.divIcon({ className: "", html: '<span class="mit-dot" title="77 Massachusetts Ave"></span>', iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map);
   const areaMarkers = new Map(AREAS.map(([name, lat, lng]) => [name,
     L.marker([lat, lng], { icon: L.divIcon({ className: "", html: `<span class="area-label">${esc(name)}</span>`, iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map)]));
 
@@ -1844,9 +1849,18 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     if (!TF) return msg + " Thanks!";
     return S.acct && !S.acct.anonymous ? `${msg} Points come in as others confirm it.` : `${msg} Sign in to earn points for posts like this.`;
   }
+  // The header's account button: the name, and under it this week's, this month's and all-time points.
   function acctLabel() {
-    const a = S.acct;
-    $("acctBtn").querySelector("span").textContent = !a || a.anonymous ? "Sign in" : S.mine && S.mine.name ? S.mine.name : "Set your name";
+    const a = S.acct, m = S.mine, btn = $("acctBtn");
+    btn.querySelector(".acct-btn").textContent = !a || a.anonymous ? "Sign in" : m && m.name ? m.name : "Set your name";
+    const show = a && !a.anonymous && m && m.name;
+    btn.classList.toggle("has-pts", !!show);
+    btn.querySelector(".acct-pts")?.remove();
+    if (!show) { btn.removeAttribute("title"); return; }
+    const n = (x) => { x = Math.round(x || 0); return x >= 9950 ? Math.round(x / 1000) + "k" : x >= 1000 ? (x / 1000).toFixed(1) + "k" : String(x); };
+    btn.insertAdjacentHTML("beforeend", `<span class="acct-pts"><span class="long"><b>${n(m.week)}</b> wk · <b>${n(m.month)}</b> mo · <b>${n(m.all)}</b> all</span>`
+      + `<span class="short"><b>${n(m.week)}</b>·<b>${n(m.month)}</b>·<b>${n(m.all)}</b></span></span>`);
+    btn.title = `${m.name}: ${n(m.week)} points this week, ${n(m.month)} this month, ${n(m.all)} all time`;
   }
   async function refreshScores() {
     if (!TF) return;
@@ -2006,7 +2020,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         if (S.acct && !S.acct.anonymous && !(S.mine && S.mine.name)) openAccount();
       }
       loadBoardsExtras();
-      setInterval(loadBoardsExtras, 120000);
+      setInterval(() => { loadBoardsExtras(); refreshScores(); }, 120000);
     })();
   }
 
