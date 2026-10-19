@@ -38,9 +38,9 @@ Each price records its source (a URL, "user-reported", or "editor") and its date
   pour isn't known count only while all four personal sizes are ticked. The Max price slider goes up to $80 while a share size is on.
   Menus list pitchers and bottles of wine after the personal pours, tagged "to share".
 - A **Max price** slider hides venues above the chosen price.
-- A **near me** button on the map (and automatically, if location was allowed before) zooms to about 6-7 blocks around
-  the person. The list and the green top 3 then cover venues within 0.5 mi of them, with distances from them; **Show all**
-  returns to the whole map.
+- **Near you:** the map asks for the person's location as it opens (right after the 21+ check) and zooms to about 6-7
+  blocks around them. Every pin stays on the map; the list and the green top 3 cover what's on screen, so zooming out
+  widens them. **Whole map** frames all of Boston and Cambridge; the locate button re-centres on the person.
 - Each pin shows the price for the current view. The **three cheapest** are green.
 - List rows say whether the venue is open now.
 - Crowded pins collapse to dots. The selected pin expands to show the drink name.
