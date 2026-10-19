@@ -236,7 +236,12 @@ insert into public.tf_areas (name, lat, lng) values
   ('MIT', 42.3612, -71.0950), ('Harvard Sq', 42.3732, -71.1190), ('Inman Sq', 42.3736, -71.1003),
   ('Union Sq', 42.3796, -71.0935), ('East Cambridge', 42.3700, -71.0790), ('Beacon Hill', 42.3588, -71.0680),
   ('West End', 42.3645, -71.0650), ('Downtown', 42.3555, -71.0610), ('South End', 42.3420, -71.0725),
-  ('Longwood', 42.3378, -71.1060), ('Mission Hill', 42.3325, -71.0990), ('Allston', 42.3535, -71.1290)
+  ('Longwood', 42.3378, -71.1060), ('Mission Hill', 42.3325, -71.0990), ('Allston', 42.3535, -71.1290),
+  ('Brighton', 42.3490, -71.1560), ('Charlestown', 42.3782, -71.0602), ('East Boston', 42.3750, -71.0390),
+  ('North End', 42.3647, -71.0542), ('Seaport', 42.3505, -71.0430), ('South Boston', 42.3334, -71.0495),
+  ('Dorchester', 42.3000, -71.0640), ('Roxbury', 42.3160, -71.0880), ('Jamaica Plain', 42.3100, -71.1140),
+  ('Roslindale', 42.2860, -71.1280), ('West Roxbury', 42.2800, -71.1600), ('Hyde Park', 42.2560, -71.1240),
+  ('Mattapan', 42.2700, -71.0920), ('North Cambridge', 42.3950, -71.1330), ('Porter Sq', 42.3884, -71.1191)
 on conflict (name) do update set lat = excluded.lat, lng = excluded.lng;
 
 -- ---------- results of the last recompute (private; read through the functions below) ----------
