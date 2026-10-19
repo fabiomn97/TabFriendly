@@ -254,6 +254,46 @@ details.menu summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 .mi.can { grid-template-columns: 1fr auto auto; align-items: center; }
 .mi .mi-ed { min-height: 28px; padding: 2px 8px; font-size: 12px; }
 .mi.gone > span { opacity: .55; text-decoration: line-through; }
+.mi .mt { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 8px; }
+.mv { display: inline-flex; gap: 4px; margin-left: auto; }
+.mv button { border: 1px solid var(--line); background: none; border-radius: 999px; font: 500 11px/1 var(--f-mono); padding: 3px 7px; color: var(--muted); }
+.mv button.on-up { background: var(--ok); color: var(--surface); border-color: var(--ok); }
+.mv button.on-down { background: var(--danger); color: var(--surface); border-color: var(--danger); }
+.mv button[disabled] { opacity: .5; cursor: not-allowed; }
+
+/* accounts and leaderboard (Supabase build) */
+.acct-btn { max-width: 10em; overflow: hidden; text-overflow: ellipsis; display: inline-block; }
+.lb-row { display: grid; grid-template-columns: 2.4em 1fr auto; gap: 8px; align-items: center; padding: 8px 6px; border-bottom: 1px solid var(--line); font-size: 14px; }
+.lb-row .rk { font: 600 13px/1 var(--f-mono); color: var(--muted); text-align: right; }
+.lb-row .nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+.lb-row .pt { font: 600 14px/1 var(--f-mono); font-variant-numeric: tabular-nums; }
+.lb-row.me { background: color-mix(in srgb, var(--tag) 25%, transparent); border-radius: 6px; }
+.lb-bar { display: grid; gap: 8px; margin-bottom: 8px; }
+.panel .seg.seg3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 560px) {
+  .bar { gap: 4px; padding-inline: 12px; }
+  .bar .btn.small { padding-inline: 5px; }
+  .acct-btn { max-width: 4.4em; }
+  .has-acct .add-word { display: none; }  /* room for the account buttons: "+ venue" */
+}
+.lb-bar select { width: 100%; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 8px 10px; font-size: 15px; }
+.panel h3 { margin: 16px 0 4px; font: 800 16px/1 var(--f-display); text-transform: uppercase; letter-spacing: .04em; }
+.panel .fine { font-size: 12px; color: var(--muted); margin: 6px 0; }
+.panel details.how summary { cursor: pointer; font-weight: 600; font-size: 14px; padding: 6px 0; }
+.panel details.how ul { margin: 4px 0 8px; padding-left: 18px; font-size: 13px; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 10px 0; }
+.stats div { border: 1px solid var(--line); border-radius: 8px; padding: 8px 4px; text-align: center; }
+.stats b { display: block; font: 600 18px/1.3 var(--f-mono); }
+.stats span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.act { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+.act .ap { font: 600 13px/1.3 var(--f-mono); text-align: right; }
+.act .ap.neg { color: var(--danger); }
+.act .am { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+.bnty { width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 8px 0; font-size: 14px; }
+.bnty small { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+.bounty-chip { display: inline-block; margin-left: 6px; font: 600 10px/1.6 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--tag-ink); background: var(--tag); border-radius: 999px; padding: 0 7px; vertical-align: 1px; }
+.mayor { font-size: 13px; margin: -4px 0 10px; color: var(--muted); }
+.mayor b { color: var(--fg); }
 .menu-ed { margin-top: 10px; }
 
 /* list */
@@ -371,8 +411,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       <h1 class="logo" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span><span class="w1">Tab</span><span class="w2">Friendly</span></span></h1>
       <p>Cheapest drinks within 2 miles of 77 Mass Ave</p>
     </div>
-    <button class="btn ghost small" id="editorBtn" type="button" hidden>Editor</button>
-    <button class="btn" id="addVenueBtn" type="button"><span>+ Add<span class="add-long"> a</span> venue</span></button>
+    <button class="btn ghost small" id="lbBtn" type="button" hidden aria-label="Leaderboard">🏆<span class="add-long">&nbsp;Leaderboard</span></button>
+    <button class="btn ghost small" id="acctBtn" type="button" hidden><span class="acct-btn">Sign in</span></button>
+    <button class="btn" id="addVenueBtn" type="button"><span>+<span class="add-word"> Add</span><span class="add-long"> a</span> venue</span></button>
   </header>
   <div id="mapWrap">
     <div id="map" role="application" aria-label="Map of bars and restaurants near 77 Massachusetts Ave"></div>
@@ -492,6 +533,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     types: new Set(savedTypes()),  // drink types ticked in the Drinks filter
     unit: store.get("tf-unit") === "oz" ? "oz" : "total",  // rank by total price or price per ounce
     hours: new Map(),
+    checks: new Map(),  // priceId -> when someone last confirmed it's still accurate (renews its freshness)
+    acct: null, mine: null, mayors: new Map(), bounties: new Map(),  // accounts and leaderboard (Supabase build)
     near: null,  // [lat, lng] once the person shares their location: the list and top 3 cover what's around them
     sizes: new Set(savedSizes()),  // portions counted: personal (glass, bottle, draft, can) and to share (wbottle, pitcher)
   };
@@ -587,10 +630,15 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const m = /^(\d{4})-(\d{2})(?:-(\d{2}))?/.exec(s || "");
     return m ? Date.UTC(+m[1], +m[2] - 1, +(m[3] || 1)) : NaN;
   }
+  // What votes and check-ins are keyed on: a report's id, or "m:<venueId>:<drink key>" for a drink on a researched menu.
+  const priceKey = (d) => d.reportId || (d.mkey && d.venueId && !String(d.id).startsWith("entry:") ? `m:${d.venueId}:${d.mkey}` : d.id);
   function priceDate(x) {
-    if (x.source === "user" || x.source === "editor") return Date.parse(x.at);
-    const d = ymd(x.sourceDate);
-    return isNaN(d) ? Date.parse(x.checkedAt || x.at) : d;
+    let d;
+    if (x.source === "user" || x.source === "editor") d = Date.parse(x.at);
+    else { d = ymd(x.sourceDate); if (isNaN(d)) d = Date.parse(x.checkedAt || x.at); }
+    // an upvote is a "still accurate" check-in: the price counts from then
+    const c = Date.parse(S.checks.get(priceKey(x)) || "");
+    return !isNaN(c) && (isNaN(d) || c > d) ? c : d;
   }
   const isFresh = (x) => { const d = priceDate(x); return !isNaN(d) && Date.now() - d <= FRESH_MS; };
 
@@ -1117,7 +1165,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const r = best(v.id, kind);
     const label = (kind === "beer" ? "Cheapest beer" : kind === "wine" ? "Cheapest bottle of wine" : "Cheapest mixed drink") + (r && kind !== "wine" && isShare(r) ? ", to share" : "");
     const isBest = r && S.best.has(v.id) && pick(v.id) === r;
-    let h = `<div class="drink${isBest ? " best" : ""}"><span class="drink-k">${label}${isBest ? '<span class="best-chip">Top 3 nearby</span>' : ""}</span>`;
+    const bounty = (S.bounties.get(v.id) || []).includes(kind);
+    let h = `<div class="drink${isBest ? " best" : ""}"><span class="drink-k">${label}${isBest ? '<span class="best-chip">Top 3 nearby</span>' : ""}${bounty ? '<span class="bounty-chip" title="No fresh price in 45 days: posting one earns 3x points">3x bounty</span>' : ""}</span>`;
     if (!r) {
       const old = latestAny(v.id, kind);
       h += `<span class="drink-p none">No price yet</span><span></span>`;
@@ -1140,10 +1189,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
           + `<button class="btn${t.mine === 1 ? " on-up" : ""}" type="button" data-vote="${esc(r.id)}" data-val="1" aria-pressed="${t.mine === 1}" ${canVote ? "" : "disabled"} aria-label="Yes, this price is right">${icon("i-up")} ${t.up}</button>`
           + `<button class="btn${t.mine === -1 ? " on-down" : ""}" type="button" data-vote="${esc(r.id)}" data-val="-1" aria-pressed="${t.mine === -1}" ${canVote ? "" : "disabled"} aria-label="No, this price is wrong">${icon("i-up", 'style="transform:rotate(180deg)"')} ${t.down}</button></div>`;
       } else if (r.source === "editor") {
-        h += `<div class="drink-src"><span class="user">${r.edited ? "Updated" : "Added"} by an editor</span><span>${esc(fmtDay(r.at))}</span></div>`;
+        h += `<div class="drink-src"><span class="user">${r.edited ? "Updated" : "Added"} by an editor</span><span>${esc(fmtDay(r.at))}</span>${checkedNote(r)}</div>` + stillBar(r);
       } else {
         const u = safeUrl(r.sourceUrl);
-        h += `<div class="drink-src"><span>Source: ${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>` : "published menu"}</span><span>${esc(checked(r.sourceDate))}</span></div>`;
+        h += `<div class="drink-src"><span>Source: ${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>` : "published menu"}</span><span>${esc(checked(r.sourceDate))}</span>${checkedNote(r)}</div>` + stillBar(r);
       }
     }
     const acts = [];
@@ -1153,6 +1202,28 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     return h + `</div>`;
   }
 
+  // "Still this price?": an upvote on a researched or editor price confirms it and renews it.
+  function stillBar(r) {
+    const key = priceKey(r);
+    if (!key || !S.me) return "";
+    const t = tally(key), can = canPost();
+    return `<div class="vote"><span>Still this price?</span><button class="btn${t.mine === 1 ? " on-up" : ""}" type="button" data-vote="${esc(key)}" data-val="1" aria-pressed="${t.mine === 1}" ${can ? "" : "disabled"} aria-label="Yes, it's still this price">${icon("i-up")} ${t.up}</button></div>`;
+  }
+  function checkedNote(r) {
+    const c = S.checks.get(priceKey(r));
+    return c ? `<span>confirmed ${esc(fmtDay(c))}</span>` : "";
+  }
+  // Small votes on a menu row: yes/no on someone's entry, "still right" on the rest.
+  function menuVotes(d) {
+    const key = priceKey(d);
+    if (!key || !S.me || !canPost()) return "";
+    const rep = d.reportId ? S.reports.find((x) => x.id === d.reportId) : null;
+    if (rep && rep.by === S.me) return "";
+    const t = tally(key);
+    const up = `<button type="button" class="${t.mine === 1 ? "on-up" : ""}" data-vote="${esc(key)}" data-val="1" aria-pressed="${t.mine === 1}" aria-label="${rep ? "This price is right" : "Still this price"}">✓ ${t.up}</button>`;
+    const down = rep ? `<button type="button" class="${t.mine === -1 ? "on-down" : ""}" data-vote="${esc(key)}" data-val="-1" aria-pressed="${t.mine === -1}" aria-label="This price is wrong">✗ ${t.down}</button>` : "";
+    return `<span class="mv">${up}${down}</span>`;
+  }
   function menuRow(d, low) {
     const t = d.type || "";  // only menu items name their type outright; for reports the name already says it
     const tags = [isShare(d) ? SIZE_LABEL[sizeOf(d)] + " · to share" : SERVE_LABEL[serveOf(d)], d.oz ? d.oz + " oz" : "", d.oz ? perOz(d) : "size n/a",
@@ -1161,7 +1232,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const canEdit = canPost() && d.mkey;
     return `<div class="mi${canEdit ? " can" : ""}${isPicked(d) ? " hit" : ""}${low ? " low" : ""}"><span>${esc(d.drink)}</span><span class="mp">${esc(money(d.price))}</span>`
       + (canEdit ? `<button class="btn small ghost mi-ed" type="button" data-medit="${esc(d.id)}" aria-label="Edit the price of ${esc(d.drink)}">Edit</button>` : "")
-      + (tags.length ? `<span class="mt">${esc(tags.join(" · "))}</span>` : "") + `</div>`;
+      + `<span class="mt"><span>${esc(tags.join(" · "))}</span>${menuVotes(d)}</span></div>`;
   }
   // The ticked drinks this venue has, cheapest first.
   function mineBlock(v) {
@@ -1248,6 +1319,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     head.innerHTML = `<button class="btn small ghost" type="button" id="backBtn" aria-label="Back to list">←</button><h2 class="sheet-title">${esc(v.name)}</h2>`;
     const d = fromHere(v);
     let h = `<div class="v-meta"><span class="chip">${v.type === "restaurant" ? "Restaurant" : "Bar"}</span>${v.address ? `<span>${esc(v.address)}</span>` : ""}<span>${d.toFixed(2)} mi from ${S.near ? "you" : "77 Mass Ave"}</span>${safeUrl(v.website) ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}</div>`;
+    if (S.mayors.has(v.id)) h += `<p class="mayor">👑 Bar mayor: <b>${esc(S.mayors.get(v.id))}</b> · most confirmed points here in 60 days</p>`;
     if (v.note) h += `<div class="notice">${esc(v.note)}</div>`;
     if (isHidden(v.id)) h += `<div class="notice">This venue is hidden from everyone but editors.</div>`;
     if (S.types.size) h += mineBlock(v);
@@ -1518,8 +1590,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
           hasPhoto: !!photo, source: "user", sourceUrl: null, sourceDate: null, by: S.me, at,
         });
         closeForm();
-        toast("Price posted. Thanks!");
+        toast(earnedNote("Price posted."));
         select(venueId);
+        refreshScores();
       } catch (err) {
         showErr(writeError(err));
         $("fSubmit").disabled = false;
@@ -1595,8 +1668,9 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
           by: S.me, at: new Date().toISOString(),
         });
         closeForm();
-        toast(it ? "Price updated." : "Drink added.");
+        toast(earnedNote(it ? "Price updated." : "Drink added."));
         select(venueId);
+        refreshScores();
       } catch (ex) {
         err(writeError(ex));
         $("mSubmit").disabled = false;
@@ -1664,33 +1738,163 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   $("gateYes").addEventListener("click", () => { store.set("tf-21", "yes"); $("gate").hidden = true; });
   $("gateNo").addEventListener("click", () => { $("gateMsg").hidden = false; });
 
-  // ---------- editor sign-in (Supabase build) ----------
-  // Contributors never sign in (they get a silent anonymous session); editors get an email link.
-  if (window.TFBackend) {
-    $("editorBtn").hidden = false;
-    $("editorBtn").addEventListener("click", async () => {
-      const email = await window.TFBackend.editorEmail();
-      form.innerHTML = email
-        ? `<h2>Editor</h2><p class="sub">Signed in as ${esc(email)}.</p>
-           <div class="form-actions"><button class="btn" type="button" id="eCancel">Close</button><button class="btn primary" type="submit">Sign out</button></div>`
-        : `<h2>Editor sign-in</h2><p class="sub">For the TabFriendly team. We'll email you a sign-in link. Anyone can post prices without signing in.</p>
-           <div class="field"><label for="eEmail">Email</label><input id="eEmail" type="email" autocomplete="email" required></div>
-           <p class="form-err" id="eErr" hidden></p>
-           <div class="form-actions"><button class="btn" type="button" id="eCancel">Cancel</button><button class="btn primary" type="submit" id="eSubmit">Email me a link</button></div>`;
-      $("eCancel").onclick = closeForm;
+  // ---------- accounts and leaderboard (Supabase build) ----------
+  // Everyone browses and posts without signing in. Signing in (an email link) makes an account: points, a place on the
+  // leaderboard, and editor tools for the team. Points are worked out by the database (supabase/leaderboard.sql).
+  const TF = window.TFBackend || null;
+  const WHAT = { price: "Posted a price", confirmed: "Price confirmed", rejected: "Price rejected", drink: "Added a drink",
+    bar: "Added a bar", vote: "Vote matched the final call", checkin: "Still-accurate check-in" };
+  const fmtPts = (n) => (n > 0 ? "+" : "") + (Math.round(n * 10) / 10).toFixed(Math.abs(n % 1) > 0.04 ? 1 : 0);
+  function earnedNote(msg) {
+    if (!TF) return msg + " Thanks!";
+    return S.acct && !S.acct.anonymous ? `${msg} Points come in as others confirm it.` : `${msg} Sign in to earn points for posts like this.`;
+  }
+  function acctLabel() {
+    const a = S.acct;
+    $("acctBtn").querySelector("span").textContent = !a || a.anonymous ? "Sign in" : S.mine && S.mine.name ? S.mine.name : "Set your name";
+  }
+  async function refreshScores() {
+    if (!TF) return;
+    try {
+      S.acct = await TF.account();
+      S.mine = S.acct ? await TF.rpc("tf_me") : null;
+    } catch { /* offline: keep what we had */ }
+    acctLabel();
+  }
+  async function loadBoardsExtras() {
+    if (!TF) return;
+    try {
+      const [mayors, bounties] = await Promise.all([TF.rpc("tf_mayors"), TF.rpc("tf_bounties")]);
+      S.mayors = new Map((mayors || []).map((m) => [m.venue_id, m.name]));
+      S.bounties = new Map();
+      for (const b of bounties || []) (S.bounties.get(b.venue_id) || S.bounties.set(b.venue_id, []).get(b.venue_id)).push(b.kind);
+      S.bountyList = bounties || [];
+      render();
+    } catch { /* leave the last ones */ }
+  }
+  const HOW = `<details class="how"><summary>How points work</summary><ul>
+      <li>Post a price: +2 now, +8 more once it's confirmed (net votes reach about +3, or someone else posts the same drink within $0.50). A rejected price costs 5.</li>
+      <li>First price at a bar: 2x. Filling a gap (a bounty: no price in 45 days): 3x. Updating a price over 30 days old: 1.5x.</li>
+      <li>"Still accurate" (an upvote on an older price): +1, once a week per price. A new drink on a menu: +1. A new bar: +5 once someone else posts a price there.</li>
+      <li>Votes earn +0.5 when they match the final call, up to 10 a day. You can't vote on your own prices.</li>
+      <li>Points scale with how often your prices hold up (0.5x to 1.5x), and several posts at one bar on one day count for less.</li>
+    </ul></details>`;
+
+  function openAccount() {
+    const a = S.acct, m = S.mine;
+    if (!a || a.anonymous) {
+      form.innerHTML = `<h2>Sign in</h2>
+        <p class="sub">Earn points, get on the leaderboard and keep your contributions. No password: we email you a link.
+          Your posts and votes from this browser come with you. You can keep posting without an account, but you won't earn points.</p>
+        ${a && a.pendingEmail ? `<div class="notice">We sent a link to ${esc(a.pendingEmail)}. Open it to finish creating your account.</div>` : ""}
+        <div class="field"><label for="aEmail">Email</label><input id="aEmail" type="email" autocomplete="email" required></div>
+        <p class="form-err" id="aErr" hidden></p>
+        <div class="form-actions"><button class="btn" type="button" id="aCancel">Cancel</button><button class="btn primary" type="submit" id="aSubmit">Email me a link</button></div>${HOW}`;
       form.onsubmit = async (e) => {
         e.preventDefault();
-        if (email) return window.TFBackend.signOut();
-        const addr = $("eEmail").value.trim();
-        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(addr)) { $("eErr").textContent = "Enter your email address."; $("eErr").hidden = false; return; }
-        $("eSubmit").disabled = true;
-        try { await window.TFBackend.signInEditor(addr); closeForm(); toast("Check your email for the sign-in link."); }
-        catch { $("eErr").textContent = "Couldn't send the link. Try again in a minute."; $("eErr").hidden = false; $("eSubmit").disabled = false; }
+        const addr = $("aEmail").value.trim();
+        const err = (t) => { $("aErr").textContent = t; $("aErr").hidden = false; };
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(addr)) return err("Enter your email address.");
+        $("aSubmit").disabled = true;
+        try {
+          const how = await TF.signIn(addr);
+          closeForm();
+          toast(how === "verify" ? `Check ${addr} for a link to finish creating your account.` : `Check ${addr} for your sign-in link.`);
+          refreshScores();
+        } catch { err("Couldn't send the link. Try again in a minute."); $("aSubmit").disabled = false; }
       };
-      overlay.hidden = false;
-      if (!email) setTimeout(() => $("eEmail").focus(), 30);
-    });
-    window.TFBackend.editorEmail().then((em) => { if (em) $("editorBtn").textContent = "Editor ✓"; });
+    } else if (!m || !m.name) {
+      form.innerHTML = `<h2>Pick a display name</h2>
+        <p class="sub">It's what the leaderboard shows. Signed in as ${esc(a.email || "")}.</p>
+        <div class="field"><label for="aName">Display name</label><input id="aName" maxlength="24" autocomplete="nickname" placeholder="e.g. Cheap Pint Hunter" required></div>
+        <p class="form-err" id="aErr" hidden></p>
+        <div class="form-actions"><button class="btn" type="button" id="aCancel">Later</button><button class="btn primary" type="submit" id="aSubmit">Save</button></div>`;
+      form.onsubmit = saveName;
+    } else {
+      const done = m.confirmed + m.rejected;
+      const recent = (m.recent || []).map((x) => `<div class="act"><span>${esc(WHAT[x.what] || x.what)}${x.held ? " (pending)" : ""}</span><span class="ap${x.points < 0 ? " neg" : ""}">${esc(fmtPts(x.points))}</span>`
+        + `<span class="am">${esc(S.venues.get(x.venue_id)?.name || "")}${x.venue_id ? " · " : ""}${esc(fmtDay(x.at))}</span></div>`).join("");
+      form.innerHTML = `<h2>${esc(m.name)}</h2>
+        <p class="sub">Signed in as ${esc(a.email || "")}${a.editor ? " · editor" : ""}.</p>
+        <div class="stats"><div><b>${esc(fmtPts(m.week).replace("+", ""))}</b><span>This week</span></div><div><b>${esc(fmtPts(m.month).replace("+", ""))}</b><span>This month</span></div><div><b>${esc(fmtPts(m.all).replace("+", ""))}</b><span>All time</span></div></div>
+        ${m.held > 0 ? `<p class="fine">${esc(fmtPts(m.held))} more waiting on confirmation.</p>` : ""}
+        <p class="fine">${m.posted} ${m.posted === 1 ? "price" : "prices"} posted: ${m.confirmed} confirmed, ${m.rejected} rejected, ${m.pending} waiting${done ? ` · ${Math.round((100 * m.confirmed) / done)}% held up` : ""}.</p>
+        ${recent ? `<h3>Recent</h3>${recent}` : ""}
+        <h3>Display name</h3>
+        <div class="field"><input id="aName" maxlength="24" aria-label="Display name" value="${esc(m.name)}"></div>
+        <p class="form-err" id="aErr" hidden></p>
+        <div class="form-actions"><button class="btn danger" type="button" id="aOut">Sign out</button><span style="flex:1"></span><button class="btn" type="button" id="aCancel">Close</button><button class="btn primary" type="submit" id="aSubmit">Save name</button></div>${HOW}`;
+      $("aOut").onclick = () => TF.signOut();
+      form.onsubmit = saveName;
+    }
+    $("aCancel").onclick = closeForm;
+    overlay.hidden = false;
+    setTimeout(() => ($("aEmail") || $("aName"))?.focus(), 30);
+  }
+  async function saveName(e) {
+    e.preventDefault();
+    const err = (t) => { $("aErr").textContent = t; $("aErr").hidden = false; };
+    $("aSubmit").disabled = true;
+    try {
+      await TF.rpc("tf_set_name", { name: $("aName").value });
+      await refreshScores();
+      closeForm();
+      toast("Name saved.");
+    } catch (ex) {
+      err(ex.code === "name_taken" ? "Someone already has that name." : ex.code === "bad_name" ? "Use 2-24 letters, numbers, spaces, . _ - or '." : "Couldn't save right now. Try again.");
+      $("aSubmit").disabled = false;
+    }
+  }
+
+  const areaNames = AREAS.map((a) => a[0]).sort();
+  const lb = { period: "week", area: "" };
+  async function openLeaderboard() {
+    const draw = (rows, err) => {
+      const a = S.acct;
+      const list = err ? `<p class="notice">Couldn't load the leaderboard. Try again in a minute.</p>`
+        : !rows ? `<p class="list-note">Loading…</p>`
+        : !rows.length ? `<p class="list-note">No points yet ${lb.period === "all" ? "" : lb.period === "week" ? "this week" : "this month"}${lb.area ? " in " + esc(lb.area) : ""}. Post a price to get on the board.</p>`
+        : rows.map((r) => `<div class="lb-row${r.me ? " me" : ""}"><span class="rk">${r.rank}</span><span class="nm">${esc(r.name)}${r.me ? " (you)" : ""}</span><span class="pt">${esc(String(r.points))}</span></div>`).join("");
+      const bl = (S.bountyList || []).slice(0, 8).map((b) => `<button class="bnty" type="button" data-bv="${esc(b.venue_id)}"><span>${esc(S.venues.get(b.venue_id)?.name || b.venue_id)}</span><span class="bounty-chip">3x</span>`
+        + `<small>${b.kind === "beer" ? "Cheapest beer" : "Cheapest mixed drink"}: ${b.last_at ? "last price " + esc(fmtDay(b.last_at)) : "no price yet"}</small></button>`).join("");
+      form.innerHTML = `<h2>Leaderboard</h2>
+        <p class="sub">Points for prices that other people confirm. ${!a || a.anonymous ? "Sign in to get on the board." : ""}</p>
+        <div class="lb-bar"><div class="seg seg3" role="group" aria-label="Period">
+          ${["week", "month", "all"].map((p) => `<button type="button" data-lbp="${p}" aria-pressed="${lb.period === p}">${p === "week" ? "This week" : p === "month" ? "This month" : "All time"}</button>`).join("")}</div>
+          <select id="lbArea" aria-label="Neighborhood"><option value="">All neighborhoods</option>${areaNames.map((n) => `<option${lb.area === n ? " selected" : ""}>${esc(n)}</option>`).join("")}</select></div>
+        ${list}
+        ${bl ? `<h3>Bounties: 3x points</h3><p class="fine">These bars have no fresh price for one of their cheapest drinks.</p>${bl}` : ""}
+        ${HOW}
+        <div class="form-actions">${!a || a.anonymous ? `<button class="btn" type="button" id="lbSignIn">Sign in</button>` : ""}<button class="btn primary" type="button" id="lbClose">Close</button></div>`;
+      $("lbClose").onclick = closeForm;
+      $("lbSignIn")?.addEventListener("click", openAccount);
+      form.querySelectorAll("[data-lbp]").forEach((b) => b.addEventListener("click", () => { lb.period = b.dataset.lbp; load(); }));
+      $("lbArea").onchange = (e) => { lb.area = e.target.value; load(); };
+      form.querySelectorAll("[data-bv]").forEach((b) => b.addEventListener("click", () => { closeForm(); select(b.dataset.bv, true); }));
+    };
+    const load = async () => {
+      draw(null);
+      try { draw(await TF.rpc("tf_leaderboard", { period: lb.period, area: lb.area || null })); } catch { draw(null, true); }
+    };
+    form.onsubmit = (e) => e.preventDefault();
+    overlay.hidden = false;
+    load();
+  }
+
+  if (TF) {
+    document.body.classList.add("has-acct");
+    $("acctBtn").hidden = false;
+    $("lbBtn").hidden = false;
+    $("acctBtn").addEventListener("click", async () => { await refreshScores(); openAccount(); });
+    $("lbBtn").addEventListener("click", openLeaderboard);
+    (async () => {
+      const moved = await TF.finishClaim().catch(() => 0);
+      await refreshScores();
+      if (moved) toast(`Signed in. Your ${moved} earlier ${moved === 1 ? "post" : "posts"} from this browser now count toward your points.`);
+      else if (S.acct && !S.acct.anonymous && S.mine && !S.mine.name) openAccount();
+      loadBoardsExtras();
+      setInterval(loadBoardsExtras, 120000);
+    })();
   }
 
   // ---------- data ----------
@@ -1742,6 +1946,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     db.collection("votes").limit(1000).onSnapshot((snap) => {
       S.votes = new Map(snap.docs.map((d) => [d.id, d.data() || {}]));
       render();
+    }, onErr);
+    db.collection("checks").limit(1000).onSnapshot((snap) => {
+      S.checks = new Map(snap.docs.map((d) => [d.id, (d.data() || {}).at]));
+      indexMenus(); render();
     }, onErr);
   })();
 })();

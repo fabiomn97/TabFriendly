@@ -70,14 +70,16 @@ The same `app/` runs outside claude.ai: `app/supa-db.js` provides the app's data
 
 - **Contributors** never sign in: the site gives each browser a silent anonymous Supabase session, so votes, "your report"
   and posting limits still work. At most 20 new venues, prices and photos per person per hour.
-- **Editors** tap **Editor** in the header and get an email sign-in link. Only emails listed in `public.editors` can
-  hide, delete, or edit menus and hours.
+- **Accounts:** anyone can tap **Sign in** and get an email link. A new email turns the browser's anonymous session into
+  an account, keeping its posts and votes; an existing account signs in, and that browser's anonymous posts move over.
+  Accounts pick a display name and earn points (see Leaderboard below).
+- **Editors** sign in the same way. Only emails listed in `public.editors` can hide, delete, or edit menus and hours.
 
 One-time setup:
 
 1. Supabase project `brcwtiffgiojqnmfvaui` (URL and anon key are in `app/supa-db.js`; the anon key is public by design).
 2. **Authentication → Sign In / Providers:** turn on **Allow anonymous sign-ins**.
-3. **SQL Editor:** run `supabase/schema.sql`, then add editors:
+3. **SQL Editor:** run `supabase/schema.sql`, then `supabase/leaderboard.sql`, then add editors:
    `insert into public.editors (email) values ('you@mit.edu') on conflict do nothing;`
 4. Load the data: `python tools/export_supabase.py <dump dir>` writes `supabase/data/01.sql`, `02.sql`, ...;
    run them in order in the SQL Editor. (The dump is the claude.ai database exported per collection; these files hold
@@ -85,3 +87,30 @@ One-time setup:
 5. **Vercel:** import the GitHub repo, set **Root Directory** to `app`, no build command. Every push to `main` deploys.
 6. **Authentication → URL Configuration:** set **Site URL** to the Vercel address (e.g. `https://tabfriendly.vercel.app`)
    and add it to **Redirect URLs**, so editors' sign-in links land on the site.
+
+## Leaderboard
+
+`supabase/leaderboard.sql` scores contributions in the database, so the page can't award itself points. It follows the
+team's scoring brief: points are held until other people confirm a price, and every award scales with a hidden trust score.
+
+- **Prices:** +2 when posted and +8 more once confirmed. A price is confirmed when its net votes reach +3, or when
+  another account posts the same drink within $0.50 in 30 days. It's rejected (−5, replacing the +2) at −3, when an
+  editor hides it, or when someone else's different price is confirmed while it's still open.
+- **Multipliers:** first price at a bar ×2; filling a bounty (no price for that drink or cheapest-of-kind in 45 days) ×3;
+  updating a price over 30 days old ×1.5. A 2nd, 3rd... post at one bar on one day counts ½, ⅓...
+- **Other points:** an upvote on an established price is a "still accurate" check-in: +1, once per price per person per
+  week, and it renews the price's six-month clock. A new drink on a menu earns +1. A new bar earns +5 once someone else
+  posts a price there. A vote that matches the final call earns +0.5, up to 10 a day. Votes on your own prices don't count.
+- **Trust:** confirmed ÷ resolved prices, smoothed so new accounts start at 0.5. Points are multiplied by 0.5 + trust
+  (0.5×–1.5×), and votes weigh the same; votes from browsers without an account weigh 0.5.
+- **Boards:** this week, this month and all time, each also by neighborhood (the nearest map label to each bar).
+  Bar mayors hold the most confirmed points at a bar over 60 days. Bounties list bars whose cheapest beer or mixed
+  drink has no price in 45 days.
+- **Not done yet:** the GPS on-site bonus and the Google Places check for new bars are placeholders (`onsite_x` and
+  `tf_places_match`). Leagues, friend boards and streaks are for a later round. Editors can list possible vote rings
+  with `select * from tf_vote_clusters();`.
+
+All the numbers are in `tf_cfg()` at the top of the file. Contributions from the claude.ai era can't be scored: they
+belong to claude.ai identities, not Supabase accounts.
+
+To try the account screens locally, open `_dev.html?tf=anon`, `?tf=noname` or `?tf=acct` (made-up scores).
