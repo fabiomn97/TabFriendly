@@ -1780,14 +1780,18 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       <li>Points scale with how often your prices hold up (0.5x to 1.5x), and several posts at one bar on one day count for less.</li>
     </ul></details>`;
 
-  function openAccount() {
+  // Each new link replaces the last one, so ask people to wait a minute between links (and use the newest email).
+  const LINK_WAIT_S = 60;
+  const linkWait = () => Math.ceil(Math.max(0, LINK_WAIT_S - (Date.now() - Number(store.get("tf-link-at") || 0)) / 1000));
+  function openAccount(notice) {
     const a = S.acct, m = S.mine;
     if (!a || a.anonymous) {
       form.innerHTML = `<h2>Sign in</h2>
         <p class="sub">Earn points, get on the leaderboard and keep your contributions. No password: we email you a link.
           Your posts and votes from this browser come with you. You can keep posting without an account, but you won't earn points.</p>
-        ${a && a.pendingEmail ? `<div class="notice">We sent a link to ${esc(a.pendingEmail)}. Open it to finish creating your account.</div>` : ""}
+        ${notice ? `<div class="notice">${esc(notice)}</div>` : ""}
         <div class="field"><label for="aEmail">Email</label><input id="aEmail" type="email" autocomplete="email" required></div>
+        <p class="fine">Open the link in this browser. If you get more than one email, use the newest: each link replaces the one before.</p>
         <p class="form-err" id="aErr" hidden></p>
         <div class="form-actions"><button class="btn" type="button" id="aCancel">Cancel</button><button class="btn primary" type="submit" id="aSubmit">Email me a link</button></div>${HOW}`;
       form.onsubmit = async (e) => {
@@ -1795,13 +1799,19 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
         const addr = $("aEmail").value.trim();
         const err = (t) => { $("aErr").textContent = t; $("aErr").hidden = false; };
         if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(addr)) return err("Enter your email address.");
+        if (linkWait()) return err(`We just sent a link. Check your email, or wait ${linkWait()} seconds to ask for another.`);
         $("aSubmit").disabled = true;
         try {
-          const how = await TF.signIn(addr);
+          await TF.signIn(addr);
+          store.set("tf-link-at", String(Date.now()));
           closeForm();
-          toast(how === "verify" ? `Check ${addr} for a link to finish creating your account.` : `Check ${addr} for your sign-in link.`);
-          refreshScores();
-        } catch { err("Couldn't send the link. Try again in a minute."); $("aSubmit").disabled = false; }
+          toast(`Check ${addr} for your sign-in link, and open it in this browser.`);
+        } catch (ex) {
+          err(ex && ex.code === "email_limit" ? "Too many sign-in emails were sent in the last hour. Try again later."
+            : ex && ex.code === "too_soon" ? "Please wait a minute before asking for another link."
+            : `Couldn't send the link${ex && ex.message ? ` (${ex.message})` : ""}. Try again in a minute.`);
+          $("aSubmit").disabled = false;
+        }
       };
     } else if (!m || !m.name) {
       form.innerHTML = `<h2>Pick a display name</h2>
@@ -1888,10 +1898,18 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     $("acctBtn").addEventListener("click", async () => { await refreshScores(); openAccount(); });
     $("lbBtn").addEventListener("click", openLeaderboard);
     (async () => {
+      const linkErr = await TF.linkResult().catch(() => null);
       const moved = await TF.finishClaim().catch(() => 0);
       await refreshScores();
-      if (moved) toast(`Signed in. Your ${moved} earlier ${moved === 1 ? "post" : "posts"} from this browser now count toward your points.`);
-      else if (S.acct && !S.acct.anonymous && S.mine && !S.mine.name) openAccount();
+      if (linkErr && (!S.acct || S.acct.anonymous)) {
+        openAccount(/expired|invalid|otp/i.test(linkErr.code + " " + linkErr.message)
+          ? "That sign-in link expired or was replaced by a newer one. Ask for a new link below, and use the newest email."
+          : `That sign-in link didn't work${linkErr.message ? ` (${linkErr.message})` : ""}. Ask for a new one below.`);
+      } else {
+        if (moved) toast(`Signed in. Your ${moved} earlier ${moved === 1 ? "post" : "posts"} from this browser now count toward your points.`);
+        // signed in without a display name (first time back from the email link): ask for one right away
+        if (S.acct && !S.acct.anonymous && !(S.mine && S.mine.name)) openAccount();
+      }
       loadBoardsExtras();
       setInterval(loadBoardsExtras, 120000);
     })();
