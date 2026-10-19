@@ -62,3 +62,26 @@ Then open http://localhost:8765/_dev.html. It runs the app against an in-memory 
 Add `?viewer` to the URL to see the read-only view.
 
 Map data © OpenStreetMap contributors (ODbL).
+
+## Hosting on Supabase + Vercel
+
+The same `app/` runs outside claude.ai: `app/supa-db.js` provides the app's database and user API on Supabase
+(Postgres tables of `{id, data}`, Realtime for live updates, Auth for identity). On claude.ai that file does nothing.
+
+- **Contributors** never sign in: the site gives each browser a silent anonymous Supabase session, so votes, "your report"
+  and posting limits still work. At most 20 new venues, prices and photos per person per hour.
+- **Editors** tap **Editor** in the header and get an email sign-in link. Only emails listed in `public.editors` can
+  hide, delete, or edit menus and hours.
+
+One-time setup:
+
+1. Supabase project `brcwtiffgiojqnmfvaui` (URL and anon key are in `app/supa-db.js`; the anon key is public by design).
+2. **Authentication → Sign In / Providers:** turn on **Allow anonymous sign-ins**.
+3. **SQL Editor:** run `supabase/schema.sql`, then add editors:
+   `insert into public.editors (email) values ('you@mit.edu') on conflict do nothing;`
+4. Load the data: `python tools/export_supabase.py <dump dir>` writes `supabase/data/01.sql`, `02.sql`, ...;
+   run them in order in the SQL Editor. (The dump is the claude.ai database exported per collection; these files hold
+   user posts and photos, so they're git-ignored.)
+5. **Vercel:** import the GitHub repo, set **Root Directory** to `app`, no build command. Every push to `main` deploys.
+6. **Authentication → URL Configuration:** set **Site URL** to the Vercel address (e.g. `https://tabfriendly.vercel.app`)
+   and add it to **Redirect URLs**, so editors' sign-in links land on the site.
