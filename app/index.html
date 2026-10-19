@@ -785,6 +785,15 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   const ppo = (d) => (d && d.oz ? d.price / d.oz : null);
   const val = (r) => (S.unit === "oz" ? ppo(r) : r.price);
   const centsOz = (d) => Math.round(ppo(d) * 100) + "¢";
+  // Per ounce: the drink of one kind with the lowest price per ounce (only drinks with a known pour size).
+  function bestPerOz(venueId, kind) {
+    const ds = drinksAt(venueId).filter((d) => d.kind === kind && d.oz && (kind !== "wine" || sizeOf(d) === "wbottle"));
+    const r = current(venueId, kind);
+    if (r && r.oz && sizeOk(r) && !ds.includes(r)) ds.push(r);
+    return ds.sort((a, b) => ppo(a) - ppo(b))[0] || null;
+  }
+  // Cheapest first: by total price, or per ounce (drinks without a known size last).
+  const byValue = (a, b) => (S.unit === "oz" ? (ppo(a) ?? Infinity) - (ppo(b) ?? Infinity) : 0) || a.price - b.price;
   // Every candidate drink for the current view: the ticked drinks, or the mode's kinds plus the cheapest reports.
   function pool(venueId, mode) {
     if (S.types.size) return matches(venueId);
@@ -1185,8 +1194,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   const canPost = () => S.canWrite !== false && !S.readOnlyAfterRefusal && S.dbState === "ready";
 
   function drinkBlock(v, kind) {
-    const r = best(v.id, kind);
-    const label = (kind === "beer" ? "Cheapest beer" : kind === "wine" ? "Cheapest bottle of wine" : "Cheapest mixed drink") + (r && kind !== "wine" && isShare(r) ? ", to share" : "");
+    // per ounce, the box shows the drink with the lowest price per ounce; without a known size, the cheapest overall
+    const ro = S.unit === "oz" ? bestPerOz(v.id, kind) : null;
+    const r = ro || best(v.id, kind);
+    const label = (kind === "beer" ? "Cheapest beer" : kind === "wine" ? "Cheapest bottle of wine" : "Cheapest mixed drink")
+      + (ro ? " per ounce" : "") + (r && kind !== "wine" && isShare(r) ? ", to share" : "");
     const isBest = r && S.best.has(v.id) && pick(v.id) === r;
     const bounty = (S.bounties.get(v.id) || []).includes(kind);
     let h = `<div class="drink${isBest ? " best" : ""}"><span class="drink-k">${label}${isBest ? '<span class="best-chip">Top 3 nearby</span>' : ""}${bounty ? '<span class="bounty-chip" title="No fresh price in 45 days: posting one earns 3x points">3x bounty</span>' : ""}</span>`;
@@ -1201,7 +1213,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       if (kind === "beer") {
         if (r.oz) tags.push(r.oz + " oz", perOz(r)); else tags.push("pour size not listed");
       }
-      h += `<span class="drink-p">${esc(money(r.price))}</span><span class="drink-d"><strong>${esc(cleanName(r))}</strong><span class="drink-tags">${tags.map((t) => `<span>${esc(t)}</span>`).join("")}</span></span>`;
+      if (ro) tags.splice(0, tags.length, ...[SERVE_LABEL[serveOf(r)], money(r.price) + " · " + r.oz + " oz"].filter(Boolean));
+      h += `<span class="drink-p">${esc(ro ? centsOz(r) + "/oz" : money(r.price))}</span><span class="drink-d"><strong>${esc(cleanName(r))}</strong><span class="drink-tags">${tags.map((t) => `<span>${esc(t)}</span>`).join("")}</span></span>`;
       if (r.source === "user") {
         const t = tally(r.id);
         const disputed = t.down > t.up;
@@ -1259,7 +1272,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   }
   // The ticked drinks this venue has, cheapest first.
   function mineBlock(v) {
-    const ms = matches(v.id);
+    const ms = matches(v.id).sort(byValue);
     return `<section class="mine"><h3>Your drinks here</h3>`
       + (ms.length ? ms.map((d, i) => menuRow(d, i === 0)).join("") : `<p class="photo-empty">None of the drinks you picked are on this venue's menu.</p>`) + `</section>`;
   }
@@ -1270,7 +1283,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     let h = `<details class="hist menu" id="menuDet"${S.menuOpen ? " open" : ""}><summary>Full drink menu (${items.length})</summary>`;
     if (!items.length) h += `<p class="photo-empty">No drink menu yet.</p>`;
     for (const kind of Object.keys(KIND_LABEL)) {
-      const ks = items.filter((it) => it.kind === kind).sort((a, b) => isShare(a) - isShare(b) || a.price - b.price || a.drink.localeCompare(b.drink));
+      const ks = items.filter((it) => it.kind === kind).sort((a, b) => isShare(a) - isShare(b) || byValue(a, b) || a.drink.localeCompare(b.drink));
       if (ks.length) h += `<h4>${KIND_LABEL[kind]}</h4>` + ks.map((it, i) => menuRow(it, i === 0)).join("");
     }
     const stale = S.menuStale.get(v.id) || 0;
@@ -1283,7 +1296,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const m = S.menus.get(v.id);
     if (m) {
       const srcs = (Array.isArray(m.sources) ? m.sources : []).map(safeUrl).filter(Boolean);
-      h += `<p class="menu-src">${srcs.length ? "From " + srcs.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>`).join(", ") : "From published menus"}, ${esc(checked(m.sourceDate))}. Regular prices; happy hours aren't included. Cheapest of each kind in green.</p>`;
+      h += `<p class="menu-src">${srcs.length ? "From " + srcs.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))}</a>`).join(", ") : "From published menus"}, ${esc(checked(m.sourceDate))}. Regular prices; happy hours aren't included. Cheapest of each kind${S.unit === "oz" ? " per ounce" : ""} in green.</p>`;
     }
     return h + `</details>`;
   }
