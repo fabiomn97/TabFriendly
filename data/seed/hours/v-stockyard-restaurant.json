@@ -1,0 +1,16 @@
+{
+ "venueId": "v-stockyard-restaurant",
+ "hours": {
+  "mon": "15:00-21:00",
+  "tue": "15:00-21:00",
+  "wed": "15:00-21:00",
+  "thu": "12:00-21:00",
+  "fri": "12:00-22:00",
+  "sat": "12:00-22:00",
+  "sun": "12:00-21:00"
+ },
+ "source": "https://www.stockyardrestaurant.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Lone Star Taco Bar",
+ "type": "restaurant",
+ "address": "477 Cambridge St, Boston, MA 02134",
+ "lat": 42.35388,
+ "lng": -71.137025,
+ "website": "https://lonestar-boston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

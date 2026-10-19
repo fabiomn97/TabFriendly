@@ -1,0 +1,12 @@
+{
+ "name": "Rocco's Cucina & Bar",
+ "type": "restaurant",
+ "address": "450 Commercial Street, Boston, MA 02113",
+ "lat": 42.367347,
+ "lng": -71.053371,
+ "website": "https://roccoscucina.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

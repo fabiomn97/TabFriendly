@@ -1,0 +1,14 @@
+{
+ "venueId": "v-tavolo",
+ "kind": "mixed",
+ "drink": "Il Classico Bloody Mary",
+ "price": 12.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://tavolodotave.com/restaurant-menu/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

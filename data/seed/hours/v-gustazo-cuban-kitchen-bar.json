@@ -1,0 +1,16 @@
+{
+ "venueId": "v-gustazo-cuban-kitchen-bar",
+ "hours": {
+  "mon": "closed",
+  "tue": "17:00-21:00",
+  "wed": "17:00-21:00",
+  "thu": "17:00-21:00",
+  "fri": "17:00-22:00",
+  "sat": "11:00-15:00,17:00-22:00",
+  "sun": "11:00-15:00,17:00-21:00"
+ },
+ "source": "https://www.gustazo-cubancafe.com/hours-of-operation-cambridge/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

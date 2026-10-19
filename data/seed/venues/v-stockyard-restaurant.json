@@ -1,0 +1,12 @@
+{
+ "name": "Stockyard Restaurant",
+ "type": "restaurant",
+ "address": "135 Market St, Boston, MA 02135",
+ "lat": 42.357773,
+ "lng": -71.148617,
+ "website": "https://www.stockyardrestaurant.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

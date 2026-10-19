@@ -1,0 +1,14 @@
+{
+ "venueId": "v-rail-stop-restaurant-bar",
+ "kind": "beer",
+ "drink": "Bud Light",
+ "price": 5.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.railstopboston.com/menus/bar/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

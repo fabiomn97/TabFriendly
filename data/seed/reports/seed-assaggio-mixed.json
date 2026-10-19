@@ -1,0 +1,14 @@
+{
+ "venueId": "v-assaggio",
+ "kind": "mixed",
+ "drink": "Tito's Doli",
+ "price": 17.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.assaggioboston.com/wine.html",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

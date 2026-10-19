@@ -1,10 +1,12 @@
-"""Append new research files to data/venues.json, keeping only venues inside the radius that aren't already listed.
+"""Append new research files to data/venues.json, keeping only venues inside Boston or Cambridge that aren't already listed.
 
 Each file is a JSON list in the data/venues.json shape (plus an optional "miles", which is recomputed from lat/lng).
 Usage: python tools/add_research.py [--keep-unpriced] <research.json> [<research.json> ...]
   --keep-unpriced  also add venues with no sourced price (they show as gray "?" pins); sprint 2 adds every researched venue.
 """
 import json, math, os, re, sys
+
+from area import in_area
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = os.path.join(ROOT, "data", "venues.json")
@@ -40,9 +42,8 @@ keep_unpriced = "--keep-unpriced" in sys.argv
 for f in [a for a in sys.argv[1:] if not a.startswith("--")]:
     for v in json.load(open(f, encoding="utf-8")):
         v.pop("miles", None)
-        d = dist_mi(v["lat"], v["lng"])
-        if d > RADIUS_MI:
-            print(f"skip (outside radius, {d:.2f} mi): {v['name']}")
+        if not in_area(v["lat"], v["lng"]):
+            print(f"skip (outside the coverage area): {v['name']}")
             continue
         for k in ("beer", "mixed"):
             if v.get(k) and not priced(v[k]):

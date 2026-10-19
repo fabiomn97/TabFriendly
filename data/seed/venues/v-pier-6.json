@@ -1,0 +1,12 @@
+{
+ "name": "Pier 6",
+ "type": "restaurant",
+ "address": "1 8th St, Charlestown, MA 02129",
+ "lat": 42.373043,
+ "lng": -71.049966,
+ "website": "https://www.pier6boston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-broken-records",
+ "hours": {
+  "mon": "16:00-23:00",
+  "tue": "16:00-21:00",
+  "wed": "16:00-22:00",
+  "thu": "16:00-22:00",
+  "fri": "16:00-24:00",
+  "sat": "15:00-23:00",
+  "sun": "16:00-23:00"
+ },
+ "source": "https://www.brokenrecordsbeerhall.com/location/broken-records/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

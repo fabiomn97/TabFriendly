@@ -1,0 +1,12 @@
+{
+ "name": "Santarpio's Pizza",
+ "type": "restaurant",
+ "address": "111 Chelsea St, East Boston, MA 02128",
+ "lat": 42.372669,
+ "lng": -71.035342,
+ "website": "https://www.santarpiospizza.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

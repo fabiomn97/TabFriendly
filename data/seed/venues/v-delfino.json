@@ -1,0 +1,12 @@
+{
+ "name": "Delfino",
+ "type": "restaurant",
+ "address": "754 South St, Roslindale, MA 02131",
+ "lat": 42.287029,
+ "lng": -71.129481,
+ "website": "https://delfinorestaurant.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

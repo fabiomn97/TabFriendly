@@ -1,0 +1,16 @@
+{
+ "venueId": "v-castle-island-brewing-co-south-boston-taproom",
+ "hours": {
+  "mon": "16:00-22:00",
+  "tue": "16:00-22:00",
+  "wed": "11:00-22:00",
+  "thu": "11:00-22:00",
+  "fri": "11:00-00:00",
+  "sat": "11:00-00:00",
+  "sun": "11:00-22:00"
+ },
+ "source": "https://www.castleislandbeer.com/southie",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

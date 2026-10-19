@@ -1,0 +1,12 @@
+{
+ "name": "La Hacienda Restaurant & Bar",
+ "type": "restaurant",
+ "address": "150 Meridian St, East Boston, MA 02128",
+ "lat": 42.373922,
+ "lng": -71.039215,
+ "website": "https://www.lahaciendaboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

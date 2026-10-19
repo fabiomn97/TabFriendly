@@ -1,0 +1,16 @@
+{
+ "venueId": "v-frank-s-steak-house",
+ "hours": {
+  "mon": "16:00-21:00",
+  "tue": "16:00-21:00",
+  "wed": "16:00-21:00",
+  "thu": "16:00-21:00",
+  "fri": "16:00-21:00",
+  "sat": "16:00-21:00",
+  "sun": "16:00-21:00"
+ },
+ "source": "https://www.frankssteakhouse.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

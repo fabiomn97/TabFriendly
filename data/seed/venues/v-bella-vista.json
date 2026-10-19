@@ -1,0 +1,12 @@
+{
+ "name": "Bella Vista",
+ "type": "restaurant",
+ "address": "288 Hanover Street, Boston, MA 02113",
+ "lat": 42.363976,
+ "lng": -71.054489,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

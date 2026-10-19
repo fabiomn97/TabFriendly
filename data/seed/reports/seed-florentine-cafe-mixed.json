@@ -1,0 +1,14 @@
+{
+ "venueId": "v-florentine-cafe",
+ "kind": "mixed",
+ "drink": "Bloody Mary",
+ "price": 14.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.florentinecafeboston.com/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

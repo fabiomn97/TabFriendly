@@ -1,0 +1,12 @@
+{
+ "name": "Cafe Amaro",
+ "type": "restaurant",
+ "address": "319 Hanover Street, Boston, MA 02113",
+ "lat": 42.364048,
+ "lng": -71.054038,
+ "website": "https://www.cafeamaroboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

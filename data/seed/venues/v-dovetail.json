@@ -1,0 +1,12 @@
+{
+ "name": "Dovetail",
+ "type": "restaurant",
+ "address": "1 6th St, Charlestown, MA 02129",
+ "lat": 42.3751,
+ "lng": -71.0549,
+ "website": "https://www.dovetailcharlestown.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

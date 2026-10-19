@@ -1,0 +1,12 @@
+{
+ "name": "Committee",
+ "type": "restaurant",
+ "address": "50 Northern Ave, Boston, MA 02210",
+ "lat": 42.353381,
+ "lng": -71.04615,
+ "website": "https://committeeboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

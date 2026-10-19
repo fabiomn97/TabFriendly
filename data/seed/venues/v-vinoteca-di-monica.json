@@ -1,0 +1,12 @@
+{
+ "name": "Vinoteca di Monica",
+ "type": "restaurant",
+ "address": "143 Richmond Street, Boston, MA 02109",
+ "lat": 42.363414,
+ "lng": -71.054292,
+ "website": "https://www.monicasboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

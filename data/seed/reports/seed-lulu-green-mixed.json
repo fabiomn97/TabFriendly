@@ -1,0 +1,14 @@
+{
+ "venueId": "v-lulu-green",
+ "kind": "mixed",
+ "drink": "Raspberry Lime Rickey Can (Bully Boy gin)",
+ "price": 11.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.lulugreen.com/menus/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

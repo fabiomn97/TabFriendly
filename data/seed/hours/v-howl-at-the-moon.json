@@ -1,0 +1,16 @@
+{
+ "venueId": "v-howl-at-the-moon",
+ "hours": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "closed",
+  "thu": "16:00-02:00",
+  "fri": "18:00-02:00",
+  "sat": "18:00-02:00",
+  "sun": "closed"
+ },
+ "source": "https://home.howlatthemoon.com/boston/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Birch Bar",
+ "type": "bar",
+ "address": "425 Summer St, Boston, MA 02210",
+ "lat": 42.346158,
+ "lng": -71.043305,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

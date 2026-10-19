@@ -1,0 +1,12 @@
+{
+ "name": "O'Brien's Pub",
+ "type": "bar",
+ "address": "3 Harvard Ave, Allston, MA 02134",
+ "lat": 42.355242,
+ "lng": -71.132869,
+ "website": "https://obrienspubboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

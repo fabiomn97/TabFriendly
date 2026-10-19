@@ -1,0 +1,14 @@
+{
+ "venueId": "v-carmelina-s",
+ "kind": "beer",
+ "drink": "Peroni (11 oz can)",
+ "price": 9.0,
+ "oz": 11,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://carmelinasboston.com/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

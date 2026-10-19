@@ -1,0 +1,12 @@
+{
+ "name": "Florenza",
+ "type": "restaurant",
+ "address": "164 Sumner St, East Boston, MA 02128",
+ "lat": 42.369456,
+ "lng": -71.040755,
+ "website": "https://www.florenzaboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

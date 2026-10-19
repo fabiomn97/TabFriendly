@@ -1,0 +1,12 @@
+{
+ "name": "Artu",
+ "type": "restaurant",
+ "address": "6 Prince St, Boston, MA 02113",
+ "lat": 42.364132,
+ "lng": -71.053705,
+ "website": "https://artuboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

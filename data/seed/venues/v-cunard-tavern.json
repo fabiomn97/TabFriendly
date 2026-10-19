@@ -1,0 +1,12 @@
+{
+ "name": "Cunard Tavern",
+ "type": "restaurant",
+ "address": "24 Orleans St, East Boston, MA 02128",
+ "lat": 42.367355,
+ "lng": -71.038743,
+ "website": "https://www.cunardtavern.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

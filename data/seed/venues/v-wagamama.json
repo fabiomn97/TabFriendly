@@ -1,0 +1,12 @@
+{
+ "name": "Wagamama",
+ "type": "restaurant",
+ "address": "1 South Market Street, Boston, MA 02109",
+ "lat": 42.360166,
+ "lng": -71.05418,
+ "website": "https://www.wagamama.us/restaurants/boston/boston-faneuil-hall",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

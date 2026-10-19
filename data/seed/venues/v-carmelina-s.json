@@ -1,0 +1,12 @@
+{
+ "name": "Carmelina's",
+ "type": "restaurant",
+ "address": "307 Hanover St, Boston, MA 02113",
+ "lat": 42.363873,
+ "lng": -71.054173,
+ "website": "https://carmelinasboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

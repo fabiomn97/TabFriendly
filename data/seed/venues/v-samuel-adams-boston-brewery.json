@@ -1,0 +1,12 @@
+{
+ "name": "Samuel Adams Boston Brewery",
+ "type": "bar",
+ "address": "30 Germania St, Jamaica Plain, MA 02130",
+ "lat": 42.314563,
+ "lng": -71.102614,
+ "website": "https://www.samueladams.com/taprooms/sam-adams-boston-brewery",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

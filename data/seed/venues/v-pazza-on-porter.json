@@ -1,0 +1,12 @@
+{
+ "name": "Pazza on Porter",
+ "type": "restaurant",
+ "address": "107 Porter St, Boston, MA 02128",
+ "lat": 42.373012,
+ "lng": -71.036164,
+ "website": "https://pazzaonporter.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

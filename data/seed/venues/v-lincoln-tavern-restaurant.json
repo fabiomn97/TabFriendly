@@ -1,0 +1,12 @@
+{
+ "name": "Lincoln Tavern & Restaurant",
+ "type": "bar",
+ "address": "425 W Broadway, Boston, MA 02127",
+ "lat": 42.336413,
+ "lng": -71.04746,
+ "website": "https://www.lincolnsouthboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

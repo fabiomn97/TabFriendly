@@ -1,0 +1,12 @@
+{
+ "name": "Tasca Tapas Restaurant",
+ "type": "restaurant",
+ "address": "1612 Commonwealth Ave, Boston, MA 02135",
+ "lat": 42.343361,
+ "lng": -71.142697,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

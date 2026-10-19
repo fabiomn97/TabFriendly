@@ -1,0 +1,12 @@
+{
+ "name": "Tavolo",
+ "type": "restaurant",
+ "address": "1918 Dorchester Ave, Boston, MA 02124",
+ "lat": 42.283824,
+ "lng": -71.064629,
+ "website": "https://tavolodotave.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-venezia",
+ "hours": {
+  "mon": "closed",
+  "tue": "11:30-21:30",
+  "wed": "11:30-21:30",
+  "thu": "11:30-21:30",
+  "fri": "11:30-22:00",
+  "sat": "14:00-22:00",
+  "sun": "16:00-21:00"
+ },
+ "source": "https://www.veneziaboston.com/menu-4",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

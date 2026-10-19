@@ -1,0 +1,14 @@
+{
+ "venueId": "v-peka-restaurant",
+ "kind": "beer",
+ "drink": "Peka Brew Pilsner (draft)",
+ "price": 8.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://img1.wsimg.com/blobby/go/e6fb9aa7-3124-40f3-8148-d8a27145849c/PeKa%20(2)-14486ec.pdf",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

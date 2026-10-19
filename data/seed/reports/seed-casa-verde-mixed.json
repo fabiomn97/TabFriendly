@@ -1,0 +1,14 @@
+{
+ "venueId": "v-casa-verde",
+ "kind": "mixed",
+ "drink": "Nitro Margarita",
+ "price": 13.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.casaverdejp.com/s/26729-Drink-Draft.pdf",
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

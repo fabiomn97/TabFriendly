@@ -1,0 +1,14 @@
+{
+ "venueId": "v-committee",
+ "kind": "beer",
+ "drink": "Mythos",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://committeeboston.com/wp-content/uploads/2026/06/Beverage-Booklet-09.06.26-1.pdf",
+ "sourceDate": "2026-06",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-legal-sea-foods-long-wharf",
+ "hours": {
+  "mon": "11:00-22:00",
+  "tue": "11:00-22:00",
+  "wed": "11:00-22:00",
+  "thu": "11:00-22:00",
+  "fri": "11:00-23:00",
+  "sat": "11:00-23:00",
+  "sun": "11:00-22:00"
+ },
+ "source": "https://www.timeout.com/boston/restaurants/legal-sea-foods-long-wharf",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

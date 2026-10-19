@@ -1,0 +1,12 @@
+{
+ "name": "Rail Stop Restaurant & Bar",
+ "type": "restaurant",
+ "address": "96 Guest St, Boston, MA 02135",
+ "lat": 42.357138,
+ "lng": -71.143285,
+ "website": "https://www.railstopboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-small-victories",
+ "kind": "mixed",
+ "drink": "Classics (Boulevardier/Negroni/Manhattan/Old Fashioned/Sazerac/Margarita)",
+ "price": 14.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.smallvictoriesbar.com/wp-content/uploads/2026/05/drinkspring2026-02.jpg",
+ "sourceDate": "2026-05",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

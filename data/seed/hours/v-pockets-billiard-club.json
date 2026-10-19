@@ -1,0 +1,16 @@
+{
+ "venueId": "v-pockets-billiard-club",
+ "hours": {
+  "mon": "19:00-02:00",
+  "tue": "19:00-02:00",
+  "wed": "19:00-02:00",
+  "thu": "19:00-02:00",
+  "fri": "19:00-02:00",
+  "sat": "19:00-02:00",
+  "sun": "19:00-02:00"
+ },
+ "source": "https://binj.news/2024/01/05/off-the-deep-end-aiden-lees-reformed-pool-shark/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

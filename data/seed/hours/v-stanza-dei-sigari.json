@@ -1,0 +1,16 @@
+{
+ "venueId": "v-stanza-dei-sigari",
+ "hours": {
+  "mon": "17:00-01:00",
+  "tue": "17:00-01:00",
+  "wed": "12:00-01:00",
+  "thu": "12:00-01:00",
+  "fri": "12:00-01:00",
+  "sat": "12:00-01:00",
+  "sun": "12:00-01:00"
+ },
+ "source": "https://www.stanzadeisigari.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

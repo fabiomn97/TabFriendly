@@ -1,0 +1,16 @@
+{
+ "venueId": "v-boston-ale-house",
+ "hours": {
+  "mon": "15:00-01:00",
+  "tue": "15:00-01:00",
+  "wed": "15:00-01:00",
+  "thu": "15:00-01:00",
+  "fri": "11:30-01:00",
+  "sat": "11:00-01:00",
+  "sun": "11:00-01:00"
+ },
+ "source": "https://bostonalehousegroup.com/hours-and-location/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

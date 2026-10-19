@@ -1,0 +1,12 @@
+{
+ "name": "State Street Provisions",
+ "type": "restaurant",
+ "address": "255 State Street, Boston, MA 02109",
+ "lat": 42.359483,
+ "lng": -71.051445,
+ "website": "https://www.statestreetprovisions.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

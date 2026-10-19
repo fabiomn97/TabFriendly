@@ -1,0 +1,16 @@
+{
+ "venueId": "v-santarpio-s-pizza",
+ "hours": {
+  "mon": "11:30-22:00",
+  "tue": "11:30-22:00",
+  "wed": "11:30-22:00",
+  "thu": "11:30-22:00",
+  "fri": "11:30-22:00",
+  "sat": "11:30-22:00",
+  "sun": "11:30-22:00"
+ },
+ "source": "https://www.santarpiospizza.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "ReelHouse",
+ "type": "restaurant",
+ "address": "6 New St, East Boston, MA 02128",
+ "lat": 42.371068,
+ "lng": -71.044437,
+ "website": "https://www.reelhouseboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

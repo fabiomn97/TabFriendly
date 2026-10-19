@@ -1,0 +1,16 @@
+{
+ "venueId": "v-lower-mills-tavern",
+ "hours": {
+  "mon": "11:00-23:00",
+  "tue": "11:00-23:00",
+  "wed": "11:00-23:00",
+  "thu": "11:00-23:00",
+  "fri": "11:00-00:00",
+  "sat": "10:00-00:00",
+  "sun": "10:00-23:00"
+ },
+ "source": "https://www.lowermillstavern.com/location/lower-mill-stavern/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

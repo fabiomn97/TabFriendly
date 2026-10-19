@@ -1,0 +1,12 @@
+{
+ "name": "Legal Harborside",
+ "type": "restaurant",
+ "address": "270 Northern Ave, Boston, MA 02210",
+ "lat": 42.348622,
+ "lng": -71.037781,
+ "website": "https://www.legalseafoods.com/locations/boston-harborside/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

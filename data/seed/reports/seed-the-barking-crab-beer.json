@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-barking-crab",
+ "kind": "beer",
+ "drink": "Narragansett (bottle/can)",
+ "price": 6.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://barkingcrab.com/wp-content/uploads/2026/04/Barking-Crab-BAR-MENU-5.5-x-11.pdf",
+ "sourceDate": "2026-04",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

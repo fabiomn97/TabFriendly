@@ -1,0 +1,12 @@
+{
+ "name": "Coogan's",
+ "type": "bar",
+ "address": "171 Milk Street, Boston, MA 02109",
+ "lat": 42.358307,
+ "lng": -71.053295,
+ "website": "https://www.coogansboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

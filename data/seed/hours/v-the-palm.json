@@ -1,0 +1,16 @@
+{
+ "venueId": "v-the-palm",
+ "hours": {
+  "mon": "11:30-21:00",
+  "tue": "11:30-21:00",
+  "wed": "11:30-21:00",
+  "thu": "11:30-21:00",
+  "fri": "11:30-22:00",
+  "sat": "16:00-22:00",
+  "sun": "16:00-21:00"
+ },
+ "source": "https://www.thepalm.com/restaurants/boston/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

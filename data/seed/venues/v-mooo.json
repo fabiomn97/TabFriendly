@@ -1,0 +1,12 @@
+{
+ "name": "Mooo....",
+ "type": "restaurant",
+ "address": "49 Melcher St, Boston, MA 02210",
+ "lat": 42.34945,
+ "lng": -71.050339,
+ "website": "https://mooorestaurant.com/mooo-seaport",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

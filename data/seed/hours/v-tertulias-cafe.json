@@ -1,0 +1,16 @@
+{
+ "venueId": "v-tertulias-cafe",
+ "hours": {
+  "mon": "10:00-21:30",
+  "tue": "10:00-21:30",
+  "wed": "10:00-21:30",
+  "thu": "10:00-21:30",
+  "fri": "10:00-21:30",
+  "sat": "10:00-21:30",
+  "sun": "10:00-21:30"
+ },
+ "source": "https://www.tertuliasboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

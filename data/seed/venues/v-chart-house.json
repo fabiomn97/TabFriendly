@@ -1,0 +1,12 @@
+{
+ "name": "Chart House",
+ "type": "restaurant",
+ "address": "60 Long Wharf, Boston, MA 02110",
+ "lat": 42.360172,
+ "lng": -71.049502,
+ "website": "https://www.chart-house.com/location/chart-house-boston-ma/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-rail-stop-restaurant-bar",
+ "hours": {
+  "mon": "11:30-20:00",
+  "tue": "11:30-21:00",
+  "wed": "11:30-21:00",
+  "thu": "11:30-21:00",
+  "fri": "11:30-22:00",
+  "sat": "10:00-22:00",
+  "sun": "10:00-20:00"
+ },
+ "source": "https://www.railstopboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

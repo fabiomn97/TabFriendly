@@ -1,0 +1,12 @@
+{
+ "name": "Midway Cafe",
+ "type": "bar",
+ "address": "3496 Washington St, Jamaica Plain, MA 02130",
+ "lat": 42.306191,
+ "lng": -71.107478,
+ "website": "https://midwaycafe.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

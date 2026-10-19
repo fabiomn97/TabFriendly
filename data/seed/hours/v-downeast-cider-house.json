@@ -1,0 +1,16 @@
+{
+ "venueId": "v-downeast-cider-house",
+ "hours": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "closed",
+  "thu": "17:00-21:00",
+  "fri": "17:00-21:00",
+  "sat": "11:00-21:00",
+  "sun": "12:00-19:00"
+ },
+ "source": "https://downeastcider.com/pages/visit",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

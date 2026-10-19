@@ -1,0 +1,14 @@
+{
+ "venueId": "v-chart-house",
+ "kind": "mixed",
+ "drink": "Mango Mojito",
+ "price": 12.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.chart-house.com/location/chart-house-boston-ma/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

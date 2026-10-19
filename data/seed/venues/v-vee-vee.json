@@ -1,0 +1,12 @@
+{
+ "name": "Vee Vee",
+ "type": "restaurant",
+ "address": "763 Centre St, Jamaica Plain, MA 02130",
+ "lat": 42.310245,
+ "lng": -71.115202,
+ "website": "https://www.veeveejp.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

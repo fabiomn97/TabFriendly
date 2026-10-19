@@ -7,7 +7,7 @@ import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "basemap.json")
 # Crop window for water polygons: the Charles River relation spans miles; keep the part near MIT.
-S, W, N, E = 42.300, -71.170, 42.416, -71.018
+S, W, N, E = 42.2250, -71.1950, 42.4060, -70.9850  # = BBOX in basemap_fetch.py
 
 TOL = 0.000035
 osm = json.load(open(os.path.join(HERE, "osm.json"), encoding="utf-8"))
@@ -156,7 +156,7 @@ for el in osm["elements"]:
 # draws only as natural=coastline lines with land on the left and water on the right. The ways returned
 # are those touching the fetch box, so the coast is complete inside it: clip the coast to that box and
 # close each piece clockwise along the box edge, which keeps the water on the right of every ring.
-CS, CW, CN, CE = 42.3050, -71.1650, 42.4120, -71.0220  # BBOX in basemap_fetch.py
+CS, CW, CN, CE = S, W, N, E
 BW, BH = CE - CW, CN - CS
 PERIM = 2 * (BW + BH)
 
@@ -293,11 +293,19 @@ def enc(line):
     return out
 
 
+# City limits of Boston and Cambridge (tools/cities.json, simplified OSM boundaries as GeoJSON): the app's dashed outline.
+cities = json.load(open(os.path.join(HERE, "cities.json"), encoding="utf-8"))
+area = []
+for g in cities.values():
+    for poly in ([g["coordinates"]] if g["type"] == "Polygon" else g["coordinates"]):
+        area.append(rnd(dp([(lat, lng) for lng, lat in poly[0]], TOL)))
+area = [enc(r) for r in area]
+
 water = [[enc(r) for r in poly] for poly in water]
 parks = [[enc(r) for r in poly] for poly in parks]
 rail = [enc(l) for l in rail]
 roads = {k: [enc(l) for l in v] for k, v in roads.items()}
-out = {"base": BASE, "water": water, "parks": parks, "rail": rail, "roads": roads}
+out = {"base": BASE, "area": area, "water": water, "parks": parks, "rail": rail, "roads": roads}
 s = json.dumps(out, separators=(",", ":"))
 open(OUT, "w", encoding="utf-8").write(s)
 print("bytes", len(s), {k: len(v) for k, v in roads.items()}, "water", len(water), "parks", len(parks))

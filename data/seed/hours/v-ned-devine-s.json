@@ -1,0 +1,16 @@
+{
+ "venueId": "v-ned-devine-s",
+ "hours": {
+  "mon": "11:30-21:00",
+  "tue": "11:30-21:00",
+  "wed": "11:30-21:00",
+  "thu": "11:30-21:00",
+  "fri": "11:30-01:30",
+  "sat": "11:00-01:30",
+  "sun": "11:00-21:00"
+ },
+ "source": "https://www.neddevinesboston.com/location/ned-devines/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+ "venueId": "v-mooo",
+ "kind": "beer",
+ "drink": "Night Shift Nite Lite Light Lager (draught)",
+ "price": 13.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://mooorestaurant.com/wp-content/uploads/2026/10/Mooo-Seaport-Cocktail-List-10.12.26-Fall.pdf",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

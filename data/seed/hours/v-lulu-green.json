@@ -1,0 +1,16 @@
+{
+ "venueId": "v-lulu-green",
+ "hours": {
+  "mon": "closed",
+  "tue": "11:00-21:00",
+  "wed": "11:00-21:00",
+  "thu": "11:00-21:00",
+  "fri": "11:00-21:00",
+  "sat": "10:00-21:00",
+  "sun": "closed"
+ },
+ "source": "https://www.lulugreen.com/location/lulu-green/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

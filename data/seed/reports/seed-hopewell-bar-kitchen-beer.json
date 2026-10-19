@@ -1,0 +1,14 @@
+{
+ "venueId": "v-hopewell-bar-kitchen",
+ "kind": "beer",
+ "drink": "Pabst Blue Ribbon (draft)",
+ "price": 5.5,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.hopewellboston.com/menus",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Cabana Grill",
+ "type": "restaurant",
+ "address": "254 Bennington St, East Boston, MA 02128",
+ "lat": 42.378565,
+ "lng": -71.029341,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

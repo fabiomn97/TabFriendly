@@ -1,0 +1,12 @@
+{
+ "name": "Tertulias Cafe",
+ "type": "restaurant",
+ "address": "26-28 Porter St, Boston, MA 02128",
+ "lat": 42.374556,
+ "lng": -71.037853,
+ "website": "https://www.tertuliasboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

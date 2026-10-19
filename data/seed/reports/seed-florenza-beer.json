@@ -1,0 +1,14 @@
+{
+ "venueId": "v-florenza",
+ "kind": "beer",
+ "drink": "Birra Dolomiti Pils (11.1 oz bottle)",
+ "price": 6.5,
+ "oz": 11.1,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.florenzaboston.com/drinks",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

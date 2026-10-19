@@ -1,0 +1,16 @@
+{
+ "venueId": "v-rincon-limeno",
+ "hours": {
+  "mon": "10:00-22:00",
+  "tue": "10:00-22:00",
+  "wed": "10:00-22:00",
+  "thu": "10:00-22:00",
+  "fri": "10:00-22:00",
+  "sat": "10:00-22:00",
+  "sun": "10:00-22:00"
+ },
+ "source": "https://atmosfy.io/location/boston/rinc-n-lime-o-restaurant",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

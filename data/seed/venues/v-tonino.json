@@ -1,0 +1,12 @@
+{
+ "name": "Tonino",
+ "type": "restaurant",
+ "address": "669 Centre St, Jamaica Plain, MA 02130",
+ "lat": 42.312527,
+ "lng": -71.114304,
+ "website": "https://www.toninojp.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

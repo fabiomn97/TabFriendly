@@ -1,0 +1,14 @@
+{
+ "venueId": "v-stanza-dei-sigari",
+ "kind": "mixed",
+ "drink": "House Old Fashioned (all signature cocktails $19)",
+ "price": 19.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.stanzadeisigari.com/offerings/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

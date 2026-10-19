@@ -1,0 +1,14 @@
+{
+ "venueId": "v-pier-6",
+ "kind": "mixed",
+ "drink": "Lime Rickey (Tito's vodka, lime, soda)",
+ "price": 18.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.pier6boston.com/menus?menu=drink",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
