@@ -809,8 +809,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       const r = pick(v.id);
       // per ounce, venues whose prices all lack a pour size are marked rather than ranked
       return { v, r, nosize: !r && S.unit === "oz" && pool(v.id, S.mode).length > 0 };
-    }).filter(({ v, r }) => (!S.types.size || r) && (S.maxPrice == null || (r && r.price <= S.maxPrice))
-      && (!S.near || distMi(v.lat, v.lng, S.near) <= NEAR_MI));
+    }).filter(({ r }) => (!S.types.size || r) && (S.maxPrice == null || (r && r.price <= S.maxPrice)));
   }
   function computeBest(items) {
     const priced = items.filter((x) => x.r && !isHidden(x.v.id)).sort((a, b) => val(a.r) - val(b.r) || fromHere(a.v) - fromHere(b.v));
@@ -836,20 +835,21 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   map.zoomControl.setPosition("topright");
   const wide = matchMedia("(min-width: 900px)");
   function fitRadius() {
-    map.fitBounds(AREA_BOUNDS, wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] });
+    map.fitBounds(AREA_BOUNDS, { animate: false, ...(wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] }) });
   }
   fitRadius();
   // a page opened in a background tab can lay out at zero size; frame the area once it has real dimensions
   if (!map.getSize().x || !map.getSize().y) map.once("resize", fitRadius);
 
   // ---------- near me ----------
-  // Sharing your location zooms to about 6-7 blocks around you; the list and the green top 3 then cover just that area.
+  // The map asks for the person's location as it opens and zooms to about 6-7 blocks around them. Every pin stays on the
+  // map; the list and the green top 3 follow what's on screen, so zooming out shows more.
   const NEAR_MI = 0.5;
   const fromHere = (v) => distMi(v.lat, v.lng, S.near || MIT);
-  let meMarker = null, meRing = null;
+  let meMarker = null;
   function fitNear() {
     const b = L.latLng(S.near).toBounds(NEAR_MI * 1609.34 * 1.6);
-    map.fitBounds(b, wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] });
+    map.fitBounds(b, { animate: false, ...(wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] }) });
   }
   const Locate = L.Control.extend({
     options: { position: "topright" },
@@ -874,8 +874,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       locateBtn.classList.add("on");
       if (!meMarker) {
         meMarker = L.marker(ll, { icon: L.divIcon({ className: "", html: '<div class="me-dot" aria-label="You are here"></div>', iconSize: [0, 0] }), interactive: false, keyboard: false, zIndexOffset: 1000 }).addTo(map);
-        meRing = L.circle(ll, { radius: NEAR_MI * 1609.34, color: "#1a73e8", weight: 1.5, dashArray: "4 4", fill: false, interactive: false }).addTo(map);
-      } else { meMarker.setLatLng(ll); meRing.setLatLng(ll); }
+      } else meMarker.setLatLng(ll);
       if (S.selected) select(null);
       fitNear();
       render();
@@ -884,16 +883,13 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       if (!auto) toast(err.code === 1 ? "Location is blocked. Allow it for this site in your browser settings to see what's near you." : "Couldn't find your location. Try again.");
     }, { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 });
   }
-  function clearNear() {
-    S.near = null;
-    locateBtn.classList.remove("on");
-    if (meRing) { meRing.remove(); meRing = null; }
-    if (meMarker) { meMarker.remove(); meMarker = null; }
-    fitRadius();
-    render();
-  }
-  // People who already allowed location go straight to what's around them; everyone else taps the button.
-  navigator.permissions?.query({ name: "geolocation" }).then((st) => { if (st.state === "granted") locate(true); }).catch(() => {});
+  function showAll() { fitRadius(); }  // keeps the location; the list widens with the view
+  let viewTimer = null;
+  map.on("moveend", () => {
+    if (!S.near || S.selected) return;
+    clearTimeout(viewTimer);
+    viewTimer = setTimeout(render, 120);
+  });
 
   const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
   const base = { water: [], parks: [], rail: [], minor: [], mid: [], major: [], radius: null };
@@ -1110,14 +1106,17 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   });
   syncControls();
 
+  // Once we know where the person is, the list and the green top 3 cover what's on screen, so zooming out widens them.
+  const inView = (v) => map.getBounds().contains([v.lat, v.lng]);
   function render() {
-    const items = shownVenues();
+    const all = shownVenues();
+    const items = S.near ? all.filter((x) => inView(x.v)) : all;
     computeBest(items);
     // keep the selected venue on the map even if the filter would hide it
     if (S.selected && S.venues.has(S.selected) && !items.some((x) => x.v.id === S.selected)) {
       items.push({ v: S.venues.get(S.selected), r: pick(S.selected) });
     }
-    renderPins(items);
+    renderPins(S.near ? all.concat(items.filter((x) => !all.includes(x))) : items);
     if (S.selected && S.venues.has(S.selected)) renderVenue(S.venues.get(S.selected));
     else { if (S.selected) select(null); else renderList(items); }
   }
@@ -1127,7 +1126,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const sel = [...S.types];
     const title = (!sel.length ? MODES[S.mode].title : sel.length === 1 ? `Cheapest ${sel[0]} nearby` : `Cheapest of your ${sel.length} drinks`)
       + (shareOnly() ? ", to share" : "") + (S.unit === "oz" ? ", per ounce" : "");
-    const nearBar = S.near ? `<div class="near-bar"><span>Within ${NEAR_MI} mi of you (about 6-7 blocks)</span><button class="btn small" type="button" id="nearOff">Show all</button></div>` : "";
+    const nearBar = S.near ? `<div class="near-bar"><span>Near you: what's on the map. Zoom out to see more.</span><button class="btn small" type="button" id="nearOff">Whole map</button></div>` : "";
     head.innerHTML = `<h2 class="sheet-title">${esc(title)}</h2>`;
     if (S.dbState === "loading") { body.innerHTML = `<p class="list-note">Loading venues and prices…</p>`; return; }
     if (S.dbState === "none") {
@@ -1148,8 +1147,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       const why = sel.length && S.maxPrice == null ? "No venue lists the drinks you picked yet. Try adding more drinks."
         : sel.length ? `None of your drinks are ${esc(money(S.maxPrice))} or less. Raise the max price or add more drinks.`
         : `Nothing at or under ${esc(money(S.maxPrice))} yet. Raise the max price, or report a cheaper drink you've found.`;
-      body.innerHTML = h + `<div class="notice">${S.near ? "Nothing priced within " + NEAR_MI + " mi of you yet. Tap <b>Show all</b> to see the whole map." : why}</div>`;
-      $("nearOff")?.addEventListener("click", clearNear);
+      body.innerHTML = h + `<div class="notice">${S.near ? "Nothing priced in this part of the map yet. Zoom out, or tap <b>Whole map</b>." : why}</div>`;
+      $("nearOff")?.addEventListener("click", showAll);
       return;
     }
     h += `<ul class="list">`;
@@ -1180,7 +1179,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     h += `</ul><p class="list-note">The three cheapest are in green. Prices come from published menus and from people like you, and only prices from the last six months count.${S.unit === "oz" ? " Per ounce ranks only drinks with a known pour size." : ""} Spot a wrong one? Open the venue and update it.</p>`;
     body.innerHTML = h;
     body.querySelectorAll("[data-v]").forEach((b) => b.addEventListener("click", () => select(b.dataset.v, true)));
-    $("nearOff")?.addEventListener("click", clearNear);
+    $("nearOff")?.addEventListener("click", showAll);
   }
 
   const canPost = () => S.canWrite !== false && !S.readOnlyAfterRefusal && S.dbState === "ready";
@@ -1759,7 +1758,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   // ---------- age gate ----------
   if (store.get("tf-21") !== "yes") $("gate").hidden = false;
-  $("gateYes").addEventListener("click", () => { store.set("tf-21", "yes"); $("gate").hidden = true; });
+  else locate(true);
+  $("gateYes").addEventListener("click", () => { store.set("tf-21", "yes"); $("gate").hidden = true; locate(true); });
   $("gateNo").addEventListener("click", () => { $("gateMsg").hidden = false; });
 
   // ---------- accounts and leaderboard (Supabase build) ----------
