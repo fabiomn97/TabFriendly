@@ -2,7 +2,8 @@
 
 Serve app/ locally (python -m http.server --directory app) and open /_dev.html to click through the app without claude.ai.
 Add ?viewer to the URL to simulate a view-only user. Add ?tf=anon, ?tf=noname or ?tf=acct to try the Supabase build's
-accounts and leaderboard with made-up scores (a signed-out browser, a new account, an account with a name).
+accounts and leaderboard with made-up scores (a signed-out browser, a new account, an account with a name);
+add &linkerr for an expired sign-in link or &sendfail for the hourly email limit.
 """
 import glob, json, os
 
@@ -67,7 +68,9 @@ MOCK = """<script>
   window.TFBackend = {
     use: async (n) => (n === "db" ? db : n === "user" ? user : null),
     account: async () => ({ ...acct }),
-    signIn: async () => "verify",
+    // ?sendfail: the hourly email limit; ?linkerr: arriving from an expired sign-in link
+    signIn: async () => { if (location.search.includes("sendfail")) throw { code: "email_limit" }; return "link"; },
+    linkResult: async () => (location.search.includes("linkerr") ? { code: "otp_expired", message: "Email link is invalid or has expired" } : null),
     finishClaim: async () => 0,
     signOut: async () => location.reload(),
     rpc: async (fn, a) => rpc[fn](a || {}),

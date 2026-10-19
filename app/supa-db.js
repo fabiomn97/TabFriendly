@@ -12,15 +12,30 @@
   const TABLE = { venues: "venues", reports: "reports", menus: "menus", menuEdits: "menu_edits", hours: "hours", mod: "mod", votes: "votes", photos: "photos", checks: "checks" };
   const CONTRIBUTOR_TABLES = new Set(["venues", "reports", "photos"]);  // contributors may only insert here
 
+  // What a sign-in email link brought back: a new session (#access_token=...) or an error (#error_code=otp_expired...).
+  // We read it ourselves (detectSessionInUrl is off) because the library drops the current session when a link fails,
+  // which would lose an anonymous browser's posts.
+  const linkHash = new URLSearchParams(location.hash.slice(1)), linkQuery = new URLSearchParams(location.search);
+  const linkTokens = linkHash.get("access_token") && linkHash.get("refresh_token")
+    ? { access_token: linkHash.get("access_token"), refresh_token: linkHash.get("refresh_token") } : null;
+  let linkError = null;
+  const linkErrCode = linkHash.get("error_code") || linkQuery.get("error_code") || linkHash.get("error") || linkQuery.get("error");
+  if (linkErrCode) linkError = { code: linkErrCode, message: (linkHash.get("error_description") || linkQuery.get("error_description") || "").replace(/\+/g, " ") };
+  if (linkTokens || linkErrCode) history.replaceState(null, "", location.pathname);  // keep tokens out of the address bar
+
   let clientP = null, sessionP = null, editor = false;
   function client() {
     return clientP || (clientP = import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/+esm")
-      .then(({ createClient }) => createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true } })));
+      .then(({ createClient }) => createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false } })));
   }
-  // Everyone gets a session: the editor's own, or a silent anonymous one for contributors.
+  // Everyone gets a session: an account's (from an email link, or kept from before), or a silent anonymous one.
   function session() {
     return sessionP || (sessionP = (async () => {
       const sb = await client();
+      if (linkTokens) {
+        const { error } = await sb.auth.setSession(linkTokens);
+        if (error) linkError = { code: error.code || "link_failed", message: error.message };
+      }
       let { data: { session: s } } = await sb.auth.getSession();
       if (!s) {
         const { data, error } = await sb.auth.signInAnonymously();
@@ -126,6 +141,8 @@
     get(k) { try { return localStorage.getItem(k); } catch { return null; } },
     set(k, v) { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch { /* storage unavailable */ } },
   };
+  // One-time claim tokens for this browser's anonymous sessions, kept until a sign-in link brings the person back.
+  const claims = () => { try { const a = JSON.parse(store.get("tf-claims") || "[]"); return Array.isArray(a) ? a : []; } catch { return []; } };
 
   window.TFBackend = {
     async use(cap) { return cap === "db" ? db : cap === "user" ? user : null; },
@@ -133,35 +150,42 @@
     async account() {
       const s = await session().catch(() => null);
       if (!s) return null;
-      return { id: s.user.id, anonymous: !!s.user.is_anonymous, email: s.user.email || null, pendingEmail: s.user.new_email || null, editor };
+      return { id: s.user.id, anonymous: !!s.user.is_anonymous, email: s.user.email || null, editor };
     },
-    // Sign in or create an account with an email link. A new email turns this browser's anonymous session into the
-    // account (same id, so its posts and votes come along). An email that already has an account signs in instead,
-    // and a one-time claim token, kept until the link brings the person back, moves this browser's posts over.
+    // How the last sign-in email link went: null, or {code, message} (e.g. otp_expired: expired or replaced by a newer link).
+    async linkResult() { await session().catch(() => null); return linkError; },
+    // Sign in, or create an account, with an email link (Supabase's standard magic link). This browser's anonymous
+    // posts and votes move to the account when the link brings the person back, by a one-time claim token.
     async signIn(email) {
       const sb = await client();
       const s = await session();
-      const redirect = location.origin + location.pathname;
       if (s.user.is_anonymous) {
-        const { error } = await sb.auth.updateUser({ email }, { emailRedirectTo: redirect });
-        if (!error) return "verify";
-        if (error.code !== "email_exists" && !/already|exists|registered/i.test(error.message || "")) throw error;
         const { data: token } = await sb.rpc("tf_claim_start");
-        if (token) store.set("tf-claim", token);
+        if (token && !claims().includes(token)) store.set("tf-claims", JSON.stringify([...claims().slice(-4), token]));
       }
-      const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: redirect, shouldCreateUser: true } });
-      if (error) throw error;
+      const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname, shouldCreateUser: true } });
+      if (error) {
+        const msg = error.message || "";
+        throw { code: error.code === "over_email_send_rate_limit" || (error.status === 429 && /email/i.test(msg)) ? "email_limit"
+          : error.code === "over_request_rate_limit" || /seconds/i.test(msg) ? "too_soon" : "send_failed", message: msg };
+      }
       return "link";
     },
-    // After the email link: hand in the claim token (if any). Returns how many posts moved over.
+    // After a sign-in link: hand in this browser's claim tokens. Returns how many posts moved over.
     async finishClaim() {
-      const token = store.get("tf-claim");
       const s = await session().catch(() => null);
-      if (!token || !s || s.user.is_anonymous) return 0;
+      if (!s || s.user.is_anonymous) return 0;
+      const tokens = [...claims(), store.get("tf-claim")].filter(Boolean);  // tf-claim: the first version's single token
+      if (!tokens.length) return 0;
+      store.set("tf-claims", null);
       store.set("tf-claim", null);
       const sb = await client();
-      const { data } = await sb.rpc("tf_claim_finish", { tok: token });
-      return data || 0;
+      let moved = 0;
+      for (const tok of tokens) {
+        const { data } = await sb.rpc("tf_claim_finish", { tok });
+        moved += data || 0;
+      }
+      return moved;
     },
     // The leaderboard's database functions (tf_leaderboard, tf_me, tf_set_name, tf_mayors, tf_bounties).
     async rpc(name, args) {

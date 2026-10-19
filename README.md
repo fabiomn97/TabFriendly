@@ -71,9 +71,11 @@ The same `app/` runs outside claude.ai: `app/supa-db.js` provides the app's data
 
 - **Contributors** never sign in: the site gives each browser a silent anonymous Supabase session, so votes, "your report"
   and posting limits still work. At most 20 new venues, prices and photos per person per hour.
-- **Accounts:** anyone can tap **Sign in** and get an email link. A new email turns the browser's anonymous session into
-  an account, keeping its posts and votes; an existing account signs in, and that browser's anonymous posts move over.
-  Accounts pick a display name and earn points (see Leaderboard below).
+- **Accounts:** anyone can tap **Sign in** and get an email link (Supabase's standard magic link; new emails get an
+  account). When the link brings them back, that browser's anonymous posts and votes move to the account. A failed or
+  expired link leaves the browser as it was and says why. Accounts pick a display name and earn points (see Leaderboard).
+- **Sign-in emails:** Supabase's built-in sender allows only about 2 auth emails an hour per project. Set up your own
+  SMTP provider (Authentication → Emails → SMTP Settings) and raise the limit under Authentication → Rate Limits.
 - **Editors** sign in the same way. Only emails listed in `public.editors` can hide, delete, or edit menus and hours.
 
 One-time setup:

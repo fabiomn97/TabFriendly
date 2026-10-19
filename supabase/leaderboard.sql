@@ -304,7 +304,8 @@ begin
   -- ckey: what a price replaces (a drink on the menu, or the venue's cheapest of a kind);
   -- dkey: what another price must be to confirm it (the same drink)
   update t_sub set ckey = case when menu then 'm:' || mkey else 'c:' || kind end,
-                   dkey = case when menu then 'm:' || mkey else 'c:' || kind || ':' || tkey end;
+                   dkey = case when menu then 'm:' || mkey else 'c:' || kind || ':' || tkey end
+    where true;  -- Supabase rejects UPDATE/DELETE without a WHERE clause
   create index on t_sub (venue, dkey);
   create index on t_sub (venue, ckey);
   create index on t_sub (uid);
@@ -417,14 +418,15 @@ begin
           when s.at - max(q.at) > make_interval(days => tf_cfg('stale_days')::int) then tf_cfg('stale_x')
           else 1 end
         from t_price q where q.venue = s.venue and q.ckey = s.ckey and q.at < s.at) end,
-    new_drink = s.menu and not s.edits and not exists (select 1 from t_price q where q.venue = s.venue and q.ckey = s.ckey and q.at < s.at);
+    new_drink = s.menu and not s.edits and not exists (select 1 from t_price q where q.venue = s.venue and q.ckey = s.ckey and q.at < s.at)
+    where true;
   -- several posts by one person at one bar on one day: the 2nd counts half, the 3rd a third, ...
   update t_sub s set dim = 1.0 / x.n from (
     select id, row_number() over (partition by uid, venue, (at at time zone 'America/New_York')::date order by at, id) as n from t_sub) x
   where x.id = s.id;
 
   -- ---------- the ledger ----------
-  delete from tf_ledger;
+  delete from tf_ledger where true;
   -- posting a price: +2 now (not kept if the price is rejected)
   insert into tf_ledger (user_id, at, points, what, ref, venue_id, solid)
     select s.uid, s.at, tf_cfg('submit') * s.bonus * s.dim * tf_cfg('onsite_x')
@@ -487,13 +489,13 @@ begin
   update tf_ledger l set area = v.area from t_venue v where v.id = l.venue_id;
 
   -- ---------- kept for the boards ----------
-  delete from tf_subs;
+  delete from tf_subs where true;
   insert into tf_subs select id, uid, venue, status, resolved_at from t_sub;
-  delete from tf_trust;
+  delete from tf_trust where true;
   insert into tf_trust select t.uid, t.trust, coalesce(c.ok, 0), coalesce(c.n, 0)
     from t_trust t left join (select uid, count(*) filter (where status = 'confirmed') as ok,
       count(*) filter (where status in ('confirmed', 'rejected')) as n from t_sub group by uid) c on c.uid = t.uid;
-  delete from tf_prices;
+  delete from tf_prices where true;
   insert into tf_prices select venue, ckey, max(at) from t_price where venue is not null group by venue, ckey;
 end $$;
 
