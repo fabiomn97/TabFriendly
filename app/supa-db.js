@@ -1,14 +1,15 @@
 // TabFriendly on Supabase: the small db/user API the app already uses on claude.ai
 // (collection / doc / where / orderBy / limit / get / onSnapshot / set / delete, and user.id / can / canEdit),
 // backed by Supabase Postgres tables of {id, data}, Realtime for live updates, and Auth for identity.
-// Contributors get a silent anonymous session; editors sign in with an email link. On claude.ai this file does nothing.
+// Everyone gets a silent anonymous session; signing in with an email link makes it an account (needed for points and
+// the leaderboard, and for editors). On claude.ai this file does nothing.
 (() => {
   "use strict";
-  if (window.claude && window.claude.use) return;
+  if ((window.claude && window.claude.use) || window.TFBackend) return;  // claude.ai, or a test backend already in place
 
   const SUPABASE_URL = "https://brcwtiffgiojqnmfvaui.supabase.co";
   const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJyY3d0aWZmZ2lvanFubWZ2YXVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5Mjg1ODksImV4cCI6MjEwNzUwNDU4OX0.twsmr4VjKGPW2zTJSFlXcTuSPEvGm_ISz0QuJtKc0PU";
-  const TABLE = { venues: "venues", reports: "reports", menus: "menus", menuEdits: "menu_edits", hours: "hours", mod: "mod", votes: "votes", photos: "photos" };
+  const TABLE = { venues: "venues", reports: "reports", menus: "menus", menuEdits: "menu_edits", hours: "hours", mod: "mod", votes: "votes", photos: "photos", checks: "checks" };
   const CONTRIBUTOR_TABLES = new Set(["venues", "reports", "photos"]);  // contributors may only insert here
 
   let clientP = null, sessionP = null, editor = false;
@@ -121,18 +122,55 @@
     async canEdit() { try { await session(); return editor; } catch { return false; } },
   };
 
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch { /* storage unavailable */ } },
+  };
+
   window.TFBackend = {
     async use(cap) { return cap === "db" ? db : cap === "user" ? user : null; },
-    // Editors: email a sign-in link; the link brings them back here signed in.
-    async signInEditor(email) {
+    // Who's here: an anonymous browser, or an account (email) that may also be an editor.
+    async account() {
+      const s = await session().catch(() => null);
+      if (!s) return null;
+      return { id: s.user.id, anonymous: !!s.user.is_anonymous, email: s.user.email || null, pendingEmail: s.user.new_email || null, editor };
+    },
+    // Sign in or create an account with an email link. A new email turns this browser's anonymous session into the
+    // account (same id, so its posts and votes come along). An email that already has an account signs in instead,
+    // and a one-time claim token, kept until the link brings the person back, moves this browser's posts over.
+    async signIn(email) {
       const sb = await client();
-      const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname, shouldCreateUser: true } });
+      const s = await session();
+      const redirect = location.origin + location.pathname;
+      if (s.user.is_anonymous) {
+        const { error } = await sb.auth.updateUser({ email }, { emailRedirectTo: redirect });
+        if (!error) return "verify";
+        if (error.code !== "email_exists" && !/already|exists|registered/i.test(error.message || "")) throw error;
+        const { data: token } = await sb.rpc("tf_claim_start");
+        if (token) store.set("tf-claim", token);
+      }
+      const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: redirect, shouldCreateUser: true } });
       if (error) throw error;
+      return "link";
+    },
+    // After the email link: hand in the claim token (if any). Returns how many posts moved over.
+    async finishClaim() {
+      const token = store.get("tf-claim");
+      const s = await session().catch(() => null);
+      if (!token || !s || s.user.is_anonymous) return 0;
+      store.set("tf-claim", null);
+      const sb = await client();
+      const { data } = await sb.rpc("tf_claim_finish", { tok: token });
+      return data || 0;
+    },
+    // The leaderboard's database functions (tf_leaderboard, tf_me, tf_set_name, tf_mayors, tf_bounties).
+    async rpc(name, args) {
+      await session();
+      const sb = await client();
+      const { data, error } = await sb.rpc(name, args || {});
+      if (error) throw { code: /name_taken|bad_name|not_signed_in/.exec(error.message || "")?.[0] || mapError(error).code, message: error.message };
+      return data;
     },
     async signOut() { const sb = await client(); await sb.auth.signOut(); location.reload(); },
-    async editorEmail() {
-      const s = await session().catch(() => null);
-      return s && editor ? s.user.email : null;
-    },
   };
 })();
