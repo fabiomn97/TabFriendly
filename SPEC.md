@@ -54,7 +54,7 @@ Each price records its source (a URL, "user-reported", or "editor") and its date
   price of any drink already on it. The entry is labeled "user-reported" with its date, and it feeds the Drinks filter and the rankings.
   The newest version of a drink wins.
 - Other users can mark a user-reported cheapest price 👍 or 👎. More 👎 than 👍 shows it as "Disputed".
-- Anyone with Contributor access can **add a venue** inside the coverage area (the dashed city limits and circle) and **add menu photos**.
+- Anyone with Contributor access can **add a venue** inside the coverage area (the dashed city limits, plus 2 miles around MIT; the circle isn't drawn) and **add menu photos**.
 
 ## Opening hours
 - Each venue's card shows "Open now · until 1am" or "Closed · opens 4pm", and the weekly hours.
