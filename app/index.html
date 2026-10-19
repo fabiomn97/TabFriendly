@@ -128,6 +128,7 @@ a { color: var(--link); }
 .leaflet-control-attribution a { color: var(--muted); }
 
 .area-label { font: 700 13px/1 var(--f-display); letter-spacing: .14em; text-transform: uppercase; color: var(--label); white-space: nowrap; transform: translate(-50%, -50%); position: absolute; pointer-events: none; }
+.area-label.on { color: var(--tag); font-weight: 800; text-shadow: 0 0 4px var(--bg), 0 0 8px var(--bg); }
 .area-label.river { font-style: italic; letter-spacing: .3em; color: color-mix(in srgb, var(--water) 40%, var(--label)); }
 .me-dot { position: absolute; transform: translate(-50%, -50%); width: 16px; height: 16px; border-radius: 50%; background: #1a73e8; border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(26, 115, 232, .25), 0 1px 4px rgba(0, 0, 0, .35); }
 .locate { width: 34px; height: 34px; display: grid; place-items: center; background: var(--surface); color: var(--fg); border: 0; border-radius: 4px; cursor: pointer; font-size: 18px; line-height: 1; }
@@ -913,7 +914,64 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     if (base.radius) base.radius.setStyle({ color: css("--radius"), weight: 1.5, dashArray: "6 6", fill: false });
   }
   L.marker(MIT, { icon: L.divIcon({ className: "", html: '<span class="mit-dot" title="77 Massachusetts Ave"></span>', iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map);
-  AREAS.forEach(([name, lat, lng]) => L.marker([lat, lng], { icon: L.divIcon({ className: "", html: `<span class="area-label">${esc(name)}</span>`, iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map));
+  const areaMarkers = new Map(AREAS.map(([name, lat, lng]) => [name,
+    L.marker([lat, lng], { icon: L.divIcon({ className: "", html: `<span class="area-label">${esc(name)}</span>`, iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map)]));
+
+  // ---------- leaderboard neighborhoods ----------
+  // A bar counts toward the nearest map label (supabase/leaderboard.sql does the same), so each neighborhood is the
+  // area closer to its label than to any other. The one under the mouse, or the selected bar's, is shaded on the map.
+  const LNG_K = 0.74;  // degrees of longitude are ~0.74 as long as degrees of latitude here
+  const nearestArea = (lat, lng) => AREAS.reduce((a, x) => {
+    const d = (x[1] - lat) ** 2 + ((x[2] - lng) * LNG_K) ** 2;
+    return d < a.d ? { name: x[0], d } : a;
+  }, { name: null, d: Infinity }).name;
+  const hoodCells = new Map();
+  function hoodCell(name) {  // the label's cell: the map's bounds, cut by the halfway line to every other label
+    if (hoodCells.has(name)) return hoodCells.get(name);
+    const [, sy, sx0] = AREAS.find((x) => x[0] === name), sx = sx0 * LNG_K;
+    const [[s0, w0], [n0, e0]] = map.options.maxBounds ? [[map.options.maxBounds.getSouth(), map.options.maxBounds.getWest()], [map.options.maxBounds.getNorth(), map.options.maxBounds.getEast()]] : [[42.2, -71.24], [42.43, -70.95]];
+    let poly = [[w0 * LNG_K, s0], [e0 * LNG_K, s0], [e0 * LNG_K, n0], [w0 * LNG_K, n0]];
+    for (const [other, oy, ox0] of AREAS) {
+      if (other === name || !poly.length) continue;
+      const ox = ox0 * LNG_K, nx = ox - sx, ny = oy - sy, c = (nx * (sx + ox) + ny * (sy + oy)) / 2;
+      const side = (p) => nx * p[0] + ny * p[1] - c;  // <= 0: closer to this label
+      const out = [];
+      poly.forEach((p, i) => {
+        const q = poly[(i + 1) % poly.length], a = side(p), b = side(q);
+        if (a <= 0) out.push(p);
+        if ((a <= 0) !== (b <= 0)) { const t = a / (a - b); out.push([p[0] + t * (q[0] - p[0]), p[1] + t * (q[1] - p[1])]); }
+      });
+      poly = out;
+    }
+    const cell = poly.map(([x, y]) => [y, x / LNG_K]);
+    hoodCells.set(name, cell);
+    return cell;
+  }
+  map.createPane("hood").style.zIndex = 450;  // above the streets (400), below the pins (600)
+  map.getPane("hood").style.pointerEvents = "none";
+  const hoodLayer = L.polygon([], { pane: "hood", interactive: false, weight: 2, dashArray: "4 5", fillOpacity: 0.18 }).addTo(map);
+  let hoodShown = null, hoodHover = null;
+  function showHood() {
+    const v = S.selected && S.venues.get(S.selected);
+    const name = hoodHover || (v ? nearestArea(v.lat, v.lng) : null);
+    if (name === hoodShown) return;
+    if (hoodShown) areaMarkers.get(hoodShown)?.getElement()?.querySelector(".area-label")?.classList.remove("on");
+    hoodShown = name;
+    hoodLayer.setLatLngs(name ? hoodCell(name) : []);
+    hoodLayer.setStyle({ color: css("--tag"), fillColor: css("--tag") });
+    if (name) areaMarkers.get(name)?.getElement()?.querySelector(".area-label")?.classList.add("on");
+  }
+  let hoodFrame = 0;
+  map.on("mousemove", (e) => {
+    if (hoodFrame) return;
+    hoodFrame = requestAnimationFrame(() => {
+      hoodFrame = 0;
+      const { lat, lng } = e.latlng;
+      hoodHover = inArea(lat, lng) ? nearestArea(lat, lng) : null;
+      showHood();
+    });
+  });
+  map.getContainer().addEventListener("mouseleave", () => { hoodHover = null; showHood(); });
   L.marker([42.3545, -71.0905], { icon: L.divIcon({ className: "", html: '<span class="area-label river">Charles River</span>', iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map);
 
   // basemap.json stores each line as delta-encoded ints in 1e-5 degrees (see tools/basemap_build.py)
@@ -932,8 +990,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     ["minor", "mid", "major"].forEach((c) => base[c].push(L.polyline(bm.roads[c].map((p) => dec(p, b)), opt).addTo(map)));
     if (bm.area) {  // city limits: a dashed outline, also used to check where new venues can go
       AREA_RINGS = bm.area.map((r) => dec(r, b));
-      base.radius = L.featureGroup([L.polygon(AREA_RINGS, { interactive: false, fill: false }),
-        L.circle(MIT, { radius: CIRCLE_MI * 1609.34, interactive: false, fill: false })]).addTo(map);
+      base.radius = L.polygon(AREA_RINGS, { interactive: false, fill: false }).addTo(map);
     }
     styleBase();
   }).catch(() => toast("The street map didn't load. Venues still show, without streets."));
@@ -1417,6 +1474,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     if (id !== S.selected) { S.histOpen = false; watchPhotos(id); }
     S.selected = id;
     render();
+    showHood();
     if (id) {
       body.scrollTop = 0;
       const v = S.venues.get(id);
@@ -1730,7 +1788,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   map.on("click", (e) => {
     if (!S.picking) return;
     const { lat, lng } = e.latlng;
-    if (!inArea(lat, lng)) return toast("That spot is outside the area TabFriendly covers. Pick a place inside the dashed lines.");
+    if (!inArea(lat, lng)) return toast("That spot is outside the area TabFriendly covers: Boston, Cambridge (the dashed lines) and 2 miles around MIT.");
     stopPick();
     clearDraft();
     draft = L.marker([lat, lng], { icon: L.divIcon({ className: "", html: '<span class="draft-pin">▼</span>', iconSize: [0, 0] }), interactive: false }).addTo(map);
