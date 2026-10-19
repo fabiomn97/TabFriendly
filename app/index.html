@@ -129,6 +129,11 @@ a { color: var(--link); }
 
 .area-label { font: 700 13px/1 var(--f-display); letter-spacing: .14em; text-transform: uppercase; color: var(--label); white-space: nowrap; transform: translate(-50%, -50%); position: absolute; pointer-events: none; }
 .area-label.river { font-style: italic; letter-spacing: .3em; color: color-mix(in srgb, var(--water) 40%, var(--label)); }
+.me-dot { position: absolute; transform: translate(-50%, -50%); width: 16px; height: 16px; border-radius: 50%; background: #1a73e8; border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(26, 115, 232, .25), 0 1px 4px rgba(0, 0, 0, .35); }
+.locate { width: 34px; height: 34px; display: grid; place-items: center; background: var(--surface); color: var(--fg); border: 0; border-radius: 4px; cursor: pointer; font-size: 18px; line-height: 1; }
+.locate.on { color: #1a73e8; }
+.locate.busy { opacity: .5; }
+.near-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 0 0 8px; padding: 6px 10px; border-radius: 8px; background: color-mix(in srgb, #1a73e8 10%, var(--surface)); font-size: 13px; }
 .mit-dot { position: absolute; transform: translate(-50%, -50%); width: 14px; height: 14px; border-radius: 50%; background: var(--radius); border: 3px solid var(--surface); box-shadow: 0 0 0 1px var(--radius); }
 
 /* price-tag pins */
@@ -487,6 +492,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     types: new Set(savedTypes()),  // drink types ticked in the Drinks filter
     unit: store.get("tf-unit") === "oz" ? "oz" : "total",  // rank by total price or price per ounce
     hours: new Map(),
+    near: null,  // [lat, lng] once the person shares their location: the list and top 3 cover what's around them
     sizes: new Set(savedSizes()),  // portions counted: personal (glass, bottle, draft, can) and to share (wbottle, pitcher)
   };
   function savedTypes() {
@@ -502,10 +508,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   }
 
   // ---------- helpers ----------
-  function distMi(lat, lng) {
+  function distMi(lat, lng, from = MIT) {
     const R = 3958.8, toR = Math.PI / 180;
-    const dLat = (lat - MIT[0]) * toR, dLng = (lng - MIT[1]) * toR;
-    const a = Math.sin(dLat / 2) ** 2 + Math.cos(MIT[0] * toR) * Math.cos(lat * toR) * Math.sin(dLng / 2) ** 2;
+    const dLat = (lat - from[0]) * toR, dLng = (lng - from[1]) * toR;
+    const a = Math.sin(dLat / 2) ** 2 + Math.cos(from[0] * toR) * Math.cos(lat * toR) * Math.sin(dLng / 2) ** 2;
     return 2 * R * Math.asin(Math.sqrt(a));
   }
   const money = (p) => "$" + (Number.isInteger(p) ? String(p) : p.toFixed(2));
@@ -735,10 +741,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       const r = pick(v.id);
       // per ounce, venues whose prices all lack a pour size are marked rather than ranked
       return { v, r, nosize: !r && S.unit === "oz" && pool(v.id, S.mode).length > 0 };
-    }).filter(({ r }) => (!S.types.size || r) && (S.maxPrice == null || (r && r.price <= S.maxPrice)));
+    }).filter(({ v, r }) => (!S.types.size || r) && (S.maxPrice == null || (r && r.price <= S.maxPrice))
+      && (!S.near || distMi(v.lat, v.lng, S.near) <= NEAR_MI));
   }
   function computeBest(items) {
-    const priced = items.filter((x) => x.r && !isHidden(x.v.id)).sort((a, b) => val(a.r) - val(b.r) || distMi(a.v.lat, a.v.lng) - distMi(b.v.lat, b.v.lng));
+    const priced = items.filter((x) => x.r && !isHidden(x.v.id)).sort((a, b) => val(a.r) - val(b.r) || fromHere(a.v) - fromHere(b.v));
     S.best = new Set(priced.slice(0, 3).map((x) => x.v.id));
   }
   function tally(reportId) {
@@ -765,6 +772,59 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     map.fitBounds(b, wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] });
   }
   fitRadius();
+
+  // ---------- near me ----------
+  // Sharing your location zooms to about 6-7 blocks around you; the list and the green top 3 then cover just that area.
+  const NEAR_MI = 0.5;
+  const fromHere = (v) => distMi(v.lat, v.lng, S.near || MIT);
+  let meMarker = null, meRing = null;
+  function fitNear() {
+    const b = L.latLng(S.near).toBounds(NEAR_MI * 1609.34 * 1.6);
+    map.fitBounds(b, wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] });
+  }
+  const Locate = L.Control.extend({
+    options: { position: "topright" },
+    onAdd() {
+      const b = L.DomUtil.create("button", "locate leaflet-bar");
+      b.type = "button"; b.title = "Show what's near me"; b.setAttribute("aria-label", "Show what's near me");
+      b.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>';
+      L.DomEvent.disableClickPropagation(b);
+      L.DomEvent.on(b, "click", () => locate(false));
+      return b;
+    },
+  });
+  const locateBtn = new Locate().addTo(map).getContainer();
+  function locate(auto) {
+    if (!navigator.geolocation) { if (!auto) toast("This browser can't share your location."); return; }
+    locateBtn.classList.add("busy");
+    navigator.geolocation.getCurrentPosition((pos) => {
+      locateBtn.classList.remove("busy");
+      const ll = [pos.coords.latitude, pos.coords.longitude];
+      if (!map.options.maxBounds.contains(ll)) { if (!auto) toast("You're outside the TabFriendly area, so here's the whole map."); return; }
+      S.near = ll;
+      locateBtn.classList.add("on");
+      if (!meMarker) {
+        meMarker = L.marker(ll, { icon: L.divIcon({ className: "", html: '<div class="me-dot" aria-label="You are here"></div>', iconSize: [0, 0] }), interactive: false, keyboard: false, zIndexOffset: 1000 }).addTo(map);
+        meRing = L.circle(ll, { radius: NEAR_MI * 1609.34, color: "#1a73e8", weight: 1.5, dashArray: "4 4", fill: false, interactive: false }).addTo(map);
+      } else { meMarker.setLatLng(ll); meRing.setLatLng(ll); }
+      if (S.selected) select(null);
+      fitNear();
+      render();
+    }, (err) => {
+      locateBtn.classList.remove("busy");
+      if (!auto) toast(err.code === 1 ? "Location is blocked. Allow it for this site in your browser settings to see what's near you." : "Couldn't find your location. Try again.");
+    }, { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 });
+  }
+  function clearNear() {
+    S.near = null;
+    locateBtn.classList.remove("on");
+    if (meRing) { meRing.remove(); meRing = null; }
+    if (meMarker) { meMarker.remove(); meMarker = null; }
+    fitRadius();
+    render();
+  }
+  // People who already allowed location go straight to what's around them; everyone else taps the button.
+  navigator.permissions?.query({ name: "geolocation" }).then((st) => { if (st.state === "granted") locate(true); }).catch(() => {});
 
   const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
   const base = { water: [], parks: [], rail: [], minor: [], mid: [], major: [], radius: null };
@@ -823,7 +883,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       const { html, z } = pinFor(v, r, nosize);
       let m = markers.get(v.id);
       if (!m) {
-        m = L.marker([v.lat, v.lng], { title: v.name, riseOnHover: true, keyboard: true });
+        // a blank icon until the pin is drawn below, so Leaflet never fetches its default marker images
+        m = L.marker([v.lat, v.lng], { icon: L.divIcon({ className: "", iconSize: [0, 0] }), title: v.name, riseOnHover: true, keyboard: true });
         m.on("click", () => {
           if (S.picking) return toast(`${S.venues.get(v.id)?.name || "That venue"} is already on the map. Tap an empty spot.`);
           select(v.id);
@@ -994,6 +1055,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     const sel = [...S.types];
     const title = (!sel.length ? MODES[S.mode].title : sel.length === 1 ? `Cheapest ${sel[0]} nearby` : `Cheapest of your ${sel.length} drinks`)
       + (shareOnly() ? ", to share" : "") + (S.unit === "oz" ? ", per ounce" : "");
+    const nearBar = S.near ? `<div class="near-bar"><span>Within ${NEAR_MI} mi of you (about 6-7 blocks)</span><button class="btn small" type="button" id="nearOff">Show all</button></div>` : "";
     head.innerHTML = `<h2 class="sheet-title">${esc(title)}</h2>`;
     if (S.dbState === "loading") { body.innerHTML = `<p class="list-note">Loading venues and prices…</p>`; return; }
     if (S.dbState === "none") {
@@ -1006,15 +1068,16 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       body.innerHTML = `<div class="notice">No venues yet. Tap <b>+ Add a venue</b> to put the first one on the map.</div>`;
       return;
     }
-    const rows = items.map((x) => ({ ...x, d: distMi(x.v.lat, x.v.lng) }))
+    const rows = items.map((x) => ({ ...x, d: fromHere(x.v) }))
       .sort((a, b) => (a.r ? val(a.r) : a.nosize ? 1e8 : 1e9) - (b.r ? val(b.r) : b.nosize ? 1e8 : 1e9) || a.d - b.d);
     const priced = rows.filter((x) => x.r);
-    let h = `<div class="stat"><span><b>${rows.length}</b> ${S.maxPrice == null ? "venues" : "at " + esc(money(S.maxPrice)) + " or less"}</span><span><b>${priced.length}</b> with ${S.unit === "oz" ? "a known pour size" : sel.length ? "your drinks" : "a fresh " + MODES[S.mode].label + " price"}</span>${priced[0] ? `<span>from <b>${esc(S.unit === "oz" ? centsOz(priced[0].r) + "/oz" : money(priced[0].r.price))}</b></span>` : ""}</div>`;
+    let h = nearBar + `<div class="stat"><span><b>${rows.length}</b> ${S.maxPrice == null ? "venues" : "at " + esc(money(S.maxPrice)) + " or less"}</span><span><b>${priced.length}</b> with ${S.unit === "oz" ? "a known pour size" : sel.length ? "your drinks" : "a fresh " + MODES[S.mode].label + " price"}</span>${priced[0] ? `<span>from <b>${esc(S.unit === "oz" ? centsOz(priced[0].r) + "/oz" : money(priced[0].r.price))}</b></span>` : ""}</div>`;
     if (!rows.length) {
       const why = sel.length && S.maxPrice == null ? "No venue lists the drinks you picked yet. Try adding more drinks."
         : sel.length ? `None of your drinks are ${esc(money(S.maxPrice))} or less. Raise the max price or add more drinks.`
         : `Nothing at or under ${esc(money(S.maxPrice))} yet. Raise the max price, or report a cheaper drink you've found.`;
-      body.innerHTML = h + `<div class="notice">${why}</div>`;
+      body.innerHTML = h + `<div class="notice">${S.near ? "Nothing priced within " + NEAR_MI + " mi of you yet. Tap <b>Show all</b> to see the whole map." : why}</div>`;
+      $("nearOff")?.addEventListener("click", clearNear);
       return;
     }
     h += `<ul class="list">`;
@@ -1045,6 +1108,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     h += `</ul><p class="list-note">The three cheapest are in green. Prices come from published menus and from people like you, and only prices from the last six months count.${S.unit === "oz" ? " Per ounce ranks only drinks with a known pour size." : ""} Spot a wrong one? Open the venue and update it.</p>`;
     body.innerHTML = h;
     body.querySelectorAll("[data-v]").forEach((b) => b.addEventListener("click", () => select(b.dataset.v, true)));
+    $("nearOff")?.addEventListener("click", clearNear);
   }
 
   const canPost = () => S.canWrite !== false && !S.readOnlyAfterRefusal && S.dbState === "ready";
@@ -1182,8 +1246,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   function renderVenue(v) {
     controls.hidden = true;
     head.innerHTML = `<button class="btn small ghost" type="button" id="backBtn" aria-label="Back to list">←</button><h2 class="sheet-title">${esc(v.name)}</h2>`;
-    const d = distMi(v.lat, v.lng);
-    let h = `<div class="v-meta"><span class="chip">${v.type === "restaurant" ? "Restaurant" : "Bar"}</span>${v.address ? `<span>${esc(v.address)}</span>` : ""}<span>${d.toFixed(2)} mi from 77 Mass Ave</span>${safeUrl(v.website) ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}</div>`;
+    const d = fromHere(v);
+    let h = `<div class="v-meta"><span class="chip">${v.type === "restaurant" ? "Restaurant" : "Bar"}</span>${v.address ? `<span>${esc(v.address)}</span>` : ""}<span>${d.toFixed(2)} mi from ${S.near ? "you" : "77 Mass Ave"}</span>${safeUrl(v.website) ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}</div>`;
     if (v.note) h += `<div class="notice">${esc(v.note)}</div>`;
     if (isHidden(v.id)) h += `<div class="notice">This venue is hidden from everyone but editors.</div>`;
     if (S.types.size) h += mineBlock(v);
