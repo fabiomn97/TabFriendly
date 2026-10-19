@@ -1,0 +1,14 @@
+{
+ "venueId": "v-pkl-boston",
+ "kind": "mixed",
+ "drink": "Harry Styles (vodka, lime, framboise, yuzu)",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://playpkl.com/wp-content/uploads/2026/10/Oct-26-Cocktail-Menu.jpg",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

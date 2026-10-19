@@ -1,0 +1,12 @@
+{
+ "name": "Battery Wharf Grille",
+ "type": "restaurant",
+ "address": "3 Battery Wharf, Boston, MA 02109",
+ "lat": 42.367114,
+ "lng": -71.050847,
+ "website": "https://www.batterywharfhotelboston.com/dining",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

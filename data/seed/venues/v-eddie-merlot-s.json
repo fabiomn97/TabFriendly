@@ -1,0 +1,12 @@
+{
+ "name": "Eddie Merlot's",
+ "type": "restaurant",
+ "address": "505 Congress St, Boston, MA 02210",
+ "lat": 42.348038,
+ "lng": -71.041044,
+ "website": "https://www.eddiemerlots.com/boston/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-lily-s-bar-pizza-patio",
+ "hours": {
+  "mon": "11:30-22:00",
+  "tue": "11:30-22:00",
+  "wed": "11:30-22:00",
+  "thu": "11:30-22:00",
+  "fri": "11:30-23:30",
+  "sat": "16:00-23:30",
+  "sun": "closed"
+ },
+ "source": "https://www.lilysboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

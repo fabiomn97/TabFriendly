@@ -1,0 +1,14 @@
+{
+ "venueId": "v-753-south",
+ "kind": "mixed",
+ "drink": "Cocktails (e.g. Metropolitan Mule, South Street Smash)",
+ "price": 12.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://753south.com/drinks/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

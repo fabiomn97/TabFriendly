@@ -1,0 +1,14 @@
+{
+ "venueId": "v-cunard-tavern",
+ "kind": "mixed",
+ "drink": "Eastie Paloma (Tall Drinks, all $15)",
+ "price": 15.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.cunardtavern.com/drink-menu",
+ "sourceDate": "2026-04",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

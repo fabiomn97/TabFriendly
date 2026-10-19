@@ -1,0 +1,12 @@
+{
+ "name": "Petula's",
+ "type": "restaurant",
+ "address": "81 L St, Boston, MA 02127",
+ "lat": 42.334669,
+ "lng": -71.035552,
+ "website": "https://www.petulasboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

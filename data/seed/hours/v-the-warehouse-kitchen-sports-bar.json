@@ -1,0 +1,16 @@
+{
+ "venueId": "v-the-warehouse-kitchen-sports-bar",
+ "hours": {
+  "mon": "11:30-23:30",
+  "tue": "11:30-23:30",
+  "wed": "11:30-23:30",
+  "thu": "11:30-23:30",
+  "fri": "11:30-23:30",
+  "sat": "11:30-01:00",
+  "sun": "11:30-23:30"
+ },
+ "source": "https://www.thewarehouseboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Venezia",
+ "type": "restaurant",
+ "address": "20 Ericsson St, Boston, MA 02122",
+ "lat": 42.292816,
+ "lng": -71.040113,
+ "website": "https://www.veneziaboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

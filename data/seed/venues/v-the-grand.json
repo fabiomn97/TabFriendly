@@ -1,0 +1,12 @@
+{
+ "name": "The Grand",
+ "type": "bar",
+ "address": "58 Seaport Blvd, Suite 300, Boston, MA 02210",
+ "lat": 42.353174,
+ "lng": -71.04754,
+ "website": "https://www.thegrandboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

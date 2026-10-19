@@ -1,0 +1,14 @@
+{
+ "venueId": "v-empire",
+ "kind": "mixed",
+ "drink": "Mai Tai",
+ "price": 18.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.empireboston.com/s/Empire-drink-aug-2026.png",
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

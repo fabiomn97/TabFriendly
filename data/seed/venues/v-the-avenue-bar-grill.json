@@ -1,0 +1,12 @@
+{
+ "name": "The Avenue Bar & Grill",
+ "type": "bar",
+ "address": "1249 Commonwealth Ave, Boston, MA 02134",
+ "lat": 42.350148,
+ "lng": -71.132104,
+ "website": "https://www.avenuebar.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

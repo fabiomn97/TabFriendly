@@ -1,0 +1,16 @@
+{
+ "venueId": "v-angela-s-cafe-eagle-hill",
+ "hours": {
+  "mon": "08:00-21:00",
+  "tue": "08:00-21:00",
+  "wed": "08:00-21:00",
+  "thu": "08:00-21:00",
+  "fri": "08:00-21:00",
+  "sat": "08:00-21:00",
+  "sun": "08:00-15:00"
+ },
+ "source": "https://www.angelascafeboston.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

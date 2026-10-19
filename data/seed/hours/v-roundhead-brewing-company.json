@@ -1,0 +1,16 @@
+{
+ "venueId": "v-roundhead-brewing-company",
+ "hours": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "16:00-21:00",
+  "thu": "16:00-21:00",
+  "fri": "15:00-22:00",
+  "sat": "12:00-22:00",
+  "sun": "12:00-19:00"
+ },
+ "source": "https://roundheadbrewing.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

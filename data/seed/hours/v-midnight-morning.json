@@ -1,0 +1,16 @@
+{
+ "venueId": "v-midnight-morning",
+ "hours": {
+  "mon": "08:00-21:00",
+  "tue": "08:00-21:00",
+  "wed": "08:00-21:00",
+  "thu": "08:00-21:00",
+  "fri": "08:00-22:00",
+  "sat": "10:00-22:00",
+  "sun": "10:00-21:00"
+ },
+ "source": "https://www.midnightmorning.com",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

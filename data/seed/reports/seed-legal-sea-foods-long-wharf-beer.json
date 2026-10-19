@@ -1,0 +1,14 @@
+{
+ "venueId": "v-legal-sea-foods-long-wharf",
+ "kind": "beer",
+ "drink": "Michelob Ultra (draft 16oz)",
+ "price": 8.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.legalseafoods.com/wp-content/uploads/2026/10/Bev-Menu-LongWharf-Oct26.pdf",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

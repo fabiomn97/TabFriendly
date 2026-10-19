@@ -1,0 +1,12 @@
+{
+ "name": "Fat Baby",
+ "type": "restaurant",
+ "address": "118 Dorchester St, Boston, MA 02127",
+ "lat": 42.335045,
+ "lng": -71.046167,
+ "website": "https://www.fatbabysouthboston.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

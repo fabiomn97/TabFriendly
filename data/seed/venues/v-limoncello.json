@@ -1,0 +1,12 @@
+{
+ "name": "Limoncello",
+ "type": "restaurant",
+ "address": "190 North Street, Boston, MA 02113",
+ "lat": 42.363448,
+ "lng": -71.053829,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

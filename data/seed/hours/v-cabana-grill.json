@@ -1,0 +1,16 @@
+{
+ "venueId": "v-cabana-grill",
+ "hours": {
+  "mon": "17:00-01:00",
+  "tue": "17:00-01:00",
+  "wed": "17:00-01:00",
+  "thu": "17:00-01:00",
+  "fri": "14:00-01:30",
+  "sat": "14:00-01:30",
+  "sun": "14:00-01:30"
+ },
+ "source": "https://www.opentable.com/r/cabana-boston",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-brassica-kitchen-cafe",
+ "hours": {
+  "mon": "closed",
+  "tue": "closed",
+  "wed": "17:00-23:00",
+  "thu": "17:00-23:00",
+  "fri": "17:00-23:00",
+  "sat": "10:00-15:00,17:00-23:00",
+  "sun": "10:00-15:30"
+ },
+ "source": "https://www.brassicakitchen.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

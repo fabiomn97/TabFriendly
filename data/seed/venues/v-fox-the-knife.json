@@ -1,0 +1,12 @@
+{
+ "name": "Fox & The Knife",
+ "type": "restaurant",
+ "address": "28 W Broadway, Boston, MA 02127",
+ "lat": 42.342661,
+ "lng": -71.056548,
+ "website": "https://www.foxandtheknife.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

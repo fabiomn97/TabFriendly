@@ -1,0 +1,12 @@
+{
+ "name": "Applebee's Grill + Bar",
+ "type": "restaurant",
+ "address": "11A Allstate Rd, Boston, MA 02125",
+ "lat": 42.326106,
+ "lng": -71.06357,
+ "website": "https://restaurants.applebees.com/en-us/ma/dorchester/11a-allstate-road-81086",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

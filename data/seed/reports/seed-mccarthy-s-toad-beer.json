@@ -1,0 +1,14 @@
+{
+ "venueId": "v-mccarthy-s-toad",
+ "kind": "beer",
+ "drink": "Modelo (draft)",
+ "price": 6.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.mccarthystoad.com/menu",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

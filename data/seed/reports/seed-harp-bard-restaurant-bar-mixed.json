@@ -1,0 +1,14 @@
+{
+ "venueId": "v-harp-bard-restaurant-bar",
+ "kind": "mixed",
+ "drink": "Eww David",
+ "price": 12.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://harpandbard.com/menu/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

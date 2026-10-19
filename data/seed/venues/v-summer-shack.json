@@ -1,0 +1,12 @@
+{
+ "name": "Summer Shack",
+ "type": "restaurant",
+ "address": "149 Alewife Brook Pkwy, Cambridge, MA 02140",
+ "lat": 42.39368,
+ "lng": -71.14089,
+ "website": "https://www.summershackrestaurant.com/cambridge",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

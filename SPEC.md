@@ -5,8 +5,8 @@ open questions on Oct 13, 2026. Where this spec and the brief differ, this spec 
 
 ## Product
 A mobile-friendly web app, hosted as a claude.ai artifact, that maps bars and restaurants
-within **2 miles of 77 Massachusetts Ave** and labels each with its cheapest drinks.
-The final version will cover all of Cambridge and Boston. Version 2 stops at 2 miles.
+in **Boston and Cambridge** (plus the original 2 miles around 77 Massachusetts Ave, which takes in parts of Somerville
+and Brookline) and labels each with its cheapest drinks.
 Audience: college and graduate students aged 21+.
 
 ## Per-venue data
@@ -54,7 +54,7 @@ Each price records its source (a URL, "user-reported", or "editor") and its date
   price of any drink already on it. The entry is labeled "user-reported" with its date, and it feeds the Drinks filter and the rankings.
   The newest version of a drink wins.
 - Other users can mark a user-reported cheapest price 👍 or 👎. More 👎 than 👍 shows it as "Disputed".
-- Anyone with Contributor access can **add a venue** inside the radius and **add menu photos**.
+- Anyone with Contributor access can **add a venue** inside the coverage area (the dashed city limits and circle) and **add menu photos**.
 
 ## Opening hours
 - Each venue's card shows "Open now · until 1am" or "Closed · opens 4pm", and the weekly hours.
@@ -70,7 +70,7 @@ Each price records its source (a URL, "user-reported", or "editor") and its date
 - Simple 21+ click-through gate, shown once per browser.
 - Logo: a cardinal-red badge holding a white beer mug, with a "Tab" + "Friendly" wordmark in MIT colors.
 - **Out of scope for v2:** the happy-hours / time-limited prices toggle (dropped: Massachusetts bans drink discounts, so there is
-  little to show), filtering by bar versus restaurant, and venues beyond 2 miles.
+  little to show), filtering by bar versus restaurant, and venues beyond Boston and Cambridge.
 
 ## Seed data
 Venues, prices and hours were researched from published menus and venue websites. Every price carries a source URL and a date.
@@ -83,7 +83,7 @@ The team reviews the list in data/venues_review.csv. data/live/ holds a snapshot
 - **Price edit:** a tester changes the price of a menu item, and the new price shows with the date of the change.
 - **Per ounce:** with the toggle on, the three green pins match a hand-ranked list of venues with known pour sizes.
 - **Hours:** opening hours match venue websites in a spot check of 10 venues.
-- **Range:** every researched venue within 2 miles of 77 Mass Ave appears on the map.
+- **Range:** every researched venue in Boston, Cambridge or the 2-mile circle appears on the map.
 - The v1 bar of 25 venues with a sourced cheapest-beer price carries over to the larger radius.
 
 ## Code & hosting

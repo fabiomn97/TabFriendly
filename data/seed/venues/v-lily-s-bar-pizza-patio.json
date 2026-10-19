@@ -1,0 +1,12 @@
+{
+ "name": "Lily's Bar Pizza Patio",
+ "type": "bar",
+ "address": "33 Batterymarch St, Boston, MA 02110",
+ "lat": 42.357445,
+ "lng": -71.054067,
+ "website": "https://www.lilysboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

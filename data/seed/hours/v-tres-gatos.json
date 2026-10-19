@@ -1,0 +1,16 @@
+{
+ "venueId": "v-tres-gatos",
+ "hours": {
+  "mon": "17:00-22:00",
+  "tue": "17:00-22:00",
+  "wed": "17:00-22:00",
+  "thu": "17:00-22:00",
+  "fri": "17:00-22:00",
+  "sat": "11:00-14:00,17:00-22:00",
+  "sun": "11:00-14:00,17:00-22:00"
+ },
+ "source": "https://www.tresgatosjp.com/hoursandinformation",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

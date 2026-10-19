@@ -1,0 +1,16 @@
+{
+ "venueId": "v-del-frisco-s-double-eagle-steakhouse-boston-seaport",
+ "hours": {
+  "mon": "11:30-22:00",
+  "tue": "11:30-22:00",
+  "wed": "11:30-22:00",
+  "thu": "11:30-22:00",
+  "fri": "11:30-23:00",
+  "sat": "16:00-23:00",
+  "sun": "16:00-21:00"
+ },
+ "source": "https://www.delfriscos.com/location/del-friscos-double-eagle-steakhouse-boston-seaport-ma/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

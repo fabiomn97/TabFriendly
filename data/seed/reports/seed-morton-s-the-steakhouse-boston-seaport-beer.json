@@ -1,0 +1,14 @@
+{
+ "venueId": "v-morton-s-the-steakhouse-boston-seaport",
+ "kind": "beer",
+ "drink": "Bud Light",
+ "price": 8.25,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.mortons.com/location/mortons-the-steakhouse-boston-ma-seaport/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

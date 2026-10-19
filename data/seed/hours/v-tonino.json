@@ -1,0 +1,16 @@
+{
+ "venueId": "v-tonino",
+ "hours": {
+  "mon": "17:00-21:30",
+  "tue": "closed",
+  "wed": "closed",
+  "thu": "17:00-22:30",
+  "fri": "17:00-22:30",
+  "sat": "17:00-22:30",
+  "sun": "17:00-21:30"
+ },
+ "source": "https://www.toninojp.com/location-hours",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

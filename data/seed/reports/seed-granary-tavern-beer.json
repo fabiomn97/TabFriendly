@@ -1,0 +1,14 @@
+{
+ "venueId": "v-granary-tavern",
+ "kind": "beer",
+ "drink": "Michelob Ultra 12oz",
+ "price": 7.0,
+ "oz": 12,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.granarytavern.com/menus/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

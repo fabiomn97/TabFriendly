@@ -1,0 +1,12 @@
+{
+ "name": "Joe Sent Me",
+ "type": "bar",
+ "address": "2388 Massachusetts Ave, Cambridge, MA 02140",
+ "lat": 42.39692,
+ "lng": -71.12996,
+ "website": "http://www.joe-sent-me.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+ "venueId": "v-trillium-brewing-company-fort-point",
+ "hours": {
+  "mon": "12:00-23:00",
+  "tue": "12:00-23:00",
+  "wed": "12:00-23:00",
+  "thu": "12:00-23:00",
+  "fri": "12:00-23:00",
+  "sat": "11:00-23:00",
+  "sun": "11:00-22:00"
+ },
+ "source": "https://www.trilliumbrewing.com/pages/fort-point",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

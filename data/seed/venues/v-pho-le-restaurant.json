@@ -1,0 +1,12 @@
+{
+ "name": "Phở Lê Restaurant",
+ "type": "restaurant",
+ "address": "1356 Dorchester Ave, Boston, MA 02122",
+ "lat": 42.304401,
+ "lng": -71.059008,
+ "website": "https://pholedorchester.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

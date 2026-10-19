@@ -1,0 +1,14 @@
+{
+ "venueId": "v-fox-the-knife",
+ "kind": "beer",
+ "drink": "Peroni",
+ "price": 10.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5bb80dcab10f25306d77bbce/1791925014768-BLG4ROCABHHKD81C9FFI/FOX+DINNER+10.13.26+drinks.png",
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

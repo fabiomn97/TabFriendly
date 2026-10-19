@@ -1,0 +1,14 @@
+{
+ "venueId": "v-brendan-behan-pub",
+ "kind": "mixed",
+ "drink": "Dark and Stormy (also Negroni, Margarita, Manhattan)",
+ "price": 11.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.brendanbehanjp.com/menu-1",
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

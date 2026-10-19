@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-smoke-shop-bbq-seaport",
+ "kind": "mixed",
+ "drink": "The Smoke Shop BBQ's Signature Old Fashioned",
+ "price": 13.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://thesmokeshopbbq.com/cocktails/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

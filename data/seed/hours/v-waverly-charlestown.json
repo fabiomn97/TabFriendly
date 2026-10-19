@@ -1,0 +1,16 @@
+{
+ "venueId": "v-waverly-charlestown",
+ "hours": {
+  "mon": "10:00-23:00",
+  "tue": "10:00-23:00",
+  "wed": "10:00-23:00",
+  "thu": "10:00-23:00",
+  "fri": "08:00-00:00",
+  "sat": "08:00-00:00",
+  "sun": "08:00-23:00"
+ },
+ "source": "https://www.waverlycharlestown.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

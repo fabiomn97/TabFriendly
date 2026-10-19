@@ -1,0 +1,16 @@
+{
+ "venueId": "v-rino-s-place",
+ "hours": {
+  "mon": "15:00-20:45",
+  "tue": "15:00-20:45",
+  "wed": "15:00-20:45",
+  "thu": "15:00-20:45",
+  "fri": "12:00-20:45",
+  "sat": "15:00-20:45",
+  "sun": "closed"
+ },
+ "source": "https://foodle.pro/restaurants/boston/rino-s-place",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

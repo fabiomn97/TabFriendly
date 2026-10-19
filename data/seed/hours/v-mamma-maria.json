@@ -1,0 +1,16 @@
+{
+ "venueId": "v-mamma-maria",
+ "hours": {
+  "mon": "17:00-21:15",
+  "tue": "17:00-21:15",
+  "wed": "17:00-21:15",
+  "thu": "17:00-21:15",
+  "fri": "16:30-21:30",
+  "sat": "16:30-21:30",
+  "sun": "16:30-21:30"
+ },
+ "source": "https://mammamaria.com/location/mamma-maria-boston/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

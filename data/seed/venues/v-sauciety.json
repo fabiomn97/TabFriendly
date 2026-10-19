@@ -1,0 +1,12 @@
+{
+ "name": "Sauciety",
+ "type": "restaurant",
+ "address": "425 Summer St, Boston, MA 02210",
+ "lat": 42.345563,
+ "lng": -71.043592,
+ "website": "https://www.marriott.com/en-us/hotels/bosow-the-westin-boston-seaport-district/dining/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

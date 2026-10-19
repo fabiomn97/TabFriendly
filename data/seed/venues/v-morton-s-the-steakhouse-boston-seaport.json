@@ -1,0 +1,12 @@
+{
+ "name": "Morton's The Steakhouse - Boston Seaport",
+ "type": "restaurant",
+ "address": "2 Seaport Ln, Boston, MA 02210",
+ "lat": 42.349125,
+ "lng": -71.040708,
+ "website": "https://www.mortons.com/location/mortons-the-steakhouse-boston-ma-seaport/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

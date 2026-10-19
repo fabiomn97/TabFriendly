@@ -1,0 +1,12 @@
+{
+ "name": "Lucy's American Tavern",
+ "type": "bar",
+ "address": "13 Granite Ave, Boston, MA 02124",
+ "lat": 42.282296,
+ "lng": -71.055846,
+ "website": "https://www.lucysamericantavern.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Mamma Maria",
+ "type": "restaurant",
+ "address": "3 North Square, Boston, MA 02113",
+ "lat": 42.364095,
+ "lng": -71.05324,
+ "website": "https://mammamaria.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

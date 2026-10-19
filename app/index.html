@@ -369,13 +369,13 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   <header class="bar">
     <div class="brand">
       <h1 class="logo" aria-label="TabFriendly"><svg aria-hidden="true"><use href="#i-pint"/></svg><span><span class="w1">Tab</span><span class="w2">Friendly</span></span></h1>
-      <p>Cheapest drinks within 2 miles of 77 Mass Ave</p>
+      <p>Cheapest drinks in Boston &amp; Cambridge</p>
     </div>
     <button class="btn ghost small" id="editorBtn" type="button" hidden>Editor</button>
     <button class="btn" id="addVenueBtn" type="button"><span>+ Add<span class="add-long"> a</span> venue</span></button>
   </header>
   <div id="mapWrap">
-    <div id="map" role="application" aria-label="Map of bars and restaurants near 77 Massachusetts Ave"></div>
+    <div id="map" role="application" aria-label="Map of bars and restaurants in Boston and Cambridge"></div>
     <aside class="sheet" id="sheet" aria-live="polite">
       <button class="sheet-grip" id="grip" type="button" aria-label="Expand or collapse list"></button>
       <div class="sheet-head" id="sheetHead"></div>
@@ -454,8 +454,10 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 (() => {
   "use strict";
   const MIT = [42.35916, -71.09348];          // 77 Massachusetts Ave
-  const RADIUS_MI = 2;
-  const RADIUS_M = RADIUS_MI * 1609.34;
+  // Coverage: the cities of Boston and Cambridge. The outline comes with basemap.json; this box frames the first view.
+  const AREA_BOUNDS = [[42.2279, -71.1912], [42.4043, -70.9950]];
+  let AREA_RINGS = null;  // [[lat, lng], ...] rings of the city limits, once basemap.json loads
+  const CIRCLE_MI = 2;
   const AREAS = [
     ["Kendall Sq", 42.3626, -71.0855], ["Central Sq", 42.3652, -71.1035], ["Cambridgeport", 42.3575, -71.1075],
     ["Back Bay", 42.3500, -71.0805], ["Kenmore", 42.3482, -71.0965], ["Fenway", 42.3437, -71.1000],
@@ -463,6 +465,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     ["Union Sq", 42.3796, -71.0935], ["East Cambridge", 42.3700, -71.0790], ["Beacon Hill", 42.3588, -71.0680],
     ["West End", 42.3645, -71.0650], ["Downtown", 42.3555, -71.0610], ["South End", 42.3420, -71.0725],
     ["Longwood", 42.3378, -71.1060], ["Mission Hill", 42.3325, -71.0990], ["Allston", 42.3535, -71.1290],
+    ["Brighton", 42.3490, -71.1560], ["Charlestown", 42.3782, -71.0602], ["East Boston", 42.3750, -71.0390],
+    ["North End", 42.3647, -71.0542], ["Seaport", 42.3505, -71.0430], ["South Boston", 42.3334, -71.0495],
+    ["Dorchester", 42.3000, -71.0640], ["Roxbury", 42.3160, -71.0880], ["Jamaica Plain", 42.3100, -71.1140],
+    ["Roslindale", 42.2860, -71.1280], ["West Roxbury", 42.2800, -71.1600], ["Hyde Park", 42.2560, -71.1240],
+    ["Mattapan", 42.2700, -71.0920], ["North Cambridge", 42.3950, -71.1330], ["Porter Sq", 42.3884, -71.1191],
   ];
   const MODES = {
     beer: { title: "Cheapest beer nearby", label: "beer" },
@@ -508,6 +515,19 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   }
 
   // ---------- helpers ----------
+  // Coverage: inside Boston or Cambridge, or within the original 2 miles of 77 Mass Ave (parts of Somerville and Brookline).
+  function inArea(lat, lng) {
+    if (distMi(lat, lng) <= CIRCLE_MI) return true;
+    if (!AREA_RINGS) return lat >= AREA_BOUNDS[0][0] && lat <= AREA_BOUNDS[1][0] && lng >= AREA_BOUNDS[0][1] && lng <= AREA_BOUNDS[1][1];
+    let hit = false;
+    for (const ring of AREA_RINGS) {
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        const [yi, xi] = ring[i], [yj, xj] = ring[j];
+        if ((yi > lat) !== (yj > lat) && lng < xi + ((lat - yi) * (xj - xi)) / (yj - yi)) hit = !hit;
+      }
+    }
+    return hit;
+  }
   function distMi(lat, lng, from = MIT) {
     const R = 3958.8, toR = Math.PI / 180;
     const dLat = (lat - from[0]) * toR, dLng = (lng - from[1]) * toR;
@@ -760,16 +780,15 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 
   // ---------- map ----------
   const map = L.map("map", {
-    preferCanvas: true, zoomSnap: 0.25, minZoom: 11.75, maxZoom: 19, zoomControl: true, attributionControl: true,
-    maxBounds: [[42.27, -71.21], [42.44, -70.98]], maxBoundsViscosity: 0.8,
+    preferCanvas: true, zoomSnap: 0.25, minZoom: 11, maxZoom: 19, zoomControl: true, attributionControl: true,
+    maxBounds: [[42.20, -71.24], [42.43, -70.95]], maxBoundsViscosity: 0.8,
   });
   map.attributionControl.setPrefix(false);
   map.attributionControl.addAttribution('Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors');
   map.zoomControl.setPosition("topright");
   const wide = matchMedia("(min-width: 900px)");
   function fitRadius() {
-    const b = L.latLng(MIT).toBounds(RADIUS_M * 2);
-    map.fitBounds(b, wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] });
+    map.fitBounds(AREA_BOUNDS, wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] });
   }
   fitRadius();
 
@@ -838,7 +857,6 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     base.major.forEach((l) => l.setStyle({ color: css("--road-major"), weight: 4.6 * k }));
     if (base.radius) base.radius.setStyle({ color: css("--radius"), weight: 1.5, dashArray: "6 6", fill: false });
   }
-  base.radius = L.circle(MIT, { radius: RADIUS_M, interactive: false }).addTo(map);
   L.marker(MIT, { icon: L.divIcon({ className: "", html: '<span class="mit-dot" title="77 Massachusetts Ave"></span>', iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map);
   AREAS.forEach(([name, lat, lng]) => L.marker([lat, lng], { icon: L.divIcon({ className: "", html: `<span class="area-label">${esc(name)}</span>`, iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map));
   L.marker([42.3545, -71.0905], { icon: L.divIcon({ className: "", html: '<span class="area-label river">Charles River</span>', iconSize: [0, 0] }), interactive: false, keyboard: false }).addTo(map);
@@ -857,7 +875,11 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     base.parks.push(L.polygon(bm.parks.map((p) => p.map((r) => dec(r, b))), opt).addTo(map));
     base.rail.push(L.polyline(bm.rail.map((p) => dec(p, b)), opt).addTo(map));
     ["minor", "mid", "major"].forEach((c) => base[c].push(L.polyline(bm.roads[c].map((p) => dec(p, b)), opt).addTo(map)));
-    base.radius.bringToFront();
+    if (bm.area) {  // city limits: a dashed outline, also used to check where new venues can go
+      AREA_RINGS = bm.area.map((r) => dec(r, b));
+      base.radius = L.featureGroup([L.polygon(AREA_RINGS, { interactive: false, fill: false }),
+        L.circle(MIT, { radius: CIRCLE_MI * 1609.34, interactive: false, fill: false })]).addTo(map);
+    }
     styleBase();
   }).catch(() => toast("The street map didn't load. Venues still show, without streets."));
   map.on("zoomend", styleBase);
@@ -1620,7 +1642,7 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
   map.on("click", (e) => {
     if (!S.picking) return;
     const { lat, lng } = e.latlng;
-    if (distMi(lat, lng) > RADIUS_MI) return toast(`That spot is outside the ${RADIUS_MI}-mile circle. Pick a place inside it.`);
+    if (!inArea(lat, lng)) return toast("That spot is outside the area TabFriendly covers. Pick a place inside the dashed lines.");
     stopPick();
     clearDraft();
     draft = L.marker([lat, lng], { icon: L.divIcon({ className: "", html: '<span class="draft-pin">▼</span>', iconSize: [0, 0] }), interactive: false }).addTo(map);

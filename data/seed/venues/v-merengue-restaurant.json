@@ -1,0 +1,12 @@
+{
+ "name": "Merengue Restaurant",
+ "type": "restaurant",
+ "address": "160 Blue Hill Ave, Roxbury, MA 02119",
+ "lat": 42.319158,
+ "lng": -71.077639,
+ "website": "https://merenguerestaurant.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Granary Tavern",
+ "type": "restaurant",
+ "address": "170 Milk St, Boston, MA 02109",
+ "lat": 42.358707,
+ "lng": -71.052403,
+ "website": "https://www.granarytavern.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

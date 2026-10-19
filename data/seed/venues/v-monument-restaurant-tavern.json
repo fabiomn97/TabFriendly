@@ -1,0 +1,12 @@
+{
+ "name": "Monument Restaurant & Tavern",
+ "type": "restaurant",
+ "address": "251 Main St, Charlestown, MA 02129",
+ "lat": 42.377,
+ "lng": -71.06627,
+ "website": "https://www.monumentcharlestown.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

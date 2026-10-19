@@ -1,0 +1,14 @@
+{
+ "venueId": "v-artu",
+ "kind": "mixed",
+ "drink": "American Mule",
+ "price": 14.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://artuboston.com/wp-content/uploads/2025/07/Artu-Summer-2025.pdf",
+ "sourceDate": "2025-07",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

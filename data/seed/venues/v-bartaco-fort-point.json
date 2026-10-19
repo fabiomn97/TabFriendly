@@ -1,0 +1,12 @@
+{
+ "name": "bartaco Fort Point",
+ "type": "restaurant",
+ "address": "25 Thomson Pl, Boston, MA 02210",
+ "lat": 42.350844,
+ "lng": -71.047615,
+ "website": "https://bartaco.com/location/seaport/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

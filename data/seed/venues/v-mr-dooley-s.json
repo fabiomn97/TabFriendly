@@ -1,0 +1,12 @@
+{
+ "name": "Mr. Dooley's",
+ "type": "bar",
+ "address": "77 Broad St, Boston, MA 02109",
+ "lat": 42.357668,
+ "lng": -71.053574,
+ "website": "https://www.mrdooleys.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

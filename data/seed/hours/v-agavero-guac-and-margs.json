@@ -1,0 +1,16 @@
+{
+ "venueId": "v-agavero-guac-and-margs",
+ "hours": {
+  "mon": "11:00-22:00",
+  "tue": "11:00-22:00",
+  "wed": "11:00-22:00",
+  "thu": "11:00-22:30",
+  "fri": "11:00-23:30",
+  "sat": "11:00-23:30",
+  "sun": "11:00-22:00"
+ },
+ "source": "https://agaveroguacandmargs.com/",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

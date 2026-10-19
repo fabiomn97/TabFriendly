@@ -1,0 +1,14 @@
+{
+ "venueId": "v-sophia-s-grotto",
+ "kind": "beer",
+ "drink": "Narragansett (16oz bottle)",
+ "price": 5.0,
+ "oz": 16,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.sophiasgrotto.com/DrinkMenu.pdf",
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

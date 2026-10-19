@@ -1,0 +1,14 @@
+{
+ "venueId": "v-the-avenue-bar-grill",
+ "kind": "mixed",
+ "drink": "The Hoth Toddy",
+ "price": 9.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.avenuebar.com/menu/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

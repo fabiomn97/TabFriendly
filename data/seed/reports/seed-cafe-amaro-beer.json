@@ -1,0 +1,14 @@
+{
+ "venueId": "v-cafe-amaro",
+ "kind": "beer",
+ "drink": "Peroni Italian Lager",
+ "price": 8.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://www.cafeamaroboston.com/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

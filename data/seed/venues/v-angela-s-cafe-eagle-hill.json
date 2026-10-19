@@ -1,0 +1,12 @@
+{
+ "name": "Angela's Cafe (Eagle Hill)",
+ "type": "restaurant",
+ "address": "131 Lexington St, East Boston, MA 02128",
+ "lat": 42.378521,
+ "lng": -71.034992,
+ "website": "https://www.angelascafeboston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

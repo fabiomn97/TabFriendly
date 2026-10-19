@@ -1,0 +1,16 @@
+{
+ "venueId": "v-corrib-pub",
+ "hours": {
+  "mon": "08:30-01:00",
+  "tue": "08:30-01:00",
+  "wed": "08:30-01:00",
+  "thu": "08:30-01:00",
+  "fri": "08:30-01:00",
+  "sat": "10:00-01:00",
+  "sun": "10:00-01:00"
+ },
+ "source": "https://www.timeout.com/boston/bars/corrib-pub",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

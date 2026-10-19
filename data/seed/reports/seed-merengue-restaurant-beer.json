@@ -1,0 +1,14 @@
+{
+ "venueId": "v-merengue-restaurant",
+ "kind": "beer",
+ "drink": "Cervezas Domesticas o Importadas (Presidente, Presidente Light, Corona, Modelo, Heineken, Heineken Light)",
+ "price": 6.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "https://merenguerestaurant.com/menu-2/",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,12 @@
+{
+ "name": "Harry's Bar & Grill",
+ "type": "bar",
+ "address": "1430 Commonwealth Ave, Boston, MA 02135",
+ "lat": 42.348297,
+ "lng": -71.139868,
+ "website": null,
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

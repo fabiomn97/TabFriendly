@@ -1,0 +1,16 @@
+{
+ "venueId": "v-harry-s-bar-grill",
+ "hours": {
+  "mon": "12:00-23:45",
+  "tue": "12:00-23:45",
+  "wed": "12:00-23:45",
+  "thu": "12:00-23:45",
+  "fri": "12:00-00:45",
+  "sat": "10:15-00:45",
+  "sun": "10:15-23:45"
+ },
+ "source": "https://www.toasttab.com/local/order/harrys-bar-grill",
+ "checked": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

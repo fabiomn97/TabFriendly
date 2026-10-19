@@ -1,0 +1,12 @@
+{
+ "name": "Lulu Green",
+ "type": "restaurant",
+ "address": "246 W Broadway, Boston, MA 02127",
+ "lat": 42.339557,
+ "lng": -71.051737,
+ "website": "https://www.lulugreen.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

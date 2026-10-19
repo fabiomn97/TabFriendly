@@ -1,0 +1,12 @@
+{
+ "name": "PKL Boston",
+ "type": "restaurant",
+ "address": "64 C St, Boston, MA 02127",
+ "lat": 42.337083,
+ "lng": -71.055795,
+ "website": "https://playpkl.com",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

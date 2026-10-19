@@ -8,6 +8,8 @@ Run:  python tools/make_seed.py
 """
 import json, math, os, re, unicodedata
 
+from area import in_area
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "data", "venues.json")
 OUT = os.path.join(ROOT, "data", "seed")
@@ -34,9 +36,8 @@ for sub in ("venues", "reports", "menus", "hours"):
         os.remove(os.path.join(OUT, sub, f))
 
 for v in venues:
-    d = dist_mi(v["lat"], v["lng"])
-    if d > 2.0:
-        print(f"skip (outside radius, {d:.2f} mi): {v['name']}")
+    if not in_area(v["lat"], v["lng"]):
+        print(f"skip (outside the coverage area): {v['name']}")
         continue
     vid = "v-" + slug(v["name"])
     if vid in seen:

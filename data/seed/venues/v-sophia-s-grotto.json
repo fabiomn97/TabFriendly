@@ -1,0 +1,12 @@
+{
+ "name": "Sophia's Grotto",
+ "type": "restaurant",
+ "address": "22R Birch St, Roslindale, MA 02131",
+ "lat": 42.286678,
+ "lng": -71.130144,
+ "website": "https://www.sophiasgrotto.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

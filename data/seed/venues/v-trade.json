@@ -1,0 +1,12 @@
+{
+ "name": "Trade",
+ "type": "restaurant",
+ "address": "540 Atlantic Ave, Boston, MA 02210",
+ "lat": 42.35363,
+ "lng": -71.053309,
+ "website": "https://www.trade-boston.com/",
+ "note": null,
+ "source": "seed",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

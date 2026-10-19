@@ -1,0 +1,14 @@
+{
+ "venueId": "v-aquapazza",
+ "kind": "mixed",
+ "drink": "Moscow Mule",
+ "price": 18.0,
+ "oz": null,
+ "note": null,
+ "hasPhoto": false,
+ "source": "web",
+ "sourceUrl": "http://aquapazza-boston.com/pdf/wine2026.pdf",
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
