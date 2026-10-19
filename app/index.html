@@ -791,6 +791,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
     map.fitBounds(AREA_BOUNDS, wide.matches ? { paddingTopLeft: [422, 16], paddingBottomRight: [16, 16] } : { paddingTopLeft: [8, 8], paddingBottomRight: [8, map.getSize().y * 0.5] });
   }
   fitRadius();
+  // a page opened in a background tab can lay out at zero size; frame the area once it has real dimensions
+  if (!map.getSize().x || !map.getSize().y) map.once("resize", fitRadius);
 
   // ---------- near me ----------
   // Sharing your location zooms to about 6-7 blocks around you; the list and the green top 3 then cover just that area.
