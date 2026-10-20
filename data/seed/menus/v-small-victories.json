@@ -1,0 +1,403 @@
+{
+ "venueId": "v-small-victories",
+ "items": [
+  {
+   "name": "THE Espresso Marini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Naked and Afraid",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pando's Pickle-tini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "After the Gold Rush",
+   "type": "Gold Rush",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Space Saver",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Summertime on President St.",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Get Behind the Mule (seasonal sangria)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Scotty's World Famous Bloody Mary",
+   "type": "Bloody Mary",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Sinead O'Cooler (frozen)",
+   "type": "Frozen cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Frozen in Time (frozen)",
+   "type": "Frozen cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Classic Boulevardier",
+   "type": "Boulevardier",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Classic Negroni",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Classic Manhattan",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Classic Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Classic Sazerac",
+   "type": "Sazerac",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Classic Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Scotty Appleton (Narragansett + Evan Williams)",
+   "type": "Boilermaker",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Bubba Wallace (Narragansett + Aperol)",
+   "type": "Boilermaker",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "The Line on Broadway (High Noon + Dr. McGillicuddy's)",
+   "type": "Boilermaker",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "F*&% this Line (MHL + Malort)",
+   "type": "Boilermaker",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "The Shifty (Tecate/Miller High Life + Montenegro)",
+   "type": "Boilermaker",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Picklebacks",
+   "type": "Pickleback",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Dr. McGillicuddy's or Malort",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Tecate",
+   "type": "Tecate",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Harpoon Rec League",
+   "type": "Harpoon Rec League",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Allagash White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Notch Left of the Dial",
+   "type": "Notch Left of the Dial",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Ghostfish (GF)",
+   "type": "Gluten-free beer",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Brooklyn Bel Air Sour",
+   "type": "Sour ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "High Noon Pineapple",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Surfside",
+   "type": "Surfside",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sun Cruiser",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Narragansett Lager (pint)",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Narragansett Lager (pitcher)",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 24.0
+  },
+  {
+   "name": "Whalers (pint)",
+   "type": "Whalers",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Whalers (pitcher)",
+   "type": "Whalers",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Downeast (pint)",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Downeast (pitcher)",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Fiddlehead IPA (pint)",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Fiddlehead IPA (pitcher)",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Guinness/Black & Tan (pint)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Guinness/Black & Tan (pitcher)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 40.0
+  },
+  {
+   "name": "Small Victories Pils (pint)",
+   "type": "Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Small Victories Pils (pitcher)",
+   "type": "Pilsner",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "Troegs Graffiti Highway IPA (pint)",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Troegs Graffiti Highway IPA (pitcher)",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 40.0
+  }
+ ],
+ "sources": [
+  "https://www.smallvictoriesbar.com/wp-content/uploads/2026/05/drinkspring2026-02.jpg"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

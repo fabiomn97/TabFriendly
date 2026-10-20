@@ -1,0 +1,19 @@
+{
+ "venueId": "v-sissy-k-s",
+ "items": [
+  {
+   "name": "$5 Margaritas",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 5.0
+  }
+ ],
+ "sources": [
+  "https://www.sissyks.com/bar-nightclub"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,275 @@
+{
+ "venueId": "v-casa-verde",
+ "items": [
+  {
+   "name": "Birds of a Feather (Lamplighter NE IPA)",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.75
+  },
+  {
+   "name": "Lunch (Maine Beer Co. IPA)",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 9.75
+  },
+  {
+   "name": "Rally (Austin Street session IPA)",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Zombiedust (3 Floyds pale ale)",
+   "type": "Pale ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.75
+  },
+  {
+   "name": "Alexandr (Schilling Czech pilsner)",
+   "type": "Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Riff City (Widowmaker lager)",
+   "type": "Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.75
+  },
+  {
+   "name": "White Ale (Fiddlehead)",
+   "type": "Wheat ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.75
+  },
+  {
+   "name": "Dark Lager (Sacred Profane)",
+   "type": "Dark lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.75
+  },
+  {
+   "name": "Dos Equis Especial",
+   "type": "Dos Equis",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Dos Equis Ambar",
+   "type": "Dos Equis Ambar",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "Rotating sour",
+   "type": "Sour beer",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 9.75
+  },
+  {
+   "name": "Rotating cider",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": 13,
+   "price": 8.75
+  },
+  {
+   "name": "3 Floyds Deluxe Lager",
+   "type": "3 Floyds Deluxe Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 7.0
+  },
+  {
+   "name": "High Noon Watermelon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": 12,
+   "price": 7.0
+  },
+  {
+   "name": "Red Stripe",
+   "type": "Red Stripe",
+   "kind": "beer",
+   "serve": null,
+   "oz": 11.2,
+   "price": 6.0
+  },
+  {
+   "name": "Tecate",
+   "type": "Tecate",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 6.0
+  },
+  {
+   "name": "Back of the House (Fernet Branca + 3 Floyds Deluxe Lager)",
+   "type": "Shot and beer combo",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Eighty-Six (mezcal + High Noon Watermelon)",
+   "type": "Shot and seltzer combo",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Straight to Hell (tequila + Tecate)",
+   "type": "Shot and beer combo",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Casa Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "The Best Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Elite Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 20.0
+  },
+  {
+   "name": "Nitro Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Nitro Margarita pitcher",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Frozen Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "#1 Crush",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Allomancer Jack",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Diva Down",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Eternal Sunshine",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.5
+  },
+  {
+   "name": "Jungle Cat",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Miss Paramour",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Planet Popstar",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  }
+ ],
+ "sources": [
+  "https://www.casaverdejp.com/s/26729-Drink-Draft.pdf"
+ ],
+ "sourceDate": "2026-07",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

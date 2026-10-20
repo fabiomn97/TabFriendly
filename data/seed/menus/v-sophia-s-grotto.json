@@ -1,0 +1,539 @@
+{
+ "venueId": "v-sophia-s-grotto",
+ "items": [
+  {
+   "name": "Sophia Loren",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.95
+  },
+  {
+   "name": "Claudia Cardinale",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.95
+  },
+  {
+   "name": "Federico Fellini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.95
+  },
+  {
+   "name": "Al Martino",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.95
+  },
+  {
+   "name": "Gina Lollobrigida",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.95
+  },
+  {
+   "name": "Juan Valdez",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.95
+  },
+  {
+   "name": "Silver Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.95
+  },
+  {
+   "name": "Cadillac Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.95
+  },
+  {
+   "name": "Grapefruit Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.95
+  },
+  {
+   "name": "Spicy Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.95
+  },
+  {
+   "name": "Spritz",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.95
+  },
+  {
+   "name": "Blood Orange Gin & Tonic",
+   "type": "Gin & Tonic",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.95
+  },
+  {
+   "name": "Mojito",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.95
+  },
+  {
+   "name": "Moscow Mule",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.95
+  },
+  {
+   "name": "Sangria (glass)",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.95
+  },
+  {
+   "name": "'24 Placido Chianti (glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.95
+  },
+  {
+   "name": "'22 Marques Aldeanueva Crianza (glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.95
+  },
+  {
+   "name": "'22 Marques Aldeanueva Crianza (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "'23 Georges Duboeuf Gamay (glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.95
+  },
+  {
+   "name": "'23 Georges Duboeuf Gamay (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "'20 Ricksaw Cabernet (glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.95
+  },
+  {
+   "name": "'20 Ricksaw Cabernet (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "'24 Violet Hill Pinot Noir (glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.95
+  },
+  {
+   "name": "'24 Violet Hill Pinot Noir (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "'21 Rosso Di Montefalco (glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.95
+  },
+  {
+   "name": "'21 Rosso Di Montefalco (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "'25 Aveleda Vinho verde (glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.95
+  },
+  {
+   "name": "'25 Aveleda Vinho verde (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 32.0
+  },
+  {
+   "name": "'24 Borgo Boshetto P. Grigio (glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.95
+  },
+  {
+   "name": "'24 Borgo Boshetto P. Grigio (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "'25 Kono Sauv Blanc (glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.95
+  },
+  {
+   "name": "'25 Kono Sauv Blanc (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 36.0
+  },
+  {
+   "name": "'24 Antinori Campogrande Orvieto (glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.95
+  },
+  {
+   "name": "'24 Antinori Campogrande Orvieto (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "'25 Triennes Rose (glass)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.95
+  },
+  {
+   "name": "'25 Triennes Rose (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "'24 Tilia Chardonnay (glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.95
+  },
+  {
+   "name": "'24 Tilia Chardonnay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "Bellusi Prosecco (glass)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 11.95
+  },
+  {
+   "name": "Bellusi Prosecco (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "'23 Wine & Soul Manoella (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 41.0
+  },
+  {
+   "name": "'22 La Garnatxa Fosca (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "'23 Campo Alle Comete (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 43.0
+  },
+  {
+   "name": "'22 Frassinello 'Le Sughere' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 46.0
+  },
+  {
+   "name": "'22 Antinori Chianti Classico Riserva (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 51.0
+  },
+  {
+   "name": "'21 Alto Moncayo 'Veraton' (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 51.0
+  },
+  {
+   "name": "'18 Optima Cabernet (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 53.0
+  },
+  {
+   "name": "'20 Giovanni Rosso Barolo (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "'21 Freemark Abby Cabernet (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 76.0
+  },
+  {
+   "name": "'20 Antinori Pian della Vigne Brunello (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 85.0
+  },
+  {
+   "name": "Gramona Cava (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "16oz Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": 16,
+   "price": 5.0
+  },
+  {
+   "name": "Tecate",
+   "type": "Tecate",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Coors Lite",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Allagash white",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Hieneken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Augustinerbrau",
+   "type": "Augustiner",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Fat Tire Amber Ale",
+   "type": "Fat Tire",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Lagunitas Daytime IPA (4.0%)",
+   "type": "Lagunitas DayTime",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Downeast cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Boulevard Tank 7",
+   "type": "Boulevard Tank 7",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Moretti blonde",
+   "type": "Birra Moretti",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Lord Hobo Boom Sauce IPA",
+   "type": "Lord Hobo Boom Sauce",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Lagunitas Daytime IPA (4.7%)",
+   "type": "Lagunitas DayTime",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Founders Porter",
+   "type": "Founders Porter",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Samuel Smith Oatmeal Stout",
+   "type": "Samuel Smith Oatmeal Stout",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.0
+  }
+ ],
+ "sources": [
+  "https://www.sophiasgrotto.com/DrinkMenu.pdf"
+ ],
+ "sourceDate": "2026-08",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

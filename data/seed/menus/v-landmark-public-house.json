@@ -1,0 +1,179 @@
+{
+ "venueId": "v-landmark-public-house",
+ "items": [
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Sam Boston Lager",
+   "type": "Samuel Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Sam Seasonal",
+   "type": "Samuel Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Blue Moon",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Wormtown Blizzard of 78 Coffee Ale",
+   "type": "Wormtown Blizzard of 78",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Bud Light Draft",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Angry Orchard",
+   "type": "Angry Orchard",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Truly Berry",
+   "type": "Truly",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.5
+  },
+  {
+   "name": "Miller Light",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.5
+  },
+  {
+   "name": "Corona Light",
+   "type": "Corona Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Peroni",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.5
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.5
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.5
+  },
+  {
+   "name": "Omission (GF)",
+   "type": "Omission",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Goose Island IPA",
+   "type": "Goose Island IPA",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Amstel Light",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.5
+  },
+  {
+   "name": "Magners",
+   "type": "Magners",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.5
+  }
+ ],
+ "sources": [
+  "https://www.landmarkpublichouse.com/menu"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

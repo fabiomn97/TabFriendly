@@ -1,0 +1,451 @@
+{
+ "venueId": "v-publico",
+ "items": [
+  {
+   "name": "Sarti Spritz",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "What Could Go Wrong?",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Holding Onto Summer",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pretty in Pink",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Chai Affairs",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "You're Kiwi'ing Me!",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Green with Envy",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "I'm Your Huckleberry",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "1-800-Passion",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "It's Not Me, It's You",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Guinness (20 oz)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 20,
+   "price": 10.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Fiddlehead",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Allagash",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Michelob Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller Light",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Corona Extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Peroni",
+   "type": "Peroni",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Stella",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Maine Lunch (16.9oz)",
+   "type": "Maine Lunch",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16.9,
+   "price": 18.0
+  },
+  {
+   "name": "High Noon Pineapple",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sun Cruiser",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Sun Cruiser Blueberry Lemonade",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "-196 Lemon or Strawberry",
+   "type": "-196",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Viva Huckleberry",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "Rosé (Routas)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pinot Grigio (Benvolio)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Sauvignon Blanc (Matua)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Chardonnay (Cambria 'Katherine's Vineyard')",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Albariño (Vionta)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Chianti (Castello di Radda)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Noir (Parducci)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Pinot Noir (Portlandia)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Malbec (Domaine Bousquet)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Cabernet Sauvignon (The Stag)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Prosecco (La Gioiosa)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Espresso Martini 5oz",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 5,
+   "price": 16.0
+  },
+  {
+   "name": "Espresso Martini 10oz",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 10,
+   "price": 21.0
+  },
+  {
+   "name": "Ketel One Cosmopolitan 5oz",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 5,
+   "price": 16.0
+  },
+  {
+   "name": "Ketel One Cosmopolitan 10oz",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 10,
+   "price": 21.0
+  },
+  {
+   "name": "Lemon Drop 5oz",
+   "type": "Lemon Drop",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 5,
+   "price": 16.0
+  },
+  {
+   "name": "Lemon Drop 10oz",
+   "type": "Lemon Drop",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 10,
+   "price": 21.0
+  },
+  {
+   "name": "Hot & Dirty 5oz",
+   "type": "Dirty Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 5,
+   "price": 16.0
+  },
+  {
+   "name": "Hot & Dirty 10oz",
+   "type": "Dirty Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 10,
+   "price": 21.0
+  },
+  {
+   "name": "Cucumber 5oz",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 5,
+   "price": 16.0
+  },
+  {
+   "name": "Cucumber 10oz",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 10,
+   "price": 21.0
+  },
+  {
+   "name": "Dill Pickle 5oz",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 5,
+   "price": 16.0
+  },
+  {
+   "name": "Dill Pickle 10oz",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 10,
+   "price": 21.0
+  },
+  {
+   "name": "Maker's Manhattan 5oz",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 5,
+   "price": 16.0
+  },
+  {
+   "name": "Maker's Manhattan 10oz",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 10,
+   "price": 21.0
+  },
+  {
+   "name": "Painkiller 5oz",
+   "type": "Painkiller",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 5,
+   "price": 16.0
+  },
+  {
+   "name": "Painkiller 10oz",
+   "type": "Painkiller",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": 10,
+   "price": 21.0
+  }
+ ],
+ "sources": [
+  "https://www.publicoboston.com/menu?menu=drinks"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

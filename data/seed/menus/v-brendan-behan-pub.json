@@ -1,0 +1,404 @@
+{
+ "venueId": "v-brendan-behan-pub",
+ "items": [
+  {
+   "name": "CITIZEN PUMPKIN CIDER 5% (VT)",
+   "type": "Citizen Cider pumpkin",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "ALLAGASH WHITE 5.1% (ME)",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "EXHIBIT A KITTEN IPA 5% (MA)",
+   "type": "Exhibit A Kitten",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "BOULEVARD TANK 7 SAISON 8.5%(MI)",
+   "type": "Boulevard Tank 7",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "GUINNESS IRISH STOUT 4.5% (IRL)",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "BISSELL SUBSTANCE IPA 6.5% (ME)",
+   "type": "Bissell Substance",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "ZERO GRAVITY GREENSTATE LAGER 5%",
+   "type": "Zero Gravity Green State",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "BBC COFFEEHOUSE PORTER 6.5% (MA)",
+   "type": "BBC Coffeehouse Porter",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "PABST BLUE RIBBON 4.7% (TX)",
+   "type": "Pabst Blue Ribbon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 4.0
+  },
+  {
+   "name": "TUCHER FESTBIER 5.8% (GER)",
+   "type": "Tucher Festbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "TUCHER GERMAN PILS 5% (GER)",
+   "type": "Tucher Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "BUD LIGHT",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.0
+  },
+  {
+   "name": "MODELO",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.5
+  },
+  {
+   "name": "CARLSBERG",
+   "type": "Carlsberg",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "AMSTEL",
+   "type": "Amstel",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "MILLER",
+   "type": "Miller",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.0
+  },
+  {
+   "name": "HIGH LIFE",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 3.75
+  },
+  {
+   "name": "CORONA",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.75
+  },
+  {
+   "name": "HEINEKEN",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.75
+  },
+  {
+   "name": "SINGLECUT 18 WATT IPA",
+   "type": "SingleCut 18 Watt",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "ESTRELLA DAMM GLUTEN FREE",
+   "type": "Estrella Damm Daura",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "NARAGANSETT TALL BOY",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 4.0
+  },
+  {
+   "name": "SUNCRUISER",
+   "type": "Suncruiser",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "SURFSIDE",
+   "type": "Surfside",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "WHITE CLAW SELTZERS",
+   "type": "White Claw",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "603 SELTZERS",
+   "type": "Hard seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "HIGH NOON",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "LONG DRINK",
+   "type": "Long Drink",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "DUE TORRI PINOT GRIGIO (glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "DUE TORRI PINOT GRIGIO (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 26.0
+  },
+  {
+   "name": "OYSTER BAY SAV BLANC (glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "OYSTER BAY SAV BLANC (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 30.0
+  },
+  {
+   "name": "ETUDE PINOT NOIR (glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "ETUDE PINOT NOIR (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 26.0
+  },
+  {
+   "name": "HEDGES CAB SAV (glass)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "HEDGES CAB SAV (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 38.0
+  },
+  {
+   "name": "FESS CHARD (glass)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "FESS CHARD (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 34.0
+  },
+  {
+   "name": "PROSECCO SPLIT",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "CHATEAU ROUTAS ROSE",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "DARK AND STORMY",
+   "type": "Dark & Stormy",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "NEGRONI",
+   "type": "Negroni",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "MOSCOW MULE",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "COSMOPOLITAN",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "MANHATTAN",
+   "type": "Manhattan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "MARGARITA",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "APEROL SPRITZ",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "ESPRESSO MARTINI",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "MAI TAI",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 11.0
+  }
+ ],
+ "sources": [
+  "https://www.brendanbehanjp.com/menu-1",
+  "https://static.wixstatic.com/media/a32329_30917d5378dd4196b737d8ae98ced6f8~mv2.png"
+ ],
+ "sourceDate": "2026-09",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

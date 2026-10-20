@@ -1,0 +1,67 @@
+{
+ "venueId": "v-tamo-bistro-bar",
+ "items": [
+  {
+   "name": "Castelnau de Lunuriaul Saterns (with Creme Brulee)",
+   "type": "Dessert wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Rutherglen Chambers Muscadelle",
+   "type": "Dessert wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Vietti Moscato d'Asti",
+   "type": "Dessert wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Duke of Clarence Madeira",
+   "type": "Dessert wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Grahams Six Grapes Reserve Ruby Port",
+   "type": "Port",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Grahams 10yr Tawny Port",
+   "type": "Port",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Inniskilling Cabernet Franc Ice Wine",
+   "type": "Dessert wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  }
+ ],
+ "sources": [
+  "https://www.seaportboston.com/menus?menutype=2"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

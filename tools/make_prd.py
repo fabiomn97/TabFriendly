@@ -186,7 +186,7 @@ story += [section(2, "Where we are"),
                P("<b>tabfriendly.fabio.cool</b> on Vercel + Supabase. Anyone can post without signing in; accounts are optional. "
                  "The claude.ai artifact stays as the team's dev copy", CELL)],
               [P("Prices per venue", CELLB), P("Cheapest beer, cheapest mixed drink, researched full menu", CELLM),
-               P("Same, plus full menus at 190 venues: 10,200+ priced drinks, including 2,000 pitchers and bottles of wine", CELL)],
+               P("Same, plus full menus at 291 venues: 15,100+ priced drinks, including 129 pitchers and 2,800 bottles of wine", CELL)],
               [P("Rankings &amp; filters", CELLB), P("Drinks filter, beer / mixed / overall, max price", CELLM),
                P("Adds a per-ounce toggle, a Size filter (personal pours vs. to share) and a list that follows the map around you", CELL)],
               [P("Freshness", CELLB), P("Proposed: six months", CELLM),
@@ -219,7 +219,7 @@ reqs = [
     ("Portion sizes", "LIVE", "A Size button next to Choose drinks: glass, bottle, draft and can for one person, or a bottle of wine "
      "and a pitcher to share. Rankings, filters and cards follow the choice. <i>Added after brief v2.</i>"),
     ("Coverage: Boston + Cambridge", "LIVE", "The map, its outline and new-venue checks cover both cities plus the original 2-mile circle. "
-     "192 venues were researched beyond 2 miles; Logan airport bars past security are left out."),
+     "192 venues were researched beyond 2 miles, 101 of them with full menus including pitchers and bottles of wine; Logan airport bars past security are left out."),
     ("Near you", "LIVE", "The map asks for location as it opens and zooms to about 6-7 blocks around the person. Every pin stays on the "
      "map; the list and the green top 3 follow the view. <i>Added after brief v2.</i>"),
     ("Accounts &amp; leaderboard", "LIVE", "Optional email-link accounts with display names; a browser's anonymous posts carry over. Points "
@@ -242,9 +242,8 @@ story += [Spacer(1, 8), P("OUT OF SCOPE", HEAD), Spacer(1, 3),
 story += [section(4, "Waiting to be done"),
           grid([
               [P("Custom domain", CELLB), P("In Cloudflare, switch the tabfriendly record to DNS only (grey cloud) so Vercel manages the certificate. The site already works through the proxy.", CELL), P("Fabio", CELLM)],
-              [P("Research follow-up", CELLB), P("About 60 places were dropped unverified when web searches ran out, including known bars such as Shenannigans, The Playwright, L Street Tavern, Murphy's Law and Tom English's. Only 90 of the 192 venues beyond 2 miles have a price; discovery in Hyde Park and Mattapan is thin.", CELL), P("Next research pass", CELLM)],
-              [P("Menus for new areas", CELLB), P("Full menus, pitchers and bottles of wine for the 192 venues beyond 2 miles.", CELL), P("Next research pass", CELLM)],
-              [P("Venue status checks", CELLB), P("Champions, DX Arcade, Marliave and Sidebar may be closed. Two unbranded \"$2 beer all day\" claims (Sissy K's, Wild Rover) are left off the rankings pending a check.", CELL), P("Editors", CELLM)],
+              [P("Research follow-up", CELLB), P("About 60 places were dropped unverified when web searches ran out, including known bars such as Shenannigans, The Playwright, L Street Tavern, Murphy's Law and Tom English's. 91 of the 192 venues beyond 2 miles publish no priced menu online, so they rely on user reports; discovery in Hyde Park and Mattapan is thin.", CELL), P("Next research pass", CELLM)],
+              [P("Venue status checks", CELLB), P("Champions, DX Arcade, Marliave and Sidebar may be closed, and Trillium Garden on the Greenway reportedly lost its lease for 2026. Two unbranded \"$2 beer all day\" claims (Sissy K's, Wild Rover) are left off the rankings pending a check.", CELL), P("Editors", CELLM)],
               [P("Price refresh plan", CELLB), P("Researched prices from undated menus checked in October 2026 expire in April 2027. Plan a re-check before then.", CELL), P("Team", CELLM)],
               [P("Leaderboard placeholders", CELLB), P("GPS on-site bonus and the Places check are not built yet.", CELL), P("Zion", CELLM)],
               [P("Dev and live data", CELLB), P("The claude.ai dev copy and Supabase keep separate databases, and the dev copy has no leaderboard backend. Decide whether to reseed dev from live.", CELL), P("Team", CELLM)],

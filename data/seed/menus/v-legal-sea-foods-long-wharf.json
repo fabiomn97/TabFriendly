@@ -1,0 +1,923 @@
+{
+ "venueId": "v-legal-sea-foods-long-wharf",
+ "items": [
+  {
+   "name": "Legal Red Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Legal White Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pomegranate & Rose Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Golden Apple Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mango Lemon Drop",
+   "type": "Lemon Drop",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pear & Ginger Mule",
+   "type": "Moscow Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Maple Walnut Sidecar",
+   "type": "Sidecar",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "LSF Barrel Aged Rum Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Cucumber Current",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Espresso Martini (Grainger's Organic Vodka or Grainger's Vanilla Vodka)",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Espresso Martini (Tito's Vodka or Buffalo Trace Bourbon)",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Espresso Martini (LSF Corazon Reposado)",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Old Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Triple B Bramble",
+   "type": "Bramble",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Margarita (LSF Corazon Reposado)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Margarita (Lunazul Blanco or Ghost)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Margarita (LSF Patron Reposado or Casamigos Blanco)",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.5
+  },
+  {
+   "name": "LSF Signature Spicy Cucumber Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Night Shift Legally Hazy (16oz)",
+   "type": "Night Shift Legally Hazy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Night Shift Legally Hazy (23oz)",
+   "type": "Night Shift Legally Hazy",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 23,
+   "price": 14.0
+  },
+  {
+   "name": "Allagash White (16oz)",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 10.0
+  },
+  {
+   "name": "Allagash White (23oz)",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 23,
+   "price": 14.0
+  },
+  {
+   "name": "Michelob Ultra (16oz)",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Michelob Ultra (23oz)",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 23,
+   "price": 12.0
+  },
+  {
+   "name": "Samuel Adams Boston Lager (16oz)",
+   "type": "Samuel Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Samuel Adams Boston Lager (23oz)",
+   "type": "Samuel Adams Boston Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 23,
+   "price": 13.0
+  },
+  {
+   "name": "Samuel Adams Seasonal (16oz)",
+   "type": "Samuel Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Samuel Adams Seasonal (23oz)",
+   "type": "Samuel Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 23,
+   "price": 13.0
+  },
+  {
+   "name": "Bourque's Brew (16oz)",
+   "type": "Bourque's Brew",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Bourque's Brew (23oz)",
+   "type": "Bourque's Brew",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 23,
+   "price": 13.5
+  },
+  {
+   "name": "Angry Orchard Crisp Apple Hard Cider",
+   "type": "Angry Orchard",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Castle Island Keeper IPA",
+   "type": "Castle Island Keeper",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Duvel Strong Pale Ale",
+   "type": "Duvel",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "High Noon Hard Seltzer",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Lagunitas Daytime IPA",
+   "type": "Lagunitas DayTime",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Meli Gluten Free",
+   "type": "Meli",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 9.5
+  },
+  {
+   "name": "Night Shift Santilli IPA",
+   "type": "Night Shift Santilli",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Owl's Brew Strawberry Hibiscus Spiked Pop",
+   "type": "Owl's Brew",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Sun Cruiser Iced Tea Vodka",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Albarino, Bodegas La Cana (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Albarino, Bodegas La Cana (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Albarino, Bodegas La Cana (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Muscadet, Domaine de la Quilla (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 44.0
+  },
+  {
+   "name": "Riesling, Karl Erbes Kabinett (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Riesling, Karl Erbes Kabinett (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.0
+  },
+  {
+   "name": "Riesling, Karl Erbes Kabinett (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Pinot Grigio, Santa Margherita (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 55.0
+  },
+  {
+   "name": "Pinot Grigio, Pighin (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Pinot Grigio, Pighin (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Pinot Gris, King Estate (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Pinot Gris, King Estate (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Sauvignon Blanc, Yealands (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Sauvignon Blanc, Yealands (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Sauvignon Blanc, Cloudy Bay (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 19.0
+  },
+  {
+   "name": "Sauvignon Blanc, Cloudy Bay (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 24.0
+  },
+  {
+   "name": "Sauvignon Blanc, Cakebread (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 19.0
+  },
+  {
+   "name": "Sauvignon Blanc, Cakebread (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 24.0
+  },
+  {
+   "name": "Sancerre, Sager & Verdier (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 20.5
+  },
+  {
+   "name": "Sancerre, Sager & Verdier (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 25.5
+  },
+  {
+   "name": "Vouvray, Chateau Moncontour (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Chardonnay, Buehler (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Chardonnay, Buehler (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.0
+  },
+  {
+   "name": "Chardonnay, Buehler (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Chardonnay, Louis Latour LSF Cuvee (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.0
+  },
+  {
+   "name": "Chardonnay, Louis Latour LSF Cuvee (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Chardonnay, Sonoma-Cutrer RRR (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 17.0
+  },
+  {
+   "name": "Chardonnay, Sonoma-Cutrer RRR (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 22.0
+  },
+  {
+   "name": "Chardonnay, Jordan (6oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 19.0
+  },
+  {
+   "name": "Chardonnay, Jordan (9oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 24.0
+  },
+  {
+   "name": "Rose, Chateau Miraval (6oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Rose, Chateau Miraval (9oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 23.0
+  },
+  {
+   "name": "Rose, Chateau Miraval (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 68.0
+  },
+  {
+   "name": "Pinot Noir, Chateau Souverain (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Noir, Chateau Souverain (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.0
+  },
+  {
+   "name": "Pinot Noir, Chateau Souverain (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Pinot Noir, Chehalem (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.0
+  },
+  {
+   "name": "Pinot Noir, Chehalem (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Pinot Noir, Chehalem (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Pinot Noir, Resonance (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Pinot Noir, Resonance (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 23.0
+  },
+  {
+   "name": "Tempranillo, Muga Reserva (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Tempranillo, Muga Reserva (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 23.0
+  },
+  {
+   "name": "Super Tuscan, Villa Antinori Rosso (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Super Tuscan, Villa Antinori Rosso (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Super Tuscan, Villa Antinori Rosso (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Merlot, Decoy (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Merlot, Decoy (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.0
+  },
+  {
+   "name": "Merlot, Decoy (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Malbec, Alcanza (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 15.0
+  },
+  {
+   "name": "Malbec, Alcanza (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Malbec, Alcanza (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Simi (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Simi (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 21.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Simi (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Tribute (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Tribute (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 23.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Buehler (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 19.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Buehler (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 24.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Jordan (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 24.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Jordan (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 29.0
+  },
+  {
+   "name": "Red Blend, Maxville Estate Oranos (6oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 19.0
+  },
+  {
+   "name": "Red Blend, Maxville Estate Oranos (9oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 24.0
+  },
+  {
+   "name": "Jeio Prosecco (glass)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Jeio Prosecco (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Lucien Albrecht Cremant d'Alsace Rose Brut (glass)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Lucien Albrecht Cremant d'Alsace Rose Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Taittinger La Francaise Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 89.0
+  },
+  {
+   "name": "Veuve Clicquot Rose (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 145.0
+  }
+ ],
+ "sources": [
+  "https://www.legalseafoods.com/wp-content/uploads/2026/10/Bev-Menu-LongWharf-Oct26.pdf"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

@@ -1,0 +1,284 @@
+{
+ "venueId": "v-fat-baby",
+ "items": [
+  {
+   "name": "cry baby",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "green machine",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "fresh start",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "mai tai",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "red sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "baby's blossom",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "gold rush",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "fall fashion",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "ozeki",
+   "type": "Sake",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "winter warrior (300mL)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": 10.1,
+   "price": 20.0
+  },
+  {
+   "name": "yaegaki cloud nigori (300 ML)",
+   "type": "Sake",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": 10.1,
+   "price": 20.0
+  },
+  {
+   "name": "coors light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "bud light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "corona extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "michelob ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Nantucket 888 seltzer (blueberry or cranberry)",
+   "type": "Nantucket 888",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "sapporo",
+   "type": "Sapporo",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "downeast cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "high noon",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "castle island fiver ipa",
+   "type": "Castle Island Fiver IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "VIVA tequila seltzer",
+   "type": "Viva Tequila Seltzer",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "sun cruiser",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "maine beer co.",
+   "type": "Maine Beer Co.",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 11.0
+  },
+  {
+   "name": "modelo",
+   "type": "Modelo Especial",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "kirin ichiban",
+   "type": "Kirin Ichiban",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "sam adams seasonal",
+   "type": "Samuel Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "fiddlehead",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "rose (the pale, france)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "pinot noir (erath, OR)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "cabernet sauvignon (Pavette, CA)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "pinot gris (Hess Select, ca)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "sauvignon blanc (kono, new zealand)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "chardonnay (la crema, CA)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "hidori soju, apple or green grape (375 ml)",
+   "type": "Soju",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": 12.7,
+   "price": 15.0
+  }
+ ],
+ "sources": [
+  "https://media-cdn.getbento.com/accounts/b44198063181e0c3f8be28eddf1c9e9d/media/vNZDkLUXRmKKJHr0cyFh_FB%20Menu%20Current%20(5).pdf",
+  "https://www.fatbabysouthboston.com/menus/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

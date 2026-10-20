@@ -1,0 +1,539 @@
+{
+ "venueId": "v-moxie-s-grill-bar-boston-seaport",
+ "items": [
+  {
+   "name": "Social White, Canyon Road Chardonnay (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "Social White, Canyon Road Chardonnay (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 16.0
+  },
+  {
+   "name": "Social Red, Canyon Road Cabernet Sauvignon (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 11.0
+  },
+  {
+   "name": "Social Red, Canyon Road Cabernet Sauvignon (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 16.0
+  },
+  {
+   "name": "Riesling, Kesseler R Kabinett (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Riesling, Kesseler R Kabinett (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.0
+  },
+  {
+   "name": "Pinot Grigio, Tommasi Le Rosse (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Grigio, Tommasi Le Rosse (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Pinot Grigio, Jermann (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Pinot Grigio, Jermann (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 26.0
+  },
+  {
+   "name": "Sauvignon Blanc, Kim Crawford (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Sauvignon Blanc, Kim Crawford (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.0
+  },
+  {
+   "name": "Chardonnay, Joel Gott (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 13.0
+  },
+  {
+   "name": "Chardonnay, Joel Gott (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 19.0
+  },
+  {
+   "name": "Chardonnay, Hartford Court (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Chardonnay, Hartford Court (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 26.0
+  },
+  {
+   "name": "Chardonnay, Duckhorn (6 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 20.0
+  },
+  {
+   "name": "Chardonnay, Duckhorn (9 oz)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 29.0
+  },
+  {
+   "name": "Rosé, A to Z Wineworks (6 oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Rosé, A to Z Wineworks (9 oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Rosé, Miraval (6 oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Rosé, Miraval (9 oz)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 26.0
+  },
+  {
+   "name": "Pinot Noir, Meiomi (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Pinot Noir, Meiomi (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Pinot Noir, Ponzi (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 21.0
+  },
+  {
+   "name": "Pinot Noir, Ponzi (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 31.0
+  },
+  {
+   "name": "Merlot, Decoy (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Merlot, Decoy (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Red Blend, The Prisoner (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 26.0
+  },
+  {
+   "name": "Red Blend, The Prisoner (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 38.0
+  },
+  {
+   "name": "Sogno Mediterraneo, Casadei (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.0
+  },
+  {
+   "name": "Sogno Mediterraneo, Casadei (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 23.0
+  },
+  {
+   "name": "Malbec, Finca Decero Remolinos (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 16.0
+  },
+  {
+   "name": "Malbec, Finca Decero Remolinos (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 23.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Substance (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 14.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Substance (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 20.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Decoy Limited (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 18.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Decoy Limited (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 26.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Caymus California (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 26.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Caymus California (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 38.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Austin Hope (1 L) (6 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 6,
+   "price": 23.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Austin Hope (1 L) (9 oz)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 9,
+   "price": 34.0
+  },
+  {
+   "name": "Prosecco, Ruffino (5 oz)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 12.0
+  },
+  {
+   "name": "Prosecco Rosé, La Marca (5 oz)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": 5,
+   "price": 12.0
+  },
+  {
+   "name": "Social White, Canyon Road Chardonnay (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 43.0
+  },
+  {
+   "name": "Riesling, Kesseler R Kabinett (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Sauvignon Blanc, Kim Crawford (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Chardonnay, Joel Gott (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 52.0
+  },
+  {
+   "name": "Pinot Grigio, Tommasi Le Rosse (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Pinot Grigio, Jermann (bottle)",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "Rosé, A to Z Wineworks (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Rosé, Whispering Angel (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "Rosé, Miraval (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 72.0
+  },
+  {
+   "name": "Rosé, Convene (bottle)",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 85.0
+  },
+  {
+   "name": "Social Red, Canyon Road Cabernet Sauvignon (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 43.0
+  },
+  {
+   "name": "Pinot Noir, Meiomi (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Merlot, Decoy (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Cabernet Sauvignon, Substance (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 56.0
+  },
+  {
+   "name": "Syrah, Klinker Brick (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Sangiovese, Gabbiano Chianti Classico Riserva (bottle)",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 60.0
+  },
+  {
+   "name": "Cava, Poema Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 45.0
+  },
+  {
+   "name": "Prosecco, Ruffino (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Prosecco Rosé, La Marca (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 48.0
+  },
+  {
+   "name": "Sparkling, Roederer Estate Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 70.0
+  },
+  {
+   "name": "Champagne, Perrier-Jouët Grand Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 125.0
+  },
+  {
+   "name": "Champagne, Veuve Clicquot Brut (bottle)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 155.0
+  }
+ ],
+ "sources": [
+  "https://moxies.com/wp-content/uploads/2026/06/MX-25_US-WineMenu_100825_WEB_BOS.pdf"
+ ],
+ "sourceDate": "2025-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

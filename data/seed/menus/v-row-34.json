@@ -1,0 +1,307 @@
+{
+ "venueId": "v-row-34",
+ "items": [
+  {
+   "name": "Golden Tide",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Freezer Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Pickled, Spiced, & Everything Nice",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Pera Speziata",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Stars Hollow",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Easy Rider",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Persephone's Potion",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Yuzu Martini",
+   "type": "Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "Current Fashioned",
+   "type": "Old Fashioned",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 23.0
+  },
+  {
+   "name": "Scrag Mountain",
+   "type": "Lawson's Scrag Mountain Pilsner",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 11.0
+  },
+  {
+   "name": "Tannenzapfle",
+   "type": "Rothaus Pils",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "Hefe Weissbier",
+   "type": "Weihenstephaner Hefeweissbier",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 16,
+   "price": 12.0
+  },
+  {
+   "name": "White",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 11.0
+  },
+  {
+   "name": "Little Sip",
+   "type": "Lawson's Little Sip",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 11.0
+  },
+  {
+   "name": "The Substance",
+   "type": "Bissell Brothers The Substance",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 13.0
+  },
+  {
+   "name": "Lunch",
+   "type": "Maine Beer Lunch",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 13.0
+  },
+  {
+   "name": "Spinach",
+   "type": "Other Half Spinach",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 8,
+   "price": 10.0
+  },
+  {
+   "name": "Viridescence",
+   "type": "Fox Farm Viridescence",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 12.0
+  },
+  {
+   "name": "Meadows",
+   "type": "Belleflower/Trillium Meadows",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 12.0
+  },
+  {
+   "name": "Blue Raspberry Jream",
+   "type": "Sour ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 8,
+   "price": 11.0
+  },
+  {
+   "name": "Rainbow Sherbet",
+   "type": "Sour ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 8,
+   "price": 10.0
+  },
+  {
+   "name": "Now That's What I Call Sour",
+   "type": "Sour ale",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 8,
+   "price": 10.0
+  },
+  {
+   "name": "Candymaker",
+   "type": "Widowmaker Candymaker",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": 13,
+   "price": 11.0
+  },
+  {
+   "name": "Can Sumoi Muntanya",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Carboniste Pet Nat",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Gaintza Txakoli",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Cellario Vermentino",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "J. de Villebois Sauvignon Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Terra di Asorei Albarino",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Gaspard Chenin Blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Christina Gruner Veltliner",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Mas la Chevaliere Chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "Maison Gutowski La Dependance",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Bernabeleva Garnacha",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Brandborg Pinot Noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Gail Doris Cabernet Sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": "glass",
+   "oz": null,
+   "price": 18.0
+  }
+ ],
+ "sources": [
+  "https://media-cdn.getbento.com/accounts/0458dfcde69e52599298b5a6f7714c1d/media/pLM7XZHDThWNCEmmRZFZ_SEAPORT_DRINKS_10_18_26.pdf"
+ ],
+ "sourceDate": "2026-10",
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

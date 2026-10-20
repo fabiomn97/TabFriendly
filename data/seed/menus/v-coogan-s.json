@@ -1,0 +1,19 @@
+{
+ "venueId": "v-coogan-s",
+ "items": [
+  {
+   "name": "Watermelon RBV",
+   "type": "Vodka Red Bull",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  }
+ ],
+ "sources": [
+  "https://www.coogansboston.com/menu/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

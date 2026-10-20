@@ -1,0 +1,603 @@
+{
+ "venueId": "v-rooftop-at-the-envoy",
+ "items": [
+  {
+   "name": "prosecco",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "champagne",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "champagne telmont",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "brut",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "sparkling rosé",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "sparkling rosé",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "champagne telmont (full bottle only)",
+   "type": "Sparkling wine",
+   "kind": "wine",
+   "serve": "bottle",
+   "oz": null,
+   "price": 110.0
+  },
+  {
+   "name": "pinot noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "pinot noir",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "cabernet sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "cabernet sauvignon",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "malbec",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "merlot",
+   "type": "Red wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "albariño",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "chardonnay",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "chardonnay, rombauer",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "pinot grigio",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "sauvignon blanc",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "sancerre",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "rose",
+   "type": "Rosé",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 18.0
+  },
+  {
+   "name": "riesling",
+   "type": "White wine",
+   "kind": "wine",
+   "serve": null,
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "golden hour oasis",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "frosé (frozen)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "crop out rickey",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "canon smash",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "the ghost of leek",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "vivid watermelon",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "cruisin' for a bruisin'",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 22.0
+  },
+  {
+   "name": "tito's cosmo",
+   "type": "Cosmopolitan",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "portrait mode margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "the darkroom",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "panorama paloma",
+   "type": "Paloma",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "the daly develop",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "mega pixel",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "live mode lemondrop",
+   "type": "Lemon Drop",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "espresso tini edit",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "saturation sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "over exposure spritz",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "selfie spritz",
+   "type": "Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "aperol spritz",
+   "type": "Aperol Spritz",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 21.0
+  },
+  {
+   "name": "say cheeeese!",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "candid candy shot",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "the perfect polaroid",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 17.0
+  },
+  {
+   "name": "lalo margarita pitcher",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "pitcher",
+   "oz": null,
+   "price": 75.0
+  },
+  {
+   "name": "juneshine hard kombucha",
+   "type": "JuneShine",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "bully boy orange fizz",
+   "type": "Bully Boy canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "sunboy spiked coconut",
+   "type": "Sunboy",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "irished up cold brew",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "kick stand habanero raz",
+   "type": "Canned cocktail",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "lucky one blueberry",
+   "type": "Lucky One",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "downeast cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "surfside lemonade",
+   "type": "Surfside",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "suncruiser iced tea",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "happy dad seltzer (fruit punch)",
+   "type": "Happy Dad",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "viva (jalapeno or huckleberry)",
+   "type": "Viva Tequila Seltzer",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "high noon (peach or watermelon)",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "kona big wave",
+   "type": "Kona Big Wave",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "hero 95",
+   "type": "Hero 95",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "bud light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "michelob ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "whalers",
+   "type": "Whalers",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "narragansett lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "boomsauce double ipa",
+   "type": "Lord Hobo Boomsauce",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "corona extra",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 8.0
+  },
+  {
+   "name": "coors light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "fiddlehead ipa",
+   "type": "Fiddlehead IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "allagash white",
+   "type": "Allagash White",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "green state lager",
+   "type": "Zero Gravity Green State Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "harpoon ipa",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "sam adams seasonal",
+   "type": "Samuel Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "stella artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "blue comet hazy ipa",
+   "type": "Blue Comet IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 13.0
+  }
+ ],
+ "sources": [
+  "https://www.envoyrooftop.com/menus"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

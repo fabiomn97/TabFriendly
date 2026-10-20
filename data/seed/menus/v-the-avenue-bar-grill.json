@@ -1,0 +1,667 @@
+{
+ "venueId": "v-the-avenue-bar-grill",
+ "items": [
+  {
+   "name": "The Purple Light Saber (Frozen)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "The Hoth Toddy",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Pumpkin Pie Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "The Fall Fashioned",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Hot Angels Cider",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Spiced Pear Mule",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Apple Pie Sangria",
+   "type": "Sangria",
+   "kind": "wine",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Blueberry Iced Coffee",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "The Captains Pina (Frozen)",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Sunrise Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "Pink Lightning",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Screamin' Demon",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Mai Tai Avenue",
+   "type": "Mai Tai",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "The J. Figgy Spritz",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "The Comm-Ave Cooler",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Oaxacan in the Moonlight",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Peach Smash",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "The Fruity Marg",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 16.0
+  },
+  {
+   "name": "The Espresso Martini",
+   "type": "Espresso Martini",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Pistacchio Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Blood and Sand",
+   "type": "Blood and Sand",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "6 O'clock Sunset",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "The Allston Mollassacre",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "Chasing Daisies",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 14.0
+  },
+  {
+   "name": "The Ryes Up",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Mo-YEET-o!",
+   "type": "Mojito",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "The Spicy Marg",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "The Grand Marg",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 19.0
+  },
+  {
+   "name": "Baja Blasted",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Peached Goose",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "M+M Shot",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Orange TicTac",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Good Reposado",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "Pink Pony Club",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "The Allston Happy Meal",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "The Viking Handshake",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "The Full Monty",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 13.0
+  },
+  {
+   "name": "Redbull Vodka",
+   "type": "Vodka Red Bull",
+   "kind": "mixed",
+   "serve": "well",
+   "oz": null,
+   "price": 10.0
+  },
+  {
+   "name": "$5 Shot of the week (Ghosted by Chase's Mom)",
+   "type": "Shot",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Lamplighter 'Alpenglow'",
+   "type": "Amber ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Shipyard 'Pumpkinhead'",
+   "type": "Shipyard Pumpkinhead",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Hobbs 'Virgil Pumkin'",
+   "type": "Pumpkin ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Toppling Goliath 'Citrus Sue'",
+   "type": "Blonde ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Narragansett 'Fresh Catch'",
+   "type": "Narragansett Fresh Catch",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 6.0
+  },
+  {
+   "name": "Exhibit A 'Everyday Lager'",
+   "type": "Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 5.5
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 5.5
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.25
+  },
+  {
+   "name": "Vodoo Ranger 'Sweet Ride'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Hobbs Brewing 'Hi Jack'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Hobbs 'Hold My Juice Box'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Zero Gravity '2 Goose Juice'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Little Willow 'Willy Goat'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 10.0
+  },
+  {
+   "name": "Exhibit A 'The Cats Meow'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Timberyard 'Lazy Lightning'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 9.5
+  },
+  {
+   "name": "Elysian 'Space Dust'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "BBC 'Steel Rail Pale Ale'",
+   "type": "Pale ale",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Lawsons 'Little Sip'",
+   "type": "IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 7.5
+  },
+  {
+   "name": "3 Floyds 'Gumball Head'",
+   "type": "Wheat ale",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 12,
+   "price": 7.5
+  },
+  {
+   "name": "Blue Moon 'Belgian White'",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "St. Bernardus 'Abbot 12'",
+   "type": "Belgian quad",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 12.0
+  },
+  {
+   "name": "Paulaner Hefe",
+   "type": "Paulaner Hefeweizen",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.75
+  },
+  {
+   "name": "Founders 'Iced Lattee KBS'",
+   "type": "Stout",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 10.5
+  },
+  {
+   "name": "Lawsons 'Irish Nitro Stout'",
+   "type": "Stout",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "Guinness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": null,
+   "oz": 20,
+   "price": 9.5
+  },
+  {
+   "name": "Stormalong 'Red Skies at Night'",
+   "type": "Hard cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Downeast 'Original'",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Downeast 'Pumpkin'",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "can",
+   "oz": 12,
+   "price": 8.0
+  },
+  {
+   "name": "Angry Orchard 'Crisp Apple'",
+   "type": "Angry Orchard",
+   "kind": "other",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Timberyard 'Blueberry Honey'",
+   "type": "Fruit beer",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 9.5
+  },
+  {
+   "name": "3 Floyds 'Center Square' (Peach Sour)",
+   "type": "Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 8.5
+  },
+  {
+   "name": "Toppling Goliath 'Dragon Fandango'",
+   "type": "Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": 12,
+   "price": 12.0
+  },
+  {
+   "name": "Vanished Valley 'Fernando'",
+   "type": "Sour",
+   "kind": "beer",
+   "serve": null,
+   "oz": 16,
+   "price": 9.0
+  },
+  {
+   "name": "High Noon Black Cherry",
+   "type": "High Noon",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Suncruiser Iced Tea",
+   "type": "Sun Cruiser",
+   "kind": "other",
+   "serve": null,
+   "oz": null,
+   "price": 8.5
+  },
+  {
+   "name": "Montucky 'Cold Snacks'",
+   "type": "Montucky Cold Snacks",
+   "kind": "beer",
+   "serve": "can",
+   "oz": 16,
+   "price": 5.95
+  },
+  {
+   "name": "Narragansett",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.95
+  },
+  {
+   "name": "Mich Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 5.25
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 6.5
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": null,
+   "oz": null,
+   "price": 7.5
+  }
+ ],
+ "sources": [
+  "https://www.avenuebar.com/menu/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}

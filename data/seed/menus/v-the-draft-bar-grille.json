@@ -1,0 +1,307 @@
+{
+ "venueId": "v-the-draft-bar-grille",
+ "items": [
+  {
+   "name": "Mistletoe Mule",
+   "type": "Mule",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Grinch Punch",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "White Christmas Margarita",
+   "type": "Margarita",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 12.0
+  },
+  {
+   "name": "Holiday Cookie Martini",
+   "type": "House cocktail",
+   "kind": "mixed",
+   "serve": "cocktail",
+   "oz": null,
+   "price": 15.0
+  },
+  {
+   "name": "Blue Moon",
+   "type": "Blue Moon",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Sam Adams Seasonal",
+   "type": "Sam Adams Seasonal",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Goose IPA",
+   "type": "Goose Island IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Stella Artois",
+   "type": "Stella Artois",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 4.5
+  },
+  {
+   "name": "Wormtown IPA",
+   "type": "Wormtown IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Harpoon IPA",
+   "type": "Harpoon IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Guiness",
+   "type": "Guinness",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 9.0
+  },
+  {
+   "name": "Left Hand Milk Stout",
+   "type": "Left Hand Milk Stout",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Shipyard Monkey Fist",
+   "type": "Shipyard Monkey Fist",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.25
+  },
+  {
+   "name": "Abita Purple Haze",
+   "type": "Abita Purple Haze",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.25
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 2.75
+  },
+  {
+   "name": "Sam Adams Rebel IPA",
+   "type": "Sam Adams Rebel IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.25
+  },
+  {
+   "name": "Goose Island IPA",
+   "type": "Goose Island IPA",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.25
+  },
+  {
+   "name": "Shock Top",
+   "type": "Shock Top",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.25
+  },
+  {
+   "name": "Yuengling Lager",
+   "type": "Yuengling Lager",
+   "kind": "beer",
+   "serve": "draft",
+   "oz": null,
+   "price": 5.25
+  },
+  {
+   "name": "Downeast Cider",
+   "type": "Downeast Cider",
+   "kind": "other",
+   "serve": "draft",
+   "oz": null,
+   "price": 7.0
+  },
+  {
+   "name": "Amstel Light",
+   "type": "Amstel Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Bards",
+   "type": "Bards",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Budweiser",
+   "type": "Budweiser",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Bud Light",
+   "type": "Bud Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Corona",
+   "type": "Corona Extra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Coors Light",
+   "type": "Coors Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Heineken",
+   "type": "Heineken",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Magic Hat #9",
+   "type": "Magic Hat #9",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Heineken Light",
+   "type": "Heineken Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 5.0
+  },
+  {
+   "name": "Mich Ultra",
+   "type": "Michelob Ultra",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Miller High Life",
+   "type": "Miller High Life",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.0
+  },
+  {
+   "name": "Miller Lite",
+   "type": "Miller Lite",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Narragansett Lager",
+   "type": "Narragansett Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 4.0
+  },
+  {
+   "name": "Sam Adams Lager",
+   "type": "Sam Adams Boston Lager",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Sam Adams Light",
+   "type": "Sam Adams Light",
+   "kind": "beer",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  },
+  {
+   "name": "Twisted Tea Half & Half",
+   "type": "Twisted Tea",
+   "kind": "other",
+   "serve": "bottle",
+   "oz": null,
+   "price": 6.0
+  }
+ ],
+ "sources": [
+  "https://thedraftbarandgrille.com/"
+ ],
+ "sourceDate": null,
+ "by": null,
+ "at": "2026-10-05T00:00:00.000Z"
+}
