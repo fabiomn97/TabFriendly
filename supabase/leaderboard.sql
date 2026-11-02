@@ -80,7 +80,8 @@ begin
   if char_length(n) < 2 or char_length(n) > 24 or n !~ '^[A-Za-z0-9 ._''-]+$' then
     raise exception 'bad_name' using errcode = 'P0001', hint = '2-24 letters, numbers, spaces, . _ - or ''';
   end if;
-  if exists (select 1 from profiles where lower(display_name) = lower(n) and user_id <> auth.uid()) then
+  if exists (select 1 from profiles where lower(display_name) = lower(n) and user_id <> auth.uid())
+     or exists (select 1 from tf_sample_scores where lower(tf_sample_scores.name) = lower(n)) then
     raise exception 'name_taken' using errcode = 'P0001';
   end if;
   insert into profiles (user_id, display_name) values (auth.uid(), n)
@@ -268,6 +269,14 @@ alter table public.tf_ledger enable row level security;
 alter table public.tf_subs enable row level security;
 alter table public.tf_trust enable row level security;
 alter table public.tf_prices enable row level security;
+
+-- Sample players: placeholder rows merged into the boards (tagged "sample" in the app) so they don't look empty
+-- early on. Not real accounts, never bar mayors, no effect on prices or anyone's points. supabase/sample_leaderboard.sql
+-- fills it; `delete from public.tf_sample_scores where true;` clears it.
+create table if not exists public.tf_sample_scores (
+  name text not null, area text not null, week numeric not null default 0, month numeric not null default 0,
+  all_time numeric not null default 0, primary key (name, area));
+alter table public.tf_sample_scores enable row level security;
 
 -- ---------- the scoring ----------
 create or replace function public.tf_recompute() returns void
@@ -516,21 +525,28 @@ create or replace function public.tf_since(period text) returns timestamptz lang
 
 -- ---------- what the page reads ----------
 -- The board: top 50 for a period ('week' | 'month' | 'all') and optionally one neighborhood, plus your own row.
+-- (It gained a "sample" column, so the old one is dropped first: CREATE OR REPLACE can't change a result type.)
+drop function if exists public.tf_leaderboard(text, text);
 create or replace function public.tf_leaderboard(period text default 'week', area text default null)
-returns table (rank integer, name text, points numeric, me boolean)
+returns table (rank integer, name text, points numeric, me boolean, sample boolean)
 language plpgsql security definer set search_path = public as $$
 begin
   perform tf_refresh();
   return query
     with tot as (
-      select l.user_id, sum(l.points) as pts from tf_ledger l
+      select p.display_name as nm, sum(l.points) as pts, l.user_id = auth.uid() as mine, false as smp
+      from tf_ledger l join profiles p on p.user_id = l.user_id join auth.users u on u.id = l.user_id
       where not l.held and l.at >= tf_since(period) and (tf_leaderboard.area is null or l.area = tf_leaderboard.area)
-      group by l.user_id),
+        and not coalesce(u.is_anonymous, true)
+      group by p.display_name, l.user_id
+      union all
+      select sm.name, sum(case period when 'week' then sm.week when 'month' then sm.month else sm.all_time end), false, true
+      from tf_sample_scores sm where tf_leaderboard.area is null or sm.area = tf_leaderboard.area
+      group by sm.name),
     ranked as (
-      select (rank() over (order by t.pts desc))::integer as rk, p.display_name, round(t.pts, 1) as pts, t.user_id = auth.uid() as mine
-      from tot t join profiles p on p.user_id = t.user_id join auth.users u on u.id = t.user_id
-      where not coalesce(u.is_anonymous, true) and t.pts > 0)
-    select r.rk, r.display_name, r.pts, r.mine from ranked r where r.rk <= 50 or r.mine order by r.rk, r.display_name;
+      select (rank() over (order by t.pts desc))::integer as rk, t.nm, round(t.pts, 1) as pts, t.mine, t.smp
+      from tot t where t.pts > 0)
+    select r.rk, r.nm, r.pts, r.mine, r.smp from ranked r where r.rk <= 50 or r.mine order by r.rk, r.nm;
 end $$;
 
 -- You: name, points per period (with any held), rank, and how your prices have fared. Trust stays hidden.

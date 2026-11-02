@@ -61,6 +61,7 @@ MOCK = """<script>
     tf_set_name: (a) => { if (/taken/i.test(a.name)) throw { code: "name_taken" }; name = a.name.trim(); return name; },
     tf_leaderboard: (a) => [["Cheap Pint Hunter", 210.5], ["Kendall Regular", 180], ["Back Bay Barfly", 151.3], ["Muddy Charles Fan", 97]]
       .filter((r, i) => !a.area || i %% 2 === 0).map(([n, p], i) => ({ rank: i + 1, name: n, points: a.period === "week" ? Math.round(p / 5) : p, me: false }))
+      .concat([{ rank: 5, name: "Tab Tracker", points: a.period === "week" ? 9 : 88.4, me: false, sample: true }])
       .concat(name ? [{ rank: 7, name, points: a.period === "week" ? 12.5 : 120.3, me: true }] : []),
     tf_mayors: () => [{ venue_id: "v-the-kenmore", name: "Kendall Regular", points: 42 }],
     tf_bounties: () => vids.slice(5, 9).map((v, i) => ({ venue_id: v, kind: i %% 2 ? "mixed" : "beer", last_at: i ? "2026-08-01T00:00:00Z" : null })),

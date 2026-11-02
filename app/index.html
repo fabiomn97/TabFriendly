@@ -270,6 +270,8 @@ details.menu summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
 .lb-row { display: grid; grid-template-columns: 2.4em 1fr auto; gap: 8px; align-items: center; padding: 8px 6px; border-bottom: 1px solid var(--line); font-size: 14px; }
 .lb-row .rk { font: 600 13px/1 var(--f-mono); color: var(--muted); text-align: right; }
 .lb-row .nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+.lb-row.smp .nm { font-weight: 500; color: var(--muted); }
+.lb-sample { margin-left: 6px; font: 600 9px/1.6 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0 6px; vertical-align: 1px; }
 .lb-row .pt { font: 600 14px/1 var(--f-mono); font-variant-numeric: tabular-nums; }
 .lb-row.me { background: color-mix(in srgb, var(--tag) 25%, transparent); border-radius: 6px; }
 .lb-bar { display: grid; gap: 8px; margin-bottom: 8px; }
@@ -1973,7 +1975,8 @@ details.hist summary { cursor: pointer; font-weight: 600; font-size: 14px; paddi
       const list = err ? `<p class="notice">Couldn't load the leaderboard. Try again in a minute.</p>`
         : !rows ? `<p class="list-note">Loading…</p>`
         : !rows.length ? `<p class="list-note">No points yet ${lb.period === "all" ? "" : lb.period === "week" ? "this week" : "this month"}${lb.area ? " in " + esc(lb.area) : ""}. Post a price to get on the board.</p>`
-        : rows.map((r) => `<div class="lb-row${r.me ? " me" : ""}"><span class="rk">${r.rank}</span><span class="nm">${esc(r.name)}${r.me ? " (you)" : ""}</span><span class="pt">${esc(String(r.points))}</span></div>`).join("");
+        : rows.map((r) => `<div class="lb-row${r.me ? " me" : ""}${r.sample ? " smp" : ""}"><span class="rk">${r.rank}</span><span class="nm">${esc(r.name)}${r.me ? " (you)" : ""}${r.sample ? '<span class="lb-sample">sample</span>' : ""}</span><span class="pt">${esc(String(r.points))}</span></div>`).join("")
+          + (rows.some((r) => r.sample) ? `<p class="fine">Players tagged "sample" are placeholders to show how the board works. They aren't real people.</p>` : "");
       const bl = (S.bountyList || []).slice(0, 8).map((b) => `<button class="bnty" type="button" data-bv="${esc(b.venue_id)}"><span>${esc(S.venues.get(b.venue_id)?.name || b.venue_id)}</span><span class="bounty-chip">3x</span>`
         + `<small>${b.kind === "beer" ? "Cheapest beer" : "Cheapest mixed drink"}: ${b.last_at ? "last price " + esc(fmtDay(b.last_at)) : "no price yet"}</small></button>`).join("");
       form.innerHTML = `<h2>Leaderboard</h2>
